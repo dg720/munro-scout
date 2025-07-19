@@ -41,7 +41,7 @@ export default function App() {
   const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('asc');
   const [selectedMunro, setSelectedMunro] = useState<Munro | null>(null);
   const { isOpen, onOpen, onClose } = useDisclosure();
-  const [activeTab, setActiveTab] = useState<'dashboard' | 'chat'>('dashboard');
+  const [activeTab, setActiveTab] = useState<'dashboard' | 'chat' | 'details'>('dashboard');
   const [messages, setMessages] = useState<{ role: 'user' | 'assistant'; content: string }[]>([]);
   const [input, setInput] = useState('');
 
@@ -107,6 +107,136 @@ export default function App() {
     </Box>
   );
 
+  const DetailsTab = ({ initialMunro }: { initialMunro: Munro | null }) => {
+  const [query, setQuery] = useState('');
+  const [options, setOptions] = useState<Munro[]>([]);
+  const [selected, setSelected] = useState<Munro | null>(null);
+  const [showDropdown, setShowDropdown] = useState(false);
+
+  useEffect(() => {
+    if (initialMunro) {
+      setSelected(initialMunro);
+      setQuery(initialMunro.name);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  }, [initialMunro]);
+
+  useEffect(() => {
+    if (!query.trim()) {
+      setOptions([]);
+      return;
+    }
+
+    axios
+      .get(`http://localhost:5000/api/munros?search=${encodeURIComponent(query)}`)
+      .then((res) => {
+        const filtered = res.data.filter((m: Munro) =>
+          m.name.toLowerCase().includes(query.toLowerCase())
+        );
+        setOptions(filtered);
+        setShowDropdown(false);
+      })
+      .catch((err) => console.error(err));
+  }, [query]);
+
+  const handleSelect = (munro: Munro) => {
+    setSelected(munro);
+    setQuery(munro.name);
+    setOptions([]);
+    setShowDropdown(false);
+  };
+
+  return (
+    <Box mt={6} position="relative">
+      <Heading size="md" mb={4}>Explore a Munro</Heading>
+      <Box mb={4} maxW="400px">
+        <Input
+          placeholder="Start typing a Munro name..."
+          value={query}
+          onChange={(e) => {
+            setQuery(e.target.value);
+            setSelected(null);
+          }}
+          onFocus={() => setShowDropdown(true)}
+        />
+        {showDropdown && options.length > 0 && (
+          <Box
+            border="1px solid #e2e8f0"
+            borderTop="none"
+            borderRadius="md"
+            mt={-1}
+            maxH="200px"
+            overflowY="auto"
+            position="absolute"
+            bg="white"
+            zIndex={10}
+            width="100%"
+            maxW="400px"
+          >
+            {options.map((m) => (
+              <Box
+                key={m.id}
+                px={4}
+                py={2}
+                _hover={{ bg: 'blue.50', cursor: 'pointer' }}
+                onClick={() => handleSelect(m)}
+              >
+                {m.name}
+              </Box>
+            ))}
+          </Box>
+        )}
+      </Box>
+
+      {selected && (
+        <Box
+          bg="white"
+          border="1px solid"
+          borderColor="gray.200"
+          borderRadius="2xl"
+          boxShadow="lg"
+          overflow="hidden"
+        >
+          <Box bg="blue.600" color="white" px={6} py={4}>
+            <Heading size="md">{selected.name}</Heading>
+          </Box>
+
+          <Box p={6}>
+            <Text fontSize="sm" mb={4} whiteSpace="pre-wrap" color="gray.700">
+              {selected.summary}
+            </Text>
+
+            <SimpleGrid columns={{ base: 1, md: 2 }} spacing={5}>
+              <Flex align="center" gap={3}>
+                <Box as="span" fontSize="xl" color="blue.500"><i className="fas fa-road" /></Box>
+                <Text><strong>Distance:</strong> {selected.distance} km</Text>
+              </Flex>
+              <Flex align="center" gap={3}>
+                <Box as="span" fontSize="xl" color="green.500"><i className="fas fa-clock" /></Box>
+                <Text><strong>Time:</strong> {selected.time} hrs</Text>
+              </Flex>
+              <Flex align="center" gap={3}>
+                <Box as="span" fontSize="xl" color="purple.500"><i className="fas fa-mountain" /></Box>
+                <Text><strong>Grade:</strong> {selected.grade}</Text>
+              </Flex>
+              <Flex align="center" gap={3}>
+                <Box as="span" fontSize="xl" color="brown.600"><i className="fas fa-water" /></Box>
+                <Text><strong>Bog Factor:</strong> {selected.bog}/10</Text>
+              </Flex>
+              <Flex align="center" gap={3} gridColumn={{ base: 1, md: 2 }}>
+                <Box as="span" fontSize="xl" color="gray.600"><i className="fas fa-map-marker-alt" /></Box>
+                <Text><strong>Start Point:</strong> {selected.start}</Text>
+              </Flex>
+            </SimpleGrid>
+          </Box>
+        </Box>
+      )}
+    </Box>
+  );
+};
+
+
+  
   return (
     <Box minH="100vh" bgGradient="linear(to-br, gray.50, white)">
       <Box bg="blue.700" color="white" py={6} px={6} shadow="md">
@@ -115,21 +245,28 @@ export default function App() {
           Discover and analyze Munro mountains in Scotland based on distance, difficulty, and more.
         </Text>
         <Flex mt={4} gap={4}>
-          <Button
-            variant={activeTab === 'dashboard' ? 'solid' : 'outline'}
-            onClick={() => setActiveTab('dashboard')}
-            colorScheme="whiteAlpha"
-          >
-            Dashboard
-          </Button>
-          <Button
-            variant={activeTab === 'chat' ? 'solid' : 'outline'}
-            onClick={() => setActiveTab('chat')}
-            colorScheme="whiteAlpha"
-          >
-            Chat Assistant
-          </Button>
-        </Flex>
+        <Button
+          variant={activeTab === 'dashboard' ? 'solid' : 'outline'}
+          onClick={() => setActiveTab('dashboard')}
+          colorScheme="whiteAlpha"
+        >
+          Dashboard
+        </Button>
+        <Button
+          variant={activeTab === 'chat' ? 'solid' : 'outline'}
+          onClick={() => setActiveTab('chat')}
+          colorScheme="whiteAlpha"
+        >
+          Chat Assistant
+        </Button>
+        <Button
+          variant={activeTab === 'details' ? 'solid' : 'outline'}
+          onClick={() => setActiveTab('details')}
+          colorScheme="whiteAlpha"
+        >
+          Munro Details
+        </Button>
+      </Flex>
       </Box>
 
       <Container maxW="6xl" py={10}>
@@ -225,10 +362,11 @@ export default function App() {
               </TableContainer>
             </Box>
           </>
-        ) : (
+        ) : activeTab === 'chat' ? (
           <ChatTab />
+        ) : (
+          <DetailsTab initialMunro={selectedMunro} />
         )}
-
         <Text mt={12} textAlign="center" fontSize="sm" color="gray.400">
           Built with Flask, React & Chakra UI — demo project by Dhruv
         </Text>
@@ -239,11 +377,48 @@ export default function App() {
             <ModalHeader>{selectedMunro?.name}</ModalHeader>
             <ModalCloseButton />
             <ModalBody>
-              <Text fontSize="sm" whiteSpace="pre-wrap">{selectedMunro?.summary}</Text>
+              <Text mb={4} fontSize="sm" whiteSpace="pre-wrap">{selectedMunro?.summary}</Text>
+              
+              <SimpleGrid columns={2} spacing={4}>
+                <Flex align="center" gap={3}>
+                  <Box as="span" fontSize="lg" color="blue.500"><i className="fas fa-road" /></Box>
+                  <Text><strong>Distance:</strong> {selectedMunro?.distance} km</Text>
+                </Flex>
+                <Flex align="center" gap={3}>
+                  <Box as="span" fontSize="lg" color="green.500"><i className="fas fa-clock" /></Box>
+                  <Text><strong>Time:</strong> {selectedMunro?.time} hrs</Text>
+                </Flex>
+                <Flex align="center" gap={3}>
+                  <Box as="span" fontSize="lg" color="purple.500"><i className="fas fa-mountain" /></Box>
+                  <Text><strong>Grade:</strong> {selectedMunro?.grade}</Text>
+                </Flex>
+                <Flex align="center" gap={3}>
+                  <Box as="span" fontSize="lg" color="brown.600"><i className="fas fa-water" /></Box>
+                  <Text><strong>Bog:</strong> {selectedMunro?.bog}/10</Text>
+                </Flex>
+                <Flex align="center" gap={3} gridColumn="span 2">
+                  <Box as="span" fontSize="lg" color="gray.600"><i className="fas fa-map-marker-alt" /></Box>
+                  <Text><strong>Start Point:</strong> {selectedMunro?.start}</Text>
+                </Flex>
+              </SimpleGrid>
             </ModalBody>
             <ModalFooter>
-              <Button onClick={onClose}>Close</Button>
+              <Flex gap={3}>
+                <Button variant="ghost" onClick={onClose}>
+                  Close
+                </Button>
+                <Button
+                  colorScheme="blue"
+                  onClick={() => {
+                    setActiveTab('details');
+                    onClose();
+                  }}
+                >
+                  View in Details Tab
+                </Button>
+              </Flex>
             </ModalFooter>
+
           </ModalContent>
         </Modal>
       </Container>
