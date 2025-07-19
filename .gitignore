@@ -1,0 +1,38 @@
+# ====================
+# Python / Flask
+# ====================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.venv/
+.env
+db.sqlite-journal
+instance/
+*.sqlite3
+
+# ====================
+# Node / React
+# ====================
+node_modules/
+build/
+dist/
+.npm/
+.cache/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ====================
+# OS / Editor files
+# ====================
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+*.swo
+.vscode/
+.idea/
+*.bak
