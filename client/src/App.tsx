@@ -19,6 +19,11 @@ interface Munro {
   grade: number;
   bog: number;
   start: string;
+  gpx_file?: string;       // optional extras shown in Details tab
+  url?: string;
+  route_url?: string;
+  normalized_name?: string;
+  [key: string]: any;      // tolerate any future DB fields
 }
 
 const CustomTooltip = ({ active, payload }: any) => {
@@ -56,8 +61,12 @@ export default function App() {
         let data = res.data;
         if (sortKey) {
           data = [...data].sort((a, b) => {
-            const aVal = sortKey === 'name' ? a.name.localeCompare(b.name, 'en', { sensitivity: 'base' }) : a[sortKey];
-            const bVal = sortKey === 'name' ? b.name.localeCompare(a.name, 'en', { sensitivity: 'base' }) : b[sortKey];
+            if (sortKey === 'name') {
+              const cmp = a.name.localeCompare(b.name, 'en', { sensitivity: 'base' });
+              return sortOrder === 'asc' ? cmp : -cmp;
+            }
+            const aVal = a[sortKey] as number;
+            const bVal = b[sortKey] as number;
             return sortOrder === 'asc' ? aVal - bVal : bVal - aVal;
           });
         }
@@ -107,136 +116,254 @@ export default function App() {
     </Box>
   );
 
+  // ==== UPDATED DETAILS TAB (properly scoped & embellished) ====
   const DetailsTab = ({ initialMunro }: { initialMunro: Munro | null }) => {
-  const [query, setQuery] = useState('');
-  const [options, setOptions] = useState<Munro[]>([]);
-  const [selected, setSelected] = useState<Munro | null>(null);
-  const [showDropdown, setShowDropdown] = useState(false);
+    const [query, setQuery] = useState('');
+    const [options, setOptions] = useState<Munro[]>([]);
+    const [selected, setSelected] = useState<Munro | null>(null);
+    const [showDropdown, setShowDropdown] = useState(false);
 
-  useEffect(() => {
-    if (initialMunro) {
-      setSelected(initialMunro);
-      setQuery(initialMunro.name);
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
-  }, [initialMunro]);
+    useEffect(() => {
+      if (initialMunro) {
+        setSelected(initialMunro);
+        setQuery(initialMunro.name);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+    }, [initialMunro]);
 
-  useEffect(() => {
-    if (!query.trim()) {
+    useEffect(() => {
+      if (!query.trim()) {
+        setOptions([]);
+        return;
+      }
+      axios
+        .get(`http://localhost:5000/api/munros?search=${encodeURIComponent(query)}`)
+        .then((res) => {
+          const filtered = (res.data as Munro[]).filter((m: Munro) =>
+            m.name.toLowerCase().includes(query.toLowerCase())
+          );
+          setOptions(filtered);
+          setShowDropdown(true);
+        })
+        .catch((err) => console.error(err));
+    }, [query]);
+
+    const handleSelect = (munro: Munro) => {
+      setSelected(munro);
+      setQuery(munro.name);
       setOptions([]);
-      return;
-    }
+      setShowDropdown(false);
+    };
 
-    axios
-      .get(`http://localhost:5000/api/munros?search=${encodeURIComponent(query)}`)
-      .then((res) => {
-        const filtered = res.data.filter((m: Munro) =>
-          m.name.toLowerCase().includes(query.toLowerCase())
-        );
-        setOptions(filtered);
-        setShowDropdown(false);
-      })
-      .catch((err) => console.error(err));
-  }, [query]);
+    const openInNew = (url: string) => window.open(url, '_blank', 'noopener,noreferrer');
+    const mapsSearchUrl = (text: string) =>
+      `https://www.google.com/maps/search/${encodeURIComponent(text || '')}`;
 
-  const handleSelect = (munro: Munro) => {
-    setSelected(munro);
-    setQuery(munro.name);
-    setOptions([]);
-    setShowDropdown(false);
-  };
+    // Fields we already render explicitly
+    const CORE_FIELDS = new Set([
+      'id','name','summary','distance','time','grade','bog','start','gpx_file','url','route_url'
+    ]);
+    const prettyLabel = (k: string) =>
+      k.replace(/_/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
+    
+    // ✅ Safe GPX string (null if missing/undefined)
+    const gpx =
+      selected && typeof selected.gpx_file === 'string' && selected.gpx_file.trim() !== ''
+        ? selected.gpx_file
+        : null;
 
-  return (
-    <Box mt={6} position="relative">
-      <Heading size="md" mb={4}>Explore a Munro</Heading>
-      <Box mb={4} maxW="400px">
-        <Input
-          placeholder="Start typing a Munro name..."
-          value={query}
-          onChange={(e) => {
-            setQuery(e.target.value);
-            setSelected(null);
-          }}
-          onFocus={() => setShowDropdown(true)}
-        />
-        {showDropdown && options.length > 0 && (
+    return (
+      <Box mt={6} position="relative">
+        <Heading size="md" mb={4}>Explore a Munro</Heading>
+        <Box mb={4} maxW="520px" position="relative">
+          <Input
+            placeholder="Start typing a Munro name..."
+            value={query}
+            onChange={(e) => {
+              setQuery(e.target.value);
+              if (!e.target.value) setSelected(null);
+            }}
+            onFocus={() => setShowDropdown(true)}
+          />
+          {showDropdown && options.length > 0 && (
+            <Box
+              border="1px solid #e2e8f0"
+              borderTop="none"
+              borderRadius="md"
+              mt={-1}
+              maxH="240px"
+              overflowY="auto"
+              position="absolute"
+              bg="white"
+              zIndex={10}
+              width="100%"
+              maxW="520px"
+            >
+              {options.map((m) => (
+                <Box
+                  key={m.id}
+                  px={4}
+                  py={2}
+                  _hover={{ bg: 'blue.50', cursor: 'pointer' }}
+                  onClick={() => handleSelect(m)}
+                >
+                  {m.name}
+                </Box>
+              ))}
+            </Box>
+          )}
+        </Box>
+
+        {selected && (
           <Box
-            border="1px solid #e2e8f0"
-            borderTop="none"
-            borderRadius="md"
-            mt={-1}
-            maxH="200px"
-            overflowY="auto"
-            position="absolute"
             bg="white"
-            zIndex={10}
-            width="100%"
-            maxW="400px"
+            border="1px solid"
+            borderColor="gray.200"
+            borderRadius="2xl"
+            boxShadow="lg"
+            overflow="hidden"
           >
-            {options.map((m) => (
-              <Box
-                key={m.id}
-                px={4}
-                py={2}
-                _hover={{ bg: 'blue.50', cursor: 'pointer' }}
-                onClick={() => handleSelect(m)}
-              >
-                {m.name}
-              </Box>
-            ))}
+            {/* Header */}
+            <Box bg="blue.600" color="white" px={6} py={4}>
+              <Heading size="md">{selected.name}</Heading>
+              <Text mt={1} color="blue.100">
+                🧭 Plan your day with distance, time & terrain at a glance
+              </Text>
+            </Box>
+
+            {/* Body */}
+            <Box p={6}>
+              {/* Quick facts */}
+              <SimpleGrid columns={{ base: 1, md: 4 }} spacing={4} mb={6}>
+                <Flex align="center" gap={2} bg="blue.50" p={3} rounded="lg" border="1px solid" borderColor="blue.100">
+                  <span>🥾</span>
+                  <Text><strong>Distance:</strong> {selected.distance ?? '—'} km</Text>
+                </Flex>
+                <Flex align="center" gap={2} bg="green.50" p={3} rounded="lg" border="1px solid" borderColor="green.100">
+                  <span>⏱️</span>
+                  <Text><strong>Time:</strong> {selected.time ?? '—'} hrs</Text>
+                </Flex>
+                <Flex align="center" gap={2} bg="purple.50" p={3} rounded="lg" border="1px solid" borderColor="purple.100">
+                  <span>⛰️</span>
+                  <Text><strong>Grade:</strong> {selected.grade ?? '—'}</Text>
+                </Flex>
+                <Flex align="center" gap={2} bg="orange.50" p={3} rounded="lg" border="1px solid" borderColor="orange.100">
+                  <span>🪵</span>
+                  <Text><strong>Bog:</strong> {selected.bog ?? '—'}/10</Text>
+                </Flex>
+              </SimpleGrid>
+
+              {/* Overview */}
+              {selected.summary && (
+                <>
+                  <Heading size="sm" mb={2}>Overview</Heading>
+                  <Text fontSize="sm" mb={6} whiteSpace="pre-wrap" color="gray.700">
+                    {selected.summary}
+                  </Text>
+                </>
+              )}
+
+              {/* Start / Access */}
+              {selected.start && (
+                <>
+                  <Heading size="sm" mb={2}>Start / Access</Heading>
+                  <Box
+                    bg="gray.50"
+                    border="1px solid"
+                    borderColor="gray.200"
+                    p={4}
+                    rounded="lg"
+                    mb={4}
+                  >
+                    <Flex align="flex-start" gap={3}>
+                      <span>📍</span>
+                      <Text whiteSpace="pre-wrap" color="gray.700">{selected.start}</Text>
+                    </Flex>
+                  </Box>
+                  <Flex gap={3} mb={6} wrap="wrap">
+                    <Button
+                      size="sm"
+                      variant="outline"
+                      onClick={() => openInNew(mapsSearchUrl(`${selected.name} start`))}
+                    >
+                      Open in Google Maps
+                    </Button>
+                    <Button
+                      size="sm"
+                      variant="outline"
+                      onClick={() => navigator.clipboard.writeText(selected.start)}
+                    >
+                      Copy Start Info
+                    </Button>
+                  </Flex>
+                </>
+              )}
+
+              {/* Resources */}
+              {(gpx || selected?.url || selected?.route_url) && (
+                <>
+                  <Heading size="sm" mb={2}>Resources</Heading>
+                  <Flex gap={3} wrap="wrap" mb={6}>
+                    {gpx && (
+                      <Button
+                        size="sm"
+                        colorScheme="blue"
+                        variant="solid"
+                        onClick={() => openInNew(gpx)} // relative or absolute works
+                      >
+                        📥 Download GPX
+                      </Button>
+                    )}
+                    {selected?.url && (
+                      <Button size="sm" variant="outline" onClick={() => openInNew(selected.url!)}>
+                        🔗 Route URL
+                      </Button>
+                    )}
+                    {selected?.route_url && !selected?.url && (
+                      <Button size="sm" variant="outline" onClick={() => openInNew(selected.route_url!)}>
+                        🔗 Route URL
+                      </Button>
+                    )}
+                  </Flex>
+                </>
+              )}
+
+              {/* Additional Details: auto-render any extra DB fields */}
+              {(() => {
+                const entries = Object.entries(selected).filter(
+                  ([k, v]) => !CORE_FIELDS.has(k) && v !== null && v !== undefined && String(v).trim() !== ''
+                );
+                if (!entries.length) return null;
+                return (
+                  <>
+                    <Heading size="sm" mb={2}>Additional Details</Heading>
+                    <SimpleGrid columns={{ base: 1, md: 2 }} spacing={3}>
+                      {entries.map(([k, v]) => (
+                        <Box
+                          key={k}
+                          p={3}
+                          border="1px solid"
+                          borderColor="gray.200"
+                          rounded="md"
+                          bg="white"
+                        >
+                          <Text fontSize="xs" color="gray.500">{prettyLabel(k)}</Text>
+                          <Text fontWeight="medium" whiteSpace="pre-wrap">
+                            {typeof v === 'string' ? v : JSON.stringify(v)}
+                          </Text>
+                        </Box>
+                      ))}
+                    </SimpleGrid>
+                  </>
+                );
+              })()}
+            </Box>
           </Box>
         )}
       </Box>
+    );
+  }; // <<< end DetailsTab
 
-      {selected && (
-        <Box
-          bg="white"
-          border="1px solid"
-          borderColor="gray.200"
-          borderRadius="2xl"
-          boxShadow="lg"
-          overflow="hidden"
-        >
-          <Box bg="blue.600" color="white" px={6} py={4}>
-            <Heading size="md">{selected.name}</Heading>
-          </Box>
-
-          <Box p={6}>
-            <Text fontSize="sm" mb={4} whiteSpace="pre-wrap" color="gray.700">
-              {selected.summary}
-            </Text>
-
-            <SimpleGrid columns={{ base: 1, md: 2 }} spacing={5}>
-              <Flex align="center" gap={3}>
-                <Box as="span" fontSize="xl" color="blue.500"><i className="fas fa-road" /></Box>
-                <Text><strong>Distance:</strong> {selected.distance} km</Text>
-              </Flex>
-              <Flex align="center" gap={3}>
-                <Box as="span" fontSize="xl" color="green.500"><i className="fas fa-clock" /></Box>
-                <Text><strong>Time:</strong> {selected.time} hrs</Text>
-              </Flex>
-              <Flex align="center" gap={3}>
-                <Box as="span" fontSize="xl" color="purple.500"><i className="fas fa-mountain" /></Box>
-                <Text><strong>Grade:</strong> {selected.grade}</Text>
-              </Flex>
-              <Flex align="center" gap={3}>
-                <Box as="span" fontSize="xl" color="brown.600"><i className="fas fa-water" /></Box>
-                <Text><strong>Bog Factor:</strong> {selected.bog}/10</Text>
-              </Flex>
-              <Flex align="center" gap={3} gridColumn={{ base: 1, md: 2 }}>
-                <Box as="span" fontSize="xl" color="gray.600"><i className="fas fa-map-marker-alt" /></Box>
-                <Text><strong>Start Point:</strong> {selected.start}</Text>
-              </Flex>
-            </SimpleGrid>
-          </Box>
-        </Box>
-      )}
-    </Box>
-  );
-};
-
-
-  
   return (
     <Box minH="100vh" bgGradient="linear(to-br, gray.50, white)">
       <Box bg="blue.700" color="white" py={6} px={6} shadow="md">
@@ -245,28 +372,28 @@ export default function App() {
           Discover and analyze Munro mountains in Scotland based on distance, difficulty, and more.
         </Text>
         <Flex mt={4} gap={4}>
-        <Button
-          variant={activeTab === 'dashboard' ? 'solid' : 'outline'}
-          onClick={() => setActiveTab('dashboard')}
-          colorScheme="whiteAlpha"
-        >
-          Dashboard
-        </Button>
-        <Button
-          variant={activeTab === 'chat' ? 'solid' : 'outline'}
-          onClick={() => setActiveTab('chat')}
-          colorScheme="whiteAlpha"
-        >
-          Chat Assistant
-        </Button>
-        <Button
-          variant={activeTab === 'details' ? 'solid' : 'outline'}
-          onClick={() => setActiveTab('details')}
-          colorScheme="whiteAlpha"
-        >
-          Munro Details
-        </Button>
-      </Flex>
+          <Button
+            variant={activeTab === 'dashboard' ? 'solid' : 'outline'}
+            onClick={() => setActiveTab('dashboard')}
+            colorScheme="whiteAlpha"
+          >
+            Dashboard
+          </Button>
+          <Button
+            variant={activeTab === 'chat' ? 'solid' : 'outline'}
+            onClick={() => setActiveTab('chat')}
+            colorScheme="whiteAlpha"
+          >
+            Chat Assistant
+          </Button>
+          <Button
+            variant={activeTab === 'details' ? 'solid' : 'outline'}
+            onClick={() => setActiveTab('details')}
+            colorScheme="whiteAlpha"
+          >
+            Munro Details
+          </Button>
+        </Flex>
       </Box>
 
       <Container maxW="6xl" py={10}>
