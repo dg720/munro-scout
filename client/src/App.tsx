@@ -1,26 +1,32 @@
-// ==================== IMPORTS (must be first) ====================
+import "leaflet/dist/leaflet.css"; // required for proper map rendering
 import { MapContainer, TileLayer, useMap } from "react-leaflet";
-import { useEffect, useState } from "react";
-import L from "leaflet";
-import proj4 from "proj4";
-import "proj4leaflet";
-import "leaflet/dist/leaflet.css";
-import type { LatLngTuple, LatLngBoundsExpression } from "leaflet";
+import { useEffect, useMemo, useState } from "react";
+import L, { LatLngTuple } from "leaflet";
 import axios from "axios";
 import {
   Box, Container, Heading, Text, Input, Table, Thead, Tbody, Tr, Th, Td,
   TableContainer, Select, SimpleGrid, Stat, StatLabel, StatNumber, Flex,
   Divider, useDisclosure, Modal, ModalOverlay, ModalContent, ModalHeader,
-  ModalCloseButton, ModalBody, ModalFooter, Button
+  ModalCloseButton, ModalBody, ModalFooter, Button, Alert, AlertIcon
 } from "@chakra-ui/react";
 import {
   ScatterChart, Scatter, XAxis, YAxis, CartesianGrid, Tooltip as ChartTooltip, ResponsiveContainer
 } from "recharts";
 
-// Make proj4 visible for proj4leaflet in some bundlers:
-(window as any).proj4 = proj4;
+// ==================== CONFIG ======================================
 
-// ==================== TYPES ======================================
+const FALLBACK_GPX = "/a-mharconaich.gpx"; // fallback file in /public
+const DEFAULT_CENTER: LatLngTuple = [56.935, -4.242]; // Dalwhinnie-ish; GPX fit will override
+
+// Make sure default Leaflet icons resolve (works in CRA/Vite without copying images)
+L.Icon.Default.mergeOptions({
+  iconUrl: "https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png",
+  iconRetinaUrl: "https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon-2x.png",
+  shadowUrl: "https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png",
+});
+
+// ==================== TYPES =======================================
+
 interface Munro {
   id: number;
   name: string;
@@ -34,77 +40,15 @@ interface Munro {
   terrain?: string;
   public_transport?: string;
   description?: string;
-  gpx_file?: string;
+  gpx_file?: string;   // e.g. "a-mharconaich.gpx" OR "gpx_files/foo.gpx" OR "/gpx_files/foo.gpx" OR a full URL
   url?: string;
   route_url?: string;
   normalized_name?: string;
   [key: string]: any;
 }
 
-// ==================== CONSTANTS ==================================
-// Put your GPX file in /public so it's served statically:
-const STATIC_GPX = "/a-mharconaich.gpx";
+// ==================== SMALL HELPERS ===============================
 
-const OS_KEY = process.env.REACT_APP_OS_API_KEY || "YOUR_OS_API_KEY";
-const OS_LEISURE_27700 =
-  `https://api.os.uk/maps/raster/v1/zxy/Leisure_27700/{z}/{x}/{y}.png?key=${OS_KEY}`;
-
-// EPSG:27700 (BNG) tuned for OS ZXY tiling
-const crs27700 = new (L as any).Proj.CRS(
-  "EPSG:27700",
-  "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +towgs84=446.448,-125.157,542.06,0.1502,0.2470,0.8421,-20.4894 +units=m +no_defs",
-  {
-    resolutions: [
-      896, 448, 224, 112, 56, 28, 14, 7,
-      3.5, 1.75, 0.875, 0.4375, 0.21875, 0.109375
-    ],
-    bounds: L.bounds([0, 0], [700000, 1300000]),
-    transformation: new L.Transformation(1, 0, -1, 1300000)
-  }
-);
-
-// Reasonable Scotland default (Leaflet will reproject)
-const DEFAULT_CENTER: LatLngTuple = [56.8, -4.2];
-const GB_BOUNDS: LatLngBoundsExpression = [[49.9, -8.65], [60.9, 1.77]];
-
-// ==================== GPX OVERLAY COMPONENT ======================
-function GpxOverlay({ url }: { url: string }) {
-  const map = useMap();
-
-  useEffect(() => {
-    let gpxLayer: any;
-
-    // Dynamic import; suppress TS typing complaint (no @types for leaflet-gpx)
-    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-    // @ts-ignore
-    import("leaflet-gpx").then(() => {
-      gpxLayer = new (L as any).GPX(url, {
-        async: true,
-        marker_options: {
-          startIconUrl: null,
-          endIconUrl: null,
-          shadowUrl: null,
-        },
-        polyline_options: { color: "red", weight: 3 },
-      })
-        .on("loaded", (e: any) => {
-          const bounds: L.LatLngBounds = e.target.getBounds();
-          map.fitBounds(bounds, { padding: [12, 12] });
-        })
-        .addTo(map);
-    });
-
-    return () => {
-      if (gpxLayer) {
-        try { map.removeLayer(gpxLayer); } catch {}
-      }
-    };
-  }, [map, url]);
-
-  return null;
-}
-
-// ==================== UI HELPERS =================================
 const CustomTooltip = ({ active, payload }: any) => {
   if (active && payload && payload.length) {
     return (
@@ -116,7 +60,165 @@ const CustomTooltip = ({ active, payload }: any) => {
   return null;
 };
 
-// ==================== APP ========================================
+function prettyLabel(k: string) {
+  return k.replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+}
+
+function MapRefStash() {
+  const map = useMap();
+  useEffect(() => {
+    (window as any)._leaflet_map = map;
+  }, [map]);
+  return null;
+}
+
+// Normalize a GPX path/URL from the DB into a usable URL we can fetch from the client.
+// Priority: selected.gpx_file (URL or filename) -> normalized/name guess -> fallback.
+function useSelectedGpxUrl(selected: Munro | null): string {
+  return useMemo(() => {
+    if (!selected) return FALLBACK_GPX;
+
+    const raw = (selected.gpx_file || "").trim();
+
+    if (raw) {
+      // Absolute URL?
+      if (/^https?:\/\//i.test(raw)) {
+        // Only allow URLs that look like a GPX/XML file
+        if (/\.(gpx|xml)(\?|#|$)/i.test(raw)) return raw;
+        console.warn("[GPX] Absolute URL without .gpx/.xml; falling back:", raw);
+        return FALLBACK_GPX;
+      }
+
+      // Absolute path from /public
+      if (raw.startsWith("/")) {
+        // If someone stored "/gpx_files/foo.gpx", just use it verbatim.
+        if (/\.(gpx|xml)(\?|#|$)/i.test(raw)) return raw;
+        console.warn("[GPX] Absolute path without .gpx/.xml; falling back:", raw);
+        return FALLBACK_GPX;
+      }
+
+      // Relative path like "gpx_files/foo.gpx" or just "foo.gpx"
+      let fname = raw.replace(/^\.?\/*/, ""); // strip leading "./" or "/"
+      // If it already starts with "gpx_files/", don't duplicate it.
+      if (!/^gpx_files\//i.test(fname)) {
+        fname = `gpx_files/${fname}`;
+      }
+      // Ensure extension
+      if (!/\.(gpx|xml)(\?|#|$)/i.test(fname)) {
+        fname = `${fname}.gpx`;
+      }
+      return `/${fname}`;
+    }
+
+    // Otherwise guess from normalized name or name
+    const base =
+      selected.normalized_name?.trim() ||
+      selected.name.toLowerCase().replace(/[^\w]+/g, "-").replace(/(^-|-$)/g, "");
+    if (base) return `/gpx_files/${base}.gpx`;
+
+    return FALLBACK_GPX;
+  }, [selected]);
+}
+
+// =============== Lightweight GPX overlay without leaflet-gpx =======
+
+function looksLikeXml(s: string) {
+  const head = s.slice(0, 200).trim().replace(/^\uFEFF/, ""); // strip BOM if present
+  return head.startsWith("<?xml") || head.startsWith("<gpx") || head.startsWith("<rte") || head.startsWith("<trk");
+}
+
+// Parse a GPX string and return a list of coordinates (trk -> trkseg -> trkpt), or fall back to rte->rtept.
+function extractGpxCoords(gpxText: string): LatLngTuple[] {
+  const parser = new DOMParser();
+  const xml = parser.parseFromString(gpxText, "application/xml");
+
+  // If the XML is invalid, there will be a parsererror element.
+  if (xml.getElementsByTagName("parsererror").length) {
+    throw new Error("Invalid GPX XML");
+  }
+
+  const trkpts = Array.from(xml.getElementsByTagName("trkpt"));
+  if (trkpts.length > 0) {
+    return trkpts.map((pt) => {
+      const lat = parseFloat(pt.getAttribute("lat") || "0");
+      const lon = parseFloat(pt.getAttribute("lon") || "0");
+      return [lat, lon] as LatLngTuple;
+    });
+  }
+
+  const rtepts = Array.from(xml.getElementsByTagName("rtept"));
+  if (rtepts.length > 0) {
+    return rtepts.map((pt) => {
+      const lat = parseFloat(pt.getAttribute("lat") || "0");
+      const lon = parseFloat(pt.getAttribute("lon") || "0");
+      return [lat, lon] as LatLngTuple;
+    });
+  }
+
+  throw new Error("No track/route points found in GPX");
+}
+
+// Draws a GPX track and start/end markers. Cleans up on unmount/URL change.
+function GpxOverlay({ url, onError }: { url: string; onError?: (msg: string) => void }) {
+  const map = useMap();
+
+  useEffect(() => {
+    let poly: L.Polyline | null = null;
+    let startMarker: L.Marker | null = null;
+    let endMarker: L.Marker | null = null;
+
+    let cancelled = false;
+
+    (async () => {
+      try {
+        const res = await fetch(url, { cache: "no-store" });
+        if (!res.ok) throw new Error(`GPX fetch failed (${res.status})`);
+
+        const ct = res.headers.get("content-type") || "";
+        // Accept common GPX-ish content types (some dev servers omit CT for static)
+        const isXmlCT = /(application|text)\/(gpx\+xml|xml)/i.test(ct) || ct === "";
+        const text = await res.text();
+
+        if (!isXmlCT || !looksLikeXml(text)) {
+          const head = text.slice(0, 160).replace(/\s+/g, " ");
+          throw new Error(
+            `Response is not GPX/XML (content-type: ${ct || "n/a"}; head: ${JSON.stringify(head)} ...)`
+          );
+        }
+
+        const coords = extractGpxCoords(text);
+        if (coords.length < 2) throw new Error("Not enough points in GPX");
+
+        if (cancelled) return;
+
+        // Draw line
+        poly = L.polyline(coords, { color: "#e11d48", weight: 3 }).addTo(map);
+
+        // Start/End markers with working default icons
+        startMarker = L.marker(coords[0]).addTo(map).bindTooltip("Start");
+        endMarker = L.marker(coords[coords.length - 1]).addTo(map).bindTooltip("Finish");
+
+        // Fit bounds
+        map.fitBounds(poly.getBounds(), { padding: [16, 16] });
+      } catch (err: any) {
+        console.error("GPX overlay error:", err);
+        onError?.(err?.message || "Failed to load GPX");
+      }
+    })();
+
+    return () => {
+      cancelled = true;
+      if (poly) map.removeLayer(poly);
+      if (startMarker) map.removeLayer(startMarker);
+      if (endMarker) map.removeLayer(endMarker);
+    };
+  }, [map, url, onError]);
+
+  return null;
+}
+
+// ==================== MAIN APP ===================================
+
 export default function App() {
   const [munros, setMunros] = useState<Munro[]>([]);
   const [search, setSearch] = useState("");
@@ -138,7 +240,7 @@ export default function App() {
     axios
       .get(`http://localhost:5000/api/munros?${params.toString()}`)
       .then((res) => {
-        let data = res.data;
+        let data = res.data as Munro[];
         if (sortKey) {
           data = [...data].sort((a, b) => {
             if (sortKey === "name") {
@@ -201,6 +303,7 @@ export default function App() {
     const [options, setOptions] = useState<Munro[]>([]);
     const [selected, setSelected] = useState<Munro | null>(null);
     const [showDropdown, setShowDropdown] = useState(false);
+    const [gpxError, setGpxError] = useState<string | null>(null);
 
     useEffect(() => {
       if (initialMunro) {
@@ -232,6 +335,7 @@ export default function App() {
       setQuery(munro.name);
       setOptions([]);
       setShowDropdown(false);
+      setGpxError(null); // reset previous GPX error
     };
 
     const openInNew = (url: string) => window.open(url, "_blank", "noopener,noreferrer");
@@ -241,13 +345,9 @@ export default function App() {
       "title","terrain","public_transport","description",
       "gpx_file","url","route_url"
     ]);
-    const prettyLabel = (k: string) =>
-      k.replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
 
-    const gpx =
-      selected && typeof selected.gpx_file === "string" && selected.gpx_file.trim() !== ""
-        ? selected.gpx_file
-        : null;
+    // ⬇️ Normalized per‑route GPX URL
+    const gpxUrl = useSelectedGpxUrl(selected);
 
     return (
       <Box mt={6} position="relative">
@@ -315,7 +415,15 @@ export default function App() {
 
             {/* Body */}
             <Box p={5}>
-              {/* Map Preview — OS Leisure 1:25k (EPSG:27700) */}
+              {/* GPX errors */}
+              {gpxError && (
+                <Alert status="warning" mb={3}>
+                  <AlertIcon />
+                  {`Couldn't load GPX: ${gpxError}`}
+                </Alert>
+              )}
+
+              {/* Map Preview — OpenTopoMap (with contour lines) */}
               <Heading size="sm" mb={1}>Map Preview</Heading>
               <Box
                 border="1px solid"
@@ -325,27 +433,18 @@ export default function App() {
                 mb={5}
               >
                 <MapContainer
-                  crs={crs27700}
                   center={DEFAULT_CENTER}
-                  zoom={8}
-                  minZoom={5}
-                  maxBounds={GB_BOUNDS}
-                  maxBoundsViscosity={1.0}
-                  style={{ height: "320px", width: "100%", background: "#eef2f6" }}
-                  id="map"
+                  zoom={10}
+                  style={{ height: "360px", width: "100%" }}
                 >
+                  <MapRefStash />
                   <TileLayer
-                    url={OS_LEISURE_27700}
-                    attribution="© Crown copyright and database rights Ordnance Survey"
-                    noWrap
-                    updateWhenIdle={false}
-                    updateWhenZooming
-                    keepBuffer={2}
-                    detectRetina={false}
-                    maxZoom={15}
+                    url="https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png"
+                    attribution='Map data: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, SRTM | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (CC-BY-SA)'
+                    maxZoom={17}
                   />
-                  {/* GPX Overlay (auto-fit on load) */}
-                  <GpxOverlay url={STATIC_GPX} />
+                  {/* GPX overlay for the selected route */}
+                  <GpxOverlay url={gpxUrl} onError={(msg) => setGpxError(msg)} />
                 </MapContainer>
               </Box>
 
@@ -419,35 +518,38 @@ export default function App() {
               )}
 
               {/* Resources */}
-              {(gpx || selected?.url || selected?.route_url) && (
-                <>
-                  <Heading size="sm" mb={1}>Resources</Heading>
-                  <Flex gap={3} wrap="wrap" mb={5}>
-                    {gpx && (
-                      <Button
-                        size="sm"
-                        colorScheme="blue"
-                        variant="solid"
-                        onClick={() => openInNew(gpx)}
-                      >
-                        📥 Download GPX
-                      </Button>
-                    )}
-                    {selected?.url && (
-                      <Button size="sm" variant="outline" onClick={() => openInNew(selected.url!)}>
-                        🔗 Route URL
-                      </Button>
-                    )}
-                    {selected?.route_url && !selected?.url && (
-                      <Button size="sm" variant="outline" onClick={() => openInNew(selected.route_url!)}>
-                        🔗 Route URL
-                      </Button>
-                    )}
-                  </Flex>
-                </>
-              )}
+              {(() => {
+                const gpx = selected.gpx_file ? gpxUrl : undefined;
+                return (gpx || selected?.url || selected?.route_url) ? (
+                  <>
+                    <Heading size="sm" mb={1}>Resources</Heading>
+                    <Flex gap={3} wrap="wrap" mb={5}>
+                      {gpx && (
+                        <Button
+                          size="sm"
+                          colorScheme="blue"
+                          variant="solid"
+                          onClick={() => openInNew(gpx)}
+                        >
+                          📥 Download GPX
+                        </Button>
+                      )}
+                      {selected?.url && (
+                        <Button size="sm" variant="outline" onClick={() => openInNew(selected.url!)}>
+                          🔗 Route URL
+                        </Button>
+                      )}
+                      {selected?.route_url && !selected?.url && (
+                        <Button size="sm" variant="outline" onClick={() => openInNew(selected.route_url!)}>
+                          🔗 Route URL
+                        </Button>
+                      )}
+                    </Flex>
+                  </>
+                ) : null;
+              })()}
 
-              {/* Tags */}
+              {/* Tags (placeholder) */}
               <Heading size="sm" mb={1}>Keyword Tags</Heading>
               <Flex gap={2} wrap="wrap" mb={6}>
                 {["scrambling","rocky","challenging","exposed","flat","ridge","quiet","family-friendly"].map(tag => (
@@ -467,7 +569,7 @@ export default function App() {
                 ))}
               </Flex>
 
-              {/* Description */}
+              {/* Route Description */}
               {selected.description && (
                 <>
                   <Heading size="sm" mb={1}>Route Description</Heading>
@@ -631,7 +733,12 @@ export default function App() {
                   </Thead>
                   <Tbody>
                     {munros.map((m) => (
-                      <Tr key={m.id} _hover={{ bg: "blue.50" }} cursor="pointer" onClick={() => { setSelectedMunro(m); onOpen(); }}>
+                      <Tr
+                        key={m.id}
+                        _hover={{ bg: "blue.50" }}
+                        cursor="pointer"
+                        onClick={() => { setSelectedMunro(m); onOpen(); }}
+                      >
                         <Td fontWeight="semibold">{m.name}</Td>
                         <Td textAlign="center">{m.distance}</Td>
                         <Td textAlign="center">{m.time}</Td>
