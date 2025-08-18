@@ -5,40 +5,66 @@ import sqlite3
 print("🚀 Starting Munro Flask API...")
 
 app = Flask(__name__)
+app.config["JSON_AS_ASCII"] = False  # keep Unicode characters as-is
 CORS(app)  # enable all origins for demo
 
 DB_PATH = "db.sqlite"
 
 
+def get_db():
+    conn = sqlite3.connect(DB_PATH)
+    conn.row_factory = sqlite3.Row  # dict-like rows
+    return conn
+
+
 @app.route("/api/munros")
 def get_munros():
-    grade = request.args.get("grade")
-    bog = request.args.get("bog")
-    search = request.args.get("search")
+    # Parse filters
+    grade = request.args.get("grade", type=int)
+    bog = request.args.get("bog", type=int)
+    search = request.args.get("search", type=str)
 
-    conn = sqlite3.connect(DB_PATH)
-    conn.text_factory = lambda b: b.decode(errors="ignore")  # ensure UTF-8 decoding
-    c = conn.cursor()
-
-    query = "SELECT * FROM munros WHERE 1=1"
+    # Build query with explicit column list (avoid SELECT *)
+    base_sql = """
+        SELECT
+            id,
+            name,
+            summary,
+            distance,
+            time,
+            grade,
+            bog,
+            start,
+            gpx_file
+        FROM munros
+        WHERE 1=1
+    """
+    clauses = []
     params = []
 
-    if grade:
-        query += " AND grade = ?"
+    if grade is not None:
+        clauses.append("AND grade = ?")
         params.append(grade)
-    if bog:
-        query += " AND bog <= ?"
+
+    if bog is not None:
+        clauses.append("AND bog <= ?")
         params.append(bog)
+
     if search:
-        query += " AND (name LIKE ? OR summary LIKE ?)"
+        # Simple case-insensitive search over name/summary
+        clauses.append(
+            "AND (name LIKE ? COLLATE NOCASE OR summary LIKE ? COLLATE NOCASE)"
+        )
         like = f"%{search}%"
         params.extend([like, like])
 
-    rows = c.execute(query, params).fetchall()
-    conn.close()
+    sql = " ".join([base_sql, *clauses])
 
-    keys = ["id", "name", "summary", "distance", "time", "grade", "bog", "start"]
-    results = [dict(zip(keys, row)) for row in rows]
+    with get_db() as conn:
+        rows = conn.execute(sql, params).fetchall()
+
+    # Convert rows to plain dicts
+    results = [dict(r) for r in rows]
 
     return jsonify(results), 200, {"Content-Type": "application/json; charset=utf-8"}
 
