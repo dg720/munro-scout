@@ -1,19 +1,26 @@
-import { MapContainer, TileLayer } from "react-leaflet";
-import { useEffect, useState } from 'react';
+// ==================== IMPORTS (must be first) ====================
+import { MapContainer, TileLayer, useMap } from "react-leaflet";
+import { useEffect, useState } from "react";
 import L from "leaflet";
+import proj4 from "proj4";
 import "proj4leaflet";
+import "leaflet/dist/leaflet.css";
 import type { LatLngTuple, LatLngBoundsExpression } from "leaflet";
-import axios from 'axios';
+import axios from "axios";
 import {
   Box, Container, Heading, Text, Input, Table, Thead, Tbody, Tr, Th, Td,
   TableContainer, Select, SimpleGrid, Stat, StatLabel, StatNumber, Flex,
   Divider, useDisclosure, Modal, ModalOverlay, ModalContent, ModalHeader,
   ModalCloseButton, ModalBody, ModalFooter, Button
-} from '@chakra-ui/react';
+} from "@chakra-ui/react";
 import {
   ScatterChart, Scatter, XAxis, YAxis, CartesianGrid, Tooltip as ChartTooltip, ResponsiveContainer
-} from 'recharts';
+} from "recharts";
 
+// Make proj4 visible for proj4leaflet in some bundlers:
+(window as any).proj4 = proj4;
+
+// ==================== TYPES ======================================
 interface Munro {
   id: number;
   name: string;
@@ -23,41 +30,81 @@ interface Munro {
   grade: number;
   bog: number; // 0–5
   start: string;
-  // Optional fields shown in dedicated sections in Details tab
   title?: string;
   terrain?: string;
   public_transport?: string;
   description?: string;
-  gpx_file?: string;       // resources
+  gpx_file?: string;
   url?: string;
   route_url?: string;
   normalized_name?: string;
-  [key: string]: any;      // tolerate any future DB fields
+  [key: string]: any;
 }
 
-const OS_KEY = process.env.REACT_APP_OS_API_KEY || "YOUR_OS_API_KEY";
-const OS_LEISURE_27700 = `https://api.os.uk/maps/raster/v1/zxy/Leisure_27700/{z}/{x}/{y}.png?key=${OS_KEY}`;
+// ==================== CONSTANTS ==================================
+// Put your GPX file in /public so it's served statically:
+const STATIC_GPX = "/a-mharconaich.gpx";
 
-// ✅ Correct EPSG:27700 CRS (no `origin`)
+const OS_KEY = process.env.REACT_APP_OS_API_KEY || "YOUR_OS_API_KEY";
+const OS_LEISURE_27700 =
+  `https://api.os.uk/maps/raster/v1/zxy/Leisure_27700/{z}/{x}/{y}.png?key=${OS_KEY}`;
+
+// EPSG:27700 (BNG) tuned for OS ZXY tiling
 const crs27700 = new (L as any).Proj.CRS(
   "EPSG:27700",
   "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +towgs84=446.448,-125.157,542.06,0.1502,0.2470,0.8421,-20.4894 +units=m +no_defs",
   {
-    // OS ZXY (BNG) resolutions – z = 0..13
     resolutions: [
       896, 448, 224, 112, 56, 28, 14, 7,
       3.5, 1.75, 0.875, 0.4375, 0.21875, 0.109375
     ],
     bounds: L.bounds([0, 0], [700000, 1300000]),
-    // Flip northings so {y} starts at the TOP (XYZ-style)
     transformation: new L.Transformation(1, 0, -1, 1300000)
   }
 );
 
-// Defaults for Scotland view (lat/lon; Leaflet will project them)
+// Reasonable Scotland default (Leaflet will reproject)
 const DEFAULT_CENTER: LatLngTuple = [56.8, -4.2];
 const GB_BOUNDS: LatLngBoundsExpression = [[49.9, -8.65], [60.9, 1.77]];
 
+// ==================== GPX OVERLAY COMPONENT ======================
+function GpxOverlay({ url }: { url: string }) {
+  const map = useMap();
+
+  useEffect(() => {
+    let gpxLayer: any;
+
+    // Dynamic import; suppress TS typing complaint (no @types for leaflet-gpx)
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    // @ts-ignore
+    import("leaflet-gpx").then(() => {
+      gpxLayer = new (L as any).GPX(url, {
+        async: true,
+        marker_options: {
+          startIconUrl: null,
+          endIconUrl: null,
+          shadowUrl: null,
+        },
+        polyline_options: { color: "red", weight: 3 },
+      })
+        .on("loaded", (e: any) => {
+          const bounds: L.LatLngBounds = e.target.getBounds();
+          map.fitBounds(bounds, { padding: [12, 12] });
+        })
+        .addTo(map);
+    });
+
+    return () => {
+      if (gpxLayer) {
+        try { map.removeLayer(gpxLayer); } catch {}
+      }
+    };
+  }, [map, url]);
+
+  return null;
+}
+
+// ==================== UI HELPERS =================================
 const CustomTooltip = ({ active, payload }: any) => {
   if (active && payload && payload.length) {
     return (
@@ -69,37 +116,38 @@ const CustomTooltip = ({ active, payload }: any) => {
   return null;
 };
 
+// ==================== APP ========================================
 export default function App() {
   const [munros, setMunros] = useState<Munro[]>([]);
-  const [search, setSearch] = useState('');
-  const [grade, setGrade] = useState('');
-  const [bog, setBog] = useState('');
-  const [sortKey, setSortKey] = useState('');
-  const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('asc');
+  const [search, setSearch] = useState("");
+  const [grade, setGrade] = useState("");
+  const [bog, setBog] = useState("");
+  const [sortKey, setSortKey] = useState("");
+  const [sortOrder, setSortOrder] = useState<"asc" | "desc">("asc");
   const [selectedMunro, setSelectedMunro] = useState<Munro | null>(null);
   const { isOpen, onOpen, onClose } = useDisclosure();
-  const [activeTab, setActiveTab] = useState<'dashboard' | 'chat' | 'details'>('dashboard');
-  const [messages, setMessages] = useState<{ role: 'user' | 'assistant'; content: string }[]>([]);
-  const [input, setInput] = useState('');
+  const [activeTab, setActiveTab] = useState<"dashboard" | "chat" | "details">("dashboard");
+  const [messages, setMessages] = useState<{ role: "user" | "assistant"; content: string }[]>([]);
+  const [input, setInput] = useState("");
 
   useEffect(() => {
     const params = new URLSearchParams();
-    if (search) params.append('search', search);
-    if (grade) params.append('grade', grade);
-    if (bog) params.append('bog', bog);
+    if (search) params.append("search", search);
+    if (grade) params.append("grade", grade);
+    if (bog) params.append("bog", bog);
     axios
       .get(`http://localhost:5000/api/munros?${params.toString()}`)
       .then((res) => {
         let data = res.data;
         if (sortKey) {
           data = [...data].sort((a, b) => {
-            if (sortKey === 'name') {
-              const cmp = a.name.localeCompare(b.name, 'en', { sensitivity: 'base' });
-              return sortOrder === 'asc' ? cmp : -cmp;
+            if (sortKey === "name") {
+              const cmp = a.name.localeCompare(b.name, "en", { sensitivity: "base" });
+              return sortOrder === "asc" ? cmp : -cmp;
             }
             const aVal = a[sortKey] as number;
             const bVal = b[sortKey] as number;
-            return sortOrder === 'asc' ? aVal - bVal : bVal - aVal;
+            return sortOrder === "asc" ? aVal - bVal : bVal - aVal;
           });
         }
         setMunros(data);
@@ -112,7 +160,7 @@ export default function App() {
     avgDistance: munros.reduce((sum, m) => sum + m.distance, 0) / (munros.length || 1),
     avgTime: munros.reduce((sum, m) => sum + m.time, 0) / (munros.length || 1),
     avgGrade: munros.reduce((sum, m) => sum + m.grade, 0) / (munros.length || 1),
-    avgBog: munros.reduce((sum, m) => sum + m.bog, 0) / (munros.length || 1), // out of 5
+    avgBog: munros.reduce((sum, m) => sum + m.bog, 0) / (munros.length || 1),
   };
 
   const ChatTab = () => (
@@ -120,10 +168,10 @@ export default function App() {
       <Heading size="md" mb={4}>Munro Scout Assistant</Heading>
       <Box bg="gray.50" p={4} rounded="lg" maxH="400px" overflowY="auto" mb={4} border="1px solid #e2e8f0">
         {messages.map((msg, idx) => (
-          <Box key={idx} mb={3} textAlign={msg.role === 'user' ? 'right' : 'left'}>
+          <Box key={idx} mb={3} textAlign={msg.role === "user" ? "right" : "left"}>
             <Text
               display="inline-block"
-              bg={msg.role === 'user' ? 'blue.100' : 'gray.200'}
+              bg={msg.role === "user" ? "blue.100" : "gray.200"}
               px={3} py={2} rounded="xl"
               maxW="80%"
             >
@@ -137,19 +185,19 @@ export default function App() {
           placeholder="Ask about Munros..."
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          onKeyDown={(e) => e.key === 'Enter' && e.preventDefault()}
+          onKeyDown={(e) => e.key === "Enter" && e.preventDefault()}
         />
         <Button onClick={() => {
           if (!input.trim()) return;
-          setMessages([...messages, { role: 'user', content: input }]);
-          setInput('');
+          setMessages([...messages, { role: "user", content: input }]);
+          setInput("");
         }} colorScheme="blue">Send</Button>
       </Flex>
     </Box>
   );
 
   const DetailsTab = ({ initialMunro }: { initialMunro: Munro | null }) => {
-    const [query, setQuery] = useState('');
+    const [query, setQuery] = useState("");
     const [options, setOptions] = useState<Munro[]>([]);
     const [selected, setSelected] = useState<Munro | null>(null);
     const [showDropdown, setShowDropdown] = useState(false);
@@ -158,7 +206,7 @@ export default function App() {
       if (initialMunro) {
         setSelected(initialMunro);
         setQuery(initialMunro.name);
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+        window.scrollTo({ top: 0, behavior: "smooth" });
       }
     }, [initialMunro]);
 
@@ -186,18 +234,18 @@ export default function App() {
       setShowDropdown(false);
     };
 
-    const openInNew = (url: string) => window.open(url, '_blank', 'noopener,noreferrer');
+    const openInNew = (url: string) => window.open(url, "_blank", "noopener,noreferrer");
 
     const CORE_FIELDS = new Set([
-      'id','name','summary','distance','time','grade','bog','start',
-      'title','terrain','public_transport','description',
-      'gpx_file','url','route_url'
+      "id","name","summary","distance","time","grade","bog","start",
+      "title","terrain","public_transport","description",
+      "gpx_file","url","route_url"
     ]);
     const prettyLabel = (k: string) =>
-      k.replace(/_/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
+      k.replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
 
     const gpx =
-      selected && typeof selected.gpx_file === 'string' && selected.gpx_file.trim() !== ''
+      selected && typeof selected.gpx_file === "string" && selected.gpx_file.trim() !== ""
         ? selected.gpx_file
         : null;
 
@@ -234,7 +282,7 @@ export default function App() {
                   key={m.id}
                   px={4}
                   py={2}
-                  _hover={{ bg: 'blue.50', cursor: 'pointer' }}
+                  _hover={{ bg: "blue.50", cursor: "pointer" }}
                   onClick={() => handleSelect(m)}
                 >
                   {m.name}
@@ -279,7 +327,7 @@ export default function App() {
                 <MapContainer
                   crs={crs27700}
                   center={DEFAULT_CENTER}
-                  zoom={7}                 // 27700 zooms; try 6–9 for overview
+                  zoom={8}
                   minZoom={5}
                   maxBounds={GB_BOUNDS}
                   maxBoundsViscosity={1.0}
@@ -289,13 +337,15 @@ export default function App() {
                   <TileLayer
                     url={OS_LEISURE_27700}
                     attribution="© Crown copyright and database rights Ordnance Survey"
-                    noWrap={true}
+                    noWrap
                     updateWhenIdle={false}
-                    updateWhenZooming={true}
+                    updateWhenZooming
                     keepBuffer={2}
                     detectRetina={false}
-                    maxZoom={13}   // ⬅️ Leisure_27700 goes up to z=13
+                    maxZoom={15}
                   />
+                  {/* GPX Overlay (auto-fit on load) */}
+                  <GpxOverlay url={STATIC_GPX} />
                 </MapContainer>
               </Box>
 
@@ -303,19 +353,19 @@ export default function App() {
               <SimpleGrid columns={{ base: 1, md: 4 }} spacing={3} mb={5}>
                 <Flex align="center" gap={2} bg="blue.50" p={2} rounded="md" border="1px solid" borderColor="blue.100">
                   <span>🥾</span>
-                  <Text fontSize="sm"><strong>Distance:</strong> {selected.distance ?? '—'} km</Text>
+                  <Text fontSize="sm"><strong>Distance:</strong> {selected.distance ?? "—"} km</Text>
                 </Flex>
                 <Flex align="center" gap={2} bg="green.50" p={2} rounded="md" border="1px solid" borderColor="green.100">
                   <span>⏱️</span>
-                  <Text fontSize="sm"><strong>Time:</strong> {selected.time ?? '—'} hrs</Text>
+                  <Text fontSize="sm"><strong>Time:</strong> {selected.time ?? "—"} hrs</Text>
                 </Flex>
                 <Flex align="center" gap={2} bg="purple.50" p={2} rounded="md" border="1px solid" borderColor="purple.100">
                   <span>⛰️</span>
-                  <Text fontSize="sm"><strong>Grade:</strong> {selected.grade ?? '—'}</Text>
+                  <Text fontSize="sm"><strong>Grade:</strong> {selected.grade ?? "—"}</Text>
                 </Flex>
                 <Flex align="center" gap={2} bg="orange.50" p={2} rounded="md" border="1px solid" borderColor="orange.100">
                   <span>🪵</span>
-                  <Text fontSize="sm"><strong>Bog:</strong> {selected.bog ?? '—'}/5</Text>
+                  <Text fontSize="sm"><strong>Bog:</strong> {selected.bog ?? "—"}/5</Text>
                 </Flex>
               </SimpleGrid>
 
@@ -397,10 +447,10 @@ export default function App() {
                 </>
               )}
 
-              {/* 🔑 Keyword Tags (static placeholder for now) */}
+              {/* Tags */}
               <Heading size="sm" mb={1}>Keyword Tags</Heading>
               <Flex gap={2} wrap="wrap" mb={6}>
-                {['scrambling','rocky','challenging','exposed','flat','ridge','quiet','family-friendly'].map(tag => (
+                {["scrambling","rocky","challenging","exposed","flat","ridge","quiet","family-friendly"].map(tag => (
                   <Box
                     key={tag}
                     px={3}
@@ -417,7 +467,7 @@ export default function App() {
                 ))}
               </Flex>
 
-              {/* Route Description */}
+              {/* Description */}
               {selected.description && (
                 <>
                   <Heading size="sm" mb={1}>Route Description</Heading>
@@ -436,7 +486,7 @@ export default function App() {
                     !CORE_FIELDS.has(k) &&
                     v !== null &&
                     v !== undefined &&
-                    String(v).trim() !== ''
+                    String(v).trim() !== ""
                 );
                 if (!entries.length) return null;
                 return (
@@ -454,7 +504,7 @@ export default function App() {
                         >
                           <Text fontSize="xs" color="gray.500">{prettyLabel(k)}</Text>
                           <Text fontWeight="medium" whiteSpace="pre-wrap">
-                            {typeof v === 'string' ? v : JSON.stringify(v)}
+                            {typeof v === "string" ? v : JSON.stringify(v)}
                           </Text>
                         </Box>
                       ))}
@@ -467,7 +517,7 @@ export default function App() {
         )}
       </Box>
     );
-  }; /// end of section
+  }; // end DetailsTab
 
   return (
     <Box minH="100vh" bgGradient="linear(to-br, gray.50, white)">
@@ -478,22 +528,22 @@ export default function App() {
         </Text>
         <Flex mt={4} gap={4}>
           <Button
-            variant={activeTab === 'dashboard' ? 'solid' : 'outline'}
-            onClick={() => setActiveTab('dashboard')}
+            variant={activeTab === "dashboard" ? "solid" : "outline"}
+            onClick={() => setActiveTab("dashboard")}
             colorScheme="whiteAlpha"
           >
             Dashboard
           </Button>
           <Button
-            variant={activeTab === 'chat' ? 'solid' : 'outline'}
-            onClick={() => setActiveTab('chat')}
+            variant={activeTab === "chat" ? "solid" : "outline"}
+            onClick={() => setActiveTab("chat")}
             colorScheme="whiteAlpha"
           >
             Chat Assistant
           </Button>
           <Button
-            variant={activeTab === 'details' ? 'solid' : 'outline'}
-            onClick={() => setActiveTab('details')}
+            variant={activeTab === "details" ? "solid" : "outline"}
+            onClick={() => setActiveTab("details")}
             colorScheme="whiteAlpha"
           >
             Munro Details
@@ -502,7 +552,7 @@ export default function App() {
       </Box>
 
       <Container maxW="6xl" py={10}>
-        {activeTab === 'dashboard' ? (
+        {activeTab === "dashboard" ? (
           <>
             <Heading size="md" mb={2}>Overview Statistics</Heading>
             <Divider mb={6} />
@@ -525,15 +575,15 @@ export default function App() {
                     dataKey="distance"
                     name="Distance (km)"
                     domain={[5, 40]}
-                    label={{ value: 'Distance (km)', position: 'insideBottomRight', offset: -5 }}
+                    label={{ value: "Distance (km)", position: "insideBottomRight", offset: -5 }}
                   />
                   <YAxis
                     type="number"
                     dataKey="time"
                     name="Time (hrs)"
-                    label={{ value: 'Time (hrs)', angle: -90, position: 'insideLeft' }}
+                    label={{ value: "Time (hrs)", angle: -90, position: "insideLeft" }}
                   />
-                  <ChartTooltip content={<CustomTooltip />} cursor={{ strokeDasharray: '3 3' }} />
+                  <ChartTooltip content={<CustomTooltip />} cursor={{ strokeDasharray: "3 3" }} />
                   <Scatter
                     name="Munros"
                     data={munros}
@@ -559,7 +609,7 @@ export default function App() {
                 <option value="distance">Distance</option>
                 <option value="time">Time</option>
               </Select>
-              <Select placeholder="Order" value={sortOrder} onChange={(e) => setSortOrder(e.target.value as 'asc' | 'desc')} maxW="140px">
+              <Select placeholder="Order" value={sortOrder} onChange={(e) => setSortOrder(e.target.value as "asc" | "desc")} maxW="140px">
                 <option value="asc">Asc</option>
                 <option value="desc">Desc</option>
               </Select>
@@ -581,7 +631,7 @@ export default function App() {
                   </Thead>
                   <Tbody>
                     {munros.map((m) => (
-                      <Tr key={m.id} _hover={{ bg: 'blue.50' }} cursor="pointer" onClick={() => { setSelectedMunro(m); onOpen(); }}>
+                      <Tr key={m.id} _hover={{ bg: "blue.50" }} cursor="pointer" onClick={() => { setSelectedMunro(m); onOpen(); }}>
                         <Td fontWeight="semibold">{m.name}</Td>
                         <Td textAlign="center">{m.distance}</Td>
                         <Td textAlign="center">{m.time}</Td>
@@ -594,7 +644,7 @@ export default function App() {
               </TableContainer>
             </Box>
           </>
-        ) : activeTab === 'chat' ? (
+        ) : activeTab === "chat" ? (
           <ChatTab />
         ) : (
           <DetailsTab initialMunro={selectedMunro} />
@@ -610,7 +660,7 @@ export default function App() {
             <ModalCloseButton />
             <ModalBody>
               <Text mb={4} fontSize="sm" whiteSpace="pre-wrap">{selectedMunro?.summary}</Text>
-              
+
               <SimpleGrid columns={2} spacing={4}>
                 <Flex align="center" gap={3}>
                   <Box as="span" fontSize="lg" color="blue.500"><i className="fas fa-road" /></Box>
@@ -633,26 +683,6 @@ export default function App() {
                   <Text><strong>Start Point:</strong> {selectedMunro?.start}</Text>
                 </Flex>
               </SimpleGrid>
-
-              {/* 🔑 Keyword Tags (static placeholder, mirrored from Details tab) */}
-              <Heading size="sm" mt={4} mb={2}>Keyword Tags</Heading>
-              <Flex gap={2} wrap="wrap">
-                {['scrambling','rocky','challenging','exposed','flat','ridge','quiet','family-friendly'].map(tag => (
-                  <Box
-                    key={tag}
-                    px={3}
-                    py={1}
-                    bg="blue.50"
-                    border="1px solid"
-                    borderColor="blue.200"
-                    rounded="full"
-                    fontSize="xs"
-                    color="blue.800"
-                  >
-                    {tag}
-                  </Box>
-                ))}
-              </Flex>
             </ModalBody>
             <ModalFooter>
               <Flex gap={3}>
@@ -662,7 +692,7 @@ export default function App() {
                 <Button
                   colorScheme="blue"
                   onClick={() => {
-                    setActiveTab('details');
+                    setActiveTab("details");
                     onClose();
                   }}
                 >
@@ -670,7 +700,6 @@ export default function App() {
                 </Button>
               </Flex>
             </ModalFooter>
-
           </ModalContent>
         </Modal>
       </Container>
