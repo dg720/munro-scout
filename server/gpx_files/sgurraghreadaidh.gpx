@@ -1,0 +1,334 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="Walkhighlands">
+<metadata>
+	<desc>GPX file from Walkhighlands; file is copyright Walkhighlands and must not be publicly shared on other websites. Do not remove this notice.</desc>
+	<copyright author="Walkhighlands"><year>2019</year></copyright>
+</metadata>
+<rte>
+<name>Sgùrr a Mhadaidh and Sgùrr a Ghreadaidh</name>
+<rtept lat="57.2197793784227" lon="-6.29276118885422">
+<ele>21.0311033793688</ele>
+<name>SGH 001</name>
+</rtept>
+<rtept lat="57.219654657719" lon="-6.29183321537608">
+<ele>30.1118920277834</ele>
+<name>SGH 002</name>
+</rtept>
+<rtept lat="57.2199554087705" lon="-6.29066625997508">
+<ele>38.3695857726097</ele>
+<name>SGH 003</name>
+</rtept>
+<rtept lat="57.2200272622642" lon="-6.28932844528562">
+<ele>48.265563627696</ele>
+<name>SGH 004</name>
+</rtept>
+<rtept lat="57.2203361788195" lon="-6.28792201909843">
+<ele>65.5104105001092</ele>
+<name>SGH 005</name>
+</rtept>
+<rtept lat="57.2222381393273" lon="-6.28569095602454">
+<ele>82.3338920277834</ele>
+<name>SGH 006</name>
+</rtept>
+<rtept lat="57.2226523607983" lon="-6.28501785792325">
+<ele>69.319504382515</ele>
+<name>SGH 007</name>
+</rtept>
+<rtept lat="57.2233556106622" lon="-6.28428214417237">
+<ele>94.8295643375874</ele>
+<name>SGH 008</name>
+</rtept>
+<rtept lat="57.224034710065" lon="-6.28272619616326">
+<ele>108.316864268827</ele>
+<name>SGH 009</name>
+</rtept>
+<rtept lat="57.2240105582022" lon="-6.28190599032687">
+<ele>118.11601739645</ele>
+<name>SGH 010</name>
+</rtept>
+<rtept lat="57.2253408967032" lon="-6.27960810031558">
+<ele>150.726886413741</ele>
+<name>SGH 011</name>
+</rtept>
+<rtept lat="57.2265739737074" lon="-6.27633705880233">
+<ele>177.16871746521</ele>
+<name>SGH 012</name>
+</rtept>
+<rtept lat="57.2270797030424" lon="-6.27221217628127">
+<ele>211.090874475718</ele>
+<name>SGH 013</name>
+</rtept>
+<rtept lat="57.2269322372153" lon="-6.27041591614654">
+<ele>212.829519337887</ele>
+<name>SGH 014</name>
+</rtept>
+<rtept lat="57.2266809360422" lon="-6.26783828784716">
+<ele>229.953088423991</ele>
+<name>SGH 015</name>
+</rtept>
+<rtept lat="57.2274638433388" lon="-6.2655245332546">
+<ele>241.512927241313</ele>
+<name>SGH 016</name>
+</rtept>
+<rtept lat="57.2280940930799" lon="-6.26309686708026">
+<ele>271.011023010468</ele>
+<name>SGH 017</name>
+</rtept>
+<rtept lat="57.2286431899681" lon="-6.25960181328354">
+<ele>320.211198282957</ele>
+<name>SGH 018</name>
+</rtept>
+<rtept lat="57.2289892196235" lon="-6.25632367421565">
+<ele>361.420655069041</ele>
+<name>SGH 019</name>
+</rtept>
+<rtept lat="57.229036358367" lon="-6.25493455109244">
+<ele>375.340186344957</ele>
+<name>SGH 020</name>
+</rtept>
+<rtept lat="57.2293984627975" lon="-6.2542549871713">
+<ele>375.187202875829</ele>
+<name>SGH 021</name>
+</rtept>
+<rtept lat="57.2292945854689" lon="-6.2519347531597">
+<ele>396.140416979742</ele>
+<name>SGH 022</name>
+</rtept>
+<rtept lat="57.2298888584645" lon="-6.24979114438135">
+<ele>440.885100517654</ele>
+<name>SGH 023</name>
+</rtept>
+<rtept lat="57.2311293617521" lon="-6.24935697810846">
+<ele>485.818386779642</ele>
+<name>SGH 024</name>
+</rtept>
+<rtept lat="57.2316594079102" lon="-6.24783591515796">
+<ele>506.216912996282</ele>
+<name>SGH 025</name>
+</rtept>
+<rtept lat="57.2317122839848" lon="-6.24664634728662">
+<ele>516.340209353536</ele>
+<name>SGH 026</name>
+</rtept>
+<rtept lat="57.2313692657052" lon="-6.24469150102828">
+<ele>552.214723804398</ele>
+<name>SGH 027</name>
+</rtept>
+<rtept lat="57.2310903442038" lon="-6.24335108387744">
+<ele>567.916236093175</ele>
+<name>SGH 028</name>
+</rtept>
+<rtept lat="57.2308080757034" lon="-6.24212464502061">
+<ele>582.209886258125</ele>
+<name>SGH 029</name>
+</rtept>
+<rtept lat="57.2308587221135" lon="-6.24080210072384">
+<ele>605.733646101733</ele>
+<name>SGH 030</name>
+</rtept>
+<rtept lat="57.2306134539142" lon="-6.23975737904314">
+<ele>634.487326582226</ele>
+<name>SGH 031</name>
+</rtept>
+<rtept lat="57.2303898644621" lon="-6.23853449215329">
+<ele>686.865985044622</ele>
+<name>SGH 032</name>
+</rtept>
+<rtept lat="57.2299992521689" lon="-6.23653611491118">
+<ele>742.752898522462</ele>
+<name>SGH 033</name>
+</rtept>
+<rtept lat="57.2300643807331" lon="-6.23535145308976">
+<ele>772.775688932527</ele>
+<name>SGH 034</name>
+</rtept>
+<rtept lat="57.2301659360702" lon="-6.23306463979009">
+<ele>828.827341762167</ele>
+<name>SGH 035</name>
+</rtept>
+<rtept lat="57.2309059769746" lon="-6.23202382528083">
+<ele>838.464129767254</ele>
+<name>SGH 036</name>
+</rtept>
+<rtept lat="57.2301513831351" lon="-6.23309613472635">
+<ele>829.011332063949</ele>
+<name>SGH 037</name>
+</rtept>
+<rtept lat="57.229472559228" lon="-6.23349082868903">
+<ele>849.274023439136</ele>
+<name>SGH 038</name>
+</rtept>
+<rtept lat="57.2289721923182" lon="-6.23320789024584">
+<ele>844.571834484424</ele>
+<name>SGH 039</name>
+</rtept>
+<rtept lat="57.2289969380131" lon="-6.23359377354626">
+<ele>861.645915573931</ele>
+<name>SGH 040</name>
+</rtept>
+<rtept lat="57.2281913522418" lon="-6.23441331112206">
+<ele>937.304859304274</ele>
+<name>SGH 041</name>
+</rtept>
+<rtept lat="57.2275368208349" lon="-6.23435476391625">
+<ele>940.799483732712</ele>
+<name>SGH 042</name>
+</rtept>
+<rtept lat="57.2282092693278" lon="-6.23441536772935">
+<ele>936.591878899164</ele>
+<name>SGH 043</name>
+</rtept>
+<rtept lat="57.229001974899" lon="-6.23357776963115">
+<ele>860.691950339725</ele>
+<name>SGH 044</name>
+</rtept>
+<rtept lat="57.2289740397854" lon="-6.23320644405628">
+<ele>844.5276471998</ele>
+<name>SGH 045</name>
+</rtept>
+<rtept lat="57.2294678011516" lon="-6.23349857372096">
+<ele>849.613203242639</ele>
+<name>SGH 046</name>
+</rtept>
+<rtept lat="57.2301684639137" lon="-6.23312296862204">
+<ele>829.333208388442</ele>
+<name>SGH 047</name>
+</rtept>
+<rtept lat="57.2300635997426" lon="-6.23537457887791">
+<ele>772.037640309902</ele>
+<name>SGH 048</name>
+</rtept>
+<rtept lat="57.2299956099147" lon="-6.23651082291997">
+<ele>743.529467877726</ele>
+<name>SGH 049</name>
+</rtept>
+<rtept lat="57.230411364843" lon="-6.23853696268789">
+<ele>686.193985044622</ele>
+<name>SGH 050</name>
+</rtept>
+<rtept lat="57.2306282389312" lon="-6.23979887708105">
+<ele>633.322226463787</ele>
+<name>SGH 051</name>
+</rtept>
+<rtept lat="57.2308591131122" lon="-6.24079053766232">
+<ele>605.95076695541</ele>
+<name>SGH 052</name>
+</rtept>
+<rtept lat="57.230826893985" lon="-6.24220640704174">
+<ele>579.665886258125</ele>
+<name>SGH 053</name>
+</rtept>
+<rtept lat="57.2310890028209" lon="-6.24339072877514">
+<ele>567.484236093175</ele>
+<name>SGH 054</name>
+</rtept>
+<rtept lat="57.2313731792462" lon="-6.24457586938484">
+<ele>554.25546498924</ele>
+<name>SGH 055</name>
+</rtept>
+<rtept lat="57.2317044469362" lon="-6.24669187825501">
+<ele>515.929426800735</ele>
+<name>SGH 056</name>
+</rtept>
+<rtept lat="57.2316711663428" lon="-6.24786048595">
+<ele>506.012522029046</ele>
+<name>SGH 057</name>
+</rtept>
+<rtept lat="57.2311026547257" lon="-6.24936219288113">
+<ele>487.847133734989</ele>
+<name>SGH 058</name>
+</rtept>
+<rtept lat="57.2299241875272" lon="-6.24974380880025">
+<ele>443.302100517654</ele>
+<name>SGH 059</name>
+</rtept>
+<rtept lat="57.2292670945305" lon="-6.25193655906401">
+<ele>389.268239110518</ele>
+<name>SGH 060</name>
+</rtept>
+<rtept lat="57.2294269623351" lon="-6.25422345107836">
+<ele>379.891339472532</ele>
+<name>SGH 061</name>
+</rtept>
+<rtept lat="57.2290157555169" lon="-6.25489237740418">
+<ele>375.238186344957</ele>
+<name>SGH 062</name>
+</rtept>
+<rtept lat="57.228965982436" lon="-6.25635913199052">
+<ele>365.880492600131</ele>
+<name>SGH 063</name>
+</rtept>
+<rtept lat="57.2286191158078" lon="-6.25958245135747">
+<ele>319.956198282957</ele>
+<name>SGH 064</name>
+</rtept>
+<rtept lat="57.2281323887874" lon="-6.26310792545455">
+<ele>271.369023010468</ele>
+<name>SGH 065</name>
+</rtept>
+<rtept lat="57.2274911734322" lon="-6.2654613670451">
+<ele>231.67800173111</ele>
+<name>SGH 066</name>
+</rtept>
+<rtept lat="57.2266779184134" lon="-6.26779482752706">
+<ele>230.521088424015</ele>
+<name>SGH 067</name>
+</rtept>
+<rtept lat="57.2269140479149" lon="-6.27036904088826">
+<ele>213.069519337887</ele>
+<name>SGH 068</name>
+</rtept>
+<rtept lat="57.2271099355276" lon="-6.27222231004059">
+<ele>210.530874475718</ele>
+<name>SGH 069</name>
+</rtept>
+<rtept lat="57.2266254342201" lon="-6.27630488704791">
+<ele>175.61871746521</ele>
+<name>SGH 070</name>
+</rtept>
+<rtept lat="57.225325329885" lon="-6.279616242982">
+<ele>150.776886413741</ele>
+<name>SGH 071</name>
+</rtept>
+<rtept lat="57.2240200431743" lon="-6.28181258417788">
+<ele>119.01601739645</ele>
+<name>SGH 072</name>
+</rtept>
+<rtept lat="57.2240104106945" lon="-6.28272669151449">
+<ele>108.770864268851</ele>
+<name>SGH 073</name>
+</rtept>
+<rtept lat="57.22335156909" lon="-6.28432146659962">
+<ele>94.2775643375874</ele>
+<name>SGH 074</name>
+</rtept>
+<rtept lat="57.2226042628376" lon="-6.28503050950585">
+<ele>70.791504382515</ele>
+<name>SGH 075</name>
+</rtept>
+<rtept lat="57.2223044572439" lon="-6.28559255072847">
+<ele>70.8212315003395</ele>
+<name>SGH 076</name>
+</rtept>
+<rtept lat="57.2203674673761" lon="-6.28795383858683">
+<ele>65.7004105001092</ele>
+<name>SGH 077</name>
+</rtept>
+<rtept lat="57.2200002510925" lon="-6.28922417704864">
+<ele>48.657563627696</ele>
+<name>SGH 078</name>
+</rtept>
+<rtept lat="57.2199729373298" lon="-6.29065337758489">
+<ele>38.8555857726097</ele>
+<name>SGH 079</name>
+</rtept>
+<rtept lat="57.2196500486297" lon="-6.29188904549092">
+<ele>29.3778920277834</ele>
+<name>SGH 080</name>
+</rtept>
+<rtept lat="57.219813692266" lon="-6.29278341695597">
+<ele>18.7181863449574</ele>
+<name>SGH 081</name>
+</rtept>
+</rte>
+</gpx>

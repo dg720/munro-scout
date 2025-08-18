@@ -1,0 +1,684 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="Walkhighlands">
+<metadata>
+	<desc>GPX file from Walkhighlands; file is copyright Walkhighlands and must not be publicly shared on other websites. Do not remove this notice.</desc>
+	<copyright author="Walkhighlands"><year>2019</year></copyright>
+</metadata>
+<rte>
+<name>Ben Macdui and Derry Cairngorm</name>
+<rtept lat="56.990032388" lon="-3.544003326">
+<name>BMac001</name>
+</rtept>
+<rtept lat="56.990345167" lon="-3.544257456">
+<name>BMac002</name>
+</rtept>
+<rtept lat="56.992412672" lon="-3.544021766">
+<name>BMac003</name>
+</rtept>
+<rtept lat="56.992604729" lon="-3.543259973">
+<name>BMac004</name>
+</rtept>
+<rtept lat="56.992699205" lon="-3.543129814">
+<name>BMac005</name>
+</rtept>
+<rtept lat="56.993049048" lon="-3.543268434">
+<name>BMac006</name>
+</rtept>
+<rtept lat="56.993681968" lon="-3.541864254">
+<name>BMac007</name>
+</rtept>
+<rtept lat="56.994184215" lon="-3.54106198">
+<name>BMac008</name>
+</rtept>
+<rtept lat="56.995150672" lon="-3.541747213">
+<name>BMac009</name>
+</rtept>
+<rtept lat="56.996780571" lon="-3.542015774">
+<name>BMac010</name>
+</rtept>
+<rtept lat="56.997399034" lon="-3.5424063">
+<name>BMac011</name>
+</rtept>
+<rtept lat="56.998834098" lon="-3.544505817">
+<name>BMac012</name>
+</rtept>
+<rtept lat="56.999955547" lon="-3.544741303">
+<name>BMac013</name>
+</rtept>
+<rtept lat="57.004011398" lon="-3.544247662">
+<name>BMac014</name>
+</rtept>
+<rtept lat="57.004957305" lon="-3.542799659">
+<name>BMac015</name>
+</rtept>
+<rtept lat="57.006452574" lon="-3.544552078">
+<name>BMac016</name>
+</rtept>
+<rtept lat="57.006831388" lon="-3.545209849">
+<name>BMac017</name>
+</rtept>
+<rtept lat="57.008946338" lon="-3.546882555">
+<name>BMac018</name>
+</rtept>
+<rtept lat="57.009776858" lon="-3.547868502">
+<name>BMac019</name>
+</rtept>
+<rtept lat="57.012352475" lon="-3.552568209">
+<name>BMac020</name>
+</rtept>
+<rtept lat="57.01273477" lon="-3.553081751">
+<name>BMac021</name>
+</rtept>
+<rtept lat="57.01359219" lon="-3.557270613">
+<name>BMac022</name>
+</rtept>
+<rtept lat="57.013572017" lon="-3.558323716">
+<name>BMac023</name>
+</rtept>
+<rtept lat="57.014293734" lon="-3.56224415">
+<name>BMac024</name>
+</rtept>
+<rtept lat="57.014550025" lon="-3.563035106">
+<name>BMac025</name>
+</rtept>
+<rtept lat="57.014792742" lon="-3.563418818">
+<name>BMac026</name>
+</rtept>
+<rtept lat="57.01485507" lon="-3.563950725">
+<name>BMac027</name>
+</rtept>
+<rtept lat="57.015469689" lon="-3.56569676">
+<name>BMac028</name>
+</rtept>
+<rtept lat="57.016166364" lon="-3.566667487">
+<name>BMac029</name>
+</rtept>
+<rtept lat="57.016469514" lon="-3.567970225">
+<name>BMac030</name>
+</rtept>
+<rtept lat="57.017106881" lon="-3.569447222">
+<name>BMac031</name>
+</rtept>
+<rtept lat="57.017340808" lon="-3.570921356">
+<name>BMac032</name>
+</rtept>
+<rtept lat="57.018015637" lon="-3.5727149">
+<name>BMac033</name>
+</rtept>
+<rtept lat="57.018011716" lon="-3.573955421">
+<name>BMac034</name>
+</rtept>
+<rtept lat="57.018360372" lon="-3.575781284">
+<name>BMac035</name>
+</rtept>
+<rtept lat="57.019071652" lon="-3.577342855">
+<name>BMac036</name>
+</rtept>
+<rtept lat="57.020071679" lon="-3.577929287">
+<name>BMac037</name>
+</rtept>
+<rtept lat="57.020758698" lon="-3.578555031">
+<name>BMac038</name>
+</rtept>
+<rtept lat="57.021217865" lon="-3.579463206">
+<name>BMac039</name>
+</rtept>
+<rtept lat="57.021562997" lon="-3.580990479">
+<name>BMac040</name>
+</rtept>
+<rtept lat="57.022312053" lon="-3.582339391">
+<name>BMac041</name>
+</rtept>
+<rtept lat="57.022631427" lon="-3.582095109">
+<name>BMac042</name>
+</rtept>
+<rtept lat="57.022865513" lon="-3.582186556">
+<name>BMac043</name>
+</rtept>
+<rtept lat="57.022742368" lon="-3.583177399">
+<name>BMac044</name>
+</rtept>
+<rtept lat="57.022315678" lon="-3.584854129">
+<name>BMac045</name>
+</rtept>
+<rtept lat="57.022036225" lon="-3.589638652">
+<name>BMac046</name>
+</rtept>
+<rtept lat="57.021791238" lon="-3.591533697">
+<name>BMac047</name>
+</rtept>
+<rtept lat="57.021891061" lon="-3.592209572">
+<name>BMac048</name>
+</rtept>
+<rtept lat="57.021909112" lon="-3.594552819">
+<name>BMac049</name>
+</rtept>
+<rtept lat="57.022145737" lon="-3.595297959">
+<name>BMac050</name>
+</rtept>
+<rtept lat="57.022650334" lon="-3.595945116">
+<name>BMac051</name>
+</rtept>
+<rtept lat="57.023397197" lon="-3.596228073">
+<name>BMac052</name>
+</rtept>
+<rtept lat="57.024038335" lon="-3.597154221">
+<name>BMac053</name>
+</rtept>
+<rtept lat="57.024323532" lon="-3.597961567">
+<name>BMac054</name>
+</rtept>
+<rtept lat="57.02493412" lon="-3.598885524">
+<name>BMac055</name>
+</rtept>
+<rtept lat="57.025200365" lon="-3.599626225">
+<name>BMac056</name>
+</rtept>
+<rtept lat="57.025282711" lon="-3.603187772">
+<name>BMac057</name>
+</rtept>
+<rtept lat="57.025883203" lon="-3.60476593">
+<name>BMac058</name>
+</rtept>
+<rtept lat="57.025449948" lon="-3.607724433">
+<name>BMac059</name>
+</rtept>
+<rtept lat="57.025421043" lon="-3.608765994">
+<name>BMac060</name>
+</rtept>
+<rtept lat="57.025112731" lon="-3.610380938">
+<name>BMac061</name>
+</rtept>
+<rtept lat="57.024548756" lon="-3.612243457">
+<name>BMac062</name>
+</rtept>
+<rtept lat="57.024285624" lon="-3.614189576">
+<name>BMac063</name>
+</rtept>
+<rtept lat="57.024405409" lon="-3.616932371">
+<name>BMac064</name>
+</rtept>
+<rtept lat="57.024715474" lon="-3.618121533">
+<name>BMac065</name>
+</rtept>
+<rtept lat="57.025262906" lon="-3.619103584">
+<name>BMac066</name>
+</rtept>
+<rtept lat="57.026354261" lon="-3.622457353">
+<name>BMac067</name>
+</rtept>
+<rtept lat="57.02703485" lon="-3.623550658">
+<name>BMac068</name>
+</rtept>
+<rtept lat="57.028947542" lon="-3.625951696">
+<name>BMac069</name>
+</rtept>
+<rtept lat="57.031407981" lon="-3.627257206">
+<name>BMac070</name>
+</rtept>
+<rtept lat="57.032374132" lon="-3.627168637">
+<name>BMac071</name>
+</rtept>
+<rtept lat="57.034977002" lon="-3.628348749">
+<name>BMac072</name>
+</rtept>
+<rtept lat="57.035604802" lon="-3.629239911">
+<name>BMac073</name>
+</rtept>
+<rtept lat="57.036634754" lon="-3.629282141">
+<name>BMac074</name>
+</rtept>
+<rtept lat="57.036793383" lon="-3.629487582">
+<name>BMac075</name>
+</rtept>
+<rtept lat="57.03813239" lon="-3.629987443">
+<name>BMac076</name>
+</rtept>
+<rtept lat="57.039147546" lon="-3.630232881">
+<name>BMac077</name>
+</rtept>
+<rtept lat="57.039535587" lon="-3.63016665">
+<name>BMac078</name>
+</rtept>
+<rtept lat="57.041475025" lon="-3.631811343">
+<name>BMac079</name>
+</rtept>
+<rtept lat="57.041754113" lon="-3.631469916">
+<name>BMac080</name>
+</rtept>
+<rtept lat="57.042199607" lon="-3.631597331">
+<name>BMac081</name>
+</rtept>
+<rtept lat="57.043047132" lon="-3.632391238">
+<name>BMac082</name>
+</rtept>
+<rtept lat="57.0441735" lon="-3.634053862">
+<name>BMac083</name>
+</rtept>
+<rtept lat="57.044832824" lon="-3.634524521">
+<name>BMac084</name>
+</rtept>
+<rtept lat="57.045748201" lon="-3.635558893">
+<name>BMac085</name>
+</rtept>
+<rtept lat="57.046448896" lon="-3.63651951">
+<name>BMac086</name>
+</rtept>
+<rtept lat="57.046966068" lon="-3.637556693">
+<name>BMac087</name>
+</rtept>
+<rtept lat="57.047155996" lon="-3.637625958">
+<name>BMac088</name>
+</rtept>
+<rtept lat="57.048078251" lon="-3.640171048">
+<name>BMac089</name>
+</rtept>
+<rtept lat="57.048798651" lon="-3.641563877">
+<name>BMac090</name>
+</rtept>
+<rtept lat="57.049156154" lon="-3.6429033">
+<name>BMac091</name>
+</rtept>
+<rtept lat="57.049383628" lon="-3.642999226">
+<name>BMac092</name>
+</rtept>
+<rtept lat="57.050341755" lon="-3.645044191">
+<name>BMac093</name>
+</rtept>
+<rtept lat="57.051442011" lon="-3.646159495">
+<name>BMac094</name>
+</rtept>
+<rtept lat="57.052217427" lon="-3.64676891">
+<name>BMac095</name>
+</rtept>
+<rtept lat="57.053479184" lon="-3.647364886">
+<name>BMac096</name>
+</rtept>
+<rtept lat="57.055001105" lon="-3.649268756">
+<name>BMac097</name>
+</rtept>
+<rtept lat="57.057521557" lon="-3.651404485">
+<name>BMac098</name>
+</rtept>
+<rtept lat="57.058680611" lon="-3.652235488">
+<name>BMac099</name>
+</rtept>
+<rtept lat="57.061218589" lon="-3.653181327">
+<name>BMac100</name>
+</rtept>
+<rtept lat="57.062089521" lon="-3.654360754">
+<name>BMac101</name>
+</rtept>
+<rtept lat="57.063771341" lon="-3.655656264">
+<name>BMac102</name>
+</rtept>
+<rtept lat="57.064634399" lon="-3.655934331">
+<name>BMac103</name>
+</rtept>
+<rtept lat="57.065355255" lon="-3.655747757">
+<name>BMac104</name>
+</rtept>
+<rtept lat="57.067479942" lon="-3.656322243">
+<name>BMac105</name>
+</rtept>
+<rtept lat="57.068434005" lon="-3.659144965">
+<name>BMac106</name>
+</rtept>
+<rtept lat="57.069239726" lon="-3.660735264">
+<name>BMac107</name>
+</rtept>
+<rtept lat="57.069254389" lon="-3.662151577">
+<name>BMac108</name>
+</rtept>
+<rtept lat="57.069429541" lon="-3.663336353">
+<name>BMac109</name>
+</rtept>
+<rtept lat="57.069592344" lon="-3.665781767">
+<name>BMac110</name>
+</rtept>
+<rtept lat="57.069749319" lon="-3.666812049">
+<name>BMac111</name>
+</rtept>
+<rtept lat="57.070391601" lon="-3.669116078">
+<name>BMac112</name>
+</rtept>
+<rtept lat="57.069739392" lon="-3.66681753">
+<name>BMac113</name>
+</rtept>
+<rtept lat="57.069271179" lon="-3.662162409">
+<name>BMac114</name>
+</rtept>
+<rtept lat="57.069261602" lon="-3.66064796">
+<name>BMac115</name>
+</rtept>
+<rtept lat="57.069432853" lon="-3.659770333">
+<name>BMac116</name>
+</rtept>
+<rtept lat="57.069330252" lon="-3.655438878">
+<name>BMac117</name>
+</rtept>
+<rtept lat="57.069504281" lon="-3.652705252">
+<name>BMac118</name>
+</rtept>
+<rtept lat="57.070146004" lon="-3.651238869">
+<name>BMac119</name>
+</rtept>
+<rtept lat="57.071281992" lon="-3.64926947">
+<name>BMac120</name>
+</rtept>
+<rtept lat="57.071875028" lon="-3.648593536">
+<name>BMac121</name>
+</rtept>
+<rtept lat="57.072274919" lon="-3.648437971">
+<name>BMac122</name>
+</rtept>
+<rtept lat="57.07289268" lon="-3.645926868">
+<name>BMac123</name>
+</rtept>
+<rtept lat="57.073935786" lon="-3.643096136">
+<name>BMac124</name>
+</rtept>
+<rtept lat="57.074309538" lon="-3.64212316">
+<name>BMac125</name>
+</rtept>
+<rtept lat="57.075107114" lon="-3.641481607">
+<name>BMac126</name>
+</rtept>
+<rtept lat="57.07608958" lon="-3.639434779">
+<name>BMac127</name>
+</rtept>
+<rtept lat="57.076333682" lon="-3.638810835">
+<name>BMac128</name>
+</rtept>
+<rtept lat="57.076819798" lon="-3.636593237">
+<name>BMac129</name>
+</rtept>
+<rtept lat="57.076290112" lon="-3.635407472">
+<name>BMac130</name>
+</rtept>
+<rtept lat="57.075544893" lon="-3.635106717">
+<name>BMac131</name>
+</rtept>
+<rtept lat="57.074088393" lon="-3.633061737">
+<name>BMac132</name>
+</rtept>
+<rtept lat="57.072843542" lon="-3.632262609">
+<name>BMac133</name>
+</rtept>
+<rtept lat="57.071979633" lon="-3.63201001">
+<name>BMac134</name>
+</rtept>
+<rtept lat="57.071221009" lon="-3.631554328">
+<name>BMac135</name>
+</rtept>
+<rtept lat="57.070403355" lon="-3.63048007">
+<name>BMac136</name>
+</rtept>
+<rtept lat="57.069943584" lon="-3.630470628">
+<name>BMac137</name>
+</rtept>
+<rtept lat="57.069118201" lon="-3.629813029">
+<name>BMac138</name>
+</rtept>
+<rtept lat="57.067004837" lon="-3.629242471">
+<name>BMac139</name>
+</rtept>
+<rtept lat="57.065957439" lon="-3.628294405">
+<name>BMac140</name>
+</rtept>
+<rtept lat="57.064162948" lon="-3.624923954">
+<name>BMac141</name>
+</rtept>
+<rtept lat="57.062895762" lon="-3.62204211">
+<name>BMac142</name>
+</rtept>
+<rtept lat="57.058690183" lon="-3.618443603">
+<name>BMac143</name>
+</rtept>
+<rtept lat="57.057185396" lon="-3.617451715">
+<name>BMac144</name>
+</rtept>
+<rtept lat="57.054577653" lon="-3.61649857">
+<name>BMac145</name>
+</rtept>
+<rtept lat="57.054006847" lon="-3.615354915">
+<name>BMac146</name>
+</rtept>
+<rtept lat="57.052791614" lon="-3.614026028">
+<name>BMac147</name>
+</rtept>
+<rtept lat="57.050350682" lon="-3.611802961">
+<name>BMac148</name>
+</rtept>
+<rtept lat="57.045503968" lon="-3.609703322">
+<name>BMac149</name>
+</rtept>
+<rtept lat="57.042878332" lon="-3.60896531">
+<name>BMac150</name>
+</rtept>
+<rtept lat="57.042690255" lon="-3.608607258">
+<name>BMac151</name>
+</rtept>
+<rtept lat="57.04133526" lon="-3.608374331">
+<name>BMac152</name>
+</rtept>
+<rtept lat="57.039666832" lon="-3.606734004">
+<name>BMac153</name>
+</rtept>
+<rtept lat="57.039083035" lon="-3.605778844">
+<name>BMac154</name>
+</rtept>
+<rtept lat="57.038815579" lon="-3.605030398">
+<name>BMac155</name>
+</rtept>
+<rtept lat="57.038383076" lon="-3.604420325">
+<name>BMac156</name>
+</rtept>
+<rtept lat="57.036526114" lon="-3.600141019">
+<name>BMac157</name>
+</rtept>
+<rtept lat="57.034890626" lon="-3.597453062">
+<name>BMac158</name>
+</rtept>
+<rtept lat="57.030170633" lon="-3.591719081">
+<name>BMac159</name>
+</rtept>
+<rtept lat="57.029270691" lon="-3.591239617">
+<name>BMac160</name>
+</rtept>
+<rtept lat="57.029184305" lon="-3.591008559">
+<name>BMac161</name>
+</rtept>
+<rtept lat="57.029253599" lon="-3.590343991">
+<name>BMac162</name>
+</rtept>
+<rtept lat="57.029165098" lon="-3.589972692">
+<name>BMac163</name>
+</rtept>
+<rtept lat="57.028405606" lon="-3.5890052">
+<name>BMac164</name>
+</rtept>
+<rtept lat="57.027999724" lon="-3.588779013">
+<name>BMac165</name>
+</rtept>
+<rtept lat="57.027812329" lon="-3.588861715">
+<name>BMac166</name>
+</rtept>
+<rtept lat="57.027439743" lon="-3.588031576">
+<name>BMac167</name>
+</rtept>
+<rtept lat="57.02725782" lon="-3.588082605">
+<name>BMac168</name>
+</rtept>
+<rtept lat="57.026727785" lon="-3.587602775">
+<name>BMac169</name>
+</rtept>
+<rtept lat="57.026666314" lon="-3.58725536">
+<name>BMac170</name>
+</rtept>
+<rtept lat="57.026234553" lon="-3.586431616">
+<name>BMac171</name>
+</rtept>
+<rtept lat="57.024047681" lon="-3.583070209">
+<name>BMac172</name>
+</rtept>
+<rtept lat="57.023111058" lon="-3.582213836">
+<name>BMac173</name>
+</rtept>
+<rtept lat="57.022603637" lon="-3.58208952">
+<name>BMac174</name>
+</rtept>
+<rtept lat="57.0223106841865" lon="-3.58234119629226">
+<ele>423.140605985776</ele>
+<name>BMac175</name>
+</rtept>
+<rtept lat="57.0215654921372" lon="-3.58101801882412">
+<ele>426.79226001809</ele>
+<name>BMac176</name>
+</rtept>
+<rtept lat="57.0212113775815" lon="-3.57946108938633">
+<ele>424.185056913443</ele>
+<name>BMac177</name>
+</rtept>
+<rtept lat="57.0207557158103" lon="-3.57854563128104">
+<ele>426.417907515629</ele>
+<name>BMac178</name>
+</rtept>
+<rtept lat="57.0190923682111" lon="-3.5773550180317">
+<ele>426.049141931621</ele>
+<name>BMac179</name>
+</rtept>
+<rtept lat="57.018335904049" lon="-3.57578120626531">
+<ele>424.413950762232</ele>
+<name>BMac180</name>
+</rtept>
+<rtept lat="57.0179858631576" lon="-3.57389519979752">
+<ele>421.018498475344</ele>
+<name>BMac181</name>
+</rtept>
+<rtept lat="57.0180076128669" lon="-3.57273650299718">
+<ele>420.557950762226</ele>
+<name>BMac182</name>
+</rtept>
+<rtept lat="57.0173404381171" lon="-3.57091623197327">
+<ele>420.710568330373</ele>
+<name>BMac183</name>
+</rtept>
+<rtept lat="57.017086607298" lon="-3.5693769812646">
+<ele>421.888741038843</ele>
+<name>BMac184</name>
+</rtept>
+<rtept lat="57.0164787613284" lon="-3.56798097433696">
+<ele>419.310568330373</ele>
+<name>BMac185</name>
+</rtept>
+<rtept lat="57.0161721339009" lon="-3.56663721182405">
+<ele>421.487043579687</ele>
+<name>BMac186</name>
+</rtept>
+<rtept lat="57.0154544890981" lon="-3.56568467331418">
+<ele>419.138589639134</ele>
+<name>BMac187</name>
+</rtept>
+<rtept lat="57.0148577343362" lon="-3.56397302349172">
+<ele>419.784812060384</ele>
+<name>BMac188</name>
+</rtept>
+<rtept lat="57.0148075001033" lon="-3.56339115747827">
+<ele>421.85064372825</ele>
+<name>BMac189</name>
+</rtept>
+<rtept lat="57.0145244144988" lon="-3.56303669608003">
+<ele>420.393573837606</ele>
+<name>BMac190</name>
+</rtept>
+<rtept lat="57.0143042243988" lon="-3.56225006668227">
+<ele>419.072682940005</ele>
+<name>BMac191</name>
+</rtept>
+<rtept lat="57.013576605646" lon="-3.55834585342526">
+<ele>415.63141417423</ele>
+<name>BMac192</name>
+</rtept>
+<rtept lat="57.0135831874033" lon="-3.55723935754267">
+<ele>416.609105861938</ele>
+<name>BMac193</name>
+</rtept>
+<rtept lat="57.0127115692323" lon="-3.55305263173766">
+<ele>419.856260018078</ele>
+<name>BMac194</name>
+</rtept>
+<rtept lat="57.0097857862614" lon="-3.54785850015034">
+<ele>411.352184784508</ele>
+<name>BMac195</name>
+</rtept>
+<rtept lat="57.0089537005091" lon="-3.54684904453082">
+<ele>408.645055908456</ele>
+<name>BMac196</name>
+</rtept>
+<rtept lat="57.0068534190785" lon="-3.54522056696221">
+<ele>402.274968160488</ele>
+<name>BMac197</name>
+</rtept>
+<rtept lat="57.0049532335018" lon="-3.54281019809528">
+<ele>399.38463482435</ele>
+<name>BMac198</name>
+</rtept>
+<rtept lat="57.0040298508551" lon="-3.54424728433233">
+<ele>408.34377361143</ele>
+<name>BMac199</name>
+</rtept>
+<rtept lat="57.000016585748" lon="-3.54473956149393">
+<ele>397.860878529779</ele>
+<name>BMac200</name>
+</rtept>
+<rtept lat="56.9988516042208" lon="-3.54449372358583">
+<ele>396.81950417059</ele>
+<name>BMac201</name>
+</rtept>
+<rtept lat="56.9974110445351" lon="-3.54240584263954">
+<ele>395.187610344214</ele>
+<name>BMac202</name>
+</rtept>
+<rtept lat="56.9967837077912" lon="-3.54198479010413">
+<ele>395.006125120065</ele>
+<name>BMac203</name>
+</rtept>
+<rtept lat="56.9951084844298" lon="-3.54173112972394">
+<ele>390.887590023323</ele>
+<name>BMac204</name>
+</rtept>
+<rtept lat="56.9941968595691" lon="-3.54104815214235">
+<ele>390.457008544597</ele>
+<name>BMac205</name>
+</rtept>
+<rtept lat="56.9936692261176" lon="-3.54186914385181">
+<ele>389.722251133722</ele>
+<name>BMac206</name>
+</rtept>
+<rtept lat="56.9930593381778" lon="-3.54323978841674">
+<ele>380.709494417196</ele>
+<name>BMac207</name>
+</rtept>
+<rtept lat="56.99269424616" lon="-3.54311932930049">
+<ele>379.466929992307</ele>
+<name>BMac208</name>
+</rtept>
+<rtept lat="56.9923736398196" lon="-3.54405417874354">
+<ele>383.471774275174</ele>
+<name>BMac209</name>
+</rtept>
+<rtept lat="56.9908638368119" lon="-3.54408383118893">
+<ele>387.775127863926</ele>
+<name>BMac210</name>
+</rtept>
+<rtept lat="56.990387248444" lon="-3.54426160962918">
+<ele>381.595206391028</ele>
+<name>BMac211</name>
+</rtept>
+<rtept lat="56.9900306405496" lon="-3.5440361610173">
+<ele>377.898355357389</ele>
+<name>BMac212</name>
+</rtept>
+</rte>
+</gpx>

@@ -1,0 +1,294 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="Walkhighlands">
+<metadata>
+	<desc>GPX file from Walkhighlands; file is copyright Walkhighlands and must not be publicly shared on other websites. Do not remove this notice.</desc>
+	<copyright author="Walkhighlands"><year>2019</year></copyright>
+</metadata>
+<rte>
+<name>Meall Buidhe</name>
+<rtept lat="56.5858136314621" lon="-4.42488844597991">
+<ele>405.791627077276</ele>
+<name>MB 001</name>
+</rtept>
+<rtept lat="56.5864530687317" lon="-4.42555645393262">
+<ele>408.711352836013</ele>
+<name>MB 002</name>
+</rtept>
+<rtept lat="56.5869195692289" lon="-4.42546093572315">
+<ele>416.260962129754</ele>
+<name>MB 003</name>
+</rtept>
+<rtept lat="56.5878720663703" lon="-4.42579071383165">
+<ele>431.107860007304</ele>
+<name>MB 004</name>
+</rtept>
+<rtept lat="56.5884595204475" lon="-4.42760210187962">
+<ele>443.890484781408</ele>
+<name>MB 005</name>
+</rtept>
+<rtept lat="56.5888368063047" lon="-4.42954339170579">
+<ele>450.767488497925</ele>
+<name>MB 006</name>
+</rtept>
+<rtept lat="56.5889679239146" lon="-4.43143307387834">
+<ele>447.497061949038</ele>
+<name>MB 007</name>
+</rtept>
+<rtept lat="56.589972184019" lon="-4.43139008473062">
+<ele>466.606484781408</ele>
+<name>MB 008</name>
+</rtept>
+<rtept lat="56.5903963945325" lon="-4.43143525397472">
+<ele>478.550432568598</ele>
+<name>MB 009</name>
+</rtept>
+<rtept lat="56.5916086603543" lon="-4.43111893833052">
+<ele>520.341943456459</ele>
+<name>MB 010</name>
+</rtept>
+<rtept lat="56.5927522734686" lon="-4.43153285704578">
+<ele>552.929033539486</ele>
+<name>MB 011</name>
+</rtept>
+<rtept lat="56.5954557175052" lon="-4.43331936176536">
+<ele>613.66262477411</ele>
+<name>MB 012</name>
+</rtept>
+<rtept lat="56.5957988042588" lon="-4.43321598361198">
+<ele>621.712800623226</ele>
+<name>MB 013</name>
+</rtept>
+<rtept lat="56.5970552530543" lon="-4.43367311399256">
+<ele>647.9532736408</ele>
+<name>MB 014</name>
+</rtept>
+<rtept lat="56.597703749106" lon="-4.43387611356404">
+<ele>669.55739956646</ele>
+<name>MB 015</name>
+</rtept>
+<rtept lat="56.5982383178412" lon="-4.43383881533256">
+<ele>687.041513177228</ele>
+<name>MB 016</name>
+</rtept>
+<rtept lat="56.5988917813269" lon="-4.43429304578708">
+<ele>694.469163520372</ele>
+<name>MB 017</name>
+</rtept>
+<rtept lat="56.5991587760592" lon="-4.4347941090829">
+<ele>683.623163520384</ele>
+<name>MB 018</name>
+</rtept>
+<rtept lat="56.6005678469638" lon="-4.43477725679755">
+<ele>711.918792314118</ele>
+<name>MB 019</name>
+</rtept>
+<rtept lat="56.6007720350246" lon="-4.43495169946538">
+<ele>713.931792314112</ele>
+<name>MB 020</name>
+</rtept>
+<rtept lat="56.6011524839219" lon="-4.43470734659198">
+<ele>726.735393284982</ele>
+<name>MB 021</name>
+</rtept>
+<rtept lat="56.603445315573" lon="-4.4355001667873">
+<ele>765.739895574391</ele>
+<name>MB 022</name>
+</rtept>
+<rtept lat="56.6046384072964" lon="-4.43717224371858">
+<ele>782.734035842633</ele>
+<name>MB 023</name>
+</rtept>
+<rtept lat="56.6047544324607" lon="-4.43730518948358">
+<ele>784.615035842657</ele>
+<name>MB 024</name>
+</rtept>
+<rtept lat="56.6050016191559" lon="-4.43730319212636">
+<ele>789.048035842657</ele>
+<name>MB 025</name>
+</rtept>
+<rtept lat="56.6059223525742" lon="-4.43773894263331">
+<ele>808.092888678694</ele>
+<name>MB 026</name>
+</rtept>
+<rtept lat="56.6065959840641" lon="-4.43918052393413">
+<ele>826.335081159759</ele>
+<name>MB 027</name>
+</rtept>
+<rtept lat="56.6067617839939" lon="-4.44005163024416">
+<ele>829.728601246452</ele>
+<name>MB 028</name>
+</rtept>
+<rtept lat="56.6070242811987" lon="-4.44229131761122">
+<ele>869.905952054834</ele>
+<name>MB 029</name>
+</rtept>
+<rtept lat="56.6076820042504" lon="-4.44403673454574">
+<ele>886.805330446172</ele>
+<name>MB 030</name>
+</rtept>
+<rtept lat="56.6087603690685" lon="-4.44550466837489">
+<ele>892.192292024794</ele>
+<name>MB 031</name>
+</rtept>
+<rtept lat="56.6101878105474" lon="-4.44706698129906">
+<ele>869.469944684792</ele>
+<name>MB 032</name>
+</rtept>
+<rtept lat="56.6111391899456" lon="-4.44795320302784">
+<ele>889.761634248561</ele>
+<name>MB 033</name>
+</rtept>
+<rtept lat="56.6132037807116" lon="-4.44878606154758">
+<ele>842.988725518751</ele>
+<name>MB 034</name>
+</rtept>
+<rtept lat="56.6153653351713" lon="-4.44946393139738">
+<ele>906.259994255865</ele>
+<name>MB 035</name>
+</rtept>
+<rtept lat="56.6174144025942" lon="-4.44857464788548">
+<ele>906.85174528054</ele>
+<name>MB 036</name>
+</rtept>
+<rtept lat="56.6153653351713" lon="-4.44946393139738">
+<ele>906.259994255865</ele>
+<name>MB 037</name>
+</rtept>
+<rtept lat="56.6132037807116" lon="-4.44878606154758">
+<ele>842.988725518751</ele>
+<name>MB 038</name>
+</rtept>
+<rtept lat="56.6111391899456" lon="-4.44795320302784">
+<ele>889.761634248561</ele>
+<name>MB 039</name>
+</rtept>
+<rtept lat="56.6101878105474" lon="-4.44706698129906">
+<ele>869.469944684792</ele>
+<name>MB 040</name>
+</rtept>
+<rtept lat="56.6087603690685" lon="-4.44550466837489">
+<ele>892.192292024794</ele>
+<name>MB 041</name>
+</rtept>
+<rtept lat="56.6076820042504" lon="-4.44403673454574">
+<ele>886.805330446172</ele>
+<name>MB 042</name>
+</rtept>
+<rtept lat="56.6070242811987" lon="-4.44229131761122">
+<ele>869.905952054834</ele>
+<name>MB 043</name>
+</rtept>
+<rtept lat="56.6067617839939" lon="-4.44005163024416">
+<ele>829.728601246452</ele>
+<name>MB 044</name>
+</rtept>
+<rtept lat="56.6065959840641" lon="-4.43918052393413">
+<ele>826.335081159759</ele>
+<name>MB 045</name>
+</rtept>
+<rtept lat="56.6059223525742" lon="-4.43773894263331">
+<ele>808.092888678694</ele>
+<name>MB 046</name>
+</rtept>
+<rtept lat="56.6050016191559" lon="-4.43730319212636">
+<ele>789.048035842657</ele>
+<name>MB 047</name>
+</rtept>
+<rtept lat="56.6047544324607" lon="-4.43730518948358">
+<ele>784.615035842657</ele>
+<name>MB 048</name>
+</rtept>
+<rtept lat="56.6046384072964" lon="-4.43717224371858">
+<ele>782.734035842633</ele>
+<name>MB 049</name>
+</rtept>
+<rtept lat="56.603445315573" lon="-4.4355001667873">
+<ele>765.739895574391</ele>
+<name>MB 050</name>
+</rtept>
+<rtept lat="56.6011524839219" lon="-4.43470734659198">
+<ele>726.735393284982</ele>
+<name>MB 051</name>
+</rtept>
+<rtept lat="56.6007720350246" lon="-4.43495169946538">
+<ele>713.931792314112</ele>
+<name>MB 052</name>
+</rtept>
+<rtept lat="56.6005678469638" lon="-4.43477725679755">
+<ele>711.918792314118</ele>
+<name>MB 053</name>
+</rtept>
+<rtept lat="56.5991587760592" lon="-4.4347941090829">
+<ele>683.623163520384</ele>
+<name>MB 054</name>
+</rtept>
+<rtept lat="56.5988917813269" lon="-4.43429304578708">
+<ele>694.469163520372</ele>
+<name>MB 055</name>
+</rtept>
+<rtept lat="56.5982383178412" lon="-4.43383881533256">
+<ele>687.041513177228</ele>
+<name>MB 056</name>
+</rtept>
+<rtept lat="56.597703749106" lon="-4.43387611356404">
+<ele>669.55739956646</ele>
+<name>MB 057</name>
+</rtept>
+<rtept lat="56.5970552530543" lon="-4.43367311399256">
+<ele>647.9532736408</ele>
+<name>MB 058</name>
+</rtept>
+<rtept lat="56.5957988042588" lon="-4.43321598361198">
+<ele>621.712800623226</ele>
+<name>MB 059</name>
+</rtept>
+<rtept lat="56.5954557175052" lon="-4.43331936176536">
+<ele>613.66262477411</ele>
+<name>MB 060</name>
+</rtept>
+<rtept lat="56.5927522734686" lon="-4.43153285704578">
+<ele>552.929033539486</ele>
+<name>MB 061</name>
+</rtept>
+<rtept lat="56.5916086603543" lon="-4.43111893833052">
+<ele>520.341943456459</ele>
+<name>MB 062</name>
+</rtept>
+<rtept lat="56.5903963945325" lon="-4.43143525397472">
+<ele>478.550432568598</ele>
+<name>MB 063</name>
+</rtept>
+<rtept lat="56.589972184019" lon="-4.43139008473062">
+<ele>466.606484781408</ele>
+<name>MB 064</name>
+</rtept>
+<rtept lat="56.5889679239146" lon="-4.43143307387834">
+<ele>447.497061949038</ele>
+<name>MB 065</name>
+</rtept>
+<rtept lat="56.5888368063047" lon="-4.42954339170579">
+<ele>450.767488497925</ele>
+<name>MB 066</name>
+</rtept>
+<rtept lat="56.5884595204475" lon="-4.42760210187962">
+<ele>443.890484781408</ele>
+<name>MB 067</name>
+</rtept>
+<rtept lat="56.5878720663703" lon="-4.42579071383165">
+<ele>431.107860007304</ele>
+<name>MB 068</name>
+</rtept>
+<rtept lat="56.5869195692289" lon="-4.42546093572315">
+<ele>416.260962129754</ele>
+<name>MB 069</name>
+</rtept>
+<rtept lat="56.5864530687317" lon="-4.42555645393262">
+<ele>408.711352836013</ele>
+<name>MB 070</name>
+</rtept>
+<rtept lat="56.5858136314621" lon="-4.42488844597991">
+<ele>405.791627077276</ele>
+<name>MB 071</name>
+</rtept>
+</rte>
+</gpx>

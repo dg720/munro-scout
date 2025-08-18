@@ -1,0 +1,338 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="Walkhighlands">
+<metadata>
+	<desc>GPX file from Walkhighlands; file is copyright Walkhighlands and must not be publicly shared on other websites. Do not remove this notice.</desc>
+	<copyright author="Walkhighlands"><year>2019</year></copyright>
+</metadata>
+<rte>
+<name>Bruach na Frithe</name>
+<rtept lat="57.2888256437145" lon="-6.18415693044619">
+<ele>49.1808538031936</ele>
+<name>BNF 001</name>
+</rtept>
+<rtept lat="57.287164214818" lon="-6.18489810086163">
+<ele>47.5748792927325</ele>
+<name>BNF 002</name>
+</rtept>
+<rtept lat="57.2864151082158" lon="-6.18500552717851">
+<ele>48.6706090195447</ele>
+<name>BNF 003</name>
+</rtept>
+<rtept lat="57.2855077858443" lon="-6.18624427274282">
+<ele>53.7667185705841</ele>
+<name>BNF 004</name>
+</rtept>
+<rtept lat="57.2852437513675" lon="-6.188120721002">
+<ele>56.2454746883631</ele>
+<name>BNF 005</name>
+</rtept>
+<rtept lat="57.283908666435" lon="-6.19139632649252">
+<ele>62.1240215897441</ele>
+<name>BNF 006</name>
+</rtept>
+<rtept lat="57.2830174711479" lon="-6.19303848603568">
+<ele>69.8589621620953</ele>
+<name>BNF 007</name>
+</rtept>
+<rtept lat="57.2828734870498" lon="-6.19411807674083">
+<ele>75.3222558769956</ele>
+<name>BNF 008</name>
+</rtept>
+<rtept lat="57.282392044072" lon="-6.19560755861833">
+<ele>84.6299712452948</ele>
+<name>BNF 009</name>
+</rtept>
+<rtept lat="57.2823505671976" lon="-6.19684825920405">
+<ele>87.6923747322917</ele>
+<name>BNF 010</name>
+</rtept>
+<rtept lat="57.2820051357099" lon="-6.19830338055855">
+<ele>97.36844324314</ele>
+<name>BNF 011</name>
+</rtept>
+<rtept lat="57.281021262887" lon="-6.20144916431951">
+<ele>134.118150776374</ele>
+<name>BNF 012</name>
+</rtept>
+<rtept lat="57.2783290528752" lon="-6.2049574921715">
+<ele>158.188533343732</ele>
+<name>BNF 013</name>
+</rtept>
+<rtept lat="57.2758612105869" lon="-6.20895921820716">
+<ele>195.955758547783</ele>
+<name>BNF 014</name>
+</rtept>
+<rtept lat="57.274196751979" lon="-6.21514420729656">
+<ele>228.384760371184</ele>
+<name>BNF 015</name>
+</rtept>
+<rtept lat="57.2728590580462" lon="-6.2192245059909">
+<ele>263.694810810471</ele>
+<name>BNF 016</name>
+</rtept>
+<rtept lat="57.2705200694999" lon="-6.22299049388926">
+<ele>285.620090100592</ele>
+<name>BNF 017</name>
+</rtept>
+<rtept lat="57.2687801425692" lon="-6.22418538914841">
+<ele>299.280727874839</ele>
+<name>BNF 018</name>
+</rtept>
+<rtept lat="57.26548686811" lon="-6.22389078372237">
+<ele>337.463873263884</ele>
+<name>BNF 019</name>
+</rtept>
+<rtept lat="57.2629882338997" lon="-6.22272460325885">
+<ele>366.065120773536</ele>
+<name>BNF 020</name>
+</rtept>
+<rtept lat="57.2620472275524" lon="-6.22102345919283">
+<ele>402.353682871962</ele>
+<name>BNF 021</name>
+</rtept>
+<rtept lat="57.2598665646261" lon="-6.21928002098335">
+<ele>450.714991011667</ele>
+<name>BNF 022</name>
+</rtept>
+<rtept lat="57.2583729822708" lon="-6.21796393543302">
+<ele>493.855102796841</ele>
+<name>BNF 023</name>
+</rtept>
+<rtept lat="57.2572271072439" lon="-6.21673753189701">
+<ele>536.968832400227</ele>
+<name>BNF 024</name>
+</rtept>
+<rtept lat="57.2567675702583" lon="-6.21681780685485">
+<ele>552.2454196306</ele>
+<name>BNF 025</name>
+</rtept>
+<rtept lat="57.254141916482" lon="-6.21380932178429">
+<ele>635.102206765872</ele>
+<name>BNF 026</name>
+</rtept>
+<rtept lat="57.2529513187309" lon="-6.21219982782416">
+<ele>643.139536560736</ele>
+<name>BNF 027</name>
+</rtept>
+<rtept lat="57.2526333681641" lon="-6.21170553884392">
+<ele>656.273365360875</ele>
+<name>BNF 027 - BNF 028</name>
+</rtept>
+<rtept lat="57.2518981420318" lon="-6.2111038501461">
+<ele>677.686543921156</ele>
+<name>BNF 027 - BNF 028 - BNF 027 - BNF 028 - BNF 028</name>
+</rtept>
+<rtept lat="57.2515008390093" lon="-6.21040141743086">
+<ele>696.353521171353</ele>
+<name>BNF 027 - BNF 028 - BNF 028</name>
+</rtept>
+<rtept lat="57.2500778641124" lon="-6.20960503433767">
+<ele>766.109279242325</ele>
+<name>BNF 028</name>
+</rtept>
+<rtept lat="57.2487901283827" lon="-6.20702915305548">
+<ele>828.271173205569</ele>
+<name>BNF 029</name>
+</rtept>
+<rtept lat="57.2481502196943" lon="-6.20640034464288">
+<ele>862.133489927075</ele>
+<name>BNF 029 - BNF 030</name>
+</rtept>
+<rtept lat="57.2479697954366" lon="-6.20601477043287">
+<ele>877.516706862027</ele>
+<name>BNF 029 - BNF 030 - BNF 030</name>
+</rtept>
+<rtept lat="57.2478233597714" lon="-6.20595658685721">
+<ele>885.626200115396</ele>
+<name>BNF 029 - BNF 030 - BNF 030 - BNF 030</name>
+</rtept>
+<rtept lat="57.2476497645073" lon="-6.20509897891913">
+<ele>879.152161631595</ele>
+<name>BNF 030</name>
+</rtept>
+<rtept lat="57.2482125258688" lon="-6.20494418270033">
+<ele>878.184041538535</ele>
+<name>BNF 030 - BNF 030 - BNF 031</name>
+</rtept>
+<rtept lat="57.2489840414739" lon="-6.20516159991501">
+<ele>862.793965747406</ele>
+<name>BNF 030 - BNF 030 - BNF 031 - BNF 030 - BNF 030 - BNF 031 - BNF 030 - BNF 030 - BNF 031 - BNF 030 - BNF 030 - BNF 031 - BNF 030 - BNF 031</name>
+</rtept>
+<rtept lat="57.2501755807587" lon="-6.20580688791585">
+<ele>863.058370064015</ele>
+<name>BNF 030 - BNF 030 - BNF 031 - BNF 030 - BNF 030 - BNF 031 - BNF 030 - BNF 030 - BNF 031 - BNF 030 - BNF 031</name>
+</rtept>
+<rtept lat="57.2513523926341" lon="-6.20565745089291">
+<ele>873.317879932449</ele>
+<name>BNF 030 - BNF 030 - BNF 031 - BNF 030 - BNF 030 - BNF 031 - BNF 030 - BNF 030 - BNF 031 - BNF 030 - BNF 031 - BNF 030 - BNF 030 - BNF 031 - BNF 030 - BNF 030 - BNF 031 - BNF 030 - BNF 031</name>
+</rtept>
+<rtept lat="57.2501653288265" lon="-6.2057907860048">
+<ele>862.43647409696</ele>
+<name>BNF 030 - BNF 030 - BNF 031 - BNF 030 - BNF 030 - BNF 031 - BNF 030 - BNF 030 - BNF 031 - BNF 030 - BNF 031 - BNF 030 - BNF 030 - BNF 031 - BNF 030 - BNF 030 - BNF 031 - BNF 030 - BNF 031 - BNF 030 - BNF 030 - BNF 031 - BNF 030 - BNF 030 - BNF 031 - BNF 030 - BNF 031</name>
+</rtept>
+<rtept lat="57.2489879574113" lon="-6.20515209220894">
+<ele>862.61252386171</ele>
+<name>BNF 030 - BNF 030 - BNF 031 - BNF 030 - BNF 030 - BNF 031 - BNF 030 - BNF 031</name>
+</rtept>
+<rtept lat="57.2482052479927" lon="-6.20494667058257">
+<ele>878.313454388496</ele>
+<name>BNF 030 - BNF 030 - BNF 031 - BNF 030 - BNF 030 - BNF 031 - BNF 030 - BNF 031 - BNF 030 - BNF 030 - BNF 031 - BNF 030 - BNF 031</name>
+</rtept>
+<rtept lat="57.2476729926081" lon="-6.20507674340662">
+<ele>878.51814252845</ele>
+<name>BNF 030 - BNF 030 - BNF 031 - BNF 030 - BNF 031</name>
+</rtept>
+<rtept lat="57.2471530083478" lon="-6.20618204007368">
+<ele>890.811997115825</ele>
+<name>BNF 030 - BNF 031</name>
+</rtept>
+<rtept lat="57.2471287733965" lon="-6.20669024381341">
+<ele>882.804709795866</ele>
+<name>BNF 031</name>
+</rtept>
+<rtept lat="57.2468132356592" lon="-6.21084149728466">
+<ele>944.824856945816</ele>
+<name>BNF 032</name>
+</rtept>
+<rtept lat="57.2471842779651" lon="-6.2113616712087">
+<ele>944.512393354474</ele>
+<name>BNF 033</name>
+</rtept>
+<rtept lat="57.2476033638465" lon="-6.21302211273655">
+<ele>885.814754418538</ele>
+<name>BNF 034</name>
+</rtept>
+<rtept lat="57.2489139870872" lon="-6.21539501867128">
+<ele>831.724480204821</ele>
+<name>BNF 035</name>
+</rtept>
+<rtept lat="57.2503625522351" lon="-6.21698096256584">
+<ele>778.274420856565</ele>
+<name>BNF 036</name>
+</rtept>
+<rtept lat="57.2516692893165" lon="-6.21845114422284">
+<ele>722.484470846558</ele>
+<name>BNF 037</name>
+</rtept>
+<rtept lat="57.252549901779" lon="-6.2198361405246">
+<ele>719.329545660555</ele>
+<name>BNF 038</name>
+</rtept>
+<rtept lat="57.2534130111432" lon="-6.22013745022144">
+<ele>680.036652759218</ele>
+<name>BNF 039</name>
+</rtept>
+<rtept lat="57.2536506205898" lon="-6.22055957098662">
+<ele>668.148724955154</ele>
+<name>BNF 040</name>
+</rtept>
+<rtept lat="57.2544550248589" lon="-6.21979884951664">
+<ele>617.425801519124</ele>
+<name>BNF 041</name>
+</rtept>
+<rtept lat="57.255313055968" lon="-6.21995683646425">
+<ele>588.144793262444</ele>
+<name>BNF 041 - BNF 042</name>
+</rtept>
+<rtept lat="57.2561239600887" lon="-6.21702293906091">
+<ele>566.906121841829</ele>
+<name>BNF 042</name>
+</rtept>
+<rtept lat="57.2572153358805" lon="-6.21668640126646">
+<ele>537.598832400227</ele>
+<name>BNF 043</name>
+</rtept>
+<rtept lat="57.2583074592926" lon="-6.21790664991247">
+<ele>503.251167471313</ele>
+<name>BNF 044</name>
+</rtept>
+<rtept lat="57.2598783348667" lon="-6.21933115611062">
+<ele>450.414991011667</ele>
+<name>BNF 045</name>
+</rtept>
+<rtept lat="57.2620993109489" lon="-6.22107921670995">
+<ele>401.518623444319</ele>
+<name>BNF 046</name>
+</rtept>
+<rtept lat="57.2630655231556" lon="-6.22283304556073">
+<ele>366.485120773536</ele>
+<name>BNF 047</name>
+</rtept>
+<rtept lat="57.2654241578304" lon="-6.22388359320537">
+<ele>338.233873263884</ele>
+<name>BNF 048</name>
+</rtept>
+<rtept lat="57.2688624398496" lon="-6.22414502788233">
+<ele>298.320727874839</ele>
+<name>BNF 049</name>
+</rtept>
+<rtept lat="57.2706006970291" lon="-6.22299973869895">
+<ele>286.695578346601</ele>
+<name>BNF 050</name>
+</rtept>
+<rtept lat="57.2729178138219" lon="-6.21908182273309">
+<ele>262.494810810471</ele>
+<name>BNF 051</name>
+</rtept>
+<rtept lat="57.2742370661276" lon="-6.21514882177252">
+<ele>229.014760371184</ele>
+<name>BNF 052</name>
+</rtept>
+<rtept lat="57.2758947426624" lon="-6.20876381620846">
+<ele>195.835758547783</ele>
+<name>BNF 053</name>
+</rtept>
+<rtept lat="57.2784012312209" lon="-6.2048162992523">
+<ele>158.614021589744</ele>
+<name>BNF 054</name>
+</rtept>
+<rtept lat="57.2810478980233" lon="-6.20140570946757">
+<ele>133.978150776374</ele>
+<name>BNF 055</name>
+</rtept>
+<rtept lat="57.2820471105604" lon="-6.1982583505515">
+<ele>98.6010378379047</ele>
+<name>BNF 056</name>
+</rtept>
+<rtept lat="57.2823942008458" lon="-6.19675359909174">
+<ele>87.6323747322917</ele>
+<name>BNF 057</name>
+</rtept>
+<rtept lat="57.2824307003364" lon="-6.19566178132996">
+<ele>84.8685620984554</ele>
+<name>BNF 058</name>
+</rtept>
+<rtept lat="57.282860048656" lon="-6.19411654573482">
+<ele>75.3222558769956</ele>
+<name>BNF 059</name>
+</rtept>
+<rtept lat="57.2830443479718" lon="-6.19304154728188">
+<ele>69.7389621620953</ele>
+<name>BNF 060</name>
+</rtept>
+<rtept lat="57.2839640773778" lon="-6.19135281633184">
+<ele>62.8413081396818</ele>
+<name>BNF 061</name>
+</rtept>
+<rtept lat="57.2851638591511" lon="-6.18825112927413">
+<ele>55.9504516665041</ele>
+<name>BNF 062</name>
+</rtept>
+<rtept lat="57.2855485033722" lon="-6.186155903822">
+<ele>53.4307185705781</ele>
+<name>BNF 063</name>
+</rtept>
+<rtept lat="57.2864705171" lon="-6.18496200451058">
+<ele>48.4906090195447</ele>
+<name>BNF 064</name>
+</rtept>
+<rtept lat="57.2871736686659" lon="-6.18499217928383">
+<ele>47.3368792927325</ele>
+<name>BNF 065</name>
+</rtept>
+<rtept lat="57.2888220601006" lon="-6.18415652305278">
+<ele>49.1648538032174</ele>
+<name>BNF 066</name>
+</rtept>
+</rte>
+</gpx>

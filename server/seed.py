@@ -1,18 +1,21 @@
-import json, sqlite3, unicodedata, re
+import json
+import sqlite3
+import unicodedata
+import re
 from pathlib import Path
+from typing import Any, Dict, List
 
 DB_PATH = "db.sqlite"
 JSON_PATH = "munro_descriptions.json"
 
 
+# ---------- Helpers ----------
 def fix_mojibake(s: str) -> str:
     if not isinstance(s, str):
         return s
     try:
         repaired = s.encode("latin-1", "ignore").decode("utf-8", "ignore")
-        # Prefer the version with fewer mojibake artifacts
-        bad = ("Ã", "Â")
-        if sum(repaired.count(b) for b in bad) < sum(s.count(b) for b in bad):
+        if ("Ã" in s or "Â" in s) and (("Ã" not in repaired) and ("Â" not in repaired)):
             return repaired
     except Exception:
         pass
@@ -23,123 +26,220 @@ def to_nfc(s: str) -> str:
     return unicodedata.normalize("NFC", s or "")
 
 
-# Map curly quotes/dashes to canonical ASCII
-APOSTROPHE_MAP = {
-    "\u2019": "'",
-    "\u2018": "'",
-    "\u2032": "'",
-    "\u02bc": "'",
-}
-DASH_MAP = {
-    "\u2013": "-",  # en dash
-    "\u2014": "-",  # em dash
-    "\u2212": "-",  # minus sign
-}
+APOS = {"\u2019": "'", "\u2018": "'", "\u2032": "'", "\u02bc": "'"}
+DASH = {"\u2013": "-", "\u2014": "-", "\u2212": "-"}
 
 
-def canonicalize_for_key(name: str) -> str:
-    s = fix_mojibake(name or "")
+def clean_text(s: Any) -> Any:
+    if not isinstance(s, str):
+        return s
+    s = fix_mojibake(s)
     s = to_nfc(s)
-    # unify quotes/dashes
-    for k, v in APOSTROPHE_MAP.items():
+    for k, v in APOS.items():
         s = s.replace(k, v)
-    for k, v in DASH_MAP.items():
+    for k, v in DASH.items():
         s = s.replace(k, v)
-    # collapse whitespace, trim, casefold
-    s = re.sub(r"\s+", " ", s).strip().casefold()
     return s
 
 
-def clean_text(s: str) -> str:
-    return to_nfc(fix_mojibake(s or ""))
+def clean_gpx(path: Any) -> Any:
+    if not isinstance(path, str):
+        return path
+    return path.replace("\\", "/")
 
 
-def clean_gpx(path: str) -> str:
-    return (path or "").replace("\\", "/")  # normalize for web use
+def snake(s: str) -> str:
+    # lower, replace non-alnum with _, collapse, trim
+    s = re.sub(r"[^0-9A-Za-z]+", "_", s).strip("_").lower()
+    s = re.sub(r"_+", "_", s)
+    if not s:
+        s = "field"
+    return s
 
 
-with open(JSON_PATH, encoding="utf-8") as f:
-    data = json.load(f)
+def canonicalize_name(name: str) -> str:
+    s = clean_text(name)
+    s = re.sub(r"\s+", " ", s).strip()
+    return s
 
-# Deduplicate by canonicalized name
-seen = {}
-records = []
-for m in data:
-    name = clean_text(m.get("name", ""))
-    key = canonicalize_for_key(name)
-    rec = {
-        "name": name,
-        "normalized_name": key,
-        "summary": clean_text(m.get("summary", "")),
-        "distance": m.get("distance"),
-        "time": m.get("time"),
-        "grade": m.get("grade"),
-        "bog": m.get("bog"),
-        "start": clean_text(m.get("start", "")),
-        "gpx_file": clean_gpx(m.get("gpx_file", "")),
-    }
-    if key not in seen:
-        seen[key] = rec
+
+def canonical_key(name: str) -> str:
+    s = canonicalize_name(name)
+    s = s.casefold()
+    # unify apostrophes/dashes in key
+    s = (
+        s.replace("’", "'")
+        .replace("‘", "'")
+        .replace("–", "-")
+        .replace("—", "-")
+        .replace("−", "-")
+    )
+    return s
+
+
+def infer_sql_type(values: List[Any]) -> str:
+    """Infer a reasonable SQLite type from the dataset: INTEGER, REAL, TEXT."""
+    has_text = False
+    has_real = False
+    has_int = True
+    for v in values:
+        if v is None or v == "":
+            continue
+        if isinstance(v, bool):
+            has_text = True  # store as TEXT/INTEGER? safer to treat as TEXT for now
+            continue
+        if isinstance(v, (int,)):
+            continue
+        if isinstance(v, float):
+            has_int = False
+            has_real = True
+            continue
+        # strings: try numeric parse
+        if isinstance(v, str):
+            vs = v.strip()
+            if vs == "":
+                continue
+            try:
+                int(vs)
+            except Exception:
+                try:
+                    float(vs)
+                    has_int = False
+                    has_real = True
+                except Exception:
+                    has_text = True
+            continue
+        # any other type -> TEXT
+        has_text = True
+    if has_text:
+        return "TEXT"
+    if has_real and not has_text:
+        return "REAL"
+    if has_int and not has_text and not has_real:
+        return "INTEGER"
+    # default
+    return "TEXT"
+
+
+# ---------- Load & sanitize JSON ----------
+raw = json.loads(Path(JSON_PATH).read_text(encoding="utf-8"))
+
+# Sanitize keys and values; build records & dedupe by canonical key
+records: List[Dict[str, Any]] = []
+for row in raw:
+    if not isinstance(row, dict):
+        continue
+    sanitized: Dict[str, Any] = {}
+    for k, v in row.items():
+        sk = snake(k)
+        if sk == "name":
+            sanitized[sk] = canonicalize_name(str(v or ""))
+        elif sk == "gpx_file":
+            sanitized[sk] = clean_gpx(clean_text(v))
+        else:
+            sanitized[sk] = clean_text(v) if isinstance(v, str) else v
+    # name is required
+    name = sanitized.get("name") or ""
+    sanitized["name"] = canonicalize_name(name)
+    sanitized["normalized_name"] = canonical_key(sanitized["name"])
+    records.append(sanitized)
+
+# Deduplicate by normalized_name (merge: longer summary/description, first non-null numerics, prefer non-empty text)
+merged: Dict[str, Dict[str, Any]] = {}
+for r in records:
+    key = r["normalized_name"]
+    if key not in merged:
+        merged[key] = r
     else:
-        cur = seen[key]
-        # keep longer summary
-        if len(rec["summary"]) > len(cur["summary"]):
-            cur["summary"] = rec["summary"]
-        # take first non-null numerics
-        for f in ("distance", "time", "grade", "bog"):
-            if cur[f] in (None, "") and rec[f] not in (None, ""):
-                cur[f] = rec[f]
-        # prefer longer 'start'
-        if len(rec["start"]) > len(cur["start"]):
-            cur["start"] = rec["start"]
-        # prefer non-empty gpx_file
-        if not cur["gpx_file"] and rec["gpx_file"]:
-            cur["gpx_file"] = rec["gpx_file"]
+        cur = merged[key]
+        # prefer longer text fields
+        for tf in ("summary", "description", "start", "terrain", "public_transport"):
+            if r.get(tf) and (len(str(r.get(tf))) > len(str(cur.get(tf) or ""))):
+                cur[tf] = r[tf]
+        # prefer non-empty gpx_file/url
+        for tf in ("gpx_file", "url", "route_url"):
+            if not cur.get(tf) and r.get(tf):
+                cur[tf] = r[tf]
+        # pick numerics if missing in current
+        for nf in ("distance", "time", "grade", "bog"):
+            if cur.get(nf) in (
+                None,
+                "",
+            ) and r.get(nf) not in (
+                None,
+                "",
+            ):
+                cur[nf] = r[nf]
 
-records = list(seen.values())
-print(f"Loaded {len(data)} → {len(records)} unique after normalization.")
+rows = list(merged.values())
 
+# Determine superset of columns from JSON (sanitized), excluding internal id
+all_keys = set()
+for r in rows:
+    all_keys.update(r.keys())
+
+# Ensure name + normalized_name present
+all_keys.add("name")
+all_keys.add("normalized_name")
+
+# Order columns: id, name, normalized_name, then the rest sorted
+ordered_cols = ["id", "name", "normalized_name"] + sorted(
+    k for k in all_keys if k not in {"id", "name", "normalized_name"}
+)
+
+# Infer types for each non-internal column (except id)
+col_types: Dict[str, str] = {}
+for col in ordered_cols:
+    if col in ("id",):
+        continue
+    if col == "normalized_name":
+        col_types[col] = "TEXT"
+        continue
+    values = [r.get(col) for r in rows]
+    col_types[col] = infer_sql_type(values)
+
+# Build table
 conn = sqlite3.connect(DB_PATH)
 c = conn.cursor()
-
-# Rebuild table with normalized_name UNIQUE
 c.execute("DROP TABLE IF EXISTS munros")
-c.execute("""
-CREATE TABLE munros (
-  id INTEGER PRIMARY KEY AUTOINCREMENT,
-  name TEXT NOT NULL,
-  normalized_name TEXT NOT NULL,
-  summary TEXT,
-  distance REAL,
-  time REAL,
-  grade INTEGER,
-  bog INTEGER,
-  start TEXT,
-  gpx_file TEXT,
-  UNIQUE(normalized_name)
-)
-""")
 
-c.executemany(
-    """INSERT INTO munros
-       (name, normalized_name, summary, distance, time, grade, bog, start, gpx_file)
-       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)""",
-    [
-        (
-            r["name"],
-            r["normalized_name"],
-            r["summary"],
-            r["distance"],
-            r["time"],
-            r["grade"],
-            r["bog"],
-            r["start"],
-            r["gpx_file"],
-        )
-        for r in records
-    ],
-)
+cols_ddl = ["id INTEGER PRIMARY KEY AUTOINCREMENT"]
+for col in ordered_cols:
+    if col == "id":
+        continue
+    # ensure name & normalized_name constraints
+    if col == "name":
+        cols_ddl.append("name TEXT NOT NULL")
+        continue
+    if col == "normalized_name":
+        cols_ddl.append("normalized_name TEXT NOT NULL UNIQUE")
+        continue
+    cols_ddl.append(f"{col} {col_types[col]}")
 
+ddl = f"CREATE TABLE munros ({', '.join(cols_ddl)})"
+c.execute(ddl)
+
+# Insert rows
+insert_cols = [col for col in ordered_cols if col != "id"]
+placeholders = ", ".join("?" for _ in insert_cols)
+sql = f"INSERT INTO munros ({', '.join(insert_cols)}) VALUES ({placeholders})"
+
+vals = []
+for r in rows:
+    row_vals = []
+    for col in insert_cols:
+        v = r.get(col)
+        if col == "gpx_file" and isinstance(v, str):
+            v = clean_gpx(v)
+        if isinstance(v, str):
+            v = clean_text(v)
+        row_vals.append(v)
+    vals.append(tuple(row_vals))
+
+c.executemany(sql, vals)
 conn.commit()
 conn.close()
-print("✅ Seeded with NFC-normalized names, deduped, and web-safe GPX paths.")
+
+print(
+    f"✅ Seeded {len(rows)} unique munros with ALL JSON fields (keys sanitized to snake_case)."
+)

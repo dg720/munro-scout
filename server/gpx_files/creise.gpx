@@ -1,0 +1,726 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="Walkhighlands">
+<metadata>
+	<desc>GPX file from Walkhighlands; file is copyright Walkhighlands and must not be publicly shared on other websites. Do not remove this notice.</desc>
+	<copyright author="Walkhighlands"><year>2019</year></copyright>
+</metadata>
+<rte>
+<name>Creise and Meall a&#039;Bhùiridh from the Ski centre</name>
+<rtept lat="56.632151771" lon="-4.827835779">
+<ele>361.239911</ele>
+<name>Cre001</name>
+</rtept>
+<rtept lat="56.631815368" lon="-4.828518390">
+<ele>367.665911</ele>
+<name>Cre002</name>
+</rtept>
+<rtept lat="56.631477865" lon="-4.828972589">
+<ele>373.269186</ele>
+<name>Cre003</name>
+</rtept>
+<rtept lat="56.630955357" lon="-4.829538498">
+<ele>381.779885</ele>
+<name>Cre004</name>
+</rtept>
+<rtept lat="56.630759029" lon="-4.829318313">
+<ele>385.285797</ele>
+<name>Cre005</name>
+</rtept>
+<rtept lat="56.629594724" lon="-4.830715117">
+<ele>417.084954</ele>
+<name>Cre006</name>
+</rtept>
+<rtept lat="56.627945615" lon="-4.831573247">
+<ele>497.986431</ele>
+<name>Cre007</name>
+</rtept>
+<rtept lat="56.627096014" lon="-4.832411333">
+<ele>547.243904</ele>
+<name>Cre008</name>
+</rtept>
+<rtept lat="56.625774648" lon="-4.833796133">
+<ele>618.862907</ele>
+<name>Cre009</name>
+</rtept>
+<rtept lat="56.625149593" lon="-4.834719450">
+<ele>647.390239</ele>
+<name>Cre010</name>
+</rtept>
+<rtept lat="56.625127467" lon="-4.835414043">
+<ele>651.995077</ele>
+<name>Cre011</name>
+</rtept>
+<rtept lat="56.624592889" lon="-4.835956039">
+<ele>665.727986</ele>
+<name>Cre012</name>
+</rtept>
+<rtept lat="56.624308294" lon="-4.836847781">
+<ele>677.698077</ele>
+<name>Cre013</name>
+</rtept>
+<rtept lat="56.624342248" lon="-4.838117257">
+<ele>684.465784</ele>
+<name>Cre014</name>
+</rtept>
+<rtept lat="56.624751934" lon="-4.838912756">
+<ele>684.374636</ele>
+<name>Cre015</name>
+</rtept>
+<rtept lat="56.624736809" lon="-4.839299692">
+<ele>686.241910</ele>
+<name>Cre016</name>
+</rtept>
+<rtept lat="56.625081596" lon="-4.840181646">
+<ele>691.188269</ele>
+<name>Cre017</name>
+</rtept>
+<rtept lat="56.625216205" lon="-4.840899433">
+<ele>696.483471</ele>
+<name>Cre018</name>
+</rtept>
+<rtept lat="56.624681960" lon="-4.842251764">
+<ele>702.190221</ele>
+<name>Cre019</name>
+</rtept>
+<rtept lat="56.624467624" lon="-4.842269885">
+<ele>701.404106</ele>
+<name>Cre020</name>
+</rtept>
+<rtept lat="56.624186602" lon="-4.842728126">
+<ele>700.972305</ele>
+<name>Cre021</name>
+</rtept>
+<rtept lat="56.624098466" lon="-4.843280767">
+<ele>701.786028</ele>
+<name>Cre022</name>
+</rtept>
+<rtept lat="56.624188802" lon="-4.843732700">
+<ele>703.898437</ele>
+<name>Cre023</name>
+</rtept>
+<rtept lat="56.624159015" lon="-4.844209835">
+<ele>705.862289</ele>
+<name>Cre024</name>
+</rtept>
+<rtept lat="56.624401916" lon="-4.844593358">
+<ele>710.441849</ele>
+<name>Cre025</name>
+</rtept>
+<rtept lat="56.624487319" lon="-4.845535721">
+<ele>714.879268</ele>
+<name>Cre026</name>
+</rtept>
+<rtept lat="56.624480279" lon="-4.845843364">
+<ele>715.746312</ele>
+<name>Cre027</name>
+</rtept>
+<rtept lat="56.624057193" lon="-4.847009943">
+<ele>720.720644</ele>
+<name>Cre028</name>
+</rtept>
+<rtept lat="56.624049628" lon="-4.847340370">
+<ele>722.295452</ele>
+<name>Cre029</name>
+</rtept>
+<rtept lat="56.624024021" lon="-4.847909126">
+<ele>724.541740</ele>
+<name>Cre030</name>
+</rtept>
+<rtept lat="56.623664475" lon="-4.848498365">
+<ele>731.402230</ele>
+<name>Cre031</name>
+</rtept>
+<rtept lat="56.622850329" lon="-4.848882122">
+<ele>744.392555</ele>
+<name>Cre032</name>
+</rtept>
+<rtept lat="56.621670041" lon="-4.849044238">
+<ele>771.392826</ele>
+<name>Cre033</name>
+</rtept>
+<rtept lat="56.621366726" lon="-4.849101264">
+<ele>780.665881</ele>
+<name>Cre034</name>
+</rtept>
+<rtept lat="56.621190875" lon="-4.849361916">
+<ele>785.813612</ele>
+<name>Cre035</name>
+</rtept>
+<rtept lat="56.620725037" lon="-4.849372448">
+<ele>801.287817</ele>
+<name>Cre036</name>
+</rtept>
+<rtept lat="56.619993064" lon="-4.849739529">
+<ele>823.173750</ele>
+<name>Cre037</name>
+</rtept>
+<rtept lat="56.619620934" lon="-4.850053843">
+<ele>833.705014</ele>
+<name>Cre038</name>
+</rtept>
+<rtept lat="56.618819025" lon="-4.849354298">
+<ele>859.925240</ele>
+<name>Cre039</name>
+</rtept>
+<rtept lat="56.618544766" lon="-4.849516217">
+<ele>866.731219</ele>
+<name>Cre040</name>
+</rtept>
+<rtept lat="56.617680369" lon="-4.849896115">
+<ele>906.395447</ele>
+<name>Cre041</name>
+</rtept>
+<rtept lat="56.617017499" lon="-4.850542247">
+<ele>926.561399</ele>
+<name>Cre042</name>
+</rtept>
+<rtept lat="56.616656074" lon="-4.850389466">
+<ele>942.078861</ele>
+<name>Cre043</name>
+</rtept>
+<rtept lat="56.616452719" lon="-4.850202961">
+<ele>950.875377</ele>
+<name>Cre044</name>
+</rtept>
+<rtept lat="56.616108845" lon="-4.850382437">
+<ele>968.457397</ele>
+<name>Cre045</name>
+</rtept>
+<rtept lat="56.615776240" lon="-4.850893685">
+<ele>978.671599</ele>
+<name>Cre046</name>
+</rtept>
+<rtept lat="56.615437328" lon="-4.850856715">
+<ele>990.275585</ele>
+<name>Cre047</name>
+</rtept>
+<rtept lat="56.614892972" lon="-4.850724377">
+<ele>1012.760810</ele>
+<name>Cre048</name>
+</rtept>
+<rtept lat="56.614795884" lon="-4.850842576">
+<ele>1017.328737</ele>
+<name>Cre049</name>
+</rtept>
+<rtept lat="56.614590701" lon="-4.850735816">
+<ele>1025.711366</ele>
+<name>Cre050</name>
+</rtept>
+<rtept lat="56.614329524" lon="-4.850875873">
+<ele>1034.531366</ele>
+<name>Cre051</name>
+</rtept>
+<rtept lat="56.614132475" lon="-4.851237567">
+<ele>1039.148941</ele>
+<name>Cre052</name>
+</rtept>
+<rtept lat="56.613609586" lon="-4.851266595">
+<ele>1060.239848</ele>
+<name>Cre053</name>
+</rtept>
+<rtept lat="56.613259952" lon="-4.851422794">
+<ele>1075.756975</ele>
+<name>Cre054</name>
+</rtept>
+<rtept lat="56.612562524" lon="-4.851929296">
+<ele>1097.874300</ele>
+<name>Cre055</name>
+</rtept>
+<rtept lat="56.612349493" lon="-4.851890406">
+<ele>1104.800010</ele>
+<name>Cre056</name>
+</rtept>
+<rtept lat="56.612262364" lon="-4.852397292">
+<ele>1098.663303</ele>
+<name>Cre057</name>
+</rtept>
+<rtept lat="56.611859906" lon="-4.854032796">
+<ele>1071.908449</ele>
+<name>Cre058</name>
+</rtept>
+<rtept lat="56.611808357" lon="-4.854359795">
+<ele>1065.176940</ele>
+<name>Cre059</name>
+</rtept>
+<rtept lat="56.611596121" lon="-4.854834402">
+<ele>1050.280538</ele>
+<name>Cre060</name>
+</rtept>
+<rtept lat="56.611420267" lon="-4.855916476">
+<ele>1020.819106</ele>
+<name>Cre061</name>
+</rtept>
+<rtept lat="56.611117214" lon="-4.856783552">
+<ele>1001.969076</ele>
+<name>Cre062</name>
+</rtept>
+<rtept lat="56.610720198" lon="-4.858179770">
+<ele>972.672727</ele>
+<name>Cre063</name>
+</rtept>
+<rtept lat="56.610192564" lon="-4.860056692">
+<ele>946.126182</ele>
+<name>Cre064</name>
+</rtept>
+<rtept lat="56.610103559" lon="-4.860917085">
+<ele>936.511886</ele>
+<name>Cre065</name>
+</rtept>
+<rtept lat="56.609954642" lon="-4.861099779">
+<ele>934.871331</ele>
+<name>Cre066</name>
+</rtept>
+<rtept lat="56.609797064" lon="-4.861932156">
+<ele>929.986625</ele>
+<name>Cre067</name>
+</rtept>
+<rtept lat="56.609597598" lon="-4.862943904">
+<ele>915.700373</ele>
+<name>Cre068</name>
+</rtept>
+<rtept lat="56.609542091" lon="-4.863441715">
+<ele>914.083824</ele>
+<name>Cre069</name>
+</rtept>
+<rtept lat="56.609519808" lon="-4.864135999">
+<ele>920.137987</ele>
+<name>Cre070</name>
+</rtept>
+<rtept lat="56.609398583" lon="-4.865028155">
+<ele>925.863010</ele>
+<name>Cre071</name>
+</rtept>
+<rtept lat="56.609374107" lon="-4.866908843">
+<ele>938.756380</ele>
+<name>Cre072</name>
+</rtept>
+<rtept lat="56.609445755" lon="-4.867621657">
+<ele>954.572167</ele>
+<name>Cre073</name>
+</rtept>
+<rtept lat="56.609425550" lon="-4.868224821">
+<ele>970.994915</ele>
+<name>Cre074</name>
+</rtept>
+<rtept lat="56.609353045" lon="-4.868367643">
+<ele>975.421971</ele>
+<name>Cre075</name>
+</rtept>
+<rtept lat="56.609409784" lon="-4.868908187">
+<ele>991.428324</ele>
+<name>Cre076</name>
+</rtept>
+<rtept lat="56.609270526" lon="-4.869217083">
+<ele>1006.597992</ele>
+<name>Cre077</name>
+</rtept>
+<rtept lat="56.609124433" lon="-4.869822098">
+<ele>1017.210734</ele>
+<name>Cre078</name>
+</rtept>
+<rtept lat="56.609105269" lon="-4.870379699">
+<ele>1033.877019</ele>
+<name>Cre079</name>
+</rtept>
+<rtept lat="56.608866009" lon="-4.870931997">
+<ele>1056.867260</ele>
+<name>Cre080</name>
+</rtept>
+<rtept lat="56.608979265" lon="-4.871476831">
+<ele>1060.829260</ele>
+<name>Cre081</name>
+</rtept>
+<rtept lat="56.609083903" lon="-4.871849874">
+<ele>1061.495625</ele>
+<name>Cre082</name>
+</rtept>
+<rtept lat="56.609552007" lon="-4.872558584">
+<ele>1060.979574</ele>
+<name>Cre083</name>
+</rtept>
+<rtept lat="56.610062004" lon="-4.873087941">
+<ele>1059.762466</ele>
+<name>Cre084</name>
+</rtept>
+<rtept lat="56.611166611" lon="-4.873479948">
+<ele>1060.631372</ele>
+<name>Cre085</name>
+</rtept>
+<rtept lat="56.612036039" lon="-4.873158080">
+<ele>1057.339238</ele>
+<name>Cre086</name>
+</rtept>
+<rtept lat="56.613200668" lon="-4.872858630">
+<ele>1068.705392</ele>
+<name>Cre087</name>
+</rtept>
+<rtept lat="56.613705541" lon="-4.872520443">
+<ele>1082.039318</ele>
+<name>Cre088</name>
+</rtept>
+<rtept lat="56.614376084" lon="-4.872092137">
+<ele>1091.167587</ele>
+<name>Cre089</name>
+</rtept>
+<rtept lat="56.614455401" lon="-4.871926999">
+<ele>1088.566328</ele>
+<name>Cre090</name>
+</rtept>
+<rtept lat="56.614376084" lon="-4.872092137">
+<ele>1091.167587</ele>
+<name>Cre091</name>
+</rtept>
+<rtept lat="56.613705541" lon="-4.872520443">
+<ele>1082.039318</ele>
+<name>Cre092</name>
+</rtept>
+<rtept lat="56.613200668" lon="-4.872858630">
+<ele>1068.705392</ele>
+<name>Cre093</name>
+</rtept>
+<rtept lat="56.612036039" lon="-4.873158080">
+<ele>1057.339238</ele>
+<name>Cre094</name>
+</rtept>
+<rtept lat="56.611166611" lon="-4.873479948">
+<ele>1060.631372</ele>
+<name>Cre095</name>
+</rtept>
+<rtept lat="56.610062004" lon="-4.873087941">
+<ele>1059.762466</ele>
+<name>Cre096</name>
+</rtept>
+<rtept lat="56.609552007" lon="-4.872558584">
+<ele>1060.979574</ele>
+<name>Cre097</name>
+</rtept>
+<rtept lat="56.609083903" lon="-4.871849874">
+<ele>1061.495625</ele>
+<name>Cre098</name>
+</rtept>
+<rtept lat="56.608979265" lon="-4.871476831">
+<ele>1060.829260</ele>
+<name>Cre099</name>
+</rtept>
+<rtept lat="56.608866009" lon="-4.870931997">
+<ele>1056.867260</ele>
+<name>Cre100</name>
+</rtept>
+<rtept lat="56.609105269" lon="-4.870379699">
+<ele>1033.877019</ele>
+<name>Cre101</name>
+</rtept>
+<rtept lat="56.609124433" lon="-4.869822098">
+<ele>1017.210734</ele>
+<name>Cre102</name>
+</rtept>
+<rtept lat="56.609270526" lon="-4.869217083">
+<ele>1006.597992</ele>
+<name>Cre103</name>
+</rtept>
+<rtept lat="56.609409784" lon="-4.868908187">
+<ele>991.428324</ele>
+<name>Cre104</name>
+</rtept>
+<rtept lat="56.609353045" lon="-4.868367643">
+<ele>975.421971</ele>
+<name>Cre105</name>
+</rtept>
+<rtept lat="56.609425550" lon="-4.868224821">
+<ele>970.994915</ele>
+<name>Cre106</name>
+</rtept>
+<rtept lat="56.609445755" lon="-4.867621657">
+<ele>954.572167</ele>
+<name>Cre107</name>
+</rtept>
+<rtept lat="56.609374107" lon="-4.866908843">
+<ele>938.756380</ele>
+<name>Cre108</name>
+</rtept>
+<rtept lat="56.609398583" lon="-4.865028155">
+<ele>925.863010</ele>
+<name>Cre109</name>
+</rtept>
+<rtept lat="56.609519808" lon="-4.864135999">
+<ele>920.137987</ele>
+<name>Cre110</name>
+</rtept>
+<rtept lat="56.609542091" lon="-4.863441715">
+<ele>914.083824</ele>
+<name>Cre111</name>
+</rtept>
+<rtept lat="56.609597598" lon="-4.862943904">
+<ele>915.700373</ele>
+<name>Cre112</name>
+</rtept>
+<rtept lat="56.609797064" lon="-4.861932156">
+<ele>929.986625</ele>
+<name>Cre113</name>
+</rtept>
+<rtept lat="56.609954642" lon="-4.861099779">
+<ele>934.871331</ele>
+<name>Cre114</name>
+</rtept>
+<rtept lat="56.610103559" lon="-4.860917085">
+<ele>936.511886</ele>
+<name>Cre115</name>
+</rtept>
+<rtept lat="56.610192564" lon="-4.860056692">
+<ele>946.126182</ele>
+<name>Cre116</name>
+</rtept>
+<rtept lat="56.610720198" lon="-4.858179770">
+<ele>972.672727</ele>
+<name>Cre117</name>
+</rtept>
+<rtept lat="56.611117214" lon="-4.856783552">
+<ele>1001.969076</ele>
+<name>Cre118</name>
+</rtept>
+<rtept lat="56.611420267" lon="-4.855916476">
+<ele>1020.819106</ele>
+<name>Cre119</name>
+</rtept>
+<rtept lat="56.611596121" lon="-4.854834402">
+<ele>1050.280538</ele>
+<name>Cre120</name>
+</rtept>
+<rtept lat="56.611808357" lon="-4.854359795">
+<ele>1065.176940</ele>
+<name>Cre121</name>
+</rtept>
+<rtept lat="56.611859906" lon="-4.854032796">
+<ele>1071.908449</ele>
+<name>Cre122</name>
+</rtept>
+<rtept lat="56.612262364" lon="-4.852397292">
+<ele>1098.663303</ele>
+<name>Cre123</name>
+</rtept>
+<rtept lat="56.612349493" lon="-4.851890406">
+<ele>1104.800010</ele>
+<name>Cre124</name>
+</rtept>
+<rtept lat="56.612562524" lon="-4.851929296">
+<ele>1097.874300</ele>
+<name>Cre125</name>
+</rtept>
+<rtept lat="56.613259952" lon="-4.851422794">
+<ele>1075.756975</ele>
+<name>Cre126</name>
+</rtept>
+<rtept lat="56.613609586" lon="-4.851266595">
+<ele>1060.239848</ele>
+<name>Cre127</name>
+</rtept>
+<rtept lat="56.614132475" lon="-4.851237567">
+<ele>1039.148941</ele>
+<name>Cre128</name>
+</rtept>
+<rtept lat="56.614329524" lon="-4.850875873">
+<ele>1034.531366</ele>
+<name>Cre129</name>
+</rtept>
+<rtept lat="56.614590701" lon="-4.850735816">
+<ele>1025.711366</ele>
+<name>Cre130</name>
+</rtept>
+<rtept lat="56.614795884" lon="-4.850842576">
+<ele>1017.328737</ele>
+<name>Cre131</name>
+</rtept>
+<rtept lat="56.614892972" lon="-4.850724377">
+<ele>1012.760810</ele>
+<name>Cre132</name>
+</rtept>
+<rtept lat="56.615437328" lon="-4.850856715">
+<ele>990.275585</ele>
+<name>Cre133</name>
+</rtept>
+<rtept lat="56.615776240" lon="-4.850893685">
+<ele>978.671599</ele>
+<name>Cre134</name>
+</rtept>
+<rtept lat="56.616108845" lon="-4.850382437">
+<ele>968.457397</ele>
+<name>Cre135</name>
+</rtept>
+<rtept lat="56.616452719" lon="-4.850202961">
+<ele>950.875377</ele>
+<name>Cre136</name>
+</rtept>
+<rtept lat="56.616656074" lon="-4.850389466">
+<ele>942.078861</ele>
+<name>Cre137</name>
+</rtept>
+<rtept lat="56.617017499" lon="-4.850542247">
+<ele>926.561399</ele>
+<name>Cre138</name>
+</rtept>
+<rtept lat="56.617680369" lon="-4.849896115">
+<ele>906.395447</ele>
+<name>Cre139</name>
+</rtept>
+<rtept lat="56.618544766" lon="-4.849516217">
+<ele>866.731219</ele>
+<name>Cre140</name>
+</rtept>
+<rtept lat="56.618819025" lon="-4.849354298">
+<ele>859.925240</ele>
+<name>Cre141</name>
+</rtept>
+<rtept lat="56.619620934" lon="-4.850053843">
+<ele>833.705014</ele>
+<name>Cre142</name>
+</rtept>
+<rtept lat="56.619993064" lon="-4.849739529">
+<ele>823.173750</ele>
+<name>Cre143</name>
+</rtept>
+<rtept lat="56.620725037" lon="-4.849372448">
+<ele>801.287817</ele>
+<name>Cre144</name>
+</rtept>
+<rtept lat="56.621190875" lon="-4.849361916">
+<ele>785.813612</ele>
+<name>Cre145</name>
+</rtept>
+<rtept lat="56.621366726" lon="-4.849101264">
+<ele>780.665881</ele>
+<name>Cre146</name>
+</rtept>
+<rtept lat="56.621670041" lon="-4.849044238">
+<ele>771.392826</ele>
+<name>Cre147</name>
+</rtept>
+<rtept lat="56.622850329" lon="-4.848882122">
+<ele>744.392555</ele>
+<name>Cre148</name>
+</rtept>
+<rtept lat="56.623664475" lon="-4.848498365">
+<ele>731.402230</ele>
+<name>Cre149</name>
+</rtept>
+<rtept lat="56.624024021" lon="-4.847909126">
+<ele>724.541740</ele>
+<name>Cre150</name>
+</rtept>
+<rtept lat="56.624049628" lon="-4.847340370">
+<ele>722.295452</ele>
+<name>Cre151</name>
+</rtept>
+<rtept lat="56.624057193" lon="-4.847009943">
+<ele>720.720644</ele>
+<name>Cre152</name>
+</rtept>
+<rtept lat="56.624480279" lon="-4.845843364">
+<ele>715.746312</ele>
+<name>Cre153</name>
+</rtept>
+<rtept lat="56.624487319" lon="-4.845535721">
+<ele>714.879268</ele>
+<name>Cre154</name>
+</rtept>
+<rtept lat="56.624401916" lon="-4.844593358">
+<ele>710.441849</ele>
+<name>Cre155</name>
+</rtept>
+<rtept lat="56.624159015" lon="-4.844209835">
+<ele>705.862289</ele>
+<name>Cre156</name>
+</rtept>
+<rtept lat="56.624188802" lon="-4.843732700">
+<ele>703.898437</ele>
+<name>Cre157</name>
+</rtept>
+<rtept lat="56.624098466" lon="-4.843280767">
+<ele>701.786028</ele>
+<name>Cre158</name>
+</rtept>
+<rtept lat="56.624186602" lon="-4.842728126">
+<ele>700.972305</ele>
+<name>Cre159</name>
+</rtept>
+<rtept lat="56.624467624" lon="-4.842269885">
+<ele>701.404106</ele>
+<name>Cre160</name>
+</rtept>
+<rtept lat="56.624681960" lon="-4.842251764">
+<ele>702.190221</ele>
+<name>Cre161</name>
+</rtept>
+<rtept lat="56.625216205" lon="-4.840899433">
+<ele>696.483471</ele>
+<name>Cre162</name>
+</rtept>
+<rtept lat="56.625081596" lon="-4.840181646">
+<ele>691.188269</ele>
+<name>Cre163</name>
+</rtept>
+<rtept lat="56.624736809" lon="-4.839299692">
+<ele>686.241910</ele>
+<name>Cre164</name>
+</rtept>
+<rtept lat="56.624751934" lon="-4.838912756">
+<ele>684.374636</ele>
+<name>Cre165</name>
+</rtept>
+<rtept lat="56.624342248" lon="-4.838117257">
+<ele>684.465784</ele>
+<name>Cre166</name>
+</rtept>
+<rtept lat="56.624308294" lon="-4.836847781">
+<ele>677.698077</ele>
+<name>Cre167</name>
+</rtept>
+<rtept lat="56.624592889" lon="-4.835956039">
+<ele>665.727986</ele>
+<name>Cre168</name>
+</rtept>
+<rtept lat="56.625127467" lon="-4.835414043">
+<ele>651.995077</ele>
+<name>Cre169</name>
+</rtept>
+<rtept lat="56.625149593" lon="-4.834719450">
+<ele>647.390239</ele>
+<name>Cre170</name>
+</rtept>
+<rtept lat="56.625774648" lon="-4.833796133">
+<ele>618.862907</ele>
+<name>Cre171</name>
+</rtept>
+<rtept lat="56.627096014" lon="-4.832411333">
+<ele>547.243904</ele>
+<name>Cre172</name>
+</rtept>
+<rtept lat="56.627945615" lon="-4.831573247">
+<ele>497.986431</ele>
+<name>Cre173</name>
+</rtept>
+<rtept lat="56.629594724" lon="-4.830715117">
+<ele>417.084954</ele>
+<name>Cre174</name>
+</rtept>
+<rtept lat="56.630759029" lon="-4.829318313">
+<ele>385.285797</ele>
+<name>Cre175</name>
+</rtept>
+<rtept lat="56.630955357" lon="-4.829538498">
+<ele>381.779885</ele>
+<name>Cre176</name>
+</rtept>
+<rtept lat="56.631477865" lon="-4.828972589">
+<ele>373.269186</ele>
+<name>Cre177</name>
+</rtept>
+<rtept lat="56.631815368" lon="-4.828518390">
+<ele>367.665911</ele>
+<name>Cre178</name>
+</rtept>
+<rtept lat="56.632151771" lon="-4.827835779">
+<ele>361.239911</ele>
+<name>Cre179</name>
+</rtept>
+</rte>
+</gpx>

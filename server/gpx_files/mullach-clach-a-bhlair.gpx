@@ -1,0 +1,826 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="Walkhighlands">
+<metadata>
+	<desc>GPX file from Walkhighlands; file is copyright Walkhighlands and must not be publicly shared on other websites. Do not remove this notice.</desc>
+	<copyright author="Walkhighlands"><year>2019</year></copyright>
+</metadata>
+<rte>
+<name>Mullach Clach a&#039; Bhlàir</name>
+<rtept lat="57.0630182720378" lon="-3.89710590904046">
+<ele>321.654022357798</ele>
+<name>MCaB001</name>
+</rtept>
+<rtept lat="57.0622349124429" lon="-3.89650189272112">
+<ele>318.805272323298</ele>
+<name>MCaB002</name>
+</rtept>
+<rtept lat="57.0610753539827" lon="-3.89617557667565">
+<ele>334.292088000941</ele>
+<name>MCaB003</name>
+</rtept>
+<rtept lat="57.0602277937322" lon="-3.89553865464785">
+<ele>324.396537465453</ele>
+<name>MCaB004</name>
+</rtept>
+<rtept lat="57.059520743732" lon="-3.89523545125906">
+<ele>323.439170190519</ele>
+<name>MCaB005</name>
+</rtept>
+<rtept lat="57.0592338823018" lon="-3.89495367258856">
+<ele>322.932136653805</ele>
+<name>MCaB006</name>
+</rtept>
+<rtept lat="57.0581057437638" lon="-3.89468840075504">
+<ele>328.077199729443</ele>
+<name>MCaB007</name>
+</rtept>
+<rtept lat="57.0566238535216" lon="-3.89428639668279">
+<ele>332.694343932819</ele>
+<name>MCaB008</name>
+</rtept>
+<rtept lat="57.0561834781746" lon="-3.89334217101007">
+<ele>330.905390341348</ele>
+<name>MCaB009</name>
+</rtept>
+<rtept lat="57.0551143918608" lon="-3.89130901822553">
+<ele>334.286930617809</ele>
+<name>MCaB010</name>
+</rtept>
+<rtept lat="57.0540685527608" lon="-3.89213800214241">
+<ele>338.882337059635</ele>
+<name>MCaB011</name>
+</rtept>
+<rtept lat="57.0529309975995" lon="-3.89249563921652">
+<ele>340.507861685497</ele>
+<name>MCaB012</name>
+</rtept>
+<rtept lat="57.0508107707263" lon="-3.89366389516197">
+<ele>339.213702673882</ele>
+<name>MCaB013</name>
+</rtept>
+<rtept lat="57.0503420968892" lon="-3.8936400354891">
+<ele>343.926931634331</ele>
+<name>MCaB014</name>
+</rtept>
+<rtept lat="57.0493041949493" lon="-3.89382460971694">
+<ele>340.497268693948</ele>
+<name>MCaB015</name>
+</rtept>
+<rtept lat="57.048013543202" lon="-3.89361052787235">
+<ele>334.01337414813</ele>
+<name>MCaB016</name>
+</rtept>
+<rtept lat="57.0463996671476" lon="-3.89338001169879">
+<ele>342.271868558681</ele>
+<name>MCaB017</name>
+</rtept>
+<rtept lat="57.0457298618609" lon="-3.89275245567057">
+<ele>340.415799594164</ele>
+<name>MCaB018</name>
+</rtept>
+<rtept lat="57.0449990230669" lon="-3.89295265750493">
+<ele>342.272833130884</ele>
+<name>MCaB019</name>
+</rtept>
+<rtept lat="57.0434619390254" lon="-3.89406131970846">
+<ele>337.764001660693</ele>
+<name>MCaB020</name>
+</rtept>
+<rtept lat="57.0426350893085" lon="-3.89434319856275">
+<ele>332.700255789022</ele>
+<name>MCaB021</name>
+</rtept>
+<rtept lat="57.0420628594914" lon="-3.89403714120207">
+<ele>338.08697055087</ele>
+<name>MCaB022</name>
+</rtept>
+<rtept lat="57.0415507896481" lon="-3.8940308559771">
+<ele>343.378285382404</ele>
+<name>MCaB023</name>
+</rtept>
+<rtept lat="57.0412048271066" lon="-3.89444840327458">
+<ele>343.09424675501</ele>
+<name>MCaB024</name>
+</rtept>
+<rtept lat="57.0409760326246" lon="-3.89496091831491">
+<ele>340.396648020057</ele>
+<name>MCaB025</name>
+</rtept>
+<rtept lat="57.040451037364" lon="-3.89530251429706">
+<ele>339.865746036744</ele>
+<name>MCaB026</name>
+</rtept>
+<rtept lat="57.0398302393726" lon="-3.89550583438055">
+<ele>344.043570194774</ele>
+<name>MCaB027</name>
+</rtept>
+<rtept lat="57.0386894687017" lon="-3.89521279653553">
+<ele>345.410610367227</ele>
+<name>MCaB028</name>
+</rtept>
+<rtept lat="57.0378925399882" lon="-3.89494235286971">
+<ele>354.972292344045</ele>
+<name>MCaB029</name>
+</rtept>
+<rtept lat="57.0373717928016" lon="-3.89515317148218">
+<ele>355.144669683441</ele>
+<name>MCaB030</name>
+</rtept>
+<rtept lat="57.0362806117498" lon="-3.89493938866294">
+<ele>358.338780270872</ele>
+<name>MCaB031</name>
+</rtept>
+<rtept lat="57.0357923364354" lon="-3.8951419636542">
+<ele>357.265397934568</ele>
+<name>MCaB032</name>
+</rtept>
+<rtept lat="57.0353151267728" lon="-3.89461335758264">
+<ele>353.223387438597</ele>
+<name>MCaB033</name>
+</rtept>
+<rtept lat="57.0353529805653" lon="-3.89424941450169">
+<ele>354.91247547109</ele>
+<name>MCaB034</name>
+</rtept>
+<rtept lat="57.0351312139136" lon="-3.89429745763038">
+<ele>356.361415686132</ele>
+<name>MCaB035</name>
+</rtept>
+<rtept lat="57.0349691654226" lon="-3.8953868089059">
+<ele>351.280388872842</ele>
+<name>MCaB036</name>
+</rtept>
+<rtept lat="57.0341750251099" lon="-3.89585065979318">
+<ele>348.327609382211</ele>
+<name>MCaB037</name>
+</rtept>
+<rtept lat="57.033879957426" lon="-3.89700076546419">
+<ele>344.020851034959</ele>
+<name>MCaB038</name>
+</rtept>
+<rtept lat="57.0336169606512" lon="-3.89745703799617">
+<ele>345.004933647348</ele>
+<name>MCaB039</name>
+</rtept>
+<rtept lat="57.03216547984" lon="-3.89745885375912">
+<ele>360.882135510626</ele>
+<name>MCaB040</name>
+</rtept>
+<rtept lat="57.0319615527244" lon="-3.89818837054966">
+<ele>359.688913839791</ele>
+<name>MCaB041</name>
+</rtept>
+<rtept lat="57.0313468346382" lon="-3.89835312404597">
+<ele>360.028599393381</ele>
+<name>MCaB042</name>
+</rtept>
+<rtept lat="57.0304758599028" lon="-3.89772042558851">
+<ele>363.362500599435</ele>
+<name>MCaB043</name>
+</rtept>
+<rtept lat="57.0303103365782" lon="-3.89725883111844">
+<ele>363.55404386532</ele>
+<name>MCaB044</name>
+</rtept>
+<rtept lat="57.0300998904136" lon="-3.89744914099051">
+<ele>360.730043865321</ele>
+<name>MCaB045</name>
+</rtept>
+<rtept lat="57.0300629979721" lon="-3.89717701486779">
+<ele>361.676868054224</ele>
+<name>MCaB046</name>
+</rtept>
+<rtept lat="57.029482017403" lon="-3.89727099186299">
+<ele>356.462262783896</ele>
+<name>MCaB047</name>
+</rtept>
+<rtept lat="57.0267132916179" lon="-3.89586942010462">
+<ele>359.730522782865</ele>
+<name>MCaB048</name>
+</rtept>
+<rtept lat="57.0261985279829" lon="-3.89604092678573">
+<ele>354.641577066625</ele>
+<name>MCaB049</name>
+</rtept>
+<rtept lat="57.025662610763" lon="-3.89541389638086">
+<ele>358.02748119302</ele>
+<name>MCaB050</name>
+</rtept>
+<rtept lat="57.0249383427847" lon="-3.8948234320873">
+<ele>366.032431143484</ele>
+<name>MCaB051</name>
+</rtept>
+<rtept lat="57.0242228568373" lon="-3.89460249369393">
+<ele>369.20825898737</ele>
+<name>MCaB052</name>
+</rtept>
+<rtept lat="57.0239070207713" lon="-3.89504773899554">
+<ele>366.590125606392</ele>
+<name>MCaB053</name>
+</rtept>
+<rtept lat="57.0235255366953" lon="-3.8950810451095">
+<ele>362.726938545841</ele>
+<name>MCaB054</name>
+</rtept>
+<rtept lat="57.0230744229186" lon="-3.89544031082852">
+<ele>356.670178267</ele>
+<name>MCaB055</name>
+</rtept>
+<rtept lat="57.0228000819589" lon="-3.89551860652619">
+<ele>355.964279778672</ele>
+<name>MCaB056</name>
+</rtept>
+<rtept lat="57.0223880747576" lon="-3.89661792669964">
+<ele>349.942268106018</ele>
+<name>MCaB057</name>
+</rtept>
+<rtept lat="57.0217033163565" lon="-3.89721567482566">
+<ele>348.361457674433</ele>
+<name>MCaB058</name>
+</rtept>
+<rtept lat="57.020545376562" lon="-3.89823320211862">
+<ele>357.172031199634</ele>
+<name>MCaB059</name>
+</rtept>
+<rtept lat="57.0199213597852" lon="-3.89868661143656">
+<ele>351.489791883492</ele>
+<name>MCaB060</name>
+</rtept>
+<rtept lat="57.0180891420657" lon="-3.89886081483631">
+<ele>359.862136398472</ele>
+<name>MCaB061</name>
+</rtept>
+<rtept lat="57.0179339331172" lon="-3.89844032840032">
+<ele>361.674111673776</ele>
+<name>MCaB062</name>
+</rtept>
+<rtept lat="57.0176161826253" lon="-3.89610640985375">
+<ele>373.573366312168</ele>
+<name>MCaB063</name>
+</rtept>
+<rtept lat="57.01744257692" lon="-3.89421968301996">
+<ele>382.939050728598</ele>
+<name>MCaB064</name>
+</rtept>
+<rtept lat="57.0171166757335" lon="-3.89246929758736">
+<ele>396.870754040997</ele>
+<name>MCaB065</name>
+</rtept>
+<rtept lat="57.0175509852728" lon="-3.89119990304858">
+<ele>415.229239303095</ele>
+<name>MCaB066</name>
+</rtept>
+<rtept lat="57.0174570405262" lon="-3.89075695895258">
+<ele>422.545991054378</ele>
+<name>MCaB067</name>
+</rtept>
+<rtept lat="57.0168812191526" lon="-3.8897360862324">
+<ele>434.042362945532</ele>
+<name>MCaB068</name>
+</rtept>
+<rtept lat="57.0172725376039" lon="-3.8882173996757">
+<ele>453.866595278218</ele>
+<name>MCaB069</name>
+</rtept>
+<rtept lat="57.0184077932217" lon="-3.88538886958574">
+<ele>495.668128912204</ele>
+<name>MCaB070</name>
+</rtept>
+<rtept lat="57.0193918944453" lon="-3.88209127021758">
+<ele>537.457294636962</ele>
+<name>MCaB071</name>
+</rtept>
+<rtept lat="57.019970044768" lon="-3.87997230937408">
+<ele>564.691207992235</ele>
+<name>MCaB072</name>
+</rtept>
+<rtept lat="57.02016530151" lon="-3.87941546582482">
+<ele>573.407652499838</ele>
+<name>MCaB073</name>
+</rtept>
+<rtept lat="57.0212688134962" lon="-3.8719720463311">
+<ele>614.709342393242</ele>
+<name>MCaB074</name>
+</rtept>
+<rtept lat="57.0214024421024" lon="-3.87072671187892">
+<ele>617.91182905501</ele>
+<name>MCaB075</name>
+</rtept>
+<rtept lat="57.023468515494" lon="-3.86733282057096">
+<ele>642.548807143736</ele>
+<name>MCaB076</name>
+</rtept>
+<rtept lat="57.0248426101934" lon="-3.86520714682343">
+<ele>669.649183936882</ele>
+<name>MCaB077</name>
+</rtept>
+<rtept lat="57.0253548165756" lon="-3.86339407427588">
+<ele>679.537161271143</ele>
+<name>MCaB078</name>
+</rtept>
+<rtept lat="57.0260271191069" lon="-3.85951293446396">
+<ele>728.388417879391</ele>
+<name>MCaB079</name>
+</rtept>
+<rtept lat="57.0263093475446" lon="-3.85902284938118">
+<ele>737.259774882221</ele>
+<name>MCaB080</name>
+</rtept>
+<rtept lat="57.0263877406223" lon="-3.85701003728144">
+<ele>754.48547628091</ele>
+<name>MCaB081</name>
+</rtept>
+<rtept lat="57.0251349408246" lon="-3.85187130172006">
+<ele>828.861951193126</ele>
+<name>MCaB082</name>
+</rtept>
+<rtept lat="57.0232217051575" lon="-3.84769362309276">
+<ele>876.057190304262</ele>
+<name>MCaB083</name>
+</rtept>
+<rtept lat="57.0226424778044" lon="-3.84602728478225">
+<ele>900.279187569247</ele>
+<name>MCaB084</name>
+</rtept>
+<rtept lat="57.0222246970822" lon="-3.84541514537958">
+<ele>926.842527578831</ele>
+<name>MCaB085</name>
+</rtept>
+<rtept lat="57.021473790799" lon="-3.84509291709098">
+<ele>931.414728598117</ele>
+<name>MCaB086</name>
+</rtept>
+<rtept lat="57.0207722311302" lon="-3.84404336001415">
+<ele>957.323678414216</ele>
+<name>MCaB087</name>
+</rtept>
+<rtept lat="57.019928616874" lon="-3.84153384114826">
+<ele>973.827608221711</ele>
+<name>MCaB088</name>
+</rtept>
+<rtept lat="57.0193914869316" lon="-3.84127665417893">
+<ele>973.816534691098</ele>
+<name>MCaB089</name>
+</rtept>
+<rtept lat="57.0185105975794" lon="-3.84300889046941">
+<ele>976.285884089856</ele>
+<name>MCaB090</name>
+</rtept>
+<rtept lat="57.017697670699" lon="-3.84421235727529">
+<ele>979.529108099198</ele>
+<name>MCaB091</name>
+</rtept>
+<rtept lat="57.0163728470117" lon="-3.84411710995965">
+<ele>983.597662940365</ele>
+<name>MCaB092</name>
+</rtept>
+<rtept lat="57.0149262458525" lon="-3.84247830005308">
+<ele>988.556733713988</ele>
+<name>MCaB093</name>
+</rtept>
+<rtept lat="57.0145589490599" lon="-3.84179304736152">
+<ele>990.564998216402</ele>
+<name>MCaB094</name>
+</rtept>
+<rtept lat="57.0125022686966" lon="-3.84116836513191">
+<ele>1009.55911497238</ele>
+<name>MCaB095</name>
+</rtept>
+<rtept lat="57.0118941992995" lon="-3.84127500249582">
+<ele>1017.91589310756</ele>
+<name>MCaB096</name>
+</rtept>
+<rtept lat="57.0111886500381" lon="-3.84184876120723">
+<ele>1012.00704372511</ele>
+<name>MCaB097</name>
+</rtept>
+<rtept lat="57.0104981428966" lon="-3.84206166440053">
+<ele>1005.03404386536</ele>
+<name>MCaB098</name>
+</rtept>
+<rtept lat="57.0098760872404" lon="-3.84311787199913">
+<ele>993.730419321059</ele>
+<name>MCaB099</name>
+</rtept>
+<rtept lat="57.0087775491119" lon="-3.84632432577775">
+<ele>941.97548254203</ele>
+<name>MCaB100</name>
+</rtept>
+<rtept lat="57.0076197288501" lon="-3.84835752307409">
+<ele>900.924260836434</ele>
+<name>MCaB101</name>
+</rtept>
+<rtept lat="57.0070506427411" lon="-3.85009224749774">
+<ele>919.296027689997</ele>
+<name>MCaB102</name>
+</rtept>
+<rtept lat="57.0054762420443" lon="-3.85720203299857">
+<ele>909.36874137388</ele>
+<name>MCaB103</name>
+</rtept>
+<rtept lat="57.0047695874985" lon="-3.85850063637509">
+<ele>901.856827445554</ele>
+<name>MCaB104</name>
+</rtept>
+<rtept lat="57.0043639835606" lon="-3.85949311413182">
+<ele>898.180376915426</ele>
+<name>MCaB105</name>
+</rtept>
+<rtept lat="57.0032626968017" lon="-3.86104362474466">
+<ele>901.035925735241</ele>
+<name>MCaB106</name>
+</rtept>
+<rtept lat="57.0025588179169" lon="-3.86305848986412">
+<ele>880.403607957591</ele>
+<name>MCaB107</name>
+</rtept>
+<rtept lat="57.0020345398051" lon="-3.86387203402979">
+<ele>869.222871574442</ele>
+<name>MCaB108</name>
+</rtept>
+<rtept lat="57.0013000001117" lon="-3.86613222784995">
+<ele>837.903541556483</ele>
+<name>MCaB109</name>
+</rtept>
+<rtept lat="57.0010738854228" lon="-3.86864010584927">
+<ele>820.389834996506</ele>
+<name>MCaB110</name>
+</rtept>
+<rtept lat="57.0005765171572" lon="-3.87125782467679">
+<ele>810.801417258803</ele>
+<name>MCaB111</name>
+</rtept>
+<rtept lat="56.9994250792603" lon="-3.87344743802884">
+<ele>773.578405159734</ele>
+<name>MCaB112</name>
+</rtept>
+<rtept lat="56.9990597620964" lon="-3.87444164151578">
+<ele>762.598825252484</ele>
+<name>MCaB113</name>
+</rtept>
+<rtept lat="56.9989825928939" lon="-3.87599365266202">
+<ele>757.705417193672</ele>
+<name>MCaB114</name>
+</rtept>
+<rtept lat="56.9990901120976" lon="-3.87691284542153">
+<ele>762.053392261895</ele>
+<name>MCaB115</name>
+</rtept>
+<rtept lat="57.0004066325698" lon="-3.87720142593024">
+<ele>759.374498177194</ele>
+<name>MCaB116</name>
+</rtept>
+<rtept lat="57.0021360731074" lon="-3.87691805963204">
+<ele>753.162854457327</ele>
+<name>MCaB117</name>
+</rtept>
+<rtept lat="57.0034699013231" lon="-3.87784973004411">
+<ele>722.327819316867</ele>
+<name>MCaB118</name>
+</rtept>
+<rtept lat="57.0045222547807" lon="-3.88047160402886">
+<ele>681.311277047264</ele>
+<name>MCaB119</name>
+</rtept>
+<rtept lat="57.0052607606508" lon="-3.88065707909155">
+<ele>663.06215984764</ele>
+<name>MCaB120</name>
+</rtept>
+<rtept lat="57.0054437462624" lon="-3.88103682997075">
+<ele>657.297642866387</ele>
+<name>MCaB121</name>
+</rtept>
+<rtept lat="57.0067532040786" lon="-3.88179458986149">
+<ele>611.983469163238</ele>
+<name>MCaB122</name>
+</rtept>
+<rtept lat="57.0075328533037" lon="-3.88193277666812">
+<ele>593.332468224407</ele>
+<name>MCaB123</name>
+</rtept>
+<rtept lat="57.0086325825524" lon="-3.88408809349033">
+<ele>566.389968923788</ele>
+<name>MCaB124</name>
+</rtept>
+<rtept lat="57.0095829342637" lon="-3.88542075129212">
+<ele>553.285526668779</ele>
+<name>MCaB125</name>
+</rtept>
+<rtept lat="57.0100188171814" lon="-3.8860110045364">
+<ele>535.972688758979</ele>
+<name>MCaB126</name>
+</rtept>
+<rtept lat="57.0106611787309" lon="-3.88631527408088">
+<ele>524.083807680237</ele>
+<name>MCaB127</name>
+</rtept>
+<rtept lat="57.0112672289012" lon="-3.88634596142209">
+<ele>512.962042282001</ele>
+<name>MCaB128</name>
+</rtept>
+<rtept lat="57.0117540007124" lon="-3.88713647231134">
+<ele>501.073687159481</ele>
+<name>MCaB129</name>
+</rtept>
+<rtept lat="57.0120851737177" lon="-3.88841322767312">
+<ele>491.063018920468</ele>
+<name>MCaB130</name>
+</rtept>
+<rtept lat="57.0125483499723" lon="-3.88898023491349">
+<ele>481.803114410231</ele>
+<name>MCaB131</name>
+</rtept>
+<rtept lat="57.0130017264564" lon="-3.88841027981955">
+<ele>477.298165605747</ele>
+<name>MCaB132</name>
+</rtept>
+<rtept lat="57.0130608115096" lon="-3.88806738956381">
+<ele>477.106467139172</ele>
+<name>MCaB133</name>
+</rtept>
+<rtept lat="57.0132620831534" lon="-3.88812700371656">
+<ele>478.004216207873</ele>
+<name>MCaB134</name>
+</rtept>
+<rtept lat="57.0137735431777" lon="-3.88906707259938">
+<ele>465.861041775694</ele>
+<name>MCaB135</name>
+</rtept>
+<rtept lat="57.0139751868873" lon="-3.88910200553974">
+<ele>464.958339084285</ele>
+<name>MCaB136</name>
+</rtept>
+<rtept lat="57.014256985972" lon="-3.89096931588938">
+<ele>442.75567123709</ele>
+<name>MCaB137</name>
+</rtept>
+<rtept lat="57.014726491841" lon="-3.89111668735523">
+<ele>436.729519881092</ele>
+<name>MCaB138</name>
+</rtept>
+<rtept lat="57.0147470855472" lon="-3.89153775614246">
+<ele>431.961207950654</ele>
+<name>MCaB139</name>
+</rtept>
+<rtept lat="57.0151627197304" lon="-3.89168240088711">
+<ele>425.671799383859</ele>
+<name>MCaB140</name>
+</rtept>
+<rtept lat="57.016146687936" lon="-3.89435144304974">
+<ele>397.44689347807</ele>
+<name>MCaB141</name>
+</rtept>
+<rtept lat="57.016994798779" lon="-3.89619831933053">
+<ele>374.684034442394</ele>
+<name>MCaB142</name>
+</rtept>
+<rtept lat="57.0172895910238" lon="-3.89720168656312">
+<ele>369.305654213581</ele>
+<name>MCaB143</name>
+</rtept>
+<rtept lat="57.0180947904024" lon="-3.89885376397314">
+<ele>359.868734675488</ele>
+<name>MCaB144</name>
+</rtept>
+<rtept lat="57.0199178760094" lon="-3.89866907323725">
+<ele>363.118917887947</ele>
+<name>MCaB145</name>
+</rtept>
+<rtept lat="57.0205533573146" lon="-3.89824019856297">
+<ele>357.063031199646</ele>
+<name>MCaB146</name>
+</rtept>
+<rtept lat="57.0217033163565" lon="-3.89721567482566">
+<ele>348.361457674433</ele>
+<name>MCaB147</name>
+</rtept>
+<rtept lat="57.0223806924652" lon="-3.89663073061045">
+<ele>349.874518522672</ele>
+<name>MCaB148</name>
+</rtept>
+<rtept lat="57.022807264724" lon="-3.89551897216412">
+<ele>355.908925816107</ele>
+<name>MCaB149</name>
+</rtept>
+<rtept lat="57.0230816056837" lon="-3.89544067645518">
+<ele>356.66461630443</ele>
+<name>MCaB150</name>
+</rtept>
+<rtept lat="57.0235335169369" lon="-3.8950287299766">
+<ele>363.32125943954</ele>
+<name>MCaB151</name>
+</rtept>
+<rtept lat="57.0239138047963" lon="-3.89507444517566">
+<ele>366.566356263539</ele>
+<name>MCaB152</name>
+</rtept>
+<rtept lat="57.0242296409561" lon="-3.89462920002272">
+<ele>369.240428651654</ele>
+<name>MCaB153</name>
+</rtept>
+<rtept lat="57.0249455255502" lon="-3.89482379762101">
+<ele>365.955051517784</ele>
+<name>MCaB154</name>
+</rtept>
+<rtept lat="57.0256344779411" lon="-3.8953729210083">
+<ele>358.168089811576</ele>
+<name>MCaB155</name>
+</rtept>
+<rtept lat="57.0261823418402" lon="-3.89604175015556">
+<ele>354.520800330232</ele>
+<name>MCaB156</name>
+</rtept>
+<rtept lat="57.0267132916179" lon="-3.89586942010462">
+<ele>359.730522782865</ele>
+<name>MCaB157</name>
+</rtept>
+<rtept lat="57.029482017403" lon="-3.89727099186299">
+<ele>356.462262783896</ele>
+<name>MCaB158</name>
+</rtept>
+<rtept lat="57.0300495303162" lon="-3.89717632850727">
+<ele>361.556868054224</ele>
+<name>MCaB159</name>
+</rtept>
+<rtept lat="57.0301162761871" lon="-3.89743514569864">
+<ele>360.946043865317</ele>
+<name>MCaB160</name>
+</rtept>
+<rtept lat="57.0303106360002" lon="-3.89723907228707">
+<ele>363.650043865321</ele>
+<name>MCaB161</name>
+</rtept>
+<rtept lat="57.0304322316305" lon="-3.89771490421829">
+<ele>362.635566749194</ele>
+<name>MCaB162</name>
+</rtept>
+<rtept lat="57.0313502262761" lon="-3.89836648011155">
+<ele>359.94168572243</ele>
+<name>MCaB163</name>
+</rtept>
+<rtept lat="57.0319615527244" lon="-3.89818837054966">
+<ele>359.688913839791</ele>
+<name>MCaB164</name>
+</rtept>
+<rtept lat="57.0321747993657" lon="-3.89745767934945">
+<ele>360.902839674165</ele>
+<name>MCaB165</name>
+</rtept>
+<rtept lat="57.0335896510246" lon="-3.89748036559822">
+<ele>345.214933647348</ele>
+<name>MCaB166</name>
+</rtept>
+<rtept lat="57.0338668640178" lon="-3.89697537816558">
+<ele>344.244438775046</ele>
+<name>MCaB167</name>
+</rtept>
+<rtept lat="57.0341913359056" lon="-3.89584160252682">
+<ele>348.468200702821</ele>
+<name>MCaB168</name>
+</rtept>
+<rtept lat="57.0349687167034" lon="-3.89541645089278">
+<ele>351.174291101112</ele>
+<name>MCaB169</name>
+</rtept>
+<rtept lat="57.0351149032261" lon="-3.89430651579569">
+<ele>356.426071006748</ele>
+<name>MCaB170</name>
+</rtept>
+<rtept lat="57.0353582181489" lon="-3.8942595694501">
+<ele>354.817062567128</ele>
+<name>MCaB171</name>
+</rtept>
+<rtept lat="57.0353200653006" lon="-3.89464327409099">
+<ele>353.031726838992</ele>
+<name>MCaB172</name>
+</rtept>
+<rtept lat="57.0357814127536" lon="-3.89515129591392">
+<ele>357.038511670102</ele>
+<name>MCaB173</name>
+</rtept>
+<rtept lat="57.0362856997346" lon="-3.89495942497745">
+<ele>358.235773398552</ele>
+<name>MCaB174</name>
+</rtept>
+<rtept lat="57.0373667048526" lon="-3.89513313455396">
+<ele>355.252669683441</ele>
+<name>MCaB175</name>
+</rtept>
+<rtept lat="57.0378817658631" lon="-3.89494180426382">
+<ele>354.996292344047</ele>
+<name>MCaB176</name>
+</rtept>
+<rtept lat="57.0386380514311" lon="-3.89519787796446">
+<ele>351.311104340493</ele>
+<name>MCaB177</name>
+</rtept>
+<rtept lat="57.0397874420762" lon="-3.89548387526329">
+<ele>344.394226484378</ele>
+<name>MCaB178</name>
+</rtept>
+<rtept lat="57.0403787611816" lon="-3.89532850217568">
+<ele>340.813746036744</ele>
+<name>MCaB179</name>
+</rtept>
+<rtept lat="57.0410080558849" lon="-3.89498232888028">
+<ele>339.824516085086</ele>
+<name>MCaB180</name>
+</rtept>
+<rtept lat="57.0412106626893" lon="-3.89441903056738">
+<ele>343.30991152221</ele>
+<name>MCaB181</name>
+</rtept>
+<rtept lat="57.0415454025858" lon="-3.8940305817677">
+<ele>343.40823285433</ele>
+<name>MCaB182</name>
+</rtept>
+<rtept lat="57.0420788711989" lon="-3.89404784640697">
+<ele>337.721245632155</ele>
+<name>MCaB183</name>
+</rtept>
+<rtept lat="57.0425595209611" lon="-3.89434924153132">
+<ele>332.124532989917</ele>
+<name>MCaB184</name>
+</rtept>
+<rtept lat="57.0435115944615" lon="-3.894045714804">
+<ele>344.113521980834</ele>
+<name>MCaB185</name>
+</rtept>
+<rtept lat="57.0449736856901" lon="-3.89302390187197">
+<ele>342.506833130869</ele>
+<name>MCaB186</name>
+</rtept>
+<rtept lat="57.0457016785886" lon="-3.8927147543773">
+<ele>340.997799594188</ele>
+<name>MCaB187</name>
+</rtept>
+<rtept lat="57.0465082576079" lon="-3.89344818342955">
+<ele>342.791868558681</ele>
+<name>MCaB188</name>
+</rtept>
+<rtept lat="57.0480768676905" lon="-3.89370112848785">
+<ele>334.32837414813</ele>
+<name>MCaB189</name>
+</rtept>
+<rtept lat="57.0494595456285" lon="-3.89377151736761">
+<ele>342.894268693948</ele>
+<name>MCaB190</name>
+</rtept>
+<rtept lat="57.0504048960535" lon="-3.89364652994343">
+<ele>344.604931634331</ele>
+<name>MCaB191</name>
+</rtept>
+<rtept lat="57.0508142862855" lon="-3.89360966545186">
+<ele>339.480702673888</ele>
+<name>MCaB192</name>
+</rtept>
+<rtept lat="57.0529380309681" lon="-3.89250589014198">
+<ele>340.513861685491</ele>
+<name>MCaB193</name>
+</rtept>
+<rtept lat="57.0541400032743" lon="-3.89204765018354">
+<ele>338.924337059632</ele>
+<name>MCaB194</name>
+</rtept>
+<rtept lat="57.0551149889896" lon="-3.89126947408362">
+<ele>334.38293061781</ele>
+<name>MCaB195</name>
+</rtept>
+<rtept lat="57.0562041296908" lon="-3.89340258594206">
+<ele>330.958060261814</ele>
+<name>MCaB196</name>
+</rtept>
+<rtept lat="57.0565588600564" lon="-3.89430617210946">
+<ele>332.092343932807</ele>
+<name>MCaB197</name>
+</rtept>
+<rtept lat="57.0580951685493" lon="-3.89461530279255">
+<ele>328.44519972946</ele>
+<name>MCaB198</name>
+</rtept>
+<rtept lat="57.0592229582539" lon="-3.89490364224529">
+<ele>323.272136653817</ele>
+<name>MCaB199</name>
+</rtept>
+<rtept lat="57.0595651365894" lon="-3.89515195880907">
+<ele>323.251170190501</ele>
+<name>MCaB200</name>
+</rtept>
+<rtept lat="57.060281788906" lon="-3.89559253147752">
+<ele>325.591537465429</ele>
+<name>MCaB201</name>
+</rtept>
+<rtept lat="57.0611223908973" lon="-3.89615488654907">
+<ele>335.382088000894</ele>
+<name>MCaB202</name>
+</rtept>
+<rtept lat="57.0621244785657" lon="-3.89643688665841">
+<ele>319.99727232331</ele>
+<name>MCaB203</name>
+</rtept>
+<rtept lat="57.0630584758004" lon="-3.89706178029717">
+<ele>321.846022357786</ele>
+<name>MCaB204</name>
+</rtept>
+</rte>
+</gpx>

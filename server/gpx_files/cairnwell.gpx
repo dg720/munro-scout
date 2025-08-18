@@ -1,0 +1,742 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="Walkhighlands">
+<metadata>
+	<desc>GPX file from Walkhighlands; file is copyright Walkhighlands and must not be publicly shared on other websites. Do not remove this notice.</desc>
+	<copyright author="Walkhighlands"><year>2019</year></copyright>
+</metadata>
+<rte>
+<name>The Cairnwell Munros</name>
+<rtept lat="56.8868042506551" lon="-3.41499237152842">
+<ele>651.328117426901</ele>
+<name>CAI001</name>
+</rtept>
+<rtept lat="56.887221543052" lon="-3.41527404654653">
+<ele>647.951602990276</ele>
+<name>CAI002</name>
+</rtept>
+<rtept lat="56.8872113031843" lon="-3.41570205787266">
+<ele>653.383519299979</ele>
+<name>CAI003</name>
+</rtept>
+<rtept lat="56.8871688257937" lon="-3.41588264378386">
+<ele>657.649127748994</ele>
+<name>CAI004</name>
+</rtept>
+<rtept lat="56.8875732793289" lon="-3.4172964047011">
+<ele>672.512279476398</ele>
+<name>CAI005</name>
+</rtept>
+<rtept lat="56.8876192207119" lon="-3.4177610165062">
+<ele>677.048707395753</ele>
+<name>CAI006</name>
+</rtept>
+<rtept lat="56.8875137797935" lon="-3.41826421196167">
+<ele>683.161220695529</ele>
+<name>CAI007</name>
+</rtept>
+<rtept lat="56.8874878227234" lon="-3.41888859677438">
+<ele>689.644320907757</ele>
+<name>CAI008</name>
+</rtept>
+<rtept lat="56.8877569989927" lon="-3.41963250418747">
+<ele>695.81379184157</ele>
+<name>CAI009</name>
+</rtept>
+<rtept lat="56.8882872324888" lon="-3.4204109489599">
+<ele>700.233139671264</ele>
+<name>CAI010</name>
+</rtept>
+<rtept lat="56.8894832777627" lon="-3.42130333387227">
+<ele>716.378933626937</ele>
+<name>CAI011</name>
+</rtept>
+<rtept lat="56.8899145443966" lon="-3.42213224832632">
+<ele>727.326364246612</ele>
+<name>CAI012</name>
+</rtept>
+<rtept lat="56.8904751831556" lon="-3.42284298626287">
+<ele>740.82875159054</ele>
+<name>CAI013</name>
+</rtept>
+<rtept lat="56.8906193918317" lon="-3.42378906177276">
+<ele>747.661058795002</ele>
+<name>CAI014</name>
+</rtept>
+<rtept lat="56.890980140662" lon="-3.424063788871">
+<ele>755.958320670557</ele>
+<name>CAI015</name>
+</rtept>
+<rtept lat="56.8910464875863" lon="-3.42439133877653">
+<ele>758.100928290972</ele>
+<name>CAI016</name>
+</rtept>
+<rtept lat="56.891191471294" lon="-3.4244411778773">
+<ele>761.398807164699</ele>
+<name>CAI017</name>
+</rtept>
+<rtept lat="56.8914597158075" lon="-3.42431841962226">
+<ele>766.991863789419</ele>
+<name>CAI018</name>
+</rtept>
+<rtept lat="56.8921808171114" lon="-3.42502055519965">
+<ele>785.91728705796</ele>
+<name>CAI019</name>
+</rtept>
+<rtept lat="56.8922805602848" lon="-3.42478303772248">
+<ele>788.051321531788</ele>
+<name>CAI020</name>
+</rtept>
+<rtept lat="56.8923127782117" lon="-3.42432133303064">
+<ele>789.79341812135</ele>
+<name>CAI021</name>
+</rtept>
+<rtept lat="56.8923927053294" lon="-3.4239303898488">
+<ele>792.911253477827</ele>
+<name>CAI022</name>
+</rtept>
+<rtept lat="56.8925430760379" lon="-3.42374404220766">
+<ele>796.543190114764</ele>
+<name>CAI023</name>
+</rtept>
+<rtept lat="56.8937414521389" lon="-3.42419347778398">
+<ele>831.504739668845</ele>
+<name>CAI024</name>
+</rtept>
+<rtept lat="56.8949252323692" lon="-3.42450448319966">
+<ele>871.509677840118</ele>
+<name>CAI025</name>
+</rtept>
+<rtept lat="56.895539966926" lon="-3.42472489107063">
+<ele>891.716399905854</ele>
+<name>CAI026</name>
+</rtept>
+<rtept lat="56.8957520790617" lon="-3.42385134611005">
+<ele>903.132205982575</ele>
+<name>CAI027</name>
+</rtept>
+<rtept lat="56.8958001787529" lon="-3.42341482824029">
+<ele>910.128147271511</ele>
+<name>CAI028</name>
+</rtept>
+<rtept lat="56.8957665556418" lon="-3.42329041807798">
+<ele>911.592851865252</ele>
+<name>CAI029</name>
+</rtept>
+<rtept lat="56.8957999544293" lon="-3.4234345207363">
+<ele>909.832100663272</ele>
+<name>CAI030</name>
+</rtept>
+<rtept lat="56.895752022964" lon="-3.42385626922682">
+<ele>903.058770330519</ele>
+<name>CAI031</name>
+</rtept>
+<rtept lat="56.8955529890342" lon="-3.42476478862094">
+<ele>891.78687463271</ele>
+<name>CAI032</name>
+</rtept>
+<rtept lat="56.8953097091707" lon="-3.42647934492958">
+<ele>874.500086164068</ele>
+<name>CAI033</name>
+</rtept>
+<rtept lat="56.8952422332265" lon="-3.4269594412923">
+<ele>869.878034359544</ele>
+<name>CAI034</name>
+</rtept>
+<rtept lat="56.8945339880831" lon="-3.429025602483">
+<ele>853.100369114203</ele>
+<name>CAI035</name>
+</rtept>
+<rtept lat="56.8944044694972" lon="-3.42974464363764">
+<ele>851.868553185996</ele>
+<name>CAI036</name>
+</rtept>
+<rtept lat="56.8943723441325" lon="-3.43019652326459">
+<ele>851.481793603876</ele>
+<name>CAI037</name>
+</rtept>
+<rtept lat="56.8940286392888" lon="-3.43067096702562">
+<ele>847.583117812792</ele>
+<name>CAI038</name>
+</rtept>
+<rtept lat="56.8937688860907" lon="-3.43146381212378">
+<ele>848.332880078032</ele>
+<name>CAI039</name>
+</rtept>
+<rtept lat="56.8934125307509" lon="-3.43221847495883">
+<ele>835.049933263181</ele>
+<name>CAI040</name>
+</rtept>
+<rtept lat="56.892893708508" lon="-3.43244979068268">
+<ele>822.633025819044</ele>
+<name>CAI041</name>
+</rtept>
+<rtept lat="56.8926412413047" lon="-3.43237118042509">
+<ele>819.171102356527</ele>
+<name>CAI042</name>
+</rtept>
+<rtept lat="56.8921282379624" lon="-3.43197726492341">
+<ele>813.801205435268</ele>
+<name>CAI043</name>
+</rtept>
+<rtept lat="56.891893445299" lon="-3.43200275546399">
+<ele>812.543805533683</ele>
+<name>CAI044</name>
+</rtept>
+<rtept lat="56.8915255493528" lon="-3.43235310836589">
+<ele>811.669785623971</ele>
+<name>CAI045</name>
+</rtept>
+<rtept lat="56.8911861769739" lon="-3.43338907371878">
+<ele>809.518282393516</ele>
+<name>CAI046</name>
+</rtept>
+<rtept lat="56.8910313469454" lon="-3.43372786925165">
+<ele>807.865359065251</ele>
+<name>CAI047</name>
+</rtept>
+<rtept lat="56.8906105044514" lon="-3.43422883095067">
+<ele>799.698497666648</ele>
+<name>CAI048</name>
+</rtept>
+<rtept lat="56.8903577468461" lon="-3.43429301454492">
+<ele>796.201825084444</ele>
+<name>CAI049</name>
+</rtept>
+<rtept lat="56.8901713155892" lon="-3.43386236178975">
+<ele>795.540812757021</ele>
+<name>CAI050</name>
+</rtept>
+<rtept lat="56.8900152534222" lon="-3.43336885777408">
+<ele>797.303277234627</ele>
+<name>CAI051</name>
+</rtept>
+<rtept lat="56.8897943035434" lon="-3.43195199737652">
+<ele>805.18772952809</ele>
+<name>CAI052</name>
+</rtept>
+<rtept lat="56.8896388664053" lon="-3.43116798766311">
+<ele>810.494205599757</ele>
+<name>CAI053</name>
+</rtept>
+<rtept lat="56.8893247920692" lon="-3.4305847480444">
+<ele>816.626048176633</ele>
+<name>CAI054</name>
+</rtept>
+<rtept lat="56.8884922540971" lon="-3.42973057348325">
+<ele>822.400400586924</ele>
+<name>CAI055</name>
+</rtept>
+<rtept lat="56.888041697893" lon="-3.4297675323046">
+<ele>823.996385559671</ele>
+<name>CAI056</name>
+</rtept>
+<rtept lat="56.887483245024" lon="-3.4301647578247">
+<ele>825.168438484123</ele>
+<name>CAI057</name>
+</rtept>
+<rtept lat="56.8872524106444" lon="-3.43078622900287">
+<ele>821.822606150174</ele>
+<name>CAI058</name>
+</rtept>
+<rtept lat="56.8870761652299" lon="-3.43181848149356">
+<ele>816.454343218607</ele>
+<name>CAI059</name>
+</rtept>
+<rtept lat="56.8870207150879" lon="-3.43265838341295">
+<ele>813.101378695611</ele>
+<name>CAI060</name>
+</rtept>
+<rtept lat="56.8864382694985" lon="-3.43408868412573">
+<ele>812.860602334025</ele>
+<name>CAI061</name>
+</rtept>
+<rtept lat="56.8861323914634" lon="-3.43443641872224">
+<ele>819.462091465698</ele>
+<name>CAI062</name>
+</rtept>
+<rtept lat="56.8859708041113" lon="-3.43501125634961">
+<ele>823.152667709956</ele>
+<name>CAI063</name>
+</rtept>
+<rtept lat="56.885883376877" lon="-3.43605178530833">
+<ele>832.683985072991</ele>
+<name>CAI064</name>
+</rtept>
+<rtept lat="56.8855190194861" lon="-3.43796798447222">
+<ele>848.835814556707</ele>
+<name>CAI065</name>
+</rtept>
+<rtept lat="56.8851940493378" lon="-3.43880240929998">
+<ele>855.355373104409</ele>
+<name>CAI066</name>
+</rtept>
+<rtept lat="56.8846164252789" lon="-3.43922335319548">
+<ele>859.955003866333</ele>
+<name>CAI067</name>
+</rtept>
+<rtept lat="56.8836078945383" lon="-3.44008069292492">
+<ele>860.362195325969</ele>
+<name>CAI068</name>
+</rtept>
+<rtept lat="56.8824824479502" lon="-3.44172617446037">
+<ele>868.703577201135</ele>
+<name>CAI069</name>
+</rtept>
+<rtept lat="56.882027060289" lon="-3.44218129240064">
+<ele>854.0552450545</ele>
+<name>CAI070</name>
+</rtept>
+<rtept lat="56.8813637105839" lon="-3.44302225711361">
+<ele>853.541161339893</ele>
+<name>CAI071</name>
+</rtept>
+<rtept lat="56.8808090650345" lon="-3.44320273811192">
+<ele>854.067308389234</ele>
+<name>CAI072</name>
+</rtept>
+<rtept lat="56.8793795471178" lon="-3.44433411518623">
+<ele>862.88838256869</ele>
+<name>CAI073</name>
+</rtept>
+<rtept lat="56.8780520576851" lon="-3.44549888275595">
+<ele>886.478261056851</ele>
+<name>CAI074</name>
+</rtept>
+<rtept lat="56.877357136065" lon="-3.44603818787533">
+<ele>891.650697692514</ele>
+<name>CAI075</name>
+</rtept>
+<rtept lat="56.8770533658765" lon="-3.4466664241127">
+<ele>898.462670620829</ele>
+<name>CAI076</name>
+</rtept>
+<rtept lat="56.8765833045391" lon="-3.44838599729534">
+<ele>907.44884622356</ele>
+<name>CAI077</name>
+</rtept>
+<rtept lat="56.8762818170302" lon="-3.45206637226764">
+<ele>898.151296488789</ele>
+<name>CAI078</name>
+</rtept>
+<rtept lat="56.8758122333018" lon="-3.45454887402975">
+<ele>902.544874301963</ele>
+<name>CAI079</name>
+</rtept>
+<rtept lat="56.8752571250471" lon="-3.45742671689396">
+<ele>906.468317957423</ele>
+<name>CAI080</name>
+</rtept>
+<rtept lat="56.8748787420398" lon="-3.45936131693118">
+<ele>909.97232436962</ele>
+<name>CAI081</name>
+</rtept>
+<rtept lat="56.8741239576122" lon="-3.462132775207">
+<ele>922.427698722036</ele>
+<name>CAI082</name>
+</rtept>
+<rtept lat="56.8733813611495" lon="-3.46397427706103">
+<ele>949.4772722935</ele>
+<name>CAI083</name>
+</rtept>
+<rtept lat="56.8732345481979" lon="-3.46408175228268">
+<ele>954.463669131726</ele>
+<name>CAI084</name>
+</rtept>
+<rtept lat="56.8732141317197" lon="-3.46421385692696">
+<ele>957.649715827034</ele>
+<name>CAI085</name>
+</rtept>
+<rtept lat="56.872942987514" lon="-3.46504004624195">
+<ele>969.494458030289</ele>
+<name>CAI086</name>
+</rtept>
+<rtept lat="56.8729283441698" lon="-3.46605838657428">
+<ele>973.881709172725</ele>
+<name>CAI087</name>
+</rtept>
+<rtept lat="56.8731529984727" lon="-3.46666770224134">
+<ele>973.962947663295</ele>
+<name>CAI088</name>
+</rtept>
+<rtept lat="56.8729364267541" lon="-3.46605870293107">
+<ele>973.886147624784</ele>
+<name>CAI089</name>
+</rtept>
+<rtept lat="56.872942872103" lon="-3.46504988630161">
+<ele>969.548773334404</ele>
+<name>CAI090</name>
+</rtept>
+<rtept lat="56.8732089740162" lon="-3.46419396601912">
+<ele>957.350469284676</ele>
+<name>CAI091</name>
+</rtept>
+<rtept lat="56.8732289867998" lon="-3.46409630186861">
+<ele>954.879961202926</ele>
+<name>CAI092</name>
+</rtept>
+<rtept lat="56.8733814764764" lon="-3.46396443688147">
+<ele>949.295420118214</ele>
+<name>CAI093</name>
+</rtept>
+<rtept lat="56.8741242455677" lon="-3.46210817425012">
+<ele>922.310076982331</ele>
+<name>CAI094</name>
+</rtept>
+<rtept lat="56.8748785695901" lon="-3.4593760778207">
+<ele>910.008580669948</ele>
+<name>CAI095</name>
+</rtept>
+<rtept lat="56.8758121187134" lon="-3.45455871488904">
+<ele>902.542457781374</ele>
+<name>CAI096</name>
+</rtept>
+<rtept lat="56.8762885525554" lon="-3.4520666334161">
+<ele>898.22580777874</ele>
+<name>CAI097</name>
+</rtept>
+<rtept lat="56.8765793202693" lon="-3.44838092045774">
+<ele>907.529769101659</ele>
+<name>CAI098</name>
+</rtept>
+<rtept lat="56.8770453402122" lon="-3.44666119128188">
+<ele>898.546670620832</ele>
+<name>CAI099</name>
+</rtept>
+<rtept lat="56.8773517476314" lon="-3.44603797981526">
+<ele>891.683232404867</ele>
+<name>CAI100</name>
+</rtept>
+<rtept lat="56.8780494204069" lon="-3.44549385801871">
+<ele>886.384112417635</ele>
+<name>CAI101</name>
+</rtept>
+<rtept lat="56.8808144534718" lon="-3.44320294579148">
+<ele>854.066910453155</ele>
+<name>CAI102</name>
+</rtept>
+<rtept lat="56.8813392920846" lon="-3.44303608619608">
+<ele>853.577161339894</ele>
+<name>CAI103</name>
+</rtept>
+<rtept lat="56.8820296976974" lon="-3.44218631744511">
+<ele>854.106142332934</ele>
+<name>CAI104</name>
+</rtept>
+<rtept lat="56.8824851421699" lon="-3.44172627820054">
+<ele>868.662408685146</ele>
+<name>CAI105</name>
+</rtept>
+<rtept lat="56.8836079512674" lon="-3.44007577143961">
+<ele>860.381411846558</ele>
+<name>CAI106</name>
+</rtept>
+<rtept lat="56.8851983173887" lon="-3.43878287782239">
+<ele>855.26346001545</ele>
+<name>CAI107</name>
+</rtept>
+<rtept lat="56.8855152047392" lon="-3.43794814228743">
+<ele>848.796573230834</ele>
+<name>CAI108</name>
+</rtept>
+<rtept lat="56.8858886521825" lon="-3.43606183558651">
+<ele>832.724359984368</ele>
+<name>CAI109</name>
+</rtept>
+<rtept lat="56.8859678837595" lon="-3.43503084030443">
+<ele>823.290024964657</ele>
+<name>CAI110</name>
+</rtept>
+<rtept lat="56.8861418777653" lon="-3.4344318581971">
+<ele>819.221012923703</ele>
+<name>CAI111</name>
+</rtept>
+<rtept lat="56.8864155945474" lon="-3.43406811940417">
+<ele>813.118095670078</ele>
+<name>CAI112</name>
+</rtept>
+<rtept lat="56.8862942754474" lon="-3.43360061476263">
+<ele>812.375581307137</ele>
+<name>CAI113</name>
+</rtept>
+<rtept lat="56.886343296122" lon="-3.43332182270913">
+<ele>815.605874014107</ele>
+<name>CAI114</name>
+</rtept>
+<rtept lat="56.8858252966637" lon="-3.4310123533138">
+<ele>836.365725852932</ele>
+<name>CAI115</name>
+</rtept>
+<rtept lat="56.8855029896954" lon="-3.42997093698024">
+<ele>845.842574421008</ele>
+<name>CAI116</name>
+</rtept>
+<rtept lat="56.8848851322641" lon="-3.429435260434">
+<ele>866.556153211813</ele>
+<name>CAI117</name>
+</rtept>
+<rtept lat="56.8845037140028" lon="-3.42814051655808">
+<ele>862.70814823928</ele>
+<name>CAI118</name>
+</rtept>
+<rtept lat="56.8841911379999" lon="-3.42766083889619">
+<ele>863.477629521351</ele>
+<name>CAI119</name>
+</rtept>
+<rtept lat="56.8841252467653" lon="-3.42741214015515">
+<ele>862.108502294089</ele>
+<name>CAI120</name>
+</rtept>
+<rtept lat="56.8841420954838" lon="-3.42688102006584">
+<ele>859.767781139764</ele>
+<name>CAI121</name>
+</rtept>
+<rtept lat="56.8836099988417" lon="-3.42532456146198">
+<ele>851.937651520476</ele>
+<name>CAI122</name>
+</rtept>
+<rtept lat="56.8832305606211" lon="-3.42456172925083">
+<ele>850.66332409522</ele>
+<name>CAI123</name>
+</rtept>
+<rtept lat="56.8828122781261" lon="-3.42413223687676">
+<ele>853.79695276533</ele>
+<name>CAI124</name>
+</rtept>
+<rtept lat="56.8826155922747" lon="-3.42341576869763">
+<ele>861.001894181536</ele>
+<name>CAI125</name>
+</rtept>
+<rtept lat="56.882057871678" lon="-3.42256742758777">
+<ele>877.715653950266</ele>
+<name>CAI126</name>
+</rtept>
+<rtept lat="56.8819627841396" lon="-3.42239641820097">
+<ele>879.915097192551</ele>
+<name>CAI127</name>
+</rtept>
+<rtept lat="56.8815087992436" lon="-3.42214285066799">
+<ele>886.642498627335</ele>
+<name>CAI128</name>
+</rtept>
+<rtept lat="56.8812641157496" lon="-3.421616606604">
+<ele>891.701940497861</ele>
+<name>CAI129</name>
+</rtept>
+<rtept lat="56.8806752455577" lon="-3.42125454487758">
+<ele>907.358904006028</ele>
+<name>CAI130</name>
+</rtept>
+<rtept lat="56.880306522367" lon="-3.42108793039352">
+<ele>917.402604785971</ele>
+<name>CAI131</name>
+</rtept>
+<rtept lat="56.8797722781426" lon="-3.42113658015598">
+<ele>929.378274557989</ele>
+<name>CAI132</name>
+</rtept>
+<rtept lat="56.8795422596324" lon="-3.42121646695999">
+<ele>929.45476741332</ele>
+<name>CAI133</name>
+</rtept>
+<rtept lat="56.8797723341232" lon="-3.42113165913401">
+<ele>929.469422382711</ele>
+<name>CAI134</name>
+</rtept>
+<rtept lat="56.8803120787932" lon="-3.42107337160849">
+<ele>917.452012880884</ele>
+<name>CAI135</name>
+</rtept>
+<rtept lat="56.8812748367244" lon="-3.42162193697735">
+<ele>891.513103555504</ele>
+<name>CAI136</name>
+</rtept>
+<rtept lat="56.8815032987141" lon="-3.42215248850749">
+<ele>886.546498627339</ele>
+<name>CAI137</name>
+</rtept>
+<rtept lat="56.8819919725485" lon="-3.42243691451226">
+<ele>879.231509518064</ele>
+<name>CAI138</name>
+</rtept>
+<rtept lat="56.8826143572982" lon="-3.42340587470484">
+<ele>861.083618950898</ele>
+<name>CAI139</name>
+</rtept>
+<rtept lat="56.8828134569436" lon="-3.42414705236014">
+<ele>853.717391652642</ele>
+<name>CAI140</name>
+</rtept>
+<rtept lat="56.883243919583" lon="-3.42457208473398">
+<ele>850.60387388895</ele>
+<name>CAI141</name>
+</rtept>
+<rtept lat="56.8836153311705" lon="-3.42532968810926">
+<ele>851.853331581757</ele>
+<name>CAI142</name>
+</rtept>
+<rtept lat="56.8841527600098" lon="-3.42689127395129">
+<ele>859.833775061335</ele>
+<name>CAI143</name>
+</rtept>
+<rtept lat="56.8841330483173" lon="-3.42743705621353">
+<ele>862.228115855856</ele>
+<name>CAI144</name>
+</rtept>
+<rtept lat="56.8841922601544" lon="-3.42768057661895">
+<ele>863.581921272571</ele>
+<name>CAI145</name>
+</rtept>
+<rtept lat="56.8845007947285" lon="-3.42816010030074">
+<ele>862.676925233013</ele>
+<name>CAI146</name>
+</rtept>
+<rtept lat="56.8846387006262" lon="-3.42835738868229">
+<ele>862.612122027601</ele>
+<name>CAI147</name>
+</rtept>
+<rtept lat="56.8848935837582" lon="-3.42846066542259">
+<ele>861.723182662854</ele>
+<name>CAI148</name>
+</rtept>
+<rtept lat="56.8852356389538" lon="-3.4284835640147">
+<ele>854.723442212089</ele>
+<name>CAI149</name>
+</rtept>
+<rtept lat="56.8861758240334" lon="-3.42817475814577">
+<ele>843.757318239578</ele>
+<name>CAI150</name>
+</rtept>
+<rtept lat="56.8879730290205" lon="-3.42881945705479">
+<ele>828.263456977839</ele>
+<name>CAI151</name>
+</rtept>
+<rtept lat="56.8881117218304" lon="-3.42894785693912">
+<ele>826.248718389324</ele>
+<name>CAI152</name>
+</rtept>
+<rtept lat="56.8884840587537" lon="-3.42974010907812">
+<ele>822.390786291043</ele>
+<name>CAI153</name>
+</rtept>
+<rtept lat="56.889327373581" lon="-3.43059469552495">
+<ele>816.510648905464</ele>
+<name>CAI154</name>
+</rtept>
+<rtept lat="56.8896388100232" lon="-3.43117290996034">
+<ele>810.481627512111</ele>
+<name>CAI155</name>
+</rtept>
+<rtept lat="56.8900098649696" lon="-3.43336865143707">
+<ele>797.307891426391</ele>
+<name>CAI156</name>
+</rtept>
+<rtept lat="56.8901658141606" lon="-3.43387200010193">
+<ele>795.439869765261</ele>
+<name>CAI157</name>
+</rtept>
+<rtept lat="56.8903442192153" lon="-3.43429742074653">
+<ele>796.002103780326</ele>
+<name>CAI158</name>
+</rtept>
+<rtept lat="56.8905904107697" lon="-3.43421821187402">
+<ele>799.463199403711</ele>
+<name>CAI159</name>
+</rtept>
+<rtept lat="56.8906432004765" lon="-3.43384596591528">
+<ele>800.740634780223</ele>
+<name>CAI160</name>
+</rtept>
+<rtept lat="56.8906955051844" lon="-3.43316345094943">
+<ele>801.382102067473</ele>
+<name>CAI161</name>
+</rtept>
+<rtept lat="56.8908719025564" lon="-3.43258910012137">
+<ele>804.287403133785</ele>
+<name>CAI162</name>
+</rtept>
+<rtept lat="56.8909560802525" lon="-3.43088840100855">
+<ele>799.121031402015</ele>
+<name>CAI163</name>
+</rtept>
+<rtept lat="56.890981666863" lon="-3.42983058391166">
+<ele>793.966649259522</ele>
+<name>CAI164</name>
+</rtept>
+<rtept lat="56.8910266987424" lon="-3.42942848409742">
+<ele>791.455716748636</ele>
+<name>CAI165</name>
+</rtept>
+<rtept lat="56.8906851447452" lon="-3.42771153321024">
+<ele>773.682560431897</ele>
+<name>CAI166</name>
+</rtept>
+<rtept lat="56.8903935593471" lon="-3.42728182493175">
+<ele>764.636287250701</ele>
+<name>CAI167</name>
+</rtept>
+<rtept lat="56.8903524195219" lon="-3.42710789724185">
+<ele>762.293002323296</ele>
+<name>CAI168</name>
+</rtept>
+<rtept lat="56.8903610291654" lon="-3.42505469083933">
+<ele>747.917974535108</ele>
+<name>CAI169</name>
+</rtept>
+<rtept lat="56.8906050222561" lon="-3.42374911860406">
+<ele>747.167868416415</ele>
+<name>CAI170</name>
+</rtept>
+<rtept lat="56.8904644622564" lon="-3.42283765418795">
+<ele>740.573934002416</ele>
+<name>CAI171</name>
+</rtept>
+<rtept lat="56.8899038794906" lon="-3.42212199418549">
+<ele>727.098113766228</ele>
+<name>CAI172</name>
+</rtept>
+<rtept lat="56.889463126951" lon="-3.42129764434103">
+<ele>715.99118584475</ele>
+<name>CAI173</name>
+</rtept>
+<rtept lat="56.8882699437425" lon="-3.42039059590847">
+<ele>700.036340416902</ele>
+<name>CAI174</name>
+</rtept>
+<rtept lat="56.8877636227478" lon="-3.41964260376642">
+<ele>695.89026781324</ele>
+<name>CAI175</name>
+</rtept>
+<rtept lat="56.887485072582" lon="-3.41889341669808">
+<ele>689.697280067568</ele>
+<name>CAI176</name>
+</rtept>
+<rtept lat="56.8875217507834" lon="-3.4182743622703">
+<ele>683.239200207878</ele>
+<name>CAI177</name>
+</rtept>
+<rtept lat="56.8876221383666" lon="-3.41774143029913">
+<ele>676.784586402038</ele>
+<name>CAI178</name>
+</rtept>
+<rtept lat="56.8875708084185" lon="-3.41727661447857">
+<ele>672.352550738338</ele>
+<name>CAI179</name>
+</rtept>
+<rtept lat="56.887166187324" lon="-3.4158776198799">
+<ele>657.580635204688</ele>
+<name>CAI180</name>
+</rtept>
+<rtept lat="56.8872192743858" lon="-3.41571220755606">
+<ele>653.476570519098</ele>
+<name>CAI181</name>
+</rtept>
+<rtept lat="56.8872241815462" lon="-3.41527907041584">
+<ele>647.959259854202</ele>
+<name>CAI182</name>
+</rtept>
+<rtept lat="56.8868043063981" lon="-3.41498744956927">
+<ele>651.281284731021</ele>
+<name>CAI183</name>
+</rtept>
+</rte>
+</gpx>

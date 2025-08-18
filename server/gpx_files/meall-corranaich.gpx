@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="Walkhighlands">
+<metadata>
+	<desc>GPX file from Walkhighlands; file is copyright Walkhighlands and must not be publicly shared on other websites. Do not remove this notice.</desc>
+	<copyright author="Walkhighlands"><year>2019</year></copyright>
+</metadata>
+<rte>
+<name>Meall Corranaich and Meall a&#039;Choire Lèith</name>
+<rtept lat="56.5453028939743" lon="-4.28931425308804">
+<ele>551.552376456933</ele>
+<name>MC 001</name>
+</rtept>
+<rtept lat="56.5452931770976" lon="-4.28793897072742">
+<ele>558.470219372106</ele>
+<name>MC 002</name>
+</rtept>
+<rtept lat="56.5464384842374" lon="-4.28740611907684">
+<ele>572.344184997416</ele>
+<name>MC 003</name>
+</rtept>
+<rtept lat="56.5467826255875" lon="-4.28687210153093">
+<ele>588.172305355072</ele>
+<name>MC 004</name>
+</rtept>
+<rtept lat="56.5475005835456" lon="-4.28570495596248">
+<ele>592.902721095014</ele>
+<name>MC 005</name>
+</rtept>
+<rtept lat="56.5479476558963" lon="-4.28411795469662">
+<ele>600.031490707135</ele>
+<name>MC 006</name>
+</rtept>
+<rtept lat="56.5475895902025" lon="-4.28389463961371">
+<ele>605.419977324396</ele>
+<name>MC 007</name>
+</rtept>
+<rtept lat="56.5464798331442" lon="-4.27661572408904">
+<ele>651.330186336019</ele>
+<name>MC 008</name>
+</rtept>
+<rtept lat="56.5411690257386" lon="-4.27453193767729">
+<ele>683.618975151896</ele>
+<name>MC 009</name>
+</rtept>
+<rtept lat="56.5394442995501" lon="-4.27210896179224">
+<ele>726.936838733626</ele>
+<name>MC 010</name>
+</rtept>
+<rtept lat="56.5368214920483" lon="-4.26512058532128">
+<ele>849.524396109133</ele>
+<name>MC 011</name>
+</rtept>
+<rtept lat="56.5382789906956" lon="-4.25910808570484">
+<ele>922.813479094823</ele>
+<name>MC 012</name>
+</rtept>
+<rtept lat="56.5408328731259" lon="-4.25357507037536">
+<ele>1059.83048226863</ele>
+<name>MC 013</name>
+</rtept>
+<rtept lat="56.5418242262875" lon="-4.25465880185264">
+<ele>1052.16005031123</ele>
+<name>MC 014</name>
+</rtept>
+<rtept lat="56.5427749804385" lon="-4.2550081446891">
+<ele>1045.12001545205</ele>
+<name>MC 015</name>
+</rtept>
+<rtept lat="56.5447735649381" lon="-4.25407120700418">
+<ele>931.923091488361</ele>
+<name>MC 016</name>
+</rtept>
+<rtept lat="56.5468771912641" lon="-4.2532884549443">
+<ele>976.099628656626</ele>
+<name>MC 017</name>
+</rtept>
+<rtept lat="56.548326257623" lon="-4.25277097266652">
+<ele>950.769532196379</ele>
+<name>MC 018</name>
+</rtept>
+<rtept lat="56.5500312111244" lon="-4.25085311526904">
+<ele>934.153826869106</ele>
+<name>MC 019</name>
+</rtept>
+<rtept lat="56.5515060951372" lon="-4.24947955668553">
+<ele>907.586038909721</ele>
+<name>MC 020</name>
+</rtept>
+<rtept lat="56.5532118300096" lon="-4.25022188332441">
+<ele>895.812513643217</ele>
+<name>MC 021</name>
+</rtept>
+<rtept lat="56.5560832963961" lon="-4.25055835946362">
+<ele>833.527920308733</ele>
+<name>MC 022</name>
+</rtept>
+<rtept lat="56.557181455018" lon="-4.25137865287416">
+<ele>831.176331811714</ele>
+<name>MC 023</name>
+</rtept>
+<rtept lat="56.5579250469753" lon="-4.25339033557786">
+<ele>819.231922790921</ele>
+<name>MC 024</name>
+</rtept>
+<rtept lat="56.5589701509729" lon="-4.25567229510464">
+<ele>762.346596868694</ele>
+<name>MC 025</name>
+</rtept>
+<rtept lat="56.5601313184077" lon="-4.25700434870151">
+<ele>750.192921971548</ele>
+<name>MC 026</name>
+</rtept>
+<rtept lat="56.5607918896587" lon="-4.25744731581058">
+<ele>762.826663229966</ele>
+<name>MC 027</name>
+</rtept>
+<rtept lat="56.5624671166082" lon="-4.25724438957593">
+<ele>794.953911853361</ele>
+<name>MC 028</name>
+</rtept>
+<rtept lat="56.564602617765" lon="-4.25777527702171">
+<ele>864.444598394203</ele>
+<name>MC 029</name>
+</rtept>
+<rtept lat="56.5665167454986" lon="-4.25975638557065">
+<ele>906.833792600763</ele>
+<name>MC 030</name>
+</rtept>
+<rtept lat="56.563744642044" lon="-4.26428189903064">
+<ele>788.36164793644</ele>
+<name>MC 031</name>
+</rtept>
+<rtept lat="56.5598344359623" lon="-4.26788257940549">
+<ele>685.019380716181</ele>
+<name>MC 032</name>
+</rtept>
+<rtept lat="56.559066924706" lon="-4.27177180208642">
+<ele>619.362586020315</ele>
+<name>MC 033</name>
+</rtept>
+<rtept lat="56.5551798809324" lon="-4.27539545728104">
+<ele>568.112365207707</ele>
+<name>MC 034</name>
+</rtept>
+<rtept lat="56.554321791854" lon="-4.27683449633523">
+<ele>552.385999518377</ele>
+<name>MC 035</name>
+</rtept>
+<rtept lat="56.5496681456661" lon="-4.28133198701544">
+<ele>594.681100115981</ele>
+<name>MC 036</name>
+</rtept>
+<rtept lat="56.5489160448249" lon="-4.28296580340476">
+<ele>607.06115103111</ele>
+<name>MC 037</name>
+</rtept>
+<rtept lat="56.5479476558963" lon="-4.28411795469662">
+<ele>600.031490707135</ele>
+<name>MC 038</name>
+</rtept>
+<rtept lat="56.5476489921892" lon="-4.28520954631747">
+<ele>605.083661729574</ele>
+<name>MC 039</name>
+</rtept>
+<rtept lat="56.5467520154494" lon="-4.28702155879778">
+<ele>574.099395393944</ele>
+<name>MC 040</name>
+</rtept>
+<rtept lat="56.5464106558398" lon="-4.28740444014292">
+<ele>571.755184997416</ele>
+<name>MC 041</name>
+</rtept>
+<rtept lat="56.5452874318581" lon="-4.28798254921364">
+<ele>558.727719372177</ele>
+<name>MC 042</name>
+</rtept>
+<rtept lat="56.5453317688822" lon="-4.28938107097222">
+<ele>551.5564798558</ele>
+<name>MC 043</name>
+</rtept>
+</rte>
+</gpx>

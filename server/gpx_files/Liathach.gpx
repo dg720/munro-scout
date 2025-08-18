@@ -1,0 +1,586 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="Walkhighlands">
+<metadata>
+	<desc>GPX file from Walkhighlands; file is copyright Walkhighlands and must not be publicly shared on other websites. Do not remove this notice.</desc>
+	<copyright author="Walkhighlands"><year>2019</year></copyright>
+</metadata>
+<rte>
+<name>Liathach, Glen Torridon</name>
+<rtept lat="57.5526994255723" lon="-5.45169228875403">
+<ele>59.4374380826534</ele>
+<name>Lia001</name>
+</rtept>
+<rtept lat="57.5527238296896" lon="-5.45141365770334">
+<ele>59.7803200168628</ele>
+<name>Lia002</name>
+</rtept>
+<rtept lat="57.552902" lon="-5.450973">
+<ele>57.19610864</ele>
+<name>Lia003</name>
+</rtept>
+<rtept lat="57.553707" lon="-5.450681">
+<ele>72.19727576</ele>
+<name>Lia004</name>
+</rtept>
+<rtept lat="57.553847" lon="-5.450314">
+<ele>79.19874504</ele>
+<name>Lia005</name>
+</rtept>
+<rtept lat="57.554248" lon="-5.450476">
+<ele>98.19809572</ele>
+<name>Lia006</name>
+</rtept>
+<rtept lat="57.554811" lon="-5.450332">
+<ele>115.1986708</ele>
+<name>Lia007</name>
+</rtept>
+<rtept lat="57.556023" lon="-5.449085">
+<ele>182.20366044</ele>
+<name>Lia008</name>
+</rtept>
+<rtept lat="57.556586" lon="-5.449193">
+<ele>211.20322632</ele>
+<name>Lia009</name>
+</rtept>
+<rtept lat="57.556726" lon="-5.448923">
+<ele>222.20430856</ele>
+<name>Lia010</name>
+</rtept>
+<rtept lat="57.557075" lon="-5.449149">
+<ele>242.2034022</ele>
+<name>Lia011</name>
+</rtept>
+<rtept lat="57.557565" lon="-5.448816">
+<ele>279.20473612</ele>
+<name>Lia012</name>
+</rtept>
+<rtept lat="57.557805" lon="-5.448992">
+<ele>292.20403344</ele>
+<name>Lia013</name>
+</rtept>
+<rtept lat="57.558065" lon="-5.448441">
+<ele>326.20623716</ele>
+<name>Lia014</name>
+</rtept>
+<rtept lat="57.55882" lon="-5.448676">
+<ele>362.2052978</ele>
+<name>Lia015</name>
+</rtept>
+<rtept lat="57.559289" lon="-5.448289">
+<ele>373.20684368</ele>
+<name>Lia016</name>
+</rtept>
+<rtept lat="57.559675" lon="-5.447675">
+<ele>388.2092998</ele>
+<name>Lia017</name>
+</rtept>
+<rtept lat="57.560572" lon="-5.448724">
+<ele>420.20510592</ele>
+<name>Lia018</name>
+</rtept>
+<rtept lat="57.560745" lon="-5.449544">
+<ele>443.20182504</ele>
+<name>Lia019</name>
+</rtept>
+<rtept lat="57.561507" lon="-5.449905">
+<ele>474.20038096</ele>
+<name>Lia020</name>
+</rtept>
+<rtept lat="57.562213" lon="-5.4509">
+<ele>504.196402</ele>
+<name>Lia021</name>
+</rtept>
+<rtept lat="57.562447" lon="-5.450825">
+<ele>514.1966996</ele>
+<name>Lia022</name>
+</rtept>
+<rtept lat="57.563225" lon="-5.451358">
+<ele>560.19456664</ele>
+<name>Lia023</name>
+</rtept>
+<rtept lat="57.563322" lon="-5.451199">
+<ele>572.19520588</ele>
+<name>Lia024</name>
+</rtept>
+<rtept lat="57.5638" lon="-5.451337">
+<ele>605.19465072</ele>
+<name>Lia025</name>
+</rtept>
+<rtept lat="57.563915" lon="-5.451139">
+<ele>621.19544388</ele>
+<name>Lia026</name>
+</rtept>
+<rtept lat="57.564126" lon="-5.451206">
+<ele>633.19517568</ele>
+<name>Lia027</name>
+</rtept>
+<rtept lat="57.564351" lon="-5.449306">
+<ele>709.20277736</ele>
+<name>Lia028</name>
+</rtept>
+<rtept lat="57.564574" lon="-5.449318">
+<ele>721.20272792</ele>
+<name>Lia029</name>
+</rtept>
+<rtept lat="57.564795" lon="-5.44828">
+<ele>769.206879</ele>
+<name>Lia030</name>
+</rtept>
+<rtept lat="57.564959" lon="-5.44826">
+<ele>770.20696116</ele>
+<name>Lia031</name>
+</rtept>
+<rtept lat="57.56503" lon="-5.447886">
+<ele>795.20845452</ele>
+<name>Lia032</name>
+</rtept>
+<rtept lat="57.565199" lon="-5.447872">
+<ele>790.20851008</ele>
+<name>Lia033</name>
+</rtept>
+<rtept lat="57.56523" lon="-5.447568">
+<ele>820.20972616</ele>
+<name>Lia034</name>
+</rtept>
+<rtept lat="57.565531" lon="-5.447242">
+<ele>825.21103352</ele>
+<name>Lia035</name>
+</rtept>
+<rtept lat="57.566049" lon="-5.445506">
+<ele>883.21797572</ele>
+<name>Lia036</name>
+</rtept>
+<rtept lat="57.565455" lon="-5.447471">
+<ele>839.2101154</ele>
+<name>Lia037</name>
+</rtept>
+<rtept lat="57.565596" lon="-5.448191">
+<ele>840.20723536</ele>
+<name>Lia038</name>
+</rtept>
+<rtept lat="57.565528" lon="-5.44906">
+<ele>841.20376008</ele>
+<name>Lia039</name>
+</rtept>
+<rtept lat="57.565604" lon="-5.449944">
+<ele>845.20022396</ele>
+<name>Lia040</name>
+</rtept>
+<rtept lat="57.566339" lon="-5.451778">
+<ele>856.19288832</ele>
+<name>Lia041</name>
+</rtept>
+<rtept lat="57.566329" lon="-5.452988">
+<ele>899.18804784</ele>
+<name>Lia042</name>
+</rtept>
+<rtept lat="57.566174" lon="-5.453525">
+<ele>919.18590148</ele>
+<name>Lia043</name>
+</rtept>
+<rtept lat="57.566404" lon="-5.454818">
+<ele>953.18072688</ele>
+<name>Lia044</name>
+</rtept>
+<rtept lat="57.566302" lon="-5.45571">
+<ele>949.1771592</ele>
+<name>Lia045</name>
+</rtept>
+<rtept lat="57.565877" lon="-5.456626">
+<ele>955.17349684</ele>
+<name>Lia046</name>
+</rtept>
+<rtept lat="57.565838" lon="-5.457218">
+<ele>974.17112876</ele>
+<name>Lia047</name>
+</rtept>
+<rtept lat="57.565651" lon="-5.457757">
+<ele>982.16897248</ele>
+<name>Lia048</name>
+</rtept>
+<rtept lat="57.564806" lon="-5.458748">
+<ele>931.1650084</ele>
+<name>Lia049</name>
+</rtept>
+<rtept lat="57.564408" lon="-5.46304">
+<ele>978.14784076</ele>
+<name>Lia050</name>
+</rtept>
+<rtept lat="57.56414" lon="-5.463606">
+<ele>1050.14557584</ele>
+<name>Lia051</name>
+</rtept>
+<rtept lat="57.563572" lon="-5.463651">
+<ele>1036.14539712</ele>
+<name>Lia052</name>
+</rtept>
+<rtept lat="57.563286" lon="-5.463993">
+<ele>1015.144029</ele>
+<name>Lia053</name>
+</rtept>
+<rtept lat="57.562307" lon="-5.46538">
+<ele>941.13848068</ele>
+<name>Lia054</name>
+</rtept>
+<rtept lat="57.561422" lon="-5.467035">
+<ele>917.1318612</ele>
+<name>Lia055</name>
+</rtept>
+<rtept lat="57.560926" lon="-5.467469">
+<ele>912.13012272</ele>
+<name>Lia056</name>
+</rtept>
+<rtept lat="57.560912" lon="-5.467777">
+<ele>918.12889104</ele>
+<name>Lia057</name>
+</rtept>
+<rtept lat="57.560536" lon="-5.468646">
+<ele>918.12541728</ele>
+<name>Lia058</name>
+</rtept>
+<rtept lat="57.560627" lon="-5.46938">
+<ele>902.12248156</ele>
+<name>Lia059</name>
+</rtept>
+<rtept lat="57.560166" lon="-5.470478">
+<ele>868.1180884</ele>
+<name>Lia060</name>
+</rtept>
+<rtept lat="57.559493" lon="-5.47118">
+<ele>880.115282</ele>
+<name>Lia061</name>
+</rtept>
+<rtept lat="57.559512" lon="-5.471633">
+<ele>882.11346928</ele>
+<name>Lia062</name>
+</rtept>
+<rtept lat="57.559285" lon="-5.47185">
+<ele>882.112598</ele>
+<name>Lia063</name>
+</rtept>
+<rtept lat="57.559431" lon="-5.472198">
+<ele>979.1112068</ele>
+<name>Lia064</name>
+</rtept>
+<rtept lat="57.559429" lon="-5.472349">
+<ele>889.11060408</ele>
+<name>Lia065</name>
+</rtept>
+<rtept lat="57.559287" lon="-5.472298">
+<ele>894.1108062</ele>
+<name>Lia066</name>
+</rtept>
+<rtept lat="57.559391" lon="-5.472479">
+<ele>875.11008548</ele>
+<name>Lia067</name>
+</rtept>
+<rtept lat="57.558883" lon="-5.473184">
+<ele>868.1072652</ele>
+<name>Lia068</name>
+</rtept>
+<rtept lat="57.558958" lon="-5.475185">
+<ele>885.0992584</ele>
+<name>Lia069</name>
+</rtept>
+<rtept lat="57.558724" lon="-5.475253">
+<ele>889.09898724</ele>
+<name>Lia070</name>
+</rtept>
+<rtept lat="57.558549" lon="-5.475798">
+<ele>889.09680924</ele>
+<name>Lia071</name>
+</rtept>
+<rtept lat="57.558604" lon="-5.476252">
+<ele>877.09499252</ele>
+<name>Lia072</name>
+</rtept>
+<rtept lat="57.559056" lon="-5.477296">
+<ele>885.09081704</ele>
+<name>Lia073</name>
+</rtept>
+<rtept lat="57.559185" lon="-5.47865">
+<ele>881.0854008</ele>
+<name>Lia074</name>
+</rtept>
+<rtept lat="57.559717" lon="-5.480946">
+<ele>915.07621628</ele>
+<name>Lia075</name>
+</rtept>
+<rtept lat="57.559891" lon="-5.485752">
+<ele>952.05699104</ele>
+<name>Lia076</name>
+</rtept>
+<rtept lat="57.55961" lon="-5.48798">
+<ele>956.04808028</ele>
+<name>Lia077</name>
+</rtept>
+<rtept lat="57.559607" lon="-5.488896">
+<ele>978.04441644</ele>
+<name>Lia078</name>
+</rtept>
+<rtept lat="57.560124" lon="-5.49045">
+<ele>998.03820104</ele>
+<name>Lia079</name>
+</rtept>
+<rtept lat="57.560212" lon="-5.491322">
+<ele>987.034714</ele>
+<name>Lia080</name>
+</rtept>
+<rtept lat="57.560871" lon="-5.492504">
+<ele>1031.02998296</ele>
+<name>Lia081</name>
+</rtept>
+<rtept lat="57.560689" lon="-5.493227">
+<ele>1014.0270906</ele>
+<name>Lia082</name>
+</rtept>
+<rtept lat="57.560118" lon="-5.494122">
+<ele>971.02351184</ele>
+<name>Lia083</name>
+</rtept>
+<rtept lat="57.559891" lon="-5.494208">
+<ele>957.0231692</ele>
+<name>Lia084</name>
+</rtept>
+<rtept lat="57.55957" lon="-5.493501">
+<ele>924.02599504</ele>
+<name>Lia085</name>
+</rtept>
+<rtept lat="57.558811" lon="-5.492963">
+<ele>873.02814968</ele>
+<name>Lia086</name>
+</rtept>
+<rtept lat="57.558743" lon="-5.492679">
+<ele>864.0292848</ele>
+<name>Lia087</name>
+</rtept>
+<rtept lat="57.558034" lon="-5.492975">
+<ele>826.02809916</ele>
+<name>Lia088</name>
+</rtept>
+<rtept lat="57.55763" lon="-5.492716">
+<ele>800.0291346</ele>
+<name>Lia089</name>
+</rtept>
+<rtept lat="57.557568" lon="-5.492403">
+<ele>786.03038884</ele>
+<name>Lia090</name>
+</rtept>
+<rtept lat="57.557244" lon="-5.492361">
+<ele>765.03055584</ele>
+<name>Lia091</name>
+</rtept>
+<rtept lat="57.557183" lon="-5.492078">
+<ele>756.03168848</ele>
+<name>Lia092</name>
+</rtept>
+<rtept lat="57.55654" lon="-5.491977">
+<ele>705.03209192</ele>
+<name>Lia093</name>
+</rtept>
+<rtept lat="57.555966" lon="-5.491456">
+<ele>661.03417608</ele>
+<name>Lia094</name>
+</rtept>
+<rtept lat="57.555485" lon="-5.491733">
+<ele>629.03306696</ele>
+<name>Lia095</name>
+</rtept>
+<rtept lat="57.55492" lon="-5.491532">
+<ele>679.03387136</ele>
+<name>Lia096</name>
+</rtept>
+<rtept lat="57.554022" lon="-5.490062">
+<ele>570.03975088</ele>
+<name>Lia097</name>
+</rtept>
+<rtept lat="57.553723" lon="-5.488619">
+<ele>547.04552532</ele>
+<name>Lia098</name>
+</rtept>
+<rtept lat="57.553478" lon="-5.488214">
+<ele>539.04714468</ele>
+<name>Lia099</name>
+</rtept>
+<rtept lat="57.553351" lon="-5.487141">
+<ele>505.05143536</ele>
+<name>Lia100</name>
+</rtept>
+<rtept lat="57.552568" lon="-5.485215">
+<ele>454.05914172</ele>
+<name>Lia101</name>
+</rtept>
+<rtept lat="57.551935" lon="-5.484268">
+<ele>410.0629284</ele>
+<name>Lia102</name>
+</rtept>
+<rtept lat="57.55145" lon="-5.484096">
+<ele>386.06361728</ele>
+<name>Lia103</name>
+</rtept>
+<rtept lat="57.550663" lon="-5.484085">
+<ele>354.06365988</ele>
+<name>Lia104</name>
+</rtept>
+<rtept lat="57.550295" lon="-5.484356">
+<ele>343.06257636</ele>
+<name>Lia105</name>
+</rtept>
+<rtept lat="57.550072" lon="-5.48417">
+<ele>336.06332044</ele>
+<name>Lia106</name>
+</rtept>
+<rtept lat="57.549434" lon="-5.484312">
+<ele>320.06275308</ele>
+<name>Lia107</name>
+</rtept>
+<rtept lat="57.549113" lon="-5.484078">
+<ele>301.06368804</ele>
+<name>Lia108</name>
+</rtept>
+<rtept lat="57.548678" lon="-5.48477">
+<ele>289.06092156</ele>
+<name>Lia109</name>
+</rtept>
+<rtept lat="57.54835" lon="-5.484694">
+<ele>278.06122268</ele>
+<name>Lia110</name>
+</rtept>
+<rtept lat="57.54814" lon="-5.484936">
+<ele>272.0602576</ele>
+<name>Lia111</name>
+</rtept>
+<rtept lat="57.548104" lon="-5.484788">
+<ele>267.06084724</ele>
+<name>Lia112</name>
+</rtept>
+<rtept lat="57.547887" lon="-5.485222">
+<ele>254.05911256</ele>
+<name>Lia113</name>
+</rtept>
+<rtept lat="57.547088" lon="-5.485516">
+<ele>234.05793504</ele>
+<name>Lia114</name>
+</rtept>
+<rtept lat="57.546964" lon="-5.485393">
+<ele>228.05842968</ele>
+<name>Lia115</name>
+</rtept>
+<rtept lat="57.546556" lon="-5.485906">
+<ele>205.05637404</ele>
+<name>Lia116</name>
+</rtept>
+<rtept lat="57.546386" lon="-5.485562">
+<ele>196.05775076</ele>
+<name>Lia117</name>
+</rtept>
+<rtept lat="57.545848" lon="-5.48625">
+<ele>170.05500008</ele>
+<name>Lia118</name>
+</rtept>
+<rtept lat="57.545856" lon="-5.486708">
+<ele>165.05316852</ele>
+<name>Lia119</name>
+</rtept>
+<rtept lat="57.545649" lon="-5.486967">
+<ele>151.05213364</ele>
+<name>Lia120</name>
+</rtept>
+<rtept lat="57.545553" lon="-5.48671">
+<ele>142.05315824</ele>
+<name>Lia121</name>
+</rtept>
+<rtept lat="57.54364" lon="-5.487012">
+<ele>70.0519518</ele>
+<name>Lia122</name>
+</rtept>
+<rtept lat="57.543169" lon="-5.486778">
+<ele>58.05288712</ele>
+<name>Lia123</name>
+</rtept>
+<rtept lat="57.542544" lon="-5.487564">
+<ele>50.04974424</ele>
+<name>Lia124</name>
+</rtept>
+<rtept lat="57.542458" lon="-5.487314">
+<ele>47.05074256</ele>
+<name>Lia125</name>
+</rtept>
+<rtept lat="57.541754" lon="-5.487702">
+<ele>37.04919124</ele>
+<name>Lia126</name>
+</rtept>
+<rtept lat="57.541296" lon="-5.487468">
+<ele>31.05012616</ele>
+<name>Lia127</name>
+</rtept>
+<rtept lat="57.540375" lon="-5.487523">
+<ele>20.04990652</ele>
+<name>Lia128</name>
+</rtept>
+<rtept lat="57.540575" lon="-5.485527">
+<ele>18.0578926</ele>
+<name>Lia129</name>
+</rtept>
+<rtept lat="57.541288" lon="-5.482346">
+<ele>27.0706164</ele>
+<name>Lia130</name>
+</rtept>
+<rtept lat="57.542879" lon="-5.478328">
+<ele>25.08668632</ele>
+<name>Lia131</name>
+</rtept>
+<rtept lat="57.543233" lon="-5.47604">
+<ele>20.09583856</ele>
+<name>Lia132</name>
+</rtept>
+<rtept lat="57.544085" lon="-5.474657">
+<ele>188.1013716</ele>
+<name>Lia133</name>
+</rtept>
+<rtept lat="57.544688" lon="-5.474291">
+<ele>33.10283516</ele>
+<name>Lia134</name>
+</rtept>
+<rtept lat="57.545462" lon="-5.472892">
+<ele>31.10843128</ele>
+<name>Lia135</name>
+</rtept>
+<rtept lat="57.546553" lon="-5.470251">
+<ele>35.1189948</ele>
+<name>Lia136</name>
+</rtept>
+<rtept lat="57.548483" lon="-5.464044">
+<ele>46.14382424</ele>
+<name>Lia137</name>
+</rtept>
+<rtept lat="57.549601" lon="-5.461577">
+<ele>54.1536916</ele>
+<name>Lia138</name>
+</rtept>
+<rtept lat="57.550559" lon="-5.459875">
+<ele>46.16049808</ele>
+<name>Lia139</name>
+</rtept>
+<rtept lat="57.551686" lon="-5.458985">
+<ele>40.16406</ele>
+<name>Lia140</name>
+</rtept>
+<rtept lat="57.552228" lon="-5.458161">
+<ele>43.16735548</ele>
+<name>Lia141</name>
+</rtept>
+<rtept lat="57.552897" lon="-5.454123">
+<ele>52.18350968</ele>
+<name>Lia142</name>
+</rtept>
+<rtept lat="57.552658" lon="-5.452818">
+<ele>54.18872832</ele>
+<name>Lia143</name>
+</rtept>
+<rtept lat="57.5527153107523" lon="-5.4517250086235">
+<ele>59.4671307190279</ele>
+<name>Lia144</name>
+</rtept>
+</rte>
+</gpx>

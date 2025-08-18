@@ -1,0 +1,838 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="Walkhighlands">
+<metadata>
+	<desc>GPX file from Walkhighlands; file is copyright Walkhighlands and must not be publicly shared on other websites. Do not remove this notice.</desc>
+	<copyright author="Walkhighlands"><year>2019</year></copyright>
+</metadata>
+<rte>
+<name>Ben Oss and Beinn Dubhchraig, near Tyndrum</name>
+<rtept lat="56.4248545584167" lon="-4.68666422863851">
+<ele>179.309013734626</ele>
+<name>Oss001</name>
+</rtept>
+<rtept lat="56.4238817603184" lon="-4.68512836034283">
+<ele>175.866290274281</ele>
+<name>Oss002</name>
+</rtept>
+<rtept lat="56.4228024063735" lon="-4.68405755099094">
+<ele>173.265341423004</ele>
+<name>Oss003</name>
+</rtept>
+<rtept lat="56.4221877973917" lon="-4.68443698173243">
+<ele>179.13899283121</ele>
+<name>Oss004</name>
+</rtept>
+<rtept lat="56.4217205720328" lon="-4.68564740278921">
+<ele>184.196212463143</ele>
+<name>Oss005</name>
+</rtept>
+<rtept lat="56.4208474143693" lon="-4.68968880671381">
+<ele>189.843222819285</ele>
+<name>Oss006</name>
+</rtept>
+<rtept lat="56.4208371805165" lon="-4.69016054774785">
+<ele>190.921478994059</ele>
+<name>Oss007</name>
+</rtept>
+<rtept lat="56.4205045233088" lon="-4.69088304107544">
+<ele>193.945105863932</ele>
+<name>Oss008</name>
+</rtept>
+<rtept lat="56.4205539259838" lon="-4.69178171952094">
+<ele>191.325326863577</ele>
+<name>Oss009</name>
+</rtept>
+<rtept lat="56.4202460850145" lon="-4.69263027877693">
+<ele>192.727226463449</ele>
+<name>Oss010</name>
+</rtept>
+<rtept lat="56.4202388221754" lon="-4.69486771899442">
+<ele>197.252208305122</ele>
+<name>Oss011</name>
+</rtept>
+<rtept lat="56.4195486093687" lon="-4.6974546516369">
+<ele>201.676268186339</ele>
+<name>Oss012</name>
+</rtept>
+<rtept lat="56.4194328377948" lon="-4.69834161649587">
+<ele>200.584559221117</ele>
+<name>Oss013</name>
+</rtept>
+<rtept lat="56.419279310365" lon="-4.69843020255376">
+<ele>201.901896715679</ele>
+<name>Oss014</name>
+</rtept>
+<rtept lat="56.4190774764522" lon="-4.69883861621432">
+<ele>202.284088053879</ele>
+<name>Oss015</name>
+</rtept>
+<rtept lat="56.4191084392298" lon="-4.70058139231649">
+<ele>199.615703431796</ele>
+<name>Oss016</name>
+</rtept>
+<rtept lat="56.4189753334218" lon="-4.70226280144536">
+<ele>199.392209390587</ele>
+<name>Oss017</name>
+</rtept>
+<rtept lat="56.4189941965219" lon="-4.70266198620135">
+<ele>199</ele>
+<name>Oss018</name>
+</rtept>
+<rtept lat="56.4184440060673" lon="-4.70324457457034">
+<ele>199.016938114689</ele>
+<name>Oss019</name>
+</rtept>
+<rtept lat="56.4185316685862" lon="-4.70364863769236">
+<ele>199.414229431825</ele>
+<name>Oss020</name>
+</rtept>
+<rtept lat="56.4178255518509" lon="-4.70379743628734">
+<ele>207.943782892582</ele>
+<name>Oss021</name>
+</rtept>
+<rtept lat="56.4168844235054" lon="-4.70397927605469">
+<ele>209.159271577957</ele>
+<name>Oss022</name>
+</rtept>
+<rtept lat="56.4158512057848" lon="-4.70522369557886">
+<ele>220.726762675508</ele>
+<name>Oss023</name>
+</rtept>
+<rtept lat="56.4154647186787" lon="-4.70651399594173">
+<ele>232.283994658831</ele>
+<name>Oss024</name>
+</rtept>
+<rtept lat="56.4151537899464" lon="-4.71002244406489">
+<ele>246.709219810651</ele>
+<name>Oss025</name>
+</rtept>
+<rtept lat="56.414899782659" lon="-4.71092429817422">
+<ele>255.612202178152</ele>
+<name>Oss026</name>
+</rtept>
+<rtept lat="56.4145235539967" lon="-4.71174285271142">
+<ele>259.345248434585</ele>
+<name>Oss027</name>
+</rtept>
+<rtept lat="56.4144131127053" lon="-4.71238141617329">
+<ele>262.651707302342</ele>
+<name>Oss028</name>
+</rtept>
+<rtept lat="56.4139718751399" lon="-4.7130212810736">
+<ele>269.014693564108</ele>
+<name>Oss029</name>
+</rtept>
+<rtept lat="56.4137955182085" lon="-4.71415237880109">
+<ele>274.957180991999</ele>
+<name>Oss030</name>
+</rtept>
+<rtept lat="56.4133119034766" lon="-4.71483891725423">
+<ele>279.542596675856</ele>
+<name>Oss031</name>
+</rtept>
+<rtept lat="56.4132152068866" lon="-4.71547843182872">
+<ele>285.771159318029</ele>
+<name>Oss032</name>
+</rtept>
+<rtept lat="56.4126837776735" lon="-4.71645987144299">
+<ele>298.652233133827</ele>
+<name>Oss033</name>
+</rtept>
+<rtept lat="56.4121869342119" lon="-4.71712055698489">
+<ele>304.845215505482</ele>
+<name>Oss034</name>
+</rtept>
+<rtept lat="56.4120906116445" lon="-4.71711368762033">
+<ele>305.656798591437</ele>
+<name>Oss035</name>
+</rtept>
+<rtept lat="56.4119030221404" lon="-4.71749808388589">
+<ele>309.61634793955</ele>
+<name>Oss036</name>
+</rtept>
+<rtept lat="56.4117578008669" lon="-4.71783577718227">
+<ele>314.072385073831</ele>
+<name>Oss037</name>
+</rtept>
+<rtept lat="56.4115508513206" lon="-4.71784587538801">
+<ele>314.173286154189</ele>
+<name>Oss038</name>
+</rtept>
+<rtept lat="56.411164779681" lon="-4.7191110777394">
+<ele>328.845650185073</ele>
+<name>Oss039</name>
+</rtept>
+<rtept lat="56.411179233247" lon="-4.71970875978296">
+<ele>337.664843304763</ele>
+<name>Oss040</name>
+</rtept>
+<rtept lat="56.4108101717601" lon="-4.72082598527717">
+<ele>350.451488046491</ele>
+<name>Oss041</name>
+</rtept>
+<rtept lat="56.410399274482" lon="-4.72196506089844">
+<ele>366.322052610266</ele>
+<name>Oss042</name>
+</rtept>
+<rtept lat="56.4099724258306" lon="-4.72320241121338">
+<ele>385.743059011521</ele>
+<name>Oss043</name>
+</rtept>
+<rtept lat="56.4097583878631" lon="-4.72353514756343">
+<ele>389.413707464689</ele>
+<name>Oss044</name>
+</rtept>
+<rtept lat="56.4096842588745" lon="-4.72439993144728">
+<ele>399.954865781926</ele>
+<name>Oss045</name>
+</rtept>
+<rtept lat="56.4092826051979" lon="-4.72511699048826">
+<ele>409.403555933267</ele>
+<name>Oss046</name>
+</rtept>
+<rtept lat="56.409150032573" lon="-4.7255052556876">
+<ele>415.453513487177</ele>
+<name>Oss047</name>
+</rtept>
+<rtept lat="56.4088291807087" lon="-4.72568117746815">
+<ele>418.496818867773</ele>
+<name>Oss048</name>
+</rtept>
+<rtept lat="56.4082234123482" lon="-4.72690563306464">
+<ele>447.306711493262</ele>
+<name>Oss049</name>
+</rtept>
+<rtept lat="56.4079663346855" lon="-4.72668836877967">
+<ele>446.927397363426</ele>
+<name>Oss050</name>
+</rtept>
+<rtept lat="56.4076371800475" lon="-4.72661509950175">
+<ele>452.40266687534</ele>
+<name>Oss051</name>
+</rtept>
+<rtept lat="56.4069961291617" lon="-4.72756354169435">
+<ele>467.338394332809</ele>
+<name>Oss052</name>
+</rtept>
+<rtept lat="56.4055972674802" lon="-4.72912883013145">
+<ele>489.918008561512</ele>
+<name>Oss053</name>
+</rtept>
+<rtept lat="56.4051774549448" lon="-4.73004331691414">
+<ele>501.683671675588</ele>
+<name>Oss054</name>
+</rtept>
+<rtept lat="56.4042909724188" lon="-4.73149603175759">
+<ele>529.769385224198</ele>
+<name>Oss055</name>
+</rtept>
+<rtept lat="56.4036933541836" lon="-4.7323480030878">
+<ele>545.435695207477</ele>
+<name>Oss056</name>
+</rtept>
+<rtept lat="56.4031139480631" lon="-4.73362379417241">
+<ele>563.120426665843</ele>
+<name>Oss057</name>
+</rtept>
+<rtept lat="56.4022245388507" lon="-4.7339576779648">
+<ele>581.996384327375</ele>
+<name>Oss058</name>
+</rtept>
+<rtept lat="56.4014077612897" lon="-4.73412277808489">
+<ele>601.512691490059</ele>
+<name>Oss059</name>
+</rtept>
+<rtept lat="56.401269686924" lon="-4.73475907989112">
+<ele>605.444583631572</ele>
+<name>Oss060</name>
+</rtept>
+<rtept lat="56.4008828308518" lon="-4.73542723082064">
+<ele>616.655809300814</ele>
+<name>Oss061</name>
+</rtept>
+<rtept lat="56.4003332282306" lon="-4.73784828461109">
+<ele>638.97320367769</ele>
+<name>Oss062</name>
+</rtept>
+<rtept lat="56.3994615636666" lon="-4.739873323175">
+<ele>665.107664653355</ele>
+<name>Oss063</name>
+</rtept>
+<rtept lat="56.3990829094124" lon="-4.74016919113416">
+<ele>672.255208536948</ele>
+<name>Oss064</name>
+</rtept>
+<rtept lat="56.3989024268402" lon="-4.74085208963454">
+<ele>683.571578438767</ele>
+<name>Oss065</name>
+</rtept>
+<rtept lat="56.3987351106136" lon="-4.74093946895111">
+<ele>685.534680292992</ele>
+<name>Oss066</name>
+</rtept>
+<rtept lat="56.3984951926461" lon="-4.74181690173212">
+<ele>699.20155485606</ele>
+<name>Oss067</name>
+</rtept>
+<rtept lat="56.3980967353968" lon="-4.7423846917669">
+<ele>713.374403455631</ele>
+<name>Oss068</name>
+</rtept>
+<rtept lat="56.3975177780696" lon="-4.74363533022257">
+<ele>733.719711636623</ele>
+<name>Oss069</name>
+</rtept>
+<rtept lat="56.3968914602052" lon="-4.74453460282567">
+<ele>763.860632071826</ele>
+<name>Oss070</name>
+</rtept>
+<rtept lat="56.3963102631986" lon="-4.74526313932534">
+<ele>793.295221554621</ele>
+<name>Oss071</name>
+</rtept>
+<rtept lat="56.3961693843714" lon="-4.74602337078826">
+<ele>818.954365691234</ele>
+<name>Oss072</name>
+</rtept>
+<rtept lat="56.3955474485516" lon="-4.74672408579039">
+<ele>847.73754357825</ele>
+<name>Oss073</name>
+</rtept>
+<rtept lat="56.3947895582275" lon="-4.74734043086339">
+<ele>881.822608515999</ele>
+<name>Oss074</name>
+</rtept>
+<rtept lat="56.3943707209882" lon="-4.74882608027592">
+<ele>899.7843867238</ele>
+<name>Oss075</name>
+</rtept>
+<rtept lat="56.394005802283" lon="-4.74850157591996">
+<ele>909.08196661998</ele>
+<name>Oss076</name>
+</rtept>
+<rtept lat="56.3938395743036" lon="-4.7479180571566">
+<ele>914.461508452977</ele>
+<name>Oss077</name>
+</rtept>
+<rtept lat="56.3929600199328" lon="-4.74718374737487">
+<ele>937.038623196694</ele>
+<name>Oss078</name>
+</rtept>
+<rtept lat="56.3918437294101" lon="-4.74469305746213">
+<ele>959.336873463991</ele>
+<name>Oss079</name>
+</rtept>
+<rtept lat="56.391599316431" lon="-4.74390517961035">
+<ele>963.948796812156</ele>
+<name>Oss080</name>
+</rtept>
+<rtept lat="56.3916092019647" lon="-4.7434586294473">
+<ele>967.491550748427</ele>
+<name>Oss081</name>
+</rtept>
+<rtept lat="56.3911336383234" lon="-4.74315108887275">
+<ele>961.149949440999</ele>
+<name>Oss082</name>
+</rtept>
+<rtept lat="56.3915277395898" lon="-4.74340307241537">
+<ele>967.772790964018</ele>
+<name>Oss083</name>
+</rtept>
+<rtept lat="56.3916141750092" lon="-4.74385655315819">
+<ele>964.450761125006</ele>
+<name>Oss084</name>
+</rtept>
+<rtept lat="56.3918029985187" lon="-4.74466527742727">
+<ele>958.814302970744</ele>
+<name>Oss085</name>
+</rtept>
+<rtept lat="56.3929605698356" lon="-4.74715893822331">
+<ele>937.454981356057</ele>
+<name>Oss086</name>
+</rtept>
+<rtept lat="56.3938258142492" lon="-4.74791706538988">
+<ele>914.764448038139</ele>
+<name>Oss087</name>
+</rtept>
+<rtept lat="56.3939920422358" lon="-4.74850058393656">
+<ele>909.211864499097</ele>
+<name>Oss088</name>
+</rtept>
+<rtept lat="56.3938302293796" lon="-4.74958229034742">
+<ele>906.471065056959</ele>
+<name>Oss089</name>
+</rtept>
+<rtept lat="56.3935704390622" lon="-4.75011023681196">
+<ele>902.559884852021</ele>
+<name>Oss090</name>
+</rtept>
+<rtept lat="56.3937069163847" lon="-4.75203347685871">
+<ele>881.195954680801</ele>
+<name>Oss091</name>
+</rtept>
+<rtept lat="56.3946150253516" lon="-4.7539627718637">
+<ele>868.701454661038</ele>
+<name>Oss092</name>
+</rtept>
+<rtept lat="56.3948340019836" lon="-4.75589204466836">
+<ele>836.18557879447</ele>
+<name>Oss093</name>
+</rtept>
+<rtept lat="56.3947167503474" lon="-4.75620661869985">
+<ele>827.12493078782</ele>
+<name>Oss094</name>
+</rtept>
+<rtept lat="56.394432723126" lon="-4.75658368180807">
+<ele>814.285800443772</ele>
+<name>Oss095</name>
+</rtept>
+<rtept lat="56.3947244050679" lon="-4.7571017721536">
+<ele>800.872902281674</ele>
+<name>Oss096</name>
+</rtept>
+<rtept lat="56.3945883359212" lon="-4.75888112622692">
+<ele>780.124105688957</ele>
+<name>Oss097</name>
+</rtept>
+<rtept lat="56.3948414400271" lon="-4.75989344647076">
+<ele>780.556264449633</ele>
+<name>Oss098</name>
+</rtept>
+<rtept lat="56.3939341622141" lon="-4.76226302078112">
+<ele>784.201307989746</ele>
+<name>Oss099</name>
+</rtept>
+<rtept lat="56.3943529103136" lon="-4.76326250324904">
+<ele>799.766808204901</ele>
+<name>Oss100</name>
+</rtept>
+<rtept lat="56.3942608751574" lon="-4.76429952231414">
+<ele>816.265016806634</ele>
+<name>Oss101</name>
+</rtept>
+<rtept lat="56.3943696934205" lon="-4.76559960400033">
+<ele>857.34155237706</ele>
+<name>Oss102</name>
+</rtept>
+<rtept lat="56.39422536837" lon="-4.76650857527945">
+<ele>879.272852592945</ele>
+<name>Oss103</name>
+</rtept>
+<rtept lat="56.3943847702223" lon="-4.76801113432797">
+<ele>905.978790516972</ele>
+<name>Oss104</name>
+</rtept>
+<rtept lat="56.3940593329682" lon="-4.76900634235837">
+<ele>920.472738770401</ele>
+<name>Oss105</name>
+</rtept>
+<rtept lat="56.3935977438332" lon="-4.77115956247611">
+<ele>920.845873871579</ele>
+<name>Oss106</name>
+</rtept>
+<rtept lat="56.3934231957621" lon="-4.77156931302167">
+<ele>916.148147389047</ele>
+<name>Oss107</name>
+</rtept>
+<rtept lat="56.3932600726914" lon="-4.77270051659838">
+<ele>922.799160913641</ele>
+<name>Oss108</name>
+</rtept>
+<rtept lat="56.3924139483468" lon="-4.77355838289655">
+<ele>957.151558768244</ele>
+<name>Oss109</name>
+</rtept>
+<rtept lat="56.3912281428359" lon="-4.7748139088321">
+<ele>996.269238228893</ele>
+<name>Oss110</name>
+</rtept>
+<rtept lat="56.3902527403309" lon="-4.7752895651359">
+<ele>1010.05187647863</ele>
+<name>Oss111</name>
+</rtept>
+<rtept lat="56.3893120779582" lon="-4.77544472074352">
+<ele>1017.41781515763</ele>
+<name>Oss112</name>
+</rtept>
+<rtept lat="56.3901965903235" lon="-4.77533517266732">
+<ele>1010.85352821739</ele>
+<name>Oss113</name>
+</rtept>
+<rtept lat="56.3913145891611" lon="-4.77464626452425">
+<ele>992.572979382604</ele>
+<name>Oss114</name>
+</rtept>
+<rtept lat="56.3924139483468" lon="-4.77355838289655">
+<ele>957.151558768244</ele>
+<name>Oss115</name>
+</rtept>
+<rtept lat="56.393246312923" lon="-4.77269951591614">
+<ele>923.07552434861</ele>
+<name>Oss116</name>
+</rtept>
+<rtept lat="56.3934259696286" lon="-4.77144526829545">
+<ele>916.493693551688</ele>
+<name>Oss117</name>
+</rtept>
+<rtept lat="56.3935845387496" lon="-4.77113375328017">
+<ele>921.016280660518</ele>
+<name>Oss118</name>
+</rtept>
+<rtept lat="56.3940587786886" lon="-4.76903115176834">
+<ele>920.950477514572</ele>
+<name>Oss119</name>
+</rtept>
+<rtept lat="56.3943996381936" lon="-4.7679625140571">
+<ele>905.309088578569</ele>
+<name>Oss120</name>
+</rtept>
+<rtept lat="56.3941989562393" lon="-4.76645695920148">
+<ele>878.447351568157</ele>
+<name>Oss121</name>
+</rtept>
+<rtept lat="56.3943570407568" lon="-4.76554898648595">
+<ele>855.672251594906</ele>
+<name>Oss122</name>
+</rtept>
+<rtept lat="56.3942063890349" lon="-4.76427072195316">
+<ele>815.130350375199</ele>
+<name>Oss123</name>
+</rtept>
+<rtept lat="56.3943666701892" lon="-4.76326350056977">
+<ele>800.049577137875</ele>
+<name>Oss124</name>
+</rtept>
+<rtept lat="56.3939341622141" lon="-4.76226302078112">
+<ele>784.201307989746</ele>
+<name>Oss125</name>
+</rtept>
+<rtept lat="56.3948271276519" lon="-4.7599172604478">
+<ele>780.604348429476</ele>
+<name>Oss126</name>
+</rtept>
+<rtept lat="56.394558607011" lon="-4.75897837451693">
+<ele>779.973450043473</ele>
+<name>Oss127</name>
+</rtept>
+<rtept lat="56.3946963332732" lon="-4.75712459200398">
+<ele>800.245576757339</ele>
+<name>Oss128</name>
+</rtept>
+<rtept lat="56.3944464830789" lon="-4.75658467672314">
+<ele>814.372933471888</ele>
+<name>Oss129</name>
+</rtept>
+<rtept lat="56.3947899637513" lon="-4.7560131114282">
+<ele>832.781424921982</ele>
+<name>Oss130</name>
+</rtept>
+<rtept lat="56.3945858515504" lon="-4.75403521411389">
+<ele>865.804689199028</ele>
+<name>Oss131</name>
+</rtept>
+<rtept lat="56.3937740637532" lon="-4.75211287183895">
+<ele>884.499834105766</ele>
+<name>Oss132</name>
+</rtept>
+<rtept lat="56.3935704390622" lon="-4.75011023681196">
+<ele>902.559884852021</ele>
+<name>Oss133</name>
+</rtept>
+<rtept lat="56.3937713363918" lon="-4.7497519882845">
+<ele>905.940539886126</ele>
+<name>Oss134</name>
+</rtept>
+<rtept lat="56.3939623214032" lon="-4.74859783907312">
+<ele>909.101080500565</ele>
+<name>Oss135</name>
+</rtept>
+<rtept lat="56.3943569609455" lon="-4.74882508816181">
+<ele>900.09009810401</ele>
+<name>Oss136</name>
+</rtept>
+<rtept lat="56.3948170783451" lon="-4.74734241405405">
+<ele>880.935246712921</ele>
+<name>Oss137</name>
+</rtept>
+<rtept lat="56.3961137943925" lon="-4.74604421733663">
+<ele>821.289943729521</ele>
+<name>Oss138</name>
+</rtept>
+<rtept lat="56.3962854906856" lon="-4.74513710075285">
+<ele>792.2511890812</ele>
+<name>Oss139</name>
+</rtept>
+<rtept lat="56.3975474951197" lon="-4.74353806211155">
+<ele>732.322285471742</ele>
+<name>Oss140</name>
+</rtept>
+<rtept lat="56.3981126913772" lon="-4.7422864312904">
+<ele>712.028155551036</ele>
+<name>Oss141</name>
+</rtept>
+<rtept lat="56.3984830791083" lon="-4.74174147342764">
+<ele>698.411064108879</ele>
+<name>Oss142</name>
+</rtept>
+<rtept lat="56.3987213504898" lon="-4.74093847951802">
+<ele>685.57976985076</ele>
+<name>Oss143</name>
+</rtept>
+<rtept lat="56.398929947089" lon="-4.74085406845281">
+<ele>683.428734456176</ele>
+<name>Oss144</name>
+</rtept>
+<rtept lat="56.3991379499395" lon="-4.74017314781588">
+<ele>671.077572741701</ele>
+<name>Oss145</name>
+</rtept>
+<rtept lat="56.3994626606243" lon="-4.73982369611096">
+<ele>664.547833026894</ele>
+<name>Oss146</name>
+</rtept>
+<rtept lat="56.400292495844" lon="-4.73782050536652">
+<ele>639.211029357938</ele>
+<name>Oss147</name>
+</rtept>
+<rtept lat="56.4008976862315" lon="-4.7353785892312">
+<ele>615.911145216658</ele>
+<name>Oss148</name>
+</rtept>
+<rtept lat="56.4012581165825" lon="-4.73465883336814">
+<ele>605.265800497714</ele>
+<name>Oss149</name>
+</rtept>
+<rtept lat="56.4013945484364" lon="-4.73409697610306">
+<ele>601.727358112233</ele>
+<name>Oss150</name>
+</rtept>
+<rtept lat="56.4022537011758" lon="-4.73388520564633">
+<ele>581.049278531498</ele>
+<name>Oss151</name>
+</rtept>
+<rtept lat="56.4031007351188" lon="-4.73359799118653">
+<ele>563.334349820952</ele>
+<name>Oss152</name>
+</rtept>
+<rtept lat="56.4036361252826" lon="-4.7324433226275">
+<ele>547.454345763562</ele>
+<name>Oss153</name>
+</rtept>
+<rtept lat="56.4042772121989" lon="-4.73149504552367">
+<ele>529.804623018803</ele>
+<name>Oss154</name>
+</rtept>
+<rtept lat="56.4051493879206" lon="-4.73006616286446">
+<ele>502.691286457259</ele>
+<name>Oss155</name>
+</rtept>
+<rtept lat="56.4056396409497" lon="-4.72908215087589">
+<ele>488.776646544588</ele>
+<name>Oss156</name>
+</rtept>
+<rtept lat="56.4069399959812" lon="-4.72760923933924">
+<ele>467.902923479432</ele>
+<name>Oss157</name>
+</rtept>
+<rtept lat="56.4076525779426" lon="-4.72654162669447">
+<ele>451.701478848648</ele>
+<name>Oss158</name>
+</rtept>
+<rtept lat="56.4079784572307" lon="-4.72676381145275">
+<ele>447.843589781023</ele>
+<name>Oss159</name>
+</rtept>
+<rtept lat="56.4081975296304" lon="-4.72682920516525">
+<ele>446.502183849482</ele>
+<name>Oss160</name>
+</rtept>
+<rtept lat="56.4088836761067" lon="-4.72570993465181">
+<ele>418.791453453067</ele>
+<name>Oss161</name>
+</rtept>
+<rtept lat="56.4091924047378" lon="-4.72545856813243">
+<ele>415.010267128939</ele>
+<name>Oss162</name>
+</rtept>
+<rtept lat="56.4092556302246" lon="-4.72509020204334">
+<ele>408.460721885545</ele>
+<name>Oss163</name>
+</rtept>
+<rtept lat="56.4096281268055" lon="-4.72444563688792">
+<ele>399.634316999083</ele>
+<name>Oss164</name>
+</rtept>
+<rtept lat="56.4097308672654" lon="-4.72353318043416">
+<ele>389.130151925885</ele>
+<name>Oss165</name>
+</rtept>
+<rtept lat="56.4099608463459" lon="-4.72310214492782">
+<ele>384.26112954518</ele>
+<name>Oss166</name>
+</rtept>
+<rtept lat="56.4104394654767" lon="-4.72201765205985">
+<ele>367.46633540401</ele>
+<name>Oss167</name>
+</rtept>
+<rtept lat="56.4108371476674" lon="-4.72085277185989">
+<ele>350.956815939901</ele>
+<name>Oss168</name>
+</rtept>
+<rtept lat="56.4111241918893" lon="-4.71970483084002">
+<ele>337.492914538829</ele>
+<name>Oss169</name>
+</rtept>
+<rtept lat="56.4111350813371" lon="-4.71920839992351">
+<ele>330.516166022333</ele>
+<name>Oss170</name>
+</rtept>
+<rtept lat="56.4115216981221" lon="-4.71791837773383">
+<ele>314.78276878417</ele>
+<name>Oss171</name>
+</rtept>
+<rtept lat="56.4117567125529" lon="-4.71788542115678">
+<ele>314.622068613167</ele>
+<name>Oss172</name>
+</rtept>
+<rtept lat="56.4121461971201" lon="-4.71709279071049">
+<ele>305.006191276453</ele>
+<name>Oss173</name>
+</rtept>
+<rtept lat="56.4122139109304" lon="-4.71714734196792">
+<ele>304.823691276734</ele>
+<name>Oss174</name>
+</rtept>
+<rtept lat="56.4126980819269" lon="-4.7164360299356">
+<ele>298.339967587004</ele>
+<name>Oss175</name>
+</rtept>
+<rtept lat="56.4132559443428" lon="-4.7155061972034">
+<ele>285.643971565837</ele>
+<name>Oss176</name>
+</rtept>
+<rtept lat="56.4133108163424" lon="-4.71488856337559">
+<ele>279.646706449728</ele>
+<name>Oss177</name>
+</rtept>
+<rtept lat="56.4137383028744" lon="-4.7142477509032">
+<ele>276.744162673474</ele>
+<name>Oss178</name>
+</rtept>
+<rtept lat="56.4140126131619" lon="-4.71304904441509">
+<ele>268.86947591455</ele>
+<name>Oss179</name>
+</rtept>
+<rtept lat="56.4143861349481" lon="-4.71235463293754">
+<ele>262.573161280698</ele>
+<name>Oss180</name>
+</rtept>
+<rtept lat="56.4145367714664" lon="-4.71176865612097">
+<ele>259.630946450064</ele>
+<name>Oss181</name>
+</rtept>
+<rtept lat="56.414870090604" lon="-4.71102163639077">
+<ele>256.397912171355</ele>
+<name>Oss182</name>
+</rtept>
+<rtept lat="56.415097120334" lon="-4.7100930014841">
+<ele>247.664161478442</ele>
+<name>Oss183</name>
+</rtept>
+<rtept lat="56.4154790210664" lon="-4.70649014893272">
+<ele>232.260031224022</ele>
+<name>Oss184</name>
+</rtept>
+<rtept lat="56.41582260148" lon="-4.70527139100236">
+<ele>221.176216986404</ele>
+<name>Oss185</name>
+</rtept>
+<rtept lat="56.4168849649144" lon="-4.70395445044366">
+<ele>209.002244782511</ele>
+<name>Oss186</name>
+</rtept>
+<rtept lat="56.4178123327235" lon="-4.70377163332829">
+<ele>207.7604667039</ele>
+<name>Oss187</name>
+</rtept>
+<rtept lat="56.4185189907812" lon="-4.7035980076155">
+<ele>199.397882342991</ele>
+<name>Oss188</name>
+</rtept>
+<rtept lat="56.418442923509" lon="-4.70329422785129">
+<ele>199.062807908258</ele>
+<name>Oss189</name>
+</rtept>
+<rtept lat="56.4189941965219" lon="-4.70266198620135">
+<ele>199</ele>
+<name>Oss190</name>
+</rtept>
+<rtept lat="56.4190039366159" lon="-4.70221509985312">
+<ele>199.437348499036</ele>
+<name>Oss191</name>
+</rtept>
+<rtept lat="56.4191354195597" lon="-4.70060817071859">
+<ele>199.483446114541</ele>
+<name>Oss192</name>
+</rtept>
+<rtept lat="56.4190912370112" lon="-4.69883959121165">
+<ele>202.176464574867</ele>
+<name>Oss193</name>
+</rtept>
+<rtept lat="56.4192655498018" lon="-4.6984292276973">
+<ele>202.025507743626</ele>
+<name>Oss194</name>
+</rtept>
+<rtept lat="56.4194322974931" lon="-4.6983664438811">
+<ele>200.546457631915</ele>
+<name>Oss195</name>
+</rtept>
+<rtept lat="56.4195464488389" lon="-4.69755396154678">
+<ele>201.350410786646</ele>
+<name>Oss196</name>
+</rtept>
+<rtept lat="56.420195381898" lon="-4.69496410999194">
+<ele>197.650874889136</ele>
+<name>Oss197</name>
+</rtept>
+<rtept lat="56.4202433891448" lon="-4.69275441892603">
+<ele>192.727226463449</ele>
+<name>Oss198</name>
+</rtept>
+<rtept lat="56.4205814472549" lon="-4.69178366452997">
+<ele>191.181717336331</ele>
+<name>Oss199</name>
+</rtept>
+<rtept lat="56.4205177451384" lon="-4.69090884149771">
+<ele>193.814172349515</ele>
+<name>Oss200</name>
+</rtept>
+<rtept lat="56.4207651451426" lon="-4.69030465863486">
+<ele>191.903137978448</ele>
+<name>Oss201</name>
+</rtept>
+<rtept lat="56.4208584820811" lon="-4.68981392092518">
+<ele>189.979934156247</ele>
+<name>Oss202</name>
+</rtept>
+<rtept lat="56.4217227230866" lon="-4.68554808624368">
+<ele>184.073545821908</ele>
+<name>Oss203</name>
+</rtept>
+<rtept lat="56.422144902625" lon="-4.68450856030695">
+<ele>179.598992735841</ele>
+<name>Oss204</name>
+</rtept>
+<rtept lat="56.4228007939654" lon="-4.68413204060242">
+<ele>173.285186247309</ele>
+<name>Oss205</name>
+</rtept>
+<rtept lat="56.4238822979987" lon="-4.68510352978919">
+<ele>175.847355240098</ele>
+<name>Oss206</name>
+</rtept>
+<rtept lat="56.4248275750422" lon="-4.68663745587379">
+<ele>179.248453429111</ele>
+<name>Oss207</name>
+</rtept>
+</rte>
+</gpx>

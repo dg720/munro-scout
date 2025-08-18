@@ -1,0 +1,442 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="Walkhighlands">
+<metadata>
+	<desc>GPX file from Walkhighlands; file is copyright Walkhighlands and must not be publicly shared on other websites. Do not remove this notice.</desc>
+	<copyright author="Walkhighlands"><year>2019</year></copyright>
+</metadata>
+<rte>
+<name>Blà Bheinn (Blaven)</name>
+<rtept lat="57.2202555671858" lon="-6.04291740317816">
+<ele>15.6412390575081</ele>
+<name>BLAV 001</name>
+</rtept>
+<rtept lat="57.2206423251208" lon="-6.04288683329103">
+<ele>11.3344010189295</ele>
+<name>BLAV 002</name>
+</rtept>
+<rtept lat="57.2207245040182" lon="-6.04156473537589">
+<ele>6.005373772192</ele>
+<name>BLAV 003</name>
+</rtept>
+<rtept lat="57.2208920697924" lon="-6.04158308521894">
+<ele>6.70388690319061</ele>
+<name>BLAV 004</name>
+</rtept>
+<rtept lat="57.2210564868322" lon="-6.04415390897071">
+<ele>11.5795269796252</ele>
+<name>BLAV 005</name>
+</rtept>
+<rtept lat="57.220982591995" lon="-6.04491165630238">
+<ele>17.5529912460059</ele>
+<name>BLAV 006</name>
+</rtept>
+<rtept lat="57.2206368061882" lon="-6.04551195680835">
+<ele>28.8894066477776</ele>
+<name>BLAV 007</name>
+</rtept>
+<rtept lat="57.2205878134753" lon="-6.04794997227075">
+<ele>30.6283424155772</ele>
+<name>BLAV 008</name>
+</rtept>
+<rtept lat="57.2195885409496" lon="-6.05010135980218">
+<ele>45.3616544592857</ele>
+<name>BLAV 009</name>
+</rtept>
+<rtept lat="57.2189436098806" lon="-6.05199980228944">
+<ele>54.8949552452803</ele>
+<name>BLAV 010</name>
+</rtept>
+<rtept lat="57.2187091759012" lon="-6.0552743031132">
+<ele>84.6484946382582</ele>
+<name>BLAV 011</name>
+</rtept>
+<rtept lat="57.218423792927" lon="-6.06073115824288">
+<ele>135.104114081574</ele>
+<name>BLAV 012</name>
+</rtept>
+<rtept lat="57.2186521156443" lon="-6.06223318391685">
+<ele>144.640127479601</ele>
+<name>BLAV 013</name>
+</rtept>
+<rtept lat="57.2185923771141" lon="-6.06346647931449">
+<ele>165.82659943161</ele>
+<name>BLAV 014</name>
+</rtept>
+<rtept lat="57.2188480355127" lon="-6.0647345056977">
+<ele>176.956462747383</ele>
+<name>BLAV 015</name>
+</rtept>
+<rtept lat="57.2188621371942" lon="-6.0655201009742">
+<ele>184.031541362476</ele>
+<name>BLAV 016</name>
+</rtept>
+<rtept lat="57.2195293344636" lon="-6.0681281054124">
+<ele>199.063121850812</ele>
+<name>BLAV 017</name>
+</rtept>
+<rtept lat="57.2196191534767" lon="-6.06932321242936">
+<ele>202.027279168129</ele>
+<name>BLAV 018</name>
+</rtept>
+<rtept lat="57.2197493971251" lon="-6.07079629495633">
+<ele>210.817392264926</ele>
+<name>BLAV 019</name>
+</rtept>
+<rtept lat="57.2190692778928" lon="-6.07285462426532">
+<ele>232.521152673197</ele>
+<name>BLAV 020</name>
+</rtept>
+<rtept lat="57.2188346144408" lon="-6.07459738902323">
+<ele>247.720502858067</ele>
+<name>BLAV 021</name>
+</rtept>
+<rtept lat="57.2187638486336" lon="-6.07464427740201">
+<ele>250.382502858067</ele>
+<name>BLAV 022</name>
+</rtept>
+<rtept lat="57.2183489758236" lon="-6.07614831420495">
+<ele>290.204231459165</ele>
+<name>BLAV 023</name>
+</rtept>
+<rtept lat="57.2175938381227" lon="-6.07746886328499">
+<ele>322.550833845043</ele>
+<name>BLAV 024</name>
+</rtept>
+<rtept lat="57.21688520328" lon="-6.07857570631148">
+<ele>341.59488636899</ele>
+<name>BLAV 025</name>
+</rtept>
+<rtept lat="57.2163593011899" lon="-6.07999442370984">
+<ele>377.951598897362</ele>
+<name>BLAV 026</name>
+</rtept>
+<rtept lat="57.2157606436219" lon="-6.08136859312404">
+<ele>421.491842148495</ele>
+<name>BLAV 027</name>
+</rtept>
+<rtept lat="57.2158523097297" lon="-6.08219917796985">
+<ele>446.66286778903</ele>
+<name>BLAV 028</name>
+</rtept>
+<rtept lat="57.2162430141281" lon="-6.08235178163302">
+<ele>461.664842061234</ele>
+<name>BLAV 029</name>
+</rtept>
+<rtept lat="57.2162353255224" lon="-6.0825879525568">
+<ele>452.561884762788</ele>
+<name>BLAV 030</name>
+</rtept>
+<rtept lat="57.2164476311242" lon="-6.08244734195424">
+<ele>468.649954794741</ele>
+<name>BLAV 031</name>
+</rtept>
+<rtept lat="57.2169668598828" lon="-6.08290589106227">
+<ele>509.436159370518</ele>
+<name>BLAV 032</name>
+</rtept>
+<rtept lat="57.2171870483247" lon="-6.08313080921816">
+<ele>521.866159370422</ele>
+<name>BLAV 033</name>
+</rtept>
+<rtept lat="57.217360520792" lon="-6.08296766965141">
+<ele>532.29652027874</ele>
+<name>BLAV 034</name>
+</rtept>
+<rtept lat="57.2175434498639" lon="-6.08342549861962">
+<ele>547.142051902485</ele>
+<name>BLAV 035</name>
+</rtept>
+<rtept lat="57.2177135626431" lon="-6.08397307996736">
+<ele>568.595885831165</ele>
+<name>BLAV 036</name>
+</rtept>
+<rtept lat="57.2180938164614" lon="-6.08414278813372">
+<ele>604.846020545769</ele>
+<name>BLAV 037</name>
+</rtept>
+<rtept lat="57.2182609670825" lon="-6.0847812206081">
+<ele>622.900030284596</ele>
+<name>BLAV 038</name>
+</rtept>
+<rtept lat="57.2187082444803" lon="-6.08486718978465">
+<ele>650.84449249785</ele>
+<name>BLAV 039</name>
+</rtept>
+<rtept lat="57.2190559427261" lon="-6.08603616957086">
+<ele>691.242795958471</ele>
+<name>BLAV 040</name>
+</rtept>
+<rtept lat="57.2192461716525" lon="-6.08596606024122">
+<ele>688.288176794791</ele>
+<name>BLAV 041</name>
+</rtept>
+<rtept lat="57.2195465637427" lon="-6.0867651478902">
+<ele>723.71669814558</ele>
+<name>BLAV 042</name>
+</rtept>
+<rtept lat="57.219513824968" lon="-6.08716267219693">
+<ele>734.71669814558</ele>
+<name>BLAV 043</name>
+</rtept>
+<rtept lat="57.2198081177484" lon="-6.08754171329818">
+<ele>772.881171078682</ele>
+<name>BLAV 044</name>
+</rtept>
+<rtept lat="57.2199302815126" lon="-6.08864930059911">
+<ele>788.304090410519</ele>
+<name>BLAV 045</name>
+</rtept>
+<rtept lat="57.2197102683425" lon="-6.08902607878866">
+<ele>823.540657947636</ele>
+<name>BLAV 046</name>
+</rtept>
+<rtept lat="57.2197388137769" lon="-6.08966743854642">
+<ele>804.067716104031</ele>
+<name>BLAV 047</name>
+</rtept>
+<rtept lat="57.2195172368466" lon="-6.08978875827579">
+<ele>825.715716104126</ele>
+<name>BLAV 048</name>
+</rtept>
+<rtept lat="57.2194119395574" lon="-6.09028764327426">
+<ele>853.40668885746</ele>
+<name>BLAV 049</name>
+</rtept>
+<rtept lat="57.2190826917047" lon="-6.09098050981022">
+<ele>863.166901736546</ele>
+<name>BLAV 050</name>
+</rtept>
+<rtept lat="57.2191900768773" lon="-6.09163060112221">
+<ele>894.641740843582</ele>
+<name>BLAV 051</name>
+</rtept>
+<rtept lat="57.219343182313" lon="-6.09239517015904">
+<ele>903.203625693607</ele>
+<name>BLAV 052</name>
+</rtept>
+<rtept lat="57.2194752399452" lon="-6.09259215429109">
+<ele>913.843267823219</ele>
+<name>BLAV 053</name>
+</rtept>
+<rtept lat="57.2195357077232" lon="-6.09316411776574">
+<ele>909.495905395928</ele>
+<name>BLAV 054</name>
+</rtept>
+<rtept lat="57.2196967395972" lon="-6.093382553589">
+<ele>912.612758802128</ele>
+<name>BLAV 055</name>
+</rtept>
+<rtept lat="57.2195554200847" lon="-6.09316630397607">
+<ele>909.451905395925</ele>
+<name>BLAV 056</name>
+</rtept>
+<rtept lat="57.2194839102946" lon="-6.09262958395877">
+<ele>901.091625693607</ele>
+<name>BLAV 057</name>
+</rtept>
+<rtept lat="57.2193623018052" lon="-6.09241552424693">
+<ele>902.829625693607</ele>
+<name>BLAV 058</name>
+</rtept>
+<rtept lat="57.2191814062223" lon="-6.0915931719766">
+<ele>893.959740843582</ele>
+<name>BLAV 059</name>
+</rtept>
+<rtept lat="57.219083877061" lon="-6.09094417341182">
+<ele>862.286901736569</ele>
+<name>BLAV 060</name>
+</rtept>
+<rtept lat="57.2194038610766" lon="-6.09023204582544">
+<ele>851.866688857269</ele>
+<name>BLAV 061</name>
+</rtept>
+<rtept lat="57.2195172368466" lon="-6.08978875827579">
+<ele>825.715716104126</ele>
+<name>BLAV 062</name>
+</rtept>
+<rtept lat="57.2197191013298" lon="-6.08966525418637">
+<ele>805.475716104031</ele>
+<name>BLAV 063</name>
+</rtept>
+<rtept lat="57.2197201245739" lon="-6.08902717079755">
+<ele>824.310657947636</ele>
+<name>BLAV 064</name>
+</rtept>
+<rtept lat="57.2199018974969" lon="-6.08860968754208">
+<ele>788.392090410519</ele>
+<name>BLAV 065</name>
+</rtept>
+<rtept lat="57.2198087099352" lon="-6.08752354466483">
+<ele>772.243171078682</ele>
+<name>BLAV 066</name>
+</rtept>
+<rtept lat="57.2195132328353" lon="-6.08718084069354">
+<ele>735.17869814558</ele>
+<name>BLAV 067</name>
+</rtept>
+<rtept lat="57.2195268512236" lon="-6.08676296509375">
+<ele>724.55269814558</ele>
+<name>BLAV 068</name>
+</rtept>
+<rtept lat="57.2192369073377" lon="-6.08594680068016">
+<ele>687.892176794791</ele>
+<name>BLAV 069</name>
+</rtept>
+<rtept lat="57.2190374141123" lon="-6.08599765062704">
+<ele>692.166795958471</ele>
+<name>BLAV 070</name>
+</rtept>
+<rtept lat="57.2186891237042" lon="-6.08484683992644">
+<ele>650.118492497873</ele>
+<name>BLAV 071</name>
+</rtept>
+<rtept lat="57.2182850160167" lon="-6.08480211559799">
+<ele>625.243030284691</ele>
+<name>BLAV 072</name>
+</rtept>
+<rtept lat="57.2181036727554" lon="-6.08414387877319">
+<ele>605.682020545864</ele>
+<name>BLAV 073</name>
+</rtept>
+<rtept lat="57.2177141543001" lon="-6.08395491228245">
+<ele>568.639885831165</ele>
+<name>BLAV 074</name>
+</rtept>
+<rtept lat="57.2175544893187" lon="-6.08339025380711">
+<ele>547.912051902485</ele>
+<name>BLAV 075</name>
+</rtept>
+<rtept lat="57.2173512559913" lon="-6.08294841182714">
+<ele>531.744159370518</ele>
+<name>BLAV 076</name>
+</rtept>
+<rtept lat="57.2171574794008" lon="-6.08312753822687">
+<ele>520.150159370518</ele>
+<name>BLAV 077</name>
+</rtept>
+<rtept lat="57.2169570035717" lon="-6.08290480080029">
+<ele>508.864159370518</ele>
+<name>BLAV 078</name>
+</rtept>
+<rtept lat="57.2164580788699" lon="-6.08243026497076">
+<ele>469.177954794741</ele>
+<name>BLAV 079</name>
+</rtept>
+<rtept lat="57.216224877757" lon="-6.08260502939452">
+<ele>452.737884762788</ele>
+<name>BLAV 080</name>
+</rtept>
+<rtept lat="57.2162528704471" lon="-6.08235287171778">
+<ele>462.588842061234</ele>
+<name>BLAV 081</name>
+</rtept>
+<rtept lat="57.2158546752668" lon="-6.08212651072348">
+<ele>445.25486778903</ele>
+<name>BLAV 082</name>
+</rtept>
+<rtept lat="57.2157612348894" lon="-6.08135042633973">
+<ele>427.40869045999</ele>
+<name>BLAV 083</name>
+</rtept>
+<rtept lat="57.2163790138853" lon="-6.07999660263294">
+<ele>376.719598897457</ele>
+<name>BLAV 084</name>
+</rtept>
+<rtept lat="57.2169017604324" lon="-6.07852283774521">
+<ele>340.47288636899</ele>
+<name>BLAV 085</name>
+</rtept>
+<rtept lat="57.2176202512049" lon="-6.07741708202673">
+<ele>319.404833845043</ele>
+<name>BLAV 086</name>
+</rtept>
+<rtept lat="57.2183199971768" lon="-6.07612688049286">
+<ele>278.02414391923</ele>
+<name>BLAV 087</name>
+</rtept>
+<rtept lat="57.2187638486336" lon="-6.07464427740201">
+<ele>250.382502858067</ele>
+<name>BLAV 088</name>
+</rtept>
+<rtept lat="57.2190606015742" lon="-6.07281719939894">
+<ele>232.367152673244</ele>
+<name>BLAV 089</name>
+</rtept>
+<rtept lat="57.219759843345" lon="-6.07077921311844">
+<ele>210.641392264926</ele>
+<name>BLAV 090</name>
+</rtept>
+<rtept lat="57.2196197430274" lon="-6.06930504347675">
+<ele>201.939279168129</ele>
+<name>BLAV 091</name>
+</rtept>
+<rtept lat="57.21954904744" lon="-6.06813027827264">
+<ele>199.239121850812</ele>
+<name>BLAV 092</name>
+</rtept>
+<rtept lat="57.2188719937154" lon="-6.06552118668092">
+<ele>184.163541362476</ele>
+<name>BLAV 093</name>
+</rtept>
+<rtept lat="57.2188578920435" lon="-6.06473559119438">
+<ele>176.648462747383</ele>
+<name>BLAV 094</name>
+</rtept>
+<rtept lat="57.2186207693514" lon="-6.06350607194762">
+<ele>165.87059943161</ele>
+<name>BLAV 095</name>
+</rtept>
+<rtept lat="57.2186416705613" lon="-6.0622502677276">
+<ele>144.398127479649</ele>
+<name>BLAV 096</name>
+</rtept>
+<rtept lat="57.2184354144005" lon="-6.06067773696142">
+<ele>122.931738790393</ele>
+<name>BLAV 097</name>
+</rtept>
+<rtept lat="57.2187196200608" lon="-6.0552572172552">
+<ele>83.2124236215591</ele>
+<name>BLAV 098</name>
+</rtept>
+<rtept lat="57.2189233094653" lon="-6.05201580708102">
+<ele>55.2029552452803</ele>
+<name>BLAV 099</name>
+</rtept>
+<rtept lat="57.2196279677827" lon="-6.05010568631055">
+<ele>46.2416544592857</ele>
+<name>BLAV 100</name>
+</rtept>
+<rtept lat="57.2205982566741" lon="-6.04793288344989">
+<ele>30.6503424155772</ele>
+<name>BLAV 101</name>
+</rtept>
+<rtept lat="57.2206478351752" lon="-6.0454766972665">
+<ele>28.7574066478014</ele>
+<name>BLAV 102</name>
+</rtept>
+<rtept lat="57.2209843500732" lon="-6.04485714578404">
+<ele>17.2889912460044</ele>
+<name>BLAV 103</name>
+</rtept>
+<rtept lat="57.2210373591943" lon="-6.04413357855492">
+<ele>11.6895269796133</ele>
+<name>BLAV 104</name>
+</rtept>
+<rtept lat="57.220892655339" lon="-6.0415649150167">
+<ele>6.76988690319061</ele>
+<name>BLAV 105</name>
+</rtept>
+<rtept lat="57.2207343608286" lon="-6.04156581477286">
+<ele>5.917373772192</ele>
+<name>BLAV 106</name>
+</rtept>
+<rtept lat="57.2206515961789" lon="-6.0429060830915">
+<ele>11.3784010189265</ele>
+<name>BLAV 107</name>
+</rtept>
+<rtept lat="57.2202752807752" lon="-6.04291956265536">
+<ele>15.6412390575081</ele>
+<name>BLAV 108</name>
+</rtept>
+</rte>
+</gpx>

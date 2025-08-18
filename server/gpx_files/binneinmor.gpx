@@ -1,0 +1,826 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="Walkhighlands">
+<metadata>
+	<desc>GPX file from Walkhighlands; file is copyright Walkhighlands and must not be publicly shared on other websites. Do not remove this notice.</desc>
+	<copyright author="Walkhighlands"><year>2019</year></copyright>
+</metadata>
+<rte>
+<name>Binnein Mòr and Na Gruagaichean, Mamores</name>
+<rtept lat="56.7167570946689" lon="-4.96283077414447">
+<ele>18.4923283159437</ele>
+<name>BMor001</name>
+</rtept>
+<rtept lat="56.7172904332048" lon="-4.96262863464093">
+<ele>18.5177505234354</ele>
+<name>BMor002</name>
+</rtept>
+<rtept lat="56.717459" lon="-4.962942">
+<ele>13.660889</ele>
+<name>BMor003</name>
+</rtept>
+<rtept lat="56.7176945842517" lon="-4.96291979826888">
+<ele>20.3461957709765</ele>
+<name>BMor004</name>
+</rtept>
+<rtept lat="56.717723" lon="-4.961909">
+<ele>30.159912</ele>
+<name>BMor005</name>
+</rtept>
+<rtept lat="56.717885" lon="-4.961597">
+<ele>36.249878</ele>
+<name>BMor006</name>
+</rtept>
+<rtept lat="56.717944" lon="-4.961023">
+<ele>38.441467</ele>
+<name>BMor007</name>
+</rtept>
+<rtept lat="56.718256" lon="-4.960316">
+<ele>41.272949</ele>
+<name>BMor008</name>
+</rtept>
+<rtept lat="56.718312" lon="-4.959768">
+<ele>43.543823</ele>
+<name>BMor009</name>
+</rtept>
+<rtept lat="56.718729" lon="-4.958674">
+<ele>62.42926</ele>
+<name>BMor010</name>
+</rtept>
+<rtept lat="56.718974" lon="-4.958588">
+<ele>67.760742</ele>
+<name>BMor011</name>
+</rtept>
+<rtept lat="56.719144" lon="-4.958082">
+<ele>65.362976</ele>
+<name>BMor012</name>
+</rtept>
+<rtept lat="56.719543" lon="-4.957979">
+<ele>72.140564</ele>
+<name>BMor013</name>
+</rtept>
+<rtept lat="56.719605" lon="-4.957306">
+<ele>92.114868</ele>
+<name>BMor014</name>
+</rtept>
+<rtept lat="56.719806" lon="-4.957212">
+<ele>106.715759</ele>
+<name>BMor015</name>
+</rtept>
+<rtept lat="56.719849" lon="-4.956625">
+<ele>108.959778</ele>
+<name>BMor016</name>
+</rtept>
+<rtept lat="56.719968" lon="-4.956839">
+<ele>115.214417</ele>
+<name>BMor017</name>
+</rtept>
+<rtept lat="56.72003" lon="-4.956737">
+<ele>114.255615</ele>
+<name>BMor018</name>
+</rtept>
+<rtept lat="56.720304" lon="-4.955965">
+<ele>126.162598</ele>
+<name>BMor019</name>
+</rtept>
+<rtept lat="56.720547" lon="-4.954754">
+<ele>147.62207</ele>
+<name>BMor020</name>
+</rtept>
+<rtept lat="56.720741" lon="-4.954477">
+<ele>164.381836</ele>
+<name>BMor021</name>
+</rtept>
+<rtept lat="56.720861" lon="-4.953962">
+<ele>159.325928</ele>
+<name>BMor022</name>
+</rtept>
+<rtept lat="56.72114" lon="-4.953689">
+<ele>183.35144</ele>
+<name>BMor023</name>
+</rtept>
+<rtept lat="56.721113" lon="-4.952953">
+<ele>192.197998</ele>
+<name>BMor024</name>
+</rtept>
+<rtept lat="56.721219" lon="-4.952132">
+<ele>206.530029</ele>
+<name>BMor025</name>
+</rtept>
+<rtept lat="56.721693" lon="-4.950566">
+<ele>233.949829</ele>
+<name>BMor026</name>
+</rtept>
+<rtept lat="56.722009" lon="-4.950398">
+<ele>238.691162</ele>
+<name>BMor027</name>
+</rtept>
+<rtept lat="56.722671" lon="-4.947859">
+<ele>278.198486</ele>
+<name>BMor028</name>
+</rtept>
+<rtept lat="56.722885" lon="-4.944898">
+<ele>320.979248</ele>
+<name>BMor029</name>
+</rtept>
+<rtept lat="56.723224" lon="-4.943199">
+<ele>350.455383</ele>
+<name>BMor030</name>
+</rtept>
+<rtept lat="56.723452" lon="-4.942545">
+<ele>357.104797</ele>
+<name>BMor031</name>
+</rtept>
+<rtept lat="56.723474" lon="-4.941958">
+<ele>360.959717</ele>
+<name>BMor032</name>
+</rtept>
+<rtept lat="56.724187" lon="-4.940341">
+<ele>377.866333</ele>
+<name>BMor033</name>
+</rtept>
+<rtept lat="56.724668" lon="-4.939759">
+<ele>380.632568</ele>
+<name>BMor034</name>
+</rtept>
+<rtept lat="56.725861" lon="-4.937764">
+<ele>380.473511</ele>
+<name>BMor035</name>
+</rtept>
+<rtept lat="56.726129" lon="-4.936392">
+<ele>390.787598</ele>
+<name>BMor036</name>
+</rtept>
+<rtept lat="56.726393" lon="-4.935884">
+<ele>388.038208</ele>
+<name>BMor037</name>
+</rtept>
+<rtept lat="56.726931" lon="-4.933598">
+<ele>378.59967</ele>
+<name>BMor038</name>
+</rtept>
+<rtept lat="56.727284" lon="-4.932754">
+<ele>363.77478</ele>
+<name>BMor039</name>
+</rtept>
+<rtept lat="56.727616" lon="-4.930817">
+<ele>357.019531</ele>
+<name>BMor040</name>
+</rtept>
+<rtept lat="56.727799" lon="-4.930317">
+<ele>364.023071</ele>
+<name>BMor041</name>
+</rtept>
+<rtept lat="56.728009" lon="-4.929856">
+<ele>366.678955</ele>
+<name>BMor042</name>
+</rtept>
+<rtept lat="56.728232" lon="-4.929684">
+<ele>386.787109</ele>
+<name>BMor043</name>
+</rtept>
+<rtept lat="56.728918" lon="-4.929823">
+<ele>384.558594</ele>
+<name>BMor044</name>
+</rtept>
+<rtept lat="56.729346" lon="-4.928914">
+<ele>397.584412</ele>
+<name>BMor045</name>
+</rtept>
+<rtept lat="56.729839" lon="-4.928245">
+<ele>404.359131</ele>
+<name>BMor046</name>
+</rtept>
+<rtept lat="56.730499" lon="-4.928025">
+<ele>427.069153</ele>
+<name>BMor047</name>
+</rtept>
+<rtept lat="56.730792" lon="-4.92734">
+<ele>431.482788</ele>
+<name>BMor048</name>
+</rtept>
+<rtept lat="56.730957" lon="-4.927269">
+<ele>424.47937</ele>
+<name>BMor049</name>
+</rtept>
+<rtept lat="56.731524" lon="-4.925786">
+<ele>445.555542</ele>
+<name>BMor050</name>
+</rtept>
+<rtept lat="56.731835" lon="-4.925544">
+<ele>439.006836</ele>
+<name>BMor051</name>
+</rtept>
+<rtept lat="56.732725" lon="-4.923651">
+<ele>449.058533</ele>
+<name>BMor052</name>
+</rtept>
+<rtept lat="56.732907" lon="-4.922846">
+<ele>464.926819</ele>
+<name>BMor053</name>
+</rtept>
+<rtept lat="56.73324" lon="-4.922168">
+<ele>462.731079</ele>
+<name>BMor054</name>
+</rtept>
+<rtept lat="56.733314" lon="-4.921327">
+<ele>469.071045</ele>
+<name>BMor055</name>
+</rtept>
+<rtept lat="56.733723" lon="-4.920598">
+<ele>472.189819</ele>
+<name>BMor056</name>
+</rtept>
+<rtept lat="56.734264" lon="-4.918951">
+<ele>458.671753</ele>
+<name>BMor057</name>
+</rtept>
+<rtept lat="56.734373" lon="-4.918281">
+<ele>465.640137</ele>
+<name>BMor058</name>
+</rtept>
+<rtept lat="56.734567" lon="-4.918013">
+<ele>456.085571</ele>
+<name>BMor059</name>
+</rtept>
+<rtept lat="56.734966" lon="-4.917919">
+<ele>465.479553</ele>
+<name>BMor060</name>
+</rtept>
+<rtept lat="56.735127" lon="-4.917572">
+<ele>461.740479</ele>
+<name>BMor061</name>
+</rtept>
+<rtept lat="56.736446" lon="-4.918589">
+<ele>497.098145</ele>
+<name>BMor062</name>
+</rtept>
+<rtept lat="56.737008" lon="-4.917633">
+<ele>515.655151</ele>
+<name>BMor063</name>
+</rtept>
+<rtept lat="56.737578" lon="-4.917095">
+<ele>533.374268</ele>
+<name>BMor064</name>
+</rtept>
+<rtept lat="56.737808" lon="-4.916489">
+<ele>551.345459</ele>
+<name>BMor065</name>
+</rtept>
+<rtept lat="56.738109" lon="-4.91626">
+<ele>561.39624</ele>
+<name>BMor066</name>
+</rtept>
+<rtept lat="56.73819" lon="-4.916027">
+<ele>569.297852</ele>
+<name>BMor067</name>
+</rtept>
+<rtept lat="56.738186" lon="-4.915167">
+<ele>569.695801</ele>
+<name>BMor068</name>
+</rtept>
+<rtept lat="56.738501" lon="-4.914554">
+<ele>591.274902</ele>
+<name>BMor069</name>
+</rtept>
+<rtept lat="56.738602" lon="-4.913976">
+<ele>594.109619</ele>
+<name>BMor070</name>
+</rtept>
+<rtept lat="56.738533" lon="-4.913158">
+<ele>595.086426</ele>
+<name>BMor071</name>
+</rtept>
+<rtept lat="56.738927" lon="-4.911602">
+<ele>635.65332</ele>
+<name>BMor072</name>
+</rtept>
+<rtept lat="56.738941" lon="-4.910865">
+<ele>635.14917</ele>
+<name>BMor073</name>
+</rtept>
+<rtept lat="56.739419" lon="-4.909151">
+<ele>672.040527</ele>
+<name>BMor074</name>
+</rtept>
+<rtept lat="56.740042" lon="-4.908033">
+<ele>691.651367</ele>
+<name>BMor075</name>
+</rtept>
+<rtept lat="56.740169" lon="-4.908217">
+<ele>698.160034</ele>
+<name>BMor076</name>
+</rtept>
+<rtept lat="56.740163" lon="-4.908813">
+<ele>707.050049</ele>
+<name>BMor077</name>
+</rtept>
+<rtept lat="56.740238" lon="-4.908883">
+<ele>712.991943</ele>
+<name>BMor078</name>
+</rtept>
+<rtept lat="56.740785" lon="-4.908269">
+<ele>734.929932</ele>
+<name>BMor079</name>
+</rtept>
+<rtept lat="56.741826" lon="-4.908269">
+<ele>753.031128</ele>
+<name>BMor080</name>
+</rtept>
+<rtept lat="56.742121" lon="-4.908808">
+<ele>776.765137</ele>
+<name>BMor081</name>
+</rtept>
+<rtept lat="56.741449" lon="-4.909353">
+<ele>787.853271</ele>
+<name>BMor082</name>
+</rtept>
+<rtept lat="56.741409" lon="-4.910208">
+<ele>806.703979</ele>
+<name>BMor083</name>
+</rtept>
+<rtept lat="56.741647" lon="-4.909787">
+<ele>826.703369</ele>
+<name>BMor084</name>
+</rtept>
+<rtept lat="56.741667" lon="-4.910352">
+<ele>829.970703</ele>
+<name>BMor085</name>
+</rtept>
+<rtept lat="56.741869" lon="-4.91002">
+<ele>844.363281</ele>
+<name>BMor086</name>
+</rtept>
+<rtept lat="56.741897" lon="-4.910452">
+<ele>848.767334</ele>
+<name>BMor087</name>
+</rtept>
+<rtept lat="56.742119" lon="-4.910282">
+<ele>864.092041</ele>
+<name>BMor088</name>
+</rtept>
+<rtept lat="56.742206" lon="-4.910658">
+<ele>873.728027</ele>
+<name>BMor089</name>
+</rtept>
+<rtept lat="56.742435" lon="-4.910466">
+<ele>884.222046</ele>
+<name>BMor090</name>
+</rtept>
+<rtept lat="56.742514" lon="-4.911039">
+<ele>900.352417</ele>
+<name>BMor091</name>
+</rtept>
+<rtept lat="56.742681" lon="-4.911003">
+<ele>904.65918</ele>
+<name>BMor092</name>
+</rtept>
+<rtept lat="56.742906" lon="-4.911444">
+<ele>917.966064</ele>
+<name>BMor093</name>
+</rtept>
+<rtept lat="56.74334" lon="-4.911157">
+<ele>923.840088</ele>
+<name>BMor094</name>
+</rtept>
+<rtept lat="56.745156" lon="-4.912868">
+<ele>958.471191</ele>
+<name>BMor095</name>
+</rtept>
+<rtept lat="56.745305" lon="-4.914002">
+<ele>951.684082</ele>
+<name>BMor096</name>
+</rtept>
+<rtept lat="56.745227" lon="-4.915612">
+<ele>934.581665</ele>
+<name>BMor097</name>
+</rtept>
+<rtept lat="56.745356" lon="-4.916494">
+<ele>932.072998</ele>
+<name>BMor098</name>
+</rtept>
+<rtept lat="56.745329" lon="-4.917079">
+<ele>927.94165</ele>
+<name>BMor099</name>
+</rtept>
+<rtept lat="56.745876" lon="-4.919564">
+<ele>938.654297</ele>
+<name>BMor100</name>
+</rtept>
+<rtept lat="56.746412" lon="-4.920538">
+<ele>957.566284</ele>
+<name>BMor101</name>
+</rtept>
+<rtept lat="56.746911" lon="-4.921922">
+<ele>977.380493</ele>
+<name>BMor102</name>
+</rtept>
+<rtept lat="56.746968" lon="-4.923358">
+<ele>982.842407</ele>
+<name>BMor103</name>
+</rtept>
+<rtept lat="56.747431" lon="-4.925125">
+<ele>1007.962402</ele>
+<name>BMor104</name>
+</rtept>
+<rtept lat="56.748104" lon="-4.925957">
+<ele>1040.215332</ele>
+<name>BMor105</name>
+</rtept>
+<rtept lat="56.7484" lon="-4.927036">
+<ele>1060.84082</ele>
+<name>BMor106</name>
+</rtept>
+<rtept lat="56.749041" lon="-4.926829">
+<ele>1053.491211</ele>
+<name>BMor107</name>
+</rtept>
+<rtept lat="56.750148" lon="-4.926981">
+<ele>1046.337524</ele>
+<name>BMor108</name>
+</rtept>
+<rtept lat="56.750958" lon="-4.926808">
+<ele>1059.343506</ele>
+<name>BMor109</name>
+</rtept>
+<rtept lat="56.751261" lon="-4.926985">
+<ele>1063.653564</ele>
+<name>BMor110</name>
+</rtept>
+<rtept lat="56.752073" lon="-4.926776">
+<ele>1090.839355</ele>
+<name>BMor111</name>
+</rtept>
+<rtept lat="56.753582" lon="-4.925962">
+<ele>1107.309937</ele>
+<name>BMor112</name>
+</rtept>
+<rtept lat="56.754319" lon="-4.925748">
+<ele>1126.834229</ele>
+<name>BMor113</name>
+</rtept>
+<rtept lat="56.753906" lon="-4.925807">
+<ele>1111.872559</ele>
+<name>BMor114</name>
+</rtept>
+<rtept lat="56.751682" lon="-4.9269">
+<ele>1073.130493</ele>
+<name>BMor115</name>
+</rtept>
+<rtept lat="56.749021" lon="-4.926834">
+<ele>1049.00354</ele>
+<name>BMor116</name>
+</rtept>
+<rtept lat="56.748465" lon="-4.927134">
+<ele>1061.703247</ele>
+<name>BMor117</name>
+</rtept>
+<rtept lat="56.747229" lon="-4.929456">
+<ele>994.527222</ele>
+<name>BMor118</name>
+</rtept>
+<rtept lat="56.746731" lon="-4.931037">
+<ele>971.927368</ele>
+<name>BMor119</name>
+</rtept>
+<rtept lat="56.746076" lon="-4.93199">
+<ele>950.095459</ele>
+<name>BMor120</name>
+</rtept>
+<rtept lat="56.745417" lon="-4.933715">
+<ele>934.258301</ele>
+<name>BMor121</name>
+</rtept>
+<rtept lat="56.744621" lon="-4.935215">
+<ele>981.855347</ele>
+<name>BMor122</name>
+</rtept>
+<rtept lat="56.743798" lon="-4.938145">
+<ele>1014.943237</ele>
+<name>BMor123</name>
+</rtept>
+<rtept lat="56.74374" lon="-4.939713">
+<ele>1050.877563</ele>
+<name>BMor124</name>
+</rtept>
+<rtept lat="56.74347" lon="-4.940073">
+<ele>1050.872314</ele>
+<name>BMor125</name>
+</rtept>
+<rtept lat="56.742847" lon="-4.940446">
+<ele>1028.794556</ele>
+<name>BMor126</name>
+</rtept>
+<rtept lat="56.741311" lon="-4.940457">
+<ele>1003.24231</ele>
+<name>BMor127</name>
+</rtept>
+<rtept lat="56.739606" lon="-4.939299">
+<ele>937.804688</ele>
+<name>BMor128</name>
+</rtept>
+<rtept lat="56.739333" lon="-4.938929">
+<ele>920.238037</ele>
+<name>BMor129</name>
+</rtept>
+<rtept lat="56.737302" lon="-4.937546">
+<ele>878.458862</ele>
+<name>BMor130</name>
+</rtept>
+<rtept lat="56.737134" lon="-4.937585">
+<ele>872.875122</ele>
+<name>BMor131</name>
+</rtept>
+<rtept lat="56.736906" lon="-4.937144">
+<ele>879.711792</ele>
+<name>BMor132</name>
+</rtept>
+<rtept lat="56.736749" lon="-4.937081">
+<ele>879.248779</ele>
+<name>BMor133</name>
+</rtept>
+<rtept lat="56.736361" lon="-4.937665">
+<ele>864.002197</ele>
+<name>BMor134</name>
+</rtept>
+<rtept lat="56.736119" lon="-4.93862">
+<ele>837.365845</ele>
+<name>BMor135</name>
+</rtept>
+<rtept lat="56.736133" lon="-4.939068">
+<ele>824.52002</ele>
+<name>BMor136</name>
+</rtept>
+<rtept lat="56.736019" lon="-4.939276">
+<ele>812.838257</ele>
+<name>BMor137</name>
+</rtept>
+<rtept lat="56.735957" lon="-4.939872">
+<ele>780.542358</ele>
+<name>BMor138</name>
+</rtept>
+<rtept lat="56.735655" lon="-4.940581">
+<ele>763.217651</ele>
+<name>BMor139</name>
+</rtept>
+<rtept lat="56.735754" lon="-4.941832">
+<ele>741.086914</ele>
+<name>BMor140</name>
+</rtept>
+<rtept lat="56.735647" lon="-4.94223">
+<ele>734.758789</ele>
+<name>BMor141</name>
+</rtept>
+<rtept lat="56.733564" lon="-4.945991">
+<ele>639.867554</ele>
+<name>BMor142</name>
+</rtept>
+<rtept lat="56.733471" lon="-4.946724">
+<ele>624.179688</ele>
+<name>BMor143</name>
+</rtept>
+<rtept lat="56.73309" lon="-4.947502">
+<ele>601.60498</ele>
+<name>BMor144</name>
+</rtept>
+<rtept lat="56.732763" lon="-4.947657">
+<ele>593.565796</ele>
+<name>BMor145</name>
+</rtept>
+<rtept lat="56.7322" lon="-4.947455">
+<ele>564.018799</ele>
+<name>BMor146</name>
+</rtept>
+<rtept lat="56.731656" lon="-4.946374">
+<ele>541.3479</ele>
+<name>BMor147</name>
+</rtept>
+<rtept lat="56.731521" lon="-4.945841">
+<ele>526.755371</ele>
+<name>BMor148</name>
+</rtept>
+<rtept lat="56.731046" lon="-4.946372">
+<ele>514.461304</ele>
+<name>BMor149</name>
+</rtept>
+<rtept lat="56.730758" lon="-4.947298">
+<ele>503.22644</ele>
+<name>BMor150</name>
+</rtept>
+<rtept lat="56.730462" lon="-4.947809">
+<ele>492.548828</ele>
+<name>BMor151</name>
+</rtept>
+<rtept lat="56.729897" lon="-4.947989">
+<ele>447.767761</ele>
+<name>BMor152</name>
+</rtept>
+<rtept lat="56.729629" lon="-4.947407">
+<ele>427.636841</ele>
+<name>BMor153</name>
+</rtept>
+<rtept lat="56.729404" lon="-4.947247">
+<ele>415.538025</ele>
+<name>BMor154</name>
+</rtept>
+<rtept lat="56.728275" lon="-4.946995">
+<ele>359.96936</ele>
+<name>BMor155</name>
+</rtept>
+<rtept lat="56.727641" lon="-4.94712">
+<ele>337.92981</ele>
+<name>BMor156</name>
+</rtept>
+<rtept lat="56.727169" lon="-4.94685">
+<ele>322.223877</ele>
+<name>BMor157</name>
+</rtept>
+<rtept lat="56.726941" lon="-4.946954">
+<ele>326.261597</ele>
+<name>BMor158</name>
+</rtept>
+<rtept lat="56.726759" lon="-4.946658">
+<ele>330.031372</ele>
+<name>BMor159</name>
+</rtept>
+<rtept lat="56.726497" lon="-4.947778">
+<ele>317.413208</ele>
+<name>BMor160</name>
+</rtept>
+<rtept lat="56.726513" lon="-4.948492">
+<ele>304.543823</ele>
+<name>BMor161</name>
+</rtept>
+<rtept lat="56.726238" lon="-4.949848">
+<ele>296.291809</ele>
+<name>BMor162</name>
+</rtept>
+<rtept lat="56.725801" lon="-4.951055">
+<ele>271.205688</ele>
+<name>BMor163</name>
+</rtept>
+<rtept lat="56.726218" lon="-4.951434">
+<ele>273.487854</ele>
+<name>BMor164</name>
+</rtept>
+<rtept lat="56.726508" lon="-4.952306">
+<ele>255.881714</ele>
+<name>BMor165</name>
+</rtept>
+<rtept lat="56.726394" lon="-4.952867">
+<ele>246.904175</ele>
+<name>BMor166</name>
+</rtept>
+<rtept lat="56.726462" lon="-4.953286">
+<ele>240.920654</ele>
+<name>BMor167</name>
+</rtept>
+<rtept lat="56.726392" lon="-4.954572">
+<ele>223.086304</ele>
+<name>BMor168</name>
+</rtept>
+<rtept lat="56.725919" lon="-4.955388">
+<ele>210.174316</ele>
+<name>BMor169</name>
+</rtept>
+<rtept lat="56.725308" lon="-4.955045">
+<ele>215.099243</ele>
+<name>BMor170</name>
+</rtept>
+<rtept lat="56.725095" lon="-4.955208">
+<ele>215.684326</ele>
+<name>BMor171</name>
+</rtept>
+<rtept lat="56.724394" lon="-4.955159">
+<ele>201.980286</ele>
+<name>BMor172</name>
+</rtept>
+<rtept lat="56.724188" lon="-4.955403">
+<ele>205.044006</ele>
+<name>BMor173</name>
+</rtept>
+<rtept lat="56.723711" lon="-4.955224">
+<ele>203.328979</ele>
+<name>BMor174</name>
+</rtept>
+<rtept lat="56.723157" lon="-4.955702">
+<ele>205.251587</ele>
+<name>BMor175</name>
+</rtept>
+<rtept lat="56.722381" lon="-4.955994">
+<ele>191.731262</ele>
+<name>BMor176</name>
+</rtept>
+<rtept lat="56.721789" lon="-4.956488">
+<ele>185.171631</ele>
+<name>BMor177</name>
+</rtept>
+<rtept lat="56.721778" lon="-4.956941">
+<ele>181.6026</ele>
+<name>BMor178</name>
+</rtept>
+<rtept lat="56.721253" lon="-4.958291">
+<ele>163.716675</ele>
+<name>BMor179</name>
+</rtept>
+<rtept lat="56.721243" lon="-4.958574">
+<ele>168.564087</ele>
+<name>BMor180</name>
+</rtept>
+<rtept lat="56.720935" lon="-4.959039">
+<ele>169.200562</ele>
+<name>BMor181</name>
+</rtept>
+<rtept lat="56.720986" lon="-4.959475">
+<ele>162.053894</ele>
+<name>BMor182</name>
+</rtept>
+<rtept lat="56.720718" lon="-4.959655">
+<ele>151.781372</ele>
+<name>BMor183</name>
+</rtept>
+<rtept lat="56.720545" lon="-4.96033">
+<ele>153.373047</ele>
+<name>BMor184</name>
+</rtept>
+<rtept lat="56.720004" lon="-4.96143">
+<ele>131.881042</ele>
+<name>BMor185</name>
+</rtept>
+<rtept lat="56.71994" lon="-4.961864">
+<ele>122.974243</ele>
+<name>BMor186</name>
+</rtept>
+<rtept lat="56.71959" lon="-4.96245">
+<ele>106.096802</ele>
+<name>BMor187</name>
+</rtept>
+<rtept lat="56.719268" lon="-4.962477">
+<ele>89.881592</ele>
+<name>BMor188</name>
+</rtept>
+<rtept lat="56.719283" lon="-4.962044">
+<ele>74.177612</ele>
+<name>BMor189</name>
+</rtept>
+<rtept lat="56.719156" lon="-4.9621">
+<ele>76.196167</ele>
+<name>BMor190</name>
+</rtept>
+<rtept lat="56.719041" lon="-4.961162">
+<ele>46.718689</ele>
+<name>BMor191</name>
+</rtept>
+<rtept lat="56.718924" lon="-4.960759">
+<ele>43.770264</ele>
+<name>BMor192</name>
+</rtept>
+<rtept lat="56.718766" lon="-4.960696">
+<ele>42.497498</ele>
+<name>BMor193</name>
+</rtept>
+<rtept lat="56.718578" lon="-4.960943">
+<ele>45.762207</ele>
+<name>BMor194</name>
+</rtept>
+<rtept lat="56.71848" lon="-4.961361">
+<ele>34.032166</ele>
+<name>BMor195</name>
+</rtept>
+<rtept lat="56.718252" lon="-4.961315">
+<ele>30.880981</ele>
+<name>BMor196</name>
+</rtept>
+<rtept lat="56.718275" lon="-4.961734">
+<ele>36.435059</ele>
+<name>BMor197</name>
+</rtept>
+<rtept lat="56.718094" lon="-4.962056">
+<ele>34.125122</ele>
+<name>BMor198</name>
+</rtept>
+<rtept lat="56.717988" lon="-4.962771">
+<ele>28.64093</ele>
+<name>BMor199</name>
+</rtept>
+<rtept lat="56.71783" lon="-4.962861">
+<ele>27.893677</ele>
+<name>BMor200</name>
+</rtept>
+<rtept lat="56.71786" lon="-4.963153">
+<ele>22.858948</ele>
+<name>BMor201</name>
+</rtept>
+<rtept lat="56.717518" lon="-4.963113">
+<ele>20.914001</ele>
+<name>BMor202</name>
+</rtept>
+<rtept lat="56.717227" lon="-4.962635">
+<ele>12.263</ele>
+<name>BMor203</name>
+</rtept>
+<rtept lat="56.716766" lon="-4.96289">
+<ele>13.067444</ele>
+<name>BMor204</name>
+</rtept>
+</rte>
+</gpx>

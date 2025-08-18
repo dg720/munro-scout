@@ -1,0 +1,726 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="Walkhighlands">
+<metadata>
+	<desc>GPX file from Walkhighlands; file is copyright Walkhighlands and must not be publicly shared on other websites. Do not remove this notice.</desc>
+	<copyright author="Walkhighlands"><year>2019</year></copyright>
+</metadata>
+<rte>
+<name>Gulvain, near Kinlocheil</name>
+<rtept lat="56.859656758556" lon="-5.34905039573093">
+<ele>9.11868184325955</ele>
+<name>GUL001</name>
+</rtept>
+<rtept lat="56.8606005051079" lon="-5.34875571384824">
+<ele>10</ele>
+<name>GUL001 - GUL001 - GUL002</name>
+</rtept>
+<rtept lat="56.8606299017611" lon="-5.34839729337874">
+<ele>10</ele>
+<name>GUL001 - GUL002</name>
+</rtept>
+<rtept lat="56.8611359211058" lon="-5.34833423371079">
+<ele>11.19874506336</ele>
+<name>GUL001 - GUL002 - GUL002</name>
+</rtept>
+<rtept lat="56.8614988733207" lon="-5.3470192888048">
+<ele>12.7834786190867</ele>
+<name>GUL002</name>
+</rtept>
+<rtept lat="56.8618650507718" lon="-5.34737698138246">
+<ele>13.2972106631041</ele>
+<name>GUL003</name>
+</rtept>
+<rtept lat="56.8632398826683" lon="-5.34773461233861">
+<ele>18.199153149277</ele>
+<name>GUL004</name>
+</rtept>
+<rtept lat="56.8644432397257" lon="-5.34840191277794">
+<ele>18.1859616574526</ele>
+<name>GUL005</name>
+</rtept>
+<rtept lat="56.8660113043715" lon="-5.34856023601759">
+<ele>25.8843446411014</ele>
+<name>GUL006</name>
+</rtept>
+<rtept lat="56.8670819334945" lon="-5.34735601238147">
+<ele>44.755098618269</ele>
+<name>GUL007</name>
+</rtept>
+<rtept lat="56.8687449657946" lon="-5.34710750375724">
+<ele>37.9707556345463</ele>
+<name>GUL008</name>
+</rtept>
+<rtept lat="56.8695434282785" lon="-5.34609550407084">
+<ele>86.9729456899166</ele>
+<name>GUL009</name>
+</rtept>
+<rtept lat="56.8718232010362" lon="-5.34534227292112">
+<ele>79.4794548077106</ele>
+<name>GUL010</name>
+</rtept>
+<rtept lat="56.8728383406138" lon="-5.3454691377808">
+<ele>80.7544762990236</ele>
+<name>GUL011</name>
+</rtept>
+<rtept lat="56.8749361922144" lon="-5.34486208315732">
+<ele>72.357811270082</ele>
+<name>GUL012</name>
+</rtept>
+<rtept lat="56.8766238410798" lon="-5.34369455619847">
+<ele>60.177155469346</ele>
+<name>GUL013</name>
+</rtept>
+<rtept lat="56.8781962553389" lon="-5.34369059319013">
+<ele>64.2008662429214</ele>
+<name>GUL014</name>
+</rtept>
+<rtept lat="56.87839032196" lon="-5.34493608743663">
+<ele>58.4700956354529</ele>
+<name>GUL015</name>
+</rtept>
+<rtept lat="56.8800738365868" lon="-5.34429188598285">
+<ele>60.919308618626</ele>
+<name>GUL016</name>
+</rtept>
+<rtept lat="56.8818427941629" lon="-5.34470290338307">
+<ele>62.5537128727078</ele>
+<name>GUL017</name>
+</rtept>
+<rtept lat="56.8832524328769" lon="-5.34468443630867">
+<ele>65.0232104421794</ele>
+<name>GUL018</name>
+</rtept>
+<rtept lat="56.8839979009962" lon="-5.34417305270283">
+<ele>64.110633867532</ele>
+<name>GUL019</name>
+</rtept>
+<rtept lat="56.8852050487495" lon="-5.34119197994444">
+<ele>66.6458447516203</ele>
+<name>GUL020</name>
+</rtept>
+<rtept lat="56.886698295474" lon="-5.3391575700236">
+<ele>67.7755765746444</ele>
+<name>GUL021</name>
+</rtept>
+<rtept lat="56.8871403891645" lon="-5.33704727816016">
+<ele>68.7895574033648</ele>
+<name>GUL022</name>
+</rtept>
+<rtept lat="56.8880258671891" lon="-5.33647592146857">
+<ele>70.9975574033648</ele>
+<name>GUL023</name>
+</rtept>
+<rtept lat="56.8883321462451" lon="-5.3372258762484">
+<ele>72.6017512152612</ele>
+<name>GUL024</name>
+</rtept>
+<rtept lat="56.8885215115888" lon="-5.33717051003714">
+<ele>74.5461912708998</ele>
+<name>GUL025</name>
+</rtept>
+<rtept lat="56.8892189872511" lon="-5.33493833846855">
+<ele>72.1883853037476</ele>
+<name>GUL026</name>
+</rtept>
+<rtept lat="56.8900912280078" lon="-5.3337514571936">
+<ele>77.1777703865409</ele>
+<name>GUL027</name>
+</rtept>
+<rtept lat="56.8905560971915" lon="-5.33337736067219">
+<ele>75.6070191712797</ele>
+<name>GUL028</name>
+</rtept>
+<rtept lat="56.8910690766327" lon="-5.3312008355414">
+<ele>79.1319043645531</ele>
+<name>GUL029</name>
+</rtept>
+<rtept lat="56.8908159169285" lon="-5.32957032698056">
+<ele>79.3265382320821</ele>
+<name>GUL030</name>
+</rtept>
+<rtept lat="56.8915413442522" lon="-5.32869541758778">
+<ele>84.1261150276899</ele>
+<name>GUL031</name>
+</rtept>
+<rtept lat="56.8916298781578" lon="-5.32834195189244">
+<ele>81.6970191712796</ele>
+<name>GUL032</name>
+</rtept>
+<rtept lat="56.8928043133601" lon="-5.32564596431136">
+<ele>85.5915957459331</ele>
+<name>GUL033</name>
+</rtept>
+<rtept lat="56.8940362038444" lon="-5.32468948858029">
+<ele>95.8445767956018</ele>
+<name>GUL034</name>
+</rtept>
+<rtept lat="56.8948458996797" lon="-5.32510479203632">
+<ele>110.530655579808</ele>
+<name>GUL035</name>
+</rtept>
+<rtept lat="56.8956384342668" lon="-5.32430794936962">
+<ele>111.645574475574</ele>
+<name>GUL036</name>
+</rtept>
+<rtept lat="56.8963006046194" lon="-5.32265021737374">
+<ele>110.908693922377</ele>
+<name>GUL037</name>
+</rtept>
+<rtept lat="56.8971368350635" lon="-5.32095367937869">
+<ele>110.657978729653</ele>
+<name>GUL038</name>
+</rtept>
+<rtept lat="56.8978460316002" lon="-5.31957105370127">
+<ele>101.055229392505</ele>
+<name>GUL039</name>
+</rtept>
+<rtept lat="56.8987999300345" lon="-5.31828237841922">
+<ele>96.3551148067296</ele>
+<name>GUL040</name>
+</rtept>
+<rtept lat="56.8996083689007" lon="-5.31520976624477">
+<ele>99</ele>
+<name>GUL041</name>
+</rtept>
+<rtept lat="56.9011432117606" lon="-5.31326762249993">
+<ele>106.139672431052</ele>
+<name>GUL042</name>
+</rtept>
+<rtept lat="56.901692266173" lon="-5.31158136869194">
+<ele>108.092019171283</ele>
+<name>GUL043</name>
+</rtept>
+<rtept lat="56.9019385993898" lon="-5.31124174763158">
+<ele>109.472480939198</ele>
+<name>GUL044</name>
+</rtept>
+<rtept lat="56.9020193065151" lon="-5.31043564707599">
+<ele>109</ele>
+<name>GUL045</name>
+</rtept>
+<rtept lat="56.9024545319334" lon="-5.30949828020948">
+<ele>109.665019171286</ele>
+<name>GUL046</name>
+</rtept>
+<rtept lat="56.9030097585345" lon="-5.30645701131512">
+<ele>117.351385524726</ele>
+<name>GUL047</name>
+</rtept>
+<rtept lat="56.9033984913134" lon="-5.30596728485051">
+<ele>118.241770386538</ele>
+<name>GUL048</name>
+</rtept>
+<rtept lat="56.9038710656395" lon="-5.30380416772129">
+<ele>131.32036635344</ele>
+<name>GUL049</name>
+</rtept>
+<rtept lat="56.9049856921376" lon="-5.30316167305447">
+<ele>152.96334022212</ele>
+<name>GUL050</name>
+</rtept>
+<rtept lat="56.9050210125371" lon="-5.30294791115269">
+<ele>150.191340222073</ele>
+<name>GUL051</name>
+</rtept>
+<rtept lat="56.9065310440165" lon="-5.30212341715217">
+<ele>182.511598286927</ele>
+<name>GUL052</name>
+</rtept>
+<rtept lat="56.906837169484" lon="-5.30139133595525">
+<ele>195.381689503336</ele>
+<name>GUL053</name>
+</rtept>
+<rtept lat="56.9081901305038" lon="-5.3003359689605">
+<ele>253.982419227314</ele>
+<name>GUL054</name>
+</rtept>
+<rtept lat="56.908836940229" lon="-5.29999542985119">
+<ele>278.222173204613</ele>
+<name>GUL055</name>
+</rtept>
+<rtept lat="56.9090535045873" lon="-5.30003262865407">
+<ele>282.80641944828</ele>
+<name>GUL056</name>
+</rtept>
+<rtept lat="56.90933559901" lon="-5.29946104171616">
+<ele>306.376517845631</ele>
+<name>GUL057</name>
+</rtept>
+<rtept lat="56.9099343932651" lon="-5.30000196109932">
+<ele>327.665732485938</ele>
+<name>GUL058</name>
+</rtept>
+<rtept lat="56.9101553308865" lon="-5.29837654933454">
+<ele>360.011711657619</ele>
+<name>GUL059</name>
+</rtept>
+<rtept lat="56.9110109692068" lon="-5.29930166741238">
+<ele>404.359233480263</ele>
+<name>GUL060</name>
+</rtept>
+<rtept lat="56.9121569748531" lon="-5.29690822333406">
+<ele>470.636232596445</ele>
+<name>GUL061</name>
+</rtept>
+<rtept lat="56.9136614287751" lon="-5.29648055873251">
+<ele>553.852206686115</ele>
+<name>GUL062</name>
+</rtept>
+<rtept lat="56.9146379821685" lon="-5.29694635982768">
+<ele>601.60213464098</ele>
+<name>GUL063</name>
+</rtept>
+<rtept lat="56.9151226107889" lon="-5.29619367226841">
+<ele>620.327904585552</ele>
+<name>GUL064</name>
+</rtept>
+<rtept lat="56.9157015158842" lon="-5.29655208357414">
+<ele>646.425116132641</ele>
+<name>GUL065</name>
+</rtept>
+<rtept lat="56.9161237475496" lon="-5.2955407607556">
+<ele>671.270885635257</ele>
+<name>GUL066</name>
+</rtept>
+<rtept lat="56.9172507977768" lon="-5.29554978121442">
+<ele>709.529370772469</ele>
+<name>GUL067</name>
+</rtept>
+<rtept lat="56.9176556699111" lon="-5.29444647697474">
+<ele>764.433249668741</ele>
+<name>GUL068</name>
+</rtept>
+<rtept lat="56.9192728675373" lon="-5.29330538272221">
+<ele>831.557081104136</ele>
+<name>GUL069</name>
+</rtept>
+<rtept lat="56.9202654946074" lon="-5.29203682501007">
+<ele>847.916497569501</ele>
+<name>GUL070</name>
+</rtept>
+<rtept lat="56.9208065530848" lon="-5.29251845610492">
+<ele>844.362983148718</ele>
+<name>GUL071</name>
+</rtept>
+<rtept lat="56.9210792824679" lon="-5.29248825134636">
+<ele>846.111306077611</ele>
+<name>GUL072</name>
+</rtept>
+<rtept lat="56.9224029233336" lon="-5.29329203924961">
+<ele>867.81519149189</ele>
+<name>GUL073</name>
+</rtept>
+<rtept lat="56.9235840579951" lon="-5.29312494396352">
+<ele>884.140074365187</ele>
+<name>GUL074</name>
+</rtept>
+<rtept lat="56.9239769001756" lon="-5.29285217426827">
+<ele>896.567289889336</ele>
+<name>GUL075</name>
+</rtept>
+<rtept lat="56.9243885752945" lon="-5.29317779541311">
+<ele>914.741639170528</ele>
+<name>GUL076</name>
+</rtept>
+<rtept lat="56.9258537834028" lon="-5.29348782806321">
+<ele>954.02482558043</ele>
+<name>GUL077</name>
+</rtept>
+<rtept lat="56.926549850387" lon="-5.29259076221955">
+<ele>939.044882210255</ele>
+<name>GUL078</name>
+</rtept>
+<rtept lat="56.9283331978068" lon="-5.29039697132868">
+<ele>907.348363149476</ele>
+<name>GUL079</name>
+</rtept>
+<rtept lat="56.9293584955016" lon="-5.28976390184258">
+<ele>874.676146962166</ele>
+<name>GUL080</name>
+</rtept>
+<rtept lat="56.929787647621" lon="-5.28980170941461">
+<ele>871.707631105518</ele>
+<name>GUL081</name>
+</rtept>
+<rtept lat="56.932008688827" lon="-5.28882176842766">
+<ele>867.692598950004</ele>
+<name>GUL082</name>
+</rtept>
+<rtept lat="56.9333994805215" lon="-5.28820269865338">
+<ele>886.58188629837</ele>
+<name>GUL083</name>
+</rtept>
+<rtept lat="56.935036567493" lon="-5.28630293468823">
+<ele>925.146801548171</ele>
+<name>GUL084</name>
+</rtept>
+<rtept lat="56.9353608114459" lon="-5.28600588871477">
+<ele>915.899061711788</ele>
+<name>GUL085</name>
+</rtept>
+<rtept lat="56.935509473982" lon="-5.28524117870729">
+<ele>953.391419669533</ele>
+<name>GUL086</name>
+</rtept>
+<rtept lat="56.9363200766195" lon="-5.28449852193798">
+<ele>973.324052652896</ele>
+<name>GUL087</name>
+</rtept>
+<rtept lat="56.935508524795" lon="-5.28527727167897">
+<ele>953.611419669533</ele>
+<name>GUL088</name>
+</rtept>
+<rtept lat="56.9353702023381" lon="-5.28602480345469">
+<ele>915.749926467323</ele>
+<name>GUL089</name>
+</rtept>
+<rtept lat="56.9350173110495" lon="-5.28628315165558">
+<ele>924.244801548183</ele>
+<name>GUL090</name>
+</rtept>
+<rtept lat="56.9334039383008" lon="-5.28822117849426">
+<ele>886.64788629837</ele>
+<name>GUL091</name>
+</rtept>
+<rtept lat="56.932033352756" lon="-5.28882394084598">
+<ele>858.309812927008</ele>
+<name>GUL092</name>
+</rtept>
+<rtept lat="56.9297679164901" lon="-5.28979997111235">
+<ele>872.103631105471</ele>
+<name>GUL093</name>
+</rtept>
+<rtept lat="56.9293639034944" lon="-5.28974629296863">
+<ele>873.686146962166</ele>
+<name>GUL094</name>
+</rtept>
+<rtept lat="56.9283627944922" lon="-5.29039957911294">
+<ele>906.622363149452</ele>
+<name>GUL095</name>
+</rtept>
+<rtept lat="56.9265754654474" lon="-5.2925568525906">
+<ele>937.845882210255</ele>
+<name>GUL096</name>
+</rtept>
+<rtept lat="56.9258779715094" lon="-5.29350804473782">
+<ele>954.53082558043</ele>
+<name>GUL097</name>
+</rtept>
+<rtept lat="56.9243589786727" lon="-5.29317518582472">
+<ele>914.345639170527</ele>
+<name>GUL098</name>
+</rtept>
+<rtept lat="56.924031636297" lon="-5.29283891717055">
+<ele>890.225571492648</ele>
+<name>GUL099</name>
+</rtept>
+<rtept lat="56.9235692596815" lon="-5.29312363922962">
+<ele>883.843074365187</ele>
+<name>GUL100</name>
+</rtept>
+<rtept lat="56.9223935334723" lon="-5.29327312941162">
+<ele>867.683191491902</ele>
+<name>GUL101</name>
+</rtept>
+<rtept lat="56.9210985380117" lon="-5.29250802989153">
+<ele>846.155306077612</ele>
+<name>GUL102</name>
+</rtept>
+<rtept lat="56.9208312169666" lon="-5.29252063003403">
+<ele>844.032983148694</ele>
+<name>GUL103</name>
+</rtept>
+<rtept lat="56.9202892075167" lon="-5.29207507661218">
+<ele>848.378497569507</ele>
+<name>GUL104</name>
+</rtept>
+<rtept lat="56.9192526607735" lon="-5.29332168176279">
+<ele>834.487675414086</ele>
+<name>GUL105</name>
+</rtept>
+<rtept lat="56.9176798579319" lon="-5.29446668962981">
+<ele>765.720249668741</ele>
+<name>GUL106</name>
+</rtept>
+<rtept lat="56.9172665480268" lon="-5.29551501160141">
+<ele>741.607269061089</ele>
+<name>GUL107</name>
+</rtept>
+<rtept lat="56.9161430026347" lon="-5.29556053813717">
+<ele>671.666885635257</ele>
+<name>GUL108</name>
+</rtept>
+<rtept lat="56.9157109052862" lon="-5.29657099076796">
+<ele>646.997116132736</ele>
+<name>GUL109</name>
+</rtept>
+<rtept lat="56.9151275435516" lon="-5.29619410744447">
+<ele>620.404904585552</ele>
+<name>GUL110</name>
+</rtept>
+<rtept lat="56.9146325732394" lon="-5.29696396076126">
+<ele>601.256908231544</ele>
+<name>GUL111</name>
+</rtept>
+<rtept lat="56.9136604765775" lon="-5.29651663021329">
+<ele>554.292206686115</ele>
+<name>GUL112</name>
+</rtept>
+<rtept lat="56.9121579271476" lon="-5.29687215331728">
+<ele>471.032232596445</ele>
+<name>GUL113</name>
+</rtept>
+<rtept lat="56.9109907617147" lon="-5.29931795974515">
+<ele>402.357233480454</ele>
+<name>GUL114</name>
+</rtept>
+<rtept lat="56.910165196398" lon="-5.29837742009771">
+<ele>360.715711657619</ele>
+<name>GUL115</name>
+</rtept>
+<rtept lat="56.9099250043521" lon="-5.29998305603965">
+<ele>327.621732485962</ele>
+<name>GUL116</name>
+</rtept>
+<rtept lat="56.9093266865085" lon="-5.29942410350033">
+<ele>305.738517845631</ele>
+<name>GUL117</name>
+</rtept>
+<rtept lat="56.9090431625053" lon="-5.30004979094134">
+<ele>282.36641944828</ele>
+<name>GUL118</name>
+</rtept>
+<rtept lat="56.9088951800518" lon="-5.30003672349584">
+<ele>275.840923977804</ele>
+<name>GUL119</name>
+</rtept>
+<rtept lat="56.9082143176169" lon="-5.3003561800431">
+<ele>255.335419227314</ele>
+<name>GUL120</name>
+</rtept>
+<rtept lat="56.9068317599712" lon="-5.30140893259095">
+<ele>195.315689503336</ele>
+<name>GUL121</name>
+</rtept>
+<rtept lat="56.9065113130562" lon="-5.30212167389213">
+<ele>182.379598286939</ele>
+<name>GUL122</name>
+</rtept>
+<rtept lat="56.9050372416866" lon="-5.30289512445035">
+<ele>157.041445800543</ele>
+<name>GUL123</name>
+</rtept>
+<rtept lat="56.9050103558181" lon="-5.30316385268871">
+<ele>154.17334022212</ele>
+<name>GUL124</name>
+</rtept>
+<rtept lat="56.9038666100047" lon="-5.30378570084183">
+<ele>131.342366353464</ele>
+<name>GUL125</name>
+</rtept>
+<rtept lat="56.9034231549304" lon="-5.3059694662021">
+<ele>118.241770386538</ele>
+<name>GUL126</name>
+</rtept>
+<rtept lat="56.9030013255149" lon="-5.30640204739393">
+<ele>117.483385524726</ele>
+<name>GUL127</name>
+</rtept>
+<rtept lat="56.9024831723383" lon="-5.30953696076321">
+<ele>109.731019171283</ele>
+<name>GUL128</name>
+</rtept>
+<rtept lat="56.9020498588185" lon="-5.310402208313">
+<ele>109.266442596634</ele>
+<name>GUL129</name>
+</rtept>
+<rtept lat="56.9019277776626" lon="-5.31127693338438">
+<ele>109.384480939198</ele>
+<name>GUL130</name>
+</rtept>
+<rtept lat="56.9017134315811" lon="-5.31152902749564">
+<ele>108.136019171283</ele>
+<name>GUL131</name>
+</rtept>
+<rtept lat="56.9011427333085" lon="-5.31328565190202">
+<ele>106.161672431052</ele>
+<name>GUL132</name>
+</rtept>
+<rtept lat="56.8996172768104" lon="-5.3152466983588">
+<ele>99</ele>
+<name>GUL133</name>
+</rtept>
+<rtept lat="56.898794518206" lon="-5.31829996878213">
+<ele>96.3991148067296</ele>
+<name>GUL134</name>
+</rtept>
+<rtept lat="56.8978519229398" lon="-5.31953543626782">
+<ele>100.725229392505</ele>
+<name>GUL135</name>
+</rtept>
+<rtept lat="56.8971116922564" lon="-5.32096951599609">
+<ele>110.217978729653</ele>
+<name>GUL136</name>
+</rtept>
+<rtept lat="56.8962961517503" lon="-5.32263175212687">
+<ele>110.903729944921</ele>
+<name>GUL137</name>
+</rtept>
+<rtept lat="56.8956128110448" lon="-5.32434180965568">
+<ele>106.755306077623</ele>
+<name>GUL138</name>
+</rtept>
+<rtept lat="56.8948508323144" lon="-5.32510523068606">
+<ele>110.530655579808</ele>
+<name>GUL139</name>
+</rtept>
+<rtept lat="56.8940500416308" lon="-5.32472685587978">
+<ele>95.2396724310517</ele>
+<name>GUL140</name>
+</rtept>
+<rtept lat="56.8927860233869" lon="-5.32559013411061">
+<ele>85.4375957459211</ele>
+<name>GUL141</name>
+</rtept>
+<rtept lat="56.8916559829743" lon="-5.32829007333247">
+<ele>82.4809043645531</ele>
+<name>GUL142</name>
+</rtept>
+<rtept lat="56.8915575839724" lon="-5.32864266127855">
+<ele>84.3241150276899</ele>
+<name>GUL143</name>
+</rtept>
+<rtept lat="56.8908405800061" lon="-5.32957252283569">
+<ele>79.7424809391975</ele>
+<name>GUL144</name>
+</rtept>
+<rtept lat="56.8910838744542" lon="-5.33120215371124">
+<ele>79.1649043645531</ele>
+<name>GUL145</name>
+</rtept>
+<rtept lat="56.89057979758" lon="-5.33341560690823">
+<ele>75.6620191712826</ele>
+<name>GUL146</name>
+</rtept>
+<rtept lat="56.890101093198" lon="-5.33375233661269">
+<ele>77.1777703865409</ele>
+<name>GUL147</name>
+</rtept>
+<rtept lat="56.8892485827903" lon="-5.33494097757804">
+<ele>72.3863853037476</ele>
+<name>GUL148</name>
+</rtept>
+<rtept lat="56.8885274078238" lon="-5.3371349043907">
+<ele>74.3481912708998</ele>
+<name>GUL149</name>
+</rtept>
+<rtept lat="56.8883582546422" lon="-5.33717400851564">
+<ele>72.8107512152612</ele>
+<name>GUL150</name>
+</rtept>
+<rtept lat="56.8879918208328" lon="-5.33645481859093">
+<ele>70.9755574033648</ele>
+<name>GUL151</name>
+</rtept>
+<rtept lat="56.8871566323118" lon="-5.33699453174568">
+<ele>68.7235574033648</ele>
+<name>GUL152</name>
+</rtept>
+<rtept lat="56.8867333055751" lon="-5.33914263059026">
+<ele>70.9457107736111</ele>
+<name>GUL153</name>
+</rtept>
+<rtept lat="56.8852198464344" lon="-5.34119330176806">
+<ele>66.9428447516203</ele>
+<name>GUL154</name>
+</rtept>
+<rtept lat="56.8839979009962" lon="-5.34417305270283">
+<ele>64.110633867532</ele>
+<name>GUL155</name>
+</rtept>
+<rtept lat="56.8832825110353" lon="-5.34466906229289">
+<ele>64.8692104421794</ele>
+<name>GUL156</name>
+</rtept>
+<rtept lat="56.8818575918028" lon="-5.34470422642465">
+<ele>62.4547128727019</ele>
+<name>GUL157</name>
+</rtept>
+<rtept lat="56.8800945324061" lon="-5.344257612301">
+<ele>61.007308618629</ele>
+<name>GUL158</name>
+</rtept>
+<rtept lat="56.8784258155843" lon="-5.34490313857171">
+<ele>59.5291723205626</ele>
+<name>GUL159</name>
+</rtept>
+<rtept lat="56.8782204353956" lon="-5.3437108150978">
+<ele>64.3878662429333</ele>
+<name>GUL160</name>
+</rtept>
+<rtept lat="56.876653436415" lon="-5.34369720096031">
+<ele>59.979155469352</ele>
+<name>GUL161</name>
+</rtept>
+<rtept lat="56.8749603721032" lon="-5.34488230397304">
+<ele>72.2368112700939</ele>
+<name>GUL162</name>
+</rtept>
+<rtept lat="56.8728630033635" lon="-5.34547134259913">
+<ele>81.4144762990475</ele>
+<name>GUL163</name>
+</rtept>
+<rtept lat="56.8717837406248" lon="-5.3453387454891">
+<ele>96.5701632397652</ele>
+<name>GUL164</name>
+</rtept>
+<rtept lat="56.8696169335018" lon="-5.34612013257214">
+<ele>81.2047825975895</ele>
+<name>GUL165</name>
+</rtept>
+<rtept lat="56.8687390669322" lon="-5.34714308902344">
+<ele>37.4537556344986</ele>
+<name>GUL166</name>
+</rtept>
+<rtept lat="56.8670858996681" lon="-5.34739247827441">
+<ele>44.403098618269</ele>
+<name>GUL167</name>
+</rtept>
+<rtept lat="56.8660167202609" lon="-5.34854266542023">
+<ele>25.8623446411014</ele>
+<name>GUL168</name>
+</rtept>
+<rtept lat="56.8644531048094" lon="-5.34840279519496">
+<ele>18.1419616574585</ele>
+<name>GUL169</name>
+</rtept>
+<rtept lat="56.8632537138676" lon="-5.34777195672046">
+<ele>18.353153149277</ele>
+<name>GUL170</name>
+</rtept>
+<rtept lat="56.8618793652596" lon="-5.34739631435993">
+<ele>13.5062106631041</ele>
+<name>GUL171</name>
+</rtept>
+<rtept lat="56.8615042889748" lon="-5.34700172006905">
+<ele>12.7284786190987</ele>
+<name>GUL172</name>
+</rtept>
+<rtept lat="56.8611354378127" lon="-5.34835224322205">
+<ele>11.2647450633586</ele>
+<name>GUL172 - GUL173</name>
+</rtept>
+<rtept lat="56.860630385058" lon="-5.34837928411122">
+<ele>10</ele>
+<name>GUL172 - GUL173 - GUL173</name>
+</rtept>
+<rtept lat="56.860609886843" lon="-5.34877460548024">
+<ele>10</ele>
+<name>GUL172 - GUL173 - GUL173 - GUL173</name>
+</rtept>
+<rtept lat="56.8596492323942" lon="-5.34906285126374">
+<ele>9.10872136900871</ele>
+<name>GUL173</name>
+</rtept>
+</rte>
+</gpx>

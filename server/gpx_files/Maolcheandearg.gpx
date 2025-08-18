@@ -1,0 +1,502 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="Walkhighlands">
+<metadata>
+	<desc>GPX file from Walkhighlands; file is copyright Walkhighlands and must not be publicly shared on other websites. Do not remove this notice.</desc>
+	<copyright author="Walkhighlands"><year>2019</year></copyright>
+</metadata>
+<rte>
+<name>Maol Chean-dearg ascent, Coulags</name>
+<rtept lat="57.4497980805462" lon="-5.40735703046568">
+<ele>25</ele>
+<name>MCD 001</name>
+</rtept>
+<rtept lat="57.450208419972" lon="-5.40631132570084">
+<ele>25.6779039678156</ele>
+<name>MCD 002</name>
+</rtept>
+<rtept lat="57.4500964083519" lon="-5.40546712938338">
+<ele>26.5372409982115</ele>
+<name>MCD 003</name>
+</rtept>
+<rtept lat="57.4519380632153" lon="-5.40467961389421">
+<ele>29.1694158205152</ele>
+<name>MCD 004</name>
+</rtept>
+<rtept lat="57.4531070620495" lon="-5.40549713552955">
+<ele>30.1449338240951</ele>
+<name>MCD 005</name>
+</rtept>
+<rtept lat="57.4547734742886" lon="-5.40869587381898">
+<ele>39.0744284347296</ele>
+<name>MCD 006</name>
+</rtept>
+<rtept lat="57.4549998001206" lon="-5.40946745258367">
+<ele>38.2694158205152</ele>
+<name>MCD 007</name>
+</rtept>
+<rtept lat="57.4557351110243" lon="-5.40928579536188">
+<ele>42.2478377919078</ele>
+<name>MCD 008</name>
+</rtept>
+<rtept lat="57.4561373915228" lon="-5.4101988829822">
+<ele>44.020729145509</ele>
+<name>MCD 009</name>
+</rtept>
+<rtept lat="57.4584327234136" lon="-5.41174716031074">
+<ele>61.9151449660301</ele>
+<name>MCD 010</name>
+</rtept>
+<rtept lat="57.4600354827819" lon="-5.41231362306674">
+<ele>75.1395198390722</ele>
+<name>MCD 011</name>
+</rtept>
+<rtept lat="57.4618835718981" lon="-5.41377877074908">
+<ele>77.0286992892265</ele>
+<name>MCD 012</name>
+</rtept>
+<rtept lat="57.4625548208104" lon="-5.41471717232044">
+<ele>86.7961230961323</ele>
+<name>MCD 013</name>
+</rtept>
+<rtept lat="57.4630502492327" lon="-5.41468001160408">
+<ele>97.5108205498457</ele>
+<name>MCD 014</name>
+</rtept>
+<rtept lat="57.4643053871536" lon="-5.41604832631444">
+<ele>119.963948273802</ele>
+<name>MCD 015</name>
+</rtept>
+<rtept lat="57.4650046766659" lon="-5.41678092493322">
+<ele>125.43347121768</ele>
+<name>MCD 016</name>
+</rtept>
+<rtept lat="57.4675242434022" lon="-5.41751680099912">
+<ele>155.677449035311</ele>
+<name>MCD 017</name>
+</rtept>
+<rtept lat="57.4678671110181" lon="-5.41813276551224">
+<ele>153.270845778275</ele>
+<name>MCD 018</name>
+</rtept>
+<rtept lat="57.4683994711882" lon="-5.41839106772678">
+<ele>154.137929196239</ele>
+<name>MCD 019</name>
+</rtept>
+<rtept lat="57.4685249403737" lon="-5.41873647353296">
+<ele>154.082970143718</ele>
+<name>MCD 020</name>
+</rtept>
+<rtept lat="57.4692725173346" lon="-5.41893148798714">
+<ele>157.257174822307</ele>
+<name>MCD 021</name>
+</rtept>
+<rtept lat="57.4701162816634" lon="-5.42013658374877">
+<ele>163.189974771571</ele>
+<name>MCD 022</name>
+</rtept>
+<rtept lat="57.4720429969978" lon="-5.42035849616384">
+<ele>169.162070803761</ele>
+<name>MCD 023</name>
+</rtept>
+<rtept lat="57.4743820721707" lon="-5.42111960989575">
+<ele>183.306620186639</ele>
+<name>MCD 024</name>
+</rtept>
+<rtept lat="57.4758796564104" lon="-5.42059224256062">
+<ele>172.472891353598</ele>
+<name>MCD 025</name>
+</rtept>
+<rtept lat="57.4780349654555" lon="-5.42108593903166">
+<ele>176.874481996423</ele>
+<name>MCD 026</name>
+</rtept>
+<rtept lat="57.478842913352" lon="-5.42195425635088">
+<ele>184.307452140141</ele>
+<name>MCD 027</name>
+</rtept>
+<rtept lat="57.4803774231041" lon="-5.42172238553536">
+<ele>179.271354272461</ele>
+<name>MCD 028</name>
+</rtept>
+<rtept lat="57.4812032602929" lon="-5.42275934731012">
+<ele>185.489179450154</ele>
+<name>MCD 029</name>
+</rtept>
+<rtept lat="57.483123181918" lon="-5.42323121145433">
+<ele>186.093102495527</ele>
+<name>MCD 030</name>
+</rtept>
+<rtept lat="57.4847896298612" lon="-5.42434704202345">
+<ele>197.989974771571</ele>
+<name>MCD 031</name>
+</rtept>
+<rtept lat="57.4850344396096" lon="-5.42691543569096">
+<ele>232.777349332142</ele>
+<name>MCD 032</name>
+</rtept>
+<rtept lat="57.4847953287166" lon="-5.42827005976691">
+<ele>240.887695930719</ele>
+<name>MCD 033</name>
+</rtept>
+<rtept lat="57.4841490638456" lon="-5.43054620442124">
+<ele>295.433254881763</ele>
+<name>MCD 034</name>
+</rtept>
+<rtept lat="57.4844388407912" lon="-5.4322842599103">
+<ele>321.460613723278</ele>
+<name>MCD 035</name>
+</rtept>
+<rtept lat="57.4847254579681" lon="-5.43331266121116">
+<ele>332.299088045836</ele>
+<name>MCD 036</name>
+</rtept>
+<rtept lat="57.4844831469918" lon="-5.43395755331715">
+<ele>344.991913223505</ele>
+<name>MCD 037</name>
+</rtept>
+<rtept lat="57.4851292688828" lon="-5.4358126095356">
+<ele>357.856262868118</ele>
+<name>MCD 038</name>
+</rtept>
+<rtept lat="57.4847714580354" lon="-5.43657181952707">
+<ele>365.564009255695</ele>
+<name>MCD 039</name>
+</rtept>
+<rtept lat="57.4845636649956" lon="-5.4408920477927">
+<ele>435.905915059006</ele>
+<name>MCD 040</name>
+</rtept>
+<rtept lat="57.4843484378015" lon="-5.44383449802567">
+<ele>454.859684839535</ele>
+<name>MCD 041</name>
+</rtept>
+<rtept lat="57.4848055264616" lon="-5.44437831303859">
+<ele>458.869693138361</ele>
+<name>MCD 042</name>
+</rtept>
+<rtept lat="57.4847748033346" lon="-5.4455020973058">
+<ele>464.236329044032</ele>
+<name>MCD 043</name>
+</rtept>
+<rtept lat="57.4841992521798" lon="-5.4468248735584">
+<ele>489.717538350487</ele>
+<name>MCD 044</name>
+</rtept>
+<rtept lat="57.4834131926852" lon="-5.44762702213828">
+<ele>515.947820862293</ele>
+<name>MCD 045</name>
+</rtept>
+<rtept lat="57.4833235657499" lon="-5.45008047826941">
+<ele>562.689369347096</ele>
+<name>MCD 046</name>
+</rtept>
+<rtept lat="57.4827728548521" lon="-5.45090475847928">
+<ele>557.762973248529</ele>
+<name>MCD 047</name>
+</rtept>
+<rtept lat="57.4819605448479" lon="-5.45266400495597">
+<ele>584.201537081134</ele>
+<name>MCD 048</name>
+</rtept>
+<rtept lat="57.4829345002846" lon="-5.45279772989489">
+<ele>603.415037842655</ele>
+<name>MCD 049</name>
+</rtept>
+<rtept lat="57.4834690625761" lon="-5.45297340936958">
+<ele>630.718907326317</ele>
+<name>MCD 050</name>
+</rtept>
+<rtept lat="57.4837570487229" lon="-5.45312579900005">
+<ele>646.953512165165</ele>
+<name>MCD 051</name>
+</rtept>
+<rtept lat="57.483900272557" lon="-5.45364006640066">
+<ele>668.469221276283</ele>
+<name>MCD 052</name>
+</rtept>
+<rtept lat="57.4845412089558" lon="-5.45403445926169">
+<ele>705.405915059006</ele>
+<name>MCD 053</name>
+</rtept>
+<rtept lat="57.4849758361931" lon="-5.45457628435977">
+<ele>728.905236370373</ele>
+<name>MCD 054</name>
+</rtept>
+<rtept lat="57.4860171440182" lon="-5.45676123527766">
+<ele>743.997837791908</ele>
+<name>MCD 055</name>
+</rtept>
+<rtept lat="57.4870227645483" lon="-5.46065393687061">
+<ele>744.564349644613</ele>
+<name>MCD 056</name>
+</rtept>
+<rtept lat="57.4877874274168" lon="-5.46227045378023">
+<ele>778.259042782974</ele>
+<name>MCD 057</name>
+</rtept>
+<rtept lat="57.488454863429" lon="-5.46333528984257">
+<ele>818.440315160465</ele>
+<name>MCD 058</name>
+</rtept>
+<rtept lat="57.4893290765937" lon="-5.46341814274352">
+<ele>830.719362258828</ele>
+<name>MCD 059</name>
+</rtept>
+<rtept lat="57.4904631249128" lon="-5.46385951423895">
+<ele>897.850956006479</ele>
+<name>MCD 060</name>
+</rtept>
+<rtept lat="57.4911190997258" lon="-5.46534073824119">
+<ele>923.46057986412</ele>
+<name>MCD 061</name>
+</rtept>
+<rtept lat="57.4916726227624" lon="-5.46564365610844">
+<ele>931.847266226649</ele>
+<name>MCD 062</name>
+</rtept>
+<rtept lat="57.4911874914276" lon="-5.46530548768939">
+<ele>925.66057986412</ele>
+<name>MCD 063</name>
+</rtept>
+<rtept lat="57.4904642691124" lon="-5.46381788697441">
+<ele>897.050956006479</ele>
+<name>MCD 064</name>
+</rtept>
+<rtept lat="57.4892730372942" lon="-5.46341283151719">
+<ele>826.047373350024</ele>
+<name>MCD 065</name>
+</rtept>
+<rtept lat="57.4884223838417" lon="-5.46329047832306">
+<ele>817.740315160465</ele>
+<name>MCD 066</name>
+</rtept>
+<rtept lat="57.4877302443826" lon="-5.46230676885016">
+<ele>778.609677419329</ele>
+<name>MCD 067</name>
+</rtept>
+<rtept lat="57.4870799471325" lon="-5.46061761985701">
+<ele>744.814349644613</ele>
+<name>MCD 068</name>
+</rtept>
+<rtept lat="57.4859734540399" lon="-5.45671537252424">
+<ele>744.047837791908</ele>
+<name>MCD 069</name>
+</rtept>
+<rtept lat="57.484931004304" lon="-5.45457204692076">
+<ele>728.005236370373</ele>
+<name>MCD 070</name>
+</rtept>
+<rtept lat="57.4844940952329" lon="-5.45411346436533">
+<ele>706.005915059006</ele>
+<name>MCD 071</name>
+</rtept>
+<rtept lat="57.483900272557" lon="-5.45364006640066">
+<ele>668.469221276283</ele>
+<name>MCD 072</name>
+</rtept>
+<rtept lat="57.4837559081349" lon="-5.45316741910443">
+<ele>647.653512165165</ele>
+<name>MCD 073</name>
+</rtept>
+<rtept lat="57.4834018146126" lon="-5.45296705652945">
+<ele>628.018907326317</ele>
+<name>MCD 074</name>
+</rtept>
+<rtept lat="57.4829781918003" lon="-5.45284358406907">
+<ele>603.565037842655</ele>
+<name>MCD 075</name>
+</rtept>
+<rtept lat="57.481951617632" lon="-5.4525797101564">
+<ele>584.908434585607</ele>
+<name>MCD 076</name>
+</rtept>
+<rtept lat="57.4828311745989" lon="-5.45082681092348">
+<ele>569.142791318512</ele>
+<name>MCD 077</name>
+</rtept>
+<rtept lat="57.4833011496934" lon="-5.45007836243676">
+<ele>560.939369347096</ele>
+<name>MCD 078</name>
+</rtept>
+<rtept lat="57.4834390250288" lon="-5.44750427652078">
+<ele>515.947820862293</ele>
+<name>MCD 079</name>
+</rtept>
+<rtept lat="57.4842205297941" lon="-5.44686860837997">
+<ele>489.567538350487</ele>
+<name>MCD 080</name>
+</rtept>
+<rtept lat="57.4848633298811" lon="-5.44555217161912">
+<ele>462.986329044032</ele>
+<name>MCD 081</name>
+</rtept>
+<rtept lat="57.4848268049309" lon="-5.44442204720739">
+<ele>459.669693138361</ele>
+<name>MCD 082</name>
+</rtept>
+<rtept lat="57.4844145488681" lon="-5.44388245557453">
+<ele>453.259684839535</ele>
+<name>MCD 083</name>
+</rtept>
+<rtept lat="57.484543521808" lon="-5.44080669441438">
+<ele>424.419593435192</ele>
+<name>MCD 084</name>
+</rtept>
+<rtept lat="57.4847938744048" lon="-5.43657392720564">
+<ele>364.864009255695</ele>
+<name>MCD 085</name>
+</rtept>
+<rtept lat="57.4851528201495" lon="-5.43577309432707">
+<ele>356.906262868118</ele>
+<name>MCD 086</name>
+</rtept>
+<rtept lat="57.4845078319311" lon="-5.43387641577374">
+<ele>343.491913223505</ele>
+<name>MCD 087</name>
+</rtept>
+<rtept lat="57.4847277260541" lon="-5.43322941705732">
+<ele>331.399088045836</ele>
+<name>MCD 088</name>
+</rtept>
+<rtept lat="57.4843974089222" lon="-5.43215518462972">
+<ele>325.360613723278</ele>
+<name>MCD 089</name>
+</rtept>
+<rtept lat="57.4841748797106" lon="-5.43042344365168">
+<ele>291.933254881763</ele>
+<name>MCD 090</name>
+</rtept>
+<rtept lat="57.4848648431752" lon="-5.42819312265666">
+<ele>237.787695930719</ele>
+<name>MCD 091</name>
+</rtept>
+<rtept lat="57.4850826685939" lon="-5.42679477098489">
+<ele>233.427349332142</ele>
+<name>MCD 092</name>
+</rtept>
+<rtept lat="57.4847896298612" lon="-5.42434704202345">
+<ele>197.989974771571</ele>
+<name>MCD 093</name>
+</rtept>
+<rtept lat="57.4831108428566" lon="-5.42327178244499">
+<ele>186.218102495527</ele>
+<name>MCD 094</name>
+</rtept>
+<rtept lat="57.48122454646" lon="-5.42280306479086">
+<ele>185.439179450154</ele>
+<name>MCD 095</name>
+</rtept>
+<rtept lat="57.4803774231041" lon="-5.42172238553536">
+<ele>179.271354272461</ele>
+<name>MCD 096</name>
+</rtept>
+<rtept lat="57.4788641998413" lon="-5.42199797049917">
+<ele>184.907452140141</ele>
+<name>MCD 097</name>
+</rtept>
+<rtept lat="57.4780775390576" lon="-5.42117336442338">
+<ele>176.325518003577</ele>
+<name>MCD 098</name>
+</rtept>
+<rtept lat="57.4759009434282" lon="-5.42063595232614">
+<ele>172.572891353598</ele>
+<name>MCD 099</name>
+</rtept>
+<rtept lat="57.4743136919531" lon="-5.4211549285558">
+<ele>184.456620186639</ele>
+<name>MCD 100</name>
+</rtept>
+<rtept lat="57.4720855713052" lon="-5.42044590613944">
+<ele>169.262070803761</ele>
+<name>MCD 101</name>
+</rtept>
+<rtept lat="57.4701162816634" lon="-5.42013658374877">
+<ele>163.189974771571</ele>
+<name>MCD 102</name>
+</rtept>
+<rtept lat="57.4692613089152" lon="-5.41893044017666">
+<ele>157.232174822307</ele>
+<name>MCD 103</name>
+</rtept>
+<rtept lat="57.4684778485642" lon="-5.4188154911293">
+<ele>153.882970143718</ele>
+<name>MCD 104</name>
+</rtept>
+<rtept lat="57.4684420470021" lon="-5.41847846659638">
+<ele>153.182970143718</ele>
+<name>MCD 105</name>
+</rtept>
+<rtept lat="57.4679556496155" lon="-5.41818274928495">
+<ele>154.720845778275</ele>
+<name>MCD 106</name>
+</rtept>
+<rtept lat="57.4674592499996" lon="-5.41742731090052">
+<ele>154.477449035311</ele>
+<name>MCD 107</name>
+</rtept>
+<rtept lat="57.464962099543" lon="-5.41669353635844">
+<ele>126.135543232012</ele>
+<name>MCD 108</name>
+</rtept>
+<rtept lat="57.4643255478316" lon="-5.41613361904545">
+<ele>120.113948273802</ele>
+<name>MCD 109</name>
+</rtept>
+<rtept lat="57.4631051639822" lon="-5.41472684121909">
+<ele>98.0108205498457</ele>
+<name>MCD 110</name>
+</rtept>
+<rtept lat="57.4625111145266" lon="-5.41467138969">
+<ele>81.4760726392508</ele>
+<name>MCD 111</name>
+</rtept>
+<rtept lat="57.4619284058686" lon="-5.41378295450098">
+<ele>77.4286992892265</ele>
+<name>MCD 112</name>
+</rtept>
+<rtept lat="57.4601016070268" lon="-5.41236149056432">
+<ele>76.3895198390722</ele>
+<name>MCD 113</name>
+</rtept>
+<rtept lat="57.458389015931" lon="-5.41170138653088">
+<ele>61.4651449660301</ele>
+<name>MCD 114</name>
+</rtept>
+<rtept lat="57.4561396436509" lon="-5.41011570179226">
+<ele>44.120729145509</ele>
+<name>MCD 115</name>
+</rtept>
+<rtept lat="57.4557138196758" lon="-5.40924211658325">
+<ele>42.3478377919078</ele>
+<name>MCD 116</name>
+</rtept>
+<rtept lat="57.4550098828462" lon="-5.40951008626799">
+<ele>38.4444158205152</ele>
+<name>MCD 117</name>
+</rtept>
+<rtept lat="57.4547409741512" lon="-5.40865115246371">
+<ele>38.7494284347296</ele>
+<name>MCD 118</name>
+</rtept>
+<rtept lat="57.4530532679712" lon="-5.40540874569867">
+<ele>30.4699338240951</ele>
+<name>MCD 119</name>
+</rtept>
+<rtept lat="57.4519716890648" lon="-5.40468274215718">
+<ele>29.3944158205152</ele>
+<name>MCD 120</name>
+</rtept>
+<rtept lat="57.4500538227626" lon="-5.40537978992457">
+<ele>26.1372409982115</ele>
+<name>MCD 121</name>
+</rtept>
+<rtept lat="57.4502072952428" lon="-5.40635290972952">
+<ele>25.6279039678156</ele>
+<name>MCD 122</name>
+</rtept>
+<rtept lat="57.4497722881225" lon="-5.40747969396257">
+<ele>25</ele>
+<name>MCD 123</name>
+</rtept>
+</rte>
+</gpx>

@@ -1,0 +1,218 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="Walkhighlands">
+<metadata>
+	<desc>GPX file from Walkhighlands; file is copyright Walkhighlands and must not be publicly shared on other websites. Do not remove this notice.</desc>
+	<copyright author="Walkhighlands"><year>2019</year></copyright>
+</metadata>
+<rte>
+<name>Geal Chàrn, Monadhliath</name>
+<rtept lat="57.0200054020008" lon="-4.43618790528773">
+<ele>295.006848727573</ele>
+<name>GC001</name>
+</rtept>
+<rtept lat="57.0206328790356" lon="-4.43788485421902">
+<ele>298.037508982668</ele>
+<name>GC002</name>
+</rtept>
+<rtept lat="57.0212515355778" lon="-4.43604499888417">
+<ele>294.515358934417</ele>
+<name>GC003</name>
+</rtept>
+<rtept lat="57.0239771138664" lon="-4.43406309199526">
+<ele>299.64078982231</ele>
+<name>GC004</name>
+</rtept>
+<rtept lat="57.0241266708049" lon="-4.43376637926056">
+<ele>300.280789822268</ele>
+<name>GC005</name>
+</rtept>
+<rtept lat="57.0248625245557" lon="-4.4331734807232">
+<ele>306.666023254633</ele>
+<name>GC006</name>
+</rtept>
+<rtept lat="57.0270307871718" lon="-4.43327731560832">
+<ele>313.068028466797</ele>
+<name>GC007</name>
+</rtept>
+<rtept lat="57.0293435102562" lon="-4.43232927620458">
+<ele>318.574930598486</ele>
+<name>GC008</name>
+</rtept>
+<rtept lat="57.0311201829428" lon="-4.43024681032517">
+<ele>343.706654150081</ele>
+<name>GC009</name>
+</rtept>
+<rtept lat="57.0322272571099" lon="-4.42645252044181">
+<ele>363.454969343635</ele>
+<name>GC010</name>
+</rtept>
+<rtept lat="57.0334528197044" lon="-4.42186963732705">
+<ele>387.042461652494</ele>
+<name>GC011</name>
+</rtept>
+<rtept lat="57.0331029082958" lon="-4.41858673327265">
+<ele>407.175397463125</ele>
+<name>GC012</name>
+</rtept>
+<rtept lat="57.0331727159045" lon="-4.41711283684933">
+<ele>419.722333381987</ele>
+<name>GC013</name>
+</rtept>
+<rtept lat="57.034941964853" lon="-4.41218568974108">
+<ele>439.094330721796</ele>
+<name>GC014</name>
+</rtept>
+<rtept lat="57.0353470964854" lon="-4.41046806096128">
+<ele>448.413630641282</ele>
+<name>GC015</name>
+</rtept>
+<rtept lat="57.0364960976422" lon="-4.40876063920536">
+<ele>442.205518115449</ele>
+<name>GC016</name>
+</rtept>
+<rtept lat="57.0377706464262" lon="-4.4080469770513">
+<ele>437.052274150604</ele>
+<name>GC017</name>
+</rtept>
+<rtept lat="57.0389604328756" lon="-4.407441525823">
+<ele>457.351097760057</ele>
+<name>GC018</name>
+</rtept>
+<rtept lat="57.0394070526623" lon="-4.40395624670565">
+<ele>463.296494275294</ele>
+<name>GC019</name>
+</rtept>
+<rtept lat="57.0409938472722" lon="-4.39949692686666">
+<ele>545.468146458912</ele>
+<name>GC020</name>
+</rtept>
+<rtept lat="57.0433382356554" lon="-4.39591598557329">
+<ele>593.530703612317</ele>
+<name>GC021</name>
+</rtept>
+<rtept lat="57.0450668862758" lon="-4.39619514475782">
+<ele>618.235031126976</ele>
+<name>GC022</name>
+</rtept>
+<rtept lat="57.0473268193241" lon="-4.39258639109164">
+<ele>676.513905733109</ele>
+<name>GC023</name>
+</rtept>
+<rtept lat="57.0480493473026" lon="-4.3926328711398">
+<ele>694.143498099852</ele>
+<name>GC024</name>
+</rtept>
+<rtept lat="57.0515439410958" lon="-4.3849689017786">
+<ele>832.910649408484</ele>
+<name>GC025</name>
+</rtept>
+<rtept lat="57.0544773657704" lon="-4.3796192890235">
+<ele>896.873749104023</ele>
+<name>GC026</name>
+</rtept>
+<rtept lat="57.0574441392998" lon="-4.37358818565487">
+<ele>914.129038636923</ele>
+<name>GC027</name>
+</rtept>
+<rtept lat="57.054510366467" lon="-4.37958512021062">
+<ele>897.307749104023</ele>
+<name>GC028</name>
+</rtept>
+<rtept lat="57.0515112718551" lon="-4.38503276637322">
+<ele>831.565649408484</ele>
+<name>GC029</name>
+</rtept>
+<rtept lat="57.0480171148248" lon="-4.39267366751514">
+<ele>693.187498099852</ele>
+<name>GC030</name>
+</rtept>
+<rtept lat="57.0472750760907" lon="-4.39256657444127">
+<ele>674.625905733108</ele>
+<name>GC031</name>
+</rtept>
+<rtept lat="57.0450381962452" lon="-4.39619164784057">
+<ele>617.665031126976</ele>
+<name>GC032</name>
+</rtept>
+<rtept lat="57.0433304413171" lon="-4.39590064582074">
+<ele>593.531230071657</ele>
+<name>GC033</name>
+</rtept>
+<rtept lat="57.0410274806823" lon="-4.39952382422971">
+<ele>545.783146458936</ele>
+<name>GC034</name>
+</rtept>
+<rtept lat="57.0394234929941" lon="-4.40394247278124">
+<ele>463.440494275293</ele>
+<name>GC035</name>
+</rtept>
+<rtept lat="57.0389669056351" lon="-4.4074320539616">
+<ele>457.559097760081</ele>
+<name>GC036</name>
+</rtept>
+<rtept lat="57.0364827295558" lon="-4.40875482877961">
+<ele>442.133518115449</ele>
+<name>GC037</name>
+</rtept>
+<rtept lat="57.0353337601791" lon="-4.41046060387857">
+<ele>448.435630641282</ele>
+<name>GC038</name>
+</rtept>
+<rtept lat="57.0349619551612" lon="-4.41212764774088">
+<ele>439.75133072179</ele>
+<name>GC039</name>
+</rtept>
+<rtept lat="57.0331828823961" lon="-4.41714481295534">
+<ele>419.442333381975</ele>
+<name>GC040</name>
+</rtept>
+<rtept lat="57.0330734874386" lon="-4.41862108139724">
+<ele>406.857397463125</ele>
+<name>GC041</name>
+</rtept>
+<rtept lat="57.0334478166912" lon="-4.42184953317806">
+<ele>386.922461652482</ele>
+<name>GC042</name>
+</rtept>
+<rtept lat="57.0322574262099" lon="-4.42651876583176">
+<ele>364.015969343638</ele>
+<name>GC043</name>
+</rtept>
+<rtept lat="57.0311343169771" lon="-4.43021312291202">
+<ele>344.246654150081</ele>
+<name>GC044</name>
+</rtept>
+<rtept lat="57.0293948292023" lon="-4.43232438986856">
+<ele>318.116930598485</ele>
+<name>GC045</name>
+</rtept>
+<rtept lat="57.0270477105578" lon="-4.43323887151809">
+<ele>313.542028466797</ele>
+<name>GC046</name>
+</rtept>
+<rtept lat="57.024865569073" lon="-4.43315555351515">
+<ele>306.704023254633</ele>
+<name>GC047</name>
+</rtept>
+<rtept lat="57.0241535965997" lon="-4.43376813963204">
+<ele>300.400789822268</ele>
+<name>GC048</name>
+</rtept>
+<rtept lat="57.0240070522917" lon="-4.4340485715581">
+<ele>299.772789822316</ele>
+<name>GC049</name>
+</rtept>
+<rtept lat="57.0212670177249" lon="-4.43603447816617">
+<ele>294.474358934414</ele>
+<name>GC050</name>
+</rtept>
+<rtept lat="57.0206319173824" lon="-4.43793422081793">
+<ele>298.097247018316</ele>
+<name>GC051</name>
+</rtept>
+<rtept lat="57.0199380875897" lon="-4.43618350068932">
+<ele>295.009256280434</ele>
+<name>GC052</name>
+</rtept>
+</rte>
+</gpx>

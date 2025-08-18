@@ -1,0 +1,430 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="Walkhighlands">
+<metadata>
+	<desc>GPX file from Walkhighlands; file is copyright Walkhighlands and must not be publicly shared on other websites. Do not remove this notice.</desc>
+	<copyright author="Walkhighlands"><year>2019</year></copyright>
+</metadata>
+<rte>
+<name>The Saddle, Forcan Ridge and Sgùrr na Sgìne</name>
+<rtept lat="57.1762237148434" lon="-5.36459294202646">
+<ele>26</ele>
+<name>SAD 001</name>
+</rtept>
+<rtept lat="57.1743594406759" lon="-5.36230821662961">
+<ele>29.5368374420345</ele>
+<name>SAD 002</name>
+</rtept>
+<rtept lat="57.1739084687233" lon="-5.36283324721618">
+<ele>31.4808374420345</ele>
+<name>SAD 003</name>
+</rtept>
+<rtept lat="57.1732103850863" lon="-5.36291873812311">
+<ele>35.101411938715</ele>
+<name>SAD 004</name>
+</rtept>
+<rtept lat="57.1722534341585" lon="-5.36360626778156">
+<ele>45.7039535466671</ele>
+<name>SAD 005</name>
+</rtept>
+<rtept lat="57.1721721240025" lon="-5.36422444772277">
+<ele>50.5913226389885</ele>
+<name>SAD 006</name>
+</rtept>
+<rtept lat="57.1706699416836" lon="-5.36352187689708">
+<ele>79.6721206768036</ele>
+<name>SAD 007</name>
+</rtept>
+<rtept lat="57.1709453079904" lon="-5.36652573247888">
+<ele>132.045440464783</ele>
+<name>SAD 008</name>
+</rtept>
+<rtept lat="57.170659907664" lon="-5.36751255433676">
+<ele>156.808888200664</ele>
+<name>SAD 009</name>
+</rtept>
+<rtept lat="57.1695730008474" lon="-5.36821787782253">
+<ele>178.478215037727</ele>
+<name>SAD 010</name>
+</rtept>
+<rtept lat="57.1693707774702" lon="-5.36942073442483">
+<ele>195.801363332719</ele>
+<name>SAD 011</name>
+</rtept>
+<rtept lat="57.1690473135605" lon="-5.37001679851906">
+<ele>209.248184301567</ele>
+<name>SAD 012</name>
+</rtept>
+<rtept lat="57.1692881708591" lon="-5.37128978862371">
+<ele>217.174237968874</ele>
+<name>SAD 013</name>
+</rtept>
+<rtept lat="57.1690318202508" lon="-5.37239832672823">
+<ele>231.395815640974</ele>
+<name>SAD 014</name>
+</rtept>
+<rtept lat="57.1682450303155" lon="-5.3727734054128">
+<ele>247.853953546667</ele>
+<name>SAD 015</name>
+</rtept>
+<rtept lat="57.1679960126036" lon="-5.3742102169608">
+<ele>265.668460113168</ele>
+<name>SAD 016</name>
+</rtept>
+<rtept lat="57.168365300782" lon="-5.37612042848925">
+<ele>284.262975290394</ele>
+<name>SAD 017</name>
+</rtept>
+<rtept lat="57.1687988607007" lon="-5.37684508257541">
+<ele>293.02976627903</ele>
+<name>SAD 018</name>
+</rtept>
+<rtept lat="57.16949679296" lon="-5.37976835523322">
+<ele>338.14686322422</ele>
+<name>SAD 019</name>
+</rtept>
+<rtept lat="57.1699573432999" lon="-5.38249131252922">
+<ele>388.629394011307</ele>
+<name>SAD 020</name>
+</rtept>
+<rtept lat="57.170694548481" lon="-5.38455452558946">
+<ele>420.510678166771</ele>
+<name>SAD 021</name>
+</rtept>
+<rtept lat="57.1710903844024" lon="-5.3869738256455">
+<ele>456.476444503212</ele>
+<name>SAD 022</name>
+</rtept>
+<rtept lat="57.1716385572156" lon="-5.38824536344159">
+<ele>458.011499726677</ele>
+<name>SAD 023</name>
+</rtept>
+<rtept lat="57.1723804132717" lon="-5.38953468606067">
+<ele>492.17634083318</ele>
+<name>SAD 024</name>
+</rtept>
+<rtept lat="57.1715846653571" lon="-5.38964051179938">
+<ele>490.635350523996</ele>
+<name>SAD 025</name>
+</rtept>
+<rtept lat="57.1704167482404" lon="-5.38884837948285">
+<ele>509.277524169588</ele>
+<name>SAD 026</name>
+</rtept>
+<rtept lat="57.169620118457" lon="-5.388388173867">
+<ele>527.26348056736</ele>
+<name>SAD 027</name>
+</rtept>
+<rtept lat="57.1687783559766" lon="-5.38840044414632">
+<ele>564.697856334633</ele>
+<name>SAD 028</name>
+</rtept>
+<rtept lat="57.1673491564298" lon="-5.38919291586358">
+<ele>578.691807728636</ele>
+<name>SAD 029</name>
+</rtept>
+<rtept lat="57.1662242673942" lon="-5.3898745555201">
+<ele>604.619883513212</ele>
+<name>SAD 030</name>
+</rtept>
+<rtept lat="57.1645307483538" lon="-5.39186381889243">
+<ele>588.187721035862</ele>
+<name>SAD 031</name>
+</rtept>
+<rtept lat="57.1640188515606" lon="-5.39296816464204">
+<ele>605.073657712555</ele>
+<name>SAD 032</name>
+</rtept>
+<rtept lat="57.162963112892" lon="-5.39398357789613">
+<ele>618.931993557501</ele>
+<name>SAD 033</name>
+</rtept>
+<rtept lat="57.1628685148885" lon="-5.39508676618678">
+<ele>637.736044554615</ele>
+<name>SAD 034</name>
+</rtept>
+<rtept lat="57.1625680067188" lon="-5.39575376430692">
+<ele>639.910446548605</ele>
+<name>SAD 035</name>
+</rtept>
+<rtept lat="57.1626819280011" lon="-5.39752135266689">
+<ele>662.733671975565</ele>
+<name>SAD 036</name>
+</rtept>
+<rtept lat="57.162816766729" lon="-5.39851654038493">
+<ele>720.398551565564</ele>
+<name>SAD 037</name>
+</rtept>
+<rtept lat="57.1626368573762" lon="-5.39978064223215">
+<ele>747.521293414593</ele>
+<name>SAD 038</name>
+</rtept>
+<rtept lat="57.1626522419676" lon="-5.40100311650528">
+<ele>806.804686727548</ele>
+<name>SAD 039</name>
+</rtept>
+<rtept lat="57.1629339175893" lon="-5.40135660742614">
+<ele>797.16307255981</ele>
+<name>SAD 040</name>
+</rtept>
+<rtept lat="57.1628758516647" lon="-5.40289994363033">
+<ele>808.968623102701</ele>
+<name>SAD 041</name>
+</rtept>
+<rtept lat="57.1626507075301" lon="-5.40463637989583">
+<ele>854.110109264946</ele>
+<name>SAD 042</name>
+</rtept>
+<rtept lat="57.1625474067748" lon="-5.4060564099974">
+<ele>906.949478357315</ele>
+<name>SAD 043</name>
+</rtept>
+<rtept lat="57.1620300642784" lon="-5.40782547062266">
+<ele>945.589774248743</ele>
+<name>SAD 044</name>
+</rtept>
+<rtept lat="57.1618758807354" lon="-5.40933012695612">
+<ele>928.372803854847</ele>
+<name>SAD 045</name>
+</rtept>
+<rtept lat="57.1618193338893" lon="-5.41081398895137">
+<ele>921.277636400414</ele>
+<name>SAD 046</name>
+</rtept>
+<rtept lat="57.1619807181444" lon="-5.41142449426318">
+<ele>927.487931478739</ele>
+<name>SAD 047</name>
+</rtept>
+<rtept lat="57.16230020704" lon="-5.41335998343364">
+<ele>974.556310154438</ele>
+<name>SAD 048</name>
+</rtept>
+<rtept lat="57.1625212460868" lon="-5.41475034503707">
+<ele>981.252618041515</ele>
+<name>SAD 049</name>
+</rtept>
+<rtept lat="57.1622048096923" lon="-5.41567416441071">
+<ele>986.502814510918</ele>
+<name>SAD 050</name>
+</rtept>
+<rtept lat="57.1619319314264" lon="-5.41678067939083">
+<ele>999.890763161135</ele>
+<name>SAD 051</name>
+</rtept>
+<rtept lat="57.161191066855" lon="-5.416652717885">
+<ele>975.457456239366</ele>
+<name>SAD 052</name>
+</rtept>
+<rtept lat="57.1613448443596" lon="-5.41543630433424">
+<ele>934.610649027491</ele>
+<name>SAD 053</name>
+</rtept>
+<rtept lat="57.1608198680737" lon="-5.41332306280518">
+<ele>877.563806809044</ele>
+<name>SAD 054</name>
+</rtept>
+<rtept lat="57.1601162800648" lon="-5.4098433916402">
+<ele>803.74685566349</ele>
+<name>SAD 055</name>
+</rtept>
+<rtept lat="57.1592899223098" lon="-5.40611432481035">
+<ele>747.870703315544</ele>
+<name>SAD 056</name>
+</rtept>
+<rtept lat="57.1585258976062" lon="-5.40405876767581">
+<ele>725.590829804802</ele>
+<name>SAD 057</name>
+</rtept>
+<rtept lat="57.1578139665685" lon="-5.40219633793584">
+<ele>704.883316180968</ele>
+<name>SAD 058</name>
+</rtept>
+<rtept lat="57.1570100505402" lon="-5.39991891628894">
+<ele>722.778484498542</ele>
+<name>SAD 059</name>
+</rtept>
+<rtept lat="57.1562057190703" lon="-5.39931932500648">
+<ele>769.65145373683</ele>
+<name>SAD 060</name>
+</rtept>
+<rtept lat="57.1555923296409" lon="-5.39886597980747">
+<ele>813.519744691813</ele>
+<name>SAD 061</name>
+</rtept>
+<rtept lat="57.1548020583038" lon="-5.3984212247583">
+<ele>855.62364838047</ele>
+<name>SAD 062</name>
+</rtept>
+<rtept lat="57.1536748112568" lon="-5.3990488779747">
+<ele>857.502050356674</ele>
+<name>SAD 063</name>
+</rtept>
+<rtept lat="57.1532402615107" lon="-5.39960247054716">
+<ele>843.840525890678</ele>
+<name>SAD 064</name>
+</rtept>
+<rtept lat="57.152024056082" lon="-5.40029467267514">
+<ele>844.033923566437</ele>
+<name>SAD 065</name>
+</rtept>
+<rtept lat="57.1507414168183" lon="-5.40087355960862">
+<ele>843.530214424801</ele>
+<name>SAD 066</name>
+</rtept>
+<rtept lat="57.1491275454332" lon="-5.4008920304038">
+<ele>917.765918505222</ele>
+<name>SAD 067</name>
+</rtept>
+<rtept lat="57.14842455441" lon="-5.39996411670413">
+<ele>918.982186511755</ele>
+<name>SAD 068</name>
+</rtept>
+<rtept lat="57.1475173204513" lon="-5.39821370703538">
+<ele>935.607649209213</ele>
+<name>SAD 069</name>
+</rtept>
+<rtept lat="57.1471693740154" lon="-5.39672307142468">
+<ele>922.989002419567</ele>
+<name>SAD 070</name>
+</rtept>
+<rtept lat="57.1474850378468" lon="-5.39821074438607">
+<ele>936.543649209213</ele>
+<name>SAD 071</name>
+</rtept>
+<rtept lat="57.1483930774672" lon="-5.3999314559123">
+<ele>918.550186511755</ele>
+<name>SAD 072</name>
+</rtept>
+<rtept lat="57.149129962888" lon="-5.40080293917192">
+<ele>916.361918505222</ele>
+<name>SAD 073</name>
+</rtept>
+<rtept lat="57.1507863892832" lon="-5.40090580899803">
+<ele>839.450214394569</ele>
+<name>SAD 074</name>
+</rtept>
+<rtept lat="57.1520563385932" lon="-5.40029763765384">
+<ele>844.609923566389</ele>
+<name>SAD 075</name>
+</rtept>
+<rtept lat="57.1532402615107" lon="-5.39960247054716">
+<ele>843.840525890678</ele>
+<name>SAD 076</name>
+</rtept>
+<rtept lat="57.1541844428267" lon="-5.39820042075664">
+<ele>865.004603778522</ele>
+<name>SAD 077</name>
+</rtept>
+<rtept lat="57.1546451748301" lon="-5.39672416462262">
+<ele>868.665534127188</ele>
+<name>SAD 078</name>
+</rtept>
+<rtept lat="57.1550273706382" lon="-5.39276928220522">
+<ele>848.205378351498</ele>
+<name>SAD 079</name>
+</rtept>
+<rtept lat="57.1552819969513" lon="-5.38933861258511">
+<ele>869.903343310022</ele>
+<name>SAD 080</name>
+</rtept>
+<rtept lat="57.1557027587098" lon="-5.38574443973306">
+<ele>877.594773118746</ele>
+<name>SAD 081</name>
+</rtept>
+<rtept lat="57.1561825913012" lon="-5.38355508537838">
+<ele>892.901390461826</ele>
+<name>SAD 082</name>
+</rtept>
+<rtept lat="57.1567315659834" lon="-5.38055677728993">
+<ele>871.803432070589</ele>
+<name>SAD 083</name>
+</rtept>
+<rtept lat="57.1572283631041" lon="-5.3797022112641">
+<ele>821.957801665306</ele>
+<name>SAD 084</name>
+</rtept>
+<rtept lat="57.1580635659766" lon="-5.37876601952707">
+<ele>771.448100703812</ele>
+<name>SAD 085</name>
+</rtept>
+<rtept lat="57.1588031281546" lon="-5.37627422676346">
+<ele>686.437237844372</ele>
+<name>SAD 086</name>
+</rtept>
+<rtept lat="57.15942748732" lon="-5.37453085946275">
+<ele>666.813611259222</ele>
+<name>SAD 087</name>
+</rtept>
+<rtept lat="57.1600741389738" lon="-5.372147894474">
+<ele>613.008568844414</ele>
+<name>SAD 088</name>
+</rtept>
+<rtept lat="57.1608847286629" lon="-5.3702860381769">
+<ele>535.540770210266</ele>
+<name>SAD 089</name>
+</rtept>
+<rtept lat="57.1616614114784" lon="-5.36848057789109">
+<ele>435.021266063309</ele>
+<name>SAD 090</name>
+</rtept>
+<rtept lat="57.1629575168937" lon="-5.36570971614581">
+<ele>329.346427224398</ele>
+<name>SAD 091</name>
+</rtept>
+<rtept lat="57.163877817844" lon="-5.36397668367382">
+<ele>264.061297555184</ele>
+<name>SAD 092</name>
+</rtept>
+<rtept lat="57.1646279117253" lon="-5.36255571622535">
+<ele>214.75612358532</ele>
+<name>SAD 093</name>
+</rtept>
+<rtept lat="57.1653021844416" lon="-5.36162123257661">
+<ele>188.433695546043</ele>
+<name>SAD 094</name>
+</rtept>
+<rtept lat="57.1657388281402" lon="-5.36129521865526">
+<ele>151.954919822502</ele>
+<name>SAD 095</name>
+</rtept>
+<rtept lat="57.1663047524204" lon="-5.36013704814968">
+<ele>124.646827545261</ele>
+<name>SAD 096</name>
+</rtept>
+<rtept lat="57.167335532392" lon="-5.35782763634048">
+<ele>68.8120936050892</ele>
+<name>SAD 097</name>
+</rtept>
+<rtept lat="57.167627678592" lon="-5.35779457747389">
+<ele>63.1441872101784</ele>
+<name>SAD 098</name>
+</rtept>
+<rtept lat="57.1683497339478" lon="-5.35923026191772">
+<ele>55.4635969962358</ele>
+<name>SAD 099</name>
+</rtept>
+<rtept lat="57.169199098956" lon="-5.35848693076304">
+<ele>48.9311072896302</ele>
+<name>SAD 100</name>
+</rtept>
+<rtept lat="57.170173073286" lon="-5.35806895630724">
+<ele>42.7329017975926</ele>
+<name>SAD 101</name>
+</rtept>
+<rtept lat="57.1709979190885" lon="-5.35637143024274">
+<ele>37.0523485873818</ele>
+<name>SAD 102</name>
+</rtept>
+<rtept lat="57.1725509289118" lon="-5.36035647601972">
+<ele>35.139534825635</ele>
+<name>SAD 103</name>
+</rtept>
+<rtept lat="57.1743755825064" lon="-5.36230968382872">
+<ele>29.4648374420345</ele>
+<name>SAD 104</name>
+</rtept>
+<rtept lat="57.1762697477375" lon="-5.3646865067838">
+<ele>26</ele>
+<name>SAD 105</name>
+</rtept>
+</rte>
+</gpx>

@@ -1,0 +1,550 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="Walkhighlands">
+<metadata>
+	<desc>GPX file from Walkhighlands; file is copyright Walkhighlands and must not be publicly shared on other websites. Do not remove this notice.</desc>
+	<copyright author="Walkhighlands"><year>2019</year></copyright>
+</metadata>
+<rte>
+<name>Beinn Narnain and Beinn Ìme</name>
+<rtept lat="56.2060729813292" lon="-4.75091681675369">
+<ele>1.89526967522807</ele>
+<name>Ime001</name>
+</rtept>
+<rtept lat="56.2053579656194" lon="-4.75234922422937">
+<ele>7.70375201595295</ele>
+<name>Ime002</name>
+</rtept>
+<rtept lat="56.2070788898448" lon="-4.75498842899471">
+<ele>57.7391037448406</ele>
+<name>Ime003</name>
+</rtept>
+<rtept lat="56.2120946169046" lon="-4.76283559641636">
+<ele>309.37349845531</ele>
+<name>Ime004</name>
+</rtept>
+<rtept lat="56.2126888312741" lon="-4.76367677683846">
+<ele>309.96436563921</ele>
+<name>Ime005</name>
+</rtept>
+<rtept lat="56.2131876037349" lon="-4.76440464666028">
+<ele>396.48265055584</ele>
+<name>Ime006</name>
+</rtept>
+<rtept lat="56.2133452741375" lon="-4.76422728184318">
+<ele>395.240650555832</ele>
+<name>Ime007</name>
+</rtept>
+<rtept lat="56.2136133988365" lon="-4.76453692905732">
+<ele>406.519524949857</ele>
+<name>Ime008</name>
+</rtept>
+<rtept lat="56.2134322359481" lon="-4.76492067749932">
+<ele>413.433549466545</ele>
+<name>Ime009</name>
+</rtept>
+<rtept lat="56.2135632810746" lon="-4.76508980299248">
+<ele>419.96183184048</ele>
+<name>Ime010</name>
+</rtept>
+<rtept lat="56.212896276463" lon="-4.76609663857411">
+<ele>433.063260118523</ele>
+<name>Ime011</name>
+</rtept>
+<rtept lat="56.2130240510694" lon="-4.7666929679882">
+<ele>455.784407730615</ele>
+<name>Ime012</name>
+</rtept>
+<rtept lat="56.2134029508066" lon="-4.76695254730168">
+<ele>473.948922189105</ele>
+<name>Ime013</name>
+</rtept>
+<rtept lat="56.2134374972702" lon="-4.76821962977929">
+<ele>450.734346011972</ele>
+<name>Ime014</name>
+</rtept>
+<rtept lat="56.2135953938961" lon="-4.768674590976">
+<ele>533.0108496315</ele>
+<name>Ime015</name>
+</rtept>
+<rtept lat="56.2135503531196" lon="-4.76891974384318">
+<ele>535.6508496315</ele>
+<name>Ime016</name>
+</rtept>
+<rtept lat="56.213795155572" lon="-4.76902611762942">
+<ele>512.747048503256</ele>
+<name>Ime017</name>
+</rtept>
+<rtept lat="56.2145447233864" lon="-4.77131586223742">
+<ele>588.064852317798</ele>
+<name>Ime018</name>
+</rtept>
+<rtept lat="56.2145877259063" lon="-4.77160286227504">
+<ele>579.847852317798</ele>
+<name>Ime019</name>
+</rtept>
+<rtept lat="56.2146555142727" lon="-4.77254816214596">
+<ele>613.074060288739</ele>
+<name>Ime020</name>
+</rtept>
+<rtept lat="56.2153545570075" lon="-4.77456337368724">
+<ele>647.83045401609</ele>
+<name>Ime021</name>
+</rtept>
+<rtept lat="56.2158681468884" lon="-4.77466824915993">
+<ele>662.188751394392</ele>
+<name>Ime022</name>
+</rtept>
+<rtept lat="56.2158929313978" lon="-4.77524591694445">
+<ele>675.358652402706</ele>
+<name>Ime023</name>
+</rtept>
+<rtept lat="56.2164084979124" lon="-4.77638335051406">
+<ele>671.970601176798</ele>
+<name>Ime024</name>
+</rtept>
+<rtept lat="56.2164289601671" lon="-4.77679295047564">
+<ele>675.061601176786</ele>
+<name>Ime025</name>
+</rtept>
+<rtept lat="56.2169480854843" lon="-4.77745156815132">
+<ele>716.074958226299</ele>
+<name>Ime026</name>
+</rtept>
+<rtept lat="56.2169515879711" lon="-4.77773573500698">
+<ele>712.356958226299</ele>
+<name>Ime027</name>
+</rtept>
+<rtept lat="56.21741147976" lon="-4.778390086905">
+<ele>718.301647249699</ele>
+<name>Ime028</name>
+</rtept>
+<rtept lat="56.2185209289901" lon="-4.78093700345809">
+<ele>771.646877651262</ele>
+<name>Ime029</name>
+</rtept>
+<rtept lat="56.21917464211" lon="-4.78176518047977">
+<ele>772.048359932971</ele>
+<name>Ime030</name>
+</rtept>
+<rtept lat="56.2192866221615" lon="-4.7825008706415">
+<ele>759.158998592996</ele>
+<name>Ime031</name>
+</rtept>
+<rtept lat="56.2195328075214" lon="-4.78342375635191">
+<ele>778.12112740469</ele>
+<name>Ime032</name>
+</rtept>
+<rtept lat="56.2194670937648" lon="-4.78414656756682">
+<ele>737.362116848421</ele>
+<name>Ime033</name>
+</rtept>
+<rtept lat="56.2196346952984" lon="-4.78504601995054">
+<ele>758.647116848421</ele>
+<name>Ime034</name>
+</rtept>
+<rtept lat="56.2196348772337" lon="-4.78591558099463">
+<ele>758.453020197439</ele>
+<name>Ime035</name>
+</rtept>
+<rtept lat="56.2200167740754" lon="-4.78564162142109">
+<ele>785.678121806717</ele>
+<name>Ime036</name>
+</rtept>
+<rtept lat="56.220137404075" lon="-4.78643120643902">
+<ele>782.258734376574</ele>
+<name>Ime037</name>
+</rtept>
+<rtept lat="56.2204572790413" lon="-4.78627696946378">
+<ele>812.112489679098</ele>
+<name>Ime038</name>
+</rtept>
+<rtept lat="56.2208217186187" lon="-4.78633892260319">
+<ele>822.932319655132</ele>
+<name>Ime039</name>
+</rtept>
+<rtept lat="56.2208400359557" lon="-4.78728081387481">
+<ele>857.546720642042</ele>
+<name>Ime040</name>
+</rtept>
+<rtept lat="56.2209997408242" lon="-4.78809100692555">
+<ele>863.459142546177</ele>
+<name>Ime041</name>
+</rtept>
+<rtept lat="56.2209378753753" lon="-4.78908031592678">
+<ele>866.398395094156</ele>
+<name>Ime042</name>
+</rtept>
+<rtept lat="56.2213576949359" lon="-4.79019337685124">
+<ele>895.693347427702</ele>
+<name>Ime043</name>
+</rtept>
+<rtept lat="56.2217611003583" lon="-4.79203289139499">
+<ele>874.139723712045</ele>
+<name>Ime044</name>
+</rtept>
+<rtept lat="56.2215145861287" lon="-4.79244087835437">
+<ele>877.143995523024</ele>
+<name>Ime045</name>
+</rtept>
+<rtept lat="56.2214777683198" lon="-4.79275764101294">
+<ele>871.896995523024</ele>
+<name>Ime046</name>
+</rtept>
+<rtept lat="56.2213861252991" lon="-4.79287519866194">
+<ele>865.978995523024</ele>
+<name>Ime047</name>
+</rtept>
+<rtept lat="56.2214278760326" lon="-4.7932154254614">
+<ele>864.482995523024</ele>
+<name>Ime048</name>
+</rtept>
+<rtept lat="56.2215316557492" lon="-4.79343594100548">
+<ele>855.088652394521</ele>
+<name>Ime049</name>
+</rtept>
+<rtept lat="56.2222613761037" lon="-4.79702074385434">
+<ele>813.199914947986</ele>
+<name>Ime050</name>
+</rtept>
+<rtept lat="56.2222884329758" lon="-4.79757287831428">
+<ele>807.039914947986</ele>
+<name>Ime051</name>
+</rtept>
+<rtept lat="56.2225745446989" lon="-4.79803741996411">
+<ele>806.489914947986</ele>
+<name>Ime052</name>
+</rtept>
+<rtept lat="56.2219273965438" lon="-4.79839356658571">
+<ele>770.274887104201</ele>
+<name>Ime053</name>
+</rtept>
+<rtept lat="56.2214658278102" lon="-4.79904880567798">
+<ele>742.446918907769</ele>
+<name>Ime054</name>
+</rtept>
+<rtept lat="56.2212032740465" lon="-4.79897318828535">
+<ele>737.604083580591</ele>
+<name>Ime055</name>
+</rtept>
+<rtept lat="56.2211035360769" lon="-4.80032111125601">
+<ele>708.734669078302</ele>
+<name>Ime056</name>
+</rtept>
+<rtept lat="56.2212404835948" lon="-4.80233002950399">
+<ele>675.671771408235</ele>
+<name>Ime057</name>
+</rtept>
+<rtept lat="56.2210151633752" lon="-4.8045367425279">
+<ele>637.399933497328</ele>
+<name>Ime058</name>
+</rtept>
+<rtept lat="56.2229096638955" lon="-4.80451063835211">
+<ele>640.961555121296</ele>
+<name>Ime059</name>
+</rtept>
+<rtept lat="56.2242639673888" lon="-4.80527598651424">
+<ele>636.875116021291</ele>
+<name>Ime060</name>
+</rtept>
+<rtept lat="56.2279652478539" lon="-4.80991792885324">
+<ele>739.662762985842</ele>
+<name>Ime061</name>
+</rtept>
+<rtept lat="56.229729224005" lon="-4.80997935864299">
+<ele>786.385680271941</ele>
+<name>Ime062</name>
+</rtept>
+<rtept lat="56.2317141390383" lon="-4.81123504334814">
+<ele>839.943969255591</ele>
+<name>Ime063</name>
+</rtept>
+<rtept lat="56.2322995546027" lon="-4.81078896388046">
+<ele>856.257657671665</ele>
+<name>Ime064</name>
+</rtept>
+<rtept lat="56.2331462879283" lon="-4.81090749630287">
+<ele>873.581369896789</ele>
+<name>Ime065</name>
+</rtept>
+<rtept lat="56.2343145309923" lon="-4.81198726937877">
+<ele>910.282625687938</ele>
+<name>Ime066</name>
+</rtept>
+<rtept lat="56.2352678138598" lon="-4.81382281115612">
+<ele>924.862932617474</ele>
+<name>Ime067</name>
+</rtept>
+<rtept lat="56.2359655924772" lon="-4.81531204646941">
+<ele>943.309980283952</ele>
+<name>Ime068</name>
+</rtept>
+<rtept lat="56.2363100155035" lon="-4.81676569377517">
+<ele>980.480380621478</ele>
+<name>Ime069</name>
+</rtept>
+<rtept lat="56.2368222764466" lon="-4.81720359655077">
+<ele>940.372455088115</ele>
+<name>Ime070</name>
+</rtept>
+<rtept lat="56.2363039908791" lon="-4.81675395344482">
+<ele>980.237483551704</ele>
+<name>Ime071</name>
+</rtept>
+<rtept lat="56.2359454468629" lon="-4.81532832127043">
+<ele>942.770980283952</ele>
+<name>Ime072</name>
+</rtept>
+<rtept lat="56.2343359212928" lon="-4.8119952931655">
+<ele>910.907209078741</ele>
+<name>Ime073</name>
+</rtept>
+<rtept lat="56.2331488335301" lon="-4.81091413822489">
+<ele>873.644570949244</ele>
+<name>Ime074</name>
+</rtept>
+<rtept lat="56.2323170991354" lon="-4.81080800138662">
+<ele>856.598493323937</ele>
+<name>Ime075</name>
+</rtept>
+<rtept lat="56.2317175819958" lon="-4.81124175080616">
+<ele>840.028048920728</ele>
+<name>Ime076</name>
+</rtept>
+<rtept lat="56.2297441677726" lon="-4.80995463406486">
+<ele>786.70568027196</ele>
+<name>Ime077</name>
+</rtept>
+<rtept lat="56.2279579956529" lon="-4.80992062493346">
+<ele>739.422229483312</ele>
+<name>Ime078</name>
+</rtept>
+<rtept lat="56.2242668422688" lon="-4.80526812936662">
+<ele>636.922520504832</ele>
+<name>Ime079</name>
+</rtept>
+<rtept lat="56.2229397931805" lon="-4.80456930978273">
+<ele>640.002412191185</ele>
+<name>Ime080</name>
+</rtept>
+<rtept lat="56.2210153095324" lon="-4.80453029989195">
+<ele>637.485926585761</ele>
+<name>Ime081</name>
+</rtept>
+<rtept lat="56.2202463490564" lon="-4.80565827107522">
+<ele>643.203813811207</ele>
+<name>Ime082</name>
+</rtept>
+<rtept lat="56.2199526272862" lon="-4.80553032050716">
+<ele>652.820662853098</ele>
+<name>Ime083</name>
+</rtept>
+<rtept lat="56.2197289384963" lon="-4.80405879329807">
+<ele>628.139544252825</ele>
+<name>Ime084</name>
+</rtept>
+<rtept lat="56.2190600553851" lon="-4.80303390711353">
+<ele>644.986876441419</ele>
+<name>Ime085</name>
+</rtept>
+<rtept lat="56.2190144190527" lon="-4.80155768213272">
+<ele>621.292763439089</ele>
+<name>Ime086</name>
+</rtept>
+<rtept lat="56.2176775612378" lon="-4.79902902412271">
+<ele>593.174981966257</ele>
+<name>Ime087</name>
+</rtept>
+<rtept lat="56.2164030348776" lon="-4.79767622092282">
+<ele>569.358653801519</ele>
+<name>Ime088</name>
+</rtept>
+<rtept lat="56.2162847314773" lon="-4.79722398788408">
+<ele>564.232653801513</ele>
+<name>Ime089</name>
+</rtept>
+<rtept lat="56.214610556936" lon="-4.79474208253642">
+<ele>545.388173291057</ele>
+<name>Ime090</name>
+</rtept>
+<rtept lat="56.2134803111648" lon="-4.79137732499714">
+<ele>505.059429203832</ele>
+<name>Ime091</name>
+</rtept>
+<rtept lat="56.2124637938813" lon="-4.78910332741022">
+<ele>484.729585848784</ele>
+<name>Ime092</name>
+</rtept>
+<rtept lat="56.2121769118169" lon="-4.78691790628542">
+<ele>475.812364891291</ele>
+<name>Ime093</name>
+</rtept>
+<rtept lat="56.210760373909" lon="-4.78440219170278">
+<ele>445.231972708747</ele>
+<name>Ime094</name>
+</rtept>
+<rtept lat="56.2102668098193" lon="-4.78260998315761">
+<ele>427.921177679181</ele>
+<name>Ime095</name>
+</rtept>
+<rtept lat="56.2094352920532" lon="-4.78045626187975">
+<ele>399.405242356062</ele>
+<name>Ime096</name>
+</rtept>
+<rtept lat="56.2091287438249" lon="-4.77913896946325">
+<ele>389.902374896729</ele>
+<name>Ime097</name>
+</rtept>
+<rtept lat="56.2075870433642" lon="-4.77558576616311">
+<ele>341.671399571145</ele>
+<name>Ime098</name>
+</rtept>
+<rtept lat="56.2070617469486" lon="-4.77388023325256">
+<ele>325.347408169591</ele>
+<name>Ime099</name>
+</rtept>
+<rtept lat="56.2058458225693" lon="-4.77210714763872">
+<ele>279.932431909561</ele>
+<name>Ime100</name>
+</rtept>
+<rtept lat="56.2055762314361" lon="-4.7713426344239">
+<ele>289.032597447705</ele>
+<name>Ime101</name>
+</rtept>
+<rtept lat="56.2052619333368" lon="-4.77124899388731">
+<ele>250.167179361582</ele>
+<name>Ime102</name>
+</rtept>
+<rtept lat="56.205114710621" lon="-4.77075941371376">
+<ele>243.138179361582</ele>
+<name>Ime103</name>
+</rtept>
+<rtept lat="56.2051862458988" lon="-4.77021466326191">
+<ele>257.367961315584</ele>
+<name>Ime104</name>
+</rtept>
+<rtept lat="56.2051539046461" lon="-4.76989302645918">
+<ele>249.689961315584</ele>
+<name>Ime105</name>
+</rtept>
+<rtept lat="56.2046054172902" lon="-4.77010180562326">
+<ele>250.8960113042</ele>
+<name>Ime106</name>
+</rtept>
+<rtept lat="56.2045573014323" lon="-4.76960164787555">
+<ele>201.5669098032</ele>
+<name>Ime107</name>
+</rtept>
+<rtept lat="56.2046477809419" lon="-4.76909374715053">
+<ele>210.204677068949</ele>
+<name>Ime108</name>
+</rtept>
+<rtept lat="56.2041818377823" lon="-4.76914884030287">
+<ele>197.7389098032</ele>
+<name>Ime109</name>
+</rtept>
+<rtept lat="56.2041376384407" lon="-4.7689150509917">
+<ele>193.5369098032</ele>
+<name>Ime110</name>
+</rtept>
+<rtept lat="56.2058509216568" lon="-4.76481662175533">
+<ele>171.211592489427</ele>
+<name>Ime111</name>
+</rtept>
+<rtept lat="56.2059098172773" lon="-4.76395163165409">
+<ele>159.474592489439</ele>
+<name>Ime112</name>
+</rtept>
+<rtept lat="56.2056784157673" lon="-4.76413010724201">
+<ele>158.47159108246</ele>
+<name>Ime113</name>
+</rtept>
+<rtept lat="56.2057124159179" lon="-4.76349393959522">
+<ele>167.57959108246</ele>
+<name>Ime114</name>
+</rtept>
+<rtept lat="56.2050450842525" lon="-4.76371199794203">
+<ele>131.529122348738</ele>
+<name>Ime115</name>
+</rtept>
+<rtept lat="56.20504711813" lon="-4.76273649932766">
+<ele>120.927311902261</ele>
+<name>Ime116</name>
+</rtept>
+<rtept lat="56.2046897638327" lon="-4.76279948278998">
+<ele>103.012807740736</ele>
+<name>Ime117</name>
+</rtept>
+<rtept lat="56.2054653896624" lon="-4.76038954295424">
+<ele>122.634878969336</ele>
+<name>Ime118</name>
+</rtept>
+<rtept lat="56.2047352734556" lon="-4.76076278968294">
+<ele>101.300508460748</ele>
+<name>Ime119</name>
+</rtept>
+<rtept lat="56.2042184106869" lon="-4.7604418123773">
+<ele>82.9807770846963</ele>
+<name>Ime120</name>
+</rtept>
+<rtept lat="56.2039340961399" lon="-4.76077614371707">
+<ele>83.8871752488583</ele>
+<name>Ime121</name>
+</rtept>
+<rtept lat="56.2037505092095" lon="-4.7601421015226">
+<ele>83.8889683205843</ele>
+<name>Ime122</name>
+</rtept>
+<rtept lat="56.2040644506532" lon="-4.75936643324124">
+<ele>68.5398886800557</ele>
+<name>Ime123</name>
+</rtept>
+<rtept lat="56.2043894727587" lon="-4.7567644661272">
+<ele>61.9982675116539</ele>
+<name>Ime124</name>
+</rtept>
+<rtept lat="56.2038457414845" lon="-4.75720436903969">
+<ele>56.5663711676121</ele>
+<name>Ime125</name>
+</rtept>
+<rtept lat="56.2040901705636" lon="-4.7559979614587">
+<ele>33.3917126832366</ele>
+<name>Ime126</name>
+</rtept>
+<rtept lat="56.2039030053889" lon="-4.75596679029792">
+<ele>32.8857126832485</ele>
+<name>Ime127</name>
+</rtept>
+<rtept lat="56.2045320158749" lon="-4.75436223374557">
+<ele>9.13704504961968</ele>
+<name>Ime128</name>
+</rtept>
+<rtept lat="56.2040483499861" lon="-4.75448718098455">
+<ele>21.3538101238662</ele>
+<name>Ime129</name>
+</rtept>
+<rtept lat="56.2052859008587" lon="-4.75300201627951">
+<ele>15.9792275968695</ele>
+<name>Ime130</name>
+</rtept>
+<rtept lat="56.2050665003501" lon="-4.7530056380685">
+<ele>12.1165940982745</ele>
+<name>Ime131</name>
+</rtept>
+<rtept lat="56.2051761951457" lon="-4.75276193131712">
+<ele>9.80700917717331</ele>
+<name>Ime132</name>
+</rtept>
+<rtept lat="56.2051657090675" lon="-4.75258701491152">
+<ele>7.80901998515391</ele>
+<name>Ime133</name>
+</rtept>
+<rtept lat="56.2053616987099" lon="-4.75234304123441">
+<ele>7.66724881561267</ele>
+<name>Ime134</name>
+</rtept>
+<rtept lat="56.2060622122874" lon="-4.75091604523097">
+<ele>1.84721557778733</ele>
+<name>Ime135</name>
+</rtept>
+</rte>
+</gpx>

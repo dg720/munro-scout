@@ -1,0 +1,858 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="Walkhighlands">
+<metadata>
+	<desc>GPX file from Walkhighlands; file is copyright Walkhighlands and must not be publicly shared on other websites. Do not remove this notice.</desc>
+	<copyright author="Walkhighlands"><year>2019</year></copyright>
+</metadata>
+<rte>
+<name>Sgùrr Breac &amp; A&#039; Chailleach: Western Fannichs</name>
+<rtept lat="57.7372664491118" lon="-5.09014566664156">
+<ele>281.69053180998</ele>
+<name>SgBr001</name>
+</rtept>
+<rtept lat="57.7368754851599" lon="-5.08915103950576">
+<ele>279.53860559488</ele>
+<name>SgBr002</name>
+</rtept>
+<rtept lat="57.7366020076816" lon="-5.0882034269792">
+<ele>278.213063619961</ele>
+<name>SgBr003</name>
+</rtept>
+<rtept lat="57.7360709574048" lon="-5.08889754024521">
+<ele>275.954496455947</ele>
+<name>SgBr004</name>
+</rtept>
+<rtept lat="57.7339876819104" lon="-5.09404327249218">
+<ele>262.550615306949</ele>
+<name>SgBr005</name>
+</rtept>
+<rtept lat="57.7332879160596" lon="-5.09516644645883">
+<ele>259.470458025081</ele>
+<name>SgBr006</name>
+</rtept>
+<rtept lat="57.7327120693429" lon="-5.09526509179042">
+<ele>258.944223764364</ele>
+<name>SgBr007</name>
+</rtept>
+<rtept lat="57.7314938373449" lon="-5.09656566586626">
+<ele>258.203329570833</ele>
+<name>SgBr008</name>
+</rtept>
+<rtept lat="57.7308390603954" lon="-5.09665753533334">
+<ele>256.888221354703</ele>
+<name>SgBr009</name>
+</rtept>
+<rtept lat="57.7304299707222" lon="-5.09721399121438">
+<ele>256.568497203012</ele>
+<name>SgBr010</name>
+</rtept>
+<rtept lat="57.729706194385" lon="-5.09689333941903">
+<ele>254.726844176889</ele>
+<name>SgBr011</name>
+</rtept>
+<rtept lat="57.7295323374272" lon="-5.09591740767734">
+<ele>255.1157830471</ele>
+<name>SgBr012</name>
+</rtept>
+<rtept lat="57.7275701528492" lon="-5.0936798005845">
+<ele>249.964989835061</ele>
+<name>SgBr013</name>
+</rtept>
+<rtept lat="57.7266722761328" lon="-5.09400967594295">
+<ele>249.403902474734</ele>
+<name>SgBr014</name>
+</rtept>
+<rtept lat="57.7264434954434" lon="-5.09447062233848">
+<ele>249.834788810236</ele>
+<name>SgBr015</name>
+</rtept>
+<rtept lat="57.7258272820822" lon="-5.09460277503796">
+<ele>256.093164884379</ele>
+<name>SgBr016</name>
+</rtept>
+<rtept lat="57.7255770748427" lon="-5.09432267758573">
+<ele>260.78351606164</ele>
+<name>SgBr017</name>
+</rtept>
+<rtept lat="57.7242521879515" lon="-5.09513345786745">
+<ele>284.572277310149</ele>
+<name>SgBr018</name>
+</rtept>
+<rtept lat="57.7214330505573" lon="-5.0955947404148">
+<ele>348.55746907308</ele>
+<name>SgBr019</name>
+</rtept>
+<rtept lat="57.7201295695347" lon="-5.09714630463488">
+<ele>404.578438620487</ele>
+<name>SgBr020</name>
+</rtept>
+<rtept lat="57.7198281682385" lon="-5.09734226175452">
+<ele>421.793667593444</ele>
+<name>SgBr021</name>
+</rtept>
+<rtept lat="57.7197335104153" lon="-5.0977944141614">
+<ele>435.608546688685</ele>
+<name>SgBr022</name>
+</rtept>
+<rtept lat="57.719634795841" lon="-5.09786156067826">
+<ele>442.338777315835</ele>
+<name>SgBr023</name>
+</rtept>
+<rtept lat="57.7195158188675" lon="-5.09842585040376">
+<ele>455.380071187662</ele>
+<name>SgBr024</name>
+</rtept>
+<rtept lat="57.7193411282092" lon="-5.09862255328933">
+<ele>465.648573269122</ele>
+<name>SgBr025</name>
+</rtept>
+<rtept lat="57.7191312481133" lon="-5.09860460208245">
+<ele>475.171778592512</ele>
+<name>SgBr026</name>
+</rtept>
+<rtept lat="57.71870509339" lon="-5.09949029838176">
+<ele>500.959932067538</ele>
+<name>SgBr027</name>
+</rtept>
+<rtept lat="57.7185641686401" lon="-5.09962941260085">
+<ele>509.339340423147</ele>
+<name>SgBr028</name>
+</rtept>
+<rtept lat="57.7184541128223" lon="-5.09949906040921">
+<ele>515.323791898086</ele>
+<name>SgBr029</name>
+</rtept>
+<rtept lat="57.718160553396" lon="-5.09959488109978">
+<ele>534.460266724488</ele>
+<name>SgBr030</name>
+</rtept>
+<rtept lat="57.7180019466901" lon="-5.10012551793706">
+<ele>556.941500438567</ele>
+<name>SgBr031</name>
+</rtept>
+<rtept lat="57.7177803575336" lon="-5.09992515603793">
+<ele>571.765873418169</ele>
+<name>SgBr032</name>
+</rtept>
+<rtept lat="57.7177502268525" lon="-5.100164445778">
+<ele>579.387301303769</ele>
+<name>SgBr033</name>
+</rtept>
+<rtept lat="57.7174526605426" lon="-5.10009363381795">
+<ele>597.997250284689</ele>
+<name>SgBr034</name>
+</rtept>
+<rtept lat="57.7168102681608" lon="-5.10155030305314">
+<ele>602.934783404196</ele>
+<name>SgBr035</name>
+</rtept>
+<rtept lat="57.71585828531" lon="-5.10243623348138">
+<ele>615.642357510116</ele>
+<name>SgBr036</name>
+</rtept>
+<rtept lat="57.7154082579525" lon="-5.10330464690105">
+<ele>620.323073899087</ele>
+<name>SgBr037</name>
+</rtept>
+<rtept lat="57.7149719169683" lon="-5.10361493453829">
+<ele>621.649320620211</ele>
+<name>SgBr038</name>
+</rtept>
+<rtept lat="57.7143588128683" lon="-5.10519487773064">
+<ele>622.022605549585</ele>
+<name>SgBr039</name>
+</rtept>
+<rtept lat="57.7141731507148" lon="-5.10517896721515">
+<ele>625.249770304811</ele>
+<name>SgBr040</name>
+</rtept>
+<rtept lat="57.7136709684115" lon="-5.10619398792348">
+<ele>635.135139060761</ele>
+<name>SgBr041</name>
+</rtept>
+<rtept lat="57.7131208683768" lon="-5.10652470421337">
+<ele>652.631036291227</ele>
+<name>SgBr042</name>
+</rtept>
+<rtept lat="57.7126265325256" lon="-5.10689042110663">
+<ele>666.848223875086</ele>
+<name>SgBr043</name>
+</rtept>
+<rtept lat="57.7120016350768" lon="-5.10697287434724">
+<ele>680.870223875073</ele>
+<name>SgBr044</name>
+</rtept>
+<rtept lat="57.7114972951015" lon="-5.1077457992533">
+<ele>688.276972025554</ele>
+<name>SgBr045</name>
+</rtept>
+<rtept lat="57.7112434289065" lon="-5.10754265967214">
+<ele>694.725031073964</ele>
+<name>SgBr046</name>
+</rtept>
+<rtept lat="57.7106203048037" lon="-5.10788218615475">
+<ele>701.350853702703</ele>
+<name>SgBr047</name>
+</rtept>
+<rtept lat="57.7100505875134" lon="-5.10736480835415">
+<ele>707.440204064284</ele>
+<name>SgBr048</name>
+</rtept>
+<rtept lat="57.7083349770582" lon="-5.10673410521131">
+<ele>725.316959494307</ele>
+<name>SgBr049</name>
+</rtept>
+<rtept lat="57.7076177317191" lon="-5.10629481134872">
+<ele>733.025267165169</ele>
+<name>SgBr050</name>
+</rtept>
+<rtept lat="57.7067455564246" lon="-5.10623517624902">
+<ele>739.520384240175</ele>
+<name>SgBr051</name>
+</rtept>
+<rtept lat="57.7063460161173" lon="-5.10603470391716">
+<ele>741.257980837797</ele>
+<name>SgBr052</name>
+</rtept>
+<rtept lat="57.7055919623446" lon="-5.10610609354609">
+<ele>747.126822105033</ele>
+<name>SgBr053</name>
+</rtept>
+<rtept lat="57.7050276438396" lon="-5.10602751356669">
+<ele>751.515309823294</ele>
+<name>SgBr054</name>
+</rtept>
+<rtept lat="57.7043551265921" lon="-5.10574322004894">
+<ele>758.839640765128</ele>
+<name>SgBr055</name>
+</rtept>
+<rtept lat="57.703512122665" lon="-5.10482478844969">
+<ele>780.353502766916</ele>
+<name>SgBr056</name>
+</rtept>
+<rtept lat="57.7028615985506" lon="-5.10463307707176">
+<ele>791.733623294386</ele>
+<name>SgBr057</name>
+</rtept>
+<rtept lat="57.7026043255573" lon="-5.10489814210866">
+<ele>793.453410312178</ele>
+<name>SgBr058</name>
+</rtept>
+<rtept lat="57.7018837415224" lon="-5.10459466371975">
+<ele>806.832683048537</ele>
+<name>SgBr059</name>
+</rtept>
+<rtept lat="57.7004149549228" lon="-5.10445377552237">
+<ele>809.074756247544</ele>
+<name>SgBr060</name>
+</rtept>
+<rtept lat="57.6994604343252" lon="-5.10511239023147">
+<ele>820.72607745224</ele>
+<name>SgBr061</name>
+</rtept>
+<rtept lat="57.697546861043" lon="-5.10529600471846">
+<ele>860.6583910441</ele>
+<name>SgBr062</name>
+</rtept>
+<rtept lat="57.6951504342728" lon="-5.10702452257811">
+<ele>903.824133891716</ele>
+<name>SgBr063</name>
+</rtept>
+<rtept lat="57.6948524249551" lon="-5.10730113292222">
+<ele>916.933770114008</ele>
+<name>SgBr064</name>
+</rtept>
+<rtept lat="57.6940689673334" lon="-5.10758145889918">
+<ele>931.070962157536</ele>
+<name>SgBr065</name>
+</rtept>
+<rtept lat="57.6934143016968" lon="-5.10624129524399">
+<ele>906.975621511692</ele>
+<name>SgBr066</name>
+</rtept>
+<rtept lat="57.692670385867" lon="-5.10524098485955">
+<ele>884.264650435128</ele>
+<name>SgBr067</name>
+</rtept>
+<rtept lat="57.6922167620891" lon="-5.10394833618914">
+<ele>862.876391423559</ele>
+<name>SgBr068</name>
+</rtept>
+<rtept lat="57.6918688676757" lon="-5.10230222317703">
+<ele>862.347821537304</ele>
+<name>SgBr069</name>
+</rtept>
+<rtept lat="57.6917907948755" lon="-5.10185747302526">
+<ele>868.337711714534</ele>
+<name>SgBr070</name>
+</rtept>
+<rtept lat="57.691548805766" lon="-5.10083979226244">
+<ele>887.223957110339</ele>
+<name>SgBr071</name>
+</rtept>
+<rtept lat="57.6915595234174" lon="-5.1004026400182">
+<ele>894.637545876652</ele>
+<name>SgBr072</name>
+</rtept>
+<rtept lat="57.691571291144" lon="-5.10025258785172">
+<ele>898.034032265758</ele>
+<name>SgBr073</name>
+</rtept>
+<rtept lat="57.6914921584558" lon="-5.09952074574534">
+<ele>915.357026017317</ele>
+<name>SgBr074</name>
+</rtept>
+<rtept lat="57.6915853873962" lon="-5.09934744366954">
+<ele>920.280678697082</ele>
+<name>SgBr075</name>
+</rtept>
+<rtept lat="57.6915434433526" lon="-5.09775775071274">
+<ele>955.267297478473</ele>
+<name>SgBr076</name>
+</rtept>
+<rtept lat="57.691352069721" lon="-5.09665379368227">
+<ele>969.405441134617</ele>
+<name>SgBr077</name>
+</rtept>
+<rtept lat="57.6915883264633" lon="-5.09427214510701">
+<ele>986.037893725072</ele>
+<name>SgBr078</name>
+</rtept>
+<rtept lat="57.6919004715034" lon="-5.09209331438944">
+<ele>997.041652793126</ele>
+<name>SgBr079</name>
+</rtept>
+<rtept lat="57.691966963205" lon="-5.09135879294383">
+<ele>993.838805448839</ele>
+<name>SgBr080</name>
+</rtept>
+<rtept lat="57.6918997343796" lon="-5.09212346334982">
+<ele>996.878011357645</ele>
+<name>SgBr081</name>
+</rtept>
+<rtept lat="57.6915963988432" lon="-5.09427283383653">
+<ele>985.892896169582</ele>
+<name>SgBr082</name>
+</rtept>
+<rtept lat="57.6913689526439" lon="-5.09662502379833">
+<ele>970.136601866472</ele>
+<name>SgBr083</name>
+</rtept>
+<rtept lat="57.6915350017652" lon="-5.09777213545786">
+<ele>955.127849099876</ele>
+<name>SgBr084</name>
+</rtept>
+<rtept lat="57.6915945679976" lon="-5.09930291077654">
+<ele>921.55479358366</ele>
+<name>SgBr085</name>
+</rtept>
+<rtept lat="57.6914833472266" lon="-5.09955020425474">
+<ele>914.568283748155</ele>
+<name>SgBr086</name>
+</rtept>
+<rtept lat="57.6915709216127" lon="-5.10026766207922">
+<ele>897.679763548021</ele>
+<name>SgBr087</name>
+</rtept>
+<rtept lat="57.6915242191754" lon="-5.10085279589776">
+<ele>886.975077251879</ele>
+<name>SgBr088</name>
+</rtept>
+<rtept lat="57.6917599844613" lon="-5.10179441420918">
+<ele>870.196368089292</ele>
+<name>SgBr089</name>
+</rtept>
+<rtept lat="57.6918604255809" lon="-5.10231660697329">
+<ele>862.323321890586</ele>
+<name>SgBr090</name>
+</rtept>
+<rtept lat="57.6922259443058" lon="-5.10390380374639">
+<ele>862.386526915081</ele>
+<name>SgBr091</name>
+</rtept>
+<rtept lat="57.6926469092358" lon="-5.10520876206287">
+<ele>883.790381493462</ele>
+<name>SgBr092</name>
+</rtept>
+<rtept lat="57.693374310515" lon="-5.10622276315974">
+<ele>905.945010358792</ele>
+<name>SgBr093</name>
+</rtept>
+<rtept lat="57.6941104399419" lon="-5.10753969214645">
+<ele>931.355427977524</ele>
+<name>SgBr094</name>
+</rtept>
+<rtept lat="57.6935321778438" lon="-5.10901591442052">
+<ele>917.640569658651</ele>
+<name>SgBr095</name>
+</rtept>
+<rtept lat="57.6931825173133" lon="-5.11040595267056">
+<ele>894.045570999049</ele>
+<name>SgBr096</name>
+</rtept>
+<rtept lat="57.693112663545" lon="-5.11094379614483">
+<ele>886.243211702784</ele>
+<name>SgBr097</name>
+</rtept>
+<rtept lat="57.6925774971171" lon="-5.11165320295405">
+<ele>876.667792327954</ele>
+<name>SgBr098</name>
+</rtept>
+<rtept lat="57.6924555837883" lon="-5.11200529265518">
+<ele>869.425945492188</ele>
+<name>SgBr099</name>
+</rtept>
+<rtept lat="57.6925375215391" lon="-5.1129489141883">
+<ele>851.93791366632</ele>
+<name>SgBr100</name>
+</rtept>
+<rtept lat="57.6924316569824" lon="-5.11363471472898">
+<ele>836.498612003271</ele>
+<name>SgBr101</name>
+</rtept>
+<rtept lat="57.6925353894288" lon="-5.11402127846691">
+<ele>828.646948945298</ele>
+<name>SgBr102</name>
+</rtept>
+<rtept lat="57.6925215592747" lon="-5.11491136261211">
+<ele>814.090845135383</ele>
+<name>SgBr103</name>
+</rtept>
+<rtept lat="57.6928037950031" lon="-5.11593262876083">
+<ele>822.312959003456</ele>
+<name>SgBr104</name>
+</rtept>
+<rtept lat="57.693276369044" lon="-5.11842050810387">
+<ele>864.997138338645</ele>
+<name>SgBr105</name>
+</rtept>
+<rtept lat="57.6933698899687" lon="-5.11856451029112">
+<ele>869.105736976265</ele>
+<name>SgBr106</name>
+</rtept>
+<rtept lat="57.6933866718154" lon="-5.11886808720992">
+<ele>873.594057595144</ele>
+<name>SgBr107</name>
+</rtept>
+<rtept lat="57.6935384493219" lon="-5.11927391643031">
+<ele>884.627879273561</ele>
+<name>SgBr108</name>
+</rtept>
+<rtept lat="57.6937002648466" lon="-5.11927272848602">
+<ele>886.91872776177</ele>
+<name>SgBr109</name>
+</rtept>
+<rtept lat="57.6938483223798" lon="-5.11982931186038">
+<ele>898.067565000196</ele>
+<name>SgBr110</name>
+</rtept>
+<rtept lat="57.6937978098588" lon="-5.12056520264149">
+<ele>901.695340121489</ele>
+<name>SgBr111</name>
+</rtept>
+<rtept lat="57.6939685900345" lon="-5.12118417659558">
+<ele>913.420910040771</ele>
+<name>SgBr112</name>
+</rtept>
+<rtept lat="57.694029074925" lon="-5.12135555925964">
+<ele>911.961744669678</ele>
+<name>SgBr113</name>
+</rtept>
+<rtept lat="57.694084091881" lon="-5.1214207228649">
+<ele>909.813630353072</ele>
+<name>SgBr114</name>
+</rtept>
+<rtept lat="57.6941588871172" lon="-5.12265083046422">
+<ele>915.6747062474</ele>
+<name>SgBr115</name>
+</rtept>
+<rtept lat="57.6946485812696" lon="-5.12411308037625">
+<ele>940.213614353102</ele>
+<name>SgBr116</name>
+</rtept>
+<rtept lat="57.6948508874044" lon="-5.12476501793509">
+<ele>944.9385162794</ele>
+<name>SgBr117</name>
+</rtept>
+<rtept lat="57.6948901328825" lon="-5.1257956999214">
+<ele>957.563440300204</ele>
+<name>SgBr118</name>
+</rtept>
+<rtept lat="57.6944922291107" lon="-5.12716636980145">
+<ele>971.289075423565</ele>
+<name>SgBr119</name>
+</rtept>
+<rtept lat="57.6938315281124" lon="-5.12869562125905">
+<ele>990.106579063816</ele>
+<name>SgBr120</name>
+</rtept>
+<rtept lat="57.6945340807076" lon="-5.12710955012402">
+<ele>971.082427910993</ele>
+<name>SgBr121</name>
+</rtept>
+<rtept lat="57.6949394324099" lon="-5.12641935218858">
+<ele>962.416770323042</ele>
+<name>SgBr122</name>
+</rtept>
+<rtept lat="57.6951863143704" lon="-5.12657660554782">
+<ele>959.317387452843</ele>
+<name>SgBr123</name>
+</rtept>
+<rtept lat="57.695578001992" lon="-5.12611182638972">
+<ele>930.969901915476</ele>
+<name>SgBr124</name>
+</rtept>
+<rtept lat="57.6957298819509" lon="-5.12618535120533">
+<ele>924.776473094173</ele>
+<name>SgBr125</name>
+</rtept>
+<rtept lat="57.6966607853147" lon="-5.12615985461544">
+<ele>896.099724753347</ele>
+<name>SgBr126</name>
+</rtept>
+<rtept lat="57.6975271126688" lon="-5.12514674019932">
+<ele>880.438370609103</ele>
+<name>SgBr127</name>
+</rtept>
+<rtept lat="57.6984210077953" lon="-5.12498204794964">
+<ele>867.615254330744</ele>
+<name>SgBr128</name>
+</rtept>
+<rtept lat="57.6997442158292" lon="-5.1247939134008">
+<ele>865.007927349685</ele>
+<name>SgBr129</name>
+</rtept>
+<rtept lat="57.7011599415812" lon="-5.12446264119139">
+<ele>881.323527732078</ele>
+<name>SgBr130</name>
+</rtept>
+<rtept lat="57.7024480019033" lon="-5.12405990079344">
+<ele>869.990498684818</ele>
+<name>SgBr131</name>
+</rtept>
+<rtept lat="57.7027882693355" lon="-5.12371145886161">
+<ele>859.936668506616</ele>
+<name>SgBr132</name>
+</rtept>
+<rtept lat="57.7028948160449" lon="-5.12332776229758">
+<ele>850.933628308609</ele>
+<name>SgBr133</name>
+</rtept>
+<rtept lat="57.7028777672135" lon="-5.12172456252679">
+<ele>813.659558885018</ele>
+<name>SgBr134</name>
+</rtept>
+<rtept lat="57.7027883095515" lon="-5.12043245599272">
+<ele>782.369420823208</ele>
+<name>SgBr135</name>
+</rtept>
+<rtept lat="57.7029098749379" lon="-5.12009537494287">
+<ele>778.746618781472</ele>
+<name>SgBr136</name>
+</rtept>
+<rtept lat="57.7025833331344" lon="-5.11890375909231">
+<ele>741.341875795621</ele>
+<name>SgBr137</name>
+</rtept>
+<rtept lat="57.7023237493338" lon="-5.11827700911203">
+<ele>719.794119394449</ele>
+<name>SgBr138</name>
+</rtept>
+<rtept lat="57.7023755705847" lon="-5.11683086558286">
+<ele>702.147326626986</ele>
+<name>SgBr139</name>
+</rtept>
+<rtept lat="57.7021305340238" lon="-5.11659825340865">
+<ele>694.636930167105</ele>
+<name>SgBr140</name>
+</rtept>
+<rtept lat="57.7022140567926" lon="-5.11583480599624">
+<ele>683.654078280081</ele>
+<name>SgBr141</name>
+</rtept>
+<rtept lat="57.7017656484873" lon="-5.11466300376178">
+<ele>661.993221191926</ele>
+<name>SgBr142</name>
+</rtept>
+<rtept lat="57.701473848343" lon="-5.11370111163274">
+<ele>657.236829798833</ele>
+<name>SgBr143</name>
+</rtept>
+<rtept lat="57.7016997763673" lon="-5.11273835871266">
+<ele>658.011619632276</ele>
+<name>SgBr144</name>
+</rtept>
+<rtept lat="57.70311148389" lon="-5.11224003903164">
+<ele>646.349027099904</ele>
+<name>SgBr145</name>
+</rtept>
+<rtept lat="57.7039431017893" lon="-5.11164655260605">
+<ele>636.893992785444</ele>
+<name>SgBr146</name>
+</rtept>
+<rtept lat="57.704457869818" lon="-5.11176629752649">
+<ele>632.126771290292</ele>
+<name>SgBr147</name>
+</rtept>
+<rtept lat="57.706529469729" lon="-5.1133797994328">
+<ele>605.100444564202</ele>
+<name>SgBr148</name>
+</rtept>
+<rtept lat="57.7071374838832" lon="-5.11332624026712">
+<ele>598.93690466707</ele>
+<name>SgBr149</name>
+</rtept>
+<rtept lat="57.7078586923863" lon="-5.11393224858521">
+<ele>582.559597950318</ele>
+<name>SgBr150</name>
+</rtept>
+<rtept lat="57.7081877967622" lon="-5.11403608856292">
+<ele>571.720973592869</ele>
+<name>SgBr151</name>
+</rtept>
+<rtept lat="57.7087243691813" lon="-5.11359857423553">
+<ele>555.387535536096</ele>
+<name>SgBr152</name>
+</rtept>
+<rtept lat="57.7092218765608" lon="-5.11376222199107">
+<ele>531.985310543967</ele>
+<name>SgBr153</name>
+</rtept>
+<rtept lat="57.7092893293008" lon="-5.11397960336">
+<ele>526.005085808184</ele>
+<name>SgBr154</name>
+</rtept>
+<rtept lat="57.7092738320084" lon="-5.11428053749486">
+<ele>520.784588592374</ele>
+<name>SgBr155</name>
+</rtept>
+<rtept lat="57.7094876973814" lon="-5.11446516240298">
+<ele>513.80065100197</ele>
+<name>SgBr156</name>
+</rtept>
+<rtept lat="57.7096864348939" lon="-5.11493564518976">
+<ele>506.5048206801</ele>
+<name>SgBr157</name>
+</rtept>
+<rtept lat="57.710430562548" lon="-5.11493914973201">
+<ele>495.987576542253</ele>
+<name>SgBr158</name>
+</rtept>
+<rtept lat="57.7110311494527" lon="-5.11518725529806">
+<ele>487.507005150719</ele>
+<name>SgBr159</name>
+</rtept>
+<rtept lat="57.7111565905908" lon="-5.11534917927005">
+<ele>484.627005150716</ele>
+<name>SgBr160</name>
+</rtept>
+<rtept lat="57.7112303545497" lon="-5.1153101782033">
+<ele>484.407929338654</ele>
+<name>SgBr161</name>
+</rtept>
+<rtept lat="57.7121510268122" lon="-5.11635665480858">
+<ele>461.219251366581</ele>
+<name>SgBr162</name>
+</rtept>
+<rtept lat="57.7146761812036" lon="-5.11991437089087">
+<ele>376.086658069335</ele>
+<name>SgBr163</name>
+</rtept>
+<rtept lat="57.7149438263883" lon="-5.12054204417621">
+<ele>361.157552809057</ele>
+<name>SgBr164</name>
+</rtept>
+<rtept lat="57.7153623485244" lon="-5.12095598571538">
+<ele>344.785094251289</ele>
+<name>SgBr165</name>
+</rtept>
+<rtept lat="57.7166749864715" lon="-5.1205399811804">
+<ele>316.659888075721</ele>
+<name>SgBr166</name>
+</rtept>
+<rtept lat="57.7173653564139" lon="-5.12108317770891">
+<ele>299.154173033108</ele>
+<name>SgBr167</name>
+</rtept>
+<rtept lat="57.7176390327158" lon="-5.12015439455725">
+<ele>300.482587785391</ele>
+<name>SgBr168</name>
+</rtept>
+<rtept lat="57.7185347394201" lon="-5.11893145831429">
+<ele>289.318557934309</ele>
+<name>SgBr169</name>
+</rtept>
+<rtept lat="57.7195402573851" lon="-5.11850402824032">
+<ele>270.898076581844</ele>
+<name>SgBr170</name>
+</rtept>
+<rtept lat="57.7205308511976" lon="-5.11769734070019">
+<ele>260.597436177191</ele>
+<name>SgBr171</name>
+</rtept>
+<rtept lat="57.7211838955705" lon="-5.11680109338004">
+<ele>255.740895764285</ele>
+<name>SgBr172</name>
+</rtept>
+<rtept lat="57.7219542307257" lon="-5.11508338127078">
+<ele>248.942183215347</ele>
+<name>SgBr173</name>
+</rtept>
+<rtept lat="57.7228151934061" lon="-5.11329779265216">
+<ele>248.354986561034</ele>
+<name>SgBr174</name>
+</rtept>
+<rtept lat="57.7231016187326" lon="-5.11250598206844">
+<ele>248.881685236929</ele>
+<name>SgBr175</name>
+</rtept>
+<rtept lat="57.7230182913862" lon="-5.11128930117979">
+<ele>249.921468637776</ele>
+<name>SgBr176</name>
+</rtept>
+<rtept lat="57.7234647519814" lon="-5.11023906838474">
+<ele>249.426366526279</ele>
+<name>SgBr177</name>
+</rtept>
+<rtept lat="57.7245920315573" lon="-5.10847615027372">
+<ele>248.65407311579</ele>
+<name>SgBr178</name>
+</rtept>
+<rtept lat="57.7249691539586" lon="-5.10728381205107">
+<ele>248.970901198319</ele>
+<name>SgBr179</name>
+</rtept>
+<rtept lat="57.725324858926" lon="-5.10663393078641">
+<ele>248.008422785871</ele>
+<name>SgBr180</name>
+</rtept>
+<rtept lat="57.7257534333888" lon="-5.10499235862222">
+<ele>248.490017281666</ele>
+<name>SgBr181</name>
+</rtept>
+<rtept lat="57.7264343785222" lon="-5.10361429953722">
+<ele>248.166278627543</ele>
+<name>SgBr182</name>
+</rtept>
+<rtept lat="57.7264014182497" lon="-5.10330906765982">
+<ele>248.421272343694</ele>
+<name>SgBr183</name>
+</rtept>
+<rtept lat="57.7262590776544" lon="-5.10317590886466">
+<ele>248.807837767616</ele>
+<name>SgBr184</name>
+</rtept>
+<rtept lat="57.726226553132" lon="-5.10252294951596">
+<ele>248.015075304959</ele>
+<name>SgBr185</name>
+</rtept>
+<rtept lat="57.7264344087264" lon="-5.10163353241766">
+<ele>247.846101516261</ele>
+<name>SgBr186</name>
+</rtept>
+<rtept lat="57.7264462425253" lon="-5.10115069378514">
+<ele>248.299683193712</ele>
+<name>SgBr187</name>
+</rtept>
+<rtept lat="57.7259899428148" lon="-5.10029513394903">
+<ele>250.624198417983</ele>
+<name>SgBr188</name>
+</rtept>
+<rtept lat="57.7259180915399" lon="-5.09992609995882">
+<ele>250.234140740714</ele>
+<name>SgBr189</name>
+</rtept>
+<rtept lat="57.7260253080124" lon="-5.09951191122848">
+<ele>249.440404570058</ele>
+<name>SgBr190</name>
+</rtept>
+<rtept lat="57.7262029566122" lon="-5.09919446837554">
+<ele>248.306404570057</ele>
+<name>SgBr191</name>
+</rtept>
+<rtept lat="57.7261910446011" lon="-5.09802918957799">
+<ele>248.744073035643</ele>
+<name>SgBr192</name>
+</rtept>
+<rtept lat="57.7259897135585" lon="-5.09733156096109">
+<ele>248.905157443786</ele>
+<name>SgBr193</name>
+</rtept>
+<rtept lat="57.7259615895677" lon="-5.09649754779067">
+<ele>248.792349342294</ele>
+<name>SgBr194</name>
+</rtept>
+<rtept lat="57.7263124902117" lon="-5.09571105264861">
+<ele>248.299761754414</ele>
+<name>SgBr195</name>
+</rtept>
+<rtept lat="57.7263074186165" lon="-5.09525701068492">
+<ele>249.17724306593</ele>
+<name>SgBr196</name>
+</rtept>
+<rtept lat="57.7265896741499" lon="-5.09463095577585">
+<ele>248.601100833132</ele>
+<name>SgBr197</name>
+</rtept>
+<rtept lat="57.7265570611096" lon="-5.09431064116683">
+<ele>249.452773031217</ele>
+<name>SgBr198</name>
+</rtept>
+<rtept lat="57.7266704871716" lon="-5.09397256207659">
+<ele>249.42895912622</ele>
+<name>SgBr199</name>
+</rtept>
+<rtept lat="57.7275838116862" lon="-5.09367256690198">
+<ele>250.004989835061</ele>
+<name>SgBr200</name>
+</rtept>
+<rtept lat="57.7295267507887" lon="-5.0959253309796">
+<ele>255.033624232696</ele>
+<name>SgBr201</name>
+</rtept>
+<rtept lat="57.7297045588911" lon="-5.09692344297627">
+<ele>254.756372115679</ele>
+<name>SgBr202</name>
+</rtept>
+<rtept lat="57.7304493747405" lon="-5.09722909262395">
+<ele>256.6848244913</ele>
+<name>SgBr203</name>
+</rtept>
+<rtept lat="57.7308523558408" lon="-5.09662842791833">
+<ele>256.864221354696</ele>
+<name>SgBr204</name>
+</rtept>
+<rtept lat="57.7315091670999" lon="-5.09656361623998">
+<ele>258.239407270926</ele>
+<name>SgBr205</name>
+</rtept>
+<rtept lat="57.7327297617627" lon="-5.09527668616559">
+<ele>259.012371946514</ele>
+<name>SgBr206</name>
+</rtept>
+<rtept lat="57.7332739290589" lon="-5.09518709543292">
+<ele>259.44445802508</ele>
+<name>SgBr207</name>
+</rtept>
+<rtept lat="57.733987753923" lon="-5.0941138549011">
+<ele>262.37507362707</ele>
+<name>SgBr208</name>
+</rtept>
+<rtept lat="57.7360721373336" lon="-5.08892284811873">
+<ele>275.960358333746</ele>
+<name>SgBr209</name>
+</rtept>
+<rtept lat="57.7365987440166" lon="-5.0882266756479">
+<ele>278.201063619959</ele>
+<name>SgBr210</name>
+</rtept>
+<rtept lat="57.7368910977608" lon="-5.08917421842991">
+<ele>279.636605594878</ele>
+<name>SgBr211</name>
+</rtept>
+<rtept lat="57.7372894903568" lon="-5.09008545346244">
+<ele>281.73853180998</ele>
+<name>SgBr212</name>
+</rtept>
+</rte>
+</gpx>

@@ -1,0 +1,922 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="Walkhighlands">
+<metadata>
+	<desc>GPX file from Walkhighlands; file is copyright Walkhighlands and must not be publicly shared on other websites. Do not remove this notice.</desc>
+	<copyright author="Walkhighlands"><year>2019</year></copyright>
+</metadata>
+<rte>
+<name>An Socach from Glen Clunie</name>
+<rtept lat="56.931877" lon="-3.416766">
+<ele>412</ele>
+<name>AnS001</name>
+</rtept>
+<rtept lat="56.93178" lon="-3.416912">
+<ele>413</ele>
+<name>AnS002</name>
+</rtept>
+<rtept lat="56.931644" lon="-3.41949">
+<ele>409</ele>
+<name>AnS003</name>
+</rtept>
+<rtept lat="56.931744" lon="-3.419804">
+<ele>410</ele>
+<name>AnS004</name>
+</rtept>
+<rtept lat="56.931974" lon="-3.419935">
+<ele>411</ele>
+<name>AnS005</name>
+</rtept>
+<rtept lat="56.932115" lon="-3.420219">
+<ele>417</ele>
+<name>AnS006</name>
+</rtept>
+<rtept lat="56.932047" lon="-3.420483">
+<ele>416</ele>
+<name>AnS007</name>
+</rtept>
+<rtept lat="56.931622" lon="-3.421615">
+<ele>419</ele>
+<name>AnS008</name>
+</rtept>
+<rtept lat="56.931456" lon="-3.422469">
+<ele>430</ele>
+<name>AnS009</name>
+</rtept>
+<rtept lat="56.930981" lon="-3.423083">
+<ele>430</ele>
+<name>AnS010</name>
+</rtept>
+<rtept lat="56.93091" lon="-3.423534">
+<ele>430</ele>
+<name>AnS011</name>
+</rtept>
+<rtept lat="56.930317" lon="-3.425163">
+<ele>428</ele>
+<name>AnS012</name>
+</rtept>
+<rtept lat="56.929514" lon="-3.426394">
+<ele>433</ele>
+<name>AnS013</name>
+</rtept>
+<rtept lat="56.928632" lon="-3.427066">
+<ele>433</ele>
+<name>AnS014</name>
+</rtept>
+<rtept lat="56.928777" lon="-3.427781">
+<ele>430</ele>
+<name>AnS015</name>
+</rtept>
+<rtept lat="56.928668" lon="-3.428747">
+<ele>434</ele>
+<name>AnS016</name>
+</rtept>
+<rtept lat="56.92832" lon="-3.428857">
+<ele>437</ele>
+<name>AnS017</name>
+</rtept>
+<rtept lat="56.928117" lon="-3.42942">
+<ele>430</ele>
+<name>AnS018</name>
+</rtept>
+<rtept lat="56.927939" lon="-3.430467">
+<ele>437</ele>
+<name>AnS019</name>
+</rtept>
+<rtept lat="56.927789" lon="-3.430748">
+<ele>434</ele>
+<name>AnS020</name>
+</rtept>
+<rtept lat="56.927356" lon="-3.430844">
+<ele>438</ele>
+<name>AnS021</name>
+</rtept>
+<rtept lat="56.926961" lon="-3.431152">
+<ele>429</ele>
+<name>AnS022</name>
+</rtept>
+<rtept lat="56.926107" lon="-3.431281">
+<ele>427</ele>
+<name>AnS023</name>
+</rtept>
+<rtept lat="56.925469" lon="-3.430812">
+<ele>431</ele>
+<name>AnS024</name>
+</rtept>
+<rtept lat="56.924377" lon="-3.430534">
+<ele>440</ele>
+<name>AnS025</name>
+</rtept>
+<rtept lat="56.923965" lon="-3.430721">
+<ele>444</ele>
+<name>AnS026</name>
+</rtept>
+<rtept lat="56.92342" lon="-3.431292">
+<ele>440</ele>
+<name>AnS027</name>
+</rtept>
+<rtept lat="56.922808" lon="-3.43149">
+<ele>439</ele>
+<name>AnS028</name>
+</rtept>
+<rtept lat="56.922022" lon="-3.431954">
+<ele>443</ele>
+<name>AnS029</name>
+</rtept>
+<rtept lat="56.921531" lon="-3.432917">
+<ele>444</ele>
+<name>AnS030</name>
+</rtept>
+<rtept lat="56.920643" lon="-3.434042">
+<ele>435</ele>
+<name>AnS031</name>
+</rtept>
+<rtept lat="56.920266" lon="-3.434206">
+<ele>441</ele>
+<name>AnS032</name>
+</rtept>
+<rtept lat="56.919872" lon="-3.434581">
+<ele>434</ele>
+<name>AnS033</name>
+</rtept>
+<rtept lat="56.91946" lon="-3.434671">
+<ele>432</ele>
+<name>AnS034</name>
+</rtept>
+<rtept lat="56.919243" lon="-3.434999">
+<ele>440</ele>
+<name>AnS035</name>
+</rtept>
+<rtept lat="56.9188" lon="-3.436279">
+<ele>429</ele>
+<name>AnS036</name>
+</rtept>
+<rtept lat="56.918457" lon="-3.436615">
+<ele>437</ele>
+<name>AnS037</name>
+</rtept>
+<rtept lat="56.918009" lon="-3.437305">
+<ele>435</ele>
+<name>AnS038</name>
+</rtept>
+<rtept lat="56.917653" lon="-3.43758">
+<ele>432</ele>
+<name>AnS039</name>
+</rtept>
+<rtept lat="56.916867" lon="-3.438887">
+<ele>440</ele>
+<name>AnS040</name>
+</rtept>
+<rtept lat="56.915783" lon="-3.43921">
+<ele>429</ele>
+<name>AnS041</name>
+</rtept>
+<rtept lat="56.914843" lon="-3.440341">
+<ele>435</ele>
+<name>AnS042</name>
+</rtept>
+<rtept lat="56.914407" lon="-3.441038">
+<ele>441</ele>
+<name>AnS043</name>
+</rtept>
+<rtept lat="56.913832" lon="-3.441025">
+<ele>442</ele>
+<name>AnS044</name>
+</rtept>
+<rtept lat="56.913632" lon="-3.441174">
+<ele>438</ele>
+<name>AnS045</name>
+</rtept>
+<rtept lat="56.913189" lon="-3.441824">
+<ele>440</ele>
+<name>AnS046</name>
+</rtept>
+<rtept lat="56.913065" lon="-3.443114">
+<ele>451</ele>
+<name>AnS047</name>
+</rtept>
+<rtept lat="56.913201" lon="-3.443824">
+<ele>459</ele>
+<name>AnS048</name>
+</rtept>
+<rtept lat="56.913202" lon="-3.444338">
+<ele>473</ele>
+<name>AnS049</name>
+</rtept>
+<rtept lat="56.913079" lon="-3.444552">
+<ele>481</ele>
+<name>AnS050</name>
+</rtept>
+<rtept lat="56.913055" lon="-3.445226">
+<ele>486</ele>
+<name>AnS051</name>
+</rtept>
+<rtept lat="56.913252" lon="-3.445695">
+<ele>492</ele>
+<name>AnS052</name>
+</rtept>
+<rtept lat="56.913328" lon="-3.446186">
+<ele>500</ele>
+<name>AnS053</name>
+</rtept>
+<rtept lat="56.913557" lon="-3.446534">
+<ele>512</ele>
+<name>AnS054</name>
+</rtept>
+<rtept lat="56.913629" lon="-3.447902">
+<ele>542</ele>
+<name>AnS055</name>
+</rtept>
+<rtept lat="56.913342" lon="-3.448712">
+<ele>544</ele>
+<name>AnS056</name>
+</rtept>
+<rtept lat="56.913369" lon="-3.448882">
+<ele>543</ele>
+<name>AnS057</name>
+</rtept>
+<rtept lat="56.913003" lon="-3.450295">
+<ele>564</ele>
+<name>AnS058</name>
+</rtept>
+<rtept lat="56.912609" lon="-3.450728">
+<ele>574</ele>
+<name>AnS059</name>
+</rtept>
+<rtept lat="56.912382" lon="-3.451513">
+<ele>576</ele>
+<name>AnS060</name>
+</rtept>
+<rtept lat="56.912131" lon="-3.451824">
+<ele>583</ele>
+<name>AnS061</name>
+</rtept>
+<rtept lat="56.911778" lon="-3.452995">
+<ele>588</ele>
+<name>AnS062</name>
+</rtept>
+<rtept lat="56.911473" lon="-3.453568">
+<ele>587</ele>
+<name>AnS063</name>
+</rtept>
+<rtept lat="56.911477" lon="-3.453922">
+<ele>595</ele>
+<name>AnS064</name>
+</rtept>
+<rtept lat="56.910974" lon="-3.454674">
+<ele>615</ele>
+<name>AnS065</name>
+</rtept>
+<rtept lat="56.910277" lon="-3.456368">
+<ele>641</ele>
+<name>AnS066</name>
+</rtept>
+<rtept lat="56.909687" lon="-3.457278">
+<ele>661</ele>
+<name>AnS067</name>
+</rtept>
+<rtept lat="56.909441" lon="-3.458505">
+<ele>676</ele>
+<name>AnS068</name>
+</rtept>
+<rtept lat="56.909501" lon="-3.459419">
+<ele>692</ele>
+<name>AnS069</name>
+</rtept>
+<rtept lat="56.90938" lon="-3.459593">
+<ele>690</ele>
+<name>AnS070</name>
+</rtept>
+<rtept lat="56.909196" lon="-3.460277">
+<ele>690</ele>
+<name>AnS071</name>
+</rtept>
+<rtept lat="56.909221" lon="-3.4611">
+<ele>694</ele>
+<name>AnS072</name>
+</rtept>
+<rtept lat="56.909047" lon="-3.462044">
+<ele>702</ele>
+<name>AnS073</name>
+</rtept>
+<rtept lat="56.908332" lon="-3.464367">
+<ele>709</ele>
+<name>AnS074</name>
+</rtept>
+<rtept lat="56.908419" lon="-3.465397">
+<ele>712</ele>
+<name>AnS075</name>
+</rtept>
+<rtept lat="56.908822" lon="-3.466385">
+<ele>727</ele>
+<name>AnS076</name>
+</rtept>
+<rtept lat="56.908957" lon="-3.467973">
+<ele>758</ele>
+<name>AnS077</name>
+</rtept>
+<rtept lat="56.909643" lon="-3.469818">
+<ele>820</ele>
+<name>AnS078</name>
+</rtept>
+<rtept lat="56.909575" lon="-3.471294">
+<ele>846</ele>
+<name>AnS079</name>
+</rtept>
+<rtept lat="56.909638" lon="-3.472034">
+<ele>867</ele>
+<name>AnS080</name>
+</rtept>
+<rtept lat="56.909525" lon="-3.472581">
+<ele>873</ele>
+<name>AnS081</name>
+</rtept>
+<rtept lat="56.909613" lon="-3.472867">
+<ele>877</ele>
+<name>AnS082</name>
+</rtept>
+<rtept lat="56.90953" lon="-3.47411">
+<ele>893</ele>
+<name>AnS083</name>
+</rtept>
+<rtept lat="56.909422" lon="-3.474415">
+<ele>896</ele>
+<name>AnS084</name>
+</rtept>
+<rtept lat="56.909477" lon="-3.474851">
+<ele>900</ele>
+<name>AnS085</name>
+</rtept>
+<rtept lat="56.909415" lon="-3.475377">
+<ele>905</ele>
+<name>AnS086</name>
+</rtept>
+<rtept lat="56.907881" lon="-3.478867">
+<ele>932</ele>
+<name>AnS087</name>
+</rtept>
+<rtept lat="56.907855" lon="-3.479408">
+<ele>938</ele>
+<name>AnS088</name>
+</rtept>
+<rtept lat="56.907661" lon="-3.480257">
+<ele>943</ele>
+<name>AnS089</name>
+</rtept>
+<rtept lat="56.907099" lon="-3.48112">
+<ele>936</ele>
+<name>AnS090</name>
+</rtept>
+<rtept lat="56.906697" lon="-3.48217">
+<ele>934</ele>
+<name>AnS091</name>
+</rtept>
+<rtept lat="56.906284" lon="-3.482733">
+<ele>929</ele>
+<name>AnS092</name>
+</rtept>
+<rtept lat="56.905964" lon="-3.483818">
+<ele>920</ele>
+<name>AnS093</name>
+</rtept>
+<rtept lat="56.905087" lon="-3.485587">
+<ele>919</ele>
+<name>AnS094</name>
+</rtept>
+<rtept lat="56.904235" lon="-3.487689">
+<ele>939</ele>
+<name>AnS095</name>
+</rtept>
+<rtept lat="56.904068" lon="-3.489229">
+<ele>927</ele>
+<name>AnS096</name>
+</rtept>
+<rtept lat="56.903868" lon="-3.490044">
+<ele>919</ele>
+<name>AnS097</name>
+</rtept>
+<rtept lat="56.903553" lon="-3.492006">
+<ele>907</ele>
+<name>AnS098</name>
+</rtept>
+<rtept lat="56.903126" lon="-3.493274">
+<ele>902</ele>
+<name>AnS099</name>
+</rtept>
+<rtept lat="56.902718" lon="-3.495598">
+<ele>914</ele>
+<name>AnS100</name>
+</rtept>
+<rtept lat="56.902378" lon="-3.496722">
+<ele>915</ele>
+<name>AnS101</name>
+</rtept>
+<rtept lat="56.902158" lon="-3.497895">
+<ele>923</ele>
+<name>AnS102</name>
+</rtept>
+<rtept lat="56.901566" lon="-3.498903">
+<ele>926</ele>
+<name>AnS103</name>
+</rtept>
+<rtept lat="56.901512" lon="-3.499148">
+<ele>924</ele>
+<name>AnS104</name>
+</rtept>
+<rtept lat="56.901319" lon="-3.500454">
+<ele>920</ele>
+<name>AnS105</name>
+</rtept>
+<rtept lat="56.90137" lon="-3.50096">
+<ele>922</ele>
+<name>AnS106</name>
+</rtept>
+<rtept lat="56.901281" lon="-3.502093">
+<ele>921</ele>
+<name>AnS107</name>
+</rtept>
+<rtept lat="56.901492" lon="-3.504042">
+<ele>923</ele>
+<name>AnS108</name>
+</rtept>
+<rtept lat="56.901454" lon="-3.504565">
+<ele>928</ele>
+<name>AnS109</name>
+</rtept>
+<rtept lat="56.901826" lon="-3.506575">
+<ele>924</ele>
+<name>AnS110</name>
+</rtept>
+<rtept lat="56.902013" lon="-3.50702">
+<ele>923</ele>
+<name>AnS111</name>
+</rtept>
+<rtept lat="56.902128" lon="-3.508389">
+<ele>926</ele>
+<name>AnS112</name>
+</rtept>
+<rtept lat="56.901796" lon="-3.51136">
+<ele>940</ele>
+<name>AnS113</name>
+</rtept>
+<rtept lat="56.901999" lon="-3.512487">
+<ele>947</ele>
+<name>AnS114</name>
+</rtept>
+<rtept lat="56.901999" lon="-3.512487">
+<ele>947</ele>
+<name>AnS115</name>
+</rtept>
+<rtept lat="56.901796" lon="-3.51136">
+<ele>940</ele>
+<name>AnS116</name>
+</rtept>
+<rtept lat="56.902128" lon="-3.508389">
+<ele>926</ele>
+<name>AnS117</name>
+</rtept>
+<rtept lat="56.902013" lon="-3.50702">
+<ele>923</ele>
+<name>AnS118</name>
+</rtept>
+<rtept lat="56.901826" lon="-3.506575">
+<ele>924</ele>
+<name>AnS119</name>
+</rtept>
+<rtept lat="56.901454" lon="-3.504565">
+<ele>928</ele>
+<name>AnS120</name>
+</rtept>
+<rtept lat="56.901492" lon="-3.504042">
+<ele>923</ele>
+<name>AnS121</name>
+</rtept>
+<rtept lat="56.901281" lon="-3.502093">
+<ele>921</ele>
+<name>AnS122</name>
+</rtept>
+<rtept lat="56.90137" lon="-3.50096">
+<ele>922</ele>
+<name>AnS123</name>
+</rtept>
+<rtept lat="56.901319" lon="-3.500454">
+<ele>920</ele>
+<name>AnS124</name>
+</rtept>
+<rtept lat="56.901512" lon="-3.499148">
+<ele>924</ele>
+<name>AnS125</name>
+</rtept>
+<rtept lat="56.901566" lon="-3.498903">
+<ele>926</ele>
+<name>AnS126</name>
+</rtept>
+<rtept lat="56.902158" lon="-3.497895">
+<ele>923</ele>
+<name>AnS127</name>
+</rtept>
+<rtept lat="56.902378" lon="-3.496722">
+<ele>915</ele>
+<name>AnS128</name>
+</rtept>
+<rtept lat="56.902718" lon="-3.495598">
+<ele>914</ele>
+<name>AnS129</name>
+</rtept>
+<rtept lat="56.903126" lon="-3.493274">
+<ele>902</ele>
+<name>AnS130</name>
+</rtept>
+<rtept lat="56.903553" lon="-3.492006">
+<ele>907</ele>
+<name>AnS131</name>
+</rtept>
+<rtept lat="56.903868" lon="-3.490044">
+<ele>919</ele>
+<name>AnS132</name>
+</rtept>
+<rtept lat="56.904068" lon="-3.489229">
+<ele>927</ele>
+<name>AnS133</name>
+</rtept>
+<rtept lat="56.904235" lon="-3.487689">
+<ele>939</ele>
+<name>AnS134</name>
+</rtept>
+<rtept lat="56.905087" lon="-3.485587">
+<ele>919</ele>
+<name>AnS135</name>
+</rtept>
+<rtept lat="56.905964" lon="-3.483818">
+<ele>920</ele>
+<name>AnS136</name>
+</rtept>
+<rtept lat="56.906284" lon="-3.482733">
+<ele>929</ele>
+<name>AnS137</name>
+</rtept>
+<rtept lat="56.906697" lon="-3.48217">
+<ele>934</ele>
+<name>AnS138</name>
+</rtept>
+<rtept lat="56.907099" lon="-3.48112">
+<ele>936</ele>
+<name>AnS139</name>
+</rtept>
+<rtept lat="56.907661" lon="-3.480257">
+<ele>943</ele>
+<name>AnS140</name>
+</rtept>
+<rtept lat="56.907855" lon="-3.479408">
+<ele>938</ele>
+<name>AnS141</name>
+</rtept>
+<rtept lat="56.907881" lon="-3.478867">
+<ele>932</ele>
+<name>AnS142</name>
+</rtept>
+<rtept lat="56.909415" lon="-3.475377">
+<ele>905</ele>
+<name>AnS143</name>
+</rtept>
+<rtept lat="56.909477" lon="-3.474851">
+<ele>900</ele>
+<name>AnS144</name>
+</rtept>
+<rtept lat="56.909422" lon="-3.474415">
+<ele>896</ele>
+<name>AnS145</name>
+</rtept>
+<rtept lat="56.90953" lon="-3.47411">
+<ele>893</ele>
+<name>AnS146</name>
+</rtept>
+<rtept lat="56.909613" lon="-3.472867">
+<ele>877</ele>
+<name>AnS147</name>
+</rtept>
+<rtept lat="56.909525" lon="-3.472581">
+<ele>873</ele>
+<name>AnS148</name>
+</rtept>
+<rtept lat="56.909638" lon="-3.472034">
+<ele>867</ele>
+<name>AnS149</name>
+</rtept>
+<rtept lat="56.909575" lon="-3.471294">
+<ele>846</ele>
+<name>AnS150</name>
+</rtept>
+<rtept lat="56.909643" lon="-3.469818">
+<ele>820</ele>
+<name>AnS151</name>
+</rtept>
+<rtept lat="56.908957" lon="-3.467973">
+<ele>758</ele>
+<name>AnS152</name>
+</rtept>
+<rtept lat="56.908822" lon="-3.466385">
+<ele>727</ele>
+<name>AnS153</name>
+</rtept>
+<rtept lat="56.908419" lon="-3.465397">
+<ele>712</ele>
+<name>AnS154</name>
+</rtept>
+<rtept lat="56.908332" lon="-3.464367">
+<ele>709</ele>
+<name>AnS155</name>
+</rtept>
+<rtept lat="56.909047" lon="-3.462044">
+<ele>702</ele>
+<name>AnS156</name>
+</rtept>
+<rtept lat="56.909221" lon="-3.4611">
+<ele>694</ele>
+<name>AnS157</name>
+</rtept>
+<rtept lat="56.909196" lon="-3.460277">
+<ele>690</ele>
+<name>AnS158</name>
+</rtept>
+<rtept lat="56.90938" lon="-3.459593">
+<ele>690</ele>
+<name>AnS159</name>
+</rtept>
+<rtept lat="56.909501" lon="-3.459419">
+<ele>692</ele>
+<name>AnS160</name>
+</rtept>
+<rtept lat="56.909441" lon="-3.458505">
+<ele>676</ele>
+<name>AnS161</name>
+</rtept>
+<rtept lat="56.909687" lon="-3.457278">
+<ele>661</ele>
+<name>AnS162</name>
+</rtept>
+<rtept lat="56.910277" lon="-3.456368">
+<ele>641</ele>
+<name>AnS163</name>
+</rtept>
+<rtept lat="56.910974" lon="-3.454674">
+<ele>615</ele>
+<name>AnS164</name>
+</rtept>
+<rtept lat="56.911477" lon="-3.453922">
+<ele>595</ele>
+<name>AnS165</name>
+</rtept>
+<rtept lat="56.911473" lon="-3.453568">
+<ele>587</ele>
+<name>AnS166</name>
+</rtept>
+<rtept lat="56.911778" lon="-3.452995">
+<ele>588</ele>
+<name>AnS167</name>
+</rtept>
+<rtept lat="56.912131" lon="-3.451824">
+<ele>583</ele>
+<name>AnS168</name>
+</rtept>
+<rtept lat="56.912382" lon="-3.451513">
+<ele>576</ele>
+<name>AnS169</name>
+</rtept>
+<rtept lat="56.912609" lon="-3.450728">
+<ele>574</ele>
+<name>AnS170</name>
+</rtept>
+<rtept lat="56.913003" lon="-3.450295">
+<ele>564</ele>
+<name>AnS171</name>
+</rtept>
+<rtept lat="56.913369" lon="-3.448882">
+<ele>543</ele>
+<name>AnS172</name>
+</rtept>
+<rtept lat="56.913342" lon="-3.448712">
+<ele>544</ele>
+<name>AnS173</name>
+</rtept>
+<rtept lat="56.913629" lon="-3.447902">
+<ele>542</ele>
+<name>AnS174</name>
+</rtept>
+<rtept lat="56.913557" lon="-3.446534">
+<ele>512</ele>
+<name>AnS175</name>
+</rtept>
+<rtept lat="56.913328" lon="-3.446186">
+<ele>500</ele>
+<name>AnS176</name>
+</rtept>
+<rtept lat="56.913252" lon="-3.445695">
+<ele>492</ele>
+<name>AnS177</name>
+</rtept>
+<rtept lat="56.913055" lon="-3.445226">
+<ele>486</ele>
+<name>AnS178</name>
+</rtept>
+<rtept lat="56.913079" lon="-3.444552">
+<ele>481</ele>
+<name>AnS179</name>
+</rtept>
+<rtept lat="56.913202" lon="-3.444338">
+<ele>473</ele>
+<name>AnS180</name>
+</rtept>
+<rtept lat="56.913201" lon="-3.443824">
+<ele>459</ele>
+<name>AnS181</name>
+</rtept>
+<rtept lat="56.913065" lon="-3.443114">
+<ele>451</ele>
+<name>AnS182</name>
+</rtept>
+<rtept lat="56.913189" lon="-3.441824">
+<ele>440</ele>
+<name>AnS183</name>
+</rtept>
+<rtept lat="56.913632" lon="-3.441174">
+<ele>438</ele>
+<name>AnS184</name>
+</rtept>
+<rtept lat="56.913832" lon="-3.441025">
+<ele>442</ele>
+<name>AnS185</name>
+</rtept>
+<rtept lat="56.914407" lon="-3.441038">
+<ele>441</ele>
+<name>AnS186</name>
+</rtept>
+<rtept lat="56.914843" lon="-3.440341">
+<ele>435</ele>
+<name>AnS187</name>
+</rtept>
+<rtept lat="56.915783" lon="-3.43921">
+<ele>429</ele>
+<name>AnS188</name>
+</rtept>
+<rtept lat="56.916867" lon="-3.438887">
+<ele>440</ele>
+<name>AnS189</name>
+</rtept>
+<rtept lat="56.917653" lon="-3.43758">
+<ele>432</ele>
+<name>AnS190</name>
+</rtept>
+<rtept lat="56.918009" lon="-3.437305">
+<ele>435</ele>
+<name>AnS191</name>
+</rtept>
+<rtept lat="56.918457" lon="-3.436615">
+<ele>437</ele>
+<name>AnS192</name>
+</rtept>
+<rtept lat="56.9188" lon="-3.436279">
+<ele>429</ele>
+<name>AnS193</name>
+</rtept>
+<rtept lat="56.919243" lon="-3.434999">
+<ele>440</ele>
+<name>AnS194</name>
+</rtept>
+<rtept lat="56.91946" lon="-3.434671">
+<ele>432</ele>
+<name>AnS195</name>
+</rtept>
+<rtept lat="56.919872" lon="-3.434581">
+<ele>434</ele>
+<name>AnS196</name>
+</rtept>
+<rtept lat="56.920266" lon="-3.434206">
+<ele>441</ele>
+<name>AnS197</name>
+</rtept>
+<rtept lat="56.920643" lon="-3.434042">
+<ele>435</ele>
+<name>AnS198</name>
+</rtept>
+<rtept lat="56.921531" lon="-3.432917">
+<ele>444</ele>
+<name>AnS199</name>
+</rtept>
+<rtept lat="56.922022" lon="-3.431954">
+<ele>443</ele>
+<name>AnS200</name>
+</rtept>
+<rtept lat="56.922808" lon="-3.43149">
+<ele>439</ele>
+<name>AnS201</name>
+</rtept>
+<rtept lat="56.92342" lon="-3.431292">
+<ele>440</ele>
+<name>AnS202</name>
+</rtept>
+<rtept lat="56.923965" lon="-3.430721">
+<ele>444</ele>
+<name>AnS203</name>
+</rtept>
+<rtept lat="56.924377" lon="-3.430534">
+<ele>440</ele>
+<name>AnS204</name>
+</rtept>
+<rtept lat="56.925469" lon="-3.430812">
+<ele>431</ele>
+<name>AnS205</name>
+</rtept>
+<rtept lat="56.926107" lon="-3.431281">
+<ele>427</ele>
+<name>AnS206</name>
+</rtept>
+<rtept lat="56.926961" lon="-3.431152">
+<ele>429</ele>
+<name>AnS207</name>
+</rtept>
+<rtept lat="56.927356" lon="-3.430844">
+<ele>438</ele>
+<name>AnS208</name>
+</rtept>
+<rtept lat="56.927789" lon="-3.430748">
+<ele>434</ele>
+<name>AnS209</name>
+</rtept>
+<rtept lat="56.927939" lon="-3.430467">
+<ele>437</ele>
+<name>AnS210</name>
+</rtept>
+<rtept lat="56.928117" lon="-3.42942">
+<ele>430</ele>
+<name>AnS211</name>
+</rtept>
+<rtept lat="56.92832" lon="-3.428857">
+<ele>437</ele>
+<name>AnS212</name>
+</rtept>
+<rtept lat="56.928668" lon="-3.428747">
+<ele>434</ele>
+<name>AnS213</name>
+</rtept>
+<rtept lat="56.928777" lon="-3.427781">
+<ele>430</ele>
+<name>AnS214</name>
+</rtept>
+<rtept lat="56.928632" lon="-3.427066">
+<ele>433</ele>
+<name>AnS215</name>
+</rtept>
+<rtept lat="56.929514" lon="-3.426394">
+<ele>433</ele>
+<name>AnS216</name>
+</rtept>
+<rtept lat="56.930317" lon="-3.425163">
+<ele>428</ele>
+<name>AnS217</name>
+</rtept>
+<rtept lat="56.93091" lon="-3.423534">
+<ele>430</ele>
+<name>AnS218</name>
+</rtept>
+<rtept lat="56.930981" lon="-3.423083">
+<ele>430</ele>
+<name>AnS219</name>
+</rtept>
+<rtept lat="56.931456" lon="-3.422469">
+<ele>430</ele>
+<name>AnS220</name>
+</rtept>
+<rtept lat="56.931622" lon="-3.421615">
+<ele>419</ele>
+<name>AnS221</name>
+</rtept>
+<rtept lat="56.932047" lon="-3.420483">
+<ele>416</ele>
+<name>AnS222</name>
+</rtept>
+<rtept lat="56.932115" lon="-3.420219">
+<ele>417</ele>
+<name>AnS223</name>
+</rtept>
+<rtept lat="56.931974" lon="-3.419935">
+<ele>411</ele>
+<name>AnS224</name>
+</rtept>
+<rtept lat="56.931744" lon="-3.419804">
+<ele>410</ele>
+<name>AnS225</name>
+</rtept>
+<rtept lat="56.931644" lon="-3.41949">
+<ele>409</ele>
+<name>AnS226</name>
+</rtept>
+<rtept lat="56.93178" lon="-3.416912">
+<ele>413</ele>
+<name>AnS227</name>
+</rtept>
+<rtept lat="56.931877" lon="-3.416766">
+<ele>412</ele>
+<name>AnS228</name>
+</rtept>
+</rte>
+</gpx>

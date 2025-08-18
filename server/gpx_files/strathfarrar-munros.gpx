@@ -1,0 +1,682 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="Walkhighlands">
+<metadata>
+	<desc>GPX file from Walkhighlands; file is copyright Walkhighlands and must not be publicly shared on other websites. Do not remove this notice.</desc>
+	<copyright author="Walkhighlands"><year>2019</year></copyright>
+</metadata>
+<rte>
+<name>Glen Strathfarrar Munros circuit</name>
+<rtept lat="57.4056095334423" lon="-4.85908499613409">
+<ele>140</ele>
+<name>SFM 001</name>
+</rtept>
+<rtept lat="57.4060601560255" lon="-4.86001931874858">
+<ele>138.681505908963</ele>
+<name>SFM 002</name>
+</rtept>
+<rtept lat="57.4075268778542" lon="-4.86073319058555">
+<ele>159.324002871275</ele>
+<name>SFM 003</name>
+</rtept>
+<rtept lat="57.4079915116272" lon="-4.86164369810138">
+<ele>162.883464156938</ele>
+<name>SFM 004</name>
+</rtept>
+<rtept lat="57.4082478888866" lon="-4.86341224159652">
+<ele>176.404256326485</ele>
+<name>SFM 005</name>
+</rtept>
+<rtept lat="57.4085463716598" lon="-4.86273612743252">
+<ele>179.553576291466</ele>
+<name>SFM 006</name>
+</rtept>
+<rtept lat="57.4087047180984" lon="-4.8640723982695">
+<ele>191.366051669484</ele>
+<name>SFM 007</name>
+</rtept>
+<rtept lat="57.4092159405648" lon="-4.86471184125402">
+<ele>204.604144565916</ele>
+<name>SFM 008</name>
+</rtept>
+<rtept lat="57.4102330270543" lon="-4.86504110467226">
+<ele>236.87303567667</ele>
+<name>SFM 009</name>
+</rtept>
+<rtept lat="57.4119547233028" lon="-4.86817343419131">
+<ele>266.243039103615</ele>
+<name>SFM 010</name>
+</rtept>
+<rtept lat="57.4136750108442" lon="-4.87018172442076">
+<ele>289.631474074411</ele>
+<name>SFM 011</name>
+</rtept>
+<rtept lat="57.4147796425466" lon="-4.87199207344427">
+<ele>298.245736850214</ele>
+<name>SFM 012</name>
+</rtept>
+<rtept lat="57.4174443538134" lon="-4.8733751537917">
+<ele>318.281020987439</ele>
+<name>SFM 013</name>
+</rtept>
+<rtept lat="57.4204682516661" lon="-4.87378711136873">
+<ele>344.430196609402</ele>
+<name>SFM 014</name>
+</rtept>
+<rtept lat="57.4213767180378" lon="-4.87355848214952">
+<ele>355.932923916101</ele>
+<name>SFM 015</name>
+</rtept>
+<rtept lat="57.4217116443645" lon="-4.87305998446253">
+<ele>354.699375658274</ele>
+<name>SFM 016</name>
+</rtept>
+<rtept lat="57.4230073218245" lon="-4.87358637057279">
+<ele>371.291872620583</ele>
+<name>SFM 017</name>
+</rtept>
+<rtept lat="57.4256072506522" lon="-4.87249070207049">
+<ele>427.005960371304</ele>
+<name>SFM 018</name>
+</rtept>
+<rtept lat="57.4261923683307" lon="-4.87166186630394">
+<ele>428.532643953776</ele>
+<name>SFM 019</name>
+</rtept>
+<rtept lat="57.4271105001607" lon="-4.87100904596363">
+<ele>470.146644924593</ele>
+<name>SFM 020</name>
+</rtept>
+<rtept lat="57.4290627348288" lon="-4.86816280404679">
+<ele>527.537269266319</ele>
+<name>SFM 021</name>
+</rtept>
+<rtept lat="57.4311519824142" lon="-4.86640175446297">
+<ele>597.830818676662</ele>
+<name>SFM 022</name>
+</rtept>
+<rtept lat="57.4346558386487" lon="-4.86290133695778">
+<ele>713.5072685184</ele>
+<name>SFM 023</name>
+</rtept>
+<rtept lat="57.4364536331655" lon="-4.86031702108046">
+<ele>788.727553029537</ele>
+<name>SFM 024</name>
+</rtept>
+<rtept lat="57.4377463886484" lon="-4.85919300675036">
+<ele>829.734625686502</ele>
+<name>SFM 025</name>
+</rtept>
+<rtept lat="57.4391144781076" lon="-4.85712478876265">
+<ele>880.281557427359</ele>
+<name>SFM 026</name>
+</rtept>
+<rtept lat="57.4398682197525" lon="-4.8565835699238">
+<ele>914.967893234062</ele>
+<name>SFM 027</name>
+</rtept>
+<rtept lat="57.4415248613723" lon="-4.85248748708084">
+<ele>962.054088498676</ele>
+<name>SFM 028</name>
+</rtept>
+<rtept lat="57.4425105237798" lon="-4.85598958692407">
+<ele>943.362051446629</ele>
+<name>SFM 029</name>
+</rtept>
+<rtept lat="57.4429129892571" lon="-4.85667104302967">
+<ele>922.353178897798</ele>
+<name>SFM 030</name>
+</rtept>
+<rtept lat="57.4439710470091" lon="-4.86172926405107">
+<ele>848.056672958231</ele>
+<name>SFM 031</name>
+</rtept>
+<rtept lat="57.4444693832466" lon="-4.86234329465244">
+<ele>857.206672958231</ele>
+<name>SFM 032</name>
+</rtept>
+<rtept lat="57.4451253150228" lon="-4.86491999738453">
+<ele>796.265089397716</ele>
+<name>SFM 033</name>
+</rtept>
+<rtept lat="57.4455188154757" lon="-4.86540086547054">
+<ele>801.655703893709</ele>
+<name>SFM 034</name>
+</rtept>
+<rtept lat="57.4451371250408" lon="-4.86677124011982">
+<ele>757.887588260496</ele>
+<name>SFM 035</name>
+</rtept>
+<rtept lat="57.4454699715269" lon="-4.86754743398658">
+<ele>790.604852977944</ele>
+<name>SFM 036</name>
+</rtept>
+<rtept lat="57.4470567925016" lon="-4.86772171262056">
+<ele>774.341478249306</ele>
+<name>SFM 037</name>
+</rtept>
+<rtept lat="57.4497709985696" lon="-4.87048506733328">
+<ele>828.435792917466</ele>
+<name>SFM 038</name>
+</rtept>
+<rtept lat="57.4503250198452" lon="-4.87042847259896">
+<ele>840.041219497299</ele>
+<name>SFM 039</name>
+</rtept>
+<rtept lat="57.451885663882" lon="-4.87175126629711">
+<ele>891.893406189203</ele>
+<name>SFM 040</name>
+</rtept>
+<rtept lat="57.452270330289" lon="-4.87498262513367">
+<ele>905.423832395077</ele>
+<name>SFM 041</name>
+</rtept>
+<rtept lat="57.4516883866464" lon="-4.87921344471734">
+<ele>935.645565626049</ele>
+<name>SFM 042</name>
+</rtept>
+<rtept lat="57.4517869146956" lon="-4.87962133722378">
+<ele>944.525565626049</ele>
+<name>SFM 043</name>
+</rtept>
+<rtept lat="57.4523721799496" lon="-4.87996748618835">
+<ele>958.025565626049</ele>
+<name>SFM 044</name>
+</rtept>
+<rtept lat="57.4517734575832" lon="-4.87962027872145">
+<ele>944.345565626049</ele>
+<name>SFM 045</name>
+</rtept>
+<rtept lat="57.4511341259252" lon="-4.87987009400636">
+<ele>909.640736102271</ele>
+<name>SFM 046</name>
+</rtept>
+<rtept lat="57.4510029785493" lon="-4.87970972702343">
+<ele>905.470736102271</ele>
+<name>SFM 047</name>
+</rtept>
+<rtept lat="57.449182119872" lon="-4.88151707355165">
+<ele>905.432689427471</ele>
+<name>SFM 048</name>
+</rtept>
+<rtept lat="57.4474228637657" lon="-4.88475443943244">
+<ele>931.685680782962</ele>
+<name>SFM 049</name>
+</rtept>
+<rtept lat="57.4465239074522" lon="-4.88750923254315">
+<ele>915.245507253742</ele>
+<name>SFM 050</name>
+</rtept>
+<rtept lat="57.446236177514" lon="-4.88888683800271">
+<ele>884.584454431724</ele>
+<name>SFM 051</name>
+</rtept>
+<rtept lat="57.4461528630552" lon="-4.89075565675711">
+<ele>848.463517171192</ele>
+<name>SFM 052</name>
+</rtept>
+<rtept lat="57.446381047277" lon="-4.89197392979488">
+<ele>834.959827997279</ele>
+<name>SFM 053</name>
+</rtept>
+<rtept lat="57.4462908382312" lon="-4.89296701888749">
+<ele>839.545620166826</ele>
+<name>SFM 054</name>
+</rtept>
+<rtept lat="57.4464748814278" lon="-4.89493198706378">
+<ele>876.895107211685</ele>
+<name>SFM 055</name>
+</rtept>
+<rtept lat="57.4463780203967" lon="-4.89679973674302">
+<ele>921.76325807581</ele>
+<name>SFM 056</name>
+</rtept>
+<rtept lat="57.4444795800907" lon="-4.90255054297857">
+<ele>1014.40647827992</ele>
+<name>SFM 057</name>
+</rtept>
+<rtept lat="57.4437345049609" lon="-4.9032916060549">
+<ele>1038.7988630771</ele>
+<name>SFM 058</name>
+</rtept>
+<rtept lat="57.444056033881" lon="-4.90353546485105">
+<ele>1039.96295310227</ele>
+<name>SFM 059</name>
+</rtept>
+<rtept lat="57.4437885410703" lon="-4.9045344086198">
+<ele>1019.56282974668</ele>
+<name>SFM 060</name>
+</rtept>
+<rtept lat="57.4438491416195" lon="-4.9052193182187">
+<ele>1032.90782974668</ele>
+<name>SFM 061</name>
+</rtept>
+<rtept lat="57.4442770688722" lon="-4.90587670297819">
+<ele>1041.86854710531</ele>
+<name>SFM 062</name>
+</rtept>
+<rtept lat="57.4459024836354" lon="-4.91025657915443">
+<ele>977.499365559101</ele>
+<name>SFM 063</name>
+</rtept>
+<rtept lat="57.4469477480568" lon="-4.91527083665119">
+<ele>889.515434071827</ele>
+<name>SFM 064</name>
+</rtept>
+<rtept lat="57.4466639726402" lon="-4.91762879736632">
+<ele>872.650749639034</ele>
+<name>SFM 065</name>
+</rtept>
+<rtept lat="57.4466928654154" lon="-4.91901975826463">
+<ele>868.185724658298</ele>
+<name>SFM 066</name>
+</rtept>
+<rtept lat="57.4464001632472" lon="-4.92044175212512">
+<ele>873.837255729628</ele>
+<name>SFM 067</name>
+</rtept>
+<rtept lat="57.4464018038178" lon="-4.9216888331428">
+<ele>886.700318469119</ele>
+<name>SFM 068</name>
+</rtept>
+<rtept lat="57.446756979715" lon="-4.92350259795246">
+<ele>933.34054195962</ele>
+<name>SFM 069</name>
+</rtept>
+<rtept lat="57.4466492071959" lon="-4.92485431319529">
+<ele>943.141769878578</ele>
+<name>SFM 070</name>
+</rtept>
+<rtept lat="57.4468636578298" lon="-4.92614675166328">
+<ele>943.604109486103</ele>
+<name>SFM 071</name>
+</rtept>
+<rtept lat="57.4472927873079" lon="-4.92674785666957">
+<ele>983.446596904993</ele>
+<name>SFM 072</name>
+</rtept>
+<rtept lat="57.4479625065896" lon="-4.92685807270609">
+<ele>978.620744078159</ele>
+<name>SFM 073</name>
+</rtept>
+<rtept lat="57.4474621234294" lon="-4.92800838157547">
+<ele>989.743606599522</ele>
+<name>SFM 074</name>
+</rtept>
+<rtept lat="57.4472710452761" lon="-4.93096885814797">
+<ele>979.884036050654</ele>
+<name>SFM 075</name>
+</rtept>
+<rtept lat="57.4474041148147" lon="-4.93378523689217">
+<ele>938.60060644846</ele>
+<name>SFM 076</name>
+</rtept>
+<rtept lat="57.4478150123503" lon="-4.93713406082016">
+<ele>927.607446040774</ele>
+<name>SFM 077</name>
+</rtept>
+<rtept lat="57.4483569305914" lon="-4.93879299755491">
+<ele>953.839336777544</ele>
+<name>SFM 078</name>
+</rtept>
+<rtept lat="57.4498790017938" lon="-4.9423162956443">
+<ele>1008.6769822578</ele>
+<name>SFM 079</name>
+</rtept>
+<rtept lat="57.4490815721348" lon="-4.94570994604759">
+<ele>978.846317913437</ele>
+<name>SFM 080</name>
+</rtept>
+<rtept lat="57.4488396441829" lon="-4.94756104919036">
+<ele>967.85984041214</ele>
+<name>SFM 081</name>
+</rtept>
+<rtept lat="57.4487787077472" lon="-4.94951173523838">
+<ele>956.982855475235</ele>
+<name>SFM 082</name>
+</rtept>
+<rtept lat="57.4489266003272" lon="-4.95102577796045">
+<ele>947.331404137611</ele>
+<name>SFM 083</name>
+</rtept>
+<rtept lat="57.448749558908" lon="-4.9507564308476">
+<ele>927.849404137611</ele>
+<name>SFM 084</name>
+</rtept>
+<rtept lat="57.4480686104139" lon="-4.95308222872443">
+<ele>888.12982344842</ele>
+<name>SFM 085</name>
+</rtept>
+<rtept lat="57.4478842689878" lon="-4.95442774173496">
+<ele>871.712951201796</ele>
+<name>SFM 086</name>
+</rtept>
+<rtept lat="57.4464924790431" lon="-4.95578913111988">
+<ele>856.312665345812</ele>
+<name>SFM 087</name>
+</rtept>
+<rtept lat="57.4454806445022" lon="-4.95593416878129">
+<ele>838.085164582562</ele>
+<name>SFM 088</name>
+</rtept>
+<rtept lat="57.4447605726689" lon="-4.95536594187747">
+<ele>802.151281862795</ele>
+<name>SFM 089</name>
+</rtept>
+<rtept lat="57.4440822838685" lon="-4.95236401321201">
+<ele>768.253496962309</ele>
+<name>SFM 090</name>
+</rtept>
+<rtept lat="57.4434490512267" lon="-4.95134947469336">
+<ele>749.906928313875</ele>
+<name>SFM 091</name>
+</rtept>
+<rtept lat="57.4408783229364" lon="-4.94955550079172">
+<ele>659.979094018364</ele>
+<name>SFM 092</name>
+</rtept>
+<rtept lat="57.4402862035102" lon="-4.94939447270335">
+<ele>633.211184417486</ele>
+<name>SFM 093</name>
+</rtept>
+<rtept lat="57.4401171034657" lon="-4.94878581558962">
+<ele>624.335021361422</ele>
+<name>SFM 094</name>
+</rtept>
+<rtept lat="57.4378288680977" lon="-4.94862992843414">
+<ele>583.89952536993</ele>
+<name>SFM 095</name>
+</rtept>
+<rtept lat="57.4362075968187" lon="-4.94674282476726">
+<ele>565.16832723403</ele>
+<name>SFM 096</name>
+</rtept>
+<rtept lat="57.4358044667904" lon="-4.94699371356798">
+<ele>553.234327234077</ele>
+<name>SFM 097</name>
+</rtept>
+<rtept lat="57.4352885956824" lon="-4.9468388859383">
+<ele>555.101520598173</ele>
+<name>SFM 098</name>
+</rtept>
+<rtept lat="57.4336301815709" lon="-4.94523231313576">
+<ele>540.303477875328</ele>
+<name>SFM 099</name>
+</rtept>
+<rtept lat="57.4330911221087" lon="-4.94541561328017">
+<ele>542.952237987435</ele>
+<name>SFM 100</name>
+</rtept>
+<rtept lat="57.4314937375956" lon="-4.94446566442057">
+<ele>539.250310644364</ele>
+<name>SFM 101</name>
+</rtept>
+<rtept lat="57.4303956967805" lon="-4.94437741931145">
+<ele>526.784037951112</ele>
+<name>SFM 102</name>
+</rtept>
+<rtept lat="57.4284675587922" lon="-4.94515724095587">
+<ele>489.228270792818</ele>
+<name>SFM 103</name>
+</rtept>
+<rtept lat="57.4271818387742" lon="-4.94460069875276">
+<ele>471.485196609402</ele>
+<name>SFM 104</name>
+</rtept>
+<rtept lat="57.4238931330025" lon="-4.94606412912821">
+<ele>417.604951949787</ele>
+<name>SFM 105</name>
+</rtept>
+<rtept lat="57.4236524688161" lon="-4.94655458645078">
+<ele>406.225412861443</ele>
+<name>SFM 106</name>
+</rtept>
+<rtept lat="57.4229158116532" lon="-4.9466936125413">
+<ele>395.387487418842</ele>
+<name>SFM 107</name>
+</rtept>
+<rtept lat="57.4226903607788" lon="-4.94653387721103">
+<ele>392.620384827816</ele>
+<name>SFM 108</name>
+</rtept>
+<rtept lat="57.4211089692193" lon="-4.9468598705659">
+<ele>373.80431731658</ele>
+<name>SFM 109</name>
+</rtept>
+<rtept lat="57.4202263834919" lon="-4.94605259626429">
+<ele>363.323163430047</ele>
+<name>SFM 110</name>
+</rtept>
+<rtept lat="57.4189539319688" lon="-4.94558217988791">
+<ele>352.587520598173</ele>
+<name>SFM 111</name>
+</rtept>
+<rtept lat="57.4179692984487" lon="-4.94587119130729">
+<ele>336.392487418842</ele>
+<name>SFM 112</name>
+</rtept>
+<rtept lat="57.4170144630545" lon="-4.94553960231478">
+<ele>331.35080700984</ele>
+<name>SFM 113</name>
+</rtept>
+<rtept lat="57.4162672257624" lon="-4.946130845454">
+<ele>328.684884438515</ele>
+<name>SFM 114</name>
+</rtept>
+<rtept lat="57.4143849458453" lon="-4.94951899267548">
+<ele>295.889544234037</ele>
+<name>SFM 115</name>
+</rtept>
+<rtept lat="57.4133300738309" lon="-4.95215231982679">
+<ele>259.178397019696</ele>
+<name>SFM 116</name>
+</rtept>
+<rtept lat="57.4097574356464" lon="-4.95789508711233">
+<ele>168.524650848889</ele>
+<name>SFM 117</name>
+</rtept>
+<rtept lat="57.4082589094387" lon="-4.95794407333842">
+<ele>151.723414761889</ele>
+<name>SFM 118</name>
+</rtept>
+<rtept lat="57.4080699769526" lon="-4.95623020249399">
+<ele>152.937680782974</ele>
+<name>SFM 119</name>
+</rtept>
+<rtept lat="57.4073446013398" lon="-4.95458636955464">
+<ele>149.624732078481</ele>
+<name>SFM 120</name>
+</rtept>
+<rtept lat="57.40653499703" lon="-4.95327553222701">
+<ele>144.877948704488</ele>
+<name>SFM 121</name>
+</rtept>
+<rtept lat="57.4064494411306" lon="-4.95171163567422">
+<ele>145.361881193262</ele>
+<name>SFM 122</name>
+</rtept>
+<rtept lat="57.4058997273826" lon="-4.95039349579655">
+<ele>148.395948704488</ele>
+<name>SFM 123</name>
+</rtept>
+<rtept lat="57.4055953322938" lon="-4.949038506526">
+<ele>150.350032805395</ele>
+<name>SFM 124</name>
+</rtept>
+<rtept lat="57.4050177674296" lon="-4.94825605373365">
+<ele>145.162023261875</ele>
+<name>SFM 125</name>
+</rtept>
+<rtept lat="57.404496494434" lon="-4.946374152114">
+<ele>141.323249431401</ele>
+<name>SFM 126</name>
+</rtept>
+<rtept lat="57.4045308738999" lon="-4.94490491600475">
+<ele>141.333079329148</ele>
+<name>SFM 127</name>
+</rtept>
+<rtept lat="57.4036885661866" lon="-4.94237457530915">
+<ele>140.64805606727</ele>
+<name>SFM 128</name>
+</rtept>
+<rtept lat="57.4036572753049" lon="-4.94109825273777">
+<ele>140.218328760552</ele>
+<name>SFM 129</name>
+</rtept>
+<rtept lat="57.403324990279" lon="-4.94027902009324">
+<ele>138.497727306724</ele>
+<name>SFM 130</name>
+</rtept>
+<rtept lat="57.4032791642606" lon="-4.9396242939158">
+<ele>138.747676011212</ele>
+<name>SFM 131</name>
+</rtept>
+<rtept lat="57.4039027063488" lon="-4.93647557026742">
+<ele>138.798380056059</ele>
+<name>SFM 132</name>
+</rtept>
+<rtept lat="57.4042143507767" lon="-4.93228273605636">
+<ele>140.586056067276</ele>
+<name>SFM 133</name>
+</rtept>
+<rtept lat="57.4040104727621" lon="-4.93053970260154">
+<ele>138.628380056065</ele>
+<name>SFM 134</name>
+</rtept>
+<rtept lat="57.4042137415027" lon="-4.92902735352862">
+<ele>139.050704044849</ele>
+<name>SFM 135</name>
+</rtept>
+<rtept lat="57.4045643791096" lon="-4.92840428418628">
+<ele>141.235431351572</ele>
+<name>SFM 136</name>
+</rtept>
+<rtept lat="57.4045986883961" lon="-4.92758610560425">
+<ele>139.892755340362</ele>
+<name>SFM 137</name>
+</rtept>
+<rtept lat="57.4043862076167" lon="-4.92621039205157">
+<ele>139.526704044849</ele>
+<name>SFM 138</name>
+</rtept>
+<rtept lat="57.4045115458735" lon="-4.92344626532387">
+<ele>139.099028033635</ele>
+<name>SFM 139</name>
+</rtept>
+<rtept lat="57.404338213513" lon="-4.92235677283626">
+<ele>138.436028033635</ele>
+<name>SFM 140</name>
+</rtept>
+<rtept lat="57.4043782129187" lon="-4.92063321592112">
+<ele>139.525328760546</ele>
+<name>SFM 141</name>
+</rtept>
+<rtept lat="57.4039483101158" lon="-4.91742860628979">
+<ele>138.083170102251</ele>
+<name>SFM 142</name>
+</rtept>
+<rtept lat="57.4037924235098" lon="-4.9129437380765">
+<ele>141.991687829135</ele>
+<name>SFM 143</name>
+</rtept>
+<rtept lat="57.403593290725" lon="-4.91230517787223">
+<ele>157.898434596872</ele>
+<name>SFM 144</name>
+</rtept>
+<rtept lat="57.4020113099238" lon="-4.91067938541408">
+<ele>152.570464530945</ele>
+<name>SFM 145</name>
+</rtept>
+<rtept lat="57.4017082070221" lon="-4.90858906119705">
+<ele>154.638783374</ele>
+<name>SFM 146</name>
+</rtept>
+<rtept lat="57.4015505586955" lon="-4.90549132136183">
+<ele>142.783426579812</ele>
+<name>SFM 147</name>
+</rtept>
+<rtept lat="57.4022877085602" lon="-4.90334188576514">
+<ele>147.409424305415</ele>
+<name>SFM 148</name>
+</rtept>
+<rtept lat="57.4035975824664" lon="-4.90086968454863">
+<ele>155.724284137225</ele>
+<name>SFM 149</name>
+</rtept>
+<rtept lat="57.403956262375" lon="-4.89922795652211">
+<ele>149.909636159652</ele>
+<name>SFM 150</name>
+</rtept>
+<rtept lat="57.4039009426313" lon="-4.8956569446973">
+<ele>144.825895508552</ele>
+<name>SFM 151</name>
+</rtept>
+<rtept lat="57.4032052850863" lon="-4.89268649671323">
+<ele>141.909867474914</ele>
+<name>SFM 152</name>
+</rtept>
+<rtept lat="57.4031056692371" lon="-4.8910368931816">
+<ele>147.92774009552</ele>
+<name>SFM 153</name>
+</rtept>
+<rtept lat="57.4026708352558" lon="-4.8900119220873">
+<ele>137.021412487495</ele>
+<name>SFM 154</name>
+</rtept>
+<rtept lat="57.4018381597045" lon="-4.88901225101313">
+<ele>139.354293680751</ele>
+<name>SFM 155</name>
+</rtept>
+<rtept lat="57.4010050795607" lon="-4.88603129259607">
+<ele>133.357881193262</ele>
+<name>SFM 156</name>
+</rtept>
+<rtept lat="57.3993700695356" lon="-4.88270441774069">
+<ele>132.822403317937</ele>
+<name>SFM 157</name>
+</rtept>
+<rtept lat="57.3992479562452" lon="-4.88136458529218">
+<ele>131.366976738125</ele>
+<name>SFM 158</name>
+</rtept>
+<rtept lat="57.4000034352461" lon="-4.87839545574555">
+<ele>138.111170476222</ele>
+<name>SFM 159</name>
+</rtept>
+<rtept lat="57.402775841557" lon="-4.87742418355406">
+<ele>133.685239513922</ele>
+<name>SFM 160</name>
+</rtept>
+<rtept lat="57.4034927487796" lon="-4.87547069071237">
+<ele>131.390170102251</ele>
+<name>SFM 161</name>
+</rtept>
+<rtept lat="57.4036240662417" lon="-4.87239561012121">
+<ele>133.046760112131</ele>
+<name>SFM 162</name>
+</rtept>
+<rtept lat="57.4033881843302" lon="-4.86866905390058">
+<ele>130.318219497323</ele>
+<name>SFM 163</name>
+</rtept>
+<rtept lat="57.4030360527756" lon="-4.86668842156878">
+<ele>130.244221397763</ele>
+<name>SFM 164</name>
+</rtept>
+<rtept lat="57.4031234347906" lon="-4.86553471611456">
+<ele>130.051403317937</ele>
+<name>SFM 165</name>
+</rtept>
+<rtept lat="57.4038600816106" lon="-4.86270502779979">
+<ele>133.021885965025</ele>
+<name>SFM 166</name>
+</rtept>
+<rtept lat="57.4055082241096" lon="-4.8587573902224">
+<ele>140</ele>
+<name>SFM 167</name>
+</rtept>
+<rtept lat="57.4056530414612" lon="-4.8591083697197">
+<ele>140</ele>
+<name>SFM 168</name>
+</rtept>
+</rte>
+</gpx>

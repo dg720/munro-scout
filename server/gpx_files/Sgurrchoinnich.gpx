@@ -1,0 +1,918 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="Walkhighlands">
+<metadata>
+	<desc>GPX file from Walkhighlands; file is copyright Walkhighlands and must not be publicly shared on other websites. Do not remove this notice.</desc>
+	<copyright author="Walkhighlands"><year>2019</year></copyright>
+</metadata>
+<rte>
+<name>Sgùrr Chòinnich and Sgùrr a&#039;Chaorachain</name>
+<rtept lat="57.4911242294672" lon="-5.27218445168033">
+<ele>79.8164001895382</ele>
+<name>SCC 001</name>
+</rtept>
+<rtept lat="57.4912168036171" lon="-5.27235800376033">
+<ele>81.7964001895487</ele>
+<name>SCC 002</name>
+</rtept>
+<rtept lat="57.4913640317968" lon="-5.27229606722842">
+<ele>85.5404001895385</ele>
+<name>SCC 003</name>
+</rtept>
+<rtept lat="57.4913690907695" lon="-5.27210120844932">
+<ele>86.008400189539</ele>
+<name>SCC 004</name>
+</rtept>
+<rtept lat="57.4910003474807" lon="-5.2713470490099">
+<ele>77.669973811011</ele>
+<name>SCC 005</name>
+</rtept>
+<rtept lat="57.4907689056685" lon="-5.27153666390219">
+<ele>73.2054032502702</ele>
+<name>SCC 006</name>
+</rtept>
+<rtept lat="57.4906086478918" lon="-5.27147724681678">
+<ele>70.0278227052732</ele>
+<name>SCC 007</name>
+</rtept>
+<rtept lat="57.490526964941" lon="-5.27088401326638">
+<ele>67.0807902451407</ele>
+<name>SCC 008</name>
+</rtept>
+<rtept lat="57.4909649397947" lon="-5.26897011860291">
+<ele>68.9125549622168</ele>
+<name>SCC 009</name>
+</rtept>
+<rtept lat="57.491124" lon="-5.26814">
+<ele>77.930017</ele>
+<name>SCC 010</name>
+</rtept>
+<rtept lat="57.491168" lon="-5.266847">
+<ele>67.934992</ele>
+<name>SCC 011</name>
+</rtept>
+<rtept lat="57.491626" lon="-5.263999">
+<ele>76.945879</ele>
+<name>SCC 012</name>
+</rtept>
+<rtept lat="57.49202" lon="-5.262514">
+<ele>72.951541</ele>
+<name>SCC 013</name>
+</rtept>
+<rtept lat="57.492386" lon="-5.260127">
+<ele>71.960725</ele>
+<name>SCC 014</name>
+</rtept>
+<rtept lat="57.49194" lon="-5.259013">
+<ele>72.965111</ele>
+<name>SCC 015</name>
+</rtept>
+<rtept lat="57.491168" lon="-5.258676">
+<ele>76.966524</ele>
+<name>SCC 016</name>
+</rtept>
+<rtept lat="57.490964" lon="-5.258137">
+<ele>73.968627</ele>
+<name>SCC 017</name>
+</rtept>
+<rtept lat="57.490863" lon="-5.257546">
+<ele>76.970918</ele>
+<name>SCC 018</name>
+</rtept>
+<rtept lat="57.491076" lon="-5.256475">
+<ele>82.975024</ele>
+<name>SCC 019</name>
+</rtept>
+<rtept lat="57.491021" lon="-5.255642">
+<ele>85.978241</ele>
+<name>SCC 020</name>
+</rtept>
+<rtept lat="57.48963" lon="-5.250003">
+<ele>118.999987</ele>
+<name>SCC 021</name>
+</rtept>
+<rtept lat="57.489591" lon="-5.248908">
+<ele>121</ele>
+<name>SCC 022</name>
+</rtept>
+<rtept lat="57.489886" lon="-5.247239">
+<ele>130</ele>
+<name>SCC 023</name>
+</rtept>
+<rtept lat="57.489782" lon="-5.245106">
+<ele>143</ele>
+<name>SCC 024</name>
+</rtept>
+<rtept lat="57.490554" lon="-5.23985">
+<ele>173</ele>
+<name>SCC 025</name>
+</rtept>
+<rtept lat="57.49052" lon="-5.237654">
+<ele>180</ele>
+<name>SCC 026</name>
+</rtept>
+<rtept lat="57.490261" lon="-5.236954">
+<ele>183</ele>
+<name>SCC 027</name>
+</rtept>
+<rtept lat="57.490176" lon="-5.236244">
+<ele>186</ele>
+<name>SCC 028</name>
+</rtept>
+<rtept lat="57.490213" lon="-5.233995">
+<ele>201</ele>
+<name>SCC 029</name>
+</rtept>
+<rtept lat="57.489599" lon="-5.232006">
+<ele>213</ele>
+<name>SCC 030</name>
+</rtept>
+<rtept lat="57.488825" lon="-5.230669">
+<ele>225</ele>
+<name>SCC 031</name>
+</rtept>
+<rtept lat="57.487943" lon="-5.228528">
+<ele>242</ele>
+<name>SCC 032</name>
+</rtept>
+<rtept lat="57.487417" lon="-5.226718">
+<ele>259</ele>
+<name>SCC 033</name>
+</rtept>
+<rtept lat="57.487236" lon="-5.225272">
+<ele>269</ele>
+<name>SCC 034</name>
+</rtept>
+<rtept lat="57.487196" lon="-5.223992">
+<ele>279</ele>
+<name>SCC 035</name>
+</rtept>
+<rtept lat="57.486678" lon="-5.221389">
+<ele>278</ele>
+<name>SCC 036</name>
+</rtept>
+<rtept lat="57.48664" lon="-5.22001">
+<ele>277</ele>
+<name>SCC 037</name>
+</rtept>
+<rtept lat="57.486475" lon="-5.21938">
+<ele>274</ele>
+<name>SCC 038</name>
+</rtept>
+<rtept lat="57.486291" lon="-5.219108">
+<ele>274</ele>
+<name>SCC 039</name>
+</rtept>
+<rtept lat="57.485374" lon="-5.219013">
+<ele>275</ele>
+<name>SCC 040</name>
+</rtept>
+<rtept lat="57.484042" lon="-5.219694">
+<ele>272</ele>
+<name>SCC 041</name>
+</rtept>
+<rtept lat="57.483122" lon="-5.218875">
+<ele>260</ele>
+<name>SCC 042</name>
+</rtept>
+<rtept lat="57.481903" lon="-5.218978">
+<ele>256</ele>
+<name>SCC 043</name>
+</rtept>
+<rtept lat="57.480363" lon="-5.217486">
+<ele>250</ele>
+<name>SCC 044</name>
+</rtept>
+<rtept lat="57.478833" lon="-5.216794">
+<ele>252</ele>
+<name>SCC 045</name>
+</rtept>
+<rtept lat="57.476882" lon="-5.215037">
+<ele>256</ele>
+<name>SCC 046</name>
+</rtept>
+<rtept lat="57.475583" lon="-5.214231">
+<ele>259</ele>
+<name>SCC 047</name>
+</rtept>
+<rtept lat="57.474995" lon="-5.214536">
+<ele>255</ele>
+<name>SCC 048</name>
+</rtept>
+<rtept lat="57.473391" lon="-5.2164">
+<ele>252</ele>
+<name>SCC 049</name>
+</rtept>
+<rtept lat="57.472782" lon="-5.21655">
+<ele>255</ele>
+<name>SCC 050</name>
+</rtept>
+<rtept lat="57.472217" lon="-5.21599">
+<ele>261</ele>
+<name>SCC 051</name>
+</rtept>
+<rtept lat="57.470982" lon="-5.214269">
+<ele>271</ele>
+<name>SCC 052</name>
+</rtept>
+<rtept lat="57.470712" lon="-5.213526">
+<ele>272</ele>
+<name>SCC 053</name>
+</rtept>
+<rtept lat="57.470759" lon="-5.212657">
+<ele>272</ele>
+<name>SCC 054</name>
+</rtept>
+<rtept lat="57.470641" lon="-5.212279">
+<ele>275</ele>
+<name>SCC 055</name>
+</rtept>
+<rtept lat="57.469703" lon="-5.212104">
+<ele>286</ele>
+<name>SCC 056</name>
+</rtept>
+<rtept lat="57.469268" lon="-5.211572">
+<ele>290</ele>
+<name>SCC 057</name>
+</rtept>
+<rtept lat="57.46907" lon="-5.210444">
+<ele>287</ele>
+<name>SCC 058</name>
+</rtept>
+<rtept lat="57.468517" lon="-5.20925">
+<ele>287</ele>
+<name>SCC 059</name>
+</rtept>
+<rtept lat="57.467686" lon="-5.208984">
+<ele>305</ele>
+<name>SCC 060</name>
+</rtept>
+<rtept lat="57.467539" lon="-5.209152">
+<ele>311</ele>
+<name>SCC 061</name>
+</rtept>
+<rtept lat="57.467185" lon="-5.208786">
+<ele>322</ele>
+<name>SCC 062</name>
+</rtept>
+<rtept lat="57.466772" lon="-5.209232">
+<ele>331</ele>
+<name>SCC 063</name>
+</rtept>
+<rtept lat="57.466467" lon="-5.2093">
+<ele>338</ele>
+<name>SCC 064</name>
+</rtept>
+<rtept lat="57.465663" lon="-5.208616">
+<ele>359</ele>
+<name>SCC 065</name>
+</rtept>
+<rtept lat="57.46512" lon="-5.208709">
+<ele>372</ele>
+<name>SCC 066</name>
+</rtept>
+<rtept lat="57.464013" lon="-5.209431">
+<ele>384</ele>
+<name>SCC 067</name>
+</rtept>
+<rtept lat="57.463704" lon="-5.212046">
+<ele>403</ele>
+<name>SCC 068</name>
+</rtept>
+<rtept lat="57.463323" lon="-5.213148">
+<ele>410</ele>
+<name>SCC 069</name>
+</rtept>
+<rtept lat="57.462748" lon="-5.214103">
+<ele>410</ele>
+<name>SCC 070</name>
+</rtept>
+<rtept lat="57.462356" lon="-5.21559">
+<ele>417</ele>
+<name>SCC 071</name>
+</rtept>
+<rtept lat="57.462304" lon="-5.217179">
+<ele>430</ele>
+<name>SCC 072</name>
+</rtept>
+<rtept lat="57.46162" lon="-5.2191">
+<ele>444</ele>
+<name>SCC 073</name>
+</rtept>
+<rtept lat="57.46082" lon="-5.220681">
+<ele>454</ele>
+<name>SCC 074</name>
+</rtept>
+<rtept lat="57.460009" lon="-5.222792">
+<ele>465</ele>
+<name>SCC 075</name>
+</rtept>
+<rtept lat="57.459697" lon="-5.224216">
+<ele>471</ele>
+<name>SCC 076</name>
+</rtept>
+<rtept lat="57.458915" lon="-5.226019">
+<ele>475</ele>
+<name>SCC 077</name>
+</rtept>
+<rtept lat="57.458666" lon="-5.227357">
+<ele>474</ele>
+<name>SCC 078</name>
+</rtept>
+<rtept lat="57.45835" lon="-5.228006">
+<ele>475</ele>
+<name>SCC 079</name>
+</rtept>
+<rtept lat="57.458295" lon="-5.228384">
+<ele>476</ele>
+<name>SCC 080</name>
+</rtept>
+<rtept lat="57.457136" lon="-5.229676">
+<ele>482</ele>
+<name>SCC 081</name>
+</rtept>
+<rtept lat="57.45704" lon="-5.230098">
+<ele>484</ele>
+<name>SCC 082</name>
+</rtept>
+<rtept lat="57.456494" lon="-5.230678">
+<ele>506</ele>
+<name>SCC 083</name>
+</rtept>
+<rtept lat="57.454984" lon="-5.231569">
+<ele>538</ele>
+<name>SCC 084</name>
+</rtept>
+<rtept lat="57.454826" lon="-5.231924">
+<ele>544</ele>
+<name>SCC 085</name>
+</rtept>
+<rtept lat="57.454383" lon="-5.232341">
+<ele>557</ele>
+<name>SCC 086</name>
+</rtept>
+<rtept lat="57.453734" lon="-5.233675">
+<ele>581</ele>
+<name>SCC 087</name>
+</rtept>
+<rtept lat="57.45279" lon="-5.23479">
+<ele>593</ele>
+<name>SCC 088</name>
+</rtept>
+<rtept lat="57.452173" lon="-5.234682">
+<ele>604</ele>
+<name>SCC 089</name>
+</rtept>
+<rtept lat="57.45174" lon="-5.234312">
+<ele>609</ele>
+<name>SCC 090</name>
+</rtept>
+<rtept lat="57.451096" lon="-5.234564">
+<ele>620</ele>
+<name>SCC 091</name>
+</rtept>
+<rtept lat="57.450386" lon="-5.234475">
+<ele>632</ele>
+<name>SCC 092</name>
+</rtept>
+<rtept lat="57.450164" lon="-5.233757">
+<ele>639</ele>
+<name>SCC 093</name>
+</rtept>
+<rtept lat="57.450318" lon="-5.233247">
+<ele>645</ele>
+<name>SCC 094</name>
+</rtept>
+<rtept lat="57.450936" lon="-5.232978">
+<ele>641</ele>
+<name>SCC 095</name>
+</rtept>
+<rtept lat="57.451251" lon="-5.232563">
+<ele>640</ele>
+<name>SCC 096</name>
+</rtept>
+<rtept lat="57.451509" lon="-5.231972">
+<ele>638</ele>
+<name>SCC 097</name>
+</rtept>
+<rtept lat="57.451958" lon="-5.230232">
+<ele>644</ele>
+<name>SCC 098</name>
+</rtept>
+<rtept lat="57.451794" lon="-5.228015">
+<ele>664</ele>
+<name>SCC 099</name>
+</rtept>
+<rtept lat="57.451907" lon="-5.227831">
+<ele>676</ele>
+<name>SCC 100</name>
+</rtept>
+<rtept lat="57.451781" lon="-5.227294">
+<ele>682</ele>
+<name>SCC 101</name>
+</rtept>
+<rtept lat="57.45187" lon="-5.227026">
+<ele>693</ele>
+<name>SCC 102</name>
+</rtept>
+<rtept lat="57.451689" lon="-5.225329">
+<ele>742</ele>
+<name>SCC 103</name>
+</rtept>
+<rtept lat="57.452022" lon="-5.223182">
+<ele>800</ele>
+<name>SCC 104</name>
+</rtept>
+<rtept lat="57.451949" lon="-5.222159">
+<ele>812</ele>
+<name>SCC 105</name>
+</rtept>
+<rtept lat="57.451766" lon="-5.221463">
+<ele>827</ele>
+<name>SCC 106</name>
+</rtept>
+<rtept lat="57.451842" lon="-5.219567">
+<ele>869</ele>
+<name>SCC 107</name>
+</rtept>
+<rtept lat="57.451736" lon="-5.218983">
+<ele>878</ele>
+<name>SCC 108</name>
+</rtept>
+<rtept lat="57.451769" lon="-5.21838">
+<ele>890</ele>
+<name>SCC 109</name>
+</rtept>
+<rtept lat="57.451621" lon="-5.21785">
+<ele>905</ele>
+<name>SCC 110</name>
+</rtept>
+<rtept lat="57.451679" lon="-5.213518">
+<ele>985</ele>
+<name>SCC 111</name>
+</rtept>
+<rtept lat="57.451458" lon="-5.212755">
+<ele>982</ele>
+<name>SCC 112</name>
+</rtept>
+<rtept lat="57.451453" lon="-5.211764">
+<ele>983</ele>
+<name>SCC 113</name>
+</rtept>
+<rtept lat="57.451031" lon="-5.210077">
+<ele>983</ele>
+<name>SCC 114</name>
+</rtept>
+<rtept lat="57.451037" lon="-5.207872">
+<ele>1008</ele>
+<name>SCC 115</name>
+</rtept>
+<rtept lat="57.450273" lon="-5.206438">
+<ele>997</ele>
+<name>SCC 116</name>
+</rtept>
+<rtept lat="57.450004" lon="-5.205504">
+<ele>997</ele>
+<name>SCC 117</name>
+</rtept>
+<rtept lat="57.449879" lon="-5.20449">
+<ele>995</ele>
+<name>SCC 118</name>
+</rtept>
+<rtept lat="57.449994" lon="-5.204095">
+<ele>987</ele>
+<name>SCC 119</name>
+</rtept>
+<rtept lat="57.449801" lon="-5.20322">
+<ele>950</ele>
+<name>SCC 120</name>
+</rtept>
+<rtept lat="57.450325" lon="-5.202185">
+<ele>928</ele>
+<name>SCC 121</name>
+</rtept>
+<rtept lat="57.450336" lon="-5.20188">
+<ele>919</ele>
+<name>SCC 122</name>
+</rtept>
+<rtept lat="57.450578" lon="-5.201285">
+<ele>906</ele>
+<name>SCC 123</name>
+</rtept>
+<rtept lat="57.450557" lon="-5.200975">
+<ele>898</ele>
+<name>SCC 124</name>
+</rtept>
+<rtept lat="57.45104" lon="-5.198687">
+<ele>875</ele>
+<name>SCC 125</name>
+</rtept>
+<rtept lat="57.45128" lon="-5.198073">
+<ele>889</ele>
+<name>SCC 126</name>
+</rtept>
+<rtept lat="57.451159" lon="-5.197747">
+<ele>892</ele>
+<name>SCC 127</name>
+</rtept>
+<rtept lat="57.45138" lon="-5.197556">
+<ele>899</ele>
+<name>SCC 128</name>
+</rtept>
+<rtept lat="57.451469" lon="-5.197017">
+<ele>914</ele>
+<name>SCC 129</name>
+</rtept>
+<rtept lat="57.451638" lon="-5.196891">
+<ele>922</ele>
+<name>SCC 130</name>
+</rtept>
+<rtept lat="57.451914" lon="-5.195942">
+<ele>943</ele>
+<name>SCC 131</name>
+</rtept>
+<rtept lat="57.451878" lon="-5.194329">
+<ele>966</ele>
+<name>SCC 132</name>
+</rtept>
+<rtept lat="57.452083" lon="-5.192693">
+<ele>1004</ele>
+<name>SCC 133</name>
+</rtept>
+<rtept lat="57.452326" lon="-5.191729">
+<ele>1014</ele>
+<name>SCC 134</name>
+</rtept>
+<rtept lat="57.452454" lon="-5.189102">
+<ele>1054</ele>
+<name>SCC 135</name>
+</rtept>
+<rtept lat="57.453118" lon="-5.189457">
+<ele>1052</ele>
+<name>SCC 136</name>
+</rtept>
+<rtept lat="57.453983" lon="-5.189469">
+<ele>1030</ele>
+<name>SCC 137</name>
+</rtept>
+<rtept lat="57.454694" lon="-5.189753">
+<ele>1009</ele>
+<name>SCC 138</name>
+</rtept>
+<rtept lat="57.455706" lon="-5.189568">
+<ele>976</ele>
+<name>SCC 139</name>
+</rtept>
+<rtept lat="57.456733" lon="-5.19011">
+<ele>930</ele>
+<name>SCC 140</name>
+</rtept>
+<rtept lat="57.457094" lon="-5.190684">
+<ele>906</ele>
+<name>SCC 141</name>
+</rtept>
+<rtept lat="57.457178" lon="-5.191245">
+<ele>893</ele>
+<name>SCC 142</name>
+</rtept>
+<rtept lat="57.457599" lon="-5.191765">
+<ele>874</ele>
+<name>SCC 143</name>
+</rtept>
+<rtept lat="57.457833" lon="-5.1929">
+<ele>832</ele>
+<name>SCC 144</name>
+</rtept>
+<rtept lat="57.4584" lon="-5.193972">
+<ele>778</ele>
+<name>SCC 145</name>
+</rtept>
+<rtept lat="57.458596" lon="-5.194823">
+<ele>742</ele>
+<name>SCC 146</name>
+</rtept>
+<rtept lat="57.459255" lon="-5.195385">
+<ele>705</ele>
+<name>SCC 147</name>
+</rtept>
+<rtept lat="57.46026" lon="-5.195824">
+<ele>646</ele>
+<name>SCC 148</name>
+</rtept>
+<rtept lat="57.460574" lon="-5.195767">
+<ele>630</ele>
+<name>SCC 149</name>
+</rtept>
+<rtept lat="57.461066" lon="-5.196219">
+<ele>599</ele>
+<name>SCC 150</name>
+</rtept>
+<rtept lat="57.462266" lon="-5.196536">
+<ele>534</ele>
+<name>SCC 151</name>
+</rtept>
+<rtept lat="57.462672" lon="-5.196483">
+<ele>521</ele>
+<name>SCC 152</name>
+</rtept>
+<rtept lat="57.463982" lon="-5.196933">
+<ele>446</ele>
+<name>SCC 153</name>
+</rtept>
+<rtept lat="57.464294" lon="-5.196839">
+<ele>431</ele>
+<name>SCC 154</name>
+</rtept>
+<rtept lat="57.464605" lon="-5.196932">
+<ele>423</ele>
+<name>SCC 155</name>
+</rtept>
+<rtept lat="57.46502" lon="-5.197356">
+<ele>406</ele>
+<name>SCC 156</name>
+</rtept>
+<rtept lat="57.465422" lon="-5.19708">
+<ele>394</ele>
+<name>SCC 157</name>
+</rtept>
+<rtept lat="57.465967" lon="-5.197143">
+<ele>367</ele>
+<name>SCC 158</name>
+</rtept>
+<rtept lat="57.466496" lon="-5.196675">
+<ele>344</ele>
+<name>SCC 159</name>
+</rtept>
+<rtept lat="57.468429" lon="-5.196925">
+<ele>313</ele>
+<name>SCC 160</name>
+</rtept>
+<rtept lat="57.469041" lon="-5.196573">
+<ele>318</ele>
+<name>SCC 161</name>
+</rtept>
+<rtept lat="57.46895" lon="-5.197825">
+<ele>318</ele>
+<name>SCC 162</name>
+</rtept>
+<rtept lat="57.469276" lon="-5.199823">
+<ele>319</ele>
+<name>SCC 163</name>
+</rtept>
+<rtept lat="57.469354" lon="-5.200945">
+<ele>319</ele>
+<name>SCC 164</name>
+</rtept>
+<rtept lat="57.470066" lon="-5.204489">
+<ele>312</ele>
+<name>SCC 165</name>
+</rtept>
+<rtept lat="57.470183" lon="-5.206361">
+<ele>307</ele>
+<name>SCC 166</name>
+</rtept>
+<rtept lat="57.470423" lon="-5.207718">
+<ele>303</ele>
+<name>SCC 167</name>
+</rtept>
+<rtept lat="57.470172" lon="-5.208945">
+<ele>300</ele>
+<name>SCC 168</name>
+</rtept>
+<rtept lat="57.470158" lon="-5.209643">
+<ele>300</ele>
+<name>SCC 169</name>
+</rtept>
+<rtept lat="57.470343" lon="-5.21079">
+<ele>298</ele>
+<name>SCC 170</name>
+</rtept>
+<rtept lat="57.471015" lon="-5.212384">
+<ele>288</ele>
+<name>SCC 171</name>
+</rtept>
+<rtept lat="57.470732" lon="-5.213526">
+<ele>285</ele>
+<name>SCC 172</name>
+</rtept>
+<rtept lat="57.471264" lon="-5.214676">
+<ele>280</ele>
+<name>SCC 173</name>
+</rtept>
+<rtept lat="57.472613" lon="-5.216313">
+<ele>275</ele>
+<name>SCC 174</name>
+</rtept>
+<rtept lat="57.473117" lon="-5.216527">
+<ele>270</ele>
+<name>SCC 175</name>
+</rtept>
+<rtept lat="57.473578" lon="-5.21632">
+<ele>258</ele>
+<name>SCC 176</name>
+</rtept>
+<rtept lat="57.475038" lon="-5.214479">
+<ele>258</ele>
+<name>SCC 177</name>
+</rtept>
+<rtept lat="57.475636" lon="-5.214257">
+<ele>264</ele>
+<name>SCC 178</name>
+</rtept>
+<rtept lat="57.477041" lon="-5.215126">
+<ele>265</ele>
+<name>SCC 179</name>
+</rtept>
+<rtept lat="57.478479" lon="-5.216591">
+<ele>250</ele>
+<name>SCC 180</name>
+</rtept>
+<rtept lat="57.480245" lon="-5.217389">
+<ele>249</ele>
+<name>SCC 181</name>
+</rtept>
+<rtept lat="57.481871" lon="-5.218969">
+<ele>253</ele>
+<name>SCC 182</name>
+</rtept>
+<rtept lat="57.482989" lon="-5.218802">
+<ele>259</ele>
+<name>SCC 183</name>
+</rtept>
+<rtept lat="57.484129" lon="-5.219735">
+<ele>268</ele>
+<name>SCC 184</name>
+</rtept>
+<rtept lat="57.485417" lon="-5.219051">
+<ele>274</ele>
+<name>SCC 185</name>
+</rtept>
+<rtept lat="57.486104" lon="-5.219006">
+<ele>277</ele>
+<name>SCC 186</name>
+</rtept>
+<rtept lat="57.486459" lon="-5.219493">
+<ele>278</ele>
+<name>SCC 187</name>
+</rtept>
+<rtept lat="57.486612" lon="-5.220143">
+<ele>279</ele>
+<name>SCC 188</name>
+</rtept>
+<rtept lat="57.486643" lon="-5.2213">
+<ele>281</ele>
+<name>SCC 189</name>
+</rtept>
+<rtept lat="57.487172" lon="-5.224058">
+<ele>288</ele>
+<name>SCC 190</name>
+</rtept>
+<rtept lat="57.487406" lon="-5.226689">
+<ele>269</ele>
+<name>SCC 191</name>
+</rtept>
+<rtept lat="57.487917" lon="-5.228534">
+<ele>251</ele>
+<name>SCC 192</name>
+</rtept>
+<rtept lat="57.488565" lon="-5.229841">
+<ele>244</ele>
+<name>SCC 193</name>
+</rtept>
+<rtept lat="57.488851" lon="-5.230714">
+<ele>237</ele>
+<name>SCC 194</name>
+</rtept>
+<rtept lat="57.489586" lon="-5.231919">
+<ele>229</ele>
+<name>SCC 195</name>
+</rtept>
+<rtept lat="57.490157" lon="-5.233866">
+<ele>217</ele>
+<name>SCC 196</name>
+</rtept>
+<rtept lat="57.490221" lon="-5.236878">
+<ele>197</ele>
+<name>SCC 197</name>
+</rtept>
+<rtept lat="57.490495" lon="-5.237886">
+<ele>193</ele>
+<name>SCC 198</name>
+</rtept>
+<rtept lat="57.490559" lon="-5.239299">
+<ele>192</ele>
+<name>SCC 199</name>
+</rtept>
+<rtept lat="57.489771" lon="-5.244901">
+<ele>164</ele>
+<name>SCC 200</name>
+</rtept>
+<rtept lat="57.489782" lon="-5.246567">
+<ele>149</ele>
+<name>SCC 201</name>
+</rtept>
+<rtept lat="57.489871" lon="-5.247121">
+<ele>146</ele>
+<name>SCC 202</name>
+</rtept>
+<rtept lat="57.489547" lon="-5.248893">
+<ele>138</ele>
+<name>SCC 203</name>
+</rtept>
+<rtept lat="57.489582" lon="-5.249864">
+<ele>133</ele>
+<name>SCC 204</name>
+</rtept>
+<rtept lat="57.490298" lon="-5.253243">
+<ele>119.987533</ele>
+<name>SCC 205</name>
+</rtept>
+<rtept lat="57.490623" lon="-5.254056">
+<ele>109.984385</ele>
+<name>SCC 206</name>
+</rtept>
+<rtept lat="57.491046" lon="-5.255674">
+<ele>99.978118</ele>
+<name>SCC 207</name>
+</rtept>
+<rtept lat="57.491098" lon="-5.256474">
+<ele>97.975027</ele>
+<name>SCC 208</name>
+</rtept>
+<rtept lat="57.490905" lon="-5.257425">
+<ele>91.971379</ele>
+<name>SCC 209</name>
+</rtept>
+<rtept lat="57.490957" lon="-5.257993">
+<ele>87.969186</ele>
+<name>SCC 210</name>
+</rtept>
+<rtept lat="57.491274" lon="-5.258749">
+<ele>77.966226</ele>
+<name>SCC 211</name>
+</rtept>
+<rtept lat="57.492034" lon="-5.259087">
+<ele>75.96481</ele>
+<name>SCC 212</name>
+</rtept>
+<rtept lat="57.492324" lon="-5.259772">
+<ele>80.96211</ele>
+<name>SCC 213</name>
+</rtept>
+<rtept lat="57.492402" lon="-5.260285">
+<ele>82.960109</ele>
+<name>SCC 214</name>
+</rtept>
+<rtept lat="57.492022" lon="-5.262495">
+<ele>84.951614</ele>
+<name>SCC 215</name>
+</rtept>
+<rtept lat="57.491756" lon="-5.263162">
+<ele>85.949089</ele>
+<name>SCC 216</name>
+</rtept>
+<rtept lat="57.491515" lon="-5.264241">
+<ele>80.944969</ele>
+<name>SCC 217</name>
+</rtept>
+<rtept lat="57.491139" lon="-5.266748">
+<ele>73.935383</ele>
+<name>SCC 218</name>
+</rtept>
+<rtept lat="57.490964" lon="-5.268954">
+<ele>68.926925</ele>
+<name>SCC 219</name>
+</rtept>
+<rtept lat="57.490535" lon="-5.270866">
+<ele>69.919694</ele>
+<name>SCC 220</name>
+</rtept>
+<rtept lat="57.490601" lon="-5.271496">
+<ele>70.91725</ele>
+<name>SCC 221</name>
+</rtept>
+<rtept lat="57.490758" lon="-5.27156">
+<ele>70.916947</ele>
+<name>SCC 222</name>
+</rtept>
+<rtept lat="57.49101" lon="-5.271351">
+<ele>71.917668</ele>
+<name>SCC 223</name>
+</rtept>
+<rtept lat="57.491387" lon="-5.272028">
+<ele>82.914923</ele>
+<name>SCC 224</name>
+</rtept>
+<rtept lat="57.491378" lon="-5.272297">
+<ele>84.913889</ele>
+<name>SCC 225</name>
+</rtept>
+<rtept lat="57.491233" lon="-5.272348">
+<ele>82.913742</ele>
+<name>SCC 226</name>
+</rtept>
+<rtept lat="57.491146" lon="-5.272177">
+<ele>80.914434</ele>
+<name>SCC 227</name>
+</rtept>
+</rte>
+</gpx>

@@ -1,0 +1,686 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="Walkhighlands">
+<metadata>
+	<desc>GPX file from Walkhighlands; file is copyright Walkhighlands and must not be publicly shared on other websites. Do not remove this notice.</desc>
+	<copyright author="Walkhighlands"><year>2019</year></copyright>
+</metadata>
+<rte>
+<name>Càrn Gorm, Meall Garbh, Càrn Mairg &amp; Creag Mhòr</name>
+<rtept lat="56.6029066520654" lon="-4.19201475154913">
+<ele>176.855942429239</ele>
+<name>CMairg001</name>
+</rtept>
+<rtept lat="56.6029479717412" lon="-4.19181185423426">
+<ele>176.754786334241</ele>
+<name>CMairg002</name>
+</rtept>
+<rtept lat="56.603233310147" lon="-4.191326557837">
+<ele>177.586085147597</ele>
+<name>CMairg003</name>
+</rtept>
+<rtept lat="56.6034199798657" lon="-4.19001436549478">
+<ele>176.595523638024</ele>
+<name>CMairg004</name>
+</rtept>
+<rtept lat="56.604373532769" lon="-4.185872344329">
+<ele>179.779643804317</ele>
+<name>CMairg005</name>
+</rtept>
+<rtept lat="56.6055155632288" lon="-4.18209456940547">
+<ele>185.135653654838</ele>
+<name>CMairg006</name>
+</rtept>
+<rtept lat="56.6058261318236" lon="-4.1805270623137">
+<ele>191.203723899769</ele>
+<name>CMairg007</name>
+</rtept>
+<rtept lat="56.6063237056852" lon="-4.17941513762437">
+<ele>196.626146581359</ele>
+<name>CMairg008</name>
+</rtept>
+<rtept lat="56.6065361808764" lon="-4.1787772302228">
+<ele>197.363285251998</ele>
+<name>CMairg009</name>
+</rtept>
+<rtept lat="56.6066821210138" lon="-4.17726861700209">
+<ele>197.324804251922</ele>
+<name>CMairg010</name>
+</rtept>
+<rtept lat="56.6066235651437" lon="-4.17666072162059">
+<ele>197.13454080732</ele>
+<name>CMairg011</name>
+</rtept>
+<rtept lat="56.606796273319" lon="-4.1756750724873">
+<ele>200.974584949328</ele>
+<name>CMairg012</name>
+</rtept>
+<rtept lat="56.6073065038071" lon="-4.17655989369137">
+<ele>206.013005240874</ele>
+<name>CMairg013</name>
+</rtept>
+<rtept lat="56.6074185066265" lon="-4.17632191589122">
+<ele>207.2787530559</ele>
+<name>CMairg014</name>
+</rtept>
+<rtept lat="56.6077938521646" lon="-4.17644128054332">
+<ele>211.755690116267</ele>
+<name>CMairg015</name>
+</rtept>
+<rtept lat="56.6079082336203" lon="-4.17611870206204">
+<ele>212.206722832392</ele>
+<name>CMairg016</name>
+</rtept>
+<rtept lat="56.6080665951289" lon="-4.17626143213269">
+<ele>214.376057829659</ele>
+<name>CMairg017</name>
+</rtept>
+<rtept lat="56.6083493861193" lon="-4.17627770185762">
+<ele>217.912168391393</ele>
+<name>CMairg018</name>
+</rtept>
+<rtept lat="56.6085124818426" lon="-4.17697148756089">
+<ele>223.737500519492</ele>
+<name>CMairg019</name>
+</rtept>
+<rtept lat="56.6086454344958" lon="-4.17707691137666">
+<ele>226.617500519492</ele>
+<name>CMairg020</name>
+</rtept>
+<rtept lat="56.6087882179011" lon="-4.17816062666093">
+<ele>235.870600855058</ele>
+<name>CMairg021</name>
+</rtept>
+<rtept lat="56.6092088720961" lon="-4.17877149151442">
+<ele>244.656687815043</ele>
+<name>CMairg022</name>
+</rtept>
+<rtept lat="56.6093388285748" lon="-4.1790478555231">
+<ele>246.281841223171</ele>
+<name>CMairg023</name>
+</rtept>
+<rtept lat="56.6096406464163" lon="-4.17874747517117">
+<ele>252.177071020179</ele>
+<name>CMairg024</name>
+</rtept>
+<rtept lat="56.6096773721686" lon="-4.17834382517125">
+<ele>255.11538165263</ele>
+<name>CMairg025</name>
+</rtept>
+<rtept lat="56.6099850006305" lon="-4.17832732045572">
+<ele>263.26602533694</ele>
+<name>CMairg026</name>
+</rtept>
+<rtept lat="56.6100578910844" lon="-4.17801374700624">
+<ele>265.14900733416</ele>
+<name>CMairg027</name>
+</rtept>
+<rtept lat="56.6104122886905" lon="-4.17778971274735">
+<ele>273.647976450651</ele>
+<name>CMairg028</name>
+</rtept>
+<rtept lat="56.611166178006" lon="-4.17861535025774">
+<ele>289.171538497366</ele>
+<name>CMairg029</name>
+</rtept>
+<rtept lat="56.6125066038383" lon="-4.17827698977225">
+<ele>320.212433305597</ele>
+<name>CMairg030</name>
+</rtept>
+<rtept lat="56.6131869646601" lon="-4.17868286574132">
+<ele>318.416978936068</ele>
+<name>CMairg031</name>
+</rtept>
+<rtept lat="56.6137037904169" lon="-4.17995940110762">
+<ele>330.769580472874</ele>
+<name>CMairg032</name>
+</rtept>
+<rtept lat="56.6150514085535" lon="-4.18228622625581">
+<ele>359.389865709871</ele>
+<name>CMairg033</name>
+</rtept>
+<rtept lat="56.6160021143482" lon="-4.18341679433011">
+<ele>380.016593108804</ele>
+<name>CMairg034</name>
+</rtept>
+<rtept lat="56.6175632431292" lon="-4.18509611132771">
+<ele>406.961661905088</ele>
+<name>CMairg035</name>
+</rtept>
+<rtept lat="56.6178648115854" lon="-4.18557806995385">
+<ele>412.166775415308</ele>
+<name>CMairg036</name>
+</rtept>
+<rtept lat="56.6177994950162" lon="-4.18591984052352">
+<ele>410.966251801939</ele>
+<name>CMairg037</name>
+</rtept>
+<rtept lat="56.6178910458769" lon="-4.18638640533198">
+<ele>418.094715312726</ele>
+<name>CMairg038</name>
+</rtept>
+<rtept lat="56.6181245651872" lon="-4.18705840684151">
+<ele>426.457255638174</ele>
+<name>CMairg039</name>
+</rtept>
+<rtept lat="56.6185323069158" lon="-4.18748133252574">
+<ele>434.430867224606</ele>
+<name>CMairg040</name>
+</rtept>
+<rtept lat="56.6186362009338" lon="-4.1880121934785">
+<ele>443.128645094108</ele>
+<name>CMairg041</name>
+</rtept>
+<rtept lat="56.6186792546374" lon="-4.18949795991961">
+<ele>469.892287815214</ele>
+<name>CMairg042</name>
+</rtept>
+<rtept lat="56.6184794292143" lon="-4.18977163270149">
+<ele>475.862985667791</ele>
+<name>CMairg043</name>
+</rtept>
+<rtept lat="56.6175246232571" lon="-4.19076600978321">
+<ele>488.563990908698</ele>
+<name>CMairg044</name>
+</rtept>
+<rtept lat="56.6167624900313" lon="-4.19510300426314">
+<ele>564.83023479903</ele>
+<name>CMairg045</name>
+</rtept>
+<rtept lat="56.6164106950382" lon="-4.19756977668922">
+<ele>614.318129915861</ele>
+<name>CMairg046</name>
+</rtept>
+<rtept lat="56.616650734166" lon="-4.19964879638512">
+<ele>657.969893773236</ele>
+<name>CMairg047</name>
+</rtept>
+<rtept lat="56.6169772037726" lon="-4.20643352450452">
+<ele>713.82861613022</ele>
+<name>CMairg048</name>
+</rtept>
+<rtept lat="56.617846979703" lon="-4.21200653320725">
+<ele>766.051166220573</ele>
+<name>CMairg049</name>
+</rtept>
+<rtept lat="56.618006715913" lon="-4.21292865194732">
+<ele>777.138851526319</ele>
+<name>CMairg050</name>
+</rtept>
+<rtept lat="56.619679604967" lon="-4.21719128173351">
+<ele>897.79114140865</ele>
+<name>CMairg051</name>
+</rtept>
+<rtept lat="56.620000396272" lon="-4.21930958803657">
+<ele>920.02156461583</ele>
+<name>CMairg052</name>
+</rtept>
+<rtept lat="56.6209912632988" lon="-4.22441123989768">
+<ele>990.312241264091</ele>
+<name>CMairg053</name>
+</rtept>
+<rtept lat="56.621789021946" lon="-4.22497818647818">
+<ele>1002.67789307975</ele>
+<name>CMairg054</name>
+</rtept>
+<rtept lat="56.621988924654" lon="-4.22525729274491">
+<ele>1004.51815471797</ele>
+<name>CMairg055</name>
+</rtept>
+<rtept lat="56.622159740838" lon="-4.22590636138379">
+<ele>1005.30789200721</ele>
+<name>CMairg056</name>
+</rtept>
+<rtept lat="56.6226644628736" lon="-4.22617571225142">
+<ele>1016.9531333931</ele>
+<name>CMairg057</name>
+</rtept>
+<rtept lat="56.6231517194588" lon="-4.22671791245516">
+<ele>1020.04025841244</ele>
+<name>CMairg058</name>
+</rtept>
+<rtept lat="56.6235312088958" lon="-4.2266033284589">
+<ele>1014.66974012939</ele>
+<name>CMairg059</name>
+</rtept>
+<rtept lat="56.6236927569603" lon="-4.22671554646405">
+<ele>1011.8977401294</ele>
+<name>CMairg060</name>
+</rtept>
+<rtept lat="56.6241018300991" lon="-4.22670540747443">
+<ele>1002.00023890703</ele>
+<name>CMairg061</name>
+</rtept>
+<rtept lat="56.6245874939561" lon="-4.22698507255485">
+<ele>984.886589235351</ele>
+<name>CMairg062</name>
+</rtept>
+<rtept lat="56.6254547705421" lon="-4.22632862447529">
+<ele>947.682489275615</ele>
+<name>CMairg063</name>
+</rtept>
+<rtept lat="56.6278644832513" lon="-4.22560319331386">
+<ele>895.646208201203</ele>
+<name>CMairg064</name>
+</rtept>
+<rtept lat="56.6285898341673" lon="-4.22514373648906">
+<ele>879.359312044328</ele>
+<name>CMairg065</name>
+</rtept>
+<rtept lat="56.6301267734563" lon="-4.22327112311319">
+<ele>852.73062663858</ele>
+<name>CMairg066</name>
+</rtept>
+<rtept lat="56.63101721747" lon="-4.22166852820458">
+<ele>864.430486181082</ele>
+<name>CMairg067</name>
+</rtept>
+<rtept lat="56.6331913490945" lon="-4.2175730583786">
+<ele>864.011561830468</ele>
+<name>CMairg068</name>
+</rtept>
+<rtept lat="56.6341124776485" lon="-4.2174216511826">
+<ele>843.652866221886</ele>
+<name>CMairg069</name>
+</rtept>
+<rtept lat="56.6349302589976" lon="-4.2163624037163">
+<ele>847.181797825902</ele>
+<name>CMairg070</name>
+</rtept>
+<rtept lat="56.6364103284662" lon="-4.21343559466775">
+<ele>911.233010833198</ele>
+<name>CMairg071</name>
+</rtept>
+<rtept lat="56.6368822414892" lon="-4.21024410318191">
+<ele>942.200015801422</ele>
+<name>CMairg072</name>
+</rtept>
+<rtept lat="56.6375034999215" lon="-4.20784893143336">
+<ele>960.301652129347</ele>
+<name>CMairg073</name>
+</rtept>
+<rtept lat="56.637539776388" lon="-4.20757707769635">
+<ele>960.842752353053</ele>
+<name>CMairg074</name>
+</rtept>
+<rtept lat="56.6377608231181" lon="-4.20504430834914">
+<ele>945.895252837523</ele>
+<name>CMairg075</name>
+</rtept>
+<rtept lat="56.6379629240571" lon="-4.19966790475375">
+<ele>900.586445206233</ele>
+<name>CMairg076</name>
+</rtept>
+<rtept lat="56.6381122610642" lon="-4.19904873480374">
+<ele>892.908379893582</ele>
+<name>CMairg077</name>
+</rtept>
+<rtept lat="56.6379079946254" lon="-4.19779254083713">
+<ele>879.744150537099</ele>
+<name>CMairg078</name>
+</rtept>
+<rtept lat="56.6382260144314" lon="-4.1958132856358">
+<ele>868.240082577763</ele>
+<name>CMairg079</name>
+</rtept>
+<rtept lat="56.6395068837909" lon="-4.19380999456487">
+<ele>866.791388463416</ele>
+<name>CMairg080</name>
+</rtept>
+<rtept lat="56.6399139351808" lon="-4.19248651487074">
+<ele>869.776738392979</ele>
+<name>CMairg081</name>
+</rtept>
+<rtept lat="56.6401069305626" lon="-4.19010029415434">
+<ele>870.26687320467</ele>
+<name>CMairg082</name>
+</rtept>
+<rtept lat="56.6398054972367" lon="-4.18685203894868">
+<ele>871.693432183844</ele>
+<name>CMairg083</name>
+</rtept>
+<rtept lat="56.6399011540672" lon="-4.18211985022828">
+<ele>913.839397766489</ele>
+<name>CMairg084</name>
+</rtept>
+<rtept lat="56.6398979422518" lon="-4.179790761016">
+<ele>945.406568534513</ele>
+<name>CMairg085</name>
+</rtept>
+<rtept lat="56.6396139827566" lon="-4.17840444560103">
+<ele>961.632210877966</ele>
+<name>CMairg086</name>
+</rtept>
+<rtept lat="56.6381796883812" lon="-4.17517102780945">
+<ele>983.649389462067</ele>
+<name>CMairg087</name>
+</rtept>
+<rtept lat="56.6372767053121" lon="-4.17284738429394">
+<ele>1000.15487721969</ele>
+<name>CMairg088</name>
+</rtept>
+<rtept lat="56.6368622196376" lon="-4.16992407619482">
+<ele>989.486004889458</ele>
+<name>CMairg089</name>
+</rtept>
+<rtept lat="56.6368946412183" lon="-4.1669808037144">
+<ele>991.067541097665</ele>
+<name>CMairg090</name>
+</rtept>
+<rtept lat="56.6373953425447" lon="-4.16532004085348">
+<ele>990.767149644473</ele>
+<name>CMairg091</name>
+</rtept>
+<rtept lat="56.6377557395404" lon="-4.16159641190207">
+<ele>978.954548395004</ele>
+<name>CMairg092</name>
+</rtept>
+<rtept lat="56.6379973453748" lon="-4.15673579192623">
+<ele>970.271598183579</ele>
+<name>CMairg093</name>
+</rtept>
+<rtept lat="56.637531903719" lon="-4.15273666501217">
+<ele>980.140078564215</ele>
+<name>CMairg094</name>
+</rtept>
+<rtept lat="56.6364857531499" lon="-4.1499374460703">
+<ele>985.477717835267</ele>
+<name>CMairg095</name>
+</rtept>
+<rtept lat="56.6359045360054" lon="-4.14826063251961">
+<ele>1009.97060253285</ele>
+<name>CMairg096</name>
+</rtept>
+<rtept lat="56.6355950848728" lon="-4.14687326456366">
+<ele>1028.85963885028</ele>
+<name>CMairg097</name>
+</rtept>
+<rtept lat="56.6346895804194" lon="-4.14576027055592">
+<ele>1037.57809828233</ele>
+<name>CMairg098</name>
+</rtept>
+<rtept lat="56.6345016547961" lon="-4.14498483103008">
+<ele>1023.44494182328</ele>
+<name>CMairg099</name>
+</rtept>
+<rtept lat="56.6343679252169" lon="-4.14434944749865">
+<ele>1005.87175255909</ele>
+<name>CMairg100</name>
+</rtept>
+<rtept lat="56.6344779068026" lon="-4.14380779492457">
+<ele>998.964042512447</ele>
+<name>CMairg101</name>
+</rtept>
+<rtept lat="56.6347950714269" lon="-4.14365456987545">
+<ele>1001.17785048406</ele>
+<name>CMairg102</name>
+</rtept>
+<rtept lat="56.63464562377" lon="-4.1424703992423">
+<ele>972.615505078592</ele>
+<name>CMairg103</name>
+</rtept>
+<rtept lat="56.6340181607343" lon="-4.14128198125072">
+<ele>949.330419724179</ele>
+<name>CMairg104</name>
+</rtept>
+<rtept lat="56.6332647840751" lon="-4.13936738667928">
+<ele>937.878932185581</ele>
+<name>CMairg105</name>
+</rtept>
+<rtept lat="56.6321700618623" lon="-4.13754770151922">
+<ele>921.088217600284</ele>
+<name>CMairg106</name>
+</rtept>
+<rtept lat="56.6313536635355" lon="-4.13710205561139">
+<ele>906.425820246432</ele>
+<name>CMairg107</name>
+</rtept>
+<rtept lat="56.6285410185739" lon="-4.13714845332317">
+<ele>852.179399355884</ele>
+<name>CMairg108</name>
+</rtept>
+<rtept lat="56.6263681689961" lon="-4.13656912723057">
+<ele>846.057858374595</ele>
+<name>CMairg109</name>
+</rtept>
+<rtept lat="56.6251430635469" lon="-4.13574671962848">
+<ele>852.885551790039</ele>
+<name>CMairg110</name>
+</rtept>
+<rtept lat="56.6248571342389" lon="-4.13591314993859">
+<ele>858.69748398905</ele>
+<name>CMairg111</name>
+</rtept>
+<rtept lat="56.6228079848852" lon="-4.13508990377556">
+<ele>896.176833971619</ele>
+<name>CMairg112</name>
+</rtept>
+<rtept lat="56.6221206602913" lon="-4.1355531586766">
+<ele>903.197286057436</ele>
+<name>CMairg113</name>
+</rtept>
+<rtept lat="56.6217019549783" lon="-4.13497365095613">
+<ele>909.835411055047</ele>
+<name>CMairg114</name>
+</rtept>
+<rtept lat="56.6210681136186" lon="-4.13158484209063">
+<ele>945.775064512452</ele>
+<name>CMairg115</name>
+</rtept>
+<rtept lat="56.6206769685283" lon="-4.13018215141417">
+<ele>964.465696313222</ele>
+<name>CMairg116</name>
+</rtept>
+<rtept lat="56.620679154138" lon="-4.12863700256092">
+<ele>970.813664330844</ele>
+<name>CMairg117</name>
+</rtept>
+<rtept lat="56.6204241923242" lon="-4.12993481684836">
+<ele>964.66892397508</ele>
+<name>CMairg118</name>
+</rtept>
+<rtept lat="56.6201839749532" lon="-4.13183981013451">
+<ele>951.602925707408</ele>
+<name>CMairg119</name>
+</rtept>
+<rtept lat="56.6203434410664" lon="-4.13464591713001">
+<ele>947.19186356263</ele>
+<name>CMairg120</name>
+</rtept>
+<rtept lat="56.6213095277808" lon="-4.13710317536065">
+<ele>903.246384221186</ele>
+<name>CMairg121</name>
+</rtept>
+<rtept lat="56.6213364313818" lon="-4.14013824880043">
+<ele>875.365084029011</ele>
+<name>CMairg122</name>
+</rtept>
+<rtept lat="56.6213710321738" lon="-4.14324385823287">
+<ele>827.751538643053</ele>
+<name>CMairg123</name>
+</rtept>
+<rtept lat="56.6208740813652" lon="-4.14798521112042">
+<ele>769.926236511856</ele>
+<name>CMairg124</name>
+</rtept>
+<rtept lat="56.619457739752" lon="-4.15422585191468">
+<ele>736.659349769217</ele>
+<name>CMairg125</name>
+</rtept>
+<rtept lat="56.6183183634769" lon="-4.15753818169604">
+<ele>691.285697244586</ele>
+<name>CMairg126</name>
+</rtept>
+<rtept lat="56.6175118175412" lon="-4.15906665456304">
+<ele>665.395112362807</ele>
+<name>CMairg127</name>
+</rtept>
+<rtept lat="56.615935400868" lon="-4.16073361902818">
+<ele>638.968384221209</ele>
+<name>CMairg128</name>
+</rtept>
+<rtept lat="56.6148700762645" lon="-4.16411814130154">
+<ele>590.252900411349</ele>
+<name>CMairg129</name>
+</rtept>
+<rtept lat="56.6148333084136" lon="-4.16550788350377">
+<ele>556.612156498835</ele>
+<name>CMairg130</name>
+</rtept>
+<rtept lat="56.6145402466517" lon="-4.16788688579779">
+<ele>525.674084343934</ele>
+<name>CMairg131</name>
+</rtept>
+<rtept lat="56.6138330139402" lon="-4.17092658249416">
+<ele>473.586103188295</ele>
+<name>CMairg132</name>
+</rtept>
+<rtept lat="56.613525003757" lon="-4.17127396416994">
+<ele>459.198817429115</ele>
+<name>CMairg133</name>
+</rtept>
+<rtept lat="56.6134778032954" lon="-4.1732562791862">
+<ele>445.993387268568</ele>
+<name>CMairg134</name>
+</rtept>
+<rtept lat="56.6126590797848" lon="-4.17403060501954">
+<ele>407.8088226701</ele>
+<name>CMairg135</name>
+</rtept>
+<rtept lat="56.6124047583612" lon="-4.17634319221306">
+<ele>359.251809279924</ele>
+<name>CMairg136</name>
+</rtept>
+<rtept lat="56.611889654271" lon="-4.17702083046401">
+<ele>331.942195289452</ele>
+<name>CMairg137</name>
+</rtept>
+<rtept lat="56.611748807159" lon="-4.17787970714023">
+<ele>312.904505184237</ele>
+<name>CMairg138</name>
+</rtept>
+<rtept lat="56.6112570405305" lon="-4.17794265044895">
+<ele>296.538726866384</ele>
+<name>CMairg139</name>
+</rtept>
+<rtept lat="56.6111277638106" lon="-4.17814054120346">
+<ele>291.242966038264</ele>
+<name>CMairg140</name>
+</rtept>
+<rtept lat="56.6105775450118" lon="-4.17794915280123">
+<ele>276.72714063522</ele>
+<name>CMairg141</name>
+</rtept>
+<rtept lat="56.610463517333" lon="-4.17778940315452">
+<ele>274.762581958689</ele>
+<name>CMairg142</name>
+</rtept>
+<rtept lat="56.6100500394133" lon="-4.17800025811654">
+<ele>264.933007334266</ele>
+<name>CMairg143</name>
+</rtept>
+<rtept lat="56.6100014737157" lon="-4.17831034362402">
+<ele>263.781007334255</ele>
+<name>CMairg144</name>
+</rtept>
+<rtept lat="56.6096782845337" lon="-4.17829173115218">
+<ele>255.374908151152</ele>
+<name>CMairg145</name>
+</rtept>
+<rtept lat="56.6096415726808" lon="-4.17874589894661">
+<ele>252.202519787291</ele>
+<name>CMairg146</name>
+</rtept>
+<rtept lat="56.6093268156076" lon="-4.17906671825522">
+<ele>246.093244757858</ele>
+<name>CMairg147</name>
+</rtept>
+<rtept lat="56.609209513188" lon="-4.17878619448277">
+<ele>244.670666779835</ele>
+<name>CMairg148</name>
+</rtept>
+<rtept lat="56.6087967252665" lon="-4.1781366734188">
+<ele>235.842341643105</ele>
+<name>CMairg149</name>
+</rtept>
+<rtept lat="56.6086333504239" lon="-4.17704851379123">
+<ele>226.257500519529</ele>
+<name>CMairg150</name>
+</rtept>
+<rtept lat="56.6084999703474" lon="-4.17696750844307">
+<ele>223.497500519529</ele>
+<name>CMairg151</name>
+</rtept>
+<rtept lat="56.6083672988577" lon="-4.17633250668572">
+<ele>218.396580635873</ele>
+<name>CMairg152</name>
+</rtept>
+<rtept lat="56.6080810160841" lon="-4.17625900278102">
+<ele>214.543158792282</ele>
+<name>CMairg153</name>
+</rtept>
+<rtept lat="56.6079088032574" lon="-4.17608614477441">
+<ele>212.118192759049</ele>
+<name>CMairg154</name>
+</rtept>
+<rtept lat="56.6077994380626" lon="-4.1764301954472">
+<ele>211.801068051292</ele>
+<name>CMairg155</name>
+</rtept>
+<rtept lat="56.6074010790896" lon="-4.17634209649917">
+<ele>207.088753055921</ele>
+<name>CMairg156</name>
+</rtept>
+<rtept lat="56.6073032546607" lon="-4.17654015301695">
+<ele>206.021005240893</ele>
+<name>CMairg157</name>
+</rtept>
+<rtept lat="56.6068153253944" lon="-4.17566476205732">
+<ele>201.133089340463</ele>
+<name>CMairg158</name>
+</rtept>
+<rtept lat="56.6066241634026" lon="-4.17662653764122">
+<ele>197.168120794376</ele>
+<name>CMairg159</name>
+</rtept>
+<rtept lat="56.6066882057778" lon="-4.17728037337098">
+<ele>197.380599528797</ele>
+<name>CMairg160</name>
+</rtept>
+<rtept lat="56.6065302958683" lon="-4.17875407904897">
+<ele>197.321285251994</ele>
+<name>CMairg161</name>
+</rtept>
+<rtept lat="56.6063042539636" lon="-4.17944823511501">
+<ele>196.542146581353</ele>
+<name>CMairg162</name>
+</rtept>
+<rtept lat="56.6058328155974" lon="-4.18050463575294">
+<ele>191.372022796821</ele>
+<name>CMairg163</name>
+</rtept>
+<rtept lat="56.6055271320791" lon="-4.18215226580642">
+<ele>185.451706362492</ele>
+<name>CMairg164</name>
+</rtept>
+<rtept lat="56.6043601633065" lon="-4.18591719378016">
+<ele>179.670629967572</ele>
+<name>CMairg165</name>
+</rtept>
+<rtept lat="56.6034319463336" lon="-4.19004927381879">
+<ele>176.788933970263</ele>
+<name>CMairg166</name>
+</rtept>
+<rtept lat="56.6032142568312" lon="-4.19133685941659">
+<ele>177.518615102304</ele>
+<name>CMairg167</name>
+</rtept>
+<rtept lat="56.6029354033721" lon="-4.19181112611929">
+<ele>176.597185162013</ele>
+<name>CMairg168</name>
+</rtept>
+<rtept lat="56.6028938828788" lon="-4.1920254167882">
+<ele>176.655747902104</ele>
+<name>CMairg169</name>
+</rtept>
+</rte>
+</gpx>

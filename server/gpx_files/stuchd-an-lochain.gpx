@@ -1,0 +1,458 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="Walkhighlands">
+<metadata>
+	<desc>GPX file from Walkhighlands; file is copyright Walkhighlands and must not be publicly shared on other websites. Do not remove this notice.</desc>
+	<copyright author="Walkhighlands"><year>2019</year></copyright>
+</metadata>
+<rte>
+<name>Stuchd an Lochain</name>
+<rtept lat="56.585620366" lon="-4.42609736">
+<name>SaL001</name>
+</rtept>
+<rtept lat="56.585576438" lon="-4.426115223">
+<name>SaL002</name>
+</rtept>
+<rtept lat="56.585585048" lon="-4.426597996">
+<name>SaL003</name>
+</rtept>
+<rtept lat="56.585398453" lon="-4.427762489">
+<name>SaL004</name>
+</rtept>
+<rtept lat="56.584893953" lon="-4.427822484">
+<name>SaL005</name>
+</rtept>
+<rtept lat="56.584757437" lon="-4.427869661">
+<name>SaL006</name>
+</rtept>
+<rtept lat="56.584551115" lon="-4.428244614">
+<name>SaL007</name>
+</rtept>
+<rtept lat="56.583770852" lon="-4.428473446">
+<name>SaL008</name>
+</rtept>
+<rtept lat="56.583206529" lon="-4.428088102">
+<name>SaL009</name>
+</rtept>
+<rtept lat="56.583103331" lon="-4.428220972">
+<name>SaL010</name>
+</rtept>
+<rtept lat="56.583338909" lon="-4.428879687">
+<name>SaL011</name>
+</rtept>
+<rtept lat="56.583227841" lon="-4.429071623">
+<name>SaL012</name>
+</rtept>
+<rtept lat="56.583125611" lon="-4.429392831">
+<name>SaL013</name>
+</rtept>
+<rtept lat="56.5830048" lon="-4.429665537">
+<name>SaL014</name>
+</rtept>
+<rtept lat="56.582817377" lon="-4.429814155">
+<name>SaL015</name>
+</rtept>
+<rtept lat="56.582570996" lon="-4.429937608">
+<name>SaL016</name>
+</rtept>
+<rtept lat="56.582397646" lon="-4.429978377">
+<name>SaL017</name>
+</rtept>
+<rtept lat="56.582246205" lon="-4.430445379">
+<name>SaL018</name>
+</rtept>
+<rtept lat="56.582224674" lon="-4.430627465">
+<name>SaL019</name>
+</rtept>
+<rtept lat="56.582191052" lon="-4.430707435">
+<name>SaL020</name>
+</rtept>
+<rtept lat="56.581839124" lon="-4.431330836">
+<name>SaL021</name>
+</rtept>
+<rtept lat="56.581703517" lon="-4.431942599">
+<name>SaL022</name>
+</rtept>
+<rtept lat="56.581711949" lon="-4.432595751">
+<name>SaL023</name>
+</rtept>
+<rtept lat="56.581643274" lon="-4.433037022">
+<name>SaL024</name>
+</rtept>
+<rtept lat="56.581615577" lon="-4.433224788">
+<name>SaL025</name>
+</rtept>
+<rtept lat="56.581622649" lon="-4.433392278">
+<name>SaL026</name>
+</rtept>
+<rtept lat="56.581579788" lon="-4.433518095">
+<name>SaL027</name>
+</rtept>
+<rtept lat="56.581642989" lon="-4.433584869">
+<name>SaL028</name>
+</rtept>
+<rtept lat="56.581672119" lon="-4.434292396">
+<name>SaL029</name>
+</rtept>
+<rtept lat="56.581663192" lon="-4.434643819">
+<name>SaL030</name>
+</rtept>
+<rtept lat="56.581606678" lon="-4.435184387">
+<name>SaL031</name>
+</rtept>
+<rtept lat="56.581535773" lon="-4.435565814">
+<name>SaL032</name>
+</rtept>
+<rtept lat="56.581451733" lon="-4.435986442">
+<name>SaL033</name>
+</rtept>
+<rtept lat="56.58141759" lon="-4.4364762">
+<name>SaL034</name>
+</rtept>
+<rtept lat="56.581493243" lon="-4.437082846">
+<name>SaL035</name>
+</rtept>
+<rtept lat="56.581513401" lon="-4.43782332">
+<name>SaL036</name>
+</rtept>
+<rtept lat="56.58150354" lon="-4.438060877">
+<name>SaL037</name>
+</rtept>
+<rtept lat="56.581434357" lon="-4.438298808">
+<name>SaL038</name>
+</rtept>
+<rtept lat="56.58133304" lon="-4.438394105">
+<name>SaL039</name>
+</rtept>
+<rtept lat="56.581242216" lon="-4.438712867">
+<name>SaL040</name>
+</rtept>
+<rtept lat="56.581194136" lon="-4.438793475">
+<name>SaL041</name>
+</rtept>
+<rtept lat="56.580881785" lon="-4.438886998">
+<name>SaL042</name>
+</rtept>
+<rtept lat="56.580733557" lon="-4.438973018">
+<name>SaL043</name>
+</rtept>
+<rtept lat="56.580620721" lon="-4.439109344">
+<name>SaL044</name>
+</rtept>
+<rtept lat="56.580435222" lon="-4.43912332">
+<name>SaL045</name>
+</rtept>
+<rtept lat="56.580235639" lon="-4.439140022">
+<name>SaL046</name>
+</rtept>
+<rtept lat="56.580030066" lon="-4.43903099">
+<name>SaL047</name>
+</rtept>
+<rtept lat="56.579637665" lon="-4.439149218">
+<name>SaL048</name>
+</rtept>
+<rtept lat="56.57876684" lon="-4.43974322">
+<name>SaL049</name>
+</rtept>
+<rtept lat="56.578499328" lon="-4.439938361">
+<name>SaL050</name>
+</rtept>
+<rtept lat="56.577997404" lon="-4.44009884">
+<name>SaL051</name>
+</rtept>
+<rtept lat="56.577128519" lon="-4.440792415">
+<name>SaL052</name>
+</rtept>
+<rtept lat="56.576106849" lon="-4.440937">
+<name>SaL053</name>
+</rtept>
+<rtept lat="56.575881853" lon="-4.441928225">
+<name>SaL054</name>
+</rtept>
+<rtept lat="56.575835628" lon="-4.443842521">
+<name>SaL055</name>
+</rtept>
+<rtept lat="56.575737585" lon="-4.444314607">
+<name>SaL056</name>
+</rtept>
+<rtept lat="56.575736284" lon="-4.444469736">
+<name>SaL057</name>
+</rtept>
+<rtept lat="56.575638724" lon="-4.444629499">
+<name>SaL058</name>
+</rtept>
+<rtept lat="56.575350321" lon="-4.446155378">
+<name>SaL059</name>
+</rtept>
+<rtept lat="56.575223546" lon="-4.447083354">
+<name>SaL060</name>
+</rtept>
+<rtept lat="56.574250748" lon="-4.448426894">
+<name>SaL061</name>
+</rtept>
+<rtept lat="56.57408785" lon="-4.448980581">
+<name>SaL062</name>
+</rtept>
+<rtept lat="56.5725154351322" lon="-4.44987093617789">
+<ele>834.037515352011</ele>
+<name>SaL063</name>
+</rtept>
+<rtept lat="56.5716731526263" lon="-4.45042697874576">
+<ele>848.780238793039</ele>
+<name>SaL064</name>
+</rtept>
+<rtept lat="56.5699068395041" lon="-4.45112670263608">
+<ele>864.402483114195</ele>
+<name>SaL065</name>
+</rtept>
+<rtept lat="56.5691959631955" lon="-4.45299355522301">
+<ele>911.608415143514</ele>
+<name>SaL066</name>
+</rtept>
+<rtept lat="56.5687181284535" lon="-4.45784643758629">
+<ele>900.666682348394</ele>
+<name>SaL067</name>
+</rtept>
+<rtept lat="56.5677360257515" lon="-4.46262572271112">
+<ele>892.988192621922</ele>
+<name>SaL068</name>
+</rtept>
+<rtept lat="56.5681172502726" lon="-4.46492959554625">
+<ele>896.894515162063</ele>
+<name>SaL069</name>
+</rtept>
+<rtept lat="56.5694734878754" lon="-4.46904710545088">
+<ele>880.905676963425</ele>
+<name>SaL070</name>
+</rtept>
+<rtept lat="56.5706312624176" lon="-4.47070990903907">
+<ele>896.327292689514</ele>
+<name>SaL071</name>
+</rtept>
+<rtept lat="56.5709964355521" lon="-4.47078582792929">
+<ele>910.716572315693</ele>
+<name>SaL072</name>
+</rtept>
+<rtept lat="56.5706312624176" lon="-4.47070990903907">
+<ele>896.327292689514</ele>
+<name>SaL073</name>
+</rtept>
+<rtept lat="56.5694734878754" lon="-4.46904710545088">
+<ele>880.905676963425</ele>
+<name>SaL074</name>
+</rtept>
+<rtept lat="56.5681172502726" lon="-4.46492959554625">
+<ele>896.894515162063</ele>
+<name>SaL075</name>
+</rtept>
+<rtept lat="56.5677360257515" lon="-4.46262572271112">
+<ele>892.988192621922</ele>
+<name>SaL076</name>
+</rtept>
+<rtept lat="56.5687181284535" lon="-4.45784643758629">
+<ele>900.666682348394</ele>
+<name>SaL077</name>
+</rtept>
+<rtept lat="56.5691959631955" lon="-4.45299355522301">
+<ele>911.608415143514</ele>
+<name>SaL078</name>
+</rtept>
+<rtept lat="56.5699068395041" lon="-4.45112670263608">
+<ele>864.402483114195</ele>
+<name>SaL079</name>
+</rtept>
+<rtept lat="56.5716731526263" lon="-4.45042697874576">
+<ele>848.780238793039</ele>
+<name>SaL080</name>
+</rtept>
+<rtept lat="56.5725154351322" lon="-4.44987093617789">
+<ele>834.037515352011</ele>
+<name>SaL081</name>
+</rtept>
+<rtept lat="56.57408785" lon="-4.448980581">
+<name>SaL082</name>
+</rtept>
+<rtept lat="56.574250748" lon="-4.448426894">
+<name>SaL083</name>
+</rtept>
+<rtept lat="56.575223546" lon="-4.447083354">
+<name>SaL084</name>
+</rtept>
+<rtept lat="56.575350321" lon="-4.446155378">
+<name>SaL085</name>
+</rtept>
+<rtept lat="56.575638724" lon="-4.444629499">
+<name>SaL086</name>
+</rtept>
+<rtept lat="56.575736284" lon="-4.444469736">
+<name>SaL087</name>
+</rtept>
+<rtept lat="56.575737585" lon="-4.444314607">
+<name>SaL088</name>
+</rtept>
+<rtept lat="56.575835628" lon="-4.443842521">
+<name>SaL089</name>
+</rtept>
+<rtept lat="56.575881853" lon="-4.441928225">
+<name>SaL090</name>
+</rtept>
+<rtept lat="56.576106849" lon="-4.440937">
+<name>SaL091</name>
+</rtept>
+<rtept lat="56.577128519" lon="-4.440792415">
+<name>SaL092</name>
+</rtept>
+<rtept lat="56.577997404" lon="-4.44009884">
+<name>SaL093</name>
+</rtept>
+<rtept lat="56.578499328" lon="-4.439938361">
+<name>SaL094</name>
+</rtept>
+<rtept lat="56.57876684" lon="-4.43974322">
+<name>SaL095</name>
+</rtept>
+<rtept lat="56.579637665" lon="-4.439149218">
+<name>SaL096</name>
+</rtept>
+<rtept lat="56.580030066" lon="-4.43903099">
+<name>SaL097</name>
+</rtept>
+<rtept lat="56.580235639" lon="-4.439140022">
+<name>SaL098</name>
+</rtept>
+<rtept lat="56.580435222" lon="-4.43912332">
+<name>SaL099</name>
+</rtept>
+<rtept lat="56.580620721" lon="-4.439109344">
+<name>SaL100</name>
+</rtept>
+<rtept lat="56.580733557" lon="-4.438973018">
+<name>SaL101</name>
+</rtept>
+<rtept lat="56.580881785" lon="-4.438886998">
+<name>SaL102</name>
+</rtept>
+<rtept lat="56.581194136" lon="-4.438793475">
+<name>SaL103</name>
+</rtept>
+<rtept lat="56.581242216" lon="-4.438712867">
+<name>SaL104</name>
+</rtept>
+<rtept lat="56.58133304" lon="-4.438394105">
+<name>SaL105</name>
+</rtept>
+<rtept lat="56.581434357" lon="-4.438298808">
+<name>SaL106</name>
+</rtept>
+<rtept lat="56.58150354" lon="-4.438060877">
+<name>SaL107</name>
+</rtept>
+<rtept lat="56.581513401" lon="-4.43782332">
+<name>SaL108</name>
+</rtept>
+<rtept lat="56.581493243" lon="-4.437082846">
+<name>SaL109</name>
+</rtept>
+<rtept lat="56.58141759" lon="-4.4364762">
+<name>SaL110</name>
+</rtept>
+<rtept lat="56.581451733" lon="-4.435986442">
+<name>SaL111</name>
+</rtept>
+<rtept lat="56.581535773" lon="-4.435565814">
+<name>SaL112</name>
+</rtept>
+<rtept lat="56.581606678" lon="-4.435184387">
+<name>SaL113</name>
+</rtept>
+<rtept lat="56.581663192" lon="-4.434643819">
+<name>SaL114</name>
+</rtept>
+<rtept lat="56.581672119" lon="-4.434292396">
+<name>SaL115</name>
+</rtept>
+<rtept lat="56.581642989" lon="-4.433584869">
+<name>SaL116</name>
+</rtept>
+<rtept lat="56.581579788" lon="-4.433518095">
+<name>SaL117</name>
+</rtept>
+<rtept lat="56.581622649" lon="-4.433392278">
+<name>SaL118</name>
+</rtept>
+<rtept lat="56.581615577" lon="-4.433224788">
+<name>SaL119</name>
+</rtept>
+<rtept lat="56.581643274" lon="-4.433037022">
+<name>SaL120</name>
+</rtept>
+<rtept lat="56.581711949" lon="-4.432595751">
+<name>SaL121</name>
+</rtept>
+<rtept lat="56.581703517" lon="-4.431942599">
+<name>SaL122</name>
+</rtept>
+<rtept lat="56.581839124" lon="-4.431330836">
+<name>SaL123</name>
+</rtept>
+<rtept lat="56.582191052" lon="-4.430707435">
+<name>SaL124</name>
+</rtept>
+<rtept lat="56.582224674" lon="-4.430627465">
+<name>SaL125</name>
+</rtept>
+<rtept lat="56.582246205" lon="-4.430445379">
+<name>SaL126</name>
+</rtept>
+<rtept lat="56.582397646" lon="-4.429978377">
+<name>SaL127</name>
+</rtept>
+<rtept lat="56.582570996" lon="-4.429937608">
+<name>SaL128</name>
+</rtept>
+<rtept lat="56.582817377" lon="-4.429814155">
+<name>SaL129</name>
+</rtept>
+<rtept lat="56.5830048" lon="-4.429665537">
+<name>SaL130</name>
+</rtept>
+<rtept lat="56.583125611" lon="-4.429392831">
+<name>SaL131</name>
+</rtept>
+<rtept lat="56.583227841" lon="-4.429071623">
+<name>SaL132</name>
+</rtept>
+<rtept lat="56.583338909" lon="-4.428879687">
+<name>SaL133</name>
+</rtept>
+<rtept lat="56.583103331" lon="-4.428220972">
+<name>SaL134</name>
+</rtept>
+<rtept lat="56.583206529" lon="-4.428088102">
+<name>SaL135</name>
+</rtept>
+<rtept lat="56.583770852" lon="-4.428473446">
+<name>SaL136</name>
+</rtept>
+<rtept lat="56.584551115" lon="-4.428244614">
+<name>SaL137</name>
+</rtept>
+<rtept lat="56.584757437" lon="-4.427869661">
+<name>SaL138</name>
+</rtept>
+<rtept lat="56.584893953" lon="-4.427822484">
+<name>SaL139</name>
+</rtept>
+<rtept lat="56.585398453" lon="-4.427762489">
+<name>SaL140</name>
+</rtept>
+<rtept lat="56.585585048" lon="-4.426597996">
+<name>SaL141</name>
+</rtept>
+<rtept lat="56.585576438" lon="-4.426115223">
+<name>SaL142</name>
+</rtept>
+<rtept lat="56.585620366" lon="-4.42609736">
+<name>SaL143</name>
+</rtept>
+</rte>
+</gpx>

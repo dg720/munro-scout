@@ -1,0 +1,886 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="Walkhighlands">
+<metadata>
+	<desc>GPX file from Walkhighlands; file is copyright Walkhighlands and must not be publicly shared on other websites. Do not remove this notice.</desc>
+	<copyright author="Walkhighlands"><year>2019</year></copyright>
+</metadata>
+<rte>
+<name>Beinn a&#039; Bheithir via Schoolhouse Ridge</name>
+<rtept lat="56.678349" lon="-5.129945">
+<ele>9.6121826171875</ele>
+<name>Bheith001</name>
+</rtept>
+<rtept lat="56.678062" lon="-5.130135">
+<ele>11.5734252929688</ele>
+<name>Bheith002</name>
+</rtept>
+<rtept lat="56.677859" lon="-5.12992">
+<ele>8.23382568359375</ele>
+<name>Bheith003</name>
+</rtept>
+<rtept lat="56.67715" lon="-5.130902">
+<ele>10.4063110351562</ele>
+<name>Bheith004</name>
+</rtept>
+<rtept lat="56.675568" lon="-5.132667">
+<ele>11.4202270507812</ele>
+<name>Bheith005</name>
+</rtept>
+<rtept lat="56.674315" lon="-5.133263">
+<ele>16.2916259765625</ele>
+<name>Bheith006</name>
+</rtept>
+<rtept lat="56.67412" lon="-5.133553">
+<ele>17.380126953125</ele>
+<name>Bheith007</name>
+</rtept>
+<rtept lat="56.673881" lon="-5.134284">
+<ele>16.0005493164062</ele>
+<name>Bheith008</name>
+</rtept>
+<rtept lat="56.673559" lon="-5.134178">
+<ele>17.55078125</ele>
+<name>Bheith009</name>
+</rtept>
+<rtept lat="56.671355" lon="-5.134318">
+<ele>35.8677978515625</ele>
+<name>Bheith010</name>
+</rtept>
+<rtept lat="56.671191" lon="-5.134438">
+<ele>37.9402465820312</ele>
+<name>Bheith011</name>
+</rtept>
+<rtept lat="56.670795" lon="-5.13427">
+<ele>38.9741821289062</ele>
+<name>Bheith012</name>
+</rtept>
+<rtept lat="56.670163" lon="-5.134398">
+<ele>44.9967041015625</ele>
+<name>Bheith013</name>
+</rtept>
+<rtept lat="56.669613" lon="-5.134156">
+<ele>48.4025268554688</ele>
+<name>Bheith014</name>
+</rtept>
+<rtept lat="56.668968" lon="-5.134267">
+<ele>58.9973754882812</ele>
+<name>Bheith015</name>
+</rtept>
+<rtept lat="56.66841" lon="-5.134664">
+<ele>65.7889404296875</ele>
+<name>Bheith016</name>
+</rtept>
+<rtept lat="56.667928" lon="-5.13477">
+<ele>75.568115234375</ele>
+<name>Bheith017</name>
+</rtept>
+<rtept lat="56.666568" lon="-5.135533">
+<ele>99.39501953125</ele>
+<name>Bheith018</name>
+</rtept>
+<rtept lat="56.66615" lon="-5.136063">
+<ele>106.0712890625</ele>
+<name>Bheith019</name>
+</rtept>
+<rtept lat="56.664214" lon="-5.136254">
+<ele>130.869262695312</ele>
+<name>Bheith020</name>
+</rtept>
+<rtept lat="56.66408" lon="-5.136964">
+<ele>146.391784667969</ele>
+<name>Bheith021</name>
+</rtept>
+<rtept lat="56.664172" lon="-5.137222">
+<ele>153.170043945312</ele>
+<name>Bheith022</name>
+</rtept>
+<rtept lat="56.663709" lon="-5.137859">
+<ele>165.82177734375</ele>
+<name>Bheith023</name>
+</rtept>
+<rtept lat="56.66351" lon="-5.139289">
+<ele>193.577209472656</ele>
+<name>Bheith024</name>
+</rtept>
+<rtept lat="56.663132" lon="-5.140026">
+<ele>211.928894042969</ele>
+<name>Bheith025</name>
+</rtept>
+<rtept lat="56.663046" lon="-5.140606">
+<ele>229.178344726562</ele>
+<name>Bheith026</name>
+</rtept>
+<rtept lat="56.663134" lon="-5.140861">
+<ele>237.559875488281</ele>
+<name>Bheith027</name>
+</rtept>
+<rtept lat="56.66309" lon="-5.141278">
+<ele>252.155639648438</ele>
+<name>Bheith028</name>
+</rtept>
+<rtept lat="56.662896" lon="-5.141747">
+<ele>266.839172363281</ele>
+<name>Bheith029</name>
+</rtept>
+<rtept lat="56.662883" lon="-5.142338">
+<ele>288.517456054688</ele>
+<name>Bheith030</name>
+</rtept>
+<rtept lat="56.662717" lon="-5.142667">
+<ele>296.3994140625</ele>
+<name>Bheith031</name>
+</rtept>
+<rtept lat="56.662649" lon="-5.143668">
+<ele>317.012573242188</ele>
+<name>Bheith032</name>
+</rtept>
+<rtept lat="56.662442" lon="-5.144138">
+<ele>326.099853515625</ele>
+<name>Bheith033</name>
+</rtept>
+<rtept lat="56.662399" lon="-5.144573">
+<ele>343.080200195312</ele>
+<name>Bheith034</name>
+</rtept>
+<rtept lat="56.662106" lon="-5.144985">
+<ele>359.256408691406</ele>
+<name>Bheith035</name>
+</rtept>
+<rtept lat="56.66216" lon="-5.145281">
+<ele>369.428466796875</ele>
+<name>Bheith036</name>
+</rtept>
+<rtept lat="56.662014" lon="-5.14543">
+<ele>367.983520507812</ele>
+<name>Bheith037</name>
+</rtept>
+<rtept lat="56.662026" lon="-5.145581">
+<ele>376.590209960938</ele>
+<name>Bheith038</name>
+</rtept>
+<rtept lat="56.661634" lon="-5.146348">
+<ele>411.90380859375</ele>
+<name>Bheith039</name>
+</rtept>
+<rtept lat="56.6616" lon="-5.147058">
+<ele>427.868041992188</ele>
+<name>Bheith040</name>
+</rtept>
+<rtept lat="56.660843" lon="-5.148194">
+<ele>461.688049316406</ele>
+<name>Bheith041</name>
+</rtept>
+<rtept lat="56.66004" lon="-5.149954">
+<ele>517.47802734375</ele>
+<name>Bheith042</name>
+</rtept>
+<rtept lat="56.660212" lon="-5.15029">
+<ele>533.078247070312</ele>
+<name>Bheith043</name>
+</rtept>
+<rtept lat="56.66037" lon="-5.150334">
+<ele>534.4716796875</ele>
+<name>Bheith044</name>
+</rtept>
+<rtept lat="56.660326" lon="-5.150775">
+<ele>548.255859375</ele>
+<name>Bheith045</name>
+</rtept>
+<rtept lat="56.65999" lon="-5.151657">
+<ele>577.752075195312</ele>
+<name>Bheith046</name>
+</rtept>
+<rtept lat="56.658972" lon="-5.156099">
+<ele>727.358154296875</ele>
+<name>Bheith047</name>
+</rtept>
+<rtept lat="56.658678" lon="-5.156767">
+<ele>762.368896484375</ele>
+<name>Bheith048</name>
+</rtept>
+<rtept lat="56.658542" lon="-5.158474">
+<ele>835.56201171875</ele>
+<name>Bheith049</name>
+</rtept>
+<rtept lat="56.658166" lon="-5.159771">
+<ele>870.54638671875</ele>
+<name>Bheith050</name>
+</rtept>
+<rtept lat="56.657621" lon="-5.160735">
+<ele>903.236938476562</ele>
+<name>Bheith051</name>
+</rtept>
+<rtept lat="56.656553" lon="-5.161816">
+<ele>941.735961914062</ele>
+<name>Bheith052</name>
+</rtept>
+<rtept lat="56.655823" lon="-5.162268">
+<ele>937.279296875</ele>
+<name>Bheith053</name>
+</rtept>
+<rtept lat="56.655604" lon="-5.162726">
+<ele>930.09619140625</ele>
+<name>Bheith054</name>
+</rtept>
+<rtept lat="56.655281" lon="-5.162956">
+<ele>918.890380859375</ele>
+<name>Bheith055</name>
+</rtept>
+<rtept lat="56.655152" lon="-5.163465">
+<ele>909.951171875</ele>
+<name>Bheith056</name>
+</rtept>
+<rtept lat="56.654915" lon="-5.163631">
+<ele>903.445190429688</ele>
+<name>Bheith057</name>
+</rtept>
+<rtept lat="56.654018" lon="-5.164978">
+<ele>910.030029296875</ele>
+<name>Bheith058</name>
+</rtept>
+<rtept lat="56.653709" lon="-5.165688">
+<ele>925.5673828125</ele>
+<name>Bheith059</name>
+</rtept>
+<rtept lat="56.653486" lon="-5.166538">
+<ele>941.43408203125</ele>
+<name>Bheith060</name>
+</rtept>
+<rtept lat="56.653399" lon="-5.167115">
+<ele>950.351318359375</ele>
+<name>Bheith061</name>
+</rtept>
+<rtept lat="56.653404" lon="-5.168">
+<ele>960.34814453125</ele>
+<name>Bheith062</name>
+</rtept>
+<rtept lat="56.65353" lon="-5.169858">
+<ele>986.900268554688</ele>
+<name>Bheith063</name>
+</rtept>
+<rtept lat="56.653779" lon="-5.170764">
+<ele>1011.09826660156</ele>
+<name>Bheith064</name>
+</rtept>
+<rtept lat="56.653781" lon="-5.171341">
+<ele>1018.88830566406</ele>
+<name>Bheith065</name>
+</rtept>
+<rtept lat="56.654003" lon="-5.171541">
+<ele>1026.41088867188</ele>
+<name>Bheith066</name>
+</rtept>
+<rtept lat="56.65392" lon="-5.171511">
+<ele>1026.28051757812</ele>
+<name>Bheith067</name>
+</rtept>
+<rtept lat="56.653328" lon="-5.172711">
+<ele>996.679443359375</ele>
+<name>Bheith068</name>
+</rtept>
+<rtept lat="56.653338" lon="-5.172859">
+<ele>995.85205078125</ele>
+<name>Bheith069</name>
+</rtept>
+<rtept lat="56.652603" lon="-5.174543">
+<ele>955.912353515625</ele>
+<name>Bheith070</name>
+</rtept>
+<rtept lat="56.652437" lon="-5.175389">
+<ele>937.411499023438</ele>
+<name>Bheith071</name>
+</rtept>
+<rtept lat="56.651702" lon="-5.177045">
+<ele>898.187255859375</ele>
+<name>Bheith072</name>
+</rtept>
+<rtept lat="56.651351" lon="-5.178163">
+<ele>866.034545898438</ele>
+<name>Bheith073</name>
+</rtept>
+<rtept lat="56.651174" lon="-5.179158">
+<ele>855.020263671875</ele>
+<name>Bheith074</name>
+</rtept>
+<rtept lat="56.650962" lon="-5.179432">
+<ele>840.19580078125</ele>
+<name>Bheith075</name>
+</rtept>
+<rtept lat="56.650658" lon="-5.180558">
+<ele>827.377075195312</ele>
+<name>Bheith076</name>
+</rtept>
+<rtept lat="56.650366" lon="-5.181087">
+<ele>820.189208984375</ele>
+<name>Bheith077</name>
+</rtept>
+<rtept lat="56.650278" lon="-5.182106">
+<ele>810.714111328125</ele>
+<name>Bheith078</name>
+</rtept>
+<rtept lat="56.649813" lon="-5.183697">
+<ele>797.074829101562</ele>
+<name>Bheith079</name>
+</rtept>
+<rtept lat="56.649908" lon="-5.184566">
+<ele>788.446044921875</ele>
+<name>Bheith080</name>
+</rtept>
+<rtept lat="56.649826" lon="-5.185244">
+<ele>772.803955078125</ele>
+<name>Bheith081</name>
+</rtept>
+<rtept lat="56.649938" lon="-5.185468">
+<ele>762.377197265625</ele>
+<name>Bheith082</name>
+</rtept>
+<rtept lat="56.649884" lon="-5.185751">
+<ele>757.238891601562</ele>
+<name>Bheith083</name>
+</rtept>
+<rtept lat="56.650114" lon="-5.186555">
+<ele>765.287475585938</ele>
+<name>Bheith084</name>
+</rtept>
+<rtept lat="56.650647" lon="-5.189342">
+<ele>844.2275390625</ele>
+<name>Bheith085</name>
+</rtept>
+<rtept lat="56.650537" lon="-5.190178">
+<ele>855.740966796875</ele>
+<name>Bheith086</name>
+</rtept>
+<rtept lat="56.650548" lon="-5.191214">
+<ele>870.436645507812</ele>
+<name>Bheith087</name>
+</rtept>
+<rtept lat="56.650887" lon="-5.193116">
+<ele>922.76123046875</ele>
+<name>Bheith088</name>
+</rtept>
+<rtept lat="56.650794" lon="-5.193986">
+<ele>932.529296875</ele>
+<name>Bheith089</name>
+</rtept>
+<rtept lat="56.650589" lon="-5.194665">
+<ele>927.012939453125</ele>
+<name>Bheith090</name>
+</rtept>
+<rtept lat="56.650342" lon="-5.196257">
+<ele>945.540283203125</ele>
+<name>Bheith091</name>
+</rtept>
+<rtept lat="56.650341" lon="-5.19669">
+<ele>953.236694335938</ele>
+<name>Bheith092</name>
+</rtept>
+<rtept lat="56.650425" lon="-5.196661">
+<ele>956.36279296875</ele>
+<name>Bheith093</name>
+</rtept>
+<rtept lat="56.650475" lon="-5.19695">
+<ele>963.227294921875</ele>
+<name>Bheith094</name>
+</rtept>
+<rtept lat="56.650654" lon="-5.19713">
+<ele>980.317626953125</ele>
+<name>Bheith095</name>
+</rtept>
+<rtept lat="56.650448" lon="-5.197873">
+<ele>996.852416992188</ele>
+<name>Bheith096</name>
+</rtept>
+<rtept lat="56.650431" lon="-5.199159">
+<ele>996.971069335938</ele>
+<name>Bheith097</name>
+</rtept>
+<rtept lat="56.650415" lon="-5.198289">
+<ele>999.473388671875</ele>
+<name>Bheith098</name>
+</rtept>
+<rtept lat="56.650665" lon="-5.197101">
+<ele>982.603759765625</ele>
+<name>Bheith099</name>
+</rtept>
+<rtept lat="56.650343" lon="-5.196536">
+<ele>951.50341796875</ele>
+<name>Bheith100</name>
+</rtept>
+<rtept lat="56.650338" lon="-5.196244">
+<ele>947.1962890625</ele>
+<name>Bheith101</name>
+</rtept>
+<rtept lat="56.650895" lon="-5.193311">
+<ele>927.997802734375</ele>
+<name>Bheith102</name>
+</rtept>
+<rtept lat="56.650726" lon="-5.192335">
+<ele>902.202880859375</ele>
+<name>Bheith103</name>
+</rtept>
+<rtept lat="56.650765" lon="-5.192039">
+<ele>893.01123046875</ele>
+<name>Bheith104</name>
+</rtept>
+<rtept lat="56.650652" lon="-5.191824">
+<ele>885.01611328125</ele>
+<name>Bheith105</name>
+</rtept>
+<rtept lat="56.650522" lon="-5.190989">
+<ele>868.328002929688</ele>
+<name>Bheith106</name>
+</rtept>
+<rtept lat="56.650559" lon="-5.189981">
+<ele>858.4794921875</ele>
+<name>Bheith107</name>
+</rtept>
+<rtept lat="56.650675" lon="-5.189415">
+<ele>851.521484375</ele>
+<name>Bheith108</name>
+</rtept>
+<rtept lat="56.65055" lon="-5.18867">
+<ele>829.59375</ele>
+<name>Bheith109</name>
+</rtept>
+<rtept lat="56.650391" lon="-5.188396">
+<ele>819.946411132812</ele>
+<name>Bheith110</name>
+</rtept>
+<rtept lat="56.650413" lon="-5.188109">
+<ele>815.522705078125</ele>
+<name>Bheith111</name>
+</rtept>
+<rtept lat="56.650085" lon="-5.186415">
+<ele>773.605712890625</ele>
+<name>Bheith112</name>
+</rtept>
+<rtept lat="56.650333" lon="-5.185473">
+<ele>755.331787109375</ele>
+<name>Bheith113</name>
+</rtept>
+<rtept lat="56.650648" lon="-5.185407">
+<ele>752.120483398438</ele>
+<name>Bheith114</name>
+</rtept>
+<rtept lat="56.650872" lon="-5.185585">
+<ele>737.758911132812</ele>
+<name>Bheith115</name>
+</rtept>
+<rtept lat="56.651028" lon="-5.185936">
+<ele>725.447021484375</ele>
+<name>Bheith116</name>
+</rtept>
+<rtept lat="56.651272" lon="-5.185988">
+<ele>708.126831054688</ele>
+<name>Bheith117</name>
+</rtept>
+<rtept lat="56.651636" lon="-5.185583">
+<ele>679.899047851562</ele>
+<name>Bheith118</name>
+</rtept>
+<rtept lat="56.651792" lon="-5.185648">
+<ele>679.294921875</ele>
+<name>Bheith119</name>
+</rtept>
+<rtept lat="56.651768" lon="-5.185369">
+<ele>676.071533203125</ele>
+<name>Bheith120</name>
+</rtept>
+<rtept lat="56.651861" lon="-5.185117">
+<ele>666.27587890625</ele>
+<name>Bheith121</name>
+</rtept>
+<rtept lat="56.652248" lon="-5.185137">
+<ele>651.761474609375</ele>
+<name>Bheith122</name>
+</rtept>
+<rtept lat="56.652278" lon="-5.184995">
+<ele>644.23193359375</ele>
+<name>Bheith123</name>
+</rtept>
+<rtept lat="56.652507" lon="-5.185162">
+<ele>630.787109375</ele>
+<name>Bheith124</name>
+</rtept>
+<rtept lat="56.652753" lon="-5.185123">
+<ele>621.428466796875</ele>
+<name>Bheith125</name>
+</rtept>
+<rtept lat="56.653066" lon="-5.184846">
+<ele>609.138671875</ele>
+<name>Bheith126</name>
+</rtept>
+<rtept lat="56.653551" lon="-5.184732">
+<ele>591.72216796875</ele>
+<name>Bheith127</name>
+</rtept>
+<rtept lat="56.653741" lon="-5.184454">
+<ele>586.599365234375</ele>
+<name>Bheith128</name>
+</rtept>
+<rtept lat="56.653715" lon="-5.184304">
+<ele>586.032104492188</ele>
+<name>Bheith129</name>
+</rtept>
+<rtept lat="56.654586" lon="-5.184022">
+<ele>567.193359375</ele>
+<name>Bheith130</name>
+</rtept>
+<rtept lat="56.655591" lon="-5.184066">
+<ele>565.834594726562</ele>
+<name>Bheith131</name>
+</rtept>
+<rtept lat="56.655591" lon="-5.183913">
+<ele>561.887451171875</ele>
+<name>Bheith132</name>
+</rtept>
+<rtept lat="56.655758" lon="-5.183912">
+<ele>552.895141601562</ele>
+<name>Bheith133</name>
+</rtept>
+<rtept lat="56.656323" lon="-5.183328">
+<ele>530.7861328125</ele>
+<name>Bheith134</name>
+</rtept>
+<rtept lat="56.656772" lon="-5.183347">
+<ele>533.341552734375</ele>
+<name>Bheith135</name>
+</rtept>
+<rtept lat="56.658536" lon="-5.182818">
+<ele>490.111083984375</ele>
+<name>Bheith136</name>
+</rtept>
+<rtept lat="56.659034" lon="-5.182393">
+<ele>487.307861328125</ele>
+<name>Bheith137</name>
+</rtept>
+<rtept lat="56.65954" lon="-5.18104">
+<ele>494.39111328125</ele>
+<name>Bheith138</name>
+</rtept>
+<rtept lat="56.660184" lon="-5.180987">
+<ele>493.84814453125</ele>
+<name>Bheith139</name>
+</rtept>
+<rtept lat="56.660573" lon="-5.181197">
+<ele>482.395629882812</ele>
+<name>Bheith140</name>
+</rtept>
+<rtept lat="56.661144" lon="-5.181092">
+<ele>472.3154296875</ele>
+<name>Bheith141</name>
+</rtept>
+<rtept lat="56.661621" lon="-5.181193">
+<ele>462.876342773438</ele>
+<name>Bheith142</name>
+</rtept>
+<rtept lat="56.662158" lon="-5.181677">
+<ele>441.021179199219</ele>
+<name>Bheith143</name>
+</rtept>
+<rtept lat="56.662307" lon="-5.181568">
+<ele>440.913208007812</ele>
+<name>Bheith144</name>
+</rtept>
+<rtept lat="56.662629" lon="-5.181746">
+<ele>437.09033203125</ele>
+<name>Bheith145</name>
+</rtept>
+<rtept lat="56.662873" lon="-5.181691">
+<ele>433.23095703125</ele>
+<name>Bheith146</name>
+</rtept>
+<rtept lat="56.664447" lon="-5.18271">
+<ele>401.899536132812</ele>
+<name>Bheith147</name>
+</rtept>
+<rtept lat="56.665542" lon="-5.183043">
+<ele>385.391052246094</ele>
+<name>Bheith148</name>
+</rtept>
+<rtept lat="56.666665" lon="-5.184228">
+<ele>323.763000488281</ele>
+<name>Bheith149</name>
+</rtept>
+<rtept lat="56.66643" lon="-5.18483">
+<ele>306.559936523438</ele>
+<name>Bheith150</name>
+</rtept>
+<rtept lat="56.666313" lon="-5.185519">
+<ele>299.934753417969</ele>
+<name>Bheith151</name>
+</rtept>
+<rtept lat="56.665955" lon="-5.186291">
+<ele>289.735595703125</ele>
+<name>Bheith152</name>
+</rtept>
+<rtept lat="56.666014" lon="-5.186415">
+<ele>292.138061523438</ele>
+<name>Bheith153</name>
+</rtept>
+<rtept lat="56.666652" lon="-5.186415">
+<ele>283.142700195312</ele>
+<name>Bheith154</name>
+</rtept>
+<rtept lat="56.667817" lon="-5.18712">
+<ele>248.791931152344</ele>
+<name>Bheith155</name>
+</rtept>
+<rtept lat="56.66817" lon="-5.18676">
+<ele>237.061218261719</ele>
+<name>Bheith156</name>
+</rtept>
+<rtept lat="56.668987" lon="-5.187334">
+<ele>229.867614746094</ele>
+<name>Bheith157</name>
+</rtept>
+<rtept lat="56.669691" lon="-5.186079">
+<ele>215.456237792969</ele>
+<name>Bheith158</name>
+</rtept>
+<rtept lat="56.670159" lon="-5.185837">
+<ele>208.817626953125</ele>
+<name>Bheith159</name>
+</rtept>
+<rtept lat="56.670553" lon="-5.185348">
+<ele>209.6494140625</ele>
+<name>Bheith160</name>
+</rtept>
+<rtept lat="56.672703" lon="-5.184537">
+<ele>192.623291015625</ele>
+<name>Bheith161</name>
+</rtept>
+<rtept lat="56.674941" lon="-5.184358">
+<ele>178.583312988281</ele>
+<name>Bheith162</name>
+</rtept>
+<rtept lat="56.675703" lon="-5.184736">
+<ele>167.278991699219</ele>
+<name>Bheith163</name>
+</rtept>
+<rtept lat="56.67748" lon="-5.185154">
+<ele>155.623046875</ele>
+<name>Bheith164</name>
+</rtept>
+<rtept lat="56.67842" lon="-5.18455">
+<ele>142.82861328125</ele>
+<name>Bheith165</name>
+</rtept>
+<rtept lat="56.679055" lon="-5.184529">
+<ele>135.1640625</ele>
+<name>Bheith166</name>
+</rtept>
+<rtept lat="56.679279" lon="-5.184367">
+<ele>132.104614257812</ele>
+<name>Bheith167</name>
+</rtept>
+<rtept lat="56.679707" lon="-5.182918">
+<ele>127.291320800781</ele>
+<name>Bheith168</name>
+</rtept>
+<rtept lat="56.680045" lon="-5.182496">
+<ele>128.720153808594</ele>
+<name>Bheith169</name>
+</rtept>
+<rtept lat="56.680187" lon="-5.181822">
+<ele>122.903442382812</ele>
+<name>Bheith170</name>
+</rtept>
+<rtept lat="56.680608" lon="-5.18092">
+<ele>111.701416015625</ele>
+<name>Bheith171</name>
+</rtept>
+<rtept lat="56.680841" lon="-5.180134">
+<ele>107.388366699219</ele>
+<name>Bheith172</name>
+</rtept>
+<rtept lat="56.681367" lon="-5.179251">
+<ele>101.445678710938</ele>
+<name>Bheith173</name>
+</rtept>
+<rtept lat="56.681661" lon="-5.178508">
+<ele>95.072998046875</ele>
+<name>Bheith174</name>
+</rtept>
+<rtept lat="56.682866" lon="-5.177108">
+<ele>85.8160400390625</ele>
+<name>Bheith175</name>
+</rtept>
+<rtept lat="56.683209" lon="-5.175738">
+<ele>75.0586547851562</ele>
+<name>Bheith176</name>
+</rtept>
+<rtept lat="56.683163" lon="-5.174014">
+<ele>68.117431640625</ele>
+<name>Bheith177</name>
+</rtept>
+<rtept lat="56.682995" lon="-5.173516">
+<ele>68.6420288085938</ele>
+<name>Bheith178</name>
+</rtept>
+<rtept lat="56.682284" lon="-5.173163">
+<ele>71.3155517578125</ele>
+<name>Bheith179</name>
+</rtept>
+<rtept lat="56.682163" lon="-5.172148">
+<ele>77.1688842773438</ele>
+<name>Bheith180</name>
+</rtept>
+<rtept lat="56.682167" lon="-5.170857">
+<ele>77.0588989257812</ele>
+<name>Bheith181</name>
+</rtept>
+<rtept lat="56.681799" lon="-5.170035">
+<ele>74.9503173828125</ele>
+<name>Bheith182</name>
+</rtept>
+<rtept lat="56.6816" lon="-5.168968">
+<ele>76.78271484375</ele>
+<name>Bheith183</name>
+</rtept>
+<rtept lat="56.681226" lon="-5.168303">
+<ele>77.1116943359375</ele>
+<name>Bheith184</name>
+</rtept>
+<rtept lat="56.681139" lon="-5.167597">
+<ele>79.1567993164062</ele>
+<name>Bheith185</name>
+</rtept>
+<rtept lat="56.680718" lon="-5.166359">
+<ele>71.034423828125</ele>
+<name>Bheith186</name>
+</rtept>
+<rtept lat="56.680665" lon="-5.165948">
+<ele>71.3200073242188</ele>
+<name>Bheith187</name>
+</rtept>
+<rtept lat="56.680761" lon="-5.165248">
+<ele>67.5816040039062</ele>
+<name>Bheith188</name>
+</rtept>
+<rtept lat="56.680256" lon="-5.16435">
+<ele>61.379150390625</ele>
+<name>Bheith189</name>
+</rtept>
+<rtept lat="56.680187" lon="-5.161811">
+<ele>58.2418212890625</ele>
+<name>Bheith190</name>
+</rtept>
+<rtept lat="56.679135" lon="-5.160602">
+<ele>49.3914184570312</ele>
+<name>Bheith191</name>
+</rtept>
+<rtept lat="56.678205" lon="-5.160404">
+<ele>46.6185302734375</ele>
+<name>Bheith192</name>
+</rtept>
+<rtept lat="56.677892" lon="-5.159907">
+<ele>36.0096435546875</ele>
+<name>Bheith193</name>
+</rtept>
+<rtept lat="56.677788" lon="-5.159336">
+<ele>30.6956787109375</ele>
+<name>Bheith194</name>
+</rtept>
+<rtept lat="56.677956" lon="-5.159013">
+<ele>31.1041870117188</ele>
+<name>Bheith195</name>
+</rtept>
+<rtept lat="56.678542" lon="-5.159377">
+<ele>25.84375</ele>
+<name>Bheith196</name>
+</rtept>
+<rtept lat="56.678967" lon="-5.159056">
+<ele>21.4891357421875</ele>
+<name>Bheith197</name>
+</rtept>
+<rtept lat="56.679109" lon="-5.158551">
+<ele>23.76611328125</ele>
+<name>Bheith198</name>
+</rtept>
+<rtept lat="56.679042" lon="-5.157814">
+<ele>11.6959228515625</ele>
+<name>Bheith199</name>
+</rtept>
+<rtept lat="56.679095" lon="-5.157409">
+<ele>10.1314086914062</ele>
+<name>Bheith200</name>
+</rtept>
+<rtept lat="56.67846" lon="-5.156085">
+<ele>4.90618896484375</ele>
+<name>Bheith201</name>
+</rtept>
+<rtept lat="56.677619" lon="-5.153506">
+<ele>7.61688232421875</ele>
+<name>Bheith202</name>
+</rtept>
+<rtept lat="56.676959" lon="-5.149536">
+<ele>7.134765625</ele>
+<name>Bheith203</name>
+</rtept>
+<rtept lat="56.676818" lon="-5.147637">
+<ele>7.7724609375</ele>
+<name>Bheith204</name>
+</rtept>
+<rtept lat="56.676956" lon="-5.143631">
+<ele>7.51385498046875</ele>
+<name>Bheith205</name>
+</rtept>
+<rtept lat="56.676854" lon="-5.143444">
+<ele>5.3287353515625</ele>
+<name>Bheith206</name>
+</rtept>
+<rtept lat="56.676793" lon="-5.140134">
+<ele>3.860595703125</ele>
+<name>Bheith207</name>
+</rtept>
+<rtept lat="56.67702" lon="-5.136255">
+<ele>3.670166015625</ele>
+<name>Bheith208</name>
+</rtept>
+<rtept lat="56.677522" lon="-5.131011">
+<ele>6.64312744140625</ele>
+<name>Bheith209</name>
+</rtept>
+<rtept lat="56.677834" lon="-5.12985">
+<ele>6.04376220703125</ele>
+<name>Bheith210</name>
+</rtept>
+<rtept lat="56.678128" lon="-5.130089">
+<ele>7.73809814453125</ele>
+<name>Bheith211</name>
+</rtept>
+<rtept lat="56.67833" lon="-5.129906">
+<ele>4.11004638671875</ele>
+<name>Bheith212</name>
+</rtept>
+<rtept lat="56.678396" lon="-5.130009">
+<ele>6.6884765625</ele>
+<name>Bheith213</name>
+</rtept>
+<rtept lat="56.678172" lon="-5.130272">
+<ele>7.3814697265625</ele>
+<name>Bheith214</name>
+</rtept>
+<rtept lat="56.678163" lon="-5.130693">
+<ele>5.675048828125</ele>
+<name>Bheith215</name>
+</rtept>
+<rtept lat="56.678052" lon="-5.130868">
+<ele>10.7588500976562</ele>
+<name>Bheith216</name>
+</rtept>
+<rtept lat="56.678304" lon="-5.13032">
+<ele>4.54583740234375</ele>
+<name>Bheith217</name>
+</rtept>
+<rtept lat="56.678236" lon="-5.130052">
+<ele>8.04205322265625</ele>
+<name>Bheith218</name>
+</rtept>
+<rtept lat="56.678329" lon="-5.12994">
+<ele>8.28973388671875</ele>
+<name>Bheith219</name>
+</rtept>
+</rte>
+</gpx>

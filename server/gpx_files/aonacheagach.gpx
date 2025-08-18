@@ -1,0 +1,330 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="Walkhighlands">
+<metadata>
+	<desc>GPX file from Walkhighlands; file is copyright Walkhighlands and must not be publicly shared on other websites. Do not remove this notice.</desc>
+	<copyright author="Walkhighlands"><year>2019</year></copyright>
+</metadata>
+<rte>
+<name>Aonach Eagach</name>
+<rtept lat="56.6666125556468" lon="-4.98249119511766">
+<ele>172.242352916946</ele>
+<name>AE 001</name>
+</rtept>
+<rtept lat="56.6667972598181" lon="-4.97980898623771">
+<ele>218.273163125038</ele>
+<name>AE 002</name>
+</rtept>
+<rtept lat="56.6669470519672" lon="-4.97895887854172">
+<ele>237.985038602257</ele>
+<name>AE 003</name>
+</rtept>
+<rtept lat="56.6678401679778" lon="-4.97949956305661">
+<ele>276.501411314708</ele>
+<name>AE 004</name>
+</rtept>
+<rtept lat="56.6689317532768" lon="-4.97986004695969">
+<ele>315.549502409315</ele>
+<name>AE 005</name>
+</rtept>
+<rtept lat="56.669572085938" lon="-4.98104690145956">
+<ele>364.969864128208</ele>
+<name>AE 006</name>
+</rtept>
+<rtept lat="56.6700325274987" lon="-4.98148816780523">
+<ele>388.402447234046</ele>
+<name>AE 007</name>
+</rtept>
+<rtept lat="56.6708696349757" lon="-4.98091434696484">
+<ele>441.007298851824</ele>
+<name>AE 008</name>
+</rtept>
+<rtept lat="56.6717336872644" lon="-4.98266754626426">
+<ele>501.468034968376</ele>
+<name>AE 009</name>
+</rtept>
+<rtept lat="56.6723174104485" lon="-4.9821651199403">
+<ele>554.603045725012</ele>
+<name>AE 010</name>
+</rtept>
+<rtept lat="56.6729689366701" lon="-4.98378404759987">
+<ele>610.421099520493</ele>
+<name>AE 011</name>
+</rtept>
+<rtept lat="56.6734445176617" lon="-4.98374329915015">
+<ele>652.881695328712</ele>
+<name>AE 012</name>
+</rtept>
+<rtept lat="56.6740492052036" lon="-4.98551534269286">
+<ele>706.629896700478</ele>
+<name>AE 013</name>
+</rtept>
+<rtept lat="56.6744161880144" lon="-4.98550520582541">
+<ele>736.99557299149</ele>
+<name>AE 014</name>
+</rtept>
+<rtept lat="56.6753597889916" lon="-4.98663797560239">
+<ele>787.573811662388</ele>
+<name>AE 015</name>
+</rtept>
+<rtept lat="56.675330683683" lon="-4.98785049479389">
+<ele>830.341808146954</ele>
+<name>AE 016</name>
+</rtept>
+<rtept lat="56.6761591606811" lon="-4.98838639684915">
+<ele>872.33328933301</ele>
+<name>AE 017</name>
+</rtept>
+<rtept lat="56.6770052441655" lon="-4.99088320130678">
+<ele>907.292673367977</ele>
+<name>AE 018</name>
+</rtept>
+<rtept lat="56.6777363890878" lon="-4.99098037998267">
+<ele>925.564351699543</ele>
+<name>AE 019</name>
+</rtept>
+<rtept lat="56.6779160735874" lon="-4.99158249094903">
+<ele>927.95649723525</ele>
+<name>AE 020</name>
+</rtept>
+<rtept lat="56.6779197381139" lon="-4.99232740369266">
+<ele>927.178663849163</ele>
+<name>AE 021</name>
+</rtept>
+<rtept lat="56.6784054593112" lon="-4.99365925473965">
+<ele>894.226476722872</ele>
+<name>AE 022</name>
+</rtept>
+<rtept lat="56.6785143588927" lon="-4.99496121246794">
+<ele>850.137155501747</ele>
+<name>AE 023</name>
+</rtept>
+<rtept lat="56.6791030013147" lon="-4.99649725774711">
+<ele>872.754607157135</ele>
+<name>AE 024</name>
+</rtept>
+<rtept lat="56.6789689664882" lon="-4.99758397700004">
+<ele>879.571821891976</ele>
+<name>AE 025</name>
+</rtept>
+<rtept lat="56.6791858801737" lon="-4.99932567025972">
+<ele>902.809521591949</ele>
+<name>AE 026</name>
+</rtept>
+<rtept lat="56.6796116453864" lon="-5.00045692650948">
+<ele>895.573553480101</ele>
+<name>AE 027</name>
+</rtept>
+<rtept lat="56.6799008282434" lon="-5.00098944420502">
+<ele>886.825555020142</ele>
+<name>AE 028</name>
+</rtept>
+<rtept lat="56.680400608378" lon="-5.00173470108646">
+<ele>919.722656370974</ele>
+<name>AE 029</name>
+</rtept>
+<rtept lat="56.6807307852701" lon="-5.00325034705308">
+<ele>939.783838678646</ele>
+<name>AE 030</name>
+</rtept>
+<rtept lat="56.6807052937542" lon="-5.00430654653504">
+<ele>916.445854964781</ele>
+<name>AE 031</name>
+</rtept>
+<rtept lat="56.680217237875" lon="-5.00575700199343">
+<ele>897.925312741947</ele>
+<name>AE 032</name>
+</rtept>
+<rtept lat="56.6801475082874" lon="-5.00775029475156">
+<ele>909.409352937508</ele>
+<name>AE 033</name>
+</rtept>
+<rtept lat="56.6800218862364" lon="-5.00848494220147">
+<ele>905.411746728134</ele>
+<name>AE 034</name>
+</rtept>
+<rtept lat="56.6800337377904" lon="-5.00977925932477">
+<ele>882.200257207966</ele>
+<name>AE 035</name>
+</rtept>
+<rtept lat="56.6799095205268" lon="-5.01223850160346">
+<ele>875.151636450863</ele>
+<name>AE 036</name>
+</rtept>
+<rtept lat="56.6796416744279" lon="-5.01260903182996">
+<ele>863.796611593723</ele>
+<name>AE 037</name>
+</rtept>
+<rtept lat="56.6796049911258" lon="-5.01323318398149">
+<ele>858.138032927704</ele>
+<name>AE 038</name>
+</rtept>
+<rtept lat="56.6798070452239" lon="-5.01379803115487">
+<ele>857.454042090988</ele>
+<name>AE 039</name>
+</rtept>
+<rtept lat="56.6797495087994" lon="-5.01528276106377">
+<ele>864.398312004471</ele>
+<name>AE 040</name>
+</rtept>
+<rtept lat="56.6797603415936" lon="-5.01661618557215">
+<ele>861.245060180855</ele>
+<name>AE 041</name>
+</rtept>
+<rtept lat="56.6798658222344" lon="-5.01760444963581">
+<ele>792.317741145516</ele>
+<name>AE 042</name>
+</rtept>
+<rtept lat="56.6804006789193" lon="-5.01956774014453">
+<ele>818.001144653225</ele>
+<name>AE 043</name>
+</rtept>
+<rtept lat="56.6808281561571" lon="-5.02062101945252">
+<ele>842.582021223259</ele>
+<name>AE 044</name>
+</rtept>
+<rtept lat="56.6812378918367" lon="-5.02151612338696">
+<ele>886.38972550489</ele>
+<name>AE 045</name>
+</rtept>
+<rtept lat="56.681434837233" lon="-5.02317808436846">
+<ele>924.233479711246</ele>
+<name>AE 046</name>
+</rtept>
+<rtept lat="56.6814417820973" lon="-5.02466804183371">
+<ele>891.285455591464</ele>
+<name>AE 047</name>
+</rtept>
+<rtept lat="56.6804544691453" lon="-5.02623497872217">
+<ele>880.555035705721</ele>
+<name>AE 048</name>
+</rtept>
+<rtept lat="56.6797350273724" lon="-5.02743141470099">
+<ele>875.262548634768</ele>
+<name>AE 049</name>
+</rtept>
+<rtept lat="56.679377796403" lon="-5.02881366929644">
+<ele>870.906897793293</ele>
+<name>AE 050</name>
+</rtept>
+<rtept lat="56.6791465013534" lon="-5.0312250228244">
+<ele>871.484061063433</ele>
+<name>AE 051</name>
+</rtept>
+<rtept lat="56.6787356811552" lon="-5.03303402487568">
+<ele>895.106658767033</ele>
+<name>AE 052</name>
+</rtept>
+<rtept lat="56.6789544079601" lon="-5.03379627198727">
+<ele>900.32517228837</ele>
+<name>AE 053</name>
+</rtept>
+<rtept lat="56.679430254826" lon="-5.03728352603215">
+<ele>958.169936896014</ele>
+<name>AE 054</name>
+</rtept>
+<rtept lat="56.6788271247584" lon="-5.04519097820696">
+<ele>901.549728045988</ele>
+<name>AE 055</name>
+</rtept>
+<rtept lat="56.6787849998571" lon="-5.04691203784018">
+<ele>903.806213576841</ele>
+<name>AE 056</name>
+</rtept>
+<rtept lat="56.6787677600951" lon="-5.04761610634287">
+<ele>899.940642625952</ele>
+<name>AE 057</name>
+</rtept>
+<rtept lat="56.678478230223" lon="-5.04802380902499">
+<ele>900.393998031996</ele>
+<name>AE 058</name>
+</rtept>
+<rtept lat="56.6786749383544" lon="-5.04975436976237">
+<ele>859.677091368399</ele>
+<name>AE 059</name>
+</rtept>
+<rtept lat="56.6792372760056" lon="-5.05094297634921">
+<ele>808.482411685052</ele>
+<name>AE 060</name>
+</rtept>
+<rtept lat="56.6793939535734" lon="-5.05379061625623">
+<ele>738.92246947905</ele>
+<name>AE 061</name>
+</rtept>
+<rtept lat="56.6800619126586" lon="-5.05631392163762">
+<ele>675.969691282944</ele>
+<name>AE 062</name>
+</rtept>
+<rtept lat="56.680377470685" lon="-5.0598604403893">
+<ele>581.600308039773</ele>
+<name>AE 063</name>
+</rtept>
+<rtept lat="56.6814259059527" lon="-5.06481554161283">
+<ele>457.637171299303</ele>
+<name>AE 064</name>
+</rtept>
+<rtept lat="56.6809396568986" lon="-5.06514183458422">
+<ele>435.016522877162</ele>
+<name>AE 065</name>
+</rtept>
+<rtept lat="56.6799963798315" lon="-5.06460789199265">
+<ele>408.408040312164</ele>
+<name>AE 066</name>
+</rtept>
+<rtept lat="56.680122993814" lon="-5.06665627929789">
+<ele>349.880638399625</ele>
+<name>AE 067</name>
+</rtept>
+<rtept lat="56.6805533246842" lon="-5.06856280592306">
+<ele>319.947585062635</ele>
+<name>AE 068</name>
+</rtept>
+<rtept lat="56.6809411242233" lon="-5.07069782644757">
+<ele>273.848241269899</ele>
+<name>AE 068 - AE 069</name>
+</rtept>
+<rtept lat="56.6807325135267" lon="-5.0716835770699">
+<ele>223.226046317291</ele>
+<name>AE 069</name>
+</rtept>
+<rtept lat="56.680363342484" lon="-5.07218261600754">
+<ele>224.619152497113</ele>
+<name>AE 070</name>
+</rtept>
+<rtept lat="56.6802779090854" lon="-5.07305753467737">
+<ele>221.700668430853</ele>
+<name>AE 071</name>
+</rtept>
+<rtept lat="56.6800793071733" lon="-5.07323731836378">
+<ele>190.861709719276</ele>
+<name>AE 072</name>
+</rtept>
+<rtept lat="56.6794891059002" lon="-5.07496924016344">
+<ele>167.183517427815</ele>
+<name>AE 073</name>
+</rtept>
+<rtept lat="56.6791930667933" lon="-5.07574529164249">
+<ele>145.959297217888</ele>
+<name>AE 074</name>
+</rtept>
+<rtept lat="56.6792769183328" lon="-5.07744397406306">
+<ele>106.761433468009</ele>
+<name>AE 075</name>
+</rtept>
+<rtept lat="56.6800162225574" lon="-5.07757290448783">
+<ele>100.442451016018</ele>
+<name>AE 076</name>
+</rtept>
+<rtept lat="56.6814418525693" lon="-5.08095231212204">
+<ele>68.3729023749828</ele>
+<name>AE 077</name>
+</rtept>
+<rtept lat="56.6820647264538" lon="-5.08280623928684">
+<ele>67.440028346014</ele>
+<name>AE 078</name>
+</rtept>
+<rtept lat="56.6805681298941" lon="-5.08574106004241">
+<ele>18.2238312004507</ele>
+<name>AE 079</name>
+</rtept>
+</rte>
+</gpx>

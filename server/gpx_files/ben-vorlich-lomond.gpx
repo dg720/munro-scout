@@ -1,0 +1,798 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="Walkhighlands">
+<metadata>
+	<desc>GPX file from Walkhighlands; file is copyright Walkhighlands and must not be publicly shared on other websites. Do not remove this notice.</desc>
+	<copyright author="Walkhighlands"><year>2019</year></copyright>
+</metadata>
+<rte>
+<name>Ben Vorlich via Loch Sloy</name>
+<rtept lat="56.251778679" lon="-4.708993225">
+<ele>11.845352</ele>
+<name>BVLL001</name>
+</rtept>
+<rtept lat="56.251428626" lon="-4.710324718">
+<ele>8.995818</ele>
+<name>BVLL002</name>
+</rtept>
+<rtept lat="56.250634905" lon="-4.711229243">
+<ele>8.927764</ele>
+<name>BVLL003</name>
+</rtept>
+<rtept lat="56.249825451" lon="-4.711703163">
+<ele>10.383535</ele>
+<name>BVLL004</name>
+</rtept>
+<rtept lat="56.249007734" lon="-4.712266889">
+<ele>11.462017</ele>
+<name>BVLL005</name>
+</rtept>
+<rtept lat="56.248554034" lon="-4.712585124">
+<ele>12.363993</ele>
+<name>BVLL006</name>
+</rtept>
+<rtept lat="56.248048932" lon="-4.713238743">
+<ele>17.196528</ele>
+<name>BVLL007</name>
+</rtept>
+<rtept lat="56.247759059" lon="-4.713545953">
+<ele>19.861851</ele>
+<name>BVLL008</name>
+</rtept>
+<rtept lat="56.247730557" lon="-4.713984668">
+<ele>22.845733</ele>
+<name>BVLL009</name>
+</rtept>
+<rtept lat="56.247480512" lon="-4.713910464">
+<ele>21.868499</ele>
+<name>BVLL010</name>
+</rtept>
+<rtept lat="56.247334290" lon="-4.713979218">
+<ele>21.841173</ele>
+<name>BVLL011</name>
+</rtept>
+<rtept lat="56.245838793" lon="-4.715896110">
+<ele>26.815211</ele>
+<name>BVLL012</name>
+</rtept>
+<rtept lat="56.245644890" lon="-4.716989799">
+<ele>37.412758</ele>
+<name>BVLL013</name>
+</rtept>
+<rtept lat="56.245744497" lon="-4.717324565">
+<ele>39.855139</ele>
+<name>BVLL014</name>
+</rtept>
+<rtept lat="56.245972472" lon="-4.717544129">
+<ele>39.328967</ele>
+<name>BVLL015</name>
+</rtept>
+<rtept lat="56.246383286" lon="-4.717460243">
+<ele>43.060850</ele>
+<name>BVLL016</name>
+</rtept>
+<rtept lat="56.246692347" lon="-4.717425646">
+<ele>44.480208</ele>
+<name>BVLL017</name>
+</rtept>
+<rtept lat="56.246846424" lon="-4.717572174">
+<ele>46.457847</ele>
+<name>BVLL018</name>
+</rtept>
+<rtept lat="56.246992318" lon="-4.718091044">
+<ele>52.228131</ele>
+<name>BVLL019</name>
+</rtept>
+<rtept lat="56.246760294" lon="-4.718628323">
+<ele>56.663525</ele>
+<name>BVLL020</name>
+</rtept>
+<rtept lat="56.246165563" lon="-4.718778259">
+<ele>56.582736</ele>
+<name>BVLL021</name>
+</rtept>
+<rtept lat="56.245666295" lon="-4.719737278">
+<ele>62.977637</ele>
+<name>BVLL022</name>
+</rtept>
+<rtept lat="56.245933508" lon="-4.721033172">
+<ele>72.224698</ele>
+<name>BVLL023</name>
+</rtept>
+<rtept lat="56.245826837" lon="-4.722449441">
+<ele>79.465167</ele>
+<name>BVLL024</name>
+</rtept>
+<rtept lat="56.245739601" lon="-4.723268168">
+<ele>80.032857</ele>
+<name>BVLL025</name>
+</rtept>
+<rtept lat="56.246501089" lon="-4.728113681">
+<ele>119.750294</ele>
+<name>BVLL026</name>
+</rtept>
+<rtept lat="56.245305939" lon="-4.731520401">
+<ele>124.151993</ele>
+<name>BVLL027</name>
+</rtept>
+<rtept lat="56.245080979" lon="-4.734013005">
+<ele>125.958401</ele>
+<name>BVLL028</name>
+</rtept>
+<rtept lat="56.245056368" lon="-4.735694970">
+<ele>126.937987</ele>
+<name>BVLL029</name>
+</rtept>
+<rtept lat="56.245067768" lon="-4.736317291">
+<ele>127.827521</ele>
+<name>BVLL030</name>
+</rtept>
+<rtept lat="56.245142734" lon="-4.736910250">
+<ele>128.789994</ele>
+<name>BVLL031</name>
+</rtept>
+<rtept lat="56.244881331" lon="-4.738202402">
+<ele>123.875679</ele>
+<name>BVLL032</name>
+</rtept>
+<rtept lat="56.245477578" lon="-4.739973926">
+<ele>130.136225</ele>
+<name>BVLL033</name>
+</rtept>
+<rtept lat="56.246181502" lon="-4.740860468">
+<ele>134.942142</ele>
+<name>BVLL034</name>
+</rtept>
+<rtept lat="56.246532659" lon="-4.742049534">
+<ele>135.120817</ele>
+<name>BVLL035</name>
+</rtept>
+<rtept lat="56.247103623" lon="-4.745808325">
+<ele>145.307354</ele>
+<name>BVLL036</name>
+</rtept>
+<rtept lat="56.248038449" lon="-4.747061891">
+<ele>161.270882</ele>
+<name>BVLL037</name>
+</rtept>
+<rtept lat="56.249003639" lon="-4.747797834">
+<ele>169.909386</ele>
+<name>BVLL038</name>
+</rtept>
+<rtept lat="56.249267771" lon="-4.748653072">
+<ele>167.614602</ele>
+<name>BVLL039</name>
+</rtept>
+<rtept lat="56.250295531" lon="-4.749687413">
+<ele>185.960004</ele>
+<name>BVLL040</name>
+</rtept>
+<rtept lat="56.251164735" lon="-4.751060795">
+<ele>184.421321</ele>
+<name>BVLL041</name>
+</rtept>
+<rtept lat="56.251708248" lon="-4.751235429">
+<ele>190.436166</ele>
+<name>BVLL042</name>
+</rtept>
+<rtept lat="56.252413343" lon="-4.752065901">
+<ele>189.846606</ele>
+<name>BVLL043</name>
+</rtept>
+<rtept lat="56.253343313" lon="-4.752121371">
+<ele>195.897035</ele>
+<name>BVLL044</name>
+</rtept>
+<rtept lat="56.254607240" lon="-4.753285915">
+<ele>197.964218</ele>
+<name>BVLL045</name>
+</rtept>
+<rtept lat="56.254855493" lon="-4.752591654">
+<ele>220.241792</ele>
+<name>BVLL046</name>
+</rtept>
+<rtept lat="56.255376877" lon="-4.751781356">
+<ele>258.373353</ele>
+<name>BVLL047</name>
+</rtept>
+<rtept lat="56.255676381" lon="-4.751045538">
+<ele>288.983371</ele>
+<name>BVLL048</name>
+</rtept>
+<rtept lat="56.256277905" lon="-4.750026187">
+<ele>330.238142</ele>
+<name>BVLL049</name>
+</rtept>
+<rtept lat="56.256471621" lon="-4.749520124">
+<ele>350.199728</ele>
+<name>BVLL050</name>
+</rtept>
+<rtept lat="56.256605297" lon="-4.749450589">
+<ele>354.615902</ele>
+<name>BVLL051</name>
+</rtept>
+<rtept lat="56.256699001" lon="-4.748914738">
+<ele>373.533141</ele>
+<name>BVLL052</name>
+</rtept>
+<rtept lat="56.256967594" lon="-4.748436640">
+<ele>394.193748</ele>
+<name>BVLL053</name>
+</rtept>
+<rtept lat="56.257054998" lon="-4.747617737">
+<ele>409.115996</ele>
+<name>BVLL054</name>
+</rtept>
+<rtept lat="56.257825354" lon="-4.746644310">
+<ele>437.913035</ele>
+<name>BVLL055</name>
+</rtept>
+<rtept lat="56.257908931" lon="-4.745146872">
+<ele>481.084383</ele>
+<name>BVLL056</name>
+</rtept>
+<rtept lat="56.258511453" lon="-4.744647434">
+<ele>514.337160</ele>
+<name>BVLL057</name>
+</rtept>
+<rtept lat="56.258829828" lon="-4.744760671">
+<ele>519.080342</ele>
+<name>BVLL058</name>
+</rtept>
+<rtept lat="56.259150184" lon="-4.744501008">
+<ele>536.595267</ele>
+<name>BVLL059</name>
+</rtept>
+<rtept lat="56.259174060" lon="-4.744559240">
+<ele>536.120750</ele>
+<name>BVLL060</name>
+</rtept>
+<rtept lat="56.259314744" lon="-4.744173663">
+<ele>551.744119</ele>
+<name>BVLL061</name>
+</rtept>
+<rtept lat="56.259676341" lon="-4.744323907">
+<ele>564.596119</ele>
+<name>BVLL062</name>
+</rtept>
+<rtept lat="56.259807282" lon="-4.744661115">
+<ele>563.770095</ele>
+<name>BVLL063</name>
+</rtept>
+<rtept lat="56.260155019" lon="-4.744301665">
+<ele>593.478378</ele>
+<name>BVLL064</name>
+</rtept>
+<rtept lat="56.260451293" lon="-4.744560282">
+<ele>599.711548</ele>
+<name>BVLL065</name>
+</rtept>
+<rtept lat="56.260872933" lon="-4.744556568">
+<ele>613.451240</ele>
+<name>BVLL066</name>
+</rtept>
+<rtept lat="56.261212177" lon="-4.744863490">
+<ele>622.134124</ele>
+<name>BVLL067</name>
+</rtept>
+<rtept lat="56.261723075" lon="-4.745657530">
+<ele>649.224220</ele>
+<name>BVLL068</name>
+</rtept>
+<rtept lat="56.262161358" lon="-4.746604659">
+<ele>672.751095</ele>
+<name>BVLL069</name>
+</rtept>
+<rtept lat="56.262461417" lon="-4.747259266">
+<ele>700.407915</ele>
+<name>BVLL070</name>
+</rtept>
+<rtept lat="56.262724004" lon="-4.747334621">
+<ele>716.595076</ele>
+<name>BVLL071</name>
+</rtept>
+<rtept lat="56.262789580" lon="-4.747214963">
+<ele>719.363226</ele>
+<name>BVLL072</name>
+</rtept>
+<rtept lat="56.263378826" lon="-4.747313741">
+<ele>737.016173</ele>
+<name>BVLL073</name>
+</rtept>
+<rtept lat="56.263503697" lon="-4.747073971">
+<ele>743.143319</ele>
+<name>BVLL074</name>
+</rtept>
+<rtept lat="56.263632609" lon="-4.747218882">
+<ele>747.986905</ele>
+<name>BVLL075</name>
+</rtept>
+<rtept lat="56.263735154" lon="-4.747701073">
+<ele>754.565016</ele>
+<name>BVLL076</name>
+</rtept>
+<rtept lat="56.264592765" lon="-4.747898250">
+<ele>775.380892</ele>
+<name>BVLL077</name>
+</rtept>
+<rtept lat="56.265043068" lon="-4.748303649">
+<ele>781.540269</ele>
+<name>BVLL078</name>
+</rtept>
+<rtept lat="56.265344110" lon="-4.748630511">
+<ele>782.729831</ele>
+<name>BVLL079</name>
+</rtept>
+<rtept lat="56.265541881" lon="-4.749074336">
+<ele>778.726399</ele>
+<name>BVLL080</name>
+</rtept>
+<rtept lat="56.265876838" lon="-4.749290579">
+<ele>784.696999</ele>
+<name>BVLL081</name>
+</rtept>
+<rtept lat="56.266747762" lon="-4.749454840">
+<ele>801.977762</ele>
+<name>BVLL082</name>
+</rtept>
+<rtept lat="56.267549093" lon="-4.749919399">
+<ele>827.142498</ele>
+<name>BVLL083</name>
+</rtept>
+<rtept lat="56.268295159" lon="-4.751171503">
+<ele>849.613316</ele>
+<name>BVLL084</name>
+</rtept>
+<rtept lat="56.268300944" lon="-4.751477209">
+<ele>848.616603</ele>
+<name>BVLL085</name>
+</rtept>
+<rtept lat="56.268984424" lon="-4.752430883">
+<ele>866.090204</ele>
+<name>BVLL086</name>
+</rtept>
+<rtept lat="56.269498536" lon="-4.753078424">
+<ele>875.185671</ele>
+<name>BVLL087</name>
+</rtept>
+<rtept lat="56.269815394" lon="-4.753542191">
+<ele>874.884599</ele>
+<name>BVLL088</name>
+</rtept>
+<rtept lat="56.270461672" lon="-4.753905265">
+<ele>888.173943</ele>
+<name>BVLL089</name>
+</rtept>
+<rtept lat="56.271029301" lon="-4.753561608">
+<ele>897.304869</ele>
+<name>BVLL090</name>
+</rtept>
+<rtept lat="56.271368522" lon="-4.753585994">
+<ele>907.612200</ele>
+<name>BVLL091</name>
+</rtept>
+<rtept lat="56.271454960" lon="-4.753660056">
+<ele>910.622064</ele>
+<name>BVLL092</name>
+</rtept>
+<rtept lat="56.271737895" lon="-4.753669089">
+<ele>921.474473</ele>
+<name>BVLL093</name>
+</rtept>
+<rtept lat="56.271928864" lon="-4.753287034">
+<ele>928.332864</ele>
+<name>BVLL094</name>
+</rtept>
+<rtept lat="56.272539963" lon="-4.753817220">
+<ele>941.287420</ele>
+<name>BVLL095</name>
+</rtept>
+<rtept lat="56.273594055" lon="-4.754514986">
+<ele>934.088547</ele>
+<name>BVLL096</name>
+</rtept>
+<rtept lat="56.273790046" lon="-4.754755255">
+<ele>932.519298</ele>
+<name>BVLL097</name>
+</rtept>
+<rtept lat="56.273889802" lon="-4.754796357">
+<ele>932.682532</ele>
+<name>BVLL098</name>
+</rtept>
+<rtept lat="56.273944830" lon="-4.754868167">
+<ele>931.939923</ele>
+<name>BVLL099</name>
+</rtept>
+<rtept lat="56.273889802" lon="-4.754796357">
+<ele>932.682532</ele>
+<name>BVLL100</name>
+</rtept>
+<rtept lat="56.273790046" lon="-4.754755255">
+<ele>932.519298</ele>
+<name>BVLL101</name>
+</rtept>
+<rtept lat="56.273594055" lon="-4.754514986">
+<ele>934.088547</ele>
+<name>BVLL102</name>
+</rtept>
+<rtept lat="56.272539963" lon="-4.753817220">
+<ele>941.287420</ele>
+<name>BVLL103</name>
+</rtept>
+<rtept lat="56.271928864" lon="-4.753287034">
+<ele>928.332864</ele>
+<name>BVLL104</name>
+</rtept>
+<rtept lat="56.271737895" lon="-4.753669089">
+<ele>921.474473</ele>
+<name>BVLL105</name>
+</rtept>
+<rtept lat="56.271454960" lon="-4.753660056">
+<ele>910.622064</ele>
+<name>BVLL106</name>
+</rtept>
+<rtept lat="56.271368522" lon="-4.753585994">
+<ele>907.612200</ele>
+<name>BVLL107</name>
+</rtept>
+<rtept lat="56.271029301" lon="-4.753561608">
+<ele>897.304869</ele>
+<name>BVLL108</name>
+</rtept>
+<rtept lat="56.270461672" lon="-4.753905265">
+<ele>888.173943</ele>
+<name>BVLL109</name>
+</rtept>
+<rtept lat="56.269815394" lon="-4.753542191">
+<ele>874.884599</ele>
+<name>BVLL110</name>
+</rtept>
+<rtept lat="56.269498536" lon="-4.753078424">
+<ele>875.185671</ele>
+<name>BVLL111</name>
+</rtept>
+<rtept lat="56.268984424" lon="-4.752430883">
+<ele>866.090204</ele>
+<name>BVLL112</name>
+</rtept>
+<rtept lat="56.268300944" lon="-4.751477209">
+<ele>848.616603</ele>
+<name>BVLL113</name>
+</rtept>
+<rtept lat="56.268295159" lon="-4.751171503">
+<ele>849.613316</ele>
+<name>BVLL114</name>
+</rtept>
+<rtept lat="56.267549093" lon="-4.749919399">
+<ele>827.142498</ele>
+<name>BVLL115</name>
+</rtept>
+<rtept lat="56.266747762" lon="-4.749454840">
+<ele>801.977762</ele>
+<name>BVLL116</name>
+</rtept>
+<rtept lat="56.265876838" lon="-4.749290579">
+<ele>784.696999</ele>
+<name>BVLL117</name>
+</rtept>
+<rtept lat="56.265541881" lon="-4.749074336">
+<ele>778.726399</ele>
+<name>BVLL118</name>
+</rtept>
+<rtept lat="56.265344110" lon="-4.748630511">
+<ele>782.729831</ele>
+<name>BVLL119</name>
+</rtept>
+<rtept lat="56.265043068" lon="-4.748303649">
+<ele>781.540269</ele>
+<name>BVLL120</name>
+</rtept>
+<rtept lat="56.264592765" lon="-4.747898250">
+<ele>775.380892</ele>
+<name>BVLL121</name>
+</rtept>
+<rtept lat="56.263735154" lon="-4.747701073">
+<ele>754.565016</ele>
+<name>BVLL122</name>
+</rtept>
+<rtept lat="56.263632609" lon="-4.747218882">
+<ele>747.986905</ele>
+<name>BVLL123</name>
+</rtept>
+<rtept lat="56.263503697" lon="-4.747073971">
+<ele>743.143319</ele>
+<name>BVLL124</name>
+</rtept>
+<rtept lat="56.263378826" lon="-4.747313741">
+<ele>737.016173</ele>
+<name>BVLL125</name>
+</rtept>
+<rtept lat="56.262789580" lon="-4.747214963">
+<ele>719.363226</ele>
+<name>BVLL126</name>
+</rtept>
+<rtept lat="56.262724004" lon="-4.747334621">
+<ele>716.595076</ele>
+<name>BVLL127</name>
+</rtept>
+<rtept lat="56.262461417" lon="-4.747259266">
+<ele>700.407915</ele>
+<name>BVLL128</name>
+</rtept>
+<rtept lat="56.262161358" lon="-4.746604659">
+<ele>672.751095</ele>
+<name>BVLL129</name>
+</rtept>
+<rtept lat="56.261723075" lon="-4.745657530">
+<ele>649.224220</ele>
+<name>BVLL130</name>
+</rtept>
+<rtept lat="56.261212177" lon="-4.744863490">
+<ele>622.134124</ele>
+<name>BVLL131</name>
+</rtept>
+<rtept lat="56.260872933" lon="-4.744556568">
+<ele>613.451240</ele>
+<name>BVLL132</name>
+</rtept>
+<rtept lat="56.260451293" lon="-4.744560282">
+<ele>599.711548</ele>
+<name>BVLL133</name>
+</rtept>
+<rtept lat="56.260155019" lon="-4.744301665">
+<ele>593.478378</ele>
+<name>BVLL134</name>
+</rtept>
+<rtept lat="56.259807282" lon="-4.744661115">
+<ele>563.770095</ele>
+<name>BVLL135</name>
+</rtept>
+<rtept lat="56.259676341" lon="-4.744323907">
+<ele>564.596119</ele>
+<name>BVLL136</name>
+</rtept>
+<rtept lat="56.259314744" lon="-4.744173663">
+<ele>551.744119</ele>
+<name>BVLL137</name>
+</rtept>
+<rtept lat="56.259174060" lon="-4.744559240">
+<ele>536.120750</ele>
+<name>BVLL138</name>
+</rtept>
+<rtept lat="56.259150184" lon="-4.744501008">
+<ele>536.595267</ele>
+<name>BVLL139</name>
+</rtept>
+<rtept lat="56.258829828" lon="-4.744760671">
+<ele>519.080342</ele>
+<name>BVLL140</name>
+</rtept>
+<rtept lat="56.258511453" lon="-4.744647434">
+<ele>514.337160</ele>
+<name>BVLL141</name>
+</rtept>
+<rtept lat="56.257908931" lon="-4.745146872">
+<ele>481.084383</ele>
+<name>BVLL142</name>
+</rtept>
+<rtept lat="56.257825354" lon="-4.746644310">
+<ele>437.913035</ele>
+<name>BVLL143</name>
+</rtept>
+<rtept lat="56.257054998" lon="-4.747617737">
+<ele>409.115996</ele>
+<name>BVLL144</name>
+</rtept>
+<rtept lat="56.256967594" lon="-4.748436640">
+<ele>394.193748</ele>
+<name>BVLL145</name>
+</rtept>
+<rtept lat="56.256699001" lon="-4.748914738">
+<ele>373.533141</ele>
+<name>BVLL146</name>
+</rtept>
+<rtept lat="56.256605297" lon="-4.749450589">
+<ele>354.615902</ele>
+<name>BVLL147</name>
+</rtept>
+<rtept lat="56.256471621" lon="-4.749520124">
+<ele>350.199728</ele>
+<name>BVLL148</name>
+</rtept>
+<rtept lat="56.256277905" lon="-4.750026187">
+<ele>330.238142</ele>
+<name>BVLL149</name>
+</rtept>
+<rtept lat="56.255676381" lon="-4.751045538">
+<ele>288.983371</ele>
+<name>BVLL150</name>
+</rtept>
+<rtept lat="56.255376877" lon="-4.751781356">
+<ele>258.373353</ele>
+<name>BVLL151</name>
+</rtept>
+<rtept lat="56.254855493" lon="-4.752591654">
+<ele>220.241792</ele>
+<name>BVLL152</name>
+</rtept>
+<rtept lat="56.254607240" lon="-4.753285915">
+<ele>197.964218</ele>
+<name>BVLL153</name>
+</rtept>
+<rtept lat="56.253343313" lon="-4.752121371">
+<ele>195.897035</ele>
+<name>BVLL154</name>
+</rtept>
+<rtept lat="56.252413343" lon="-4.752065901">
+<ele>189.846606</ele>
+<name>BVLL155</name>
+</rtept>
+<rtept lat="56.251708248" lon="-4.751235429">
+<ele>190.436166</ele>
+<name>BVLL156</name>
+</rtept>
+<rtept lat="56.251164735" lon="-4.751060795">
+<ele>184.421321</ele>
+<name>BVLL157</name>
+</rtept>
+<rtept lat="56.250295531" lon="-4.749687413">
+<ele>185.960004</ele>
+<name>BVLL158</name>
+</rtept>
+<rtept lat="56.249267771" lon="-4.748653072">
+<ele>167.614602</ele>
+<name>BVLL159</name>
+</rtept>
+<rtept lat="56.249003639" lon="-4.747797834">
+<ele>169.909386</ele>
+<name>BVLL160</name>
+</rtept>
+<rtept lat="56.248038449" lon="-4.747061891">
+<ele>161.270882</ele>
+<name>BVLL161</name>
+</rtept>
+<rtept lat="56.247103623" lon="-4.745808325">
+<ele>145.307354</ele>
+<name>BVLL162</name>
+</rtept>
+<rtept lat="56.246532659" lon="-4.742049534">
+<ele>135.120817</ele>
+<name>BVLL163</name>
+</rtept>
+<rtept lat="56.246181502" lon="-4.740860468">
+<ele>134.942142</ele>
+<name>BVLL164</name>
+</rtept>
+<rtept lat="56.245477578" lon="-4.739973926">
+<ele>130.136225</ele>
+<name>BVLL165</name>
+</rtept>
+<rtept lat="56.244881331" lon="-4.738202402">
+<ele>123.875679</ele>
+<name>BVLL166</name>
+</rtept>
+<rtept lat="56.245142734" lon="-4.736910250">
+<ele>128.789994</ele>
+<name>BVLL167</name>
+</rtept>
+<rtept lat="56.245067768" lon="-4.736317291">
+<ele>127.827521</ele>
+<name>BVLL168</name>
+</rtept>
+<rtept lat="56.245056368" lon="-4.735694970">
+<ele>126.937987</ele>
+<name>BVLL169</name>
+</rtept>
+<rtept lat="56.245080979" lon="-4.734013005">
+<ele>125.958401</ele>
+<name>BVLL170</name>
+</rtept>
+<rtept lat="56.245305939" lon="-4.731520401">
+<ele>124.151993</ele>
+<name>BVLL171</name>
+</rtept>
+<rtept lat="56.246501089" lon="-4.728113681">
+<ele>119.750294</ele>
+<name>BVLL172</name>
+</rtept>
+<rtept lat="56.245739601" lon="-4.723268168">
+<ele>80.032857</ele>
+<name>BVLL173</name>
+</rtept>
+<rtept lat="56.245826837" lon="-4.722449441">
+<ele>79.465167</ele>
+<name>BVLL174</name>
+</rtept>
+<rtept lat="56.245933508" lon="-4.721033172">
+<ele>72.224698</ele>
+<name>BVLL175</name>
+</rtept>
+<rtept lat="56.245666295" lon="-4.719737278">
+<ele>62.977637</ele>
+<name>BVLL176</name>
+</rtept>
+<rtept lat="56.246165563" lon="-4.718778259">
+<ele>56.582736</ele>
+<name>BVLL177</name>
+</rtept>
+<rtept lat="56.246760294" lon="-4.718628323">
+<ele>56.663525</ele>
+<name>BVLL178</name>
+</rtept>
+<rtept lat="56.246992318" lon="-4.718091044">
+<ele>52.228131</ele>
+<name>BVLL179</name>
+</rtept>
+<rtept lat="56.246846424" lon="-4.717572174">
+<ele>46.457847</ele>
+<name>BVLL180</name>
+</rtept>
+<rtept lat="56.246692347" lon="-4.717425646">
+<ele>44.480208</ele>
+<name>BVLL181</name>
+</rtept>
+<rtept lat="56.246383286" lon="-4.717460243">
+<ele>43.060850</ele>
+<name>BVLL182</name>
+</rtept>
+<rtept lat="56.245972472" lon="-4.717544129">
+<ele>39.328967</ele>
+<name>BVLL183</name>
+</rtept>
+<rtept lat="56.245744497" lon="-4.717324565">
+<ele>39.855139</ele>
+<name>BVLL184</name>
+</rtept>
+<rtept lat="56.245644890" lon="-4.716989799">
+<ele>37.412758</ele>
+<name>BVLL185</name>
+</rtept>
+<rtept lat="56.245838793" lon="-4.715896110">
+<ele>26.815211</ele>
+<name>BVLL186</name>
+</rtept>
+<rtept lat="56.247334290" lon="-4.713979218">
+<ele>21.841173</ele>
+<name>BVLL187</name>
+</rtept>
+<rtept lat="56.247480512" lon="-4.713910464">
+<ele>21.868499</ele>
+<name>BVLL188</name>
+</rtept>
+<rtept lat="56.247730557" lon="-4.713984668">
+<ele>22.845733</ele>
+<name>BVLL189</name>
+</rtept>
+<rtept lat="56.247759059" lon="-4.713545953">
+<ele>19.861851</ele>
+<name>BVLL190</name>
+</rtept>
+<rtept lat="56.248048932" lon="-4.713238743">
+<ele>17.196528</ele>
+<name>BVLL191</name>
+</rtept>
+<rtept lat="56.248554034" lon="-4.712585124">
+<ele>12.363993</ele>
+<name>BVLL192</name>
+</rtept>
+<rtept lat="56.249007734" lon="-4.712266889">
+<ele>11.462017</ele>
+<name>BVLL193</name>
+</rtept>
+<rtept lat="56.249825451" lon="-4.711703163">
+<ele>10.383535</ele>
+<name>BVLL194</name>
+</rtept>
+<rtept lat="56.250634905" lon="-4.711229243">
+<ele>8.927764</ele>
+<name>BVLL195</name>
+</rtept>
+<rtept lat="56.251428626" lon="-4.710324718">
+<ele>8.995818</ele>
+<name>BVLL196</name>
+</rtept>
+<rtept lat="56.251778679" lon="-4.708993225">
+<ele>11.845352</ele>
+<name>BVLL197</name>
+</rtept>
+</rte>
+</gpx>

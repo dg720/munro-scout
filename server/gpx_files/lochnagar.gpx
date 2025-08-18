@@ -1,0 +1,450 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="Walkhighlands">
+<metadata>
+	<desc>GPX file from Walkhighlands; file is copyright Walkhighlands and must not be publicly shared on other websites. Do not remove this notice.</desc>
+	<copyright author="Walkhighlands"><year>2019</year></copyright>
+</metadata>
+<rte>
+<name>Lochnagar circuit, Glen Muick</name>
+<rtept lat="56.9523641139381" lon="-3.13624593700334">
+<ele>420.020781450188</ele>
+<name>Lochn001</name>
+</rtept>
+<rtept lat="56.9522298663728" lon="-3.13816551799758">
+<ele>416.330389915776</ele>
+<name>Lochn002</name>
+</rtept>
+<rtept lat="56.95116421913" lon="-3.13975742486757">
+<ele>418.168960271037</ele>
+<name>Lochn003</name>
+</rtept>
+<rtept lat="56.9521710643899" lon="-3.14205380042931">
+<ele>408.671189652324</ele>
+<name>Lochn004</name>
+</rtept>
+<rtept lat="56.9548591016807" lon="-3.14696689143303">
+<ele>398.717610084224</ele>
+<name>Lochn005</name>
+</rtept>
+<rtept lat="56.9574076154556" lon="-3.15179088332413">
+<ele>406.611380702937</ele>
+<name>Lochn006</name>
+</rtept>
+<rtept lat="56.9584775866119" lon="-3.15481676622562">
+<ele>424.364372969425</ele>
+<name>Lochn007</name>
+</rtept>
+<rtept lat="56.9588730280759" lon="-3.16004521095497">
+<ele>453.496683566582</ele>
+<name>Lochn008</name>
+</rtept>
+<rtept lat="56.9594389806772" lon="-3.16198683892444">
+<ele>456.340354683065</ele>
+<name>Lochn009</name>
+</rtept>
+<rtept lat="56.9588993927303" lon="-3.16474918029043">
+<ele>475.680926656961</ele>
+<name>Lochn010</name>
+</rtept>
+<rtept lat="56.9587273927903" lon="-3.16816427366829">
+<ele>488.318519934142</ele>
+<name>Lochn011</name>
+</rtept>
+<rtept lat="56.9570961181304" lon="-3.17025093225006">
+<ele>508.313883830023</ele>
+<name>Lochn012</name>
+</rtept>
+<rtept lat="56.9562121704998" lon="-3.174840541601">
+<ele>525.64894036603</ele>
+<name>Lochn013</name>
+</rtept>
+<rtept lat="56.9560515665429" lon="-3.17949553721608">
+<ele>561.213009352159</ele>
+<name>Lochn014</name>
+</rtept>
+<rtept lat="56.9570644590595" lon="-3.18354640254783">
+<ele>589.767461640191</ele>
+<name>Lochn015</name>
+</rtept>
+<rtept lat="56.9576842926276" lon="-3.18715744171951">
+<ele>613.760611482525</ele>
+<name>Lochn016</name>
+</rtept>
+<rtept lat="56.9576386076028" lon="-3.18950749368218">
+<ele>635.779708107138</ele>
+<name>Lochn017</name>
+</rtept>
+<rtept lat="56.9570590407976" lon="-3.19149846714826">
+<ele>646.63643575964</ele>
+<name>Lochn018</name>
+</rtept>
+<rtept lat="56.9572770787087" lon="-3.19313008598654">
+<ele>652.636695657039</ele>
+<name>Lochn019</name>
+</rtept>
+<rtept lat="56.95873519727" lon="-3.1945448711471">
+<ele>674.051873079586</ele>
+<name>Lochn020</name>
+</rtept>
+<rtept lat="56.9601248778578" lon="-3.19578654548276">
+<ele>682.576146825403</ele>
+<name>Lochn021</name>
+</rtept>
+<rtept lat="56.9607685114612" lon="-3.19687611757815">
+<ele>692.059160615492</ele>
+<name>Lochn022</name>
+</rtept>
+<rtept lat="56.9607062555721" lon="-3.19849893330454">
+<ele>688.65625679946</ele>
+<name>Lochn023</name>
+</rtept>
+<rtept lat="56.9590974220599" lon="-3.20062786304192">
+<ele>709.016339355338</ele>
+<name>Lochn024</name>
+</rtept>
+<rtept lat="56.9587655050255" lon="-3.2035673538152">
+<ele>721.700223185372</ele>
+<name>Lochn025</name>
+</rtept>
+<rtept lat="56.957928844892" lon="-3.20554987187612">
+<ele>743.133493774944</ele>
+<name>Lochn026</name>
+</rtept>
+<rtept lat="56.9582560307979" lon="-3.20795474146595">
+<ele>758.000766261768</ele>
+<name>Lochn027</name>
+</rtept>
+<rtept lat="56.9571934143284" lon="-3.21155447540047">
+<ele>798.643551848602</ele>
+<name>Lochn028</name>
+</rtept>
+<rtept lat="56.9565572534042" lon="-3.2145265818342">
+<ele>844.048700512934</ele>
+<name>Lochn029</name>
+</rtept>
+<rtept lat="56.9567024416039" lon="-3.21641246839244">
+<ele>862.579506004715</ele>
+<name>Lochn030</name>
+</rtept>
+<rtept lat="56.9573146360823" lon="-3.21831360801539">
+<ele>876.823154118252</ele>
+<name>Lochn031</name>
+</rtept>
+<rtept lat="56.9578021181212" lon="-3.22102308034247">
+<ele>922.138984591294</ele>
+<name>Lochn032</name>
+</rtept>
+<rtept lat="56.9571878788008" lon="-3.22172981704869">
+<ele>940.544267410612</ele>
+<name>Lochn033</name>
+</rtept>
+<rtept lat="56.9567654605647" lon="-3.22192976463794">
+<ele>951.555403543854</ele>
+<name>Lochn034</name>
+</rtept>
+<rtept lat="56.9560907658277" lon="-3.22165116700226">
+<ele>984.237144986439</ele>
+<name>Lochn035</name>
+</rtept>
+<rtept lat="56.9555265672857" lon="-3.22201748015384">
+<ele>1025.59821299219</ele>
+<name>Lochn036</name>
+</rtept>
+<rtept lat="56.9549703008784" lon="-3.22157175810322">
+<ele>1008.84973212605</ele>
+<name>Lochn037</name>
+</rtept>
+<rtept lat="56.9544044323081" lon="-3.22210901160098">
+<ele>1052.89532852386</ele>
+<name>Lochn038</name>
+</rtept>
+<rtept lat="56.9538894417568" lon="-3.22222040926589">
+<ele>1055.74462105503</ele>
+<name>Lochn039</name>
+</rtept>
+<rtept lat="56.9534348963712" lon="-3.22331703322391">
+<ele>1065.14549539358</ele>
+<name>Lochn040</name>
+</rtept>
+<rtept lat="56.9523385447054" lon="-3.22554680548666">
+<ele>1057.56904592485</ele>
+<name>Lochn041</name>
+</rtept>
+<rtept lat="56.9522191478096" lon="-3.22819330466938">
+<ele>1031.72463772273</ele>
+<name>Lochn042</name>
+</rtept>
+<rtept lat="56.9527783553908" lon="-3.23308511986659">
+<ele>1028.28992040274</ele>
+<name>Lochn043</name>
+</rtept>
+<rtept lat="56.9522016000326" lon="-3.23708445404423">
+<ele>1026.61973996328</ele>
+<name>Lochn044</name>
+</rtept>
+<rtept lat="56.952651712481" lon="-3.23880933394594">
+<ele>1056.20758266604</ele>
+<name>Lochn045</name>
+</rtept>
+<rtept lat="56.9544731827664" lon="-3.2412210835628">
+<ele>1112.13087757584</ele>
+<name>Lochn046</name>
+</rtept>
+<rtept lat="56.9554823998764" lon="-3.24309298807557">
+<ele>1123.54909015008</ele>
+<name>Lochn047</name>
+</rtept>
+<rtept lat="56.9571352596851" lon="-3.24366106894315">
+<ele>1140.11941593565</ele>
+<name>Lochn048</name>
+</rtept>
+<rtept lat="56.9602961808586" lon="-3.24526289531143">
+<ele>1127.68601680704</ele>
+<name>Lochn049</name>
+</rtept>
+<rtept lat="56.9571815377541" lon="-3.2437053648413">
+<ele>1140.11941593565</ele>
+<name>Lochn050</name>
+</rtept>
+<rtept lat="56.9554823998764" lon="-3.24309298807557">
+<ele>1123.54909015008</ele>
+<name>Lochn051</name>
+</rtept>
+<rtept lat="56.9544731827664" lon="-3.2412210835628">
+<ele>1112.13087757584</ele>
+<name>Lochn052</name>
+</rtept>
+<rtept lat="56.9526984156331" lon="-3.23881088320709">
+<ele>1056.98758266604</ele>
+<name>Lochn053</name>
+</rtept>
+<rtept lat="56.9517316090504" lon="-3.23736812274208">
+<ele>1017.55876760178</ele>
+<name>Lochn054</name>
+</rtept>
+<rtept lat="56.9503129456213" lon="-3.23437160924631">
+<ele>975.265979955703</ele>
+<name>Lochn055</name>
+</rtept>
+<rtept lat="56.9497752593359" lon="-3.23204555948297">
+<ele>958.4188270154</ele>
+<name>Lochn056</name>
+</rtept>
+<rtept lat="56.948944277742" lon="-3.23103501425746">
+<ele>937.406174104273</ele>
+<name>Lochn057</name>
+</rtept>
+<rtept lat="56.9473062000587" lon="-3.22657849202449">
+<ele>878.972489139414</ele>
+<name>Lochn058</name>
+</rtept>
+<rtept lat="56.9463379935898" lon="-3.22526444104044">
+<ele>843.854897480822</ele>
+<name>Lochn059</name>
+</rtept>
+<rtept lat="56.9455161541736" lon="-3.22331413996415">
+<ele>818.839677312374</ele>
+<name>Lochn060</name>
+</rtept>
+<rtept lat="56.9441292507814" lon="-3.22181558411218">
+<ele>796.338668099546</ele>
+<name>Lochn061</name>
+</rtept>
+<rtept lat="56.941047506727" lon="-3.21444971039694">
+<ele>766.176634485459</ele>
+<name>Lochn062</name>
+</rtept>
+<rtept lat="56.9384935581267" lon="-3.21043527595136">
+<ele>748.042796777892</ele>
+<name>Lochn063</name>
+</rtept>
+<rtept lat="56.936644567693" lon="-3.20597411687741">
+<ele>701.797866883683</ele>
+<name>Lochn064</name>
+</rtept>
+<rtept lat="56.9348716268476" lon="-3.20087491883365">
+<ele>669.733747777796</ele>
+<name>Lochn065</name>
+</rtept>
+<rtept lat="56.9337581136278" lon="-3.20007004516836">
+<ele>644.393896082544</ele>
+<name>Lochn066</name>
+</rtept>
+<rtept lat="56.9331734940902" lon="-3.2001367258845">
+<ele>614.046762745905</ele>
+<name>Lochn067</name>
+</rtept>
+<rtept lat="56.9331870024504" lon="-3.20116260107852">
+<ele>626.116276565146</ele>
+<name>Lochn068</name>
+</rtept>
+<rtept lat="56.9325425804859" lon="-3.20015919198411">
+<ele>601.762113350678</ele>
+<name>Lochn069</name>
+</rtept>
+<rtept lat="56.9323303625289" lon="-3.20036600590573">
+<ele>608.158113350678</ele>
+<name>Lochn070</name>
+</rtept>
+<rtept lat="56.9305961713862" lon="-3.19851591302416">
+<ele>552.831979056334</ele>
+<name>Lochn071</name>
+</rtept>
+<rtept lat="56.9297911263892" lon="-3.19720841429679">
+<ele>484.965747917128</ele>
+<name>Lochn072</name>
+</rtept>
+<rtept lat="56.9292704275744" lon="-3.19791801441322">
+<ele>487.214831453323</ele>
+<name>Lochn073</name>
+</rtept>
+<rtept lat="56.9293355308728" lon="-3.19599759743552">
+<ele>453.655900497758</ele>
+<name>Lochn074</name>
+</rtept>
+<rtept lat="56.9289445244554" lon="-3.19470178810589">
+<ele>449.14116673038</ele>
+<name>Lochn075</name>
+</rtept>
+<rtept lat="56.9288335083364" lon="-3.19277904939806">
+<ele>425.088843961781</ele>
+<name>Lochn076</name>
+</rtept>
+<rtept lat="56.9290154783116" lon="-3.19178582088618">
+<ele>431.492880813086</ele>
+<name>Lochn077</name>
+</rtept>
+<rtept lat="56.9285668899798" lon="-3.1905884645756">
+<ele>410.00620785768</ele>
+<name>Lochn078</name>
+</rtept>
+<rtept lat="56.9290235048679" lon="-3.18792138823415">
+<ele>410.004926517665</ele>
+<name>Lochn079</name>
+</rtept>
+<rtept lat="56.929679414342" lon="-3.18696947243207">
+<ele>401.466350186799</ele>
+<name>Lochn080</name>
+</rtept>
+<rtept lat="56.9302097209557" lon="-3.1856191697218">
+<ele>399.204203361408</ele>
+<name>Lochn081</name>
+</rtept>
+<rtept lat="56.9305870927818" lon="-3.1852367680618">
+<ele>402.101016807044</ele>
+<name>Lochn082</name>
+</rtept>
+<rtept lat="56.9311607957303" lon="-3.18233656238621">
+<ele>399.45640672282</ele>
+<name>Lochn083</name>
+</rtept>
+<rtept lat="56.9328275860266" lon="-3.17784059666195">
+<ele>399.10861008423</ele>
+<name>Lochn084</name>
+</rtept>
+<rtept lat="56.9343358926724" lon="-3.17336555195845">
+<ele>403.677423529863</ele>
+<name>Lochn085</name>
+</rtept>
+<rtept lat="56.9357635831976" lon="-3.16980795524572">
+<ele>401.597243090381</ele>
+<name>Lochn086</name>
+</rtept>
+<rtept lat="56.9370161659042" lon="-3.16805904360304">
+<ele>399.54463300615</ele>
+<name>Lochn087</name>
+</rtept>
+<rtept lat="56.9386267636842" lon="-3.16645267601224">
+<ele>400.987721676922</ele>
+<name>Lochn088</name>
+</rtept>
+<rtept lat="56.94071108156" lon="-3.16491353744752">
+<ele>399.117544335383</ele>
+<name>Lochn089</name>
+</rtept>
+<rtept lat="56.9434471937048" lon="-3.16284221704204">
+<ele>411.682078198892</ele>
+<name>Lochn090</name>
+</rtept>
+<rtept lat="56.9445934692643" lon="-3.16169434183158">
+<ele>400.191261516035</ele>
+<name>Lochn091</name>
+</rtept>
+<rtept lat="56.9452598901268" lon="-3.16113642840487">
+<ele>408.872466496056</ele>
+<name>Lochn092</name>
+</rtept>
+<rtept lat="56.9457711593429" lon="-3.1602580500036">
+<ele>401.040813445634</ele>
+<name>Lochn093</name>
+</rtept>
+<rtept lat="56.9456357439367" lon="-3.15935957680337">
+<ele>400.400813445634</ele>
+<name>Lochn094</name>
+</rtept>
+<rtept lat="56.9450835734971" lon="-3.15844818608037">
+<ele>399.95240672282</ele>
+<name>Lochn095</name>
+</rtept>
+<rtept lat="56.944784211868" lon="-3.15662410829818">
+<ele>399.698862387434</ele>
+<name>Lochn096</name>
+</rtept>
+<rtept lat="56.9442539217282" lon="-3.15489812565205">
+<ele>400.398659026027</ele>
+<name>Lochn097</name>
+</rtept>
+<rtept lat="56.9438295984263" lon="-3.15414858874212">
+<ele>399.886659026027</ele>
+<name>Lochn098</name>
+</rtept>
+<rtept lat="56.9438314732572" lon="-3.15238650104191">
+<ele>401.792707967821</ele>
+<name>Lochn099</name>
+</rtept>
+<rtept lat="56.9434286098046" lon="-3.15242667478547">
+<ele>400.418350186802</ele>
+<name>Lochn100</name>
+</rtept>
+<rtept lat="56.9430603012735" lon="-3.15183671047438">
+<ele>403.656074961674</ele>
+<name>Lochn101</name>
+</rtept>
+<rtept lat="56.9430346109291" lon="-3.14994231041011">
+<ele>409.940579568088</ele>
+<name>Lochn102</name>
+</rtept>
+<rtept lat="56.9432438906436" lon="-3.14750282897769">
+<ele>420.472075100923</ele>
+<name>Lochn103</name>
+</rtept>
+<rtept lat="56.9435847857875" lon="-3.14638237914297">
+<ele>429.096362138021</ele>
+<name>Lochn104</name>
+</rtept>
+<rtept lat="56.946513361271" lon="-3.14523603492794">
+<ele>452.723164752221</ele>
+<name>Lochn105</name>
+</rtept>
+<rtept lat="56.9474800503862" lon="-3.14484482195916">
+<ele>445.288585903263</ele>
+<name>Lochn106</name>
+</rtept>
+<rtept lat="56.9495873668276" lon="-3.14233155423075">
+<ele>438.35697110247</ele>
+<name>Lochn107</name>
+</rtept>
+<rtept lat="56.9509303484576" lon="-3.1400840404363">
+<ele>420.550192669249</ele>
+<name>Lochn108</name>
+</rtept>
+<rtept lat="56.9521983257083" lon="-3.13817606585962">
+<ele>416.435389915773</ele>
+<name>Lochn109</name>
+</rtept>
+<rtept lat="56.9523736205072" lon="-3.136287330356">
+<ele>419.699781450152</ele>
+<name>Lochn110</name>
+</rtept>
+</rte>
+</gpx>

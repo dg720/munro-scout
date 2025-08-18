@@ -1,0 +1,346 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="Walkhighlands">
+<metadata>
+	<desc>GPX file from Walkhighlands; file is copyright Walkhighlands and must not be publicly shared on other websites. Do not remove this notice.</desc>
+	<copyright author="Walkhighlands"><year>2019</year></copyright>
+</metadata>
+<rte>
+<name>Cairn Gorm via the northern corries</name>
+<rtept lat="57.1336593889267" lon="-3.67072916337656">
+<ele>629.505621776144</ele>
+<name>CGorm001</name>
+</rtept>
+<rtept lat="57.1331967121299" lon="-3.67065874764218">
+<ele>631.613223594742</ele>
+<name>CGorm002</name>
+</rtept>
+<rtept lat="57.133141623058" lon="-3.67115196352313">
+<ele>629.429722641662</ele>
+<name>CGorm003</name>
+</rtept>
+<rtept lat="57.1332141451788" lon="-3.67137333929919">
+<ele>627.829373644531</ele>
+<name>CGorm003 - CGorm004</name>
+</rtept>
+<rtept lat="57.1331294733233" lon="-3.67206349977067">
+<ele>627.82313596879</ele>
+<name>CGorm003 - CGorm004 - CGorm004</name>
+</rtept>
+<rtept lat="57.1331597880116" lon="-3.67262004865948">
+<ele>628.936785932382</ele>
+<name>CGorm003 - CGorm004 - CGorm004 - CGorm004</name>
+</rtept>
+<rtept lat="57.1327192613502" lon="-3.67331397564887">
+<ele>636.926733183496</ele>
+<name>CGorm003 - CGorm004 - CGorm004 - CGorm004 - CGorm004</name>
+</rtept>
+<rtept lat="57.1321408744131" lon="-3.67457501644022">
+<ele>664.118295277387</ele>
+<name>CGorm004</name>
+</rtept>
+<rtept lat="57.1315024059294" lon="-3.67522194662277">
+<ele>645.272724779382</ele>
+<name>CGorm004 - CGorm005</name>
+</rtept>
+<rtept lat="57.1306022362097" lon="-3.67561746893914">
+<ele>652.111438371463</ele>
+<name>CGorm005</name>
+</rtept>
+<rtept lat="57.1272717429583" lon="-3.67694890964169">
+<ele>658.172971620871</ele>
+<name>CGorm006</name>
+</rtept>
+<rtept lat="57.1268424035592" lon="-3.67727477637916">
+<ele>656.726178305984</ele>
+<name>CGorm006 - CGorm006 - CGorm007</name>
+</rtept>
+<rtept lat="57.1261764937975" lon="-3.67755359166175">
+<ele>664.817421640275</ele>
+<name>CGorm006 - CGorm007</name>
+</rtept>
+<rtept lat="57.1255360228782" lon="-3.67838200840781">
+<ele>675.456788020203</ele>
+<name>CGorm007</name>
+</rtept>
+<rtept lat="57.1239958150795" lon="-3.68098017384711">
+<ele>715.490972219686</ele>
+<name>CGorm008</name>
+</rtept>
+<rtept lat="57.1230581299816" lon="-3.6819602087743">
+<ele>744.376404942214</ele>
+<name>CGorm009</name>
+</rtept>
+<rtept lat="57.1196753591242" lon="-3.6843686838527">
+<ele>790.956491927338</ele>
+<name>CGorm010</name>
+</rtept>
+<rtept lat="57.1187797904649" lon="-3.68448657792861">
+<ele>789.898709364032</ele>
+<name>CGorm010 - CGorm010 - CGorm011</name>
+</rtept>
+<rtept lat="57.117334651796" lon="-3.68538386879505">
+<ele>808.110709364032</ele>
+<name>CGorm010 - CGorm011</name>
+</rtept>
+<rtept lat="57.1167815238029" lon="-3.68535874474286">
+<ele>818.411236772907</ele>
+<name>CGorm011</name>
+</rtept>
+<rtept lat="57.115814395241" lon="-3.68598700287172">
+<ele>837.860886413395</ele>
+<name>CGorm011 - CGorm011 - CGorm012</name>
+</rtept>
+<rtept lat="57.1153102746" lon="-3.68672710806359">
+<ele>848.305018054315</ele>
+<name>CGorm011 - CGorm012</name>
+</rtept>
+<rtept lat="57.114705073493" lon="-3.6868994317705">
+<ele>862.213156599194</ele>
+<name>CGorm012</name>
+</rtept>
+<rtept lat="57.1143360522404" lon="-3.68788181061242">
+<ele>880.466379770464</ele>
+<name>CGorm012 - CGorm013</name>
+</rtept>
+<rtept lat="57.1126941847562" lon="-3.68977398901117">
+<ele>931.667586820149</ele>
+<name>CGorm013</name>
+</rtept>
+<rtept lat="57.1090908245584" lon="-3.6912215726463">
+<ele>1018.9824835231</ele>
+<name>CGorm014</name>
+</rtept>
+<rtept lat="57.1075480545732" lon="-3.69101092332492">
+<ele>1040.3079375062</ele>
+<name>CGorm015</name>
+</rtept>
+<rtept lat="57.1060256120913" lon="-3.69085736534125">
+<ele>1064.6731815347</ele>
+<name>CGorm016</name>
+</rtept>
+<rtept lat="57.104529586905" lon="-3.68986132909473">
+<ele>1063.2104814049</ele>
+<name>CGorm017</name>
+</rtept>
+<rtept lat="57.1039220832223" lon="-3.68985512344952">
+<ele>1064.27358928519</ele>
+<name>CGorm018</name>
+</rtept>
+<rtept lat="57.1035493844962" lon="-3.68870886441283">
+<ele>1059.50502920457</ele>
+<name>CGorm018 - CGorm018 - CGorm019</name>
+</rtept>
+<rtept lat="57.1020918790629" lon="-3.68705270399231">
+<ele>1081.65273167276</ele>
+<name>CGorm018 - CGorm019</name>
+</rtept>
+<rtept lat="57.1017284338385" lon="-3.68581780048274">
+<ele>1110.34775204284</ele>
+<name>CGorm019</name>
+</rtept>
+<rtept lat="57.1015539406368" lon="-3.68375942913554">
+<ele>1151.82933553711</ele>
+<name>CGorm019 - CGorm020</name>
+</rtept>
+<rtept lat="57.1017461879713" lon="-3.68262405167195">
+<ele>1170.74482602738</ele>
+<name>CGorm020</name>
+</rtept>
+<rtept lat="57.1021584135117" lon="-3.67848234074318">
+<ele>1205.44974709757</ele>
+<name>CGorm021</name>
+</rtept>
+<rtept lat="57.1025968177726" lon="-3.6767405893639">
+<ele>1202.8604666666</ele>
+<name>CGorm022</name>
+</rtept>
+<rtept lat="57.1027468072274" lon="-3.67580464579098">
+<ele>1212.33200070293</ele>
+<name>CGorm023</name>
+</rtept>
+<rtept lat="57.1034122294816" lon="-3.67556226728068">
+<ele>1206.39216802525</ele>
+<name>CGorm024</name>
+</rtept>
+<rtept lat="57.1038449605294" lon="-3.67498247690047">
+<ele>1202.98965798506</ele>
+<name>CGorm024 - CGorm025</name>
+</rtept>
+<rtept lat="57.1042206661546" lon="-3.67349202948332">
+<ele>1203.09612770279</ele>
+<name>CGorm024 - CGorm025 - CGorm025</name>
+</rtept>
+<rtept lat="57.1048979524365" lon="-3.67236020904852">
+<ele>1189.96166115333</ele>
+<name>CGorm025</name>
+</rtept>
+<rtept lat="57.1056590427517" lon="-3.67161352538344">
+<ele>1179.91003821785</ele>
+<name>CGorm026</name>
+</rtept>
+<rtept lat="57.1050433431577" lon="-3.67035079631659">
+<ele>1167.28933870926</ele>
+<name>CGorm026 - CGorm027</name>
+</rtept>
+<rtept lat="57.1047073068668" lon="-3.66960920998296">
+<ele>1154.40273808098</ele>
+<name>CGorm027</name>
+</rtept>
+<rtept lat="57.1048369531824" lon="-3.66877960196603">
+<ele>1142.47999765917</ele>
+<name>CGorm027 - CGorm028</name>
+</rtept>
+<rtept lat="57.104713404124" lon="-3.66766618729117">
+<ele>1127.70688632172</ele>
+<name>CGorm027 - CGorm028 - CGorm028</name>
+</rtept>
+<rtept lat="57.1049739790851" lon="-3.66604333353007">
+<ele>1108.51104536401</ele>
+<name>CGorm028</name>
+</rtept>
+<rtept lat="57.1056339892022" lon="-3.66404210333192">
+<ele>1132.50461960067</ele>
+<name>CGorm029</name>
+</rtept>
+<rtept lat="57.1057305697562" lon="-3.6628576386884">
+<ele>1137.75204145316</ele>
+<name>CGorm030</name>
+</rtept>
+<rtept lat="57.1064200202079" lon="-3.65971504618716">
+<ele>1164.88164954006</ele>
+<name>CGorm031</name>
+</rtept>
+<rtept lat="57.1070415265659" lon="-3.65749230488067">
+<ele>1161.16532239671</ele>
+<name>CGorm032</name>
+</rtept>
+<rtept lat="57.1074554198795" lon="-3.65676775678038">
+<ele>1141.58650352829</ele>
+<name>CGorm033</name>
+</rtept>
+<rtept lat="57.107624399811" lon="-3.65637077426093">
+<ele>1134.50706770842</ele>
+<name>CGorm034</name>
+</rtept>
+<rtept lat="57.1095329772974" lon="-3.6547221143096">
+<ele>1107.5929074747</ele>
+<name>CGorm035</name>
+</rtept>
+<rtept lat="57.1117417433923" lon="-3.65401802904518">
+<ele>1099.83288844841</ele>
+<name>CGorm036</name>
+</rtept>
+<rtept lat="57.113055657774" lon="-3.65418061340944">
+<ele>1115.58169568463</ele>
+<name>CGorm037</name>
+</rtept>
+<rtept lat="57.114184396309" lon="-3.65315583223634">
+<ele>1119.33027523503</ele>
+<name>CGorm038</name>
+</rtept>
+<rtept lat="57.114697555482" lon="-3.65185088837611">
+<ele>1122.48064338465</ele>
+<name>CGorm039</name>
+</rtept>
+<rtept lat="57.1152895597506" lon="-3.64946931942242">
+<ele>1143.05248531035</ele>
+<name>CGorm040</name>
+</rtept>
+<rtept lat="57.1157015434477" lon="-3.64768173073848">
+<ele>1177.2227140526</ele>
+<name>CGorm041</name>
+</rtept>
+<rtept lat="57.1159071479529" lon="-3.64570900023788">
+<ele>1218.97685504634</ele>
+<name>CGorm042</name>
+</rtept>
+<rtept lat="57.1163187955988" lon="-3.64387496097646">
+<ele>1221.36851103788</ele>
+<name>CGorm043</name>
+</rtept>
+<rtept lat="57.1168239900758" lon="-3.6444043691097">
+<ele>1226.67448747013</ele>
+<name>CGorm044</name>
+</rtept>
+<rtept lat="57.1200458472197" lon="-3.64454716613073">
+<ele>1203.84937411809</ele>
+<name>CGorm045</name>
+</rtept>
+<rtept lat="57.1227655097188" lon="-3.6450443669782">
+<ele>1111.60444141916</ele>
+<name>CGorm046</name>
+</rtept>
+<rtept lat="57.1237780691409" lon="-3.64552537105514">
+<ele>1088.45451202528</ele>
+<name>CGorm047</name>
+</rtept>
+<rtept lat="57.1240118912032" lon="-3.64496087835328">
+<ele>1088.72272018338</ele>
+<name>CGorm048</name>
+</rtept>
+<rtept lat="57.1246623150266" lon="-3.64469237223489">
+<ele>1077.63301364721</ele>
+<name>CGorm049</name>
+</rtept>
+<rtept lat="57.125256236324" lon="-3.64626494602587">
+<ele>1060.15945604149</ele>
+<name>CGorm050</name>
+</rtept>
+<rtept lat="57.1274164485306" lon="-3.64766428762285">
+<ele>1022.96779589205</ele>
+<name>CGorm051</name>
+</rtept>
+<rtept lat="57.1283450846756" lon="-3.64832509596416">
+<ele>1005.22406496231</ele>
+<name>CGorm052</name>
+</rtept>
+<rtept lat="57.1314075463803" lon="-3.65366575820327">
+<ele>949.889424681401</ele>
+<name>CGorm053</name>
+</rtept>
+<rtept lat="57.1318295666544" lon="-3.65513197378095">
+<ele>923.988895313718</ele>
+<name>CGorm054</name>
+</rtept>
+<rtept lat="57.1320409374749" lon="-3.65627156153239">
+<ele>903.979341097272</ele>
+<name>CGorm055</name>
+</rtept>
+<rtept lat="57.1326935437515" lon="-3.65706407247618">
+<ele>885.085550630587</ele>
+<name>CGorm056</name>
+</rtept>
+<rtept lat="57.1328575328346" lon="-3.66056107739976">
+<ele>836.722380903152</ele>
+<name>CGorm057</name>
+</rtept>
+<rtept lat="57.133367080775" lon="-3.66200248176293">
+<ele>809.928495367173</ele>
+<name>CGorm058</name>
+</rtept>
+<rtept lat="57.1342659039462" lon="-3.66251865136359">
+<ele>787.549819067574</ele>
+<name>CGorm059</name>
+</rtept>
+<rtept lat="57.1349676012858" lon="-3.66516091261671">
+<ele>731.996428305319</ele>
+<name>CGorm060</name>
+</rtept>
+<rtept lat="57.133970218118" lon="-3.66811592734249">
+<ele>667.265916790444</ele>
+<name>CGorm061</name>
+</rtept>
+<rtept lat="57.1332435118211" lon="-3.66884661307763">
+<ele>649.747883677074</ele>
+<name>CGorm062</name>
+</rtept>
+<rtept lat="57.1332061554722" lon="-3.66962813550584">
+<ele>639.519303426061</ele>
+<name>CGorm063</name>
+</rtept>
+<rtept lat="57.1336494056019" lon="-3.67066922902335">
+<ele>630.020953401578</ele>
+<name>CGorm064</name>
+</rtept>
+</rte>
+</gpx>

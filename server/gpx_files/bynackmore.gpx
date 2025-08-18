@@ -1,0 +1,779 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="Walkhighlands">
+<metadata>
+	<desc>GPX file from Walkhighlands; file is copyright Walkhighlands and must not be publicly shared on other websites. Do not remove this notice.</desc>
+	<copyright author="Walkhighlands"><year>2019</year></copyright>
+</metadata>
+<rte>
+<name>Bynack More from Glenmore</name>
+<rtept lat="57.1591276461517" lon="-3.68168437436402">
+<ele>341.106483736068</ele>
+<name>BYN001</name>
+</rtept>
+<rtept lat="57.1586391192408" lon="-3.68112978136827">
+<ele>343.907457811588</ele>
+<name>BYN002</name>
+</rtept>
+<rtept lat="57.1579106822544" lon="-3.68151504474528">
+<ele>349.165655824044</ele>
+<name>BYN003</name>
+</rtept>
+<rtept lat="57.157655949785" lon="-3.68047670715984">
+<ele>349.728729299216</ele>
+<name>BYN004</name>
+</rtept>
+<rtept lat="57.1577961485198" lon="-3.67926614305905">
+<ele>350.109665361691</ele>
+<name>BYN005</name>
+</rtept>
+<rtept lat="57.1583231397024" lon="-3.67849141360808">
+<ele>345.347667322146</ele>
+<name>BYN006</name>
+</rtept>
+<rtept lat="57.1586503768437" lon="-3.67565401141525">
+<ele>342.470883588672</ele>
+<name>BYN007</name>
+</rtept>
+<rtept lat="57.1599679727417" lon="-3.67137807257051">
+<ele>347.856681748519</ele>
+<name>BYN008</name>
+</rtept>
+<rtept lat="57.1602697624529" lon="-3.67044090579182">
+<ele>349.000647304405</ele>
+<name>BYN009</name>
+</rtept>
+<rtept lat="57.1616560954455" lon="-3.66875391757359">
+<ele>348.730403834697</ele>
+<name>BYN010</name>
+</rtept>
+<rtept lat="57.1617623911296" lon="-3.66853050921627">
+<ele>349.436198012456</ele>
+<name>BYN011</name>
+</rtept>
+<rtept lat="57.1616662038458" lon="-3.66799371806761">
+<ele>350.803710974696</ele>
+<name>BYN012</name>
+</rtept>
+<rtept lat="57.1617125614112" lon="-3.66761547768352">
+<ele>352.275710974695</ele>
+<name>BYN013</name>
+</rtept>
+<rtept lat="57.1620233599581" lon="-3.66755340379692">
+<ele>352.675548702479</ele>
+<name>BYN014</name>
+</rtept>
+<rtept lat="57.1625129579973" lon="-3.66803184866472">
+<ele>350.857853836501</ele>
+<name>BYN015</name>
+</rtept>
+<rtept lat="57.1631985340376" lon="-3.66775844820035">
+<ele>348.843396178415</ele>
+<name>BYN016</name>
+</rtept>
+<rtept lat="57.1641465296274" lon="-3.66795327563253">
+<ele>347.875710974691</ele>
+<name>BYN017</name>
+</rtept>
+<rtept lat="57.1652798141084" lon="-3.66975399039876">
+<ele>343.698949249144</ele>
+<name>BYN018</name>
+</rtept>
+<rtept lat="57.1661018671401" lon="-3.67009535137782">
+<ele>342.045237100143</ele>
+<name>BYN019</name>
+</rtept>
+<rtept lat="57.1665250344104" lon="-3.66935367931102">
+<ele>343.67915004875</ele>
+<name>BYN020</name>
+</rtept>
+<rtept lat="57.167325893" lon="-3.668112798">
+<name>BYN021</name>
+</rtept>
+<rtept lat="57.167521307" lon="-3.666896661">
+<name>BYN022</name>
+</rtept>
+<rtept lat="57.168117964" lon="-3.665183721">
+<name>BYN023</name>
+</rtept>
+<rtept lat="57.16889209" lon="-3.664438455">
+<name>BYN024</name>
+</rtept>
+<rtept lat="57.16940428" lon="-3.663738364">
+<name>BYN025</name>
+</rtept>
+<rtept lat="57.170206183" lon="-3.663149283">
+<name>BYN026</name>
+</rtept>
+<rtept lat="57.17055338" lon="-3.66235957">
+<name>BYN027</name>
+</rtept>
+<rtept lat="57.170912344" lon="-3.660610838">
+<name>BYN028</name>
+</rtept>
+<rtept lat="57.171167502" lon="-3.658835303">
+<name>BYN029</name>
+</rtept>
+<rtept lat="57.171447851" lon="-3.658030625">
+<name>BYN030</name>
+</rtept>
+<rtept lat="57.171613628" lon="-3.656938225">
+<name>BYN031</name>
+</rtept>
+<rtept lat="57.173449155" lon="-3.655359692">
+<name>BYN032</name>
+</rtept>
+<rtept lat="57.174054305" lon="-3.65519919">
+<name>BYN033</name>
+</rtept>
+<rtept lat="57.174905693" lon="-3.655503311">
+<name>BYN034</name>
+</rtept>
+<rtept lat="57.17589086" lon="-3.654777642">
+<name>BYN035</name>
+</rtept>
+<rtept lat="57.176492761" lon="-3.653941829">
+<name>BYN036</name>
+</rtept>
+<rtept lat="57.177144539" lon="-3.652400089">
+<name>BYN037</name>
+</rtept>
+<rtept lat="57.177566097" lon="-3.652059083">
+<name>BYN038</name>
+</rtept>
+<rtept lat="57.17870704" lon="-3.652295598">
+<name>BYN039</name>
+</rtept>
+<rtept lat="57.179523946" lon="-3.651004511">
+<name>BYN040</name>
+</rtept>
+<rtept lat="57.179535173" lon="-3.649065776">
+<name>BYN041</name>
+</rtept>
+<rtept lat="57.179737139" lon="-3.647989774">
+<name>BYN042</name>
+</rtept>
+<rtept lat="57.180286614" lon="-3.646859767">
+<name>BYN043</name>
+</rtept>
+<rtept lat="57.180124835" lon="-3.644713177">
+<name>BYN044</name>
+</rtept>
+<rtept lat="57.179871287" lon="-3.644185663">
+<name>BYN045</name>
+</rtept>
+<rtept lat="57.179894373" lon="-3.643216807">
+<name>BYN046</name>
+</rtept>
+<rtept lat="57.180052862" lon="-3.641922618">
+<name>BYN047</name>
+</rtept>
+<rtept lat="57.179944164" lon="-3.640459623">
+<name>BYN048</name>
+</rtept>
+<rtept lat="57.179184023" lon="-3.639383091">
+<name>BYN049</name>
+</rtept>
+<rtept lat="57.179284734" lon="-3.638385519">
+<name>BYN050</name>
+</rtept>
+<rtept lat="57.177646635" lon="-3.635832399">
+<name>BYN051</name>
+</rtept>
+<rtept lat="57.17715576" lon="-3.635249853">
+<name>BYN052</name>
+</rtept>
+<rtept lat="57.176715177" lon="-3.63463609">
+<name>BYN053</name>
+</rtept>
+<rtept lat="57.17651138" lon="-3.632455533">
+<name>BYN054</name>
+</rtept>
+<rtept lat="57.176257692" lon="-3.631706606">
+<name>BYN055</name>
+</rtept>
+<rtept lat="57.176008385" lon="-3.630353757">
+<name>BYN056</name>
+</rtept>
+<rtept lat="57.176057492" lon="-3.629573713">
+<name>BYN057</name>
+</rtept>
+<rtept lat="57.174782018" lon="-3.623070264">
+<name>BYN058</name>
+</rtept>
+<rtept lat="57.174781544" lon="-3.622372573">
+<name>BYN059</name>
+</rtept>
+<rtept lat="57.175083836" lon="-3.621530979">
+<name>BYN060</name>
+</rtept>
+<rtept lat="57.174934401" lon="-3.620684951">
+<name>BYN061</name>
+</rtept>
+<rtept lat="57.174817331" lon="-3.620359798">
+<name>BYN062</name>
+</rtept>
+<rtept lat="57.174511028" lon="-3.620004472">
+<name>BYN063</name>
+</rtept>
+<rtept lat="57.174335594" lon="-3.619672206">
+<name>BYN064</name>
+</rtept>
+<rtept lat="57.174278058" lon="-3.619155418">
+<name>BYN065</name>
+</rtept>
+<rtept lat="57.17436756" lon="-3.618648433">
+<name>BYN066</name>
+</rtept>
+<rtept lat="57.174291853" lon="-3.617360079">
+<name>BYN067</name>
+</rtept>
+<rtept lat="57.174384655" lon="-3.61706011">
+<name>BYN068</name>
+</rtept>
+<rtept lat="57.174208145" lon="-3.614869266">
+<name>BYN069</name>
+</rtept>
+<rtept lat="57.173566146" lon="-3.613848792">
+<name>BYN070</name>
+</rtept>
+<rtept lat="57.172263853" lon="-3.612385877">
+<name>BYN071</name>
+</rtept>
+<rtept lat="57.171689047" lon="-3.609736829">
+<name>BYN072</name>
+</rtept>
+<rtept lat="57.17142403" lon="-3.607782157">
+<name>BYN073</name>
+</rtept>
+<rtept lat="57.171016346" lon="-3.606649157">
+<name>BYN074</name>
+</rtept>
+<rtept lat="57.170452041" lon="-3.603290078">
+<name>BYN075</name>
+</rtept>
+<rtept lat="57.169000725" lon="-3.600081216">
+<name>BYN076</name>
+</rtept>
+<rtept lat="57.168807035" lon="-3.599798963">
+<name>BYN077</name>
+</rtept>
+<rtept lat="57.168596724" lon="-3.599233349">
+<name>BYN078</name>
+</rtept>
+<rtept lat="57.168050949" lon="-3.598781326">
+<name>BYN079</name>
+</rtept>
+<rtept lat="57.168032618" lon="-3.597922168">
+<name>BYN080</name>
+</rtept>
+<rtept lat="57.167770069" lon="-3.597167929">
+<name>BYN081</name>
+</rtept>
+<rtept lat="57.166640983" lon="-3.594926952">
+<name>BYN082</name>
+</rtept>
+<rtept lat="57.166032029" lon="-3.594444116">
+<name>BYN083</name>
+</rtept>
+<rtept lat="57.165716002" lon="-3.59395479">
+<name>BYN084</name>
+</rtept>
+<rtept lat="57.165332296" lon="-3.593569023">
+<name>BYN085</name>
+</rtept>
+<rtept lat="57.164647461" lon="-3.592337636">
+<name>BYN086</name>
+</rtept>
+<rtept lat="57.164219559" lon="-3.591901999">
+<name>BYN087</name>
+</rtept>
+<rtept lat="57.163374787" lon="-3.591358397">
+<name>BYN088</name>
+</rtept>
+<rtept lat="57.163083089" lon="-3.591338384">
+<name>BYN089</name>
+</rtept>
+<rtept lat="57.162500489" lon="-3.591380867">
+<name>BYN090</name>
+</rtept>
+<rtept lat="57.16203954" lon="-3.591486165">
+<name>BYN091</name>
+</rtept>
+<rtept lat="57.161724556" lon="-3.59167495">
+<name>BYN092</name>
+</rtept>
+<rtept lat="57.160898121" lon="-3.591845172">
+<name>BYN093</name>
+</rtept>
+<rtept lat="57.160126108" lon="-3.591393175">
+<name>BYN094</name>
+</rtept>
+<rtept lat="57.159232293" lon="-3.590335265">
+<name>BYN095</name>
+</rtept>
+<rtept lat="57.158583828" lon="-3.589410934">
+<name>BYN096</name>
+</rtept>
+<rtept lat="57.15773254" lon="-3.589200223">
+<name>BYN097</name>
+</rtept>
+<rtept lat="57.157348622" lon="-3.589290033">
+<name>BYN098</name>
+</rtept>
+<rtept lat="57.155109843" lon="-3.588849093">
+<name>BYN099</name>
+</rtept>
+<rtept lat="57.154890722" lon="-3.588796125">
+<name>BYN100</name>
+</rtept>
+<rtept lat="57.154615773" lon="-3.588866949">
+<name>BYN101</name>
+</rtept>
+<rtept lat="57.153834255" lon="-3.588653777">
+<name>BYN102</name>
+</rtept>
+<rtept lat="57.153187517" lon="-3.588725336">
+<name>BYN103</name>
+</rtept>
+<rtept lat="57.151820371" lon="-3.588888058">
+<name>BYN104</name>
+</rtept>
+<rtept lat="57.15117119" lon="-3.588671656">
+<name>BYN105</name>
+</rtept>
+<rtept lat="57.149643045" lon="-3.588308377">
+<name>BYN106</name>
+</rtept>
+<rtept lat="57.149048896" lon="-3.587831089">
+<name>BYN107</name>
+</rtept>
+<rtept lat="57.147234656" lon="-3.58696734">
+<name>BYN108</name>
+</rtept>
+<rtept lat="57.146791611" lon="-3.586898807">
+<name>BYN109</name>
+</rtept>
+<rtept lat="57.145825462" lon="-3.586167618">
+<name>BYN110</name>
+</rtept>
+<rtept lat="57.144183118" lon="-3.586228384">
+<name>BYN111</name>
+</rtept>
+<rtept lat="57.143721924" lon="-3.58626477">
+<name>BYN112</name>
+</rtept>
+<rtept lat="57.142755905" lon="-3.586465764">
+<name>BYN113</name>
+</rtept>
+<rtept lat="57.142017603" lon="-3.586422883">
+<name>BYN114</name>
+</rtept>
+<rtept lat="57.141555835" lon="-3.586170221">
+<name>BYN115</name>
+</rtept>
+<rtept lat="57.140855105" lon="-3.586116927">
+<name>BYN116</name>
+</rtept>
+<rtept lat="57.140573141" lon="-3.586060729">
+<name>BYN117</name>
+</rtept>
+<rtept lat="57.139833106" lon="-3.585627535">
+<name>BYN118</name>
+</rtept>
+<rtept lat="57.139064713" lon="-3.585750127">
+<name>BYN119</name>
+</rtept>
+<rtept lat="57.138741411" lon="-3.58519931">
+<name>BYN120</name>
+</rtept>
+<rtept lat="57.138201007" lon="-3.58507704">
+<name>BYN121</name>
+</rtept>
+<rtept lat="57.137809554" lon="-3.584729558">
+<name>BYN122</name>
+</rtept>
+<rtept lat="57.138201007" lon="-3.58507704">
+<name>BYN123</name>
+</rtept>
+<rtept lat="57.138741411" lon="-3.58519931">
+<name>BYN124</name>
+</rtept>
+<rtept lat="57.139064713" lon="-3.585750127">
+<name>BYN125</name>
+</rtept>
+<rtept lat="57.139833106" lon="-3.585627535">
+<name>BYN126</name>
+</rtept>
+<rtept lat="57.140573141" lon="-3.586060729">
+<name>BYN127</name>
+</rtept>
+<rtept lat="57.140855105" lon="-3.586116927">
+<name>BYN128</name>
+</rtept>
+<rtept lat="57.141555835" lon="-3.586170221">
+<name>BYN129</name>
+</rtept>
+<rtept lat="57.142017603" lon="-3.586422883">
+<name>BYN130</name>
+</rtept>
+<rtept lat="57.142755905" lon="-3.586465764">
+<name>BYN131</name>
+</rtept>
+<rtept lat="57.143721924" lon="-3.58626477">
+<name>BYN132</name>
+</rtept>
+<rtept lat="57.144183118" lon="-3.586228384">
+<name>BYN133</name>
+</rtept>
+<rtept lat="57.145825462" lon="-3.586167618">
+<name>BYN134</name>
+</rtept>
+<rtept lat="57.146791611" lon="-3.586898807">
+<name>BYN135</name>
+</rtept>
+<rtept lat="57.147234656" lon="-3.58696734">
+<name>BYN136</name>
+</rtept>
+<rtept lat="57.149048896" lon="-3.587831089">
+<name>BYN137</name>
+</rtept>
+<rtept lat="57.149643045" lon="-3.588308377">
+<name>BYN138</name>
+</rtept>
+<rtept lat="57.15117119" lon="-3.588671656">
+<name>BYN139</name>
+</rtept>
+<rtept lat="57.151820371" lon="-3.588888058">
+<name>BYN140</name>
+</rtept>
+<rtept lat="57.153187517" lon="-3.588725336">
+<name>BYN141</name>
+</rtept>
+<rtept lat="57.153834255" lon="-3.588653777">
+<name>BYN142</name>
+</rtept>
+<rtept lat="57.154615773" lon="-3.588866949">
+<name>BYN143</name>
+</rtept>
+<rtept lat="57.154890722" lon="-3.588796125">
+<name>BYN144</name>
+</rtept>
+<rtept lat="57.155109843" lon="-3.588849093">
+<name>BYN145</name>
+</rtept>
+<rtept lat="57.157348622" lon="-3.589290033">
+<name>BYN146</name>
+</rtept>
+<rtept lat="57.15773254" lon="-3.589200223">
+<name>BYN147</name>
+</rtept>
+<rtept lat="57.158583828" lon="-3.589410934">
+<name>BYN148</name>
+</rtept>
+<rtept lat="57.159232293" lon="-3.590335265">
+<name>BYN149</name>
+</rtept>
+<rtept lat="57.160126108" lon="-3.591393175">
+<name>BYN150</name>
+</rtept>
+<rtept lat="57.160898121" lon="-3.591845172">
+<name>BYN151</name>
+</rtept>
+<rtept lat="57.161724556" lon="-3.59167495">
+<name>BYN152</name>
+</rtept>
+<rtept lat="57.16203954" lon="-3.591486165">
+<name>BYN153</name>
+</rtept>
+<rtept lat="57.162500489" lon="-3.591380867">
+<name>BYN154</name>
+</rtept>
+<rtept lat="57.163083089" lon="-3.591338384">
+<name>BYN155</name>
+</rtept>
+<rtept lat="57.163374787" lon="-3.591358397">
+<name>BYN156</name>
+</rtept>
+<rtept lat="57.164219559" lon="-3.591901999">
+<name>BYN157</name>
+</rtept>
+<rtept lat="57.164647461" lon="-3.592337636">
+<name>BYN158</name>
+</rtept>
+<rtept lat="57.165332296" lon="-3.593569023">
+<name>BYN159</name>
+</rtept>
+<rtept lat="57.165716002" lon="-3.59395479">
+<name>BYN160</name>
+</rtept>
+<rtept lat="57.166032029" lon="-3.594444116">
+<name>BYN161</name>
+</rtept>
+<rtept lat="57.166640983" lon="-3.594926952">
+<name>BYN162</name>
+</rtept>
+<rtept lat="57.167770069" lon="-3.597167929">
+<name>BYN163</name>
+</rtept>
+<rtept lat="57.168032618" lon="-3.597922168">
+<name>BYN164</name>
+</rtept>
+<rtept lat="57.168050949" lon="-3.598781326">
+<name>BYN165</name>
+</rtept>
+<rtept lat="57.168596724" lon="-3.599233349">
+<name>BYN166</name>
+</rtept>
+<rtept lat="57.168807035" lon="-3.599798963">
+<name>BYN167</name>
+</rtept>
+<rtept lat="57.169000725" lon="-3.600081216">
+<name>BYN168</name>
+</rtept>
+<rtept lat="57.170452041" lon="-3.603290078">
+<name>BYN169</name>
+</rtept>
+<rtept lat="57.171016346" lon="-3.606649157">
+<name>BYN170</name>
+</rtept>
+<rtept lat="57.17142403" lon="-3.607782157">
+<name>BYN171</name>
+</rtept>
+<rtept lat="57.171689047" lon="-3.609736829">
+<name>BYN172</name>
+</rtept>
+<rtept lat="57.172263853" lon="-3.612385877">
+<name>BYN173</name>
+</rtept>
+<rtept lat="57.173566146" lon="-3.613848792">
+<name>BYN174</name>
+</rtept>
+<rtept lat="57.174208145" lon="-3.614869266">
+<name>BYN175</name>
+</rtept>
+<rtept lat="57.174384655" lon="-3.61706011">
+<name>BYN176</name>
+</rtept>
+<rtept lat="57.174291853" lon="-3.617360079">
+<name>BYN177</name>
+</rtept>
+<rtept lat="57.17436756" lon="-3.618648433">
+<name>BYN178</name>
+</rtept>
+<rtept lat="57.174278058" lon="-3.619155418">
+<name>BYN179</name>
+</rtept>
+<rtept lat="57.174335594" lon="-3.619672206">
+<name>BYN180</name>
+</rtept>
+<rtept lat="57.174511028" lon="-3.620004472">
+<name>BYN181</name>
+</rtept>
+<rtept lat="57.174817331" lon="-3.620359798">
+<name>BYN182</name>
+</rtept>
+<rtept lat="57.174934401" lon="-3.620684951">
+<name>BYN183</name>
+</rtept>
+<rtept lat="57.175083836" lon="-3.621530979">
+<name>BYN184</name>
+</rtept>
+<rtept lat="57.174781544" lon="-3.622372573">
+<name>BYN185</name>
+</rtept>
+<rtept lat="57.174782018" lon="-3.623070264">
+<name>BYN186</name>
+</rtept>
+<rtept lat="57.176057492" lon="-3.629573713">
+<name>BYN187</name>
+</rtept>
+<rtept lat="57.176008385" lon="-3.630353757">
+<name>BYN188</name>
+</rtept>
+<rtept lat="57.176257692" lon="-3.631706606">
+<name>BYN189</name>
+</rtept>
+<rtept lat="57.17651138" lon="-3.632455533">
+<name>BYN190</name>
+</rtept>
+<rtept lat="57.176715177" lon="-3.63463609">
+<name>BYN191</name>
+</rtept>
+<rtept lat="57.17715576" lon="-3.635249853">
+<name>BYN192</name>
+</rtept>
+<rtept lat="57.177646635" lon="-3.635832399">
+<name>BYN193</name>
+</rtept>
+<rtept lat="57.179284734" lon="-3.638385519">
+<name>BYN194</name>
+</rtept>
+<rtept lat="57.179184023" lon="-3.639383091">
+<name>BYN195</name>
+</rtept>
+<rtept lat="57.179944164" lon="-3.640459623">
+<name>BYN196</name>
+</rtept>
+<rtept lat="57.180052862" lon="-3.641922618">
+<name>BYN197</name>
+</rtept>
+<rtept lat="57.179894373" lon="-3.643216807">
+<name>BYN198</name>
+</rtept>
+<rtept lat="57.179871287" lon="-3.644185663">
+<name>BYN199</name>
+</rtept>
+<rtept lat="57.180124835" lon="-3.644713177">
+<name>BYN200</name>
+</rtept>
+<rtept lat="57.180286614" lon="-3.646859767">
+<name>BYN201</name>
+</rtept>
+<rtept lat="57.179737139" lon="-3.647989774">
+<name>BYN202</name>
+</rtept>
+<rtept lat="57.179535173" lon="-3.649065776">
+<name>BYN203</name>
+</rtept>
+<rtept lat="57.179523946" lon="-3.651004511">
+<name>BYN204</name>
+</rtept>
+<rtept lat="57.17870704" lon="-3.652295598">
+<name>BYN205</name>
+</rtept>
+<rtept lat="57.177566097" lon="-3.652059083">
+<name>BYN206</name>
+</rtept>
+<rtept lat="57.177144539" lon="-3.652400089">
+<name>BYN207</name>
+</rtept>
+<rtept lat="57.176492761" lon="-3.653941829">
+<name>BYN208</name>
+</rtept>
+<rtept lat="57.17589086" lon="-3.654777642">
+<name>BYN209</name>
+</rtept>
+<rtept lat="57.174905693" lon="-3.655503311">
+<name>BYN210</name>
+</rtept>
+<rtept lat="57.174054305" lon="-3.65519919">
+<name>BYN211</name>
+</rtept>
+<rtept lat="57.173449155" lon="-3.655359692">
+<name>BYN212</name>
+</rtept>
+<rtept lat="57.171613628" lon="-3.656938225">
+<name>BYN213</name>
+</rtept>
+<rtept lat="57.171447851" lon="-3.658030625">
+<name>BYN214</name>
+</rtept>
+<rtept lat="57.171167502" lon="-3.658835303">
+<name>BYN215</name>
+</rtept>
+<rtept lat="57.170912344" lon="-3.660610838">
+<name>BYN216</name>
+</rtept>
+<rtept lat="57.17055338" lon="-3.66235957">
+<name>BYN217</name>
+</rtept>
+<rtept lat="57.170206183" lon="-3.663149283">
+<name>BYN218</name>
+</rtept>
+<rtept lat="57.16940428" lon="-3.663738364">
+<name>BYN219</name>
+</rtept>
+<rtept lat="57.16889209" lon="-3.664438455">
+<name>BYN220</name>
+</rtept>
+<rtept lat="57.168117964" lon="-3.665183721">
+<name>BYN221</name>
+</rtept>
+<rtept lat="57.167521307" lon="-3.666896661">
+<name>BYN222</name>
+</rtept>
+<rtept lat="57.167325893" lon="-3.668112798">
+<name>BYN223</name>
+</rtept>
+<rtept lat="57.1665250344104" lon="-3.66935367931102">
+<ele>343.67915004875</ele>
+<name>BYN224</name>
+</rtept>
+<rtept lat="57.1661018671401" lon="-3.67009535137782">
+<ele>342.045237100143</ele>
+<name>BYN225</name>
+</rtept>
+<rtept lat="57.1652798141084" lon="-3.66975399039876">
+<ele>343.698949249144</ele>
+<name>BYN226</name>
+</rtept>
+<rtept lat="57.1641465296274" lon="-3.66795327563253">
+<ele>347.875710974691</ele>
+<name>BYN227</name>
+</rtept>
+<rtept lat="57.1631985340376" lon="-3.66775844820035">
+<ele>348.843396178415</ele>
+<name>BYN228</name>
+</rtept>
+<rtept lat="57.1625129579973" lon="-3.66803184866472">
+<ele>350.857853836501</ele>
+<name>BYN229</name>
+</rtept>
+<rtept lat="57.1620233599581" lon="-3.66755340379692">
+<ele>352.675548702479</ele>
+<name>BYN230</name>
+</rtept>
+<rtept lat="57.1617125614112" lon="-3.66761547768352">
+<ele>352.275710974695</ele>
+<name>BYN231</name>
+</rtept>
+<rtept lat="57.1616662038458" lon="-3.66799371806761">
+<ele>350.803710974696</ele>
+<name>BYN232</name>
+</rtept>
+<rtept lat="57.1617623911296" lon="-3.66853050921627">
+<ele>349.436198012456</ele>
+<name>BYN233</name>
+</rtept>
+<rtept lat="57.1616560954455" lon="-3.66875391757359">
+<ele>348.730403834697</ele>
+<name>BYN234</name>
+</rtept>
+<rtept lat="57.1602697624529" lon="-3.67044090579182">
+<ele>349.000647304405</ele>
+<name>BYN235</name>
+</rtept>
+<rtept lat="57.1599679727417" lon="-3.67137807257051">
+<ele>347.856681748519</ele>
+<name>BYN236</name>
+</rtept>
+<rtept lat="57.1586503768437" lon="-3.67565401141525">
+<ele>342.470883588672</ele>
+<name>BYN237</name>
+</rtept>
+<rtept lat="57.1583231397024" lon="-3.67849141360808">
+<ele>345.347667322146</ele>
+<name>BYN238</name>
+</rtept>
+<rtept lat="57.1577961485198" lon="-3.67926614305905">
+<ele>350.109665361691</ele>
+<name>BYN239</name>
+</rtept>
+<rtept lat="57.157655949785" lon="-3.68047670715984">
+<ele>349.728729299216</ele>
+<name>BYN240</name>
+</rtept>
+<rtept lat="57.1579106822544" lon="-3.68151504474528">
+<ele>349.165655824044</ele>
+<name>BYN241</name>
+</rtept>
+<rtept lat="57.1586391192408" lon="-3.68112978136827">
+<ele>343.907457811588</ele>
+<name>BYN242</name>
+</rtept>
+<rtept lat="57.1591276461517" lon="-3.68168437436402">
+<ele>341.106483736068</ele>
+<name>BYN243</name>
+</rtept>
+</rte>
+</gpx>

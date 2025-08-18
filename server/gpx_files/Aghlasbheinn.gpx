@@ -1,0 +1,718 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="Walkhighlands">
+<metadata>
+	<desc>GPX file from Walkhighlands; file is copyright Walkhighlands and must not be publicly shared on other websites. Do not remove this notice.</desc>
+	<copyright author="Walkhighlands"><year>2019</year></copyright>
+</metadata>
+<rte>
+<name>A&#039; Ghlas Bheinn and the Falls of Glomach</name>
+<rtept lat="57.2348023885952" lon="-5.38091081699638">
+<ele>7.49980575845452</ele>
+<name>AGB001</name>
+</rtept>
+<rtept lat="57.2352855731426" lon="-5.37906051994893">
+<ele>10.1457153252065</ele>
+<name>AGB002</name>
+</rtept>
+<rtept lat="57.2351547755881" lon="-5.37740733131677">
+<ele>9.73191158880591</ele>
+<name>AGB003</name>
+</rtept>
+<rtept lat="57.2342774675031" lon="-5.37593453518174">
+<ele>16.8009715973735</ele>
+<name>AGB004</name>
+</rtept>
+<rtept lat="57.2347093499598" lon="-5.37341279022879">
+<ele>14.8852441074133</ele>
+<name>AGB005</name>
+</rtept>
+<rtept lat="57.2346236188072" lon="-5.37208703248719">
+<ele>17.6324022477865</ele>
+<name>AGB006</name>
+</rtept>
+<rtept lat="57.2349873466384" lon="-5.37159806669555">
+<ele>13.4842943953931</ele>
+<name>AGB007</name>
+</rtept>
+<rtept lat="57.2353394933992" lon="-5.37053609483956">
+<ele>11.4985790701807</ele>
+<name>AGB008</name>
+</rtept>
+<rtept lat="57.2354777425819" lon="-5.36940483991798">
+<ele>12.7704809383869</ele>
+<name>AGB009</name>
+</rtept>
+<rtept lat="57.2353758552014" lon="-5.3681770591741">
+<ele>12.1680981317967</ele>
+<name>AGB010</name>
+</rtept>
+<rtept lat="57.2361626883092" lon="-5.3680001986397">
+<ele>12.5719018682033</ele>
+<name>AGB011</name>
+</rtept>
+<rtept lat="57.2366901951805" lon="-5.36643193694175">
+<ele>18.6185669054389</ele>
+<name>AGB012</name>
+</rtept>
+<rtept lat="57.2381867625971" lon="-5.36694149855172">
+<ele>20.5418799828529</ele>
+<name>AGB013</name>
+</rtept>
+<rtept lat="57.2386320577944" lon="-5.36718108202818">
+<ele>20.7733009126663</ele>
+<name>AGB014</name>
+</rtept>
+<rtept lat="57.2396359648422" lon="-5.36645199091594">
+<ele>26.0321119255304</ele>
+<name>AGB015</name>
+</rtept>
+<rtept lat="57.2404045424394" lon="-5.3659500977177">
+<ele>25.4683227980196</ele>
+<name>AGB016</name>
+</rtept>
+<rtept lat="57.2406712796113" lon="-5.36505422441745">
+<ele>25.4269018682033</ele>
+<name>AGB017</name>
+</rtept>
+<rtept lat="57.2420888877507" lon="-5.36247253679909">
+<ele>31.4166553166389</ele>
+<name>AGB018</name>
+</rtept>
+<rtept lat="57.2422903371732" lon="-5.36149603621583">
+<ele>33.9002368309617</ele>
+<name>AGB019</name>
+</rtept>
+<rtept lat="57.242900635108" lon="-5.36035779030204">
+<ele>37.6966553166389</ele>
+<name>AGB020</name>
+</rtept>
+<rtept lat="57.243432167318" lon="-5.35712306871225">
+<ele>51.8411840988487</ele>
+<name>AGB021</name>
+</rtept>
+<rtept lat="57.2435169709535" lon="-5.35546434365958">
+<ele>64.6178491360843</ele>
+<name>AGB022</name>
+</rtept>
+<rtept lat="57.2442011820019" lon="-5.35256672251387">
+<ele>68.7933300744712</ele>
+<name>AGB023</name>
+</rtept>
+<rtept lat="57.2452636410162" lon="-5.34888252104921">
+<ele>70.3828807420254</ele>
+<name>AGB024</name>
+</rtept>
+<rtept lat="57.2460150829157" lon="-5.34767222280798">
+<ele>73.3644688003389</ele>
+<name>AGB025</name>
+</rtept>
+<rtept lat="57.246086722191" lon="-5.34588409944571">
+<ele>88.6896061622143</ele>
+<name>AGB026</name>
+</rtept>
+<rtept lat="57.2465523450022" lon="-5.34507563394671">
+<ele>85.2578148270786</ele>
+<name>AGB027</name>
+</rtept>
+<rtept lat="57.2465771743164" lon="-5.34350251920294">
+<ele>104.964643177426</ele>
+<name>AGB028</name>
+</rtept>
+<rtept lat="57.2468296477498" lon="-5.34235962422261">
+<ele>97.94603067379</ele>
+<name>AGB029</name>
+</rtept>
+<rtept lat="57.2469817670195" lon="-5.33985279692208">
+<ele>113.929010437393</ele>
+<name>AGB030</name>
+</rtept>
+<rtept lat="57.2469073177226" lon="-5.33751449906466">
+<ele>123.121565891504</ele>
+<name>AGB031</name>
+</rtept>
+<rtept lat="57.2470072229039" lon="-5.33632624937929">
+<ele>125.144848619032</ele>
+<name>AGB032</name>
+</rtept>
+<rtept lat="57.2466328246114" lon="-5.33241699780705">
+<ele>149.492734253311</ele>
+<name>AGB033</name>
+</rtept>
+<rtept lat="57.246371641621" lon="-5.33003038096037">
+<ele>170.16136722765</ele>
+<name>AGB034</name>
+</rtept>
+<rtept lat="57.2452851846106" lon="-5.32526942316739">
+<ele>190.311909392834</ele>
+<name>AGB035</name>
+</rtept>
+<rtept lat="57.2441158279608" lon="-5.32169848225391">
+<ele>219.083094331408</ele>
+<name>AGB036</name>
+</rtept>
+<rtept lat="57.2426533865186" lon="-5.31951908007934">
+<ele>251.568067785931</ele>
+<name>AGB037</name>
+</rtept>
+<rtept lat="57.2416212515585" lon="-5.31753605654102">
+<ele>285.331031077957</ele>
+<name>AGB038</name>
+</rtept>
+<rtept lat="57.2402994531421" lon="-5.31196744349414">
+<ele>308.455845161462</ele>
+<name>AGB039</name>
+</rtept>
+<rtept lat="57.2388838099691" lon="-5.30995036645775">
+<ele>327.228686970377</ele>
+<name>AGB040</name>
+</rtept>
+<rtept lat="57.2395410121844" lon="-5.3070482386661">
+<ele>338.435320146799</ele>
+<name>AGB041</name>
+</rtept>
+<rtept lat="57.240074061366" lon="-5.30561545264587">
+<ele>354.736430885279</ele>
+<name>AGB042</name>
+</rtept>
+<rtept lat="57.2396310368818" lon="-5.30557576524468">
+<ele>364.832430885279</ele>
+<name>AGB043</name>
+</rtept>
+<rtept lat="57.2397814205003" lon="-5.30505371991276">
+<ele>392.53811439811</ele>
+<name>AGB044</name>
+</rtept>
+<rtept lat="57.2394406322308" lon="-5.30502319656483">
+<ele>395.933669957256</ele>
+<name>AGB045</name>
+</rtept>
+<rtept lat="57.2399157520325" lon="-5.30254566418695">
+<ele>440.423508777332</ele>
+<name>AGB046</name>
+</rtept>
+<rtept lat="57.2401059890775" lon="-5.30180666089462">
+<ele>439.819347161007</ele>
+<name>AGB047</name>
+</rtept>
+<rtept lat="57.2403046641396" lon="-5.29684722246173">
+<ele>470.17890261507</ele>
+<name>AGB048</name>
+</rtept>
+<rtept lat="57.2405985050768" lon="-5.29476287108103">
+<ele>480.609447599411</ele>
+<name>AGB049</name>
+</rtept>
+<rtept lat="57.2406523794596" lon="-5.29205854508975">
+<ele>516.11296989994</ele>
+<name>AGB050</name>
+</rtept>
+<rtept lat="57.2408788400464" lon="-5.29188973901365">
+<ele>520.06084841702</ele>
+<name>AGB051</name>
+</rtept>
+<rtept lat="57.2408076521426" lon="-5.29134785922351">
+<ele>511.340962984824</ele>
+<name>AGB052</name>
+</rtept>
+<rtept lat="57.2410756070523" lon="-5.29089923200261">
+<ele>524.459373569059</ele>
+<name>AGB053</name>
+</rtept>
+<rtept lat="57.2416994820559" lon="-5.29120689485372">
+<ele>562.440902211022</ele>
+<name>AGB054</name>
+</rtept>
+<rtept lat="57.2419100149263" lon="-5.29229676394536">
+<ele>555.860874825096</ele>
+<name>AGB055</name>
+</rtept>
+<rtept lat="57.2432781307557" lon="-5.29222982175174">
+<ele>617.72822893357</ele>
+<name>AGB056</name>
+</rtept>
+<rtept lat="57.243270711646" lon="-5.29251269403193">
+<ele>642.540087319279</ele>
+<name>AGB057</name>
+</rtept>
+<rtept lat="57.243186064027" lon="-5.29313521505367">
+<ele>641.225440651989</ele>
+<name>AGB058</name>
+</rtept>
+<rtept lat="57.2435722029604" lon="-5.29339020922348">
+<ele>674.10887499485</ele>
+<name>AGB059</name>
+</rtept>
+<rtept lat="57.2438250436491" lon="-5.294168882296">
+<ele>696.392800932121</ele>
+<name>AGB060</name>
+</rtept>
+<rtept lat="57.2445327280636" lon="-5.29486216854234">
+<ele>724.822185172927</ele>
+<name>AGB061</name>
+</rtept>
+<rtept lat="57.2451208114634" lon="-5.29718308147992">
+<ele>738.553929192829</ele>
+<name>AGB062</name>
+</rtept>
+<rtept lat="57.2456789880059" lon="-5.29739049768767">
+<ele>736.492195375967</ele>
+<name>AGB063</name>
+</rtept>
+<rtept lat="57.2459571003576" lon="-5.29785644207304">
+<ele>730.61825242548</ele>
+<name>AGB064</name>
+</rtept>
+<rtept lat="57.2463677002972" lon="-5.29783013453461">
+<ele>730.393707037073</ele>
+<name>AGB065</name>
+</rtept>
+<rtept lat="57.2467788234264" lon="-5.29843401105028">
+<ele>733.459959664607</ele>
+<name>AGB066</name>
+</rtept>
+<rtept lat="57.2477069105853" lon="-5.2988635804051">
+<ele>767.118326520514</ele>
+<name>AGB067</name>
+</rtept>
+<rtept lat="57.2476920411363" lon="-5.29942938889848">
+<ele>768.965925702953</ele>
+<name>AGB068</name>
+</rtept>
+<rtept lat="57.2487410532578" lon="-5.29980679548269">
+<ele>792.009478103506</ele>
+<name>AGB069</name>
+</rtept>
+<rtept lat="57.2489587461738" lon="-5.29932212932436">
+<ele>780.426141549635</ele>
+<name>AGB070</name>
+</rtept>
+<rtept lat="57.2508399565402" lon="-5.29955342305751">
+<ele>825.916505150032</ele>
+<name>AGB071</name>
+</rtept>
+<rtept lat="57.253077465041" lon="-5.3021485329129">
+<ele>884.03712436676</ele>
+<name>AGB072</name>
+</rtept>
+<rtept lat="57.2534190804414" lon="-5.30214760709766">
+<ele>891.099393805408</ele>
+<name>AGB073</name>
+</rtept>
+<rtept lat="57.2550814191517" lon="-5.30355701614015">
+<ele>904.94529950633</ele>
+<name>AGB074</name>
+</rtept>
+<rtept lat="57.2553284329906" lon="-5.30388110546068">
+<ele>904.204500701326</ele>
+<name>AGB075</name>
+</rtept>
+<rtept lat="57.2557563765292" lon="-5.30386959721212">
+<ele>890.127145071984</ele>
+<name>AGB076</name>
+</rtept>
+<rtept lat="57.2562830906494" lon="-5.30408606115263">
+<ele>857.807651194796</ele>
+<name>AGB077</name>
+</rtept>
+<rtept lat="57.2561382717676" lon="-5.30467021141456">
+<ele>862.164401789964</ele>
+<name>AGB078</name>
+</rtept>
+<rtept lat="57.2565522289467" lon="-5.30492625682438">
+<ele>823.76551800619</ele>
+<name>AGB079</name>
+</rtept>
+<rtept lat="57.2567228481304" lon="-5.30500126172019">
+<ele>814.482481692256</ele>
+<name>AGB080</name>
+</rtept>
+<rtept lat="57.2568359995905" lon="-5.30521044868976">
+<ele>807.256196718348</ele>
+<name>AGB081</name>
+</rtept>
+<rtept lat="57.2574685420631" lon="-5.30494866657833">
+<ele>772.12542721635</ele>
+<name>AGB082</name>
+</rtept>
+<rtept lat="57.2578330866791" lon="-5.30462304765072">
+<ele>759.950193593895</ele>
+<name>AGB083</name>
+</rtept>
+<rtept lat="57.2588405055653" lon="-5.30487257915705">
+<ele>719.82618109266</ele>
+<name>AGB084</name>
+</rtept>
+<rtept lat="57.260313409352" lon="-5.30383011952285">
+<ele>687.25610400009</ele>
+<name>AGB085</name>
+</rtept>
+<rtept lat="57.2609235911506" lon="-5.30318805925223">
+<ele>680.493175436244</ele>
+<name>AGB086</name>
+</rtept>
+<rtept lat="57.261430436787" lon="-5.30319365425647">
+<ele>676.993589429179</ele>
+<name>AGB087</name>
+</rtept>
+<rtept lat="57.2615113058127" lon="-5.30339997034821">
+<ele>676.242085681716</ele>
+<name>AGB088</name>
+</rtept>
+<rtept lat="57.2620247330541" lon="-5.30356541728891">
+<ele>677.803223794644</ele>
+<name>AGB089</name>
+</rtept>
+<rtept lat="57.2635727503925" lon="-5.30294762145877">
+<ele>660.137569848463</ele>
+<name>AGB090</name>
+</rtept>
+<rtept lat="57.2642746641365" lon="-5.3033290464753">
+<ele>645.773437390202</ele>
+<name>AGB091</name>
+</rtept>
+<rtept lat="57.2643589787863" lon="-5.30381440859827">
+<ele>642.84932121137</ele>
+<name>AGB092</name>
+</rtept>
+<rtept lat="57.2646099433674" lon="-5.30411562268643">
+<ele>643.536699624404</ele>
+<name>AGB093</name>
+</rtept>
+<rtept lat="57.2670623501438" lon="-5.30479337688858">
+<ele>633.253781408657</ele>
+<name>AGB094</name>
+</rtept>
+<rtept lat="57.2675340793011" lon="-5.3053135189024">
+<ele>618.726723163187</ele>
+<name>AGB095</name>
+</rtept>
+<rtept lat="57.2681128134624" lon="-5.30504684463397">
+<ele>599.852587173806</ele>
+<name>AGB096</name>
+</rtept>
+<rtept lat="57.2681094587997" lon="-5.30558413189922">
+<ele>587.708229865541</ele>
+<name>AGB097</name>
+</rtept>
+<rtept lat="57.2687124162287" lon="-5.30603642616918">
+<ele>546.78810724549</ele>
+<name>AGB098</name>
+</rtept>
+<rtept lat="57.2686922410408" lon="-5.30639301441772">
+<ele>539.990397063624</ele>
+<name>AGB099</name>
+</rtept>
+<rtept lat="57.269242956179" lon="-5.30678090863102">
+<ele>523.856127876664</ele>
+<name>AGB100</name>
+</rtept>
+<rtept lat="57.2698636532036" lon="-5.30453505686103">
+<ele>532.85365670073</ele>
+<name>AGB101</name>
+</rtept>
+<rtept lat="57.2701895642275" lon="-5.30188448433779">
+<ele>534.504016980886</ele>
+<name>AGB102</name>
+</rtept>
+<rtept lat="57.2724154171899" lon="-5.29744916610283">
+<ele>510.047683512816</ele>
+<name>AGB103</name>
+</rtept>
+<rtept lat="57.2726773891991" lon="-5.29592768377286">
+<ele>507.804154870859</ele>
+<name>AGB104</name>
+</rtept>
+<rtept lat="57.2745185490982" lon="-5.29215103378447">
+<ele>480.639508607674</ele>
+<name>AGB105</name>
+</rtept>
+<rtept lat="57.2757577489826" lon="-5.28983381228285">
+<ele>416.056754522133</ele>
+<name>AGB106</name>
+</rtept>
+<rtept lat="57.2767652547101" lon="-5.28853633666742">
+<ele>365.57550186224</ele>
+<name>AGB107</name>
+</rtept>
+<rtept lat="57.2773599653696" lon="-5.28767495868439">
+<ele>345.882215644741</ele>
+<name>AGB108</name>
+</rtept>
+<rtept lat="57.2778483493031" lon="-5.28793926867866">
+<ele>344.725646497655</ele>
+<name>AGB109</name>
+</rtept>
+<rtept lat="57.2779648985035" lon="-5.2887064714031">
+<ele>337.621111312389</ele>
+<name>AGB110</name>
+</rtept>
+<rtept lat="57.2778313097008" lon="-5.28793774817341">
+<ele>344.839646497655</ele>
+<name>AGB111</name>
+</rtept>
+<rtept lat="57.2773583183911" lon="-5.28773787755869">
+<ele>346.338215644741</ele>
+<name>AGB112</name>
+</rtept>
+<rtept lat="57.2767899904063" lon="-5.28857007667284">
+<ele>365.00550186224</ele>
+<name>AGB113</name>
+</rtept>
+<rtept lat="57.2758019959222" lon="-5.28977469935214">
+<ele>412.788754522228</ele>
+<name>AGB114</name>
+</rtept>
+<rtept lat="57.2745168999317" lon="-5.29221394752994">
+<ele>481.095508607674</ele>
+<name>AGB115</name>
+</rtept>
+<rtept lat="57.2726952541788" lon="-5.29589775246743">
+<ele>507.804154870859</ele>
+<name>AGB116</name>
+</rtept>
+<rtept lat="57.2724503219772" lon="-5.297420760326">
+<ele>509.518976475763</ele>
+<name>AGB117</name>
+</rtept>
+<rtept lat="57.2701895642275" lon="-5.30188448433779">
+<ele>534.504016980886</ele>
+<name>AGB118</name>
+</rtept>
+<rtept lat="57.269879037264" lon="-5.30459948961997">
+<ele>531.94165670073</ele>
+<name>AGB119</name>
+</rtept>
+<rtept lat="57.2691983403107" lon="-5.30683663967048">
+<ele>524.01653826652</ele>
+<name>AGB120</name>
+</rtept>
+<rtept lat="57.2678746813626" lon="-5.30936922445628">
+<ele>525.230902380711</ele>
+<name>AGB121</name>
+</rtept>
+<rtept lat="57.2671500025603" lon="-5.310943435174">
+<ele>499.967693481445</ele>
+<name>AGB122</name>
+</rtept>
+<rtept lat="57.26567414341" lon="-5.31282836296107">
+<ele>472.271602502584</ele>
+<name>AGB123</name>
+</rtept>
+<rtept lat="57.2650670369508" lon="-5.31447603179783">
+<ele>436.186693344021</ele>
+<name>AGB124</name>
+</rtept>
+<rtept lat="57.264575051157" lon="-5.31758403169898">
+<ele>393.445359875965</ele>
+<name>AGB125</name>
+</rtept>
+<rtept lat="57.2643019762238" lon="-5.32209864775446">
+<ele>359.450060337353</ele>
+<name>AGB126</name>
+</rtept>
+<rtept lat="57.2641049090809" lon="-5.32438199762279">
+<ele>342.453508171129</ele>
+<name>AGB127</name>
+</rtept>
+<rtept lat="57.2638122314621" lon="-5.32640452293319">
+<ele>324.885656296539</ele>
+<name>AGB128</name>
+</rtept>
+<rtept lat="57.2635743395526" lon="-5.32893631073136">
+<ele>315.289966038227</ele>
+<name>AGB129</name>
+</rtept>
+<rtept lat="57.2629703618114" lon="-5.33045783064235">
+<ele>291.201171447563</ele>
+<name>AGB130</name>
+</rtept>
+<rtept lat="57.2629715522915" lon="-5.33105684034514">
+<ele>290.323993052483</ele>
+<name>AGB131</name>
+</rtept>
+<rtept lat="57.2626903061774" lon="-5.33393135591421">
+<ele>299.048854960346</ele>
+<name>AGB132</name>
+</rtept>
+<rtept lat="57.2614586118412" lon="-5.33914684712358">
+<ele>230.158215208197</ele>
+<name>AGB133</name>
+</rtept>
+<rtept lat="57.2612282205037" lon="-5.34010309443994">
+<ele>214.908255511188</ele>
+<name>AGB134</name>
+</rtept>
+<rtept lat="57.2610919105113" lon="-5.34009074554501">
+<ele>204.572255511284</ele>
+<name>AGB135</name>
+</rtept>
+<rtept lat="57.2609039560499" lon="-5.3407356281791">
+<ele>183.329851438141</ele>
+<name>AGB136</name>
+</rtept>
+<rtept lat="57.2610318994743" lon="-5.34106241768477">
+<ele>189.257851438046</ele>
+<name>AGB137</name>
+</rtept>
+<rtept lat="57.2608738331921" lon="-5.34186760115302">
+<ele>172.391353300285</ele>
+<name>AGB138</name>
+</rtept>
+<rtept lat="57.2603422853203" lon="-5.34194549804181">
+<ele>170.725185310328</ele>
+<name>AGB139</name>
+</rtept>
+<rtept lat="57.2593738889798" lon="-5.34239353390624">
+<ele>179.106801101685</ele>
+<name>AGB140</name>
+</rtept>
+<rtept lat="57.2566648823044" lon="-5.34246314243526">
+<ele>140.663117823338</ele>
+<name>AGB141</name>
+</rtept>
+<rtept lat="57.2551059885901" lon="-5.34263699303005">
+<ele>130.890370281172</ele>
+<name>AGB142</name>
+</rtept>
+<rtept lat="57.2546828288904" lon="-5.34313437948328">
+<ele>135.928137720299</ele>
+<name>AGB143</name>
+</rtept>
+<rtept lat="57.253771405374" lon="-5.34336689221836">
+<ele>121.536592703676</ele>
+<name>AGB144</name>
+</rtept>
+<rtept lat="57.2527384905059" lon="-5.3443131694361">
+<ele>127.745175139594</ele>
+<name>AGB145</name>
+</rtept>
+<rtept lat="57.252076638537" lon="-5.34447373857035">
+<ele>110.414080840492</ele>
+<name>AGB146</name>
+</rtept>
+<rtept lat="57.2513300226943" lon="-5.34557195770109">
+<ele>112.716457834768</ele>
+<name>AGB147</name>
+</rtept>
+<rtept lat="57.2495107180231" lon="-5.34610054472265">
+<ele>78.0395981021104</ele>
+<name>AGB148</name>
+</rtept>
+<rtept lat="57.2481285727736" lon="-5.3466915745332">
+<ele>71.1328197834712</ele>
+<name>AGB149</name>
+</rtept>
+<rtept lat="57.2472241385167" lon="-5.3487852244888">
+<ele>60.5244774935383</ele>
+<name>AGB150</name>
+</rtept>
+<rtept lat="57.2469715306148" lon="-5.34693152876252">
+<ele>63.2095387570815</ele>
+<name>AGB151</name>
+</rtept>
+<rtept lat="57.2467565385554" lon="-5.34744267548121">
+<ele>61.2671761671093</ele>
+<name>AGB152</name>
+</rtept>
+<rtept lat="57.2460276377168" lon="-5.34767336212211">
+<ele>73.2261704268854</ele>
+<name>AGB153</name>
+</rtept>
+<rtept lat="57.2452636410162" lon="-5.34888252104921">
+<ele>70.3828807420254</ele>
+<name>AGB154</name>
+</rtept>
+<rtept lat="57.2442011820019" lon="-5.35256672251387">
+<ele>68.7933300744712</ele>
+<name>AGB155</name>
+</rtept>
+<rtept lat="57.2435169709535" lon="-5.35546434365958">
+<ele>64.6178491360843</ele>
+<name>AGB156</name>
+</rtept>
+<rtept lat="57.243432167318" lon="-5.35712306871225">
+<ele>51.8411840988487</ele>
+<name>AGB157</name>
+</rtept>
+<rtept lat="57.242900635108" lon="-5.36035779030204">
+<ele>37.6966553166389</ele>
+<name>AGB158</name>
+</rtept>
+<rtept lat="57.2422903371732" lon="-5.36149603621583">
+<ele>33.9002368309617</ele>
+<name>AGB159</name>
+</rtept>
+<rtept lat="57.2420888877507" lon="-5.36247253679909">
+<ele>31.4166553166389</ele>
+<name>AGB160</name>
+</rtept>
+<rtept lat="57.2406712796113" lon="-5.36505422441745">
+<ele>25.4269018682033</ele>
+<name>AGB161</name>
+</rtept>
+<rtept lat="57.2404045424394" lon="-5.3659500977177">
+<ele>25.4683227980196</ele>
+<name>AGB162</name>
+</rtept>
+<rtept lat="57.2396359648422" lon="-5.36645199091594">
+<ele>26.0321119255304</ele>
+<name>AGB163</name>
+</rtept>
+<rtept lat="57.2386320577944" lon="-5.36718108202818">
+<ele>20.7733009126663</ele>
+<name>AGB164</name>
+</rtept>
+<rtept lat="57.2381867625971" lon="-5.36694149855172">
+<ele>20.5418799828529</ele>
+<name>AGB165</name>
+</rtept>
+<rtept lat="57.2366901951805" lon="-5.36643193694175">
+<ele>18.6185669054389</ele>
+<name>AGB166</name>
+</rtept>
+<rtept lat="57.2361626883092" lon="-5.3680001986397">
+<ele>12.5719018682033</ele>
+<name>AGB167</name>
+</rtept>
+<rtept lat="57.2353758552014" lon="-5.3681770591741">
+<ele>12.1680981317967</ele>
+<name>AGB168</name>
+</rtept>
+<rtept lat="57.2354777425819" lon="-5.36940483991798">
+<ele>12.7704809383869</ele>
+<name>AGB169</name>
+</rtept>
+<rtept lat="57.2353394933992" lon="-5.37053609483956">
+<ele>11.4985790701807</ele>
+<name>AGB170</name>
+</rtept>
+<rtept lat="57.2349873466384" lon="-5.37159806669555">
+<ele>13.4842943953931</ele>
+<name>AGB171</name>
+</rtept>
+<rtept lat="57.2346236188072" lon="-5.37208703248719">
+<ele>17.6324022477865</ele>
+<name>AGB172</name>
+</rtept>
+<rtept lat="57.2347093499598" lon="-5.37341279022879">
+<ele>14.8852441074133</ele>
+<name>AGB173</name>
+</rtept>
+<rtept lat="57.2342774675031" lon="-5.37593453518174">
+<ele>16.8009715973735</ele>
+<name>AGB174</name>
+</rtept>
+<rtept lat="57.2351547755881" lon="-5.37740733131677">
+<ele>9.73191158880591</ele>
+<name>AGB175</name>
+</rtept>
+<rtept lat="57.2352855731426" lon="-5.37906051994893">
+<ele>10.1457153252065</ele>
+<name>AGB176</name>
+</rtept>
+<rtept lat="57.2348025222387" lon="-5.38090585590999">
+<ele>7.50552566794621</ele>
+<name>AGB177</name>
+</rtept>
+</rte>
+</gpx>

@@ -1,0 +1,946 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="Walkhighlands">
+<metadata>
+	<desc>GPX file from Walkhighlands; file is copyright Walkhighlands and must not be publicly shared on other websites. Do not remove this notice.</desc>
+	<copyright author="Walkhighlands"><year>2019</year></copyright>
+</metadata>
+<rte>
+<name>South Glen Shiel Ridge: 7 Munros</name>
+<rtept lat="57.155568" lon="-5.177998">
+<ele>240</ele>
+<name>SGS001</name>
+</rtept>
+<rtept lat="57.153741" lon="-5.178662">
+<ele>227</ele>
+<name>SGS002</name>
+</rtept>
+<rtept lat="57.152405" lon="-5.180108">
+<ele>225</ele>
+<name>SGS003</name>
+</rtept>
+<rtept lat="57.151265" lon="-5.180154">
+<ele>224</ele>
+<name>SGS004</name>
+</rtept>
+<rtept lat="57.15111" lon="-5.179543">
+<ele>223</ele>
+<name>SGS005</name>
+</rtept>
+<rtept lat="57.151308" lon="-5.177904">
+<ele>218</ele>
+<name>SGS006</name>
+</rtept>
+<rtept lat="57.151265" lon="-5.175914">
+<ele>227</ele>
+<name>SGS007</name>
+</rtept>
+<rtept lat="57.151062" lon="-5.174655">
+<ele>230</ele>
+<name>SGS008</name>
+</rtept>
+<rtept lat="57.15059" lon="-5.17318">
+<ele>235</ele>
+<name>SGS009</name>
+</rtept>
+<rtept lat="57.150103" lon="-5.170553">
+<ele>243</ele>
+<name>SGS010</name>
+</rtept>
+<rtept lat="57.147443" lon="-5.165405">
+<ele>258</ele>
+<name>SGS011</name>
+</rtept>
+<rtept lat="57.146822" lon="-5.162801">
+<ele>261</ele>
+<name>SGS012</name>
+</rtept>
+<rtept lat="57.146659" lon="-5.158506">
+<ele>272</ele>
+<name>SGS013</name>
+</rtept>
+<rtept lat="57.145679" lon="-5.154247">
+<ele>283</ele>
+<name>SGS014</name>
+</rtept>
+<rtept lat="57.144744" lon="-5.153022">
+<ele>291</ele>
+<name>SGS015</name>
+</rtept>
+<rtept lat="57.143923" lon="-5.15249">
+<ele>293</ele>
+<name>SGS016</name>
+</rtept>
+<rtept lat="57.142661" lon="-5.15198">
+<ele>299</ele>
+<name>SGS017</name>
+</rtept>
+<rtept lat="57.141322" lon="-5.152067">
+<ele>306</ele>
+<name>SGS018</name>
+</rtept>
+<rtept lat="57.140326" lon="-5.151374">
+<ele>315</ele>
+<name>SGS019</name>
+</rtept>
+<rtept lat="57.139324" lon="-5.151827">
+<ele>319</ele>
+<name>SGS020</name>
+</rtept>
+<rtept lat="57.137693" lon="-5.152053">
+<ele>333</ele>
+<name>SGS021</name>
+</rtept>
+<rtept lat="57.135946" lon="-5.153017">
+<ele>348</ele>
+<name>SGS022</name>
+</rtept>
+<rtept lat="57.135739" lon="-5.152412">
+<ele>346</ele>
+<name>SGS023</name>
+</rtept>
+<rtept lat="57.135527" lon="-5.148096">
+<ele>358</ele>
+<name>SGS024</name>
+</rtept>
+<rtept lat="57.13521" lon="-5.14587">
+<ele>361</ele>
+<name>SGS025</name>
+</rtept>
+<rtept lat="57.134836" lon="-5.144408">
+<ele>367</ele>
+<name>SGS026</name>
+</rtept>
+<rtept lat="57.134257" lon="-5.1436">
+<ele>368</ele>
+<name>SGS027</name>
+</rtept>
+<rtept lat="57.13344" lon="-5.141781">
+<ele>384</ele>
+<name>SGS028</name>
+</rtept>
+<rtept lat="57.131654" lon="-5.141338">
+<ele>396</ele>
+<name>SGS029</name>
+</rtept>
+<rtept lat="57.130556" lon="-5.143162">
+<ele>409</ele>
+<name>SGS030</name>
+</rtept>
+<rtept lat="57.129623" lon="-5.143756">
+<ele>419</ele>
+<name>SGS031</name>
+</rtept>
+<rtept lat="57.128892" lon="-5.144919">
+<ele>424</ele>
+<name>SGS032</name>
+</rtept>
+<rtept lat="57.127816" lon="-5.145926">
+<ele>427</ele>
+<name>SGS033</name>
+</rtept>
+<rtept lat="57.126637" lon="-5.144522">
+<ele>434</ele>
+<name>SGS034</name>
+</rtept>
+<rtept lat="57.124813" lon="-5.141664">
+<ele>440</ele>
+<name>SGS035</name>
+</rtept>
+<rtept lat="57.122683" lon="-5.140962">
+<ele>435</ele>
+<name>SGS036</name>
+</rtept>
+<rtept lat="57.12062" lon="-5.141164">
+<ele>423</ele>
+<name>SGS037</name>
+</rtept>
+<rtept lat="57.118918" lon="-5.139684">
+<ele>415</ele>
+<name>SGS038</name>
+</rtept>
+<rtept lat="57.117773" lon="-5.139306">
+<ele>406</ele>
+<name>SGS039</name>
+</rtept>
+<rtept lat="57.116979" lon="-5.138562">
+<ele>406</ele>
+<name>SGS040</name>
+</rtept>
+<rtept lat="57.116398" lon="-5.137613">
+<ele>403</ele>
+<name>SGS041</name>
+</rtept>
+<rtept lat="57.11604" lon="-5.137871">
+<ele>407</ele>
+<name>SGS042</name>
+</rtept>
+<rtept lat="57.115549" lon="-5.137415">
+<ele>409</ele>
+<name>SGS043</name>
+</rtept>
+<rtept lat="57.115263" lon="-5.137637">
+<ele>416</ele>
+<name>SGS044</name>
+</rtept>
+<rtept lat="57.114593" lon="-5.139445">
+<ele>435</ele>
+<name>SGS045</name>
+</rtept>
+<rtept lat="57.113715" lon="-5.140487">
+<ele>461</ele>
+<name>SGS046</name>
+</rtept>
+<rtept lat="57.11365" lon="-5.141505">
+<ele>477</ele>
+<name>SGS047</name>
+</rtept>
+<rtept lat="57.114111" lon="-5.142726">
+<ele>493</ele>
+<name>SGS048</name>
+</rtept>
+<rtept lat="57.113903" lon="-5.143056">
+<ele>501</ele>
+<name>SGS049</name>
+</rtept>
+<rtept lat="57.113905" lon="-5.143615">
+<ele>505</ele>
+<name>SGS050</name>
+</rtept>
+<rtept lat="57.114386" lon="-5.143902">
+<ele>518</ele>
+<name>SGS051</name>
+</rtept>
+<rtept lat="57.114742" lon="-5.143683">
+<ele>522</ele>
+<name>SGS052</name>
+</rtept>
+<rtept lat="57.114908" lon="-5.144185">
+<ele>534</ele>
+<name>SGS053</name>
+</rtept>
+<rtept lat="57.11568" lon="-5.14475">
+<ele>545</ele>
+<name>SGS054</name>
+</rtept>
+<rtept lat="57.11607" lon="-5.145598">
+<ele>564</ele>
+<name>SGS055</name>
+</rtept>
+<rtept lat="57.116022" lon="-5.146313">
+<ele>571</ele>
+<name>SGS056</name>
+</rtept>
+<rtept lat="57.116089" lon="-5.14661">
+<ele>576</ele>
+<name>SGS057</name>
+</rtept>
+<rtept lat="57.116192" lon="-5.146347">
+<ele>582</ele>
+<name>SGS058</name>
+</rtept>
+<rtept lat="57.11627" lon="-5.147049">
+<ele>591</ele>
+<name>SGS059</name>
+</rtept>
+<rtept lat="57.116357" lon="-5.146715">
+<ele>596</ele>
+<name>SGS060</name>
+</rtept>
+<rtept lat="57.11664" lon="-5.146646">
+<ele>616</ele>
+<name>SGS061</name>
+</rtept>
+<rtept lat="57.116833" lon="-5.147515">
+<ele>627</ele>
+<name>SGS062</name>
+</rtept>
+<rtept lat="57.117124" lon="-5.147808">
+<ele>635</ele>
+<name>SGS063</name>
+</rtept>
+<rtept lat="57.116882" lon="-5.148227">
+<ele>642</ele>
+<name>SGS064</name>
+</rtept>
+<rtept lat="57.117436" lon="-5.148191">
+<ele>652</ele>
+<name>SGS065</name>
+</rtept>
+<rtept lat="57.117334" lon="-5.148439">
+<ele>660</ele>
+<name>SGS066</name>
+</rtept>
+<rtept lat="57.117578" lon="-5.148504">
+<ele>667</ele>
+<name>SGS067</name>
+</rtept>
+<rtept lat="57.117179" lon="-5.149021">
+<ele>681</ele>
+<name>SGS068</name>
+</rtept>
+<rtept lat="57.117492" lon="-5.149245">
+<ele>689</ele>
+<name>SGS069</name>
+</rtept>
+<rtept lat="57.117353" lon="-5.150078">
+<ele>702</ele>
+<name>SGS070</name>
+</rtept>
+<rtept lat="57.117855" lon="-5.150471">
+<ele>725</ele>
+<name>SGS071</name>
+</rtept>
+<rtept lat="57.117812" lon="-5.151204">
+<ele>739</ele>
+<name>SGS072</name>
+</rtept>
+<rtept lat="57.118053" lon="-5.151158">
+<ele>745</ele>
+<name>SGS073</name>
+</rtept>
+<rtept lat="57.118026" lon="-5.151588">
+<ele>756</ele>
+<name>SGS074</name>
+</rtept>
+<rtept lat="57.118216" lon="-5.151818">
+<ele>766</ele>
+<name>SGS075</name>
+</rtept>
+<rtept lat="57.118285" lon="-5.152417">
+<ele>774</ele>
+<name>SGS076</name>
+</rtept>
+<rtept lat="57.118604" lon="-5.152512">
+<ele>784</ele>
+<name>SGS077</name>
+</rtept>
+<rtept lat="57.118633" lon="-5.153098">
+<ele>795</ele>
+<name>SGS078</name>
+</rtept>
+<rtept lat="57.118786" lon="-5.153053">
+<ele>799</ele>
+<name>SGS079</name>
+</rtept>
+<rtept lat="57.11893" lon="-5.153761">
+<ele>815</ele>
+<name>SGS080</name>
+</rtept>
+<rtept lat="57.119093" lon="-5.153832">
+<ele>820</ele>
+<name>SGS081</name>
+</rtept>
+<rtept lat="57.119726" lon="-5.156474">
+<ele>885</ele>
+<name>SGS082</name>
+</rtept>
+<rtept lat="57.120174" lon="-5.156656">
+<ele>899</ele>
+<name>SGS083</name>
+</rtept>
+<rtept lat="57.120192" lon="-5.15752">
+<ele>908</ele>
+<name>SGS084</name>
+</rtept>
+<rtept lat="57.120916" lon="-5.159986">
+<ele>945</ele>
+<name>SGS085</name>
+</rtept>
+<rtept lat="57.121351" lon="-5.160847">
+<ele>938</ele>
+<name>SGS086</name>
+</rtept>
+<rtept lat="57.121696" lon="-5.162799">
+<ele>905</ele>
+<name>SGS087</name>
+</rtept>
+<rtept lat="57.123901" lon="-5.167478">
+<ele>879</ele>
+<name>SGS088</name>
+</rtept>
+<rtept lat="57.125845" lon="-5.175249">
+<ele>922</ele>
+<name>SGS089</name>
+</rtept>
+<rtept lat="57.126163" lon="-5.177795">
+<ele>942</ele>
+<name>SGS090</name>
+</rtept>
+<rtept lat="57.126134" lon="-5.179368">
+<ele>943</ele>
+<name>SGS091</name>
+</rtept>
+<rtept lat="57.126505" lon="-5.180895">
+<ele>960</ele>
+<name>SGS092</name>
+</rtept>
+<rtept lat="57.126505" lon="-5.182058">
+<ele>971</ele>
+<name>SGS093</name>
+</rtept>
+<rtept lat="57.126778" lon="-5.182775">
+<ele>984</ele>
+<name>SGS094</name>
+</rtept>
+<rtept lat="57.126548" lon="-5.184571">
+<ele>977</ele>
+<name>SGS095</name>
+</rtept>
+<rtept lat="57.126226" lon="-5.185636">
+<ele>972</ele>
+<name>SGS096</name>
+</rtept>
+<rtept lat="57.12629" lon="-5.187314">
+<ele>955</ele>
+<name>SGS097</name>
+</rtept>
+<rtept lat="57.126096" lon="-5.189061">
+<ele>950</ele>
+<name>SGS098</name>
+</rtept>
+<rtept lat="57.124921" lon="-5.192375">
+<ele>909</ele>
+<name>SGS099</name>
+</rtept>
+<rtept lat="57.124441" lon="-5.195323">
+<ele>904</ele>
+<name>SGS100</name>
+</rtept>
+<rtept lat="57.123696" lon="-5.198106">
+<ele>900</ele>
+<name>SGS101</name>
+</rtept>
+<rtept lat="57.123637" lon="-5.199965">
+<ele>920</ele>
+<name>SGS102</name>
+</rtept>
+<rtept lat="57.123836" lon="-5.201454">
+<ele>935</ele>
+<name>SGS103</name>
+</rtept>
+<rtept lat="57.123579" lon="-5.202645">
+<ele>929</ele>
+<name>SGS104</name>
+</rtept>
+<rtept lat="57.12343" lon="-5.20749">
+<ele>918</ele>
+<name>SGS105</name>
+</rtept>
+<rtept lat="57.123206" lon="-5.208712">
+<ele>921</ele>
+<name>SGS106</name>
+</rtept>
+<rtept lat="57.123055" lon="-5.212004">
+<ele>897</ele>
+<name>SGS107</name>
+</rtept>
+<rtept lat="57.122022" lon="-5.214457">
+<ele>909</ele>
+<name>SGS108</name>
+</rtept>
+<rtept lat="57.122272" lon="-5.215031">
+<ele>916</ele>
+<name>SGS109</name>
+</rtept>
+<rtept lat="57.122705" lon="-5.217511">
+<ele>933</ele>
+<name>SGS110</name>
+</rtept>
+<rtept lat="57.123287" lon="-5.218058">
+<ele>955</ele>
+<name>SGS111</name>
+</rtept>
+<rtept lat="57.124581" lon="-5.221272">
+<ele>1023</ele>
+<name>SGS112</name>
+</rtept>
+<rtept lat="57.12365" lon="-5.223685">
+<ele>1002</ele>
+<name>SGS113</name>
+</rtept>
+<rtept lat="57.123643" lon="-5.226246">
+<ele>979</ele>
+<name>SGS114</name>
+</rtept>
+<rtept lat="57.123288" lon="-5.226882">
+<ele>965</ele>
+<name>SGS115</name>
+</rtept>
+<rtept lat="57.123255" lon="-5.227749">
+<ele>959</ele>
+<name>SGS116</name>
+</rtept>
+<rtept lat="57.122625" lon="-5.229658">
+<ele>924</ele>
+<name>SGS117</name>
+</rtept>
+<rtept lat="57.122841" lon="-5.231096">
+<ele>912</ele>
+<name>SGS118</name>
+</rtept>
+<rtept lat="57.122785" lon="-5.231934">
+<ele>893</ele>
+<name>SGS119</name>
+</rtept>
+<rtept lat="57.123306" lon="-5.23383">
+<ele>860</ele>
+<name>SGS120</name>
+</rtept>
+<rtept lat="57.123965" lon="-5.237422">
+<ele>858</ele>
+<name>SGS121</name>
+</rtept>
+<rtept lat="57.123736" lon="-5.238954">
+<ele>850</ele>
+<name>SGS122</name>
+</rtept>
+<rtept lat="57.123782" lon="-5.240959">
+<ele>859</ele>
+<name>SGS123</name>
+</rtept>
+<rtept lat="57.124973" lon="-5.244553">
+<ele>911</ele>
+<name>SGS124</name>
+</rtept>
+<rtept lat="57.124875" lon="-5.24652">
+<ele>905</ele>
+<name>SGS125</name>
+</rtept>
+<rtept lat="57.125552" lon="-5.249436">
+<ele>900</ele>
+<name>SGS126</name>
+</rtept>
+<rtept lat="57.126922" lon="-5.252312">
+<ele>963</ele>
+<name>SGS127</name>
+</rtept>
+<rtept lat="57.127612" lon="-5.25278">
+<ele>980</ele>
+<name>SGS128</name>
+</rtept>
+<rtept lat="57.128039" lon="-5.255343">
+<ele>933</ele>
+<name>SGS129</name>
+</rtept>
+<rtept lat="57.1284" lon="-5.256197">
+<ele>926</ele>
+<name>SGS130</name>
+</rtept>
+<rtept lat="57.128761" lon="-5.256386">
+<ele>918</ele>
+<name>SGS131</name>
+</rtept>
+<rtept lat="57.128895" lon="-5.257484">
+<ele>899</ele>
+<name>SGS132</name>
+</rtept>
+<rtept lat="57.12983" lon="-5.258166">
+<ele>876</ele>
+<name>SGS133</name>
+</rtept>
+<rtept lat="57.130635" lon="-5.258352">
+<ele>873</ele>
+<name>SGS134</name>
+</rtept>
+<rtept lat="57.131024" lon="-5.258822">
+<ele>874</ele>
+<name>SGS135</name>
+</rtept>
+<rtept lat="57.131244" lon="-5.261345">
+<ele>875</ele>
+<name>SGS136</name>
+</rtept>
+<rtept lat="57.131195" lon="-5.262447">
+<ele>874</ele>
+<name>SGS137</name>
+</rtept>
+<rtept lat="57.1317" lon="-5.265476">
+<ele>851</ele>
+<name>SGS138</name>
+</rtept>
+<rtept lat="57.131641" lon="-5.267306">
+<ele>832</ele>
+<name>SGS139</name>
+</rtept>
+<rtept lat="57.132327" lon="-5.270238">
+<ele>833</ele>
+<name>SGS140</name>
+</rtept>
+<rtept lat="57.132266" lon="-5.27214">
+<ele>845</ele>
+<name>SGS141</name>
+</rtept>
+<rtept lat="57.132859" lon="-5.274781">
+<ele>896</ele>
+<name>SGS142</name>
+</rtept>
+<rtept lat="57.133394" lon="-5.275944">
+<ele>929</ele>
+<name>SGS143</name>
+</rtept>
+<rtept lat="57.133546" lon="-5.277082">
+<ele>939</ele>
+<name>SGS144</name>
+</rtept>
+<rtept lat="57.133853" lon="-5.277937">
+<ele>962</ele>
+<name>SGS145</name>
+</rtept>
+<rtept lat="57.133829" lon="-5.279965">
+<ele>987</ele>
+<name>SGS146</name>
+</rtept>
+<rtept lat="57.134084" lon="-5.281181">
+<ele>994</ele>
+<name>SGS147</name>
+</rtept>
+<rtept lat="57.1345" lon="-5.281902">
+<ele>999</ele>
+<name>SGS148</name>
+</rtept>
+<rtept lat="57.135235" lon="-5.28242">
+<ele>994</ele>
+<name>SGS149</name>
+</rtept>
+<rtept lat="57.136441" lon="-5.28228">
+<ele>1002</ele>
+<name>SGS150</name>
+</rtept>
+<rtept lat="57.136927" lon="-5.281559">
+<ele>1011</ele>
+<name>SGS151</name>
+</rtept>
+<rtept lat="57.136198" lon="-5.28257">
+<ele>999</ele>
+<name>SGS152</name>
+</rtept>
+<rtept lat="57.135806" lon="-5.283699">
+<ele>979</ele>
+<name>SGS153</name>
+</rtept>
+<rtept lat="57.13654" lon="-5.286837">
+<ele>924</ele>
+<name>SGS154</name>
+</rtept>
+<rtept lat="57.137342" lon="-5.288454">
+<ele>910</ele>
+<name>SGS155</name>
+</rtept>
+<rtept lat="57.13743" lon="-5.290148">
+<ele>889</ele>
+<name>SGS156</name>
+</rtept>
+<rtept lat="57.138025" lon="-5.291184">
+<ele>903</ele>
+<name>SGS157</name>
+</rtept>
+<rtept lat="57.138628" lon="-5.293522">
+<ele>922</ele>
+<name>SGS158</name>
+</rtept>
+<rtept lat="57.139387" lon="-5.295374">
+<ele>938</ele>
+<name>SGS159</name>
+</rtept>
+<rtept lat="57.140059" lon="-5.296012">
+<ele>971</ele>
+<name>SGS160</name>
+</rtept>
+<rtept lat="57.141001" lon="-5.297639">
+<ele>994</ele>
+<name>SGS161</name>
+</rtept>
+<rtept lat="57.141329" lon="-5.297773">
+<ele>1001</ele>
+<name>SGS162</name>
+</rtept>
+<rtept lat="57.141522" lon="-5.298833">
+<ele>986</ele>
+<name>SGS163</name>
+</rtept>
+<rtept lat="57.141457" lon="-5.299559">
+<ele>967</ele>
+<name>SGS164</name>
+</rtept>
+<rtept lat="57.142078" lon="-5.302913">
+<ele>873</ele>
+<name>SGS165</name>
+</rtept>
+<rtept lat="57.142067" lon="-5.303645">
+<ele>855</ele>
+<name>SGS166</name>
+</rtept>
+<rtept lat="57.142366" lon="-5.305046">
+<ele>821</ele>
+<name>SGS167</name>
+</rtept>
+<rtept lat="57.142726" lon="-5.305875">
+<ele>802</ele>
+<name>SGS168</name>
+</rtept>
+<rtept lat="57.14272" lon="-5.307253">
+<ele>793</ele>
+<name>SGS169</name>
+</rtept>
+<rtept lat="57.14381" lon="-5.314185">
+<ele>770</ele>
+<name>SGS170</name>
+</rtept>
+<rtept lat="57.145251" lon="-5.318226">
+<ele>761</ele>
+<name>SGS171</name>
+</rtept>
+<rtept lat="57.144713" lon="-5.320785">
+<ele>736</ele>
+<name>SGS172</name>
+</rtept>
+<rtept lat="57.144815" lon="-5.321864">
+<ele>727</ele>
+<name>SGS173</name>
+</rtept>
+<rtept lat="57.144636" lon="-5.323937">
+<ele>720</ele>
+<name>SGS174</name>
+</rtept>
+<rtept lat="57.145206" lon="-5.327296">
+<ele>761</ele>
+<name>SGS175</name>
+</rtept>
+<rtept lat="57.144983" lon="-5.330319">
+<ele>813</ele>
+<name>SGS176</name>
+</rtept>
+<rtept lat="57.145166" lon="-5.330783">
+<ele>829</ele>
+<name>SGS177</name>
+</rtept>
+<rtept lat="57.146122" lon="-5.331809">
+<ele>873</ele>
+<name>SGS178</name>
+</rtept>
+<rtept lat="57.146671" lon="-5.332886">
+<ele>890</ele>
+<name>SGS179</name>
+</rtept>
+<rtept lat="57.147135" lon="-5.333113">
+<ele>902</ele>
+<name>SGS180</name>
+</rtept>
+<rtept lat="57.147299" lon="-5.334054">
+<ele>908</ele>
+<name>SGS181</name>
+</rtept>
+<rtept lat="57.147182" lon="-5.335544">
+<ele>916</ele>
+<name>SGS182</name>
+</rtept>
+<rtept lat="57.146629" lon="-5.337355">
+<ele>892</ele>
+<name>SGS183</name>
+</rtept>
+<rtept lat="57.147219" lon="-5.339876">
+<ele>886</ele>
+<name>SGS184</name>
+</rtept>
+<rtept lat="57.147193" lon="-5.340766">
+<ele>884</ele>
+<name>SGS185</name>
+</rtept>
+<rtept lat="57.147989" lon="-5.34467">
+<ele>851</ele>
+<name>SGS186</name>
+</rtept>
+<rtept lat="57.147885" lon="-5.346537">
+<ele>833</ele>
+<name>SGS187</name>
+</rtept>
+<rtept lat="57.148335" lon="-5.352566">
+<ele>746</ele>
+<name>SGS188</name>
+</rtept>
+<rtept lat="57.147687" lon="-5.357026">
+<ele>737</ele>
+<name>SGS189</name>
+</rtept>
+<rtept lat="57.147171" lon="-5.358865">
+<ele>731</ele>
+<name>SGS190</name>
+</rtept>
+<rtept lat="57.147003" lon="-5.360239">
+<ele>727</ele>
+<name>SGS191</name>
+</rtept>
+<rtept lat="57.147396" lon="-5.360316">
+<ele>716</ele>
+<name>SGS192</name>
+</rtept>
+<rtept lat="57.147989" lon="-5.359773">
+<ele>689</ele>
+<name>SGS193</name>
+</rtept>
+<rtept lat="57.148178" lon="-5.360012">
+<ele>684</ele>
+<name>SGS194</name>
+</rtept>
+<rtept lat="57.148148" lon="-5.360571">
+<ele>676</ele>
+<name>SGS195</name>
+</rtept>
+<rtept lat="57.148308" lon="-5.360518">
+<ele>669</ele>
+<name>SGS196</name>
+</rtept>
+<rtept lat="57.148584" lon="-5.361582">
+<ele>639</ele>
+<name>SGS197</name>
+</rtept>
+<rtept lat="57.148224" lon="-5.364035">
+<ele>615</ele>
+<name>SGS198</name>
+</rtept>
+<rtept lat="57.148443" lon="-5.364792">
+<ele>598</ele>
+<name>SGS199</name>
+</rtept>
+<rtept lat="57.14981" lon="-5.363948">
+<ele>548</ele>
+<name>SGS200</name>
+</rtept>
+<rtept lat="57.150796" lon="-5.362008">
+<ele>524</ele>
+<name>SGS201</name>
+</rtept>
+<rtept lat="57.151131" lon="-5.362467">
+<ele>504</ele>
+<name>SGS202</name>
+</rtept>
+<rtept lat="57.151504" lon="-5.361878">
+<ele>484</ele>
+<name>SGS203</name>
+</rtept>
+<rtept lat="57.151654" lon="-5.361973">
+<ele>481</ele>
+<name>SGS204</name>
+</rtept>
+<rtept lat="57.15174" lon="-5.362386">
+<ele>475</ele>
+<name>SGS205</name>
+</rtept>
+<rtept lat="57.151583" lon="-5.362931">
+<ele>469</ele>
+<name>SGS206</name>
+</rtept>
+<rtept lat="57.152153" lon="-5.364661">
+<ele>433</ele>
+<name>SGS207</name>
+</rtept>
+<rtept lat="57.152247" lon="-5.365787">
+<ele>416</ele>
+<name>SGS208</name>
+</rtept>
+<rtept lat="57.152139" lon="-5.366815">
+<ele>401</ele>
+<name>SGS209</name>
+</rtept>
+<rtept lat="57.152308" lon="-5.367444">
+<ele>394</ele>
+<name>SGS210</name>
+</rtept>
+<rtept lat="57.152548" lon="-5.367408">
+<ele>389</ele>
+<name>SGS211</name>
+</rtept>
+<rtept lat="57.153217" lon="-5.366874">
+<ele>378</ele>
+<name>SGS212</name>
+</rtept>
+<rtept lat="57.15408" lon="-5.365035">
+<ele>352</ele>
+<name>SGS213</name>
+</rtept>
+<rtept lat="57.154663" lon="-5.36456">
+<ele>337</ele>
+<name>SGS214</name>
+</rtept>
+<rtept lat="57.155265" lon="-5.364587">
+<ele>326</ele>
+<name>SGS215</name>
+</rtept>
+<rtept lat="57.155924" lon="-5.364208">
+<ele>314</ele>
+<name>SGS216</name>
+</rtept>
+<rtept lat="57.156736" lon="-5.363322">
+<ele>301</ele>
+<name>SGS217</name>
+</rtept>
+<rtept lat="57.157736" lon="-5.36315">
+<ele>281</ele>
+<name>SGS218</name>
+</rtept>
+<rtept lat="57.157952" lon="-5.362691">
+<ele>272</ele>
+<name>SGS219</name>
+</rtept>
+<rtept lat="57.158912" lon="-5.362107">
+<ele>244</ele>
+<name>SGS220</name>
+</rtept>
+<rtept lat="57.159545" lon="-5.360913">
+<ele>208</ele>
+<name>SGS221</name>
+</rtept>
+<rtept lat="57.160154" lon="-5.360856">
+<ele>180</ele>
+<name>SGS222</name>
+</rtept>
+<rtept lat="57.160662" lon="-5.359751">
+<ele>144</ele>
+<name>SGS223</name>
+</rtept>
+<rtept lat="57.162193" lon="-5.359696">
+<ele>123</ele>
+<name>SGS224</name>
+</rtept>
+<rtept lat="57.163992" lon="-5.358239">
+<ele>116</ele>
+<name>SGS225</name>
+</rtept>
+<rtept lat="57.164864" lon="-5.358941">
+<ele>105</ele>
+<name>SGS226</name>
+</rtept>
+<rtept lat="57.1661569614654" lon="-5.35880589718084">
+<ele>90.2206694770038</ele>
+<name>SGS227</name>
+</rtept>
+<rtept lat="57.1675460824357" lon="-5.35779022132608">
+<ele>65.7592453909786</ele>
+<name>SGS228</name>
+</rtept>
+<rtept lat="57.1683126408584" lon="-5.35773236885219">
+<ele>57.4042932082422</ele>
+<name>SGS229</name>
+</rtept>
+<rtept lat="57.1693474855913" lon="-5.35786103456656">
+<ele>48.1259130893905</ele>
+<name>SGS230</name>
+</rtept>
+<rtept lat="57.169884" lon="-5.358303">
+<ele>49</ele>
+<name>SGS232</name>
+</rtept>
+<rtept lat="57.170447" lon="-5.357578">
+<ele>44</ele>
+<name>SGS233</name>
+</rtept>
+<rtept lat="57.170917" lon="-5.356289">
+<ele>41</ele>
+<name>SGS234</name>
+</rtept>
+<rtept lat="57.170068" lon="-5.354158">
+<ele>43</ele>
+<name>SGS235</name>
+</rtept>
+</rte>
+</gpx>

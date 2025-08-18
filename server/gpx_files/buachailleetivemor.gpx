@@ -1,0 +1,814 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="Walkhighlands">
+<metadata>
+	<desc>GPX file from Walkhighlands; file is copyright Walkhighlands and must not be publicly shared on other websites. Do not remove this notice.</desc>
+	<copyright author="Walkhighlands"><year>2019</year></copyright>
+</metadata>
+<rte>
+<name>Buachaille Etive Mòr</name>
+<rtept lat="56.664729997" lon="-4.904915359">
+<ele>290.015905</ele>
+<name>BEM001</name>
+</rtept>
+<rtept lat="56.664276764" lon="-4.904924537">
+<ele>286.050068</ele>
+<name>BEM002</name>
+</rtept>
+<rtept lat="56.663431553" lon="-4.904051496">
+<ele>279.946923</ele>
+<name>BEM003</name>
+</rtept>
+<rtept lat="56.663135649" lon="-4.903558634">
+<ele>279.000000</ele>
+<name>BEM004</name>
+</rtept>
+<rtept lat="56.662944925" lon="-4.903411746">
+<ele>279.000000</ele>
+<name>BEM005</name>
+</rtept>
+<rtept lat="56.662755022" lon="-4.902882980">
+<ele>279.000000</ele>
+<name>BEM006</name>
+</rtept>
+<rtept lat="56.662360574" lon="-4.903146435">
+<ele>279.087275</ele>
+<name>BEM007</name>
+</rtept>
+<rtept lat="56.662204067" lon="-4.903266603">
+<ele>279.516764</ele>
+<name>BEM008</name>
+</rtept>
+<rtept lat="56.661992128" lon="-4.904028857">
+<ele>279.834340</ele>
+<name>BEM009</name>
+</rtept>
+<rtept lat="56.661667755" lon="-4.904062653">
+<ele>281.108680</ele>
+<name>BEM010</name>
+</rtept>
+<rtept lat="56.661394365" lon="-4.903644995">
+<ele>282.368680</ele>
+<name>BEM011</name>
+</rtept>
+<rtept lat="56.660835471" lon="-4.903675437">
+<ele>285.279020</ele>
+<name>BEM012</name>
+</rtept>
+<rtept lat="56.660339055" lon="-4.903108431">
+<ele>287.987729</ele>
+<name>BEM013</name>
+</rtept>
+<rtept lat="56.659868988" lon="-4.903145714">
+<ele>291.289001</ele>
+<name>BEM014</name>
+</rtept>
+<rtept lat="56.659553921" lon="-4.903474010">
+<ele>294.436286</ele>
+<name>BEM015</name>
+</rtept>
+<rtept lat="56.659256853" lon="-4.903377711">
+<ele>297.070652</ele>
+<name>BEM016</name>
+</rtept>
+<rtept lat="56.659009809" lon="-4.903564346">
+<ele>299.929212</ele>
+<name>BEM017</name>
+</rtept>
+<rtept lat="56.657644495" lon="-4.904179025">
+<ele>320.688691</ele>
+<name>BEM018</name>
+</rtept>
+<rtept lat="56.656642761" lon="-4.905159462">
+<ele>349.375649</ele>
+<name>BEM019</name>
+</rtept>
+<rtept lat="56.656505484" lon="-4.905148895">
+<ele>353.696127</ele>
+<name>BEM020</name>
+</rtept>
+<rtept lat="56.656149011" lon="-4.905518021">
+<ele>364.504732</ele>
+<name>BEM021</name>
+</rtept>
+<rtept lat="56.655472128" lon="-4.906097468">
+<ele>380.705732</ele>
+<name>BEM022</name>
+</rtept>
+<rtept lat="56.655001374" lon="-4.906164033">
+<ele>398.259578</ele>
+<name>BEM023</name>
+</rtept>
+<rtept lat="56.654873199" lon="-4.906110103">
+<ele>402.839067</ele>
+<name>BEM024</name>
+</rtept>
+<rtept lat="56.654633884" lon="-4.906311982">
+<ele>409.415038</ele>
+<name>BEM025</name>
+</rtept>
+<rtept lat="56.654312448" lon="-4.906566283">
+<ele>422.003552</ele>
+<name>BEM026</name>
+</rtept>
+<rtept lat="56.653840666" lon="-4.906676821">
+<ele>438.393436</ele>
+<name>BEM027</name>
+</rtept>
+<rtept lat="56.653756833" lon="-4.906802545">
+<ele>441.336462</ele>
+<name>BEM028</name>
+</rtept>
+<rtept lat="56.652895391" lon="-4.906971190">
+<ele>475.375210</ele>
+<name>BEM029</name>
+</rtept>
+<rtept lat="56.652736825" lon="-4.907179272">
+<ele>486.718866</ele>
+<name>BEM030</name>
+</rtept>
+<rtept lat="56.652523789" lon="-4.907295041">
+<ele>493.987500</ele>
+<name>BEM031</name>
+</rtept>
+<rtept lat="56.652319856" lon="-4.907367451">
+<ele>499.006260</ele>
+<name>BEM032</name>
+</rtept>
+<rtept lat="56.652260099" lon="-4.907847488">
+<ele>513.559757</ele>
+<name>BEM033</name>
+</rtept>
+<rtept lat="56.651255211" lon="-4.908269395">
+<ele>545.992037</ele>
+<name>BEM034</name>
+</rtept>
+<rtept lat="56.651020883" lon="-4.908603796">
+<ele>561.320030</ele>
+<name>BEM035</name>
+</rtept>
+<rtept lat="56.650319721" lon="-4.908491033">
+<ele>579.468285</ele>
+<name>BEM036</name>
+</rtept>
+<rtept lat="56.649810345" lon="-4.909171360">
+<ele>621.103638</ele>
+<name>BEM037</name>
+</rtept>
+<rtept lat="56.649090784" lon="-4.908807532">
+<ele>633.681523</ele>
+<name>BEM038</name>
+</rtept>
+<rtept lat="56.648510940" lon="-4.909041864">
+<ele>654.575124</ele>
+<name>BEM039</name>
+</rtept>
+<rtept lat="56.648195859" lon="-4.909370014">
+<ele>671.123644</ele>
+<name>BEM040</name>
+</rtept>
+<rtept lat="56.647862380" lon="-4.909447107">
+<ele>685.037807</ele>
+<name>BEM041</name>
+</rtept>
+<rtept lat="56.647023138" lon="-4.910395633">
+<ele>748.573921</ele>
+<name>BEM042</name>
+</rtept>
+<rtept lat="56.646656174" lon="-4.910866599">
+<ele>775.900913</ele>
+<name>BEM043</name>
+</rtept>
+<rtept lat="56.646550698" lon="-4.911225563">
+<ele>787.413028</ele>
+<name>BEM044</name>
+</rtept>
+<rtept lat="56.646171354" lon="-4.911534040">
+<ele>830.280807</ele>
+<name>BEM045</name>
+</rtept>
+<rtept lat="56.646051758" lon="-4.911113675">
+<ele>828.248463</ele>
+<name>BEM046</name>
+</rtept>
+<rtept lat="56.645638370" lon="-4.910802817">
+<ele>852.091927</ele>
+<name>BEM047</name>
+</rtept>
+<rtept lat="56.645532365" lon="-4.910838696">
+<ele>860.635501</ele>
+<name>BEM048</name>
+</rtept>
+<rtept lat="56.645423086" lon="-4.910668754">
+<ele>860.446903</ele>
+<name>BEM049</name>
+</rtept>
+<rtept lat="56.645287368" lon="-4.910937276">
+<ele>872.397468</ele>
+<name>BEM050</name>
+</rtept>
+<rtept lat="56.644915384" lon="-4.910585568">
+<ele>871.565797</ele>
+<name>BEM051</name>
+</rtept>
+<rtept lat="56.644941632" lon="-4.909809381">
+<ele>876.267930</ele>
+<name>BEM052</name>
+</rtept>
+<rtept lat="56.644833190" lon="-4.909257748">
+<ele>883.571647</ele>
+<name>BEM053</name>
+</rtept>
+<rtept lat="56.644937974" lon="-4.908928107">
+<ele>889.044472</ele>
+<name>BEM054</name>
+</rtept>
+<rtept lat="56.644855957" lon="-4.907938016">
+<ele>906.835927</ele>
+<name>BEM055</name>
+</rtept>
+<rtept lat="56.645095422" lon="-4.907383811">
+<ele>919.687615</ele>
+<name>BEM056</name>
+</rtept>
+<rtept lat="56.645225599" lon="-4.906659669">
+<ele>936.377726</ele>
+<name>BEM057</name>
+</rtept>
+<rtept lat="56.645119539" lon="-4.906005441">
+<ele>949.737168</ele>
+<name>BEM058</name>
+</rtept>
+<rtept lat="56.645143021" lon="-4.905346502">
+<ele>964.736787</ele>
+<name>BEM059</name>
+</rtept>
+<rtept lat="56.644991445" lon="-4.904909026">
+<ele>973.308483</ele>
+<name>BEM060</name>
+</rtept>
+<rtept lat="56.645018342" lon="-4.904103518">
+<ele>984.309140</ele>
+<name>BEM061</name>
+</rtept>
+<rtept lat="56.645089298" lon="-4.903335659">
+<ele>994.032384</ele>
+<name>BEM062</name>
+</rtept>
+<rtept lat="56.645061176" lon="-4.902961521">
+<ele>998.402973</ele>
+<name>BEM063</name>
+</rtept>
+<rtept lat="56.646291905" lon="-4.900486498">
+<ele>1014.434391</ele>
+<name>BEM064</name>
+</rtept>
+<rtept lat="56.646540769" lon="-4.899797531">
+<ele>1004.901904</ele>
+<name>BEM065</name>
+</rtept>
+<rtept lat="56.646266783" lon="-4.900484568">
+<ele>1015.327063</ele>
+<name>BEM066</name>
+</rtept>
+<rtept lat="56.645076429" lon="-4.902962694">
+<ele>998.583063</ele>
+<name>BEM067</name>
+</rtept>
+<rtept lat="56.645005058" lon="-4.904133495">
+<ele>983.976769</ele>
+<name>BEM068</name>
+</rtept>
+<rtept lat="56.645022513" lon="-4.905002778">
+<ele>971.376313</ele>
+<name>BEM069</name>
+</rtept>
+<rtept lat="56.645151369" lon="-4.905412403">
+<ele>963.494204</ele>
+<name>BEM070</name>
+</rtept>
+<rtept lat="56.645124961" lon="-4.906004227">
+<ele>949.787168</ele>
+<name>BEM071</name>
+</rtept>
+<rtept lat="56.645202924" lon="-4.906706868">
+<ele>935.265848</ele>
+<name>BEM072</name>
+</rtept>
+<rtept lat="56.645065476" lon="-4.907472868">
+<ele>917.432323</ele>
+<name>BEM073</name>
+</rtept>
+<rtept lat="56.644859584" lon="-4.907936664">
+<ele>906.865927</ele>
+<name>BEM074</name>
+</rtept>
+<rtept lat="56.644937420" lon="-4.908913381">
+<ele>889.296586</ele>
+<name>BEM075</name>
+</rtept>
+<rtept lat="56.644839893" lon="-4.909316997">
+<ele>882.570838</ele>
+<name>BEM076</name>
+</rtept>
+<rtept lat="56.644948294" lon="-4.909793580">
+<ele>876.411216</ele>
+<name>BEM077</name>
+</rtept>
+<rtept lat="56.644909983" lon="-4.910624307">
+<ele>871.497488</ele>
+<name>BEM078</name>
+</rtept>
+<rtept lat="56.645092412" lon="-4.911163704">
+<ele>878.066399</ele>
+<name>BEM079</name>
+</rtept>
+<rtept lat="56.645086470" lon="-4.913298848">
+<ele>888.249570</ele>
+<name>BEM080</name>
+</rtept>
+<rtept lat="56.644923196" lon="-4.914359757">
+<ele>886.331454</ele>
+<name>BEM081</name>
+</rtept>
+<rtept lat="56.644225123" lon="-4.917834685">
+<ele>879.563775</ele>
+<name>BEM082</name>
+</rtept>
+<rtept lat="56.643536778" lon="-4.919014843">
+<ele>877.661603</ele>
+<name>BEM083</name>
+</rtept>
+<rtept lat="56.642996228" lon="-4.919795278">
+<ele>863.488732</ele>
+<name>BEM084</name>
+</rtept>
+<rtept lat="56.642511930" lon="-4.920591462">
+<ele>865.528481</ele>
+<name>BEM085</name>
+</rtept>
+<rtept lat="56.641814233" lon="-4.921097052">
+<ele>875.235605</ele>
+<name>BEM086</name>
+</rtept>
+<rtept lat="56.641348378" lon="-4.921643399">
+<ele>874.486243</ele>
+<name>BEM087</name>
+</rtept>
+<rtept lat="56.640952435" lon="-4.921624186">
+<ele>881.586232</ele>
+<name>BEM088</name>
+</rtept>
+<rtept lat="56.640618226" lon="-4.921655426">
+<ele>879.303991</ele>
+<name>BEM089</name>
+</rtept>
+<rtept lat="56.639715503" lon="-4.922853071">
+<ele>888.697898</ele>
+<name>BEM090</name>
+</rtept>
+<rtept lat="56.638798632" lon="-4.923581407">
+<ele>931.905465</ele>
+<name>BEM091</name>
+</rtept>
+<rtept lat="56.638623044" lon="-4.923556396">
+<ele>940.698139</ele>
+<name>BEM092</name>
+</rtept>
+<rtept lat="56.638200340" lon="-4.924140264">
+<ele>956.950194</ele>
+<name>BEM093</name>
+</rtept>
+<rtept lat="56.637789810" lon="-4.924473861">
+<ele>976.880221</ele>
+<name>BEM094</name>
+</rtept>
+<rtept lat="56.637411368" lon="-4.924513067">
+<ele>988.515584</ele>
+<name>BEM095</name>
+</rtept>
+<rtept lat="56.636781587" lon="-4.924270201">
+<ele>994.711738</ele>
+<name>BEM096</name>
+</rtept>
+<rtept lat="56.636642157" lon="-4.925115743">
+<ele>973.602924</ele>
+<name>BEM097</name>
+</rtept>
+<rtept lat="56.636670995" lon="-4.925494765">
+<ele>964.945142</ele>
+<name>BEM098</name>
+</rtept>
+<rtept lat="56.636079694" lon="-4.927093110">
+<ele>905.026211</ele>
+<name>BEM099</name>
+</rtept>
+<rtept lat="56.635869061" lon="-4.927487821">
+<ele>888.560317</ele>
+<name>BEM100</name>
+</rtept>
+<rtept lat="56.635408177" lon="-4.928890702">
+<ele>847.946451</ele>
+<name>BEM101</name>
+</rtept>
+<rtept lat="56.634814625" lon="-4.931116719">
+<ele>817.211652</ele>
+<name>BEM102</name>
+</rtept>
+<rtept lat="56.634616642" lon="-4.931774974">
+<ele>813.552474</ele>
+<name>BEM103</name>
+</rtept>
+<rtept lat="56.634364448" lon="-4.932063663">
+<ele>814.469486</ele>
+<name>BEM104</name>
+</rtept>
+<rtept lat="56.633937675" lon="-4.932818313">
+<ele>833.694103</ele>
+<name>BEM105</name>
+</rtept>
+<rtept lat="56.633589488" lon="-4.933442045">
+<ele>847.337900</ele>
+<name>BEM106</name>
+</rtept>
+<rtept lat="56.633435823" lon="-4.934354880">
+<ele>849.866603</ele>
+<name>BEM107</name>
+</rtept>
+<rtept lat="56.633450284" lon="-4.935075268">
+<ele>849.388010</ele>
+<name>BEM108</name>
+</rtept>
+<rtept lat="56.633833408" lon="-4.935904228">
+<ele>864.598131</ele>
+<name>BEM109</name>
+</rtept>
+<rtept lat="56.634216796" lon="-4.938320208">
+<ele>910.749930</ele>
+<name>BEM110</name>
+</rtept>
+<rtept lat="56.634521839" lon="-4.939257315">
+<ele>927.907602</ele>
+<name>BEM111</name>
+</rtept>
+<rtept lat="56.634574139" lon="-4.939706658">
+<ele>933.674520</ele>
+<name>BEM112</name>
+</rtept>
+<rtept lat="56.634443849" lon="-4.940427220">
+<ele>934.565813</ele>
+<name>BEM113</name>
+</rtept>
+<rtept lat="56.633836644" lon="-4.942423605">
+<ele>917.369341</ele>
+<name>BEM114</name>
+</rtept>
+<rtept lat="56.633270522" lon="-4.944012122">
+<ele>909.490191</ele>
+<name>BEM115</name>
+</rtept>
+<rtept lat="56.632838697" lon="-4.945508313">
+<ele>904.039003</ele>
+<name>BEM116</name>
+</rtept>
+<rtept lat="56.632524224" lon="-4.946830959">
+<ele>905.310147</ele>
+<name>BEM117</name>
+</rtept>
+<rtept lat="56.631929142" lon="-4.948576928">
+<ele>898.147585</ele>
+<name>BEM118</name>
+</rtept>
+<rtept lat="56.631346946" lon="-4.949513291">
+<ele>900.064047</ele>
+<name>BEM119</name>
+</rtept>
+<rtept lat="56.630849363" lon="-4.950330656">
+<ele>907.391280</ele>
+<name>BEM120</name>
+</rtept>
+<rtept lat="56.630443964" lon="-4.950709975">
+<ele>926.097896</ele>
+<name>BEM121</name>
+</rtept>
+<rtept lat="56.630213814" lon="-4.950863239">
+<ele>940.073240</ele>
+<name>BEM122</name>
+</rtept>
+<rtept lat="56.629983995" lon="-4.951267678">
+<ele>942.322095</ele>
+<name>BEM123</name>
+</rtept>
+<rtept lat="56.630213543" lon="-4.950874634">
+<ele>939.821065</ele>
+<name>BEM124</name>
+</rtept>
+<rtept lat="56.630443964" lon="-4.950709975">
+<ele>926.097896</ele>
+<name>BEM125</name>
+</rtept>
+<rtept lat="56.630856184" lon="-4.950308357">
+<ele>907.442160</ele>
+<name>BEM126</name>
+</rtept>
+<rtept lat="56.631333845" lon="-4.949535101">
+<ele>900.126871</ele>
+<name>BEM127</name>
+</rtept>
+<rtept lat="56.631922321" lon="-4.948599229">
+<ele>897.898528</ele>
+<name>BEM128</name>
+</rtept>
+<rtept lat="56.632536785" lon="-4.946831939">
+<ele>905.785193</ele>
+<name>BEM129</name>
+</rtept>
+<rtept lat="56.632851798" lon="-4.945486501">
+<ele>904.111941</ele>
+<name>BEM130</name>
+</rtept>
+<rtept lat="56.633289363" lon="-4.944013590">
+<ele>909.259877</ele>
+<name>BEM131</name>
+</rtept>
+<rtept lat="56.633818072" lon="-4.942410741">
+<ele>917.772634</ele>
+<name>BEM132</name>
+</rtept>
+<rtept lat="56.634456410" lon="-4.940428198">
+<ele>934.717057</ele>
+<name>BEM133</name>
+</rtept>
+<rtept lat="56.634573870" lon="-4.939718054">
+<ele>933.696889</ele>
+<name>BEM134</name>
+</rtept>
+<rtept lat="56.634517443" lon="-4.939177053">
+<ele>926.923803</ele>
+<name>BEM135</name>
+</rtept>
+<rtept lat="56.634209977" lon="-4.938342512">
+<ele>911.285290</ele>
+<name>BEM136</name>
+</rtept>
+<rtept lat="56.633832870" lon="-4.935927020">
+<ele>864.958723</ele>
+<name>BEM137</name>
+</rtept>
+<rtept lat="56.633492634" lon="-4.935147060">
+<ele>850.134320</ele>
+<name>BEM138</name>
+</rtept>
+<rtept lat="56.633537942" lon="-4.935093496">
+<ele>850.336816</ele>
+<name>BEM139</name>
+</rtept>
+<rtept lat="56.633870271" lon="-4.935142152">
+<ele>850.338445</ele>
+<name>BEM140</name>
+</rtept>
+<rtept lat="56.633930734" lon="-4.934713002">
+<ele>839.378329</ele>
+<name>BEM141</name>
+</rtept>
+<rtept lat="56.634437649" lon="-4.934295697">
+<ele>806.860758</ele>
+<name>BEM142</name>
+</rtept>
+<rtept lat="56.634810888" lon="-4.934210518">
+<ele>789.388616</ele>
+<name>BEM143</name>
+</rtept>
+<rtept lat="56.635974371" lon="-4.933433158">
+<ele>723.811151</ele>
+<name>BEM144</name>
+</rtept>
+<rtept lat="56.636242354" lon="-4.933008678">
+<ele>704.744200</ele>
+<name>BEM145</name>
+</rtept>
+<rtept lat="56.636477251" lon="-4.933186768">
+<ele>689.527301</ele>
+<name>BEM146</name>
+</rtept>
+<rtept lat="56.636627983" lon="-4.933198473">
+<ele>681.263855</ele>
+<name>BEM147</name>
+</rtept>
+<rtept lat="56.637110776" lon="-4.933270221">
+<ele>652.560838</ele>
+<name>BEM148</name>
+</rtept>
+<rtept lat="56.637362632" lon="-4.933529560">
+<ele>630.288873</ele>
+<name>BEM149</name>
+</rtept>
+<rtept lat="56.637577267" lon="-4.934299828">
+<ele>612.397100</ele>
+<name>BEM150</name>
+</rtept>
+<rtept lat="56.637820497" lon="-4.934124615">
+<ele>595.590491</ele>
+<name>BEM151</name>
+</rtept>
+<rtept lat="56.637958227" lon="-4.934420771">
+<ele>586.049948</ele>
+<name>BEM152</name>
+</rtept>
+<rtept lat="56.638221661" lon="-4.934989319">
+<ele>572.695187</ele>
+<name>BEM153</name>
+</rtept>
+<rtept lat="56.639704593" lon="-4.936406305">
+<ele>494.119534</ele>
+<name>BEM154</name>
+</rtept>
+<rtept lat="56.640312186" lon="-4.936522062">
+<ele>465.293683</ele>
+<name>BEM155</name>
+</rtept>
+<rtept lat="56.641423385" lon="-4.936893951">
+<ele>429.653710</ele>
+<name>BEM156</name>
+</rtept>
+<rtept lat="56.642540052" lon="-4.938099924">
+<ele>404.051486</ele>
+<name>BEM157</name>
+</rtept>
+<rtept lat="56.643238888" lon="-4.938348436">
+<ele>389.355170</ele>
+<name>BEM158</name>
+</rtept>
+<rtept lat="56.644035959" lon="-4.939232709">
+<ele>373.096067</ele>
+<name>BEM159</name>
+</rtept>
+<rtept lat="56.644529607" lon="-4.939111251">
+<ele>367.038495</ele>
+<name>BEM160</name>
+</rtept>
+<rtept lat="56.644727533" lon="-4.938989614">
+<ele>364.211869</ele>
+<name>BEM161</name>
+</rtept>
+<rtept lat="56.644748162" lon="-4.939448033">
+<ele>367.201270</ele>
+<name>BEM162</name>
+</rtept>
+<rtept lat="56.645044874" lon="-4.939139939">
+<ele>364.373750</ele>
+<name>BEM163</name>
+</rtept>
+<rtept lat="56.645346434" lon="-4.938626649">
+<ele>362.722424</ele>
+<name>BEM164</name>
+</rtept>
+<rtept lat="56.645553064" lon="-4.938402898">
+<ele>361.912949</ele>
+<name>BEM165</name>
+</rtept>
+<rtept lat="56.645962377" lon="-4.937589621">
+<ele>357.432795</ele>
+<name>BEM166</name>
+</rtept>
+<rtept lat="56.646401383" lon="-4.937383939">
+<ele>352.460095</ele>
+<name>BEM167</name>
+</rtept>
+<rtept lat="56.646511561" lon="-4.936981360">
+<ele>351.012475</ele>
+<name>BEM168</name>
+</rtept>
+<rtept lat="56.647221343" lon="-4.936499783">
+<ele>352.584378</ele>
+<name>BEM169</name>
+</rtept>
+<rtept lat="56.648000280" lon="-4.934687274">
+<ele>345.465651</ele>
+<name>BEM170</name>
+</rtept>
+<rtept lat="56.648351623" lon="-4.934463313">
+<ele>344.289869</ele>
+<name>BEM171</name>
+</rtept>
+<rtept lat="56.648975060" lon="-4.933106916">
+<ele>340.222000</ele>
+<name>BEM172</name>
+</rtept>
+<rtept lat="56.649876637" lon="-4.932228949">
+<ele>337.165819</ele>
+<name>BEM173</name>
+</rtept>
+<rtept lat="56.650871137" lon="-4.930878425">
+<ele>333.251508</ele>
+<name>BEM174</name>
+</rtept>
+<rtept lat="56.651402313" lon="-4.929697478">
+<ele>329.617780</ele>
+<name>BEM175</name>
+</rtept>
+<rtept lat="56.652307357" lon="-4.928671152">
+<ele>328.202302</ele>
+<name>BEM176</name>
+</rtept>
+<rtept lat="56.653015440" lon="-4.927458159">
+<ele>322.408561</ele>
+<name>BEM177</name>
+</rtept>
+<rtept lat="56.654329093" lon="-4.924841325">
+<ele>318.179615</ele>
+<name>BEM178</name>
+</rtept>
+<rtept lat="56.654576714" lon="-4.924746280">
+<ele>318.566407</ele>
+<name>BEM179</name>
+</rtept>
+<rtept lat="56.655433082" lon="-4.923647441">
+<ele>317.984303</ele>
+<name>BEM180</name>
+</rtept>
+<rtept lat="56.656728544" lon="-4.922605402">
+<ele>307.785865</ele>
+<name>BEM181</name>
+</rtept>
+<rtept lat="56.657315997" lon="-4.922239626">
+<ele>304.681495</ele>
+<name>BEM182</name>
+</rtept>
+<rtept lat="56.657899747" lon="-4.920959613">
+<ele>301.698383</ele>
+<name>BEM183</name>
+</rtept>
+<rtept lat="56.657995314" lon="-4.920372948">
+<ele>301.199265</ele>
+<name>BEM184</name>
+</rtept>
+<rtept lat="56.658782276" lon="-4.919816922">
+<ele>302.740648</ele>
+<name>BEM185</name>
+</rtept>
+<rtept lat="56.658935433" lon="-4.919188996">
+<ele>302.831983</ele>
+<name>BEM186</name>
+</rtept>
+<rtept lat="56.659548813" lon="-4.918253916">
+<ele>307.702777</ele>
+<name>BEM187</name>
+</rtept>
+<rtept lat="56.660242746" lon="-4.918444678">
+<ele>310.500395</ele>
+<name>BEM188</name>
+</rtept>
+<rtept lat="56.660788363" lon="-4.917984170">
+<ele>311.141264</ele>
+<name>BEM189</name>
+</rtept>
+<rtept lat="56.660943505" lon="-4.918076142">
+<ele>311.028764</ele>
+<name>BEM190</name>
+</rtept>
+<rtept lat="56.661334911" lon="-4.917752226">
+<ele>312.242920</ele>
+<name>BEM191</name>
+</rtept>
+<rtept lat="56.661427255" lon="-4.917302354">
+<ele>314.791526</ele>
+<name>BEM192</name>
+</rtept>
+<rtept lat="56.661420314" lon="-4.915450921">
+<ele>311.350013</ele>
+<name>BEM193</name>
+</rtept>
+<rtept lat="56.661500857" lon="-4.912817898">
+<ele>309.289459</ele>
+<name>BEM194</name>
+</rtept>
+<rtept lat="56.661606011" lon="-4.912357576">
+<ele>307.316861</ele>
+<name>BEM195</name>
+</rtept>
+<rtept lat="56.662193787" lon="-4.910631987">
+<ele>300.767075</ele>
+<name>BEM196</name>
+</rtept>
+<rtept lat="56.663048021" lon="-4.909349640">
+<ele>299.195729</ele>
+<name>BEM197</name>
+</rtept>
+<rtept lat="56.663705560" lon="-4.908406281">
+<ele>296.516130</ele>
+<name>BEM198</name>
+</rtept>
+<rtept lat="56.664298802" lon="-4.907252266">
+<ele>296.138646</ele>
+<name>BEM199</name>
+</rtept>
+<rtept lat="56.664595891" lon="-4.905846880">
+<ele>291.258080</ele>
+<name>BEM200</name>
+</rtept>
+<rtept lat="56.664731312" lon="-4.904897505">
+<ele>290.003905</ele>
+<name>BEM201</name>
+</rtept>
+</rte>
+</gpx>

@@ -1,0 +1,938 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="Walkhighlands">
+<metadata>
+	<desc>GPX file from Walkhighlands; file is copyright Walkhighlands and must not be publicly shared on other websites. Do not remove this notice.</desc>
+	<copyright author="Walkhighlands"><year>2019</year></copyright>
+</metadata>
+<rte>
+<name>Sgùrr Mòr and Sgùrr an Fhuarain, Loch Arkaig</name>
+<rtept lat="56.9718401091196" lon="-5.31230528725277">
+<ele>51.0830640512468</ele>
+<name>SMor001</name>
+</rtept>
+<rtept lat="56.9709199614675" lon="-5.31483404327905">
+<ele>50.6654755873277</ele>
+<name>SMor002</name>
+</rtept>
+<rtept lat="56.9710708293957" lon="-5.31619551165721">
+<ele>52.9229187642108</ele>
+<name>SMor003</name>
+</rtept>
+<rtept lat="56.9707185632134" lon="-5.31978035750024">
+<ele>57.3822198931616</ele>
+<name>SMor004</name>
+</rtept>
+<rtept lat="56.9701249117016" lon="-5.32101132900588">
+<ele>51.8411496709529</ele>
+<name>SMor005</name>
+</rtept>
+<rtept lat="56.9701796044439" lon="-5.32247121256206">
+<ele>56.5295328972239</ele>
+<name>SMor006</name>
+</rtept>
+<rtept lat="56.9704043158324" lon="-5.32368949057071">
+<ele>62.1310660010688</ele>
+<name>SMor007</name>
+</rtept>
+<rtept lat="56.9717699300177" lon="-5.32682838025164">
+<ele>77.4541809858566</ele>
+<name>SMor008</name>
+</rtept>
+<rtept lat="56.9721893951204" lon="-5.32906985194277">
+<ele>71.8816876162356</ele>
+<name>SMor009</name>
+</rtept>
+<rtept lat="56.9726699645914" lon="-5.33033249448198">
+<ele>77.8740951614812</ele>
+<name>SMor010</name>
+</rtept>
+<rtept lat="56.9731337238362" lon="-5.3326636192408">
+<ele>83.749155693493</ele>
+<name>SMor011</name>
+</rtept>
+<rtept lat="56.9739062930471" lon="-5.33393105791084">
+<ele>86.8675181301606</ele>
+<name>SMor012</name>
+</rtept>
+<rtept lat="56.975122349362" lon="-5.33412542083269">
+<ele>88.5622305297459</ele>
+<name>SMor013</name>
+</rtept>
+<rtept lat="56.975739959027" lon="-5.33463007492675">
+<ele>88.8709793486565</ele>
+<name>SMor014</name>
+</rtept>
+<rtept lat="56.9768681788309" lon="-5.33702093759578">
+<ele>83.4238212788327</ele>
+<name>SMor015</name>
+</rtept>
+<rtept lat="56.9770646107572" lon="-5.33798018230931">
+<ele>83.0897980750444</ele>
+<name>SMor016</name>
+</rtept>
+<rtept lat="56.9774764667742" lon="-5.3385307041155">
+<ele>82.7328267432485</ele>
+<name>SMor017</name>
+</rtept>
+<rtept lat="56.9781085674968" lon="-5.33892975408463">
+<ele>84.6343626317148</ele>
+<name>SMor018</name>
+</rtept>
+<rtept lat="56.9787834827683" lon="-5.34078801311332">
+<ele>84.9999544314144</ele>
+<name>SMor019</name>
+</rtept>
+<rtept lat="56.9792284671952" lon="-5.34119174456107">
+<ele>85.7008604413509</ele>
+<name>SMor020</name>
+</rtept>
+<rtept lat="56.9792300951248" lon="-5.34200518962374">
+<ele>84.9778744517052</ele>
+<name>SMor021</name>
+</rtept>
+<rtept lat="56.9794859226873" lon="-5.3429270460029">
+<ele>86.2650308166419</ele>
+<name>SMor022</name>
+</rtept>
+<rtept lat="56.9794289102945" lon="-5.34418469389679">
+<ele>86.3535059765941</ele>
+<name>SMor023</name>
+</rtept>
+<rtept lat="56.9804344032936" lon="-5.34416790269402">
+<ele>91.9879764238375</ele>
+<name>SMor024</name>
+</rtept>
+<rtept lat="56.9806712357547" lon="-5.34448880290201">
+<ele>93.5168495515879</ele>
+<name>SMor025</name>
+</rtept>
+<rtept lat="56.9813633224717" lon="-5.34482916377372">
+<ele>102.538597877268</ele>
+<name>SMor026</name>
+</rtept>
+<rtept lat="56.9828146969396" lon="-5.34474538897987">
+<ele>126.829591963639</ele>
+<name>SMor027</name>
+</rtept>
+<rtept lat="56.9833290378372" lon="-5.34408519041872">
+<ele>137.426069418655</ele>
+<name>SMor028</name>
+</rtept>
+<rtept lat="56.9848282878596" lon="-5.34308523036766">
+<ele>175.859872819158</ele>
+<name>SMor029</name>
+</rtept>
+<rtept lat="56.9865649386414" lon="-5.34238477555862">
+<ele>222.707190751022</ele>
+<name>SMor030</name>
+</rtept>
+<rtept lat="56.9871656502677" lon="-5.34089734752612">
+<ele>247.360340752472</ele>
+<name>SMor031</name>
+</rtept>
+<rtept lat="56.9872857826613" lon="-5.34099374850512">
+<ele>249.811457732378</ele>
+<name>SMor032</name>
+</rtept>
+<rtept lat="56.988129845791" lon="-5.34002046028148">
+<ele>277.175493012538</ele>
+<name>SMor033</name>
+</rtept>
+<rtept lat="56.9885168619056" lon="-5.33996952399778">
+<ele>286.401553859211</ele>
+<name>SMor034</name>
+</rtept>
+<rtept lat="56.9897431190578" lon="-5.33868789801514">
+<ele>316.235770294847</ele>
+<name>SMor035</name>
+</rtept>
+<rtept lat="56.9910218927719" lon="-5.33850277178234">
+<ele>329.827933588238</ele>
+<name>SMor036</name>
+</rtept>
+<rtept lat="56.9927459081108" lon="-5.33717996681293">
+<ele>346.742428183174</ele>
+<name>SMor037</name>
+</rtept>
+<rtept lat="56.9936072494554" lon="-5.33687173883506">
+<ele>348.081086293766</ele>
+<name>SMor038</name>
+</rtept>
+<rtept lat="56.9948715119024" lon="-5.33679229405019">
+<ele>351.190300852503</ele>
+<name>SMor039</name>
+</rtept>
+<rtept lat="56.995143521459" lon="-5.33645266273858">
+<ele>353.054787907936</ele>
+<name>SMor040</name>
+</rtept>
+<rtept lat="56.9962303647619" lon="-5.33601471233252">
+<ele>354.693429778132</ele>
+<name>SMor041</name>
+</rtept>
+<rtept lat="56.9969656877962" lon="-5.33648741741599">
+<ele>354.932542960522</ele>
+<name>SMor042</name>
+</rtept>
+<rtept lat="56.997943043854" lon="-5.33621094792843">
+<ele>359.162251532351</ele>
+<name>SMor043</name>
+</rtept>
+<rtept lat="56.9986671481443" lon="-5.33644712367706">
+<ele>361.320181678156</ele>
+<name>SMor044</name>
+</rtept>
+<rtept lat="57.000510972208" lon="-5.33567006599558">
+<ele>368.470667483047</ele>
+<name>SMor045</name>
+</rtept>
+<rtept lat="57.00343785757" lon="-5.33591084419604">
+<ele>359.393121531747</ele>
+<name>SMor046</name>
+</rtept>
+<rtept lat="57.004957983947" lon="-5.33675381117789">
+<ele>351.979897452576</ele>
+<name>SMor047</name>
+</rtept>
+<rtept lat="57.0063671500557" lon="-5.33628039381482">
+<ele>328.829344541389</ele>
+<name>SMor048</name>
+</rtept>
+<rtept lat="57.0066401159971" lon="-5.33656187433247">
+<ele>323.678743251759</ele>
+<name>SMor049</name>
+</rtept>
+<rtept lat="57.0085001056133" lon="-5.33649295948754">
+<ele>281.617852063302</ele>
+<name>SMor050</name>
+</rtept>
+<rtept lat="57.0118425138521" lon="-5.33758513647168">
+<ele>243.341612376932</ele>
+<name>SMor051</name>
+</rtept>
+<rtept lat="57.0125156074884" lon="-5.3373241637891">
+<ele>233.715674574395</ele>
+<name>SMor052</name>
+</rtept>
+<rtept lat="57.0129233403696" lon="-5.33781058222039">
+<ele>231.408650520198</ele>
+<name>SMor053</name>
+</rtept>
+<rtept lat="57.0131936996646" lon="-5.3386274448984">
+<ele>231.960413301003</ele>
+<name>SMor054</name>
+</rtept>
+<rtept lat="57.0140125765048" lon="-5.33947211053893">
+<ele>232.389168784212</ele>
+<name>SMor055</name>
+</rtept>
+<rtept lat="57.015491623842" lon="-5.33988332447901">
+<ele>248.206759437824</ele>
+<name>SMor056</name>
+</rtept>
+<rtept lat="57.0173915496592" lon="-5.34138215307957">
+<ele>308.589227016983</ele>
+<name>SMor057</name>
+</rtept>
+<rtept lat="57.018292704286" lon="-5.34242719451635">
+<ele>354.914609171045</ele>
+<name>SMor058</name>
+</rtept>
+<rtept lat="57.0191329229285" lon="-5.3429097477101">
+<ele>401.46794109855</ele>
+<name>SMor059</name>
+</rtept>
+<rtept lat="57.0204864524666" lon="-5.34298849041385">
+<ele>485.299452081589</ele>
+<name>SMor060</name>
+</rtept>
+<rtept lat="57.0225802584668" lon="-5.34094814126466">
+<ele>586.691006707596</ele>
+<name>SMor061</name>
+</rtept>
+<rtept lat="57.0239794543038" lon="-5.33931665700045">
+<ele>648.780511685467</ele>
+<name>SMor062</name>
+</rtept>
+<rtept lat="57.0247339867149" lon="-5.33775579240934">
+<ele>684.280501402096</ele>
+<name>SMor063</name>
+</rtept>
+<rtept lat="57.0249061964016" lon="-5.33524263688498">
+<ele>686.807928543273</ele>
+<name>SMor064</name>
+</rtept>
+<rtept lat="57.0253032502511" lon="-5.33349961888081">
+<ele>695.138919286749</ele>
+<name>SMor065</name>
+</rtept>
+<rtept lat="57.0273570099832" lon="-5.3283475226041">
+<ele>733.248798730826</ele>
+<name>SMor066</name>
+</rtept>
+<rtept lat="57.02826899357" lon="-5.3228357061947">
+<ele>780.14117122746</ele>
+<name>SMor067</name>
+</rtept>
+<rtept lat="57.0284185518318" lon="-5.32248474229793">
+<ele>788.678204136307</ele>
+<name>SMor068</name>
+</rtept>
+<rtept lat="57.0288925809298" lon="-5.31783368926348">
+<ele>836.284069933495</ele>
+<name>SMor069</name>
+</rtept>
+<rtept lat="57.0284313462026" lon="-5.32244302348287">
+<ele>789.512373699354</ele>
+<name>SMor070</name>
+</rtept>
+<rtept lat="57.0282567669568" lon="-5.32285604474951">
+<ele>779.515885356908</ele>
+<name>SMor071</name>
+</rtept>
+<rtept lat="57.0273378155201" lon="-5.32841009587285">
+<ele>732.765822571581</ele>
+<name>SMor072</name>
+</rtept>
+<rtept lat="57.0252985603017" lon="-5.33345634055403">
+<ele>694.748876439249</ele>
+<name>SMor073</name>
+</rtept>
+<rtept lat="57.0249084762795" lon="-5.33515712588474">
+<ele>686.674093312642</ele>
+<name>SMor074</name>
+</rtept>
+<rtept lat="57.0247334163084" lon="-5.33777717000388">
+<ele>684.293501402096</ele>
+<name>SMor075</name>
+</rtept>
+<rtept lat="57.0251035430422" lon="-5.34186045631496">
+<ele>704.468788558104</ele>
+<name>SMor076</name>
+</rtept>
+<rtept lat="57.0252528192198" lon="-5.34195958139914">
+<ele>711.28686805312</ele>
+<name>SMor077</name>
+</rtept>
+<rtept lat="57.025344271157" lon="-5.34291067938314">
+<ele>719.777269363153</ele>
+<name>SMor078</name>
+</rtept>
+<rtept lat="57.0257162005029" lon="-5.34298695761564">
+<ele>739.699263734456</ele>
+<name>SMor079</name>
+</rtept>
+<rtept lat="57.0257013453698" lon="-5.34354278650944">
+<ele>739.661003988633</ele>
+<name>SMor080</name>
+</rtept>
+<rtept lat="57.0259222852812" lon="-5.3435840723639">
+<ele>747.121002264626</ele>
+<name>SMor081</name>
+</rtept>
+<rtept lat="57.0259347448577" lon="-5.34399235290113">
+<ele>749.120558254597</ele>
+<name>SMor082</name>
+</rtept>
+<rtept lat="57.0270669800756" lon="-5.34557280909462">
+<ele>799.474801371712</ele>
+<name>SMor083</name>
+</rtept>
+<rtept lat="57.0277963171612" lon="-5.34583127604952">
+<ele>820.999029118598</ele>
+<name>SMor084</name>
+</rtept>
+<rtept lat="57.027779512332" lon="-5.34602263998106">
+<ele>825.291608800101</ele>
+<name>SMor085</name>
+</rtept>
+<rtept lat="57.0279887927159" lon="-5.34606289465618">
+<ele>830.345201434163</ele>
+<name>SMor086</name>
+</rtept>
+<rtept lat="57.0280106147036" lon="-5.34655776433801">
+<ele>844.821947312492</ele>
+<name>SMor087</name>
+</rtept>
+<rtept lat="57.0282665286704" lon="-5.34660221761638">
+<ele>853.187785627729</ele>
+<name>SMor088</name>
+</rtept>
+<rtept lat="57.0279770025158" lon="-5.34694049347427">
+<ele>847.539357528087</ele>
+<name>SMor089</name>
+</rtept>
+<rtept lat="57.0283565830529" lon="-5.34716752355446">
+<ele>865.982468425515</ele>
+<name>SMor090</name>
+</rtept>
+<rtept lat="57.0281563181897" lon="-5.34766384400828">
+<ele>864.624188377634</ele>
+<name>SMor091</name>
+</rtept>
+<rtept lat="57.028511863416" lon="-5.34878882324323">
+<ele>897.848515883173</ele>
+<name>SMor092</name>
+</rtept>
+<rtept lat="57.0284806288018" lon="-5.35170063270821">
+<ele>912.649568924713</ele>
+<name>SMor093</name>
+</rtept>
+<rtept lat="57.0283290969396" lon="-5.35299426880197">
+<ele>902.510239096777</ele>
+<name>SMor094</name>
+</rtept>
+<rtept lat="57.028491180953" lon="-5.35435903612978">
+<ele>932.564777707278</ele>
+<name>SMor095</name>
+</rtept>
+<rtept lat="57.0279505024022" lon="-5.3549103442404">
+<ele>911.915804736518</ele>
+<name>SMor096</name>
+</rtept>
+<rtept lat="57.0274113514639" lon="-5.35496887379177">
+<ele>880.066293904954</ele>
+<name>SMor097</name>
+</rtept>
+<rtept lat="57.0274553080476" lon="-5.35550860034264">
+<ele>888.33743872719</ele>
+<name>SMor098</name>
+</rtept>
+<rtept lat="57.0266554695366" lon="-5.35526501656819">
+<ele>841.442564302933</ele>
+<name>SMor099</name>
+</rtept>
+<rtept lat="57.0259947654535" lon="-5.35462682805683">
+<ele>794.585108713234</ele>
+<name>SMor100</name>
+</rtept>
+<rtept lat="57.0258263842941" lon="-5.3561117138163">
+<ele>805.276020561214</ele>
+<name>SMor101</name>
+</rtept>
+<rtept lat="57.0255425692467" lon="-5.35623611671957">
+<ele>789.76305565105</ele>
+<name>SMor102</name>
+</rtept>
+<rtept lat="57.0254250249388" lon="-5.35669695806217">
+<ele>784.043585592944</ele>
+<name>SMor103</name>
+</rtept>
+<rtept lat="57.0253065346034" lon="-5.35632196981682">
+<ele>775.518586165196</ele>
+<name>SMor104</name>
+</rtept>
+<rtept lat="57.0248872053801" lon="-5.35714130177996">
+<ele>757.942408973876</ele>
+<name>SMor105</name>
+</rtept>
+<rtept lat="57.0248105530316" lon="-5.3578201126705">
+<ele>761.247555256595</ele>
+<name>SMor106</name>
+</rtept>
+<rtept lat="57.0246106400561" lon="-5.35786635665175">
+<ele>753.049350191504</ele>
+<name>SMor107</name>
+</rtept>
+<rtept lat="57.0244481783744" lon="-5.35825884086465">
+<ele>748.396839046228</ele>
+<name>SMor108</name>
+</rtept>
+<rtept lat="57.0240902138155" lon="-5.35809795858289">
+<ele>737.073025658718</ele>
+<name>SMor109</name>
+</rtept>
+<rtept lat="57.0240408909114" lon="-5.3586292205949">
+<ele>742.141330677465</ele>
+<name>SMor110</name>
+</rtept>
+<rtept lat="57.0238222526872" lon="-5.35850234164005">
+<ele>736.083904566933</ele>
+<name>SMor111</name>
+</rtept>
+<rtept lat="57.0233239940372" lon="-5.3587787876495">
+<ele>734.714151943349</ele>
+<name>SMor112</name>
+</rtept>
+<rtept lat="57.0230207883103" lon="-5.3585371367333">
+<ele>725.849750051066</ele>
+<name>SMor113</name>
+</rtept>
+<rtept lat="57.0224747483687" lon="-5.35885211873603">
+<ele>729.354994797279</ele>
+<name>SMor114</name>
+</rtept>
+<rtept lat="57.0223439903428" lon="-5.35980455609518">
+<ele>758.518897599516</ele>
+<name>SMor115</name>
+</rtept>
+<rtept lat="57.0222537695415" lon="-5.36011782239985">
+<ele>767.939644624264</ele>
+<name>SMor116</name>
+</rtept>
+<rtept lat="57.0220456427327" lon="-5.36003474514854">
+<ele>763.519297528834</ele>
+<name>SMor117</name>
+</rtept>
+<rtept lat="57.0219026432232" lon="-5.36100748947331">
+<ele>794.285120541775</ele>
+<name>SMor118</name>
+</rtept>
+<rtept lat="57.0216775179753" lon="-5.36068717334577">
+<ele>784.154091780571</ele>
+<name>SMor119</name>
+</rtept>
+<rtept lat="57.021447969906" lon="-5.36096641994828">
+<ele>781.84741980767</ele>
+<name>SMor120</name>
+</rtept>
+<rtept lat="57.0212185909628" lon="-5.36167421752275">
+<ele>794.163761121346</ele>
+<name>SMor121</name>
+</rtept>
+<rtept lat="57.0212443738928" lon="-5.36201937840809">
+<ele>805.345160893375</ele>
+<name>SMor122</name>
+</rtept>
+<rtept lat="57.0196158320419" lon="-5.3636934546576">
+<ele>812.450918397338</ele>
+<name>SMor123</name>
+</rtept>
+<rtept lat="57.0185560333112" lon="-5.36659722238299">
+<ele>804.785987427957</ele>
+<name>SMor124</name>
+</rtept>
+<rtept lat="57.0176739126404" lon="-5.36767436898655">
+<ele>793.494199743973</ele>
+<name>SMor125</name>
+</rtept>
+<rtept lat="57.0170171720768" lon="-5.36819340322022">
+<ele>774.694538653505</ele>
+<name>SMor126</name>
+</rtept>
+<rtept lat="57.0170534444053" lon="-5.36858232913361">
+<ele>780.561390605806</ele>
+<name>SMor127</name>
+</rtept>
+<rtept lat="57.0166664210602" lon="-5.36863299530261">
+<ele>757.554761298119</ele>
+<name>SMor128</name>
+</rtept>
+<rtept lat="57.0166969349769" lon="-5.36923564090322">
+<ele>758.266874785756</ele>
+<name>SMor129</name>
+</rtept>
+<rtept lat="57.0162546422421" lon="-5.36960265873441">
+<ele>733.751816197822</ele>
+<name>SMor130</name>
+</rtept>
+<rtept lat="57.0164214537764" lon="-5.36991770174978">
+<ele>742.814719795488</ele>
+<name>SMor131</name>
+</rtept>
+<rtept lat="57.0162052718718" lon="-5.37013379218836">
+<ele>732.846817995571</ele>
+<name>SMor132</name>
+</rtept>
+<rtept lat="57.0160560188514" lon="-5.37003458043384">
+<ele>725.468777757993</ele>
+<name>SMor133</name>
+</rtept>
+<rtept lat="57.0160445009465" lon="-5.37046201846797">
+<ele>724.585046804124</ele>
+<name>SMor134</name>
+</rtept>
+<rtept lat="57.015832488452" lon="-5.37095699243019">
+<ele>709.784075263106</ele>
+<name>SMor135</name>
+</rtept>
+<rtept lat="57.0154717981908" lon="-5.37133137382721">
+<ele>688.470728701865</ele>
+<name>SMor136</name>
+</rtept>
+<rtept lat="57.0154742386761" lon="-5.37167437462146">
+<ele>688.998143912776</ele>
+<name>SMor137</name>
+</rtept>
+<rtept lat="57.015147809796" lon="-5.3716448024701">
+<ele>671.531214550784</ele>
+<name>SMor138</name>
+</rtept>
+<rtept lat="57.0152440910063" lon="-5.37197487884629">
+<ele>676.713067641446</ele>
+<name>SMor139</name>
+</rtept>
+<rtept lat="57.0149583983311" lon="-5.37173476060346">
+<ele>660.00915967862</ele>
+<name>SMor140</name>
+</rtept>
+<rtept lat="57.015128219345" lon="-5.37237142802244">
+<ele>671.093944781869</ele>
+<name>SMor141</name>
+</rtept>
+<rtept lat="57.0147918612302" lon="-5.37227668041186">
+<ele>651.986592537418</ele>
+<name>SMor142</name>
+</rtept>
+<rtept lat="57.0149470079028" lon="-5.37259066609824">
+<ele>661.898986034473</ele>
+<name>SMor143</name>
+</rtept>
+<rtept lat="57.0146182741505" lon="-5.37264657063174">
+<ele>644.657571340598</ele>
+<name>SMor144</name>
+</rtept>
+<rtept lat="57.0145221931098" lon="-5.37295921201058">
+<ele>642.222156687236</ele>
+<name>SMor145</name>
+</rtept>
+<rtept lat="57.0143490497197" lon="-5.3728792516537">
+<ele>633.092709695834</ele>
+<name>SMor146</name>
+</rtept>
+<rtept lat="57.0137813235398" lon="-5.374862967827">
+<ele>633.160160055452</ele>
+<name>SMor147</name>
+</rtept>
+<rtept lat="57.0134771826183" lon="-5.3753066879734">
+<ele>633.826918581795</ele>
+<name>SMor148</name>
+</rtept>
+<rtept lat="57.013193226514" lon="-5.37500244584629">
+<ele>623.598361271001</ele>
+<name>SMor149</name>
+</rtept>
+<rtept lat="57.0125911643379" lon="-5.3752263419186">
+<ele>604.971184073844</ele>
+<name>SMor150</name>
+</rtept>
+<rtept lat="57.0118481728352" lon="-5.37590872822399">
+<ele>590.197348251829</ele>
+<name>SMor151</name>
+</rtept>
+<rtept lat="57.0117672635759" lon="-5.37630840128395">
+<ele>597.274692042214</ele>
+<name>SMor152</name>
+</rtept>
+<rtept lat="57.0111570027125" lon="-5.37640299719967">
+<ele>573.777762024696</ele>
+<name>SMor153</name>
+</rtept>
+<rtept lat="57.009807206" lon="-5.37705170613166">
+<ele>539.875075331105</ele>
+<name>SMor154</name>
+</rtept>
+<rtept lat="57.0098485273258" lon="-5.37681982881678">
+<ele>534.905587755292</ele>
+<name>SMor155</name>
+</rtept>
+<rtept lat="57.0092937889009" lon="-5.37745495492211">
+<ele>529.704321692239</ele>
+<name>SMor156</name>
+</rtept>
+<rtept lat="57.0093018676879" lon="-5.37715580468392">
+<ele>522.041166999454</ele>
+<name>SMor157</name>
+</rtept>
+<rtept lat="57.0087452803398" lon="-5.37742661058848">
+<ele>506.195581578576</ele>
+<name>SMor158</name>
+</rtept>
+<rtept lat="57.0088443158493" lon="-5.37722139599496">
+<ele>505.014286388056</ele>
+<name>SMor159</name>
+</rtept>
+<rtept lat="57.0087178076232" lon="-5.37714565951033">
+<ele>497.873848803254</ele>
+<name>SMor160</name>
+</rtept>
+<rtept lat="57.0090834647705" lon="-5.37572226498203">
+<ele>477.265298065431</ele>
+<name>SMor161</name>
+</rtept>
+<rtept lat="57.0089709207822" lon="-5.37556211928487">
+<ele>469.707317277714</ele>
+<name>SMor162</name>
+</rtept>
+<rtept lat="57.0092028065392" lon="-5.37519758312579">
+<ele>469.68466611341</ele>
+<name>SMor163</name>
+</rtept>
+<rtept lat="57.0093070282872" lon="-5.37480004860933">
+<ele>463.910336348729</ele>
+<name>SMor164</name>
+</rtept>
+<rtept lat="57.0091787886587" lon="-5.37478842288263">
+<ele>459.693252325338</ele>
+<name>SMor165</name>
+</rtept>
+<rtept lat="57.0093546876972" lon="-5.37433312408471">
+<ele>455.014909183922</ele>
+<name>SMor166</name>
+</rtept>
+<rtept lat="57.0097934056433" lon="-5.37366601597499">
+<ele>452.087390346515</ele>
+<name>SMor167</name>
+</rtept>
+<rtept lat="57.0103241333082" lon="-5.37088657343871">
+<ele>409.467724844462</ele>
+<name>SMor168</name>
+</rtept>
+<rtept lat="57.0101947412478" lon="-5.37091769778659">
+<ele>407.084517139266</ele>
+<name>SMor169</name>
+</rtept>
+<rtept lat="57.0100785956713" lon="-5.37045734727988">
+<ele>396.643830394289</ele>
+<name>SMor170</name>
+</rtept>
+<rtept lat="57.0101891364554" lon="-5.36982473566331">
+<ele>388.105305332076</ele>
+<name>SMor171</name>
+</rtept>
+<rtept lat="57.0100964465886" lon="-5.36979492424925">
+<ele>385.833862123264</ele>
+<name>SMor172</name>
+</rtept>
+<rtept lat="57.0106230189198" lon="-5.36542988673317">
+<ele>344.225157647993</ele>
+<name>SMor173</name>
+</rtept>
+<rtept lat="57.0109084085141" lon="-5.36481305737892">
+<ele>342.694483615992</ele>
+<name>SMor174</name>
+</rtept>
+<rtept lat="57.0113190217656" lon="-5.35953770320616">
+<ele>313.701116449666</ele>
+<name>SMor175</name>
+</rtept>
+<rtept lat="57.0112517919691" lon="-5.35768941367034">
+<ele>303.573757212277</ele>
+<name>SMor176</name>
+</rtept>
+<rtept lat="57.0114257295889" lon="-5.355562976683">
+<ele>295.095125122836</ele>
+<name>SMor177</name>
+</rtept>
+<rtept lat="57.0109517403282" lon="-5.35406362261698">
+<ele>298.764659540576</ele>
+<name>SMor178</name>
+</rtept>
+<rtept lat="57.0109742598578" lon="-5.35235197359941">
+<ele>298.884610857156</ele>
+<name>SMor179</name>
+</rtept>
+<rtept lat="57.0097578936468" lon="-5.34562358097182">
+<ele>328.286607437368</ele>
+<name>SMor180</name>
+</rtept>
+<rtept lat="57.0085219510879" lon="-5.34202113279601">
+<ele>330.897888892034</ele>
+<name>SMor181</name>
+</rtept>
+<rtept lat="57.0073746963609" lon="-5.34078294970374">
+<ele>333.898806557947</ele>
+<name>SMor182</name>
+</rtept>
+<rtept lat="57.006204309909" lon="-5.33887880888501">
+<ele>342.659876155215</ele>
+<name>SMor183</name>
+</rtept>
+<rtept lat="57.0053624864156" lon="-5.33670439170389">
+<ele>347.252485859741</ele>
+<name>SMor184</name>
+</rtept>
+<rtept lat="57.0049638132521" lon="-5.33675433358488">
+<ele>351.925872270628</ele>
+<name>SMor185</name>
+</rtept>
+<rtept lat="57.0034197996798" lon="-5.33593064287312">
+<ele>359.425621531746</ele>
+<name>SMor186</name>
+</rtept>
+<rtept lat="57.0004987436806" lon="-5.33569038544008">
+<ele>368.41259001904</ele>
+<name>SMor187</name>
+</rtept>
+<rtept lat="56.9994906619762" lon="-5.33624251740888">
+<ele>364.335437640305</ele>
+<name>SMor188</name>
+</rtept>
+<rtept lat="56.9986554895186" lon="-5.33644607921035">
+<ele>361.276789858796</ele>
+<name>SMor189</name>
+</rtept>
+<rtept lat="56.9979605317987" lon="-5.33621251447593">
+<ele>359.210109715588</ele>
+<name>SMor190</name>
+</rtept>
+<rtept lat="56.9969773464245" lon="-5.3364884618283">
+<ele>354.954145505031</ele>
+<name>SMor191</name>
+</rtept>
+<rtept lat="56.9962420233972" lon="-5.33601575656772">
+<ele>354.684983233622</ele>
+<name>SMor192</name>
+</rtept>
+<rtept lat="56.9948784813097" lon="-5.33675009526726">
+<ele>351.452395734002</ele>
+<name>SMor193</name>
+</rtept>
+<rtept lat="56.9927697954681" lon="-5.33716069645396">
+<ele>346.852449661923</ele>
+<name>SMor194</name>
+</rtept>
+<rtept lat="56.9910521799393" lon="-5.33846266726018">
+<ele>330.175327517567</ele>
+<name>SMor195</name>
+</rtept>
+<rtept lat="56.989748378023" lon="-5.33870977793909">
+<ele>316.160009596586</ele>
+<name>SMor196</name>
+</rtept>
+<rtept lat="56.9885290910584" lon="-5.33994921236996">
+<ele>286.710410190163</ele>
+<name>SMor197</name>
+</rtept>
+<rtept lat="56.9881653921565" lon="-5.34000223919511">
+<ele>278.09224662091</ele>
+<name>SMor198</name>
+</rtept>
+<rtept lat="56.9873090998472" lon="-5.3409958393762">
+<ele>250.451788282077</ele>
+<name>SMor199</name>
+</rtept>
+<rtept lat="56.9871709088616" lon="-5.34091922622009">
+<ele>247.272542252772</ele>
+<name>SMor200</name>
+</rtept>
+<rtept lat="56.9865352212444" lon="-5.34240351655688">
+<ele>221.830035214344</ele>
+<name>SMor201</name>
+</rtept>
+<rtept lat="56.9848749221502" lon="-5.34308941433555">
+<ele>176.977709908193</ele>
+<name>SMor202</name>
+</rtept>
+<rtept lat="56.9833529261838" lon="-5.34406592916745">
+<ele>137.971628921708</ele>
+<name>SMor203</name>
+</rtept>
+<rtept lat="56.9828438433314" lon="-5.34474800505447">
+<ele>127.382091963658</ele>
+<name>SMor204</name>
+</rtept>
+<rtept lat="56.9813749810301" lon="-5.34483021017121">
+<ele>102.707597877274</ele>
+<name>SMor205</name>
+</rtept>
+<rtept lat="56.9807161561723" lon="-5.344557044623">
+<ele>93.7884389037604</ele>
+<name>SMor206</name>
+</rtept>
+<rtept lat="56.9804688077786" lon="-5.34419239324408">
+<ele>92.233826601449</ele>
+<name>SMor207</name>
+</rtept>
+<rtept lat="56.9794283390798" lon="-5.3442060453874">
+<ele>86.3471912458134</ele>
+<name>SMor208</name>
+</rtept>
+<rtept lat="56.9794870646773" lon="-5.34288434289926">
+<ele>86.2523362782075</ele>
+<name>SMor209</name>
+</rtept>
+<rtept lat="56.9792534123168" lon="-5.34200728048447">
+<ele>85.0922155407242</ele>
+<name>SMor210</name>
+</rtept>
+<rtept lat="56.9792406965002" lon="-5.34117143828827">
+<ele>85.806429908994</ele>
+<name>SMor211</name>
+</rtept>
+<rtept lat="56.978806799991" lon="-5.34079010317779">
+<ele>84.9854802481789</ele>
+<name>SMor212</name>
+</rtept>
+<rtept lat="56.9781313144559" lon="-5.33895319379686">
+<ele>84.7085207976142</ele>
+<name>SMor213</name>
+</rtept>
+<rtept lat="56.977488695649" lon="-5.33851039788604">
+<ele>82.8120322108828</ele>
+<name>SMor214</name>
+</rtept>
+<rtept lat="56.9770593515705" lon="-5.3379583099963">
+<ele>83.1074078131949</ele>
+<name>SMor215</name>
+</rtept>
+<rtept lat="56.9769020148524" lon="-5.3370667693354">
+<ele>83.452504619296</ele>
+<name>SMor216</name>
+</rtept>
+<rtept lat="56.9757632764073" lon="-5.33463216090086">
+<ele>88.9678562544451</ele>
+<name>SMor217</name>
+</rtept>
+<rtept lat="56.975133438588" lon="-5.33414781288914">
+<ele>88.542978961829</ele>
+<name>SMor218</name>
+</rtept>
+<rtept lat="56.9739465290726" lon="-5.33395605592518">
+<ele>86.9130651041547</ele>
+<name>SMor219</name>
+</rtept>
+<rtept lat="56.9731570412729" lon="-5.33266570377895">
+<ele>83.884201505068</ele>
+<name>SMor220</name>
+</rtept>
+<rtept lat="56.9726507377045" lon="-5.33027810307861">
+<ele>77.6027639534212</ele>
+<name>SMor221</name>
+</rtept>
+<rtept lat="56.9721871857482" lon="-5.32905154826847">
+<ele>71.9327525493506</ele>
+<name>SMor222</name>
+</rtept>
+<rtept lat="56.9717616610413" lon="-5.32680130612716">
+<ele>77.5123457041517</ele>
+<name>SMor223</name>
+</rtept>
+<rtept lat="56.9704202404968" lon="-5.32369913998157">
+<ele>62.3326742461449</ele>
+<name>SMor224</name>
+</rtept>
+<rtept lat="56.9701885291359" lon="-5.32247365381984">
+<ele>56.6526249624769</ele>
+<name>SMor225</name>
+</rtept>
+<rtept lat="56.9701406620631" lon="-5.32102754541325">
+<ele>52.0144007381647</ele>
+<name>SMor226</name>
+</rtept>
+<rtept lat="56.9707343137363" lon="-5.31979657366124">
+<ele>57.8317941543281</ele>
+<name>SMor227</name>
+</rtept>
+<rtept lat="56.9710673291726" lon="-5.3161919083651">
+<ele>52.8849187642426</ele>
+<name>SMor228</name>
+</rtept>
+<rtept lat="56.970920963114" lon="-5.3147962750491">
+<ele>50.5400739393762</ele>
+<name>SMor229</name>
+</rtept>
+<rtept lat="56.9711676579861" lon="-5.31444292554196">
+<ele>51.6158585803775</ele>
+<name>SMor230</name>
+</rtept>
+<rtept lat="56.971674675315" lon="-5.31261155926874">
+<ele>50.0011177298853</ele>
+<name>SMor231</name>
+</rtept>
+<rtept lat="56.9718547026906" lon="-5.31233127396937">
+<ele>51.3643749113167</ele>
+<name>SMor232</name>
+</rtept>
+</rte>
+</gpx>

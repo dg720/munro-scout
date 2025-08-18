@@ -1,0 +1,982 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="Walkhighlands">
+<metadata>
+	<desc>GPX file from Walkhighlands; file is copyright Walkhighlands and must not be publicly shared on other websites. Do not remove this notice.</desc>
+	<copyright author="Walkhighlands"><year>2019</year></copyright>
+</metadata>
+<rte>
+<name>Beinn a&#039; Chlachair, Geal Chàrn &amp; Creag Pitridh</name>
+<rtept lat="56.9121734405978" lon="-4.57550275890018">
+<ele>254.742101528585</ele>
+<name>WPT 1</name>
+</rtept>
+<rtept lat="56.9119555525711" lon="-4.57643735972126">
+<ele>253.907058197302</ele>
+<name>WPT 2</name>
+</rtept>
+<rtept lat="56.9113622720724" lon="-4.57631268394613">
+<ele>253.925144859867</ele>
+<name>WPT 3</name>
+</rtept>
+<rtept lat="56.9107707166898" lon="-4.57610434463928">
+<ele>254.058985133982</ele>
+<name>WPT 4</name>
+</rtept>
+<rtept lat="56.9103026307409" lon="-4.57509459201006">
+<ele>259.394550554383</ele>
+<name>WPT 5</name>
+</rtept>
+<rtept lat="56.9099445202171" lon="-4.57467893037582">
+<ele>259.445796095885</ele>
+<name>WPT 6</name>
+</rtept>
+<rtept lat="56.9099358440162" lon="-4.57361705966416">
+<ele>261.285175438845</ele>
+<name>WPT 7</name>
+</rtept>
+<rtept lat="56.9103267022092" lon="-4.57244303958031">
+<ele>254.143102375531</ele>
+<name>WPT 8</name>
+</rtept>
+<rtept lat="56.9103401517919" lon="-4.57104753886093">
+<ele>258.201550974202</ele>
+<name>WPT 9</name>
+</rtept>
+<rtept lat="56.90956999103" lon="-4.56912340408683">
+<ele>258.136259140751</ele>
+<name>WPT 10</name>
+</rtept>
+<rtept lat="56.9083136600178" lon="-4.56780828886349">
+<ele>260.444422674251</ele>
+<name>WPT 11</name>
+</rtept>
+<rtept lat="56.9078538855504" lon="-4.5671344001688">
+<ele>258.46250637615</ele>
+<name>WPT 12</name>
+</rtept>
+<rtept lat="56.9074219668456" lon="-4.56584806195166">
+<ele>261.926336011684</ele>
+<name>WPT 13</name>
+</rtept>
+<rtept lat="56.9060833861941" lon="-4.56556073027437">
+<ele>262.797938842022</ele>
+<name>WPT 14</name>
+</rtept>
+<rtept lat="56.9051447086054" lon="-4.56588727124196">
+<ele>268.416579439467</ele>
+<name>WPT 15</name>
+</rtept>
+<rtept lat="56.9042729915473" lon="-4.56518520610165">
+<ele>268.486636370003</ele>
+<name>WPT 16</name>
+</rtept>
+<rtept lat="56.9040874482901" lon="-4.56380421275551">
+<ele>272.285419713582</ele>
+<name>WPT 17</name>
+</rtept>
+<rtept lat="56.9041274548652" lon="-4.55961838682148">
+<ele>284.584201363277</ele>
+<name>WPT 18</name>
+</rtept>
+<rtept lat="56.9047630225011" lon="-4.55767927029829">
+<ele>294.381395055932</ele>
+<name>WPT 19</name>
+</rtept>
+<rtept lat="56.9038968100552" lon="-4.557452483098">
+<ele>296.770089623231</ele>
+<name>WPT 20</name>
+</rtept>
+<rtept lat="56.9030908951157" lon="-4.55801167374473">
+<ele>304.614581133366</ele>
+<name>WPT 21</name>
+</rtept>
+<rtept lat="56.9019317868288" lon="-4.558658365732">
+<ele>301.650056083578</ele>
+<name>WPT 22</name>
+</rtept>
+<rtept lat="56.9003536454507" lon="-4.55813158541697">
+<ele>311.61562277075</ele>
+<name>WPT 23</name>
+</rtept>
+<rtept lat="56.8993937659692" lon="-4.55725624650088">
+<ele>310.752203904116</ele>
+<name>WPT 24</name>
+</rtept>
+<rtept lat="56.8989413496311" lon="-4.55622019850393">
+<ele>319.13928887279</ele>
+<name>WPT 25</name>
+</rtept>
+<rtept lat="56.8972298774573" lon="-4.55548902739094">
+<ele>325.376680968058</ele>
+<name>WPT 26</name>
+</rtept>
+<rtept lat="56.8961151282951" lon="-4.55471492692573">
+<ele>319.353276120496</ele>
+<name>WPT 27</name>
+</rtept>
+<rtept lat="56.8958333651606" lon="-4.55355106500232">
+<ele>318.778218770134</ele>
+<name>WPT 28</name>
+</rtept>
+<rtept lat="56.8962021853186" lon="-4.55120323037114">
+<ele>327.193783763409</ele>
+<name>WPT 29</name>
+</rtept>
+<rtept lat="56.8957664268878" lon="-4.54785133565314">
+<ele>344.506043751121</ele>
+<name>WPT 30</name>
+</rtept>
+<rtept lat="56.8945316115486" lon="-4.54397059170502">
+<ele>353.09356584022</ele>
+<name>WPT 31</name>
+</rtept>
+<rtept lat="56.8937293061683" lon="-4.54285522988004">
+<ele>350.858420980358</ele>
+<name>WPT 32</name>
+</rtept>
+<rtept lat="56.8933029093191" lon="-4.53978345436349">
+<ele>353.189913337436</ele>
+<name>WPT 33</name>
+</rtept>
+<rtept lat="56.8936131972249" lon="-4.5387995530329">
+<ele>353.835913337433</ele>
+<name>WPT 34</name>
+</rtept>
+<rtept lat="56.8937556844926" lon="-4.53705052503372">
+<ele>354.685058197302</ele>
+<name>WPT 35</name>
+</rtept>
+<rtept lat="56.8943541829286" lon="-4.53466239916699">
+<ele>356.404231522432</ele>
+<name>WPT 36</name>
+</rtept>
+<rtept lat="56.8949011923485" lon="-4.5340573791633">
+<ele>356</ele>
+<name>WPT 37</name>
+</rtept>
+<rtept lat="56.8955646185207" lon="-4.53147810922215">
+<ele>355</ele>
+<name>WPT 38</name>
+</rtept>
+<rtept lat="56.8964320064675" lon="-4.53014092073318">
+<ele>355.751144859868</ele>
+<name>WPT 39</name>
+</rtept>
+<rtept lat="56.8968196345421" lon="-4.52910625391568">
+<ele>353.919348763983</ele>
+<name>WPT 40</name>
+</rtept>
+<rtept lat="56.8967732814324" lon="-4.52837725159385">
+<ele>353.850045445013</ele>
+<name>WPT 41</name>
+</rtept>
+<rtept lat="56.897333825795" lon="-4.52785677262769">
+<ele>354.582477910885</ele>
+<name>WPT 42</name>
+</rtept>
+<rtept lat="56.8980028325552" lon="-4.5265060395986">
+<ele>354.17018819115</ele>
+<name>WPT 43</name>
+</rtept>
+<rtept lat="56.8978112211713" lon="-4.52540426540202">
+<ele>355.120144859867</ele>
+<name>WPT 44</name>
+</rtept>
+<rtept lat="56.8973659048782" lon="-4.52475999459369">
+<ele>354</ele>
+<name>WPT 45</name>
+</rtept>
+<rtept lat="56.8958876456652" lon="-4.5245764684897">
+<ele>356.61612999385</ele>
+<name>WPT 46</name>
+</rtept>
+<rtept lat="56.8952439806644" lon="-4.52391885892206">
+<ele>360.117867892426</ele>
+<name>WPT 47</name>
+</rtept>
+<rtept lat="56.8951456297241" lon="-4.52349347197068">
+<ele>361.715867892426</ele>
+<name>WPT 48</name>
+</rtept>
+<rtept lat="56.8938001255257" lon="-4.52278856463829">
+<ele>377.179219617087</ele>
+<name>WPT 49</name>
+</rtept>
+<rtept lat="56.8926405183104" lon="-4.52195666726616">
+<ele>384.73043035214</ele>
+<name>WPT 50</name>
+</rtept>
+<rtept lat="56.8917983587359" lon="-4.51977841721759">
+<ele>423.702129566741</ele>
+<name>WPT 51</name>
+</rtept>
+<rtept lat="56.891070351163" lon="-4.51799873976684">
+<ele>443.721318604827</ele>
+<name>WPT 52</name>
+</rtept>
+<rtept lat="56.8902945601399" lon="-4.51403870116737">
+<ele>458.767626578379</ele>
+<name>WPT 53</name>
+</rtept>
+<rtept lat="56.8904811074119" lon="-4.51084122103242">
+<ele>485.816598960078</ele>
+<name>WPT 54</name>
+</rtept>
+<rtept lat="56.890008549736" lon="-4.50644854704462">
+<ele>543.074491083002</ele>
+<name>WPT 55</name>
+</rtept>
+<rtept lat="56.8891358616719" lon="-4.50335916259496">
+<ele>573.759211582041</ele>
+<name>WPT 56</name>
+</rtept>
+<rtept lat="56.8888941289515" lon="-4.50259593596336">
+<ele>586.693278661337</ele>
+<name>WPT 57</name>
+</rtept>
+<rtept lat="56.888595045235" lon="-4.50236249040618">
+<ele>584.19727866134</ele>
+<name>WPT 58</name>
+</rtept>
+<rtept lat="56.888370663413" lon="-4.50189925886195">
+<ele>592.991298244596</ele>
+<name>WPT 59</name>
+</rtept>
+<rtept lat="56.8874540544871" lon="-4.50158185096682">
+<ele>606.74025491333</ele>
+<name>WPT 60</name>
+</rtept>
+<rtept lat="56.8862134561731" lon="-4.50169100380769">
+<ele>616.841609598637</ele>
+<name>WPT 61</name>
+</rtept>
+<rtept lat="56.8849685876036" lon="-4.50201328663968">
+<ele>642.969966040564</ele>
+<name>WPT 62</name>
+</rtept>
+<rtept lat="56.8839680303968" lon="-4.5012207808941">
+<ele>677.694371735096</ele>
+<name>WPT 63</name>
+</rtept>
+<rtept lat="56.8834045745655" lon="-4.50135385404763">
+<ele>700.960300785446</ele>
+<name>WPT 64</name>
+</rtept>
+<rtept lat="56.8828150804987" lon="-4.50103702382186">
+<ele>721.825300785494</ele>
+<name>WPT 65</name>
+</rtept>
+<rtept lat="56.882012298038" lon="-4.50145286911369">
+<ele>754.229545907211</ele>
+<name>WPT 66</name>
+</rtept>
+<rtept lat="56.8814373135038" lon="-4.50216134582428">
+<ele>777.751067149305</ele>
+<name>WPT 67</name>
+</rtept>
+<rtept lat="56.8811868794618" lon="-4.50299820389865">
+<ele>797.149680128431</ele>
+<name>WPT 68</name>
+</rtept>
+<rtept lat="56.8801676668651" lon="-4.5037196062777">
+<ele>836.143922289514</ele>
+<name>WPT 69</name>
+</rtept>
+<rtept lat="56.8792094789486" lon="-4.50489316987065">
+<ele>856.274041217566</ele>
+<name>WPT 70</name>
+</rtept>
+<rtept lat="56.8784643417417" lon="-4.50418181480676">
+<ele>882.974147463417</ele>
+<name>WPT 71</name>
+</rtept>
+<rtept lat="56.8782421016966" lon="-4.50361215090418">
+<ele>897.267560346031</ele>
+<name>WPT 72</name>
+</rtept>
+<rtept lat="56.87647691065" lon="-4.50191513601156">
+<ele>945.251822447443</ele>
+<name>WPT 73</name>
+</rtept>
+<rtept lat="56.8757701723998" lon="-4.5010357647313">
+<ele>963.98466314137</ele>
+<name>WPT 74</name>
+</rtept>
+<rtept lat="56.8751516478072" lon="-4.5004183568905">
+<ele>979.944504262447</ele>
+<name>WPT 75</name>
+</rtept>
+<rtept lat="56.8745686975119" lon="-4.50035808661026">
+<ele>991.669492357099</ele>
+<name>WPT 76</name>
+</rtept>
+<rtept lat="56.874087193613" lon="-4.49989921066012">
+<ele>999.413186077452</ele>
+<name>WPT 77</name>
+</rtept>
+<rtept lat="56.8731644534939" lon="-4.49930421362359">
+<ele>1011.38541844685</ele>
+<name>WPT 78</name>
+</rtept>
+<rtept lat="56.8724457563224" lon="-4.49902155366497">
+<ele>1017.85895751567</ele>
+<name>WPT 79</name>
+</rtept>
+<rtept lat="56.8713877240221" lon="-4.4999323196859">
+<ele>1018.59466779594</ele>
+<name>WPT 80</name>
+</rtept>
+<rtept lat="56.8708383627316" lon="-4.50111168410671">
+<ele>1025.17602761832</ele>
+<name>WPT 81</name>
+</rtept>
+<rtept lat="56.8699899044452" lon="-4.50205769092426">
+<ele>1030.42928288875</ele>
+<name>WPT 82</name>
+</rtept>
+<rtept lat="56.8697643785954" lon="-4.50223462276067">
+<ele>1027.3352828887</ele>
+<name>WPT 83</name>
+</rtept>
+<rtept lat="56.869376205515" lon="-4.50353134626398">
+<ele>1032.64449658451</ele>
+<name>WPT 84</name>
+</rtept>
+<rtept lat="56.8693737733867" lon="-4.5042351815989">
+<ele>1034.26431987891</ele>
+<name>WPT 85</name>
+</rtept>
+<rtept lat="56.8690693900026" lon="-4.50543081259743">
+<ele>1050.37392524278</ele>
+<name>WPT 86</name>
+</rtept>
+<rtept lat="56.8689888163411" lon="-4.5065347410051">
+<ele>1040.29359684634</ele>
+<name>WPT 87</name>
+</rtept>
+<rtept lat="56.8691978927707" lon="-4.50834072436159">
+<ele>1063.35916015303</ele>
+<name>WPT 88</name>
+</rtept>
+<rtept lat="56.8695447074241" lon="-4.50968662723924">
+<ele>1066.88198598094</ele>
+<name>WPT 89</name>
+</rtept>
+<rtept lat="56.8692091322269" lon="-4.50836281045311">
+<ele>1063.34616015306</ele>
+<name>WPT 90</name>
+</rtept>
+<rtept lat="56.8690013392549" lon="-4.50649291310048">
+<ele>1039.94259684634</ele>
+<name>WPT 91</name>
+</rtept>
+<rtept lat="56.8690810575084" lon="-4.50543159324413">
+<ele>1050.36092524278</ele>
+<name>WPT 92</name>
+</rtept>
+<rtept lat="56.8693508656749" lon="-4.50421231635129">
+<ele>1034.35531987892</ele>
+<name>WPT 93</name>
+</rtept>
+<rtept lat="56.8693887274342" lon="-4.50348951689735">
+<ele>1029.426539496</ele>
+<name>WPT 94</name>
+</rtept>
+<rtept lat="56.8697998081754" lon="-4.50221565680846">
+<ele>1027.93328288875</ele>
+<name>WPT 95</name>
+</rtept>
+<rtept lat="56.8699786638628" lon="-4.50203560622629">
+<ele>1029.88328288875</ele>
+<name>WPT 96</name>
+</rtept>
+<rtept lat="56.8708379359334" lon="-4.50113298968544">
+<ele>1025.11102761832</ele>
+<name>WPT 97</name>
+</rtept>
+<rtept lat="56.8710741284256" lon="-4.50042340335836">
+<ele>1026.82702761832</ele>
+<name>WPT 98</name>
+</rtept>
+<rtept lat="56.8713744731133" lon="-4.49884338148731">
+<ele>1017.31006115797</ele>
+<name>WPT 99</name>
+</rtept>
+<rtept lat="56.8726478940513" lon="-4.49709355139706">
+<ele>973.43301530056</ele>
+<name>WPT 100</name>
+</rtept>
+<rtept lat="56.8735061121042" lon="-4.49565730049021">
+<ele>982.95560995574</ele>
+<name>WPT 101</name>
+</rtept>
+<rtept lat="56.8751950902198" lon="-4.49357222755649">
+<ele>916.308211099553</ele>
+<name>WPT 102</name>
+</rtept>
+<rtept lat="56.8762460892195" lon="-4.49242601732456">
+<ele>931.378484679156</ele>
+<name>WPT 103</name>
+</rtept>
+<rtept lat="56.8769031642987" lon="-4.49052805425731">
+<ele>940.776365743685</ele>
+<name>WPT 104</name>
+</rtept>
+<rtept lat="56.8775888637694" lon="-4.48777841482509">
+<ele>952.883626998162</ele>
+<name>WPT 105</name>
+</rtept>
+<rtept lat="56.8785475315677" lon="-4.48598568738235">
+<ele>956.505795248926</ele>
+<name>WPT 106</name>
+</rtept>
+<rtept lat="56.8797957462993" lon="-4.48431878152996">
+<ele>951.040956248927</ele>
+<name>WPT 107</name>
+</rtept>
+<rtept lat="56.8807967995841" lon="-4.48274207086933">
+<ele>933.638086242771</ele>
+<name>WPT 108</name>
+</rtept>
+<rtept lat="56.8819195916222" lon="-4.48091726427816">
+<ele>915.255579019678</ele>
+<name>WPT 109</name>
+</rtept>
+<rtept lat="56.8822963451508" lon="-4.48077151371741">
+<ele>910.237199676704</ele>
+<name>WPT 110</name>
+</rtept>
+<rtept lat="56.8834713953432" lon="-4.48102013053363">
+<ele>870.125716691446</ele>
+<name>WPT 111</name>
+</rtept>
+<rtept lat="56.8839463329824" lon="-4.48004856821183">
+<ele>838.077713311005</ele>
+<name>WPT 112</name>
+</rtept>
+<rtept lat="56.8840061233383" lon="-4.47939094515027">
+<ele>822.671384130287</ele>
+<name>WPT 113</name>
+</rtept>
+<rtept lat="56.8843588722236" lon="-4.4786886985367">
+<ele>812.552472354019</ele>
+<name>WPT 114</name>
+</rtept>
+<rtept lat="56.8849984811778" lon="-4.47883777170552">
+<ele>797.830974565411</ele>
+<name>WPT 115</name>
+</rtept>
+<rtept lat="56.8855766085384" lon="-4.4797297598872">
+<ele>778.269795256329</ele>
+<name>WPT 116</name>
+</rtept>
+<rtept lat="56.8857058527759" lon="-4.48086947279481">
+<ele>773.566261681604</ele>
+<name>WPT 117</name>
+</rtept>
+<rtept lat="56.8863853538261" lon="-4.48136271937366">
+<ele>763.133561612785</ele>
+<name>WPT 118</name>
+</rtept>
+<rtept lat="56.8865711897922" lon="-4.48141772773916">
+<ele>761.365561612785</ele>
+<name>WPT 119</name>
+</rtept>
+<rtept lat="56.8871517995248" lon="-4.48100802020853">
+<ele>750.565663988316</ele>
+<name>WPT 120</name>
+</rtept>
+<rtept lat="56.8879884852284" lon="-4.48123424434343">
+<ele>742.932449445605</ele>
+<name>WPT 121</name>
+</rtept>
+<rtept lat="56.889549603468" lon="-4.48086818348639">
+<ele>757.267508909654</ele>
+<name>WPT 122</name>
+</rtept>
+<rtept lat="56.8903326086297" lon="-4.48085606507865">
+<ele>764.46874508667</ele>
+<name>WPT 123</name>
+</rtept>
+<rtept lat="56.8911242667744" lon="-4.47981993525176">
+<ele>794.94537081809</ele>
+<name>WPT 124</name>
+</rtept>
+<rtept lat="56.8917468239601" lon="-4.47847371681244">
+<ele>831.489421819973</ele>
+<name>WPT 125</name>
+</rtept>
+<rtept lat="56.8920638923501" lon="-4.47721395840441">
+<ele>824.467501721573</ele>
+<name>WPT 126</name>
+</rtept>
+<rtept lat="56.8923203292776" lon="-4.47665459063839">
+<ele>862.090131253242</ele>
+<name>WPT 127</name>
+</rtept>
+<rtept lat="56.8926313641402" lon="-4.47451919881861">
+<ele>908.38865334239</ele>
+<name>WPT 128</name>
+</rtept>
+<rtept lat="56.8926669466708" lon="-4.47390250771438">
+<ele>898.172776575291</ele>
+<name>WPT 129</name>
+</rtept>
+<rtept lat="56.8928966560851" lon="-4.47351211386699">
+<ele>934.404088768959</ele>
+<name>WPT 130</name>
+</rtept>
+<rtept lat="56.8928552021896" lon="-4.47265551459161">
+<ele>915.621038676703</ele>
+<name>WPT 131</name>
+</rtept>
+<rtept lat="56.8931107820477" lon="-4.4703669735661">
+<ele>965.712075596857</ele>
+<name>WPT 132</name>
+</rtept>
+<rtept lat="56.8939662594472" lon="-4.46668772593066">
+<ele>985.950263368177</ele>
+<name>WPT 133</name>
+</rtept>
+<rtept lat="56.8946107507024" lon="-4.46540668096251">
+<ele>987.88848256546</ele>
+<name>WPT 134</name>
+</rtept>
+<rtept lat="56.8962054554252" lon="-4.46096458976257">
+<ele>1011.85330754642</ele>
+<name>WPT 135</name>
+</rtept>
+<rtept lat="56.8970720850055" lon="-4.45907886469484">
+<ele>1017.43302888508</ele>
+<name>WPT 136</name>
+</rtept>
+<rtept lat="56.8976670369847" lon="-4.45757098704013">
+<ele>1019.28919115182</ele>
+<name>WPT 137</name>
+</rtept>
+<rtept lat="56.8977550364428" lon="-4.4572548889602">
+<ele>1023.28101401906</ele>
+<name>WPT 138</name>
+</rtept>
+<rtept lat="56.8973882530665" lon="-4.4583113801304">
+<ele>1020.60023448309</ele>
+<name>WPT 139</name>
+</rtept>
+<rtept lat="56.896163619871" lon="-4.46098975450406">
+<ele>1011.20994306946</ele>
+<name>WPT 140</name>
+</rtept>
+<rtept lat="56.8946329475261" lon="-4.46532932249928">
+<ele>987.09348256546</ele>
+<name>WPT 141</name>
+</rtept>
+<rtept lat="56.8944148806309" lon="-4.46581415055756">
+<ele>992.646610018432</ele>
+<name>WPT 142</name>
+</rtept>
+<rtept lat="56.8942474423858" lon="-4.46701169521335">
+<ele>991.367306699443</ele>
+<name>WPT 143</name>
+</rtept>
+<rtept lat="56.8940034415808" lon="-4.46762616493924">
+<ele>981.863276120472</ele>
+<name>WPT 144</name>
+</rtept>
+<rtept lat="56.8940364362186" lon="-4.46977618897381">
+<ele>975.127846615267</ele>
+<name>WPT 145</name>
+</rtept>
+<rtept lat="56.8940590130522" lon="-4.47190582479529">
+<ele>966.2067480474</ele>
+<name>WPT 146</name>
+</rtept>
+<rtept lat="56.8943888583064" lon="-4.472676418196">
+<ele>938.601048048496</ele>
+<name>WPT 147</name>
+</rtept>
+<rtept lat="56.8947224024441" lon="-4.47543751751438">
+<ele>920.228026344204</ele>
+<name>WPT 148</name>
+</rtept>
+<rtept lat="56.8948338536569" lon="-4.47579959109918">
+<ele>878.067164443111</ele>
+<name>WPT 149</name>
+</rtept>
+<rtept lat="56.8951446291452" lon="-4.47589898123026">
+<ele>890.069353481245</ele>
+<name>WPT 150</name>
+</rtept>
+<rtept lat="56.8954012423525" lon="-4.47709831253448">
+<ele>885.064750223732</ele>
+<name>WPT 151</name>
+</rtept>
+<rtept lat="56.895667764974" lon="-4.47725390251661">
+<ele>885.916750223732</ele>
+<name>WPT 152</name>
+</rtept>
+<rtept lat="56.8957312827032" lon="-4.47840105519776">
+<ele>860.539573455465</ele>
+<name>WPT 153</name>
+</rtept>
+<rtept lat="56.8958797221559" lon="-4.47852912606332">
+<ele>855.086083274746</ele>
+<name>WPT 154</name>
+</rtept>
+<rtept lat="56.8961467355518" lon="-4.48083273708698">
+<ele>824.804721338654</ele>
+<name>WPT 155</name>
+</rtept>
+<rtept lat="56.8965746289915" lon="-4.48155084011948">
+<ele>827.322859367585</ele>
+<name>WPT 156</name>
+</rtept>
+<rtept lat="56.8967751717064" lon="-4.48231299281652">
+<ele>825.38427400676</ele>
+<name>WPT 157</name>
+</rtept>
+<rtept lat="56.8972884349914" lon="-4.48307620592257">
+<ele>820.593902698851</ele>
+<name>WPT 158</name>
+</rtept>
+<rtept lat="56.8976180053895" lon="-4.48331486056724">
+<ele>824.91340400061</ele>
+<name>WPT 159</name>
+</rtept>
+<rtept lat="56.8981246079057" lon="-4.48441268649094">
+<ele>836.116740432096</ele>
+<name>WPT 160</name>
+</rtept>
+<rtept lat="56.898254240887" lon="-4.48440158934439">
+<ele>839.392740432096</ele>
+<name>WPT 161</name>
+</rtept>
+<rtept lat="56.8983159288827" lon="-4.48509544482836">
+<ele>837.460740432119</ele>
+<name>WPT 162</name>
+</rtept>
+<rtept lat="56.8985186033006" lon="-4.48520744768607">
+<ele>843.787612979126</ele>
+<name>WPT 163</name>
+</rtept>
+<rtept lat="56.8985366191566" lon="-4.4853860121601">
+<ele>845.143612979126</ele>
+<name>WPT 164</name>
+</rtept>
+<rtept lat="56.8989637023878" lon="-4.48505965180741">
+<ele>862.734694140148</ele>
+<name>WPT 165</name>
+</rtept>
+<rtept lat="56.899593851033" lon="-4.48482560636362">
+<ele>866.579655890596</ele>
+<name>WPT 166</name>
+</rtept>
+<rtept lat="56.8997713627262" lon="-4.4849375823663">
+<ele>890.711559918874</ele>
+<name>WPT 167</name>
+</rtept>
+<rtept lat="56.8997874695296" lon="-4.48507660954503">
+<ele>888.674559918874</ele>
+<name>WPT 168</name>
+</rtept>
+<rtept lat="56.8997871276131" lon="-4.48540998312141">
+<ele>872.615655890596</ele>
+<name>WPT 169</name>
+</rtept>
+<rtept lat="56.8998620485158" lon="-4.48733486896786">
+<ele>893.432872539663</ele>
+<name>WPT 170</name>
+</rtept>
+<rtept lat="56.899639140854" lon="-4.48819377066725">
+<ele>853.290398079288</ele>
+<name>WPT 171</name>
+</rtept>
+<rtept lat="56.8998335455912" lon="-4.48980306784169">
+<ele>842.018412035656</ele>
+<name>WPT 172</name>
+</rtept>
+<rtept lat="56.8996557316506" lon="-4.49006714476434">
+<ele>851.626493196702</ele>
+<name>WPT 173</name>
+</rtept>
+<rtept lat="56.8991401207322" lon="-4.49050580692958">
+<ele>844.753123582697</ele>
+<name>WPT 174</name>
+</rtept>
+<rtept lat="56.898676174958" lon="-4.49159824893512">
+<ele>822.980595992041</ele>
+<name>WPT 175</name>
+</rtept>
+<rtept lat="56.898388860986" lon="-4.49248565331421">
+<ele>793.662400193006</ele>
+<name>WPT 176</name>
+</rtept>
+<rtept lat="56.8974946499042" lon="-4.49406174873716">
+<ele>749.117458390308</ele>
+<name>WPT 177</name>
+</rtept>
+<rtept lat="56.8969182553634" lon="-4.49538307997196">
+<ele>736.230958775091</ele>
+<name>WPT 178</name>
+</rtept>
+<rtept lat="56.8960991517665" lon="-4.49751583589716">
+<ele>659.433561122942</ele>
+<name>WPT 179</name>
+</rtept>
+<rtept lat="56.8958938782909" lon="-4.49807361007424">
+<ele>670.659147813225</ele>
+<name>WPT 180</name>
+</rtept>
+<rtept lat="56.8956860990599" lon="-4.49821738334806">
+<ele>659.31914781313</ele>
+<name>WPT 181</name>
+</rtept>
+<rtept lat="56.895179931549" lon="-4.49979945702536">
+<ele>629.813123582697</ele>
+<name>WPT 182</name>
+</rtept>
+<rtept lat="56.8947943156155" lon="-4.50020721248156">
+<ele>620.768016552591</ele>
+<name>WPT 183</name>
+</rtept>
+<rtept lat="56.894165711579" lon="-4.50197808784302">
+<ele>581.64973620469</ele>
+<name>WPT 184</name>
+</rtept>
+<rtept lat="56.8932300005475" lon="-4.50400421925502">
+<ele>551.299846615267</ele>
+<name>WPT 185</name>
+</rtept>
+<rtept lat="56.891848453235" lon="-4.50674914384236">
+<ele>525.396878950834</ele>
+<name>WPT 186</name>
+</rtept>
+<rtept lat="56.8911877435452" lon="-4.50796591679169">
+<ele>524.220258713627</ele>
+<name>WPT 187</name>
+</rtept>
+<rtept lat="56.8908794673786" lon="-4.50828021375046">
+<ele>508.740037409949</ele>
+<name>WPT 188</name>
+</rtept>
+<rtept lat="56.8903223934952" lon="-4.50916892381844">
+<ele>500.052135915166</ele>
+<name>WPT 189</name>
+</rtept>
+<rtept lat="56.8904610988283" lon="-4.51085301390725">
+<ele>485.746598960036</ele>
+<name>WPT 190</name>
+</rtept>
+<rtept lat="56.8902884820337" lon="-4.51407277358138">
+<ele>458.956626578355</ele>
+<name>WPT 191</name>
+</rtept>
+<rtept lat="56.8910616076929" lon="-4.51798665747075">
+<ele>443.661318604803</ele>
+<name>WPT 192</name>
+</rtept>
+<rtept lat="56.8918551693368" lon="-4.51981344170532">
+<ele>404.705168250752</ele>
+<name>WPT 193</name>
+</rtept>
+<rtept lat="56.8926527188757" lon="-4.52197555227756">
+<ele>384.393430352187</ele>
+<name>WPT 194</name>
+</rtept>
+<rtept lat="56.8938111303573" lon="-4.52282214881208">
+<ele>377.385219617078</ele>
+<name>WPT 195</name>
+</rtept>
+<rtept lat="56.8951777403571" lon="-4.52350549107012">
+<ele>361.445867892432</ele>
+<name>WPT 196</name>
+</rtept>
+<rtept lat="56.8952459717155" lon="-4.52386480176773">
+<ele>360.209867892444</ele>
+<name>WPT 197</name>
+</rtept>
+<rtept lat="56.8958674701102" lon="-4.52459645538716">
+<ele>356.68212999385</ele>
+<name>WPT 198</name>
+</rtept>
+<rtept lat="56.8974067557216" lon="-4.52473976026763">
+<ele>354.221188191151</ele>
+<name>WPT 199</name>
+</rtept>
+<rtept lat="56.8978343920933" lon="-4.52545838279809">
+<ele>355.115144859865</ele>
+<name>WPT 200</name>
+</rtept>
+<rtept lat="56.8980067560074" lon="-4.52653422352453">
+<ele>354.153188191151</ele>
+<name>WPT 201</name>
+</rtept>
+<rtept lat="56.8973215279068" lon="-4.5278871444631">
+<ele>354.499477910885</ele>
+<name>WPT 202</name>
+</rtept>
+<rtept lat="56.896804992034" lon="-4.52836461487364">
+<ele>354.138045444989</ele>
+<name>WPT 203</name>
+</rtept>
+<rtept lat="56.8968225594338" lon="-4.52909495600719">
+<ele>353.90434876398</ele>
+<name>WPT 204</name>
+</rtept>
+<rtept lat="56.8964456347632" lon="-4.53013363142986">
+<ele>355.771144859865</ele>
+<name>WPT 205</name>
+</rtept>
+<rtept lat="56.8955992212785" lon="-4.53145581810352">
+<ele>354.942811808849</ele>
+<name>WPT 206</name>
+</rtept>
+<rtept lat="56.8949199054091" lon="-4.53410955366327">
+<ele>356</ele>
+<name>WPT 207</name>
+</rtept>
+<rtept lat="56.8943590696629" lon="-4.5346430246723">
+<ele>356.411231522436</ele>
+<name>WPT 208</name>
+</rtept>
+<rtept lat="56.8937598720724" lon="-4.53706558799426">
+<ele>354.691058197299</ele>
+<name>WPT 209</name>
+</rtept>
+<rtept lat="56.8936273568057" lon="-4.53881036657214">
+<ele>353.86791333743</ele>
+<name>WPT 210</name>
+</rtept>
+<rtept lat="56.8933277413243" lon="-4.53975558256616">
+<ele>353.243913337433</ele>
+<name>WPT 211</name>
+</rtept>
+<rtept lat="56.893738744321" lon="-4.54287721884384">
+<ele>350.925420980358</ele>
+<name>WPT 212</name>
+</rtept>
+<rtept lat="56.8945567363305" lon="-4.54401663825651">
+<ele>353.30856584022</ele>
+<name>WPT 213</name>
+</rtept>
+<rtept lat="56.8957836460301" lon="-4.54784429746557">
+<ele>344.836043751097</ele>
+<name>WPT 214</name>
+</rtept>
+<rtept lat="56.8961900227745" lon="-4.55118269419441">
+<ele>327.007783763409</ele>
+<name>WPT 215</name>
+</rtept>
+<rtept lat="56.8958286431494" lon="-4.55356223810759">
+<ele>318.774218770122</ele>
+<name>WPT 216</name>
+</rtept>
+<rtept lat="56.8961387559988" lon="-4.55474610059489">
+<ele>319.578276120484</ele>
+<name>WPT 217</name>
+</rtept>
+<rtept lat="56.8972451007523" lon="-4.55549170971516">
+<ele>325.473680968046</ele>
+<name>WPT 218</name>
+</rtept>
+<rtept lat="56.8989553398008" lon="-4.55623922045205">
+<ele>319.13128887279</ele>
+<name>WPT 219</name>
+</rtept>
+<rtept lat="56.8993875173258" lon="-4.55725417689816">
+<ele>310.741203904112</ele>
+<name>WPT 220</name>
+</rtept>
+<rtept lat="56.9003621928376" lon="-4.55810917632629">
+<ele>311.698622770751</ele>
+<name>WPT 221</name>
+</rtept>
+<rtept lat="56.9019037304261" lon="-4.5586679435356">
+<ele>301.839056083596</ele>
+<name>WPT 222</name>
+</rtept>
+<rtept lat="56.903124427543" lon="-4.55804189046685">
+<ele>304.674581133354</ele>
+<name>WPT 223</name>
+</rtept>
+<rtept lat="56.9039127292488" lon="-4.55746506976053">
+<ele>296.923089623222</ele>
+<name>WPT 224</name>
+</rtept>
+<rtept lat="56.9047822385791" lon="-4.55766251601467">
+<ele>294.417395055908</ele>
+<name>WPT 225</name>
+</rtept>
+<rtept lat="56.9041276565279" lon="-4.55960854517544">
+<ele>284.668201363277</ele>
+<name>WPT 226</name>
+</rtept>
+<rtept lat="56.9040747944308" lon="-4.56376392340742">
+<ele>272.348419713587</ele>
+<name>WPT 227</name>
+</rtept>
+<rtept lat="56.9042933972004" lon="-4.56519810398337">
+<ele>268.334636370009</ele>
+<name>WPT 228</name>
+</rtept>
+<rtept lat="56.905162746481" lon="-4.56592793195189">
+<ele>268.404579439467</ele>
+<name>WPT 229</name>
+</rtept>
+<rtept lat="56.90607708248" lon="-4.56551758850397">
+<ele>263.085938842058</ele>
+<name>WPT 230</name>
+</rtept>
+<rtept lat="56.9074287758391" lon="-4.56586659916744">
+<ele>262.06733601166</ele>
+<name>WPT 231</name>
+</rtept>
+<rtept lat="56.9078452481348" lon="-4.56711737970603">
+<ele>258.512506376159</ele>
+<name>WPT 232</name>
+</rtept>
+<rtept lat="56.9083053469172" lon="-4.56781921726979">
+<ele>260.439422674233</ele>
+<name>WPT 233</name>
+</rtept>
+<rtept lat="56.9095945258246" lon="-4.56911030467135">
+<ele>258.109259140763</ele>
+<name>WPT 234</name>
+</rtept>
+<rtept lat="56.9103529861786" lon="-4.57103527865695">
+<ele>258.36755097419</ele>
+<name>WPT 235</name>
+</rtept>
+<rtept lat="56.9103453459276" lon="-4.57245417955109">
+<ele>255.057972381672</ele>
+<name>WPT 236</name>
+</rtept>
+<rtept lat="56.9099109708083" lon="-4.57364656132048">
+<ele>261.180175438839</ele>
+<name>WPT 237</name>
+</rtept>
+<rtept lat="56.9099561164282" lon="-4.57459594418787">
+<ele>259.638796095891</ele>
+<name>WPT 238</name>
+</rtept>
+<rtept lat="56.910312942253" lon="-4.57507394514544">
+<ele>259.265550554383</ele>
+<name>WPT 239</name>
+</rtept>
+<rtept lat="56.9107565426488" lon="-4.57605079594711">
+<ele>254.094985133988</ele>
+<name>WPT 240</name>
+</rtept>
+<rtept lat="56.9113559721454" lon="-4.57626953435464">
+<ele>253.943144859867</ele>
+<name>WPT 241</name>
+</rtept>
+<rtept lat="56.9119558071623" lon="-4.57646859289573">
+<ele>253.891058197299</ele>
+<name>WPT 242</name>
+</rtept>
+<rtept lat="56.9121595887976" lon="-4.57547716053678">
+<ele>254.725101528582</ele>
+<name>WPT 243</name>
+</rtept>
+</rte>
+</gpx>

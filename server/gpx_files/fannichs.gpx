@@ -1,0 +1,813 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="Walkhighlands">
+<metadata>
+	<desc>GPX file from Walkhighlands; file is copyright Walkhighlands and must not be publicly shared on other websites. Do not remove this notice.</desc>
+	<copyright author="Walkhighlands"><year>2019</year></copyright>
+</metadata>
+<rte>
+<name>Sgùrr Mòr and the eastern Fannichs</name>
+<rtept lat="57.7249001544353" lon="-4.89409186215621">
+<ele>265.981888355797</ele>
+<name>EF001</name>
+</rtept>
+<rtept lat="57.7245107232917" lon="-4.89264970549421">
+<ele>263.025832019972</ele>
+<name>EF002</name>
+</rtept>
+<rtept lat="57.723551816089" lon="-4.89052382523563">
+<name>EF003</name>
+</rtept>
+<rtept lat="57.7232114681132" lon="-4.89031525587712">
+<name>EF004</name>
+</rtept>
+<rtept lat="57.7225957533665" lon="-4.89083052038527">
+<name>EF005</name>
+</rtept>
+<rtept lat="57.7223826749604" lon="-4.89166009389553">
+<name>EF006</name>
+</rtept>
+<rtept lat="57.721493183414" lon="-4.88999676866156">
+<name>EF007</name>
+</rtept>
+<rtept lat="57.7206665656242" lon="-4.88983005381418">
+<name>EF008</name>
+</rtept>
+<rtept lat="57.7200834595664" lon="-4.89222233539871">
+<name>EF009</name>
+</rtept>
+<rtept lat="57.7196282942823" lon="-4.89279065328301">
+<name>EF010</name>
+</rtept>
+<rtept lat="57.7190130299827" lon="-4.89328570841289">
+<name>EF011</name>
+</rtept>
+<rtept lat="57.7186542859362" lon="-4.89388185218636">
+<name>EF012</name>
+</rtept>
+<rtept lat="57.718483607413" lon="-4.89427130905481">
+<name>EF013</name>
+</rtept>
+<rtept lat="57.7181588140439" lon="-4.89432598246314">
+<name>EF014</name>
+</rtept>
+<rtept lat="57.7178580327147" lon="-4.89474534650539">
+<name>EF015</name>
+</rtept>
+<rtept lat="57.7176428040738" lon="-4.89613892993843">
+<name>EF016</name>
+</rtept>
+<rtept lat="57.7164940519368" lon="-4.89685325051068">
+<name>EF017</name>
+</rtept>
+<rtept lat="57.7161569915605" lon="-4.89791457552679">
+<name>EF018</name>
+</rtept>
+<rtept lat="57.7157893045117" lon="-4.89842930123061">
+<name>EF019</name>
+</rtept>
+<rtept lat="57.7154316229996" lon="-4.8994486362794">
+<name>EF020</name>
+</rtept>
+<rtept lat="57.7152700096598" lon="-4.9003828814315">
+<name>EF021</name>
+</rtept>
+<rtept lat="57.7152953880696" lon="-4.90068720315549">
+<name>EF022</name>
+</rtept>
+<rtept lat="57.7138780418288" lon="-4.90605508213485">
+<name>EF023</name>
+</rtept>
+<rtept lat="57.7128878016078" lon="-4.90643916018489">
+<name>EF024</name>
+</rtept>
+<rtept lat="57.7122275779002" lon="-4.90701089563174">
+<name>EF025</name>
+</rtept>
+<rtept lat="57.7111736694217" lon="-4.90734952338106">
+<name>EF026</name>
+</rtept>
+<rtept lat="57.7105483761007" lon="-4.90733966557348">
+<name>EF027</name>
+</rtept>
+<rtept lat="57.7090398281169" lon="-4.90868956122306">
+<name>EF028</name>
+</rtept>
+<rtept lat="57.707856528217" lon="-4.90996471515956">
+<name>EF029</name>
+</rtept>
+<rtept lat="57.707580711365" lon="-4.9111716307359">
+<name>EF030</name>
+</rtept>
+<rtept lat="57.7070076312381" lon="-4.91217331190686">
+<name>EF031</name>
+</rtept>
+<rtept lat="57.7065101228297" lon="-4.91410783930152">
+<name>EF032</name>
+</rtept>
+<rtept lat="57.7056919884441" lon="-4.91404207197679">
+<name>EF033</name>
+</rtept>
+<rtept lat="57.705329443341" lon="-4.91479867249183">
+<name>EF034</name>
+</rtept>
+<rtept lat="57.7052890188125" lon="-4.9160848460987">
+<name>EF035</name>
+</rtept>
+<rtept lat="57.7048049996854" lon="-4.91789943545199">
+<name>EF036</name>
+</rtept>
+<rtept lat="57.7043352470799" lon="-4.91862720243505">
+<name>EF037</name>
+</rtept>
+<rtept lat="57.7039798178126" lon="-4.92000884667725">
+<name>EF038</name>
+</rtept>
+<rtept lat="57.7037300798755" lon="-4.92101619933808">
+<name>EF039</name>
+</rtept>
+<rtept lat="57.7036456042866" lon="-4.92233905431393">
+<name>EF040</name>
+</rtept>
+<rtept lat="57.7035376496548" lon="-4.9232772299596">
+<name>EF041</name>
+</rtept>
+<rtept lat="57.7029184774979" lon="-4.92346905703317">
+<name>EF042</name>
+</rtept>
+<rtept lat="57.7026409150157" lon="-4.92334594635855">
+<name>EF043</name>
+</rtept>
+<rtept lat="57.7025370609929" lon="-4.92363975910325">
+<name>EF044</name>
+</rtept>
+<rtept lat="57.7026326255622" lon="-4.92417125722428">
+<name>EF045</name>
+</rtept>
+<rtept lat="57.7021783233496" lon="-4.92516204107334">
+<name>EF046</name>
+</rtept>
+<rtept lat="57.7022219858518" lon="-4.92607211679329">
+<name>EF047</name>
+</rtept>
+<rtept lat="57.702135912475" lon="-4.92660741604125">
+<ele>379.974620931532</ele>
+<name>EF048</name>
+</rtept>
+<rtept lat="57.7017462938593" lon="-4.92728776907887">
+<ele>384.215643988118</ele>
+<name>EF049</name>
+</rtept>
+<rtept lat="57.7011708204564" lon="-4.92885291162579">
+<ele>389.431026364588</ele>
+<name>EF050</name>
+</rtept>
+<rtept lat="57.7007700830274" lon="-4.93063357669561">
+<ele>396.385434778064</ele>
+<name>EF051</name>
+</rtept>
+<rtept lat="57.7009489082938" lon="-4.93098378007347">
+<ele>399.763801581646</ele>
+<name>EF052</name>
+</rtept>
+<rtept lat="57.7001592792228" lon="-4.93317782108149">
+<name>EF053</name>
+</rtept>
+<rtept lat="57.7001537624522" lon="-4.93434575781455">
+<name>EF054</name>
+</rtept>
+<rtept lat="57.7004833736385" lon="-4.93594372188157">
+<name>EF055</name>
+</rtept>
+<rtept lat="57.7003055958074" lon="-4.93709771579893">
+<name>EF056</name>
+</rtept>
+<rtept lat="57.700658142407" lon="-4.93956380109343">
+<name>EF057</name>
+</rtept>
+<rtept lat="57.7006109100832" lon="-4.9406679378754">
+<name>EF058</name>
+</rtept>
+<rtept lat="57.7024975895112" lon="-4.94440693713092">
+<name>EF059</name>
+</rtept>
+<rtept lat="57.7041225367332" lon="-4.94780270010672">
+<name>EF060</name>
+</rtept>
+<rtept lat="57.7053519151067" lon="-4.95104568567304">
+<name>EF061</name>
+</rtept>
+<rtept lat="57.7050869717481" lon="-4.9517695721631">
+<name>EF062</name>
+</rtept>
+<rtept lat="57.704318875991" lon="-4.95279496893077">
+<name>EF063</name>
+</rtept>
+<rtept lat="57.7038072432659" lon="-4.95392180612918">
+<name>EF064</name>
+</rtept>
+<rtept lat="57.7031639526845" lon="-4.95652871288306">
+<name>EF065</name>
+</rtept>
+<rtept lat="57.7032285794316" lon="-4.95699398730445">
+<ele>706.131230570826</ele>
+<name>EF066</name>
+</rtept>
+<rtept lat="57.7030067126767" lon="-4.9586799330064">
+<ele>728.902386485164</ele>
+<name>EF067</name>
+</rtept>
+<rtept lat="57.7029733015902" lon="-4.95957035895254">
+<ele>735.673435711648</ele>
+<name>EF068</name>
+</rtept>
+<rtept lat="57.7026894671759" lon="-4.9609456671639">
+<ele>744.149833647408</ele>
+<name>EF069</name>
+</rtept>
+<rtept lat="57.7025768812355" lon="-4.96172384874743">
+<ele>750.476706255514</ele>
+<name>EF070</name>
+</rtept>
+<rtept lat="57.7022543760283" lon="-4.96221626619845">
+<name>EF071</name>
+</rtept>
+<rtept lat="57.7020220659709" lon="-4.9633858875805">
+<name>EF072</name>
+</rtept>
+<rtept lat="57.701193360918" lon="-4.96626440591382">
+<ele>745.948799419164</ele>
+<name>EF073</name>
+</rtept>
+<rtept lat="57.7011162945973" lon="-4.96820884035402">
+<ele>738.281275393167</ele>
+<name>EF074</name>
+</rtept>
+<rtept lat="57.7008239971706" lon="-4.97047642576249">
+<ele>734.505685454356</ele>
+<name>EF075</name>
+</rtept>
+<rtept lat="57.700856914644" lon="-4.9746978691958">
+<ele>758.008765907481</ele>
+<name>EF076</name>
+</rtept>
+<rtept lat="57.7008447869997" lon="-4.97628331215946">
+<ele>780.137159757391</ele>
+<name>EF077</name>
+</rtept>
+<rtept lat="57.7014581442713" lon="-4.9777556067062">
+<ele>811.898822532717</ele>
+<name>EF078</name>
+</rtept>
+<rtept lat="57.7016261348386" lon="-4.97886567202123">
+<name>EF079</name>
+</rtept>
+<rtept lat="57.7018914544788" lon="-4.97904863854998">
+<name>EF080</name>
+</rtept>
+<rtept lat="57.7022158908381" lon="-4.98038479007137">
+<name>EF081</name>
+</rtept>
+<rtept lat="57.7028128725027" lon="-4.9811389904492">
+<name>EF082</name>
+</rtept>
+<rtept lat="57.7041488446546" lon="-4.98348518407203">
+<name>EF083</name>
+</rtept>
+<rtept lat="57.705243808365" lon="-4.98415958657059">
+<name>EF084</name>
+</rtept>
+<rtept lat="57.7057826745684" lon="-4.9850904621091">
+<name>EF085</name>
+</rtept>
+<rtept lat="57.7060003522381" lon="-4.98637772374342">
+<name>EF086</name>
+</rtept>
+<rtept lat="57.706067929417" lon="-4.98990923454395">
+<name>EF087</name>
+</rtept>
+<rtept lat="57.7064671222782" lon="-4.99127196175036">
+<name>EF088</name>
+</rtept>
+<rtept lat="57.7065662048463" lon="-4.99164281214761">
+<name>EF089</name>
+</rtept>
+<rtept lat="57.7068585657466" lon="-4.99204976715727">
+<name>EF090</name>
+</rtept>
+<rtept lat="57.7062146889784" lon="-4.99297716775322">
+<ele>871.74320999776</ele>
+<name>EF091</name>
+</rtept>
+<rtept lat="57.7062690301457" lon="-4.9931495579175">
+<ele>865.358610910049</ele>
+<name>EF092</name>
+</rtept>
+<rtept lat="57.7060166023399" lon="-4.9933721725784">
+<ele>861.227402077939</ele>
+<name>EF093</name>
+</rtept>
+<rtept lat="57.7054714553345" lon="-4.99362098059243">
+<ele>860.423930750921</ele>
+<name>EF094</name>
+</rtept>
+<rtept lat="57.7051900577494" lon="-4.99411822705809">
+<ele>856.070057038554</ele>
+<name>EF095</name>
+</rtept>
+<rtept lat="57.7049024188047" lon="-4.99411965399984">
+<ele>853.168250608607</ele>
+<name>EF096</name>
+</rtept>
+<rtept lat="57.7049111145863" lon="-4.99432184875891">
+<ele>850.280933422346</ele>
+<name>EF097</name>
+</rtept>
+<rtept lat="57.7045318804482" lon="-4.99515518533463">
+<ele>840.674583540065</ele>
+<name>EF098</name>
+</rtept>
+<rtept lat="57.7034017335018" lon="-4.99684145549764">
+<name>EF099</name>
+</rtept>
+<rtept lat="57.7026878591951" lon="-4.99829342726023">
+<name>EF100</name>
+</rtept>
+<rtept lat="57.7021203008294" lon="-4.99903218842004">
+<name>EF101</name>
+</rtept>
+<rtept lat="57.7014427813656" lon="-5.00076911733106">
+<name>EF102</name>
+</rtept>
+<rtept lat="57.7010206745145" lon="-5.00128649863655">
+<ele>915.150760563352</ele>
+<name>EF103</name>
+</rtept>
+<rtept lat="57.7006487976186" lon="-5.00256516208503">
+<ele>933.56204014837</ele>
+<name>EF104</name>
+</rtept>
+<rtept lat="57.6999385257263" lon="-5.00443018613054">
+<ele>943.535293248591</ele>
+<name>EF105</name>
+</rtept>
+<rtept lat="57.6993940634084" lon="-5.00619977574188">
+<name>EF106</name>
+</rtept>
+<rtept lat="57.6989465466217" lon="-5.00804952852269">
+<ele>935.609851270663</ele>
+<name>EF107</name>
+</rtept>
+<rtept lat="57.6988583038344" lon="-5.00877412697081">
+<name>EF108</name>
+</rtept>
+<rtept lat="57.6985700722162" lon="-5.00955597933838">
+<name>EF109</name>
+</rtept>
+<rtept lat="57.6985007025252" lon="-5.01065815335523">
+<name>EF110</name>
+</rtept>
+<rtept lat="57.6982363806134" lon="-5.01134124906695">
+<name>EF111</name>
+</rtept>
+<rtept lat="57.6983275128029" lon="-5.01159054713462">
+<name>EF112</name>
+</rtept>
+<rtept lat="57.6984260394516" lon="-5.01288795862079">
+<name>EF113</name>
+</rtept>
+<rtept lat="57.6984108190268" lon="-5.01356487566086">
+<ele>1021.23055886076</ele>
+<name>EF114</name>
+</rtept>
+<rtept lat="57.6985996754822" lon="-5.01374844703201">
+<name>EF115</name>
+</rtept>
+<rtept lat="57.6986140179207" lon="-5.01405180374995">
+<name>EF116</name>
+</rtept>
+<rtept lat="57.6988070348841" lon="-5.01455131457087">
+<name>EF117</name>
+</rtept>
+<rtept lat="57.69880556051" lon="-5.01551812429321">
+<name>EF118</name>
+</rtept>
+<rtept lat="57.6988966843238" lon="-5.0157674365443">
+<name>EF119</name>
+</rtept>
+<rtept lat="57.6995482289989" lon="-5.01648640923227">
+<name>EF120</name>
+</rtept>
+<rtept lat="57.7000586648661" lon="-5.01679076292915">
+<name>EF121</name>
+</rtept>
+<rtept lat="57.6995810002667" lon="-5.0164689908101">
+<name>EF122</name>
+</rtept>
+<rtept lat="57.6988629544728" lon="-5.01582506448034">
+<name>EF123</name>
+</rtept>
+<rtept lat="57.6984642090505" lon="-5.01581204327708">
+<name>EF124</name>
+</rtept>
+<rtept lat="57.6983737833222" lon="-5.01598581994395">
+<name>EF125</name>
+</rtept>
+<rtept lat="57.6977002282327" lon="-5.01528519391461">
+<name>EF126</name>
+</rtept>
+<rtept lat="57.6972002937154" lon="-5.01544505692225">
+<name>EF127</name>
+</rtept>
+<rtept lat="57.6969070500337" lon="-5.01507823381903">
+<name>EF128</name>
+</rtept>
+<rtept lat="57.6957239727994" lon="-5.01493958099727">
+<name>EF129</name>
+</rtept>
+<rtept lat="57.6943885883183" lon="-5.01259280346599">
+<name>EF130</name>
+</rtept>
+<rtept lat="57.6932098341769" lon="-5.010460616268">
+<name>EF131</name>
+</rtept>
+<rtept lat="57.6927783161318" lon="-5.00955873241613">
+<name>EF132</name>
+</rtept>
+<rtept lat="57.6918884858039" lon="-5.00888067796543">
+<name>EF133</name>
+</rtept>
+<rtept lat="57.6916526335585" lon="-5.00882083071826">
+<name>EF134</name>
+</rtept>
+<rtept lat="57.6906388889513" lon="-5.00791100138251">
+<name>EF135</name>
+</rtept>
+<rtept lat="57.6901903747268" lon="-5.00726961917022">
+<name>EF136</name>
+</rtept>
+<rtept lat="57.6897815683797" lon="-5.00677252004526">
+<name>EF137</name>
+</rtept>
+<rtept lat="57.6891964257464" lon="-5.00507261601644">
+<name>EF138</name>
+</rtept>
+<rtept lat="57.688691804528" lon="-5.00225166790509">
+<name>EF139</name>
+</rtept>
+<rtept lat="57.6873718233695" lon="-4.9983363477449">
+<name>EF140</name>
+</rtept>
+<rtept lat="57.6857436585194" lon="-4.99467780014278">
+<name>EF141</name>
+</rtept>
+<rtept lat="57.6842342293236" lon="-4.992378499273">
+<name>EF142</name>
+</rtept>
+<rtept lat="57.6839138527137" lon="-4.99178826751562">
+<name>EF143</name>
+</rtept>
+<rtept lat="57.6835071898469" lon="-4.99165405437001">
+<name>EF144</name>
+</rtept>
+<rtept lat="57.6830635092074" lon="-4.99034893400482">
+<name>EF145</name>
+</rtept>
+<rtept lat="57.6827850649288" lon="-4.99026557852777">
+<name>EF146</name>
+</rtept>
+<rtept lat="57.6823993047864" lon="-4.98924716510888">
+<name>EF147</name>
+</rtept>
+<rtept lat="57.6822642797628" lon="-4.98857158478954">
+<name>EF148</name>
+</rtept>
+<rtept lat="57.6820846119798" lon="-4.98841584126232">
+<name>EF149</name>
+</rtept>
+<rtept lat="57.681590244482" lon="-4.98742879526681">
+<name>EF150</name>
+</rtept>
+<rtept lat="57.6809008056183" lon="-4.9846539078669">
+<name>EF151</name>
+</rtept>
+<rtept lat="57.6806614336158" lon="-4.98062753486083">
+<name>EF152</name>
+</rtept>
+<rtept lat="57.6806583751476" lon="-4.97984205506615">
+<name>EF153</name>
+</rtept>
+<rtept lat="57.6806003149309" lon="-4.97818629702612">
+<name>EF154</name>
+</rtept>
+<rtept lat="57.6804194335009" lon="-4.9753325701284">
+<name>EF155</name>
+</rtept>
+<rtept lat="57.6790590349184" lon="-4.97034881012415">
+<name>EF156</name>
+</rtept>
+<rtept lat="57.6779289759667" lon="-4.96657207144235">
+<name>EF157</name>
+</rtept>
+<rtept lat="57.6772005914717" lon="-4.96528614627184">
+<ele>899.868833123263</ele>
+<name>EF158</name>
+</rtept>
+<rtept lat="57.6759859120751" lon="-4.96396391861833">
+<ele>857.734180589906</ele>
+<name>EF159</name>
+</rtept>
+<rtept lat="57.6755825966842" lon="-4.96391588184291">
+<ele>848.703572151516</ele>
+<name>EF160</name>
+</rtept>
+<rtept lat="57.673604802223" lon="-4.96056209264962">
+<name>EF161</name>
+</rtept>
+<rtept lat="57.6727256550151" lon="-4.95803458493569">
+<name>EF162</name>
+</rtept>
+<rtept lat="57.671844107881" lon="-4.95560765239822">
+<name>EF163</name>
+</rtept>
+<rtept lat="57.6708805609251" lon="-4.95391892148147">
+<name>EF164</name>
+</rtept>
+<rtept lat="57.6693959118472" lon="-4.95314563546581">
+<ele>839.516514819572</ele>
+<name>EF165</name>
+</rtept>
+<rtept lat="57.6687619795013" lon="-4.95292801578099">
+<ele>853.514853849972</ele>
+<name>EF166</name>
+</rtept>
+<rtept lat="57.6676615253243" lon="-4.95294416979345">
+<ele>868.25781640363</ele>
+<name>EF167</name>
+</rtept>
+<rtept lat="57.6675720519493" lon="-4.95227271469102">
+<ele>883.155168252594</ele>
+<name>EF168</name>
+</rtept>
+<rtept lat="57.6676037691473" lon="-4.94918083074454">
+<ele>914.539414200844</ele>
+<name>EF169</name>
+</rtept>
+<rtept lat="57.6677072967729" lon="-4.94994398986962">
+<ele>920.634568405208</ele>
+<name>EF170</name>
+</rtept>
+<rtept lat="57.6690732466718" lon="-4.94956522743437">
+<name>EF171</name>
+</rtept>
+<rtept lat="57.669807131187" lon="-4.94908140713075">
+<name>EF172</name>
+</rtept>
+<rtept lat="57.6703066500107" lon="-4.94878148282545">
+<ele>882.954636801549</ele>
+<name>EF173</name>
+</rtept>
+<rtept lat="57.6709019589796" lon="-4.94961485062068">
+<ele>861.735829744187</ele>
+<name>EF174</name>
+</rtept>
+<rtept lat="57.6717416011446" lon="-4.94968308031737">
+<ele>835.108497671581</ele>
+<name>EF175</name>
+</rtept>
+<rtept lat="57.6722731581665" lon="-4.949704476184">
+<name>EF176</name>
+</rtept>
+<rtept lat="57.672988055848" lon="-4.95034297042308">
+<ele>779.901919796165</ele>
+<name>EF177</name>
+</rtept>
+<rtept lat="57.6740366665139" lon="-4.95039131020087">
+<name>EF178</name>
+</rtept>
+<rtept lat="57.674247855096" lon="-4.95077752683804">
+<ele>725.467339449116</ele>
+<name>EF179</name>
+</rtept>
+<rtept lat="57.6746478864884" lon="-4.95100465092401">
+<name>EF180</name>
+</rtept>
+<rtept lat="57.6749792231839" lon="-4.95159525089404">
+<name>EF181</name>
+</rtept>
+<rtept lat="57.6755548839406" lon="-4.95188363991134">
+<name>EF182</name>
+</rtept>
+<rtept lat="57.6764395841724" lon="-4.95183144930706">
+<ele>632.849415223722</ele>
+<name>EF183</name>
+</rtept>
+<rtept lat="57.6771645213998" lon="-4.94992085016407">
+<name>EF184</name>
+</rtept>
+<rtept lat="57.677614792193" lon="-4.94911190185569">
+<name>EF185</name>
+</rtept>
+<rtept lat="57.6783903281092" lon="-4.94869174624675">
+<name>EF186</name>
+</rtept>
+<rtept lat="57.6785705277166" lon="-4.9483641334794">
+<name>EF187</name>
+</rtept>
+<rtept lat="57.680542827668" lon="-4.94703449162467">
+<name>EF188</name>
+</rtept>
+<rtept lat="57.6839526668816" lon="-4.94634158854202">
+<ele>576.560953740487</ele>
+<name>EF189</name>
+</rtept>
+<rtept lat="57.6844747506724" lon="-4.94584367925496">
+<name>EF190</name>
+</rtept>
+<rtept lat="57.6859787700784" lon="-4.94478444505012">
+<ele>560.571775629602</ele>
+<name>EF191</name>
+</rtept>
+<rtept lat="57.689564015813" lon="-4.94033619627647">
+<name>EF192</name>
+</rtept>
+<rtept lat="57.6907939155398" lon="-4.93846223792202">
+<name>EF193</name>
+</rtept>
+<rtept lat="57.6912694808698" lon="-4.93710273358282">
+<ele>502.68198268869</ele>
+<name>EF194</name>
+</rtept>
+<rtept lat="57.6929947260873" lon="-4.93665333434542">
+<ele>467.150570407606</ele>
+<name>EF195</name>
+</rtept>
+<rtept lat="57.6945360280414" lon="-4.93611347226456">
+<ele>433.279162284157</ele>
+<name>EF196</name>
+</rtept>
+<rtept lat="57.6957146920792" lon="-4.9351665474908">
+<ele>410.153198434327</ele>
+<name>EF197</name>
+</rtept>
+<rtept lat="57.6964072421187" lon="-4.93495067860284">
+<ele>398.113626770676</ele>
+<name>EF198</name>
+</rtept>
+<rtept lat="57.6972138145783" lon="-4.93400377797221">
+<ele>390.727851141049</ele>
+<name>EF199</name>
+</rtept>
+<rtept lat="57.6975357077828" lon="-4.93407514449582">
+<ele>390.979019148336</ele>
+<name>EF200</name>
+</rtept>
+<rtept lat="57.6983155274639" lon="-4.93129633663827">
+<name>EF201</name>
+</rtept>
+<rtept lat="57.6985995027374" lon="-4.93021139235566">
+<name>EF202</name>
+</rtept>
+<rtept lat="57.6989747083237" lon="-4.92891221895567">
+<name>EF203</name>
+</rtept>
+<rtept lat="57.6996527588958" lon="-4.92788591065995">
+<ele>375.559623823996</ele>
+<name>EF204</name>
+</rtept>
+<rtept lat="57.7002032452857" lon="-4.92522428958072">
+<name>EF205</name>
+</rtept>
+<rtept lat="57.7006318345643" lon="-4.92441278847197">
+<name>EF206</name>
+</rtept>
+<rtept lat="57.7005900949263" lon="-4.92388565966365">
+<name>EF207</name>
+</rtept>
+<rtept lat="57.7008036826558" lon="-4.92210999531639">
+<name>EF208</name>
+</rtept>
+<rtept lat="57.7016918058802" lon="-4.92101314627745">
+<name>EF209</name>
+</rtept>
+<rtept lat="57.7029687570646" lon="-4.91942376445219">
+<name>EF210</name>
+</rtept>
+<rtept lat="57.7038867370938" lon="-4.91796655346068">
+<name>EF211</name>
+</rtept>
+<rtept lat="57.7042044847098" lon="-4.91775036849432">
+<name>EF212</name>
+</rtept>
+<rtept lat="57.7047489192441" lon="-4.9161219891058">
+<name>EF213</name>
+</rtept>
+<rtept lat="57.7052557970153" lon="-4.91612246821245">
+<name>EF214</name>
+</rtept>
+<rtept lat="57.7053617381024" lon="-4.91480126914007">
+<name>EF215</name>
+</rtept>
+<rtept lat="57.705725672846" lon="-4.91398433725074">
+<name>EF216</name>
+</rtept>
+<rtept lat="57.7065218142001" lon="-4.91406848331314">
+<name>EF217</name>
+</rtept>
+<rtept lat="57.7069959404474" lon="-4.91221266904765">
+<name>EF218</name>
+</rtept>
+<rtept lat="57.7075820996448" lon="-4.91111129675763">
+<name>EF219</name>
+</rtept>
+<rtept lat="57.707856065641" lon="-4.90998482665887">
+<name>EF220</name>
+</rtept>
+<rtept lat="57.7090505930895" lon="-4.90869042508301">
+<name>EF221</name>
+</rtept>
+<rtept lat="57.7105811332193" lon="-4.90732214304732">
+<name>EF222</name>
+</rtept>
+<rtept lat="57.7112387214869" lon="-4.90733459116948">
+<name>EF223</name>
+</rtept>
+<rtept lat="57.7122814028157" lon="-4.90701521297818">
+<name>EF224</name>
+</rtept>
+<rtept lat="57.7129102556566" lon="-4.90640065809706">
+<name>EF225</name>
+</rtept>
+<rtept lat="57.7138785038109" lon="-4.90603496722647">
+<name>EF226</name>
+</rtept>
+<rtept lat="57.7150467228533" lon="-4.90165477457023">
+<name>EF227</name>
+</rtept>
+<rtept lat="57.7152935434913" lon="-4.90076766630965">
+<name>EF228</name>
+</rtept>
+<rtept lat="57.7152494017498" lon="-4.90034092668932">
+<name>EF229</name>
+</rtept>
+<rtept lat="57.7158009911286" lon="-4.89838993004931">
+<name>EF230</name>
+</rtept>
+<rtept lat="57.7161466871976" lon="-4.89789359831702">
+<name>EF231</name>
+</rtept>
+<rtept lat="57.716495433528" lon="-4.8967929009395">
+<name>EF232</name>
+</rtept>
+<rtept lat="57.7176652550781" lon="-4.89610041641126">
+<name>EF233</name>
+</rtept>
+<rtept lat="57.717859873518" lon="-4.89466487723303">
+<name>EF234</name>
+</rtept>
+<rtept lat="57.7181597343217" lon="-4.89428574747959">
+<name>EF235</name>
+</rtept>
+<rtept lat="57.7184943725068" lon="-4.89427216894968">
+<name>EF236</name>
+</rtept>
+<rtept lat="57.7186641308786" lon="-4.89392294752981">
+<name>EF237</name>
+</rtept>
+<rtept lat="57.7189798147083" lon="-4.89332336548706">
+<name>EF238</name>
+</rtept>
+<rtept lat="57.7195941593189" lon="-4.89286854806494">
+<name>EF239</name>
+</rtept>
+<rtept lat="57.7200956041158" lon="-4.892162838929">
+<name>EF240</name>
+</rtept>
+<rtept lat="57.7206679439312" lon="-4.88976969692475">
+<name>EF241</name>
+</rtept>
+<rtept lat="57.7215147136725" lon="-4.88999848611363">
+<name>EF242</name>
+</rtept>
+<rtept lat="57.7223934400724" lon="-4.89166095314458">
+<name>EF243</name>
+</rtept>
+<rtept lat="57.7226055992612" lon="-4.89087161943562">
+<name>EF244</name>
+</rtept>
+<rtept lat="57.7232133062086" lon="-4.8902347744093">
+<name>EF245</name>
+</rtept>
+<rtept lat="57.7235508969525" lon="-4.89056406633621">
+<name>EF246</name>
+</rtept>
+<rtept lat="57.7245065380535" lon="-4.89263593873776">
+<name>EF247</name>
+</rtept>
+<rtept lat="57.7249044801228" lon="-4.89409893303577">
+<name>EF248</name>
+</rtept>
+<rtept lat="57.7249044801228" lon="-4.89409893303577">
+<name>EF249</name>
+</rtept>
+</rte>
+</gpx>

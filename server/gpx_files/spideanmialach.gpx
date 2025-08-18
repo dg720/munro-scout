@@ -1,0 +1,694 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="Walkhighlands">
+<metadata>
+	<desc>GPX file from Walkhighlands; file is copyright Walkhighlands and must not be publicly shared on other websites. Do not remove this notice.</desc>
+	<copyright author="Walkhighlands"><year>2019</year></copyright>
+</metadata>
+<rte>
+<name>Gleouraich and Spidean Mialach</name>
+<rtept lat="57.07566099678" lon="-5.25323341300217">
+<ele>216.992396128848</ele>
+<name>SM-G001</name>
+</rtept>
+<rtept lat="57.075634" lon="-5.25303">
+<ele>223</ele>
+<name>SM-G003</name>
+</rtept>
+<rtept lat="57.075168" lon="-5.252114">
+<ele>222</ele>
+<name>SM-G004</name>
+</rtept>
+<rtept lat="57.074353" lon="-5.250861">
+<ele>218</ele>
+<name>SM-G005</name>
+</rtept>
+<rtept lat="57.073923" lon="-5.248926">
+<ele>210</ele>
+<name>SM-G006</name>
+</rtept>
+<rtept lat="57.073911" lon="-5.247831">
+<ele>207</ele>
+<name>SM-G007</name>
+</rtept>
+<rtept lat="57.074228" lon="-5.247741">
+<ele>221</ele>
+<name>SM-G008</name>
+</rtept>
+<rtept lat="57.074376" lon="-5.24719">
+<ele>227</ele>
+<name>SM-G009</name>
+</rtept>
+<rtept lat="57.074578" lon="-5.244399">
+<ele>252</ele>
+<name>SM-G010</name>
+</rtept>
+<rtept lat="57.074907" lon="-5.242112">
+<ele>289</ele>
+<name>SM-G011</name>
+</rtept>
+<rtept lat="57.075026" lon="-5.24169">
+<ele>295</ele>
+<name>SM-G012</name>
+</rtept>
+<rtept lat="57.075306" lon="-5.241736">
+<ele>305</ele>
+<name>SM-G013</name>
+</rtept>
+<rtept lat="57.075626" lon="-5.239733">
+<ele>333</ele>
+<name>SM-G014</name>
+</rtept>
+<rtept lat="57.075795" lon="-5.239742">
+<ele>337</ele>
+<name>SM-G015</name>
+</rtept>
+<rtept lat="57.075982" lon="-5.239262">
+<ele>349</ele>
+<name>SM-G016</name>
+</rtept>
+<rtept lat="57.076389" lon="-5.239261">
+<ele>358</ele>
+<name>SM-G017</name>
+</rtept>
+<rtept lat="57.076814" lon="-5.238768">
+<ele>375</ele>
+<name>SM-G018</name>
+</rtept>
+<rtept lat="57.078118" lon="-5.236634">
+<ele>413</ele>
+<name>SM-G019</name>
+</rtept>
+<rtept lat="57.078935" lon="-5.23476">
+<ele>430</ele>
+<name>SM-G020</name>
+</rtept>
+<rtept lat="57.079078" lon="-5.234211">
+<ele>431</ele>
+<name>SM-G021</name>
+</rtept>
+<rtept lat="57.079082" lon="-5.233511">
+<ele>432</ele>
+<name>SM-G022</name>
+</rtept>
+<rtept lat="57.079462" lon="-5.232085">
+<ele>438</ele>
+<name>SM-G023</name>
+</rtept>
+<rtept lat="57.079419" lon="-5.231547">
+<ele>439</ele>
+<name>SM-G024</name>
+</rtept>
+<rtept lat="57.079813" lon="-5.231101">
+<ele>443</ele>
+<name>SM-G025</name>
+</rtept>
+<rtept lat="57.080285" lon="-5.229708">
+<ele>445</ele>
+<name>SM-G026</name>
+</rtept>
+<rtept lat="57.080593" lon="-5.227844">
+<ele>437</ele>
+<name>SM-G027</name>
+</rtept>
+<rtept lat="57.080614" lon="-5.226693">
+<ele>431</ele>
+<name>SM-G028</name>
+</rtept>
+<rtept lat="57.080979" lon="-5.226081">
+<ele>428</ele>
+<name>SM-G029</name>
+</rtept>
+<rtept lat="57.081232" lon="-5.225289">
+<ele>435</ele>
+<name>SM-G030</name>
+</rtept>
+<rtept lat="57.08181" lon="-5.221924">
+<ele>460</ele>
+<name>SM-G031</name>
+</rtept>
+<rtept lat="57.082073" lon="-5.221363">
+<ele>467</ele>
+<name>SM-G032</name>
+</rtept>
+<rtept lat="57.082545" lon="-5.220853">
+<ele>471</ele>
+<name>SM-G033</name>
+</rtept>
+<rtept lat="57.082877" lon="-5.219882">
+<ele>489</ele>
+<name>SM-G034</name>
+</rtept>
+<rtept lat="57.083066" lon="-5.218631">
+<ele>502</ele>
+<name>SM-G035</name>
+</rtept>
+<rtept lat="57.083126" lon="-5.216739">
+<ele>528</ele>
+<name>SM-G036</name>
+</rtept>
+<rtept lat="57.082987" lon="-5.214581">
+<ele>561</ele>
+<name>SM-G037</name>
+</rtept>
+<rtept lat="57.083208" lon="-5.21378">
+<ele>569</ele>
+<name>SM-G038</name>
+</rtept>
+<rtept lat="57.083722" lon="-5.213002">
+<ele>581</ele>
+<name>SM-G039</name>
+</rtept>
+<rtept lat="57.083783" lon="-5.2114">
+<ele>597</ele>
+<name>SM-G040</name>
+</rtept>
+<rtept lat="57.084491" lon="-5.21039">
+<ele>626</ele>
+<name>SM-G041</name>
+</rtept>
+<rtept lat="57.084735" lon="-5.20901">
+<ele>646</ele>
+<name>SM-G042</name>
+</rtept>
+<rtept lat="57.085711" lon="-5.206686">
+<ele>728</ele>
+<name>SM-G043</name>
+</rtept>
+<rtept lat="57.086066" lon="-5.205357">
+<ele>775</ele>
+<name>SM-G044</name>
+</rtept>
+<rtept lat="57.086388" lon="-5.204843">
+<ele>807</ele>
+<name>SM-G045</name>
+</rtept>
+<rtept lat="57.086995" lon="-5.20441">
+<ele>844</ele>
+<name>SM-G046</name>
+</rtept>
+<rtept lat="57.087069" lon="-5.203229">
+<ele>870</ele>
+<name>SM-G047</name>
+</rtept>
+<rtept lat="57.087456" lon="-5.202436">
+<ele>893</ele>
+<name>SM-G048</name>
+</rtept>
+<rtept lat="57.08836" lon="-5.197386">
+<ele>945</ele>
+<name>SM-G049</name>
+</rtept>
+<rtept lat="57.088382" lon="-5.196546">
+<ele>948</ele>
+<name>SM-G050</name>
+</rtept>
+<rtept lat="57.08876" lon="-5.195903">
+<ele>965</ele>
+<name>SM-G051</name>
+</rtept>
+<rtept lat="57.088945" lon="-5.193566">
+<ele>1000</ele>
+<name>SM-G052</name>
+</rtept>
+<rtept lat="57.088753" lon="-5.195654">
+<ele>975</ele>
+<name>SM-G053</name>
+</rtept>
+<rtept lat="57.089019" lon="-5.197444">
+<ele>962</ele>
+<name>SM-G054</name>
+</rtept>
+<rtept lat="57.088943" lon="-5.197858">
+<ele>964</ele>
+<name>SM-G055</name>
+</rtept>
+<rtept lat="57.089048" lon="-5.198543">
+<ele>966</ele>
+<name>SM-G056</name>
+</rtept>
+<rtept lat="57.089202" lon="-5.19903">
+<ele>968</ele>
+<name>SM-G057</name>
+</rtept>
+<rtept lat="57.08978" lon="-5.1998">
+<ele>979</ele>
+<name>SM-G058</name>
+</rtept>
+<rtept lat="57.090899" lon="-5.200744">
+<ele>973</ele>
+<name>SM-G059</name>
+</rtept>
+<rtept lat="57.090849" lon="-5.202023">
+<ele>957</ele>
+<name>SM-G060</name>
+</rtept>
+<rtept lat="57.091052" lon="-5.203317">
+<ele>929</ele>
+<name>SM-G061</name>
+</rtept>
+<rtept lat="57.091851" lon="-5.204563">
+<ele>923</ele>
+<name>SM-G062</name>
+</rtept>
+<rtept lat="57.091931" lon="-5.204931">
+<ele>917</ele>
+<name>SM-G063</name>
+</rtept>
+<rtept lat="57.091896" lon="-5.205919">
+<ele>901</ele>
+<name>SM-G064</name>
+</rtept>
+<rtept lat="57.09178" lon="-5.206282">
+<ele>897</ele>
+<name>SM-G065</name>
+</rtept>
+<rtept lat="57.091444" lon="-5.206634">
+<ele>887</ele>
+<name>SM-G066</name>
+</rtept>
+<rtept lat="57.091344" lon="-5.207059">
+<ele>874</ele>
+<name>SM-G067</name>
+</rtept>
+<rtept lat="57.091297" lon="-5.20765">
+<ele>861</ele>
+<name>SM-G068</name>
+</rtept>
+<rtept lat="57.09142" lon="-5.208489">
+<ele>837</ele>
+<name>SM-G069</name>
+</rtept>
+<rtept lat="57.091726" lon="-5.209599">
+<ele>802</ele>
+<name>SM-G070</name>
+</rtept>
+<rtept lat="57.091875" lon="-5.209688">
+<ele>797</ele>
+<name>SM-G071</name>
+</rtept>
+<rtept lat="57.091958" lon="-5.210269">
+<ele>780</ele>
+<name>SM-G072</name>
+</rtept>
+<rtept lat="57.092375" lon="-5.211214">
+<ele>753</ele>
+<name>SM-G073</name>
+</rtept>
+<rtept lat="57.092851" lon="-5.211908">
+<ele>746</ele>
+<name>SM-G074</name>
+</rtept>
+<rtept lat="57.093684" lon="-5.21364">
+<ele>767</ele>
+<name>SM-G075</name>
+</rtept>
+<rtept lat="57.094004" lon="-5.213766">
+<ele>773</ele>
+<name>SM-G076</name>
+</rtept>
+<rtept lat="57.093934" lon="-5.214036">
+<ele>785</ele>
+<name>SM-G077</name>
+</rtept>
+<rtept lat="57.09407" lon="-5.214234">
+<ele>792</ele>
+<name>SM-G078</name>
+</rtept>
+<rtept lat="57.094147" lon="-5.215111">
+<ele>797</ele>
+<name>SM-G079</name>
+</rtept>
+<rtept lat="57.094384" lon="-5.215708">
+<ele>796</ele>
+<name>SM-G080</name>
+</rtept>
+<rtept lat="57.094966" lon="-5.218222">
+<ele>841</ele>
+<name>SM-G081</name>
+</rtept>
+<rtept lat="57.095021" lon="-5.219327">
+<ele>869</ele>
+<name>SM-G082</name>
+</rtept>
+<rtept lat="57.095172" lon="-5.219319">
+<ele>879</ele>
+<name>SM-G083</name>
+</rtept>
+<rtept lat="57.095407" lon="-5.219715">
+<ele>899</ele>
+<name>SM-G084</name>
+</rtept>
+<rtept lat="57.095336" lon="-5.220732">
+<ele>922</ele>
+<name>SM-G085</name>
+</rtept>
+<rtept lat="57.095739" lon="-5.220573">
+<ele>934</ele>
+<name>SM-G086</name>
+</rtept>
+<rtept lat="57.095833" lon="-5.220952">
+<ele>947</ele>
+<name>SM-G087</name>
+</rtept>
+<rtept lat="57.095664" lon="-5.222244">
+<ele>962</ele>
+<name>SM-G088</name>
+</rtept>
+<rtept lat="57.095341" lon="-5.22326">
+<ele>975</ele>
+<name>SM-G089</name>
+</rtept>
+<rtept lat="57.095585" lon="-5.223396">
+<ele>984</ele>
+<name>SM-G090</name>
+</rtept>
+<rtept lat="57.095627" lon="-5.224416">
+<ele>1006</ele>
+<name>SM-G091</name>
+</rtept>
+<rtept lat="57.095083" lon="-5.226009">
+<ele>1009</ele>
+<name>SM-G092</name>
+</rtept>
+<rtept lat="57.095011" lon="-5.226726">
+<ele>1004</ele>
+<name>SM-G093</name>
+</rtept>
+<rtept lat="57.095152" lon="-5.227749">
+<ele>992</ele>
+<name>SM-G094</name>
+</rtept>
+<rtept lat="57.094917" lon="-5.228372">
+<ele>977</ele>
+<name>SM-G095</name>
+</rtept>
+<rtept lat="57.094884" lon="-5.229627">
+<ele>961</ele>
+<name>SM-G096</name>
+</rtept>
+<rtept lat="57.095135" lon="-5.231175">
+<ele>956</ele>
+<name>SM-G097</name>
+</rtept>
+<rtept lat="57.095604" lon="-5.232146">
+<ele>976</ele>
+<name>SM-G098</name>
+</rtept>
+<rtept lat="57.095805" lon="-5.236051">
+<ele>998</ele>
+<name>SM-G099</name>
+</rtept>
+<rtept lat="57.09666" lon="-5.23784">
+<ele>1031</ele>
+<name>SM-G100</name>
+</rtept>
+<rtept lat="57.097194" lon="-5.238075">
+<ele>1038</ele>
+<name>SM-G101</name>
+</rtept>
+<rtept lat="57.097518" lon="-5.240472">
+<ele>1004</ele>
+<name>SM-G102</name>
+</rtept>
+<rtept lat="57.098269" lon="-5.242894">
+<ele>985</ele>
+<name>SM-G103</name>
+</rtept>
+<rtept lat="57.097873" lon="-5.243582">
+<ele>960</ele>
+<name>SM-G104</name>
+</rtept>
+<rtept lat="57.097633" lon="-5.244402">
+<ele>935</ele>
+<name>SM-G105</name>
+</rtept>
+<rtept lat="57.097718" lon="-5.245228">
+<ele>917</ele>
+<name>SM-G106</name>
+</rtept>
+<rtept lat="57.097422" lon="-5.245883">
+<ele>900</ele>
+<name>SM-G107</name>
+</rtept>
+<rtept lat="57.096494" lon="-5.246508">
+<ele>843</ele>
+<name>SM-G108</name>
+</rtept>
+<rtept lat="57.096508" lon="-5.248069">
+<ele>835</ele>
+<name>SM-G109</name>
+</rtept>
+<rtept lat="57.096137" lon="-5.249372">
+<ele>825</ele>
+<name>SM-G110</name>
+</rtept>
+<rtept lat="57.095908" lon="-5.250734">
+<ele>819</ele>
+<name>SM-G111</name>
+</rtept>
+<rtept lat="57.095931" lon="-5.251426">
+<ele>819</ele>
+<name>SM-G112</name>
+</rtept>
+<rtept lat="57.095729" lon="-5.251884">
+<ele>822</ele>
+<name>SM-G113</name>
+</rtept>
+<rtept lat="57.094837" lon="-5.252787">
+<ele>818</ele>
+<name>SM-G114</name>
+</rtept>
+<rtept lat="57.092364" lon="-5.254125">
+<ele>826</ele>
+<name>SM-G115</name>
+</rtept>
+<rtept lat="57.091562" lon="-5.254804">
+<ele>815</ele>
+<name>SM-G116</name>
+</rtept>
+<rtept lat="57.09138" lon="-5.254572">
+<ele>811</ele>
+<name>SM-G117</name>
+</rtept>
+<rtept lat="57.091293" lon="-5.254782">
+<ele>807</ele>
+<name>SM-G118</name>
+</rtept>
+<rtept lat="57.090611" lon="-5.25459">
+<ele>787</ele>
+<name>SM-G119</name>
+</rtept>
+<rtept lat="57.090549" lon="-5.254866">
+<ele>783</ele>
+<name>SM-G120</name>
+</rtept>
+<rtept lat="57.090427" lon="-5.254712">
+<ele>778</ele>
+<name>SM-G121</name>
+</rtept>
+<rtept lat="57.088873" lon="-5.255375">
+<ele>737</ele>
+<name>SM-G122</name>
+</rtept>
+<rtept lat="57.088033" lon="-5.255416">
+<ele>723</ele>
+<name>SM-G123</name>
+</rtept>
+<rtept lat="57.087706" lon="-5.255846">
+<ele>716</ele>
+<name>SM-G124</name>
+</rtept>
+<rtept lat="57.087496" lon="-5.255857">
+<ele>715</ele>
+<name>SM-G125</name>
+</rtept>
+<rtept lat="57.087118" lon="-5.256687">
+<ele>688</ele>
+<name>SM-G126</name>
+</rtept>
+<rtept lat="57.086857" lon="-5.256436">
+<ele>686</ele>
+<name>SM-G127</name>
+</rtept>
+<rtept lat="57.086525" lon="-5.25681">
+<ele>681</ele>
+<name>SM-G128</name>
+</rtept>
+<rtept lat="57.08583" lon="-5.257131">
+<ele>673</ele>
+<name>SM-G129</name>
+</rtept>
+<rtept lat="57.085671" lon="-5.257036">
+<ele>670</ele>
+<name>SM-G130</name>
+</rtept>
+<rtept lat="57.085663" lon="-5.257404">
+<ele>661</ele>
+<name>SM-G131</name>
+</rtept>
+<rtept lat="57.085062" lon="-5.257365">
+<ele>645</ele>
+<name>SM-G132</name>
+</rtept>
+<rtept lat="57.085263" lon="-5.256601">
+<ele>643</ele>
+<name>SM-G133</name>
+</rtept>
+<rtept lat="57.085093" lon="-5.256675">
+<ele>633</ele>
+<name>SM-G134</name>
+</rtept>
+<rtept lat="57.085098" lon="-5.256109">
+<ele>622</ele>
+<name>SM-G135</name>
+</rtept>
+<rtept lat="57.085024" lon="-5.256111">
+<ele>622</ele>
+<name>SM-G136</name>
+</rtept>
+<rtept lat="57.08437" lon="-5.257083">
+<ele>599</ele>
+<name>SM-G137</name>
+</rtept>
+<rtept lat="57.08423" lon="-5.256956">
+<ele>591</ele>
+<name>SM-G138</name>
+</rtept>
+<rtept lat="57.083986" lon="-5.257579">
+<ele>580</ele>
+<name>SM-G139</name>
+</rtept>
+<rtept lat="57.083757" lon="-5.256844">
+<ele>573</ele>
+<name>SM-G140</name>
+</rtept>
+<rtept lat="57.082957" lon="-5.257009">
+<ele>553</ele>
+<name>SM-G141</name>
+</rtept>
+<rtept lat="57.082835" lon="-5.256432">
+<ele>550</ele>
+<name>SM-G142</name>
+</rtept>
+<rtept lat="57.082548" lon="-5.256273">
+<ele>534</ele>
+<name>SM-G143</name>
+</rtept>
+<rtept lat="57.082388" lon="-5.255813">
+<ele>522</ele>
+<name>SM-G144</name>
+</rtept>
+<rtept lat="57.082279" lon="-5.255816">
+<ele>518</ele>
+<name>SM-G145</name>
+</rtept>
+<rtept lat="57.08217" lon="-5.254653">
+<ele>505</ele>
+<name>SM-G146</name>
+</rtept>
+<rtept lat="57.081877" lon="-5.254661">
+<ele>494</ele>
+<name>SM-G147</name>
+</rtept>
+<rtept lat="57.081732" lon="-5.253988">
+<ele>483</ele>
+<name>SM-G148</name>
+</rtept>
+<rtept lat="57.081378" lon="-5.254362">
+<ele>470</ele>
+<name>SM-G149</name>
+</rtept>
+<rtept lat="57.081327" lon="-5.253398">
+<ele>457</ele>
+<name>SM-G150</name>
+</rtept>
+<rtept lat="57.080988" lon="-5.252218">
+<ele>436</ele>
+<name>SM-G151</name>
+</rtept>
+<rtept lat="57.080639" lon="-5.252409">
+<ele>425</ele>
+<name>SM-G152</name>
+</rtept>
+<rtept lat="57.08047" lon="-5.252054">
+<ele>416</ele>
+<name>SM-G153</name>
+</rtept>
+<rtept lat="57.080268" lon="-5.252117">
+<ele>408</ele>
+<name>SM-G154</name>
+</rtept>
+<rtept lat="57.080076" lon="-5.251873">
+<ele>392</ele>
+<name>SM-G155</name>
+</rtept>
+<rtept lat="57.08011" lon="-5.251445">
+<ele>390</ele>
+<name>SM-G156</name>
+</rtept>
+<rtept lat="57.079901" lon="-5.251646">
+<ele>383</ele>
+<name>SM-G157</name>
+</rtept>
+<rtept lat="57.079864" lon="-5.251337">
+<ele>376</ele>
+<name>SM-G158</name>
+</rtept>
+<rtept lat="57.079723" lon="-5.251464">
+<ele>374</ele>
+<name>SM-G159</name>
+</rtept>
+<rtept lat="57.079496" lon="-5.250818">
+<ele>357</ele>
+<name>SM-G160</name>
+</rtept>
+<rtept lat="57.079107" lon="-5.250807">
+<ele>344</ele>
+<name>SM-G161</name>
+</rtept>
+<rtept lat="57.078818" lon="-5.250334">
+<ele>330</ele>
+<name>SM-G162</name>
+</rtept>
+<rtept lat="57.0786" lon="-5.250551">
+<ele>325</ele>
+<name>SM-G163</name>
+</rtept>
+<rtept lat="57.078461" lon="-5.250418">
+<ele>320</ele>
+<name>SM-G164</name>
+</rtept>
+<rtept lat="57.078304" lon="-5.250718">
+<ele>318</ele>
+<name>SM-G165</name>
+</rtept>
+<rtept lat="57.078148" lon="-5.250582">
+<ele>308</ele>
+<name>SM-G166</name>
+</rtept>
+<rtept lat="57.07743" lon="-5.251151">
+<ele>284</ele>
+<name>SM-G167</name>
+</rtept>
+<rtept lat="57.077257" lon="-5.25148">
+<ele>276</ele>
+<name>SM-G168</name>
+</rtept>
+<rtept lat="57.076293" lon="-5.252125">
+<ele>255</ele>
+<name>SM-G169</name>
+</rtept>
+<rtept lat="57.075886" lon="-5.2529">
+<ele>245</ele>
+<name>SM-G170</name>
+</rtept>
+<rtept lat="57.075921" lon="-5.253052">
+<ele>241</ele>
+<name>SM-G171</name>
+</rtept>
+<rtept lat="57.075694" lon="-5.253223">
+<ele>228</ele>
+<name>SM-G172</name>
+</rtept>
+</rte>
+</gpx>

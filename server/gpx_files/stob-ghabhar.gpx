@@ -1,0 +1,786 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="Walkhighlands">
+<metadata>
+	<desc>GPX file from Walkhighlands; file is copyright Walkhighlands and must not be publicly shared on other websites. Do not remove this notice.</desc>
+	<copyright author="Walkhighlands"><year>2019</year></copyright>
+</metadata>
+<rte>
+<name>Stob Ghabhar and Stob a&#039;Choire Odhair</name>
+<rtept lat="56.540144" lon="-4.813797">
+<ele>178.645935</ele>
+<name>StGh001</name>
+</rtept>
+<rtept lat="56.540738" lon="-4.813961">
+<ele>179.423767</ele>
+<name>StGh002</name>
+</rtept>
+<rtept lat="56.54033" lon="-4.815847">
+<ele>173.647339</ele>
+<name>StGh003</name>
+</rtept>
+<rtept lat="56.540266" lon="-4.816948">
+<ele>166.623413</ele>
+<name>StGh004</name>
+</rtept>
+<rtept lat="56.539429" lon="-4.81898">
+<ele>157.754395</ele>
+<name>StGh005</name>
+</rtept>
+<rtept lat="56.539354" lon="-4.819538">
+<ele>161.102173</ele>
+<name>StGh006</name>
+</rtept>
+<rtept lat="56.5394185899681" lon="-4.82010095863817">
+<ele>171.258591121775</ele>
+<name>StGh007</name>
+</rtept>
+<rtept lat="56.539146" lon="-4.820843">
+<ele>153.23761</ele>
+<name>StGh008</name>
+</rtept>
+<rtept lat="56.539167" lon="-4.821282">
+<ele>151.144958</ele>
+<name>StGh009</name>
+</rtept>
+<rtept lat="56.539628" lon="-4.82237">
+<ele>171.951111</ele>
+<name>StGh010</name>
+</rtept>
+<rtept lat="56.540168" lon="-4.822754">
+<ele>182.753235</ele>
+<name>StGh011</name>
+</rtept>
+<rtept lat="56.5414468680458" lon="-4.82424547769286">
+<ele>176.82202262407</ele>
+<name>StGh012</name>
+</rtept>
+<rtept lat="56.5417687659284" lon="-4.82484649191146">
+<ele>177.267968044192</ele>
+<name>StGh013</name>
+</rtept>
+<rtept lat="56.541786" lon="-4.827635">
+<ele>177.162781</ele>
+<name>StGh014</name>
+</rtept>
+<rtept lat="56.541218" lon="-4.829833">
+<ele>174.380005</ele>
+<name>StGh015</name>
+</rtept>
+<rtept lat="56.541251" lon="-4.830412">
+<ele>178.839905</ele>
+<name>StGh016</name>
+</rtept>
+<rtept lat="56.541476" lon="-4.831186">
+<ele>184.531006</ele>
+<name>StGh017</name>
+</rtept>
+<rtept lat="56.5414261188852" lon="-4.83362824405191">
+<ele>180.137774439004</ele>
+<name>StGh018</name>
+</rtept>
+<rtept lat="56.541556" lon="-4.835403">
+<ele>178.935791</ele>
+<name>StGh019</name>
+</rtept>
+<rtept lat="56.541783" lon="-4.83651">
+<ele>185.124878</ele>
+<name>StGh020</name>
+</rtept>
+<rtept lat="56.541855" lon="-4.837903">
+<ele>183.984009</ele>
+<name>StGh021</name>
+</rtept>
+<rtept lat="56.54202" lon="-4.837914">
+<ele>184.822266</ele>
+<name>StGh022</name>
+</rtept>
+<rtept lat="56.543086" lon="-4.83926">
+<ele>199.169067</ele>
+<name>StGh023</name>
+</rtept>
+<rtept lat="56.543333" lon="-4.839241">
+<ele>200.762207</ele>
+<name>StGh024</name>
+</rtept>
+<rtept lat="56.54416" lon="-4.839826">
+<ele>202.329651</ele>
+<name>StGh025</name>
+</rtept>
+<rtept lat="56.544808" lon="-4.839456">
+<ele>209.319092</ele>
+<name>StGh026</name>
+</rtept>
+<rtept lat="56.545872" lon="-4.83996">
+<ele>211.274475</ele>
+<name>StGh027</name>
+</rtept>
+<rtept lat="56.546154" lon="-4.840661">
+<ele>207.567017</ele>
+<name>StGh028</name>
+</rtept>
+<rtept lat="56.54627" lon="-4.841624">
+<ele>212.683472</ele>
+<name>StGh029</name>
+</rtept>
+<rtept lat="56.546675" lon="-4.842199">
+<ele>218.942017</ele>
+<name>StGh030</name>
+</rtept>
+<rtept lat="56.551905" lon="-4.844612">
+<ele>268.19812</ele>
+<name>StGh031</name>
+</rtept>
+<rtept lat="56.553021" lon="-4.845576">
+<ele>285.485229</ele>
+<name>StGh032</name>
+</rtept>
+<rtept lat="56.554655" lon="-4.846602">
+<ele>309.344971</ele>
+<name>StGh033</name>
+</rtept>
+<rtept lat="56.556826" lon="-4.845777">
+<ele>332.91333</ele>
+<name>StGh034</name>
+</rtept>
+<rtept lat="56.559449" lon="-4.844368">
+<ele>394.194397</ele>
+<name>StGh035</name>
+</rtept>
+<rtept lat="56.560858" lon="-4.844176">
+<ele>412.312561</ele>
+<name>StGh036</name>
+</rtept>
+<rtept lat="56.561799" lon="-4.843537">
+<ele>449.123901</ele>
+<name>StGh037</name>
+</rtept>
+<rtept lat="56.561904" lon="-4.842971">
+<ele>469.261475</ele>
+<name>StGh038</name>
+</rtept>
+<rtept lat="56.562177" lon="-4.842623">
+<ele>475.293457</ele>
+<name>StGh039</name>
+</rtept>
+<rtept lat="56.563102" lon="-4.842233">
+<ele>514.436646</ele>
+<name>StGh040</name>
+</rtept>
+<rtept lat="56.56343" lon="-4.842291">
+<ele>530.381836</ele>
+<name>StGh041</name>
+</rtept>
+<rtept lat="56.563791" lon="-4.842073">
+<ele>552.61145</ele>
+<name>StGh042</name>
+</rtept>
+<rtept lat="56.564031" lon="-4.842184">
+<ele>568.424072</ele>
+<name>StGh043</name>
+</rtept>
+<rtept lat="56.564733" lon="-4.841415">
+<ele>588.720581</ele>
+<name>StGh044</name>
+</rtept>
+<rtept lat="56.5647" lon="-4.842153">
+<ele>614.994873</ele>
+<name>StGh045</name>
+</rtept>
+<rtept lat="56.565058" lon="-4.842492">
+<ele>626.663818</ele>
+<name>StGh046</name>
+</rtept>
+<rtept lat="56.565088" lon="-4.842056">
+<ele>638.960693</ele>
+<name>StGh047</name>
+</rtept>
+<rtept lat="56.565213" lon="-4.841869">
+<ele>647.375488</ele>
+<name>StGh048</name>
+</rtept>
+<rtept lat="56.565334" lon="-4.842085">
+<ele>650.541748</ele>
+<name>StGh049</name>
+</rtept>
+<rtept lat="56.565667" lon="-4.84166">
+<ele>654.023804</ele>
+<name>StGh050</name>
+</rtept>
+<rtept lat="56.565777" lon="-4.842237">
+<ele>683.181763</ele>
+<name>StGh051</name>
+</rtept>
+<rtept lat="56.565998" lon="-4.841798">
+<ele>689.02832</ele>
+<name>StGh052</name>
+</rtept>
+<rtept lat="56.566488" lon="-4.841758">
+<ele>709.771484</ele>
+<name>StGh053</name>
+</rtept>
+<rtept lat="56.566769" lon="-4.841427">
+<ele>728.940186</ele>
+<name>StGh054</name>
+</rtept>
+<rtept lat="56.566914" lon="-4.841939">
+<ele>728.448242</ele>
+<name>StGh055</name>
+</rtept>
+<rtept lat="56.56852" lon="-4.841718">
+<ele>776.971191</ele>
+<name>StGh056</name>
+</rtept>
+<rtept lat="56.568987" lon="-4.841977">
+<ele>787.868286</ele>
+<name>StGh057</name>
+</rtept>
+<rtept lat="56.569306" lon="-4.841857">
+<ele>793.394531</ele>
+<name>StGh058</name>
+</rtept>
+<rtept lat="56.569619" lon="-4.842037">
+<ele>810.948486</ele>
+<name>StGh059</name>
+</rtept>
+<rtept lat="56.570179" lon="-4.841908">
+<ele>827.411865</ele>
+<name>StGh060</name>
+</rtept>
+<rtept lat="56.570855" lon="-4.84135">
+<ele>849.02124</ele>
+<name>StGh061</name>
+</rtept>
+<rtept lat="56.571246" lon="-4.841448">
+<ele>870.196777</ele>
+<name>StGh062</name>
+</rtept>
+<rtept lat="56.5726" lon="-4.839966">
+<ele>915.056519</ele>
+<name>StGh063</name>
+</rtept>
+<rtept lat="56.573277" lon="-4.838899">
+<ele>934.841309</ele>
+<name>StGh064</name>
+</rtept>
+<rtept lat="56.57337" lon="-4.838366">
+<ele>941.648193</ele>
+<name>StGh065</name>
+</rtept>
+<rtept lat="56.572915" lon="-4.840084">
+<ele>920.622803</ele>
+<name>StGh066</name>
+</rtept>
+<rtept lat="56.572928" lon="-4.840909">
+<ele>914.134277</ele>
+<name>StGh067</name>
+</rtept>
+<rtept lat="56.572499" lon="-4.841784">
+<ele>895.04834</ele>
+<name>StGh068</name>
+</rtept>
+<rtept lat="56.572519" lon="-4.842803">
+<ele>887.49292</ele>
+<name>StGh069</name>
+</rtept>
+<rtept lat="56.572391" lon="-4.843778">
+<ele>871.208252</ele>
+<name>StGh070</name>
+</rtept>
+<rtept lat="56.57181" lon="-4.846249">
+<ele>848.076904</ele>
+<name>StGh071</name>
+</rtept>
+<rtept lat="56.5718" lon="-4.847716">
+<ele>832.637695</ele>
+<name>StGh072</name>
+</rtept>
+<rtept lat="56.571508" lon="-4.848198">
+<ele>810.553467</ele>
+<name>StGh073</name>
+</rtept>
+<rtept lat="56.571623" lon="-4.849031">
+<ele>802.258545</ele>
+<name>StGh074</name>
+</rtept>
+<rtept lat="56.571488" lon="-4.849711">
+<ele>780.458008</ele>
+<name>StGh075</name>
+</rtept>
+<rtept lat="56.571675" lon="-4.850691">
+<ele>761.17688</ele>
+<name>StGh076</name>
+</rtept>
+<rtept lat="56.571665" lon="-4.852141">
+<ele>731.36084</ele>
+<name>StGh077</name>
+</rtept>
+<rtept lat="56.571345" lon="-4.856108">
+<ele>695.317871</ele>
+<name>StGh078</name>
+</rtept>
+<rtept lat="56.571529" lon="-4.8564">
+<ele>701.734863</ele>
+<name>StGh079</name>
+</rtept>
+<rtept lat="56.571543" lon="-4.856997">
+<ele>691.008545</ele>
+<name>StGh080</name>
+</rtept>
+<rtept lat="56.571164" lon="-4.859882">
+<ele>667.432617</ele>
+<name>StGh081</name>
+</rtept>
+<rtept lat="56.570829" lon="-4.861028">
+<ele>668.085449</ele>
+<name>StGh082</name>
+</rtept>
+<rtept lat="56.570882" lon="-4.862577">
+<ele>684.308594</ele>
+<name>StGh083</name>
+</rtept>
+<rtept lat="56.571354" lon="-4.865043">
+<ele>709.884399</ele>
+<name>StGh084</name>
+</rtept>
+<rtept lat="56.571365" lon="-4.865861">
+<ele>716.771606</ele>
+<name>StGh085</name>
+</rtept>
+<rtept lat="56.571165" lon="-4.866318">
+<ele>719.513428</ele>
+<name>StGh086</name>
+</rtept>
+<rtept lat="56.571258" lon="-4.866912">
+<ele>735.668213</ele>
+<name>StGh087</name>
+</rtept>
+<rtept lat="56.57094" lon="-4.867583">
+<ele>743.210449</ele>
+<name>StGh088</name>
+</rtept>
+<rtept lat="56.570957" lon="-4.867863">
+<ele>747.049805</ele>
+<name>StGh089</name>
+</rtept>
+<rtept lat="56.570183" lon="-4.870658">
+<ele>799.027588</ele>
+<name>StGh090</name>
+</rtept>
+<rtept lat="56.569898" lon="-4.870486">
+<ele>818.471313</ele>
+<name>StGh091</name>
+</rtept>
+<rtept lat="56.569502" lon="-4.870725">
+<ele>835.920776</ele>
+<name>StGh092</name>
+</rtept>
+<rtept lat="56.5692" lon="-4.870506">
+<ele>847.763062</ele>
+<name>StGh093</name>
+</rtept>
+<rtept lat="56.568957" lon="-4.870921">
+<ele>867.814087</ele>
+<name>StGh094</name>
+</rtept>
+<rtept lat="56.568797" lon="-4.870852">
+<ele>872.216553</ele>
+<name>StGh095</name>
+</rtept>
+<rtept lat="56.568319" lon="-4.871344">
+<ele>904.505859</ele>
+<name>StGh096</name>
+</rtept>
+<rtept lat="56.567693" lon="-4.870789">
+<ele>957.078369</ele>
+<name>StGh097</name>
+</rtept>
+<rtept lat="56.567303" lon="-4.871279">
+<ele>975.922241</ele>
+<name>StGh098</name>
+</rtept>
+<rtept lat="56.566966" lon="-4.872601">
+<ele>995.865967</ele>
+<name>StGh099</name>
+</rtept>
+<rtept lat="56.56685" lon="-4.873602">
+<ele>999.893066</ele>
+<name>StGh100</name>
+</rtept>
+<rtept lat="56.566497" lon="-4.874391">
+<ele>996.738403</ele>
+<name>StGh101</name>
+</rtept>
+<rtept lat="56.566361" lon="-4.875229">
+<ele>1013.545532</ele>
+<name>StGh102</name>
+</rtept>
+<rtept lat="56.56604" lon="-4.87609">
+<ele>1016.435913</ele>
+<name>StGh103</name>
+</rtept>
+<rtept lat="56.565957" lon="-4.87752">
+<ele>1020.267944</ele>
+<name>StGh104</name>
+</rtept>
+<rtept lat="56.566081" lon="-4.879556">
+<ele>1020.448486</ele>
+<name>StGh105</name>
+</rtept>
+<rtept lat="56.566215" lon="-4.880107">
+<ele>1021.713013</ele>
+<name>StGh106</name>
+</rtept>
+<rtept lat="56.566453" lon="-4.880484">
+<ele>1032.119873</ele>
+<name>StGh107</name>
+</rtept>
+<rtept lat="56.566702" lon="-4.880483">
+<ele>1043.569458</ele>
+<name>StGh108</name>
+</rtept>
+<rtept lat="56.5676264067398" lon="-4.88137270597547">
+<ele>1051.77411358969</ele>
+<name>StGh109</name>
+</rtept>
+<rtept lat="56.568033" lon="-4.882007">
+<ele>1086.290894</ele>
+<name>StGh110</name>
+</rtept>
+<rtept lat="56.567661" lon="-4.881399">
+<ele>1075.623901</ele>
+<name>StGh111</name>
+</rtept>
+<rtept lat="56.566673" lon="-4.88047">
+<ele>1034.759521</ele>
+<name>StGh112</name>
+</rtept>
+<rtept lat="56.566426" lon="-4.880407">
+<ele>1025.856567</ele>
+<name>StGh113</name>
+</rtept>
+<rtept lat="56.566082" lon="-4.879771">
+<ele>1016.315552</ele>
+<name>StGh114</name>
+</rtept>
+<rtept lat="56.565992" lon="-4.878031">
+<ele>1021.264893</ele>
+<name>StGh115</name>
+</rtept>
+<rtept lat="56.565821" lon="-4.877554">
+<ele>1016.713379</ele>
+<name>StGh116</name>
+</rtept>
+<rtept lat="56.565186" lon="-4.877338">
+<ele>989.934937</ele>
+<name>StGh117</name>
+</rtept>
+<rtept lat="56.564799" lon="-4.877466">
+<ele>975.165527</ele>
+<name>StGh118</name>
+</rtept>
+<rtept lat="56.563388" lon="-4.875505">
+<ele>925.216064</ele>
+<name>StGh119</name>
+</rtept>
+<rtept lat="56.562839" lon="-4.874437">
+<ele>930.458252</ele>
+<name>StGh120</name>
+</rtept>
+<rtept lat="56.562134" lon="-4.874035">
+<ele>914.779785</ele>
+<name>StGh121</name>
+</rtept>
+<rtept lat="56.56189" lon="-4.87411">
+<ele>915.377197</ele>
+<name>StGh122</name>
+</rtept>
+<rtept lat="56.561691" lon="-4.873843">
+<ele>905.356689</ele>
+<name>StGh123</name>
+</rtept>
+<rtept lat="56.561652" lon="-4.873582">
+<ele>901.835205</ele>
+<name>StGh124</name>
+</rtept>
+<rtept lat="56.5613" lon="-4.873162">
+<ele>885.05603</ele>
+<name>StGh125</name>
+</rtept>
+<rtept lat="56.561249" lon="-4.872863">
+<ele>874.476807</ele>
+<name>StGh126</name>
+</rtept>
+<rtept lat="56.560547" lon="-4.871701">
+<ele>843.867065</ele>
+<name>StGh127</name>
+</rtept>
+<rtept lat="56.560573" lon="-4.871557">
+<ele>835.015137</ele>
+<name>StGh128</name>
+</rtept>
+<rtept lat="56.559695" lon="-4.869614">
+<ele>785.946289</ele>
+<name>StGh129</name>
+</rtept>
+<rtept lat="56.559118" lon="-4.867306">
+<ele>730.380127</ele>
+<name>StGh130</name>
+</rtept>
+<rtept lat="56.559241" lon="-4.867079">
+<ele>723.077881</ele>
+<name>StGh131</name>
+</rtept>
+<rtept lat="56.558971" lon="-4.866204">
+<ele>704.100342</ele>
+<name>StGh132</name>
+</rtept>
+<rtept lat="56.559037" lon="-4.865654">
+<ele>685.674561</ele>
+<name>StGh133</name>
+</rtept>
+<rtept lat="56.558681" lon="-4.864661">
+<ele>668.43103</ele>
+<name>StGh134</name>
+</rtept>
+<rtept lat="56.55865" lon="-4.864065">
+<ele>652.279541</ele>
+<name>StGh135</name>
+</rtept>
+<rtept lat="56.558494" lon="-4.863943">
+<ele>645.517456</ele>
+<name>StGh136</name>
+</rtept>
+<rtept lat="56.558213" lon="-4.863208">
+<ele>637.304688</ele>
+<name>StGh137</name>
+</rtept>
+<rtept lat="56.55818" lon="-4.862761">
+<ele>633.523315</ele>
+<name>StGh138</name>
+</rtept>
+<rtept lat="56.558256" lon="-4.861098">
+<ele>590.173096</ele>
+<name>StGh139</name>
+</rtept>
+<rtept lat="56.558125" lon="-4.860408">
+<ele>576.698486</ele>
+<name>StGh140</name>
+</rtept>
+<rtept lat="56.558087" lon="-4.857537">
+<ele>551.356201</ele>
+<name>StGh141</name>
+</rtept>
+<rtept lat="56.558184" lon="-4.857293">
+<ele>551.526123</ele>
+<name>StGh142</name>
+</rtept>
+<rtept lat="56.558331" lon="-4.855561">
+<ele>522.13916</ele>
+<name>StGh143</name>
+</rtept>
+<rtept lat="56.558134" lon="-4.854278">
+<ele>500.817627</ele>
+<name>StGh144</name>
+</rtept>
+<rtept lat="56.558651" lon="-4.854096">
+<ele>500.978516</ele>
+<name>StGh145</name>
+</rtept>
+<rtept lat="56.558973" lon="-4.854674">
+<ele>508.675293</ele>
+<name>StGh146</name>
+</rtept>
+<rtept lat="56.558892" lon="-4.853666">
+<ele>493.971924</ele>
+<name>StGh147</name>
+</rtept>
+<rtept lat="56.558792" lon="-4.853141">
+<ele>487.676636</ele>
+<name>StGh148</name>
+</rtept>
+<rtept lat="56.55819" lon="-4.852395">
+<ele>441.719604</ele>
+<name>StGh149</name>
+</rtept>
+<rtept lat="56.558047" lon="-4.851866">
+<ele>408.223755</ele>
+<name>StGh150</name>
+</rtept>
+<rtept lat="56.557635" lon="-4.851317">
+<ele>381.042603</ele>
+<name>StGh151</name>
+</rtept>
+<rtept lat="56.557448" lon="-4.850809">
+<ele>369.299561</ele>
+<name>StGh152</name>
+</rtept>
+<rtept lat="56.55697" lon="-4.85028">
+<ele>353.777283</ele>
+<name>StGh153</name>
+</rtept>
+<rtept lat="56.555862" lon="-4.848323">
+<ele>328.374939</ele>
+<name>StGh154</name>
+</rtept>
+<rtept lat="56.554696" lon="-4.846735">
+<ele>309.051819</ele>
+<name>StGh155</name>
+</rtept>
+<rtept lat="56.551118" lon="-4.84424">
+<ele>251.150696</ele>
+<name>StGh156</name>
+</rtept>
+<rtept lat="56.546696" lon="-4.842222">
+<ele>222.171387</ele>
+<name>StGh157</name>
+</rtept>
+<rtept lat="56.54625" lon="-4.841597">
+<ele>209.367676</ele>
+<name>StGh158</name>
+</rtept>
+<rtept lat="56.546028" lon="-4.840309">
+<ele>200.601501</ele>
+<name>StGh159</name>
+</rtept>
+<rtept lat="56.545791" lon="-4.839913">
+<ele>201.645386</ele>
+<name>StGh160</name>
+</rtept>
+<rtept lat="56.545334" lon="-4.839576">
+<ele>195.086548</ele>
+<name>StGh161</name>
+</rtept>
+<rtept lat="56.544784" lon="-4.839443">
+<ele>198.33313</ele>
+<name>StGh162</name>
+</rtept>
+<rtept lat="56.544435" lon="-4.839787">
+<ele>199.109314</ele>
+<name>StGh163</name>
+</rtept>
+<rtept lat="56.544118" lon="-4.839849">
+<ele>199.518677</ele>
+<name>StGh164</name>
+</rtept>
+<rtept lat="56.543491" lon="-4.839529">
+<ele>193.913025</ele>
+<name>StGh165</name>
+</rtept>
+<rtept lat="56.543313" lon="-4.839214">
+<ele>192.605896</ele>
+<name>StGh166</name>
+</rtept>
+<rtept lat="56.543084" lon="-4.839297">
+<ele>195.651794</ele>
+<name>StGh167</name>
+</rtept>
+<rtept lat="56.542305" lon="-4.83845">
+<ele>185.325073</ele>
+<name>StGh168</name>
+</rtept>
+<rtept lat="56.542001" lon="-4.837887">
+<ele>187.640015</ele>
+<name>StGh169</name>
+</rtept>
+<rtept lat="56.541838" lon="-4.837929">
+<ele>184.758606</ele>
+<name>StGh170</name>
+</rtept>
+<rtept lat="56.541764" lon="-4.836642">
+<ele>180.593689</ele>
+<name>StGh171</name>
+</rtept>
+<rtept lat="56.5415" lon="-4.835233">
+<ele>180.398071</ele>
+<name>StGh172</name>
+</rtept>
+<rtept lat="56.541406" lon="-4.833663">
+<ele>181.384094</ele>
+<name>StGh173</name>
+</rtept>
+<rtept lat="56.5414563040443" lon="-4.83120090009452">
+<ele>180.225293825199</ele>
+<name>StGh174</name>
+</rtept>
+<rtept lat="56.541216" lon="-4.830164">
+<ele>173.87085</ele>
+<name>StGh175</name>
+</rtept>
+<rtept lat="56.541315" lon="-4.829202">
+<ele>176.554749</ele>
+<name>StGh176</name>
+</rtept>
+<rtept lat="56.541763" lon="-4.827616">
+<ele>179.386169</ele>
+<name>StGh177</name>
+</rtept>
+<rtept lat="56.541752" lon="-4.824913">
+<ele>176.317993</ele>
+<name>StGh178</name>
+</rtept>
+<rtept lat="56.541454" lon="-4.82425">
+<ele>176.371094</ele>
+<name>StGh179</name>
+</rtept>
+<rtept lat="56.540347" lon="-4.822934">
+<ele>170.570923</ele>
+<name>StGh180</name>
+</rtept>
+<rtept lat="56.539512" lon="-4.82232">
+<ele>176.415527</ele>
+<name>StGh181</name>
+</rtept>
+<rtept lat="56.5391729565165" lon="-4.82131259400893">
+<ele>172.824995490084</ele>
+<name>StGh182</name>
+</rtept>
+<rtept lat="56.5391672239872" lon="-4.82082627861741">
+<ele>171.786741855522</ele>
+<name>StGh183</name>
+</rtept>
+<rtept lat="56.5394105591708" lon="-4.82008517716869">
+<ele>171.221257801158</ele>
+<name>StGh184</name>
+</rtept>
+<rtept lat="56.5393920838818" lon="-4.81905128360802">
+<ele>170.799476592264</ele>
+<name>StGh185</name>
+</rtept>
+<rtept lat="56.540254" lon="-4.81701">
+<ele>177.804199</ele>
+<name>StGh186</name>
+</rtept>
+<rtept lat="56.540355" lon="-4.815612">
+<ele>175.290466</ele>
+<name>StGh187</name>
+</rtept>
+<rtept lat="56.54078" lon="-4.814005">
+<ele>170.591797</ele>
+<name>StGh188</name>
+</rtept>
+<rtept lat="56.540027" lon="-4.813962">
+<ele>175.039307</ele>
+<name>StGh189</name>
+</rtept>
+<rtept lat="56.538506" lon="-4.813091">
+<ele>174.94104</ele>
+<name>StGh190</name>
+</rtept>
+<rtept lat="56.537344" lon="-4.814048">
+<ele>180.352844</ele>
+<name>StGh191</name>
+</rtept>
+<rtept lat="56.536666" lon="-4.813997">
+<ele>174.387207</ele>
+<name>StGh192</name>
+</rtept>
+<rtept lat="56.536985" lon="-4.814189">
+<ele>168.450134</ele>
+<name>StGh193</name>
+</rtept>
+<rtept lat="56.536968" lon="-4.814006">
+<ele>180.525513</ele>
+<name>StGh194</name>
+</rtept>
+</rte>
+</gpx>

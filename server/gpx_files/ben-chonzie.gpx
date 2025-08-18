@@ -1,0 +1,334 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="Walkhighlands">
+<metadata>
+	<desc>GPX file from Walkhighlands; file is copyright Walkhighlands and must not be publicly shared on other websites. Do not remove this notice.</desc>
+	<copyright author="Walkhighlands"><year>2019</year></copyright>
+</metadata>
+<rte>
+<name>Ben Chonzie via Glen Lednock</name>
+<rtept lat="56.4213437806285" lon="-4.03928779709879">
+<ele>217.630430296564</ele>
+<name>B-CH 001</name>
+</rtept>
+<rtept lat="56.4229420006218" lon="-4.03948036901091">
+<ele>234.539631019568</ele>
+<name>B-CH 002</name>
+</rtept>
+<rtept lat="56.4230719434274" lon="-4.03879168944444">
+<ele>228.280550654078</ele>
+<name>B-CH 003</name>
+</rtept>
+<rtept lat="56.4244662745886" lon="-4.03875928818796">
+<ele>231.43933928175</ele>
+<name>B-CH 004</name>
+</rtept>
+<rtept lat="56.4252853455524" lon="-4.03944528798185">
+<ele>255.147309557581</ele>
+<name>B-CH 005</name>
+</rtept>
+<rtept lat="56.4270246759761" lon="-4.04007357468649">
+<ele>247.6581506589</ele>
+<name>B-CH 006</name>
+</rtept>
+<rtept lat="56.4275333696828" lon="-4.04159928923849">
+<ele>248.366688117981</ele>
+<name>B-CH 007</name>
+</rtept>
+<rtept lat="56.4286387194666" lon="-4.03930373232759">
+<ele>277.817044591236</ele>
+<name>B-CH 008</name>
+</rtept>
+<rtept lat="56.4292341836989" lon="-4.03735540781477">
+<ele>295.040395888042</ele>
+<name>B-CH 009</name>
+</rtept>
+<rtept lat="56.4300115686755" lon="-4.03696883092253">
+<ele>295.943103140473</ele>
+<name>B-CH 010</name>
+</rtept>
+<rtept lat="56.431415555604" lon="-4.03634813577158">
+<ele>320.717735144281</ele>
+<name>B-CH 011</name>
+</rtept>
+<rtept lat="56.4334391206282" lon="-4.03592109207468">
+<ele>342.71559102757</ele>
+<name>B-CH 012</name>
+</rtept>
+<rtept lat="56.4345913511508" lon="-4.0343768973131">
+<ele>354.892901458788</ele>
+<name>B-CH 013</name>
+</rtept>
+<rtept lat="56.4347221437148" lon="-4.03363450999301">
+<ele>386.297162895203</ele>
+<name>B-CH 014</name>
+</rtept>
+<rtept lat="56.4338027596803" lon="-4.03363893720157">
+<ele>344.351254291499</ele>
+<name>B-CH 015</name>
+</rtept>
+<rtept lat="56.4337783899242" lon="-4.03331648313312">
+<ele>375.825372128868</ele>
+<name>B-CH 016</name>
+</rtept>
+<rtept lat="56.4345689054853" lon="-4.03212758309359">
+<ele>367.554088961268</ele>
+<name>B-CH 017</name>
+</rtept>
+<rtept lat="56.4353089051948" lon="-4.03040066455588">
+<ele>421.38977513628</ele>
+<name>B-CH 018</name>
+</rtept>
+<rtept lat="56.4356670828358" lon="-4.03025917907223">
+<ele>428.409067281151</ele>
+<name>B-CH 019</name>
+</rtept>
+<rtept lat="56.4367260795508" lon="-4.02715740284519">
+<ele>445.486683026624</ele>
+<name>B-CH 020</name>
+</rtept>
+<rtept lat="56.4363314124836" lon="-4.02408524250831">
+<ele>454.840855391169</ele>
+<name>B-CH 021</name>
+</rtept>
+<rtept lat="56.436991130448" lon="-4.02181852965586">
+<ele>471.231063751221</ele>
+<name>B-CH 022</name>
+</rtept>
+<rtept lat="56.4377292147197" lon="-4.01837821852384">
+<ele>493.077735144281</ele>
+<name>B-CH 023</name>
+</rtept>
+<rtept lat="56.4388618257351" lon="-4.01254970105627">
+<ele>557.571115376759</ele>
+<name>B-CH 024</name>
+</rtept>
+<rtept lat="56.4385515129722" lon="-4.01156972453492">
+<ele>551.212303888988</ele>
+<name>B-CH 025</name>
+</rtept>
+<rtept lat="56.4382325235067" lon="-4.01112462024143">
+<ele>582.731555253315</ele>
+<name>B-CH 026</name>
+</rtept>
+<rtept lat="56.4393147941124" lon="-4.01021819541607">
+<ele>574.106384254491</ele>
+<name>B-CH 027</name>
+</rtept>
+<rtept lat="56.4396029223522" lon="-4.00707494285612">
+<ele>630.966476253545</ele>
+<name>B-CH 028</name>
+</rtept>
+<rtept lat="56.4394502268591" lon="-4.0055144342841">
+<ele>652.392440860796</ele>
+<name>B-CH 029</name>
+</rtept>
+<rtept lat="56.4392767709538" lon="-4.00523763340682">
+<ele>653.079069198513</ele>
+<name>B-CH 030</name>
+</rtept>
+<rtept lat="56.4401012627335" lon="-4.00008826663471">
+<ele>741.213412476778</ele>
+<name>B-CH 031</name>
+</rtept>
+<rtept lat="56.4417858522353" lon="-4.00044445117003">
+<ele>751.957567378998</ele>
+<name>B-CH 032</name>
+</rtept>
+<rtept lat="56.4424029036918" lon="-4.0007980987976">
+<ele>758.966554184008</ele>
+<name>B-CH 033</name>
+</rtept>
+<rtept lat="56.4441291963959" lon="-4.0004069769529">
+<ele>800.998767032623</ele>
+<name>B-CH 034</name>
+</rtept>
+<rtept lat="56.4447982971548" lon="-3.99937132905459">
+<ele>833.221693209362</ele>
+<name>B-CH 035</name>
+</rtept>
+<rtept lat="56.4469385412729" lon="-3.9990554041396">
+<ele>874.541617332482</ele>
+<name>B-CH 036</name>
+</rtept>
+<rtept lat="56.4474946122381" lon="-3.99951296420742">
+<ele>880.75510872395</ele>
+<name>B-CH 037</name>
+</rtept>
+<rtept lat="56.4492108567539" lon="-4.00158435886943">
+<ele>895.75501417923</ele>
+<name>B-CH 038</name>
+</rtept>
+<rtept lat="56.4506658650702" lon="-3.99962603009883">
+<ele>899.512742670715</ele>
+<name>B-CH 039</name>
+</rtept>
+<rtept lat="56.4528251995484" lon="-3.99443787041877">
+<ele>904.906658308721</ele>
+<name>B-CH 040</name>
+</rtept>
+<rtept lat="56.4539225617276" lon="-3.99213579664103">
+<ele>895.02150450139</ele>
+<name>B-CH 041</name>
+</rtept>
+<rtept lat="56.4528251995484" lon="-3.99443787041877">
+<ele>904.906658308721</ele>
+<name>B-CH 042</name>
+</rtept>
+<rtept lat="56.4506658650702" lon="-3.99962603009883">
+<ele>899.512742670715</ele>
+<name>B-CH 043</name>
+</rtept>
+<rtept lat="56.4492108567539" lon="-4.00158435886943">
+<ele>895.75501417923</ele>
+<name>B-CH 044</name>
+</rtept>
+<rtept lat="56.4474946122381" lon="-3.99951296420742">
+<ele>880.75510872395</ele>
+<name>B-CH 045</name>
+</rtept>
+<rtept lat="56.4469385412729" lon="-3.9990554041396">
+<ele>874.541617332482</ele>
+<name>B-CH 046</name>
+</rtept>
+<rtept lat="56.4447982971548" lon="-3.99937132905459">
+<ele>833.221693209362</ele>
+<name>B-CH 047</name>
+</rtept>
+<rtept lat="56.4441291963959" lon="-4.0004069769529">
+<ele>800.998767032623</ele>
+<name>B-CH 048</name>
+</rtept>
+<rtept lat="56.4424029036918" lon="-4.0007980987976">
+<ele>758.966554184008</ele>
+<name>B-CH 049</name>
+</rtept>
+<rtept lat="56.4417858522353" lon="-4.00044445117003">
+<ele>751.957567378998</ele>
+<name>B-CH 050</name>
+</rtept>
+<rtept lat="56.4401012627335" lon="-4.00008826663471">
+<ele>741.213412476778</ele>
+<name>B-CH 051</name>
+</rtept>
+<rtept lat="56.4392767709538" lon="-4.00523763340682">
+<ele>653.079069198513</ele>
+<name>B-CH 052</name>
+</rtept>
+<rtept lat="56.4394502268591" lon="-4.0055144342841">
+<ele>652.392440860796</ele>
+<name>B-CH 053</name>
+</rtept>
+<rtept lat="56.4396029223522" lon="-4.00707494285612">
+<ele>630.966476253545</ele>
+<name>B-CH 054</name>
+</rtept>
+<rtept lat="56.4393147941124" lon="-4.01021819541607">
+<ele>574.106384254491</ele>
+<name>B-CH 055</name>
+</rtept>
+<rtept lat="56.4382325235067" lon="-4.01112462024143">
+<ele>582.731555253315</ele>
+<name>B-CH 056</name>
+</rtept>
+<rtept lat="56.4385515129722" lon="-4.01156972453492">
+<ele>551.212303888988</ele>
+<name>B-CH 057</name>
+</rtept>
+<rtept lat="56.4388618257351" lon="-4.01254970105627">
+<ele>557.571115376759</ele>
+<name>B-CH 058</name>
+</rtept>
+<rtept lat="56.4377292147197" lon="-4.01837821852384">
+<ele>493.077735144281</ele>
+<name>B-CH 059</name>
+</rtept>
+<rtept lat="56.436991130448" lon="-4.02181852965586">
+<ele>471.231063751221</ele>
+<name>B-CH 060</name>
+</rtept>
+<rtept lat="56.4363314124836" lon="-4.02408524250831">
+<ele>454.840855391169</ele>
+<name>B-CH 061</name>
+</rtept>
+<rtept lat="56.4367260795508" lon="-4.02715740284519">
+<ele>445.486683026624</ele>
+<name>B-CH 062</name>
+</rtept>
+<rtept lat="56.4356670828358" lon="-4.03025917907223">
+<ele>428.409067281151</ele>
+<name>B-CH 063</name>
+</rtept>
+<rtept lat="56.4353089051948" lon="-4.03040066455588">
+<ele>421.38977513628</ele>
+<name>B-CH 064</name>
+</rtept>
+<rtept lat="56.4345689054853" lon="-4.03212758309359">
+<ele>367.554088961268</ele>
+<name>B-CH 065</name>
+</rtept>
+<rtept lat="56.4337783899242" lon="-4.03331648313312">
+<ele>375.825372128868</ele>
+<name>B-CH 066</name>
+</rtept>
+<rtept lat="56.4338027596803" lon="-4.03363893720157">
+<ele>344.351254291499</ele>
+<name>B-CH 067</name>
+</rtept>
+<rtept lat="56.4347221437148" lon="-4.03363450999301">
+<ele>386.297162895203</ele>
+<name>B-CH 068</name>
+</rtept>
+<rtept lat="56.4345913511508" lon="-4.0343768973131">
+<ele>354.892901458788</ele>
+<name>B-CH 069</name>
+</rtept>
+<rtept lat="56.4334391206282" lon="-4.03592109207468">
+<ele>342.71559102757</ele>
+<name>B-CH 070</name>
+</rtept>
+<rtept lat="56.431415555604" lon="-4.03634813577158">
+<ele>320.717735144281</ele>
+<name>B-CH 071</name>
+</rtept>
+<rtept lat="56.4300115686755" lon="-4.03696883092253">
+<ele>295.943103140473</ele>
+<name>B-CH 072</name>
+</rtept>
+<rtept lat="56.4292341836989" lon="-4.03735540781477">
+<ele>295.040395888042</ele>
+<name>B-CH 073</name>
+</rtept>
+<rtept lat="56.4286387194666" lon="-4.03930373232759">
+<ele>277.817044591236</ele>
+<name>B-CH 074</name>
+</rtept>
+<rtept lat="56.4275333696828" lon="-4.04159928923849">
+<ele>248.366688117981</ele>
+<name>B-CH 075</name>
+</rtept>
+<rtept lat="56.4270246759761" lon="-4.04007357468649">
+<ele>247.6581506589</ele>
+<name>B-CH 076</name>
+</rtept>
+<rtept lat="56.4252853455524" lon="-4.03944528798185">
+<ele>255.147309557581</ele>
+<name>B-CH 077</name>
+</rtept>
+<rtept lat="56.4244662745886" lon="-4.03875928818796">
+<ele>231.43933928175</ele>
+<name>B-CH 078</name>
+</rtept>
+<rtept lat="56.4230719434274" lon="-4.03879168944444">
+<ele>228.280550654078</ele>
+<name>B-CH 079</name>
+</rtept>
+<rtept lat="56.4229420006218" lon="-4.03948036901091">
+<ele>234.539631019568</ele>
+<name>B-CH 080</name>
+</rtept>
+<rtept lat="56.4213437806285" lon="-4.03928779709879">
+<ele>217.630430296564</ele>
+<name>B-CH 081</name>
+</rtept>
+</rte>
+</gpx>

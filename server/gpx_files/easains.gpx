@@ -1,0 +1,690 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="Walkhighlands">
+<metadata>
+	<desc>GPX file from Walkhighlands; file is copyright Walkhighlands and must not be publicly shared on other websites. Do not remove this notice.</desc>
+	<copyright author="Walkhighlands"><year>2019</year></copyright>
+</metadata>
+<rte>
+<name>Stob Coire Easain and Stob a&#039;Choire Mheadhoin</name>
+<rtept lat="56.8654111439837" lon="-4.70842790207913">
+<ele>244.104723832485</ele>
+<name>EAS-001</name>
+</rtept>
+<rtept lat="56.8651317115164" lon="-4.70825836615979">
+<ele>243.093798896741</ele>
+<name>EAS-002</name>
+</rtept>
+<rtept lat="56.8639003507258" lon="-4.70846795793231">
+<ele>242.91013146339</ele>
+<name>EAS-003</name>
+</rtept>
+<rtept lat="56.8637366541868" lon="-4.7090533996892">
+<ele>242.323610596165</ele>
+<name>EAS-004</name>
+</rtept>
+<rtept lat="56.8629462225721" lon="-4.7103975059089">
+<ele>246.912197929328</ele>
+<name>EAS-005</name>
+</rtept>
+<rtept lat="56.862465785151" lon="-4.71021342087956">
+<ele>246.525461898808</ele>
+<name>EAS-006</name>
+</rtept>
+<rtept lat="56.8617804126218" lon="-4.71048542035351">
+<ele>250.211986890938</ele>
+<name>EAS-007</name>
+</rtept>
+<rtept lat="56.8595226964046" lon="-4.70957552092947">
+<ele>248.982996722735</ele>
+<name>EAS-008</name>
+</rtept>
+<rtept lat="56.858758652933" lon="-4.70970400504581">
+<ele>248.481760150098</ele>
+<name>EAS-009</name>
+</rtept>
+<rtept lat="56.8559253094368" lon="-4.71270302856763">
+<ele>261.760903489135</ele>
+<name>EAS-010</name>
+</rtept>
+<rtept lat="56.8549917643392" lon="-4.71339333952385">
+<ele>279.191222394829</ele>
+<name>EAS-011</name>
+</rtept>
+<rtept lat="56.8546571011914" lon="-4.71344948380744">
+<ele>273.918307096341</ele>
+<name>EAS-012</name>
+</rtept>
+<rtept lat="56.8525681992433" lon="-4.71519284884283">
+<ele>277.08494909792</ele>
+<name>EAS-013</name>
+</rtept>
+<rtept lat="56.8519456311037" lon="-4.7154692432708">
+<ele>276.664616635219</ele>
+<name>EAS-014</name>
+</rtept>
+<rtept lat="56.8513382087619" lon="-4.71620602238986">
+<ele>278.369416291081</ele>
+<name>EAS-015</name>
+</rtept>
+<rtept lat="56.8511543855636" lon="-4.71684718942335">
+<ele>284.937977199994</ele>
+<name>EAS-016</name>
+</rtept>
+<rtept lat="56.850224433823" lon="-4.71823797998219">
+<ele>283.523117193531</ele>
+<name>EAS-017</name>
+</rtept>
+<rtept lat="56.8500685110873" lon="-4.71904189133832">
+<ele>278.53000655453</ele>
+<name>EAS-018</name>
+</rtept>
+<rtept lat="56.8506911611348" lon="-4.71933968511724">
+<ele>278.078268343261</ele>
+<name>EAS-019</name>
+</rtept>
+<rtept lat="56.8506686408398" lon="-4.72008439377765">
+<ele>283.419767108707</ele>
+<name>EAS-020</name>
+</rtept>
+<rtept lat="56.8513181971401" lon="-4.72059084693704">
+<ele>303.149752507646</ele>
+<name>EAS-021</name>
+</rtept>
+<rtept lat="56.8516740872281" lon="-4.72158122065396">
+<ele>316.588225723666</ele>
+<name>EAS-022</name>
+</rtept>
+<rtept lat="56.8527974644711" lon="-4.72170875729624">
+<ele>322.73336049446</ele>
+<name>EAS-023</name>
+</rtept>
+<rtept lat="56.8531020643293" lon="-4.72245431197117">
+<ele>338.976314205024</ele>
+<name>EAS-024</name>
+</rtept>
+<rtept lat="56.8534078537463" lon="-4.72256839753168">
+<ele>346.568022242651</ele>
+<name>EAS-025</name>
+</rtept>
+<rtept lat="56.8539165095795" lon="-4.72376516715307">
+<ele>367.153887637665</ele>
+<name>EAS-026</name>
+</rtept>
+<rtept lat="56.8540884835585" lon="-4.72510972972228">
+<ele>395.466952379684</ele>
+<name>EAS-027</name>
+</rtept>
+<rtept lat="56.8540028196745" lon="-4.7252872303801">
+<ele>399.61531044077</ele>
+<name>EAS-028</name>
+</rtept>
+<rtept lat="56.8528727312645" lon="-4.72604327614824">
+<ele>422.547527030148</ele>
+<name>EAS-029</name>
+</rtept>
+<rtept lat="56.851857476458" lon="-4.72701432182792">
+<ele>441.514238019182</ele>
+<name>EAS-030</name>
+</rtept>
+<rtept lat="56.8517092645743" lon="-4.72746283615066">
+<ele>450.761733931983</ele>
+<name>EAS-031</name>
+</rtept>
+<rtept lat="56.8517796942786" lon="-4.72884587226394">
+<ele>465.802280744063</ele>
+<name>EAS-032</name>
+</rtept>
+<rtept lat="56.8516508215014" lon="-4.72927282239038">
+<ele>470.256703329097</ele>
+<name>EAS-033</name>
+</rtept>
+<rtept lat="56.8513593832232" lon="-4.72965347837784">
+<ele>477.402443132383</ele>
+<name>EAS-034</name>
+</rtept>
+<rtept lat="56.8510164265924" lon="-4.72980072776048">
+<ele>484.35523427463</ele>
+<name>EAS-035</name>
+</rtept>
+<rtept lat="56.8507337985306" lon="-4.73064130590809">
+<ele>502.872409604017</ele>
+<name>EAS-036</name>
+</rtept>
+<rtept lat="56.850127041737" lon="-4.7313434216975">
+<ele>509.815888756871</ele>
+<name>EAS-037</name>
+</rtept>
+<rtept lat="56.849802676499" lon="-4.73150348848437">
+<ele>514.172565362313</ele>
+<name>EAS-038</name>
+</rtept>
+<rtept lat="56.8493272981591" lon="-4.73137697920751">
+<ele>524.861587038484</ele>
+<name>EAS-039</name>
+</rtept>
+<rtept lat="56.8484298369668" lon="-4.73213823276274">
+<ele>548.058120341194</ele>
+<name>EAS-040</name>
+</rtept>
+<rtept lat="56.8479672983266" lon="-4.7331493175938">
+<ele>571.270687138999</ele>
+<name>EAS-041</name>
+</rtept>
+<rtept lat="56.8470776148932" lon="-4.73384218301795">
+<ele>608.309171790046</ele>
+<name>EAS-042</name>
+</rtept>
+<rtept lat="56.8467859055502" lon="-4.7336601666474">
+<ele>617.626249477664</ele>
+<name>EAS-043</name>
+</rtept>
+<rtept lat="56.8462718437312" lon="-4.73415078858984">
+<ele>644.179155931512</ele>
+<name>EAS-044</name>
+</rtept>
+<rtept lat="56.845976116676" lon="-4.73415217389001">
+<ele>653.093444440164</ele>
+<name>EAS-045</name>
+</rtept>
+<rtept lat="56.8458210976617" lon="-4.73491007548835">
+<ele>682.889337498239</ele>
+<name>EAS-046</name>
+</rtept>
+<rtept lat="56.8459633079415" lon="-4.73588484289117">
+<ele>699.518657697194</ele>
+<name>EAS-047</name>
+</rtept>
+<rtept lat="56.845793458235" lon="-4.73617094284498">
+<ele>716.796898055849</ele>
+<name>EAS-048</name>
+</rtept>
+<rtept lat="56.8455148176981" lon="-4.73596690750905">
+<ele>733.375851964232</ele>
+<name>EAS-049</name>
+</rtept>
+<rtept lat="56.8453612960412" lon="-4.7366560182906">
+<ele>752.747257249718</ele>
+<name>EAS-050</name>
+</rtept>
+<rtept lat="56.845080142748" lon="-4.73656660381977">
+<ele>762.270168913041</ele>
+<name>EAS-051</name>
+</rtept>
+<rtept lat="56.8449160701413" lon="-4.73687607703372">
+<ele>766.78001632466</ele>
+<name>EAS-052</name>
+</rtept>
+<rtept lat="56.8437630570582" lon="-4.73723960147466">
+<ele>783.331401932245</ele>
+<name>EAS-053</name>
+</rtept>
+<rtept lat="56.8429607881206" lon="-4.73796164175686">
+<ele>785.069459180314</ele>
+<name>EAS-054</name>
+</rtept>
+<rtept lat="56.8399901949588" lon="-4.73829564208454">
+<ele>798.305245402412</ele>
+<name>EAS-055</name>
+</rtept>
+<rtept lat="56.8381097557066" lon="-4.7399833462726">
+<ele>803.370329267418</ele>
+<name>EAS-056</name>
+</rtept>
+<rtept lat="56.8371836177908" lon="-4.74032886640447">
+<ele>807.790813442922</ele>
+<name>EAS-057</name>
+</rtept>
+<rtept lat="56.8368868728801" lon="-4.74066299413038">
+<ele>810.430944771332</ele>
+<name>EAS-058</name>
+</rtept>
+<rtept lat="56.8347868077722" lon="-4.74604159015096">
+<ele>873.254972277446</ele>
+<name>EAS-059</name>
+</rtept>
+<rtept lat="56.8338660757621" lon="-4.74756947638465">
+<ele>905.890007607756</ele>
+<name>EAS-060</name>
+</rtept>
+<rtept lat="56.8333200782754" lon="-4.7477934345656">
+<ele>924.254299909842</ele>
+<name>EAS-061</name>
+</rtept>
+<rtept lat="56.8324173614572" lon="-4.74736002209253">
+<ele>948.83802269735</ele>
+<name>EAS-062</name>
+</rtept>
+<rtept lat="56.8310621093459" lon="-4.74719186226351">
+<ele>966.613024173362</ele>
+<name>EAS-063</name>
+</rtept>
+<rtept lat="56.8304472158804" lon="-4.74797309189046">
+<ele>970.695169793626</ele>
+<name>EAS-064</name>
+</rtept>
+<rtept lat="56.8288333324099" lon="-4.75097619296878">
+<ele>970.888308985012</ele>
+<name>EAS-065</name>
+</rtept>
+<rtept lat="56.8276860214121" lon="-4.7516493958931">
+<ele>984.969818122356</ele>
+<name>EAS-066</name>
+</rtept>
+<rtept lat="56.8264004420259" lon="-4.75288615585">
+<ele>999.851294457872</ele>
+<name>EAS-067</name>
+</rtept>
+<rtept lat="56.825444133252" lon="-4.75488138811612">
+<ele>1014.31258712659</ele>
+<name>EAS-068</name>
+</rtept>
+<rtept lat="56.824395706898" lon="-4.75762705300085">
+<ele>1065.73856827608</ele>
+<name>EAS-069</name>
+</rtept>
+<rtept lat="56.823856632325" lon="-4.75839060662508">
+<ele>1080.19204158496</ele>
+<name>EAS-070</name>
+</rtept>
+<rtept lat="56.8239256224121" lon="-4.75896938849618">
+<ele>1093.63163089465</ele>
+<name>EAS-071</name>
+</rtept>
+<rtept lat="56.8237431592933" lon="-4.75925429303482">
+<ele>1098.43772767098</ele>
+<name>EAS-072</name>
+</rtept>
+<rtept lat="56.8236650867289" lon="-4.76022384640866">
+<ele>1102.74597930178</ele>
+<name>EAS-073</name>
+</rtept>
+<rtept lat="56.8229493802202" lon="-4.7621446812861">
+<ele>1078.34328916365</ele>
+<name>EAS-074</name>
+</rtept>
+<rtept lat="56.8221283218674" lon="-4.76313979065476">
+<ele>1040.056830502</ele>
+<name>EAS-075</name>
+</rtept>
+<rtept lat="56.821981760651" lon="-4.76350762205819">
+<ele>1030.55606861418</ele>
+<name>EAS-076</name>
+</rtept>
+<rtept lat="56.8209747930119" lon="-4.76437424254656">
+<ele>990.459873537972</ele>
+<name>EAS-077</name>
+</rtept>
+<rtept lat="56.820440944047" lon="-4.76518391045096">
+<ele>969.873192248266</ele>
+<name>EAS-078</name>
+</rtept>
+<rtept lat="56.8199727640642" lon="-4.76558537090582">
+<ele>960.81730725763</ele>
+<name>EAS-079</name>
+</rtept>
+<rtept lat="56.8193653544803" lon="-4.76715825304606">
+<ele>965.240253757728</ele>
+<name>EAS-080</name>
+</rtept>
+<rtept lat="56.8184453149049" lon="-4.76892598903585">
+<ele>991.165144081811</ele>
+<name>EAS-081</name>
+</rtept>
+<rtept lat="56.8181277193023" lon="-4.76991212040336">
+<ele>1003.1352662433</ele>
+<name>EAS-082</name>
+</rtept>
+<rtept lat="56.8179801377432" lon="-4.77117465814975">
+<ele>1032.71598491226</ele>
+<name>EAS-083</name>
+</rtept>
+<rtept lat="56.8179897447069" lon="-4.77272414091798">
+<ele>1085.3265672174</ele>
+<name>EAS-084</name>
+</rtept>
+<rtept lat="56.8182018632711" lon="-4.7733708045726">
+<ele>1106.62462096053</ele>
+<name>EAS-085</name>
+</rtept>
+<rtept lat="56.8181829340326" lon="-4.7736562165999">
+<ele>1111.77662096053</ele>
+<name>EAS-086</name>
+</rtept>
+<rtept lat="56.8182018632711" lon="-4.7733708045726">
+<ele>1106.62462096053</ele>
+<name>EAS-087</name>
+</rtept>
+<rtept lat="56.8179897447069" lon="-4.77272414091798">
+<ele>1085.3265672174</ele>
+<name>EAS-088</name>
+</rtept>
+<rtept lat="56.8179801377432" lon="-4.77117465814975">
+<ele>1032.71598491226</ele>
+<name>EAS-089</name>
+</rtept>
+<rtept lat="56.8181277193023" lon="-4.76991212040336">
+<ele>1003.1352662433</ele>
+<name>EAS-090</name>
+</rtept>
+<rtept lat="56.8184453149049" lon="-4.76892598903585">
+<ele>991.165144081811</ele>
+<name>EAS-091</name>
+</rtept>
+<rtept lat="56.8193653544803" lon="-4.76715825304606">
+<ele>965.240253757728</ele>
+<name>EAS-092</name>
+</rtept>
+<rtept lat="56.8199727640642" lon="-4.76558537090582">
+<ele>960.81730725763</ele>
+<name>EAS-093</name>
+</rtept>
+<rtept lat="56.820440944047" lon="-4.76518391045096">
+<ele>969.873192248266</ele>
+<name>EAS-094</name>
+</rtept>
+<rtept lat="56.8209747930119" lon="-4.76437424254656">
+<ele>990.459873537972</ele>
+<name>EAS-095</name>
+</rtept>
+<rtept lat="56.821981760651" lon="-4.76350762205819">
+<ele>1030.55606861418</ele>
+<name>EAS-096</name>
+</rtept>
+<rtept lat="56.8221283218674" lon="-4.76313979065476">
+<ele>1040.056830502</ele>
+<name>EAS-097</name>
+</rtept>
+<rtept lat="56.8229493802202" lon="-4.7621446812861">
+<ele>1078.34328916365</ele>
+<name>EAS-098</name>
+</rtept>
+<rtept lat="56.8236650867289" lon="-4.76022384640866">
+<ele>1102.74597930178</ele>
+<name>EAS-099</name>
+</rtept>
+<rtept lat="56.8237431592933" lon="-4.75925429303482">
+<ele>1098.43772767098</ele>
+<name>EAS-100</name>
+</rtept>
+<rtept lat="56.8239256224121" lon="-4.75896938849618">
+<ele>1093.63163089465</ele>
+<name>EAS-101</name>
+</rtept>
+<rtept lat="56.823856632325" lon="-4.75839060662508">
+<ele>1080.19204158496</ele>
+<name>EAS-102</name>
+</rtept>
+<rtept lat="56.824395706898" lon="-4.75762705300085">
+<ele>1065.73856827608</ele>
+<name>EAS-103</name>
+</rtept>
+<rtept lat="56.825444133252" lon="-4.75488138811612">
+<ele>1014.31258712659</ele>
+<name>EAS-104</name>
+</rtept>
+<rtept lat="56.8264004420259" lon="-4.75288615585">
+<ele>999.851294457872</ele>
+<name>EAS-105</name>
+</rtept>
+<rtept lat="56.8276860214121" lon="-4.7516493958931">
+<ele>984.969818122356</ele>
+<name>EAS-106</name>
+</rtept>
+<rtept lat="56.8288333324099" lon="-4.75097619296878">
+<ele>970.888308985012</ele>
+<name>EAS-107</name>
+</rtept>
+<rtept lat="56.8304472158804" lon="-4.74797309189046">
+<ele>970.695169793626</ele>
+<name>EAS-108</name>
+</rtept>
+<rtept lat="56.8310621093459" lon="-4.74719186226351">
+<ele>966.613024173362</ele>
+<name>EAS-109</name>
+</rtept>
+<rtept lat="56.8324173614572" lon="-4.74736002209253">
+<ele>948.83802269735</ele>
+<name>EAS-110</name>
+</rtept>
+<rtept lat="56.8333200782754" lon="-4.7477934345656">
+<ele>924.254299909842</ele>
+<name>EAS-111</name>
+</rtept>
+<rtept lat="56.8338660757621" lon="-4.74756947638465">
+<ele>905.890007607756</ele>
+<name>EAS-112</name>
+</rtept>
+<rtept lat="56.8347868077722" lon="-4.74604159015096">
+<ele>873.254972277446</ele>
+<name>EAS-113</name>
+</rtept>
+<rtept lat="56.8368868728801" lon="-4.74066299413038">
+<ele>810.430944771332</ele>
+<name>EAS-114</name>
+</rtept>
+<rtept lat="56.8371836177908" lon="-4.74032886640447">
+<ele>807.790813442922</ele>
+<name>EAS-115</name>
+</rtept>
+<rtept lat="56.8381097557066" lon="-4.7399833462726">
+<ele>803.370329267418</ele>
+<name>EAS-116</name>
+</rtept>
+<rtept lat="56.8399901949588" lon="-4.73829564208454">
+<ele>798.305245402412</ele>
+<name>EAS-117</name>
+</rtept>
+<rtept lat="56.8429607881206" lon="-4.73796164175686">
+<ele>785.069459180314</ele>
+<name>EAS-118</name>
+</rtept>
+<rtept lat="56.8437630570582" lon="-4.73723960147466">
+<ele>783.331401932245</ele>
+<name>EAS-119</name>
+</rtept>
+<rtept lat="56.8449160701413" lon="-4.73687607703372">
+<ele>766.78001632466</ele>
+<name>EAS-120</name>
+</rtept>
+<rtept lat="56.845080142748" lon="-4.73656660381977">
+<ele>762.270168913041</ele>
+<name>EAS-121</name>
+</rtept>
+<rtept lat="56.8453612960412" lon="-4.7366560182906">
+<ele>752.747257249718</ele>
+<name>EAS-122</name>
+</rtept>
+<rtept lat="56.8455148176981" lon="-4.73596690750905">
+<ele>733.375851964232</ele>
+<name>EAS-123</name>
+</rtept>
+<rtept lat="56.845793458235" lon="-4.73617094284498">
+<ele>716.796898055849</ele>
+<name>EAS-124</name>
+</rtept>
+<rtept lat="56.8459633079415" lon="-4.73588484289117">
+<ele>699.518657697194</ele>
+<name>EAS-125</name>
+</rtept>
+<rtept lat="56.8458210976617" lon="-4.73491007548835">
+<ele>682.889337498239</ele>
+<name>EAS-126</name>
+</rtept>
+<rtept lat="56.845976116676" lon="-4.73415217389001">
+<ele>653.093444440164</ele>
+<name>EAS-127</name>
+</rtept>
+<rtept lat="56.8462718437312" lon="-4.73415078858984">
+<ele>644.179155931512</ele>
+<name>EAS-128</name>
+</rtept>
+<rtept lat="56.8467859055502" lon="-4.7336601666474">
+<ele>617.626249477664</ele>
+<name>EAS-129</name>
+</rtept>
+<rtept lat="56.8470776148932" lon="-4.73384218301795">
+<ele>608.309171790046</ele>
+<name>EAS-130</name>
+</rtept>
+<rtept lat="56.8479672983266" lon="-4.7331493175938">
+<ele>571.270687138999</ele>
+<name>EAS-131</name>
+</rtept>
+<rtept lat="56.8484298369668" lon="-4.73213823276274">
+<ele>548.058120341194</ele>
+<name>EAS-132</name>
+</rtept>
+<rtept lat="56.8493272981591" lon="-4.73137697920751">
+<ele>524.861587038484</ele>
+<name>EAS-133</name>
+</rtept>
+<rtept lat="56.849802676499" lon="-4.73150348848437">
+<ele>514.172565362313</ele>
+<name>EAS-134</name>
+</rtept>
+<rtept lat="56.850127041737" lon="-4.7313434216975">
+<ele>509.815888756871</ele>
+<name>EAS-135</name>
+</rtept>
+<rtept lat="56.8507337985306" lon="-4.73064130590809">
+<ele>502.872409604017</ele>
+<name>EAS-136</name>
+</rtept>
+<rtept lat="56.8510164265924" lon="-4.72980072776048">
+<ele>484.35523427463</ele>
+<name>EAS-137</name>
+</rtept>
+<rtept lat="56.8513593832232" lon="-4.72965347837784">
+<ele>477.402443132383</ele>
+<name>EAS-138</name>
+</rtept>
+<rtept lat="56.8516508215014" lon="-4.72927282239038">
+<ele>470.256703329097</ele>
+<name>EAS-139</name>
+</rtept>
+<rtept lat="56.8517796942786" lon="-4.72884587226394">
+<ele>465.802280744063</ele>
+<name>EAS-140</name>
+</rtept>
+<rtept lat="56.8517092645743" lon="-4.72746283615066">
+<ele>450.761733931983</ele>
+<name>EAS-141</name>
+</rtept>
+<rtept lat="56.851857476458" lon="-4.72701432182792">
+<ele>441.514238019182</ele>
+<name>EAS-142</name>
+</rtept>
+<rtept lat="56.8528727312645" lon="-4.72604327614824">
+<ele>422.547527030148</ele>
+<name>EAS-143</name>
+</rtept>
+<rtept lat="56.8540028196745" lon="-4.7252872303801">
+<ele>399.61531044077</ele>
+<name>EAS-144</name>
+</rtept>
+<rtept lat="56.8540884835585" lon="-4.72510972972228">
+<ele>395.466952379684</ele>
+<name>EAS-145</name>
+</rtept>
+<rtept lat="56.8539165095795" lon="-4.72376516715307">
+<ele>367.153887637665</ele>
+<name>EAS-146</name>
+</rtept>
+<rtept lat="56.8534078537463" lon="-4.72256839753168">
+<ele>346.568022242651</ele>
+<name>EAS-147</name>
+</rtept>
+<rtept lat="56.8531020643293" lon="-4.72245431197117">
+<ele>338.976314205024</ele>
+<name>EAS-148</name>
+</rtept>
+<rtept lat="56.8527974644711" lon="-4.72170875729624">
+<ele>322.73336049446</ele>
+<name>EAS-149</name>
+</rtept>
+<rtept lat="56.8516740872281" lon="-4.72158122065396">
+<ele>316.588225723666</ele>
+<name>EAS-150</name>
+</rtept>
+<rtept lat="56.8513181971401" lon="-4.72059084693704">
+<ele>303.149752507646</ele>
+<name>EAS-151</name>
+</rtept>
+<rtept lat="56.8506686408398" lon="-4.72008439377765">
+<ele>283.419767108707</ele>
+<name>EAS-152</name>
+</rtept>
+<rtept lat="56.8506911611348" lon="-4.71933968511724">
+<ele>278.078268343261</ele>
+<name>EAS-153</name>
+</rtept>
+<rtept lat="56.8500685110873" lon="-4.71904189133832">
+<ele>278.53000655453</ele>
+<name>EAS-154</name>
+</rtept>
+<rtept lat="56.850224433823" lon="-4.71823797998219">
+<ele>283.523117193531</ele>
+<name>EAS-155</name>
+</rtept>
+<rtept lat="56.8511543855636" lon="-4.71684718942335">
+<ele>284.937977199994</ele>
+<name>EAS-156</name>
+</rtept>
+<rtept lat="56.8513382087619" lon="-4.71620602238986">
+<ele>278.369416291081</ele>
+<name>EAS-157</name>
+</rtept>
+<rtept lat="56.8519456311037" lon="-4.7154692432708">
+<ele>276.664616635219</ele>
+<name>EAS-158</name>
+</rtept>
+<rtept lat="56.8525681992433" lon="-4.71519284884283">
+<ele>277.08494909792</ele>
+<name>EAS-159</name>
+</rtept>
+<rtept lat="56.8546571011914" lon="-4.71344948380744">
+<ele>273.918307096341</ele>
+<name>EAS-160</name>
+</rtept>
+<rtept lat="56.8549917643392" lon="-4.71339333952385">
+<ele>279.191222394829</ele>
+<name>EAS-161</name>
+</rtept>
+<rtept lat="56.8559253094368" lon="-4.71270302856763">
+<ele>261.760903489135</ele>
+<name>EAS-162</name>
+</rtept>
+<rtept lat="56.858758652933" lon="-4.70970400504581">
+<ele>248.481760150098</ele>
+<name>EAS-163</name>
+</rtept>
+<rtept lat="56.8595226964046" lon="-4.70957552092947">
+<ele>248.982996722735</ele>
+<name>EAS-164</name>
+</rtept>
+<rtept lat="56.8617804126218" lon="-4.71048542035351">
+<ele>250.211986890938</ele>
+<name>EAS-165</name>
+</rtept>
+<rtept lat="56.862465785151" lon="-4.71021342087956">
+<ele>246.525461898808</ele>
+<name>EAS-166</name>
+</rtept>
+<rtept lat="56.8629462225721" lon="-4.7103975059089">
+<ele>246.912197929328</ele>
+<name>EAS-167</name>
+</rtept>
+<rtept lat="56.8637366541868" lon="-4.7090533996892">
+<ele>242.323610596165</ele>
+<name>EAS-168</name>
+</rtept>
+<rtept lat="56.8639003507258" lon="-4.70846795793231">
+<ele>242.91013146339</ele>
+<name>EAS-169</name>
+</rtept>
+<rtept lat="56.8654111439837" lon="-4.70842790207913">
+<ele>244.104723832485</ele>
+<name>EAS-170</name>
+</rtept>
+</rte>
+</gpx>

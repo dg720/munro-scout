@@ -1,0 +1,522 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="Walkhighlands">
+<metadata>
+	<desc>GPX file from Walkhighlands; file is copyright Walkhighlands and must not be publicly shared on other websites. Do not remove this notice.</desc>
+	<copyright author="Walkhighlands"><year>2019</year></copyright>
+</metadata>
+<rte>
+<name>Sgùrr Mhic Chòinnich</name>
+<rtept lat="57.2029523707797" lon="-6.29156049091772">
+<ele>1.98421612724662</ele>
+<name>SMC001</name>
+</rtept>
+<rtept lat="57.201817076098" lon="-6.28641770164396">
+<ele>7.7001232978344</ele>
+<name>SMC002</name>
+</rtept>
+<rtept lat="57.2019694347612" lon="-6.28574937780594">
+<ele>3.86189210787416</ele>
+<name>SMC003</name>
+</rtept>
+<rtept lat="57.2018165659427" lon="-6.28453857997571">
+<ele>28.5014702542543</ele>
+<name>SMC004</name>
+</rtept>
+<rtept lat="57.2019053113118" lon="-6.28431026565393">
+<ele>14.5242587637424</ele>
+<name>SMC005</name>
+</rtept>
+<rtept lat="57.2016474418018" lon="-6.28380312696574">
+<ele>15.7433957271576</ele>
+<name>SMC006</name>
+</rtept>
+<rtept lat="57.2014752679226" lon="-6.28315680551746">
+<ele>41.694455559659</ele>
+<name>SMC007</name>
+</rtept>
+<rtept lat="57.2012949706842" lon="-6.28274815563805">
+<ele>44.5024555596352</ele>
+<name>SMC008</name>
+</rtept>
+<rtept lat="57.2011985634086" lon="-6.28130533443368">
+<ele>71.0990938835382</ele>
+<name>SMC009</name>
+</rtept>
+<rtept lat="57.2012000046387" lon="-6.27936682412938">
+<ele>77.5648928189993</ele>
+<name>SMC010</name>
+</rtept>
+<rtept lat="57.2011167380821" lon="-6.27753780640425">
+<ele>83.2100075062513</ele>
+<name>SMC011</name>
+</rtept>
+<rtept lat="57.2009133883601" lon="-6.27638088132867">
+<ele>98.5093623621464</ele>
+<name>SMC012</name>
+</rtept>
+<rtept lat="57.2010598747231" lon="-6.27445918038171">
+<ele>121.595822583604</ele>
+<name>SMC013</name>
+</rtept>
+<rtept lat="57.2011721336393" lon="-6.27211594686198">
+<ele>131.772618306541</ele>
+<name>SMC014</name>
+</rtept>
+<rtept lat="57.2016763345458" lon="-6.27014610799269">
+<ele>140.443020778644</ele>
+<name>SMC015</name>
+</rtept>
+<rtept lat="57.2017086510514" lon="-6.26967262825429">
+<ele>161.954826877341</ele>
+<name>SMC016</name>
+</rtept>
+<rtept lat="57.2028238554859" lon="-6.2649696202854">
+<ele>198.271455191565</ele>
+<name>SMC017</name>
+</rtept>
+<rtept lat="57.2031959958287" lon="-6.26211937069132">
+<ele>217.644648038745</ele>
+<name>SMC018</name>
+</rtept>
+<rtept lat="57.2031860942856" lon="-6.2595530973477">
+<ele>253.104448739386</ele>
+<name>SMC019</name>
+</rtept>
+<rtept lat="57.2032808774999" lon="-6.25866921693998">
+<ele>264.007671318817</ele>
+<name>SMC020</name>
+</rtept>
+<rtept lat="57.2032930676325" lon="-6.2564037608821">
+<ele>280.810635477448</ele>
+<name>SMC021</name>
+</rtept>
+<rtept lat="57.2037063329043" lon="-6.25376693125317">
+<ele>290.317748742509</ele>
+<name>SMC022</name>
+</rtept>
+<rtept lat="57.2042253681208" lon="-6.25182826325612">
+<ele>308.153678482008</ele>
+<name>SMC023</name>
+</rtept>
+<rtept lat="57.2042455170634" lon="-6.25075678259548">
+<ele>312.815678482056</ele>
+<name>SMC024</name>
+</rtept>
+<rtept lat="57.2045558988802" lon="-6.24924145744834">
+<ele>323.935936559772</ele>
+<name>SMC025</name>
+</rtept>
+<rtept lat="57.2044601134031" lon="-6.24776886557271">
+<ele>336.371211097336</ele>
+<name>SMC026</name>
+</rtept>
+<rtept lat="57.2047311847523" lon="-6.24693503489334">
+<ele>347.518994970036</ele>
+<name>SMC027</name>
+</rtept>
+<rtept lat="57.2046867913258" lon="-6.24585611782359">
+<ele>344.844109314346</ele>
+<name>SMC028</name>
+</rtept>
+<rtept lat="57.2048056529422" lon="-6.24473631598348">
+<ele>350.201655913091</ele>
+<name>SMC029</name>
+</rtept>
+<rtept lat="57.205234939252" lon="-6.24401012754843">
+<ele>359.381655913091</ele>
+<name>SMC030</name>
+</rtept>
+<rtept lat="57.2057257389244" lon="-6.24231658272864">
+<ele>395.609665577745</ele>
+<name>SMC031</name>
+</rtept>
+<rtept lat="57.2060131607342" lon="-6.24062615028356">
+<ele>434.022120058155</ele>
+<name>SMC032</name>
+</rtept>
+<rtept lat="57.2060337407979" lon="-6.2392199192431">
+<ele>419.35110933947</ele>
+<name>SMC033</name>
+</rtept>
+<rtept lat="57.2063298171949" lon="-6.2381767456745">
+<ele>461.363446898746</ele>
+<name>SMC034</name>
+</rtept>
+<rtept lat="57.2065027595708" lon="-6.23758343777638">
+<ele>484.435210068369</ele>
+<name>SMC035</name>
+</rtept>
+<rtept lat="57.2066695619662" lon="-6.2371717115189">
+<ele>501.879189950514</ele>
+<name>SMC036</name>
+</rtept>
+<rtept lat="57.2068738050023" lon="-6.23618425638364">
+<ele>495.875798935473</ele>
+<name>SMC037</name>
+</rtept>
+<rtept lat="57.2073390241435" lon="-6.23572389595036">
+<ele>548.88708024292</ele>
+<name>SMC038</name>
+</rtept>
+<rtept lat="57.2077431691059" lon="-6.23494164186639">
+<ele>544.997879939818</ele>
+<name>SMC039</name>
+</rtept>
+<rtept lat="57.2078340267024" lon="-6.23361168041296">
+<ele>583.400190382385</ele>
+<name>SMC040</name>
+</rtept>
+<rtept lat="57.2080587088682" lon="-6.23318998658693">
+<ele>563.972673946524</ele>
+<name>SMC041</name>
+</rtept>
+<rtept lat="57.2085305729454" lon="-6.23231933244214">
+<ele>595.353300677967</ele>
+<name>SMC042</name>
+</rtept>
+<rtept lat="57.2093457730135" lon="-6.23150789784597">
+<ele>595.855268723822</ele>
+<name>SMC043</name>
+</rtept>
+<rtept lat="57.2095029640214" lon="-6.23132703731906">
+<ele>598.767272885919</ele>
+<name>SMC044</name>
+</rtept>
+<rtept lat="57.2096967116781" lon="-6.23078243861217">
+<ele>631.26631788578</ele>
+<name>SMC045</name>
+</rtept>
+<rtept lat="57.2100417251744" lon="-6.23079214693466">
+<ele>624.193057173061</ele>
+<name>SMC046</name>
+</rtept>
+<rtept lat="57.2105096179802" lon="-6.23035850633796">
+<ele>651.908971536636</ele>
+<name>SMC047</name>
+</rtept>
+<rtept lat="57.2108455500368" lon="-6.23034987793906">
+<ele>658.290319934752</ele>
+<name>SMC048</name>
+</rtept>
+<rtept lat="57.2123656528639" lon="-6.23082242721536">
+<ele>780.855542094418</ele>
+<name>SMC049</name>
+</rtept>
+<rtept lat="57.2126521655199" lon="-6.22990057019478">
+<ele>800.601531610494</ele>
+<name>SMC050</name>
+</rtept>
+<rtept lat="57.2125931563014" lon="-6.22894017459577">
+<ele>728.552710449219</ele>
+<name>SMC051</name>
+</rtept>
+<rtept lat="57.2118491842129" lon="-6.2282174311157">
+<ele>795.867817307596</ele>
+<name>SMC052</name>
+</rtept>
+<rtept lat="57.211832741912" lon="-6.22768589207999">
+<ele>774.39367584846</ele>
+<name>SMC053</name>
+</rtept>
+<rtept lat="57.2111990688677" lon="-6.2261607260076">
+<ele>852.138336216421</ele>
+<name>SMC054</name>
+</rtept>
+<rtept lat="57.2100078193429" lon="-6.22479898306121">
+<ele>860.582678109503</ele>
+<name>SMC055</name>
+</rtept>
+<rtept lat="57.2093283356216" lon="-6.22413679045411">
+<ele>907.117002828329</ele>
+<name>SMC056</name>
+</rtept>
+<rtept lat="57.2089567265687" lon="-6.22409864621072">
+<ele>861.869264267731</ele>
+<name>SMC057</name>
+</rtept>
+<rtept lat="57.2093249746444" lon="-6.22412977666738">
+<ele>906.851360342869</ele>
+<name>SMC058</name>
+</rtept>
+<rtept lat="57.2100080975115" lon="-6.22479072821799">
+<ele>860.767678109503</ele>
+<name>SMC059</name>
+</rtept>
+<rtept lat="57.2111959306211" lon="-6.22614710760343">
+<ele>852.111173158527</ele>
+<name>SMC060</name>
+</rtept>
+<rtept lat="57.2118398025767" lon="-6.2277165343033">
+<ele>772.70167584846</ele>
+<name>SMC061</name>
+</rtept>
+<rtept lat="57.2118458234768" lon="-6.22821041647859">
+<ele>796.069994646828</ele>
+<name>SMC062</name>
+</rtept>
+<rtept lat="57.2125976356157" lon="-6.22894068777742">
+<ele>728.187710449219</ele>
+<name>SMC063</name>
+</rtept>
+<rtept lat="57.212668504584" lon="-6.22984277399643">
+<ele>801.53170472732</ele>
+<name>SMC064</name>
+</rtept>
+<rtept lat="57.2123475127916" lon="-6.23082697783716">
+<ele>778.975542094422</ele>
+<name>SMC065</name>
+</rtept>
+<rtept lat="57.2108106068891" lon="-6.23031935551747">
+<ele>655.960027751458</ele>
+<name>SMC066</name>
+</rtept>
+<rtept lat="57.210504242811" lon="-6.23035789036315">
+<ele>651.458971536541</ele>
+<name>SMC067</name>
+</rtept>
+<rtept lat="57.2100309748413" lon="-6.23079091488127">
+<ele>623.617057173014</ele>
+<name>SMC068</name>
+</rtept>
+<rtept lat="57.2096916707841" lon="-6.2307719169443">
+<ele>631.26631788578</ele>
+<name>SMC069</name>
+</rtept>
+<rtept lat="57.209491545062" lon="-6.23134561631561">
+<ele>598.431272885919</ele>
+<name>SMC070</name>
+</rtept>
+<rtept lat="57.2093353570179" lon="-6.23149676007144">
+<ele>595.657268723822</ele>
+<name>SMC071</name>
+</rtept>
+<rtept lat="57.2085241946138" lon="-6.2323484321836">
+<ele>594.555300677967</ele>
+<name>SMC072</name>
+</rtept>
+<rtept lat="57.208064297289" lon="-6.23315549644944">
+<ele>564.655231215119</ele>
+<name>SMC073</name>
+</rtept>
+<rtept lat="57.2078394018513" lon="-6.23361229679768">
+<ele>583.568190382385</ele>
+<name>SMC074</name>
+</rtept>
+<rtept lat="57.2077465315604" lon="-6.23492412644809">
+<ele>545.337337152266</ele>
+<name>SMC075</name>
+</rtept>
+<rtept lat="57.2073479827013" lon="-6.23572492375047">
+<ele>549.40708024292</ele>
+<name>SMC076</name>
+</rtept>
+<rtept lat="57.2068833213695" lon="-6.23616877622806">
+<ele>495.925798935473</ele>
+<name>SMC077</name>
+</rtept>
+<rtept lat="57.2066186317571" lon="-6.23734815790676">
+<ele>498.699189950514</ele>
+<name>SMC078</name>
+</rtept>
+<rtept lat="57.2060225494271" lon="-6.23928492104692">
+<ele>418.21110933947</ele>
+<name>SMC079</name>
+</rtept>
+<rtept lat="57.2059818416701" lon="-6.24102027362549">
+<ele>396.544375634527</ele>
+<name>SMC080</name>
+</rtept>
+<rtept lat="57.2055094464411" lon="-6.24302087646608">
+<ele>380.114391383171</ele>
+<name>SMC081</name>
+</rtept>
+<rtept lat="57.2051567855768" lon="-6.24414034356408">
+<ele>357.721655913091</ele>
+<name>SMC082</name>
+</rtept>
+<rtept lat="57.2052016947245" lon="-6.24626664193706">
+<ele>356.8457279387</ele>
+<name>SMC083</name>
+</rtept>
+<rtept lat="57.2050903332783" lon="-6.24769554157378">
+<ele>345.936533669329</ele>
+<name>SMC084</name>
+</rtept>
+<rtept lat="57.2052191778294" lon="-6.25052750564814">
+<ele>340.074773101759</ele>
+<name>SMC085</name>
+</rtept>
+<rtept lat="57.2053837901708" lon="-6.2507121712078">
+<ele>332.408281725895</ele>
+<name>SMC086</name>
+</rtept>
+<rtept lat="57.2057107700718" lon="-6.25353385591308">
+<ele>323.758251943398</ele>
+<name>SMC087</name>
+</rtept>
+<rtept lat="57.2059016741722" lon="-6.25479873202744">
+<ele>307.387937981987</ele>
+<name>SMC088</name>
+</rtept>
+<rtept lat="57.2065639937861" lon="-6.25621739826058">
+<ele>292.036683854938</ele>
+<name>SMC089</name>
+</rtept>
+<rtept lat="57.2069082585055" lon="-6.25799717245188">
+<ele>287.632655201998</ele>
+<name>SMC090</name>
+</rtept>
+<rtept lat="57.2072430100558" lon="-6.25926213902757">
+<ele>284.199532615265</ele>
+<name>SMC091</name>
+</rtept>
+<rtept lat="57.2078727919012" lon="-6.26084291364093">
+<ele>292.847663076329</ele>
+<name>SMC092</name>
+</rtept>
+<rtept lat="57.2078783447448" lon="-6.26147331794782">
+<ele>278.595776709521</ele>
+<name>SMC093</name>
+</rtept>
+<rtept lat="57.2076784158746" lon="-6.2620634277577">
+<ele>282.75129534128</ele>
+<name>SMC094</name>
+</rtept>
+<rtept lat="57.2078580041075" lon="-6.26365856976565">
+<ele>277.100403944504</ele>
+<name>SMC095</name>
+</rtept>
+<rtept lat="57.2079598371791" lon="-6.26436638744184">
+<ele>246.799985330582</ele>
+<name>SMC096</name>
+</rtept>
+<rtept lat="57.2082755401098" lon="-6.26513206361349">
+<ele>254.997578489351</ele>
+<name>SMC097</name>
+</rtept>
+<rtept lat="57.208378488129" lon="-6.26580687685273">
+<ele>250.377578489351</ele>
+<name>SMC098</name>
+</rtept>
+<rtept lat="57.2088016172594" lon="-6.26711533244524">
+<ele>237.415216102076</ele>
+<name>SMC099</name>
+</rtept>
+<rtept lat="57.2090876849418" lon="-6.2674301452463">
+<ele>234.633161640549</ele>
+<name>SMC100</name>
+</rtept>
+<rtept lat="57.2096377125283" lon="-6.27002948637855">
+<ele>204.886302136385</ele>
+<name>SMC101</name>
+</rtept>
+<rtept lat="57.2097814877182" lon="-6.27082507914548">
+<ele>203.96025375886</ele>
+<name>SMC102</name>
+</rtept>
+<rtept lat="57.2099578386527" lon="-6.27092835062256">
+<ele>207.11025375886</ele>
+<name>SMC103</name>
+</rtept>
+<rtept lat="57.2098037812292" lon="-6.27149060544557">
+<ele>199.990339425063</ele>
+<name>SMC104</name>
+</rtept>
+<rtept lat="57.210337722679" lon="-6.27271256456129">
+<ele>200.030339425063</ele>
+<name>SMC105</name>
+</rtept>
+<rtept lat="57.2104650653126" lon="-6.27451729580622">
+<ele>153.096906116533</ele>
+<name>SMC106</name>
+</rtept>
+<rtept lat="57.2103870111915" lon="-6.2757513055357">
+<ele>165.98935912447</ele>
+<name>SMC107</name>
+</rtept>
+<rtept lat="57.2104250450114" lon="-6.27595459898374">
+<ele>168.81935912447</ele>
+<name>SMC108</name>
+</rtept>
+<rtept lat="57.2102945126809" lon="-6.27635382730373">
+<ele>133.131301818609</ele>
+<name>SMC109</name>
+</rtept>
+<rtept lat="57.2104674273332" lon="-6.27682135754806">
+<ele>142.683908249784</ele>
+<name>SMC110</name>
+</rtept>
+<rtept lat="57.2107416411949" lon="-6.27748294591916">
+<ele>137.013908249784</ele>
+<name>SMC111</name>
+</rtept>
+<rtept lat="57.2109755122742" lon="-6.27827246296927">
+<ele>106.178265977263</ele>
+<name>SMC112</name>
+</rtept>
+<rtept lat="57.2108721196355" lon="-6.27998419949456">
+<ele>86.9282014577866</ele>
+<name>SMC113</name>
+</rtept>
+<rtept lat="57.2106633358036" lon="-6.28214777986885">
+<ele>80.1324415761471</ele>
+<name>SMC114</name>
+</rtept>
+<rtept lat="57.2104413810939" lon="-6.28311647616254">
+<ele>62.8250100327492</ele>
+<name>SMC115</name>
+</rtept>
+<rtept lat="57.2105531212125" lon="-6.28405759252199">
+<ele>54.3450100327492</ele>
+<name>SMC116</name>
+</rtept>
+<rtept lat="57.2108192556958" lon="-6.28548071698462">
+<ele>38.0435612681866</ele>
+<name>SMC117</name>
+</rtept>
+<rtept lat="57.2110860120876" lon="-6.28662217071978">
+<ele>29.754606088233</ele>
+<name>SMC118</name>
+</rtept>
+<rtept lat="57.2114433902895" lon="-6.28800621243496">
+<ele>16.0914243801594</ele>
+<name>SMC119</name>
+</rtept>
+<rtept lat="57.2113480870963" lon="-6.28842607893467">
+<ele>15.2514243801594</ele>
+<name>SMC120</name>
+</rtept>
+<rtept lat="57.2107550914733" lon="-6.28867209760656">
+<ele>16.467259131813</ele>
+<name>SMC121</name>
+</rtept>
+<rtept lat="57.2099751862685" lon="-6.2885980620942">
+<ele>15.1011440764427</ele>
+<name>SMC122</name>
+</rtept>
+<rtept lat="57.2079100069682" lon="-6.28771180481653">
+<ele>11.5453093247831</ele>
+<name>SMC123</name>
+</rtept>
+<rtept lat="57.2076809767994" lon="-6.28783436033771">
+<ele>12.5953093247831</ele>
+<name>SMC124</name>
+</rtept>
+<rtept lat="57.2063757103251" lon="-6.29207442532293">
+<ele>9.06348207933064</ele>
+<name>SMC125</name>
+</rtept>
+<rtept lat="57.2057099149295" lon="-6.29234503686769">
+<ele>7.0895971347034</ele>
+<name>SMC126</name>
+</rtept>
+<rtept lat="57.2041685057608" lon="-6.2924475538476">
+<ele>2.76828064668328</ele>
+<name>SMC127</name>
+</rtept>
+<rtept lat="57.2029583105951" lon="-6.29154461049961">
+<ele>2.01821612724662</ele>
+<name>SMC128</name>
+</rtept>
+</rte>
+</gpx>

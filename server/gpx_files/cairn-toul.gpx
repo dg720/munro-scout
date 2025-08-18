@@ -1,0 +1,962 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="Walkhighlands">
+<metadata>
+	<desc>GPX file from Walkhighlands; file is copyright Walkhighlands and must not be publicly shared on other websites. Do not remove this notice.</desc>
+	<copyright author="Walkhighlands"><year>2019</year></copyright>
+</metadata>
+<rte>
+<name>Cairn Toul - Braeriach traverse</name>
+<rtept lat="57.1462306206662" lon="-3.67927608274906">
+<ele>468.897118665159</ele>
+<name>CT2B001</name>
+</rtept>
+<rtept lat="57.1449296075574" lon="-3.67967993805952">
+<ele>483.685574082041</ele>
+<name>CT2B002</name>
+</rtept>
+<rtept lat="57.1447719408882" lon="-3.68018187023603">
+<ele>497.656311872387</ele>
+<name>CT2B003</name>
+</rtept>
+<rtept lat="57.1440425091179" lon="-3.68017194526566">
+<ele>506.894753971577</ele>
+<name>CT2B004</name>
+</rtept>
+<rtept lat="57.1435870285246" lon="-3.68130825589238">
+<ele>496.591930005264</ele>
+<name>CT2B005</name>
+</rtept>
+<rtept lat="57.1440597687727" lon="-3.68169992984466">
+<ele>487.715930005312</ele>
+<name>CT2B006</name>
+</rtept>
+<rtept lat="57.1425144582316" lon="-3.68156040759015">
+<ele>521.048615576076</ele>
+<name>CT2B007</name>
+</rtept>
+<rtept lat="57.1420341920143" lon="-3.68126096347911">
+<ele>523.317906196499</ele>
+<name>CT2B008</name>
+</rtept>
+<rtept lat="57.1402720727213" lon="-3.68134300766779">
+<ele>517.574580043471</ele>
+<name>CT2B009</name>
+</rtept>
+<rtept lat="57.1391548209325" lon="-3.6830507024185">
+<ele>523.958081556314</ele>
+<name>CT2B010</name>
+</rtept>
+<rtept lat="57.1383968261388" lon="-3.68516793147448">
+<ele>526.705627588861</ele>
+<name>CT2B011</name>
+</rtept>
+<rtept lat="57.1380210315922" lon="-3.68785772563889">
+<ele>535.82521065802</ele>
+<name>CT2B012</name>
+</rtept>
+<rtept lat="57.1381620405236" lon="-3.68952992158574">
+<ele>538.929112848234</ele>
+<name>CT2B013</name>
+</rtept>
+<rtept lat="57.1379067244742" lon="-3.69446931377397">
+<ele>544.893602420548</ele>
+<name>CT2B014</name>
+</rtept>
+<rtept lat="57.1372128924592" lon="-3.69554809447806">
+<ele>542.164833861697</ele>
+<name>CT2B015</name>
+</rtept>
+<rtept lat="57.1354678671781" lon="-3.69761977135664">
+<ele>572.89552660892</ele>
+<name>CT2B016</name>
+</rtept>
+<rtept lat="57.135200168828" lon="-3.69881048210323">
+<ele>569.955912320089</ele>
+<name>CT2B017</name>
+</rtept>
+<rtept lat="57.1348824496044" lon="-3.69905039726318">
+<ele>576.487174908662</ele>
+<name>CT2B018</name>
+</rtept>
+<rtept lat="57.1339645279113" lon="-3.70088212828292">
+<ele>592.052612622642</ele>
+<name>CT2B019</name>
+</rtept>
+<rtept lat="57.1334387568718" lon="-3.70115873933575">
+<ele>604.957315950906</ele>
+<name>CT2B020</name>
+</rtept>
+<rtept lat="57.1325541074377" lon="-3.70239043517322">
+<ele>619.018287756896</ele>
+<name>CT2B021</name>
+</rtept>
+<rtept lat="57.1314557461162" lon="-3.70453752214463">
+<ele>633.603600754356</ele>
+<name>CT2B022</name>
+</rtept>
+<rtept lat="57.1304686099542" lon="-3.70590314576607">
+<ele>646.970722372961</ele>
+<name>CT2B023</name>
+</rtept>
+<rtept lat="57.1294107537207" lon="-3.70691848584789">
+<ele>671.966795014429</ele>
+<name>CT2B024</name>
+</rtept>
+<rtept lat="57.1289820651036" lon="-3.70791648237211">
+<ele>686.486519125843</ele>
+<name>CT2B025</name>
+</rtept>
+<rtept lat="57.1280213096412" lon="-3.70872803363896">
+<ele>715.596809980631</ele>
+<name>CT2B026</name>
+</rtept>
+<rtept lat="57.1276108498014" lon="-3.70931048539625">
+<ele>730.591381181526</ele>
+<name>CT2B027</name>
+</rtept>
+<rtept lat="57.1274646916042" lon="-3.70988197987689">
+<ele>719.163591767311</ele>
+<name>CT2B028</name>
+</rtept>
+<rtept lat="57.1265730636663" lon="-3.71069663638203">
+<ele>750.014006051374</ele>
+<name>CT2B029</name>
+</rtept>
+<rtept lat="57.125852375033" lon="-3.71188919325505">
+<ele>719.076074217677</ele>
+<name>CT2B030</name>
+</rtept>
+<rtept lat="57.1251398835762" lon="-3.71248076071076">
+<ele>738.620163257074</ele>
+<name>CT2B031</name>
+</rtept>
+<rtept lat="57.1243836765657" lon="-3.71350970577845">
+<ele>710.953526987839</ele>
+<name>CT2B032</name>
+</rtept>
+<rtept lat="57.1240294136176" lon="-3.71458031459297">
+<ele>684.285962891173</ele>
+<name>CT2B033</name>
+</rtept>
+<rtept lat="57.122990028621" lon="-3.71561921704315">
+<ele>693.574564024448</ele>
+<name>CT2B034</name>
+</rtept>
+<rtept lat="57.1223173623157" lon="-3.71697567035646">
+<ele>670.95833680625</ele>
+<name>CT2B035</name>
+</rtept>
+<rtept lat="57.1216796394311" lon="-3.71761679862592">
+<ele>668.788147093582</ele>
+<name>CT2B036</name>
+</rtept>
+<rtept lat="57.1185002272628" lon="-3.71968948058879">
+<ele>630.002637953234</ele>
+<name>CT2B037</name>
+</rtept>
+<rtept lat="57.113175087353" lon="-3.72046000004409">
+<ele>641.8720520028</ele>
+<name>CT2B038</name>
+</rtept>
+<rtept lat="57.112029344942" lon="-3.71962081639411">
+<ele>641.33253552376</ele>
+<name>CT2B039</name>
+</rtept>
+<rtept lat="57.1079625336153" lon="-3.71393053248104">
+<ele>696.911634837508</ele>
+<name>CT2B040</name>
+</rtept>
+<rtept lat="57.1068044895248" lon="-3.71306798854999">
+<ele>690.339667344475</ele>
+<name>CT2B041</name>
+</rtept>
+<rtept lat="57.1065867348624" lon="-3.71243380136723">
+<ele>698.202605211782</ele>
+<name>CT2B042</name>
+</rtept>
+<rtept lat="57.1044434784036" lon="-3.71048574365224">
+<ele>734.506952310181</ele>
+<name>CT2B043</name>
+</rtept>
+<rtept lat="57.1034956789078" lon="-3.70896276002531">
+<ele>737.704336661863</ele>
+<name>CT2B044</name>
+</rtept>
+<rtept lat="57.1008495338757" lon="-3.70606744421784">
+<ele>751.377895994425</ele>
+<name>CT2B045</name>
+</rtept>
+<rtept lat="57.0996716227066" lon="-3.70388702784407">
+<ele>761.02255623467</ele>
+<name>CT2B046</name>
+</rtept>
+<rtept lat="57.098860101464" lon="-3.7033577402082">
+<ele>749.946639088623</ele>
+<name>CT2B047</name>
+</rtept>
+<rtept lat="57.0960286870586" lon="-3.69987036934058">
+<ele>789.163067892007</ele>
+<name>CT2B048</name>
+</rtept>
+<rtept lat="57.0952912396338" lon="-3.69939093710734">
+<ele>796.469926348202</ele>
+<name>CT2B049</name>
+</rtept>
+<rtept lat="57.0948791159101" lon="-3.69971551535112">
+<ele>817.922251099205</ele>
+<name>CT2B050</name>
+</rtept>
+<rtept lat="57.0931527136519" lon="-3.69808828172504">
+<ele>840.746004764032</ele>
+<name>CT2B051</name>
+</rtept>
+<rtept lat="57.0929437864635" lon="-3.69684896648595">
+<ele>825.441961826788</ele>
+<name>CT2B052</name>
+</rtept>
+<rtept lat="57.0912759511912" lon="-3.69502172465988">
+<ele>840.218992661309</ele>
+<name>CT2B053</name>
+</rtept>
+<rtept lat="57.0896693843975" lon="-3.6952783840418">
+<ele>831.682165453306</ele>
+<name>CT2B054</name>
+</rtept>
+<rtept lat="57.0894226475798" lon="-3.69492054121176">
+<ele>824.615350327612</ele>
+<name>CT2B055</name>
+</rtept>
+<rtept lat="57.0876708545229" lon="-3.69470198387097">
+<ele>815.681475661054</ele>
+<name>CT2B056</name>
+</rtept>
+<rtept lat="57.0869523121926" lon="-3.69528145683402">
+<ele>817.70385671906</ele>
+<name>CT2B057</name>
+</rtept>
+<rtept lat="57.0863573717925" lon="-3.69509258176768">
+<ele>816.030560087319</ele>
+<name>CT2B058</name>
+</rtept>
+<rtept lat="57.0854207512189" lon="-3.69593281362507">
+<ele>829.519032958078</ele>
+<name>CT2B059</name>
+</rtept>
+<rtept lat="57.0843847623752" lon="-3.69445967297179">
+<ele>812.912848509526</ele>
+<name>CT2B060</name>
+</rtept>
+<rtept lat="57.0838910134493" lon="-3.69422923566209">
+<ele>812.69953011108</ele>
+<name>CT2B061</name>
+</rtept>
+<rtept lat="57.0836129299571" lon="-3.69479410007766">
+<ele>801.033847969343</ele>
+<name>CT2B062</name>
+</rtept>
+<rtept lat="57.0832502818696" lon="-3.69510097967271">
+<ele>793.409111114704</ele>
+<name>CT2B063</name>
+</rtept>
+<rtept lat="57.0805591298412" lon="-3.6950475066822">
+<ele>769.325011916371</ele>
+<name>CT2B064</name>
+</rtept>
+<rtept lat="57.0802355598756" lon="-3.69479019885203">
+<ele>768.73292002393</ele>
+<name>CT2B065</name>
+</rtept>
+<rtept lat="57.0754734980337" lon="-3.69480905166835">
+<ele>749.606314970207</ele>
+<name>CT2B066</name>
+</rtept>
+<rtept lat="57.074552018651" lon="-3.69458226077153">
+<ele>721.918876877463</ele>
+<name>CT2B067</name>
+</rtept>
+<rtept lat="57.0731067278003" lon="-3.69546976481075">
+<ele>698.12946716874</ele>
+<name>CT2B068</name>
+</rtept>
+<rtept lat="57.0726423373205" lon="-3.69492894332877">
+<ele>699.799382182381</ele>
+<name>CT2B069</name>
+</rtept>
+<rtept lat="57.0716271986235" lon="-3.69465170905696">
+<ele>685.754557528701</ele>
+<name>CT2B070</name>
+</rtept>
+<rtept lat="57.0698864776529" lon="-3.69361397828587">
+<ele>667.897230119737</ele>
+<name>CT2B071</name>
+</rtept>
+<rtept lat="57.0693667559022" lon="-3.69297833588333">
+<ele>667.360270148446</ele>
+<name>CT2B072</name>
+</rtept>
+<rtept lat="57.0658398770973" lon="-3.69095242987577">
+<ele>618.401160321396</ele>
+<name>CT2B073</name>
+</rtept>
+<rtept lat="57.0646885660871" lon="-3.69004573543896">
+<ele>622.377546411276</ele>
+<name>CT2B074</name>
+</rtept>
+<rtept lat="57.0638545740088" lon="-3.68846082848681">
+<ele>624.794872943306</ele>
+<name>CT2B075</name>
+</rtept>
+<rtept lat="57.0591420382086" lon="-3.68397078496525">
+<ele>584.566714865728</ele>
+<name>CT2B076</name>
+</rtept>
+<rtept lat="57.0583422880248" lon="-3.68352407410248">
+<ele>583.204995542598</ele>
+<name>CT2B077</name>
+</rtept>
+<rtept lat="57.0566743451887" lon="-3.68320112537865">
+<ele>582.139158058476</ele>
+<name>CT2B078</name>
+</rtept>
+<rtept lat="57.0521347657758" lon="-3.67929606073608">
+<ele>592.617849134398</ele>
+<name>CT2B079</name>
+</rtept>
+<rtept lat="57.0506017949256" lon="-3.67823436441806">
+<ele>576.205379822058</ele>
+<name>CT2B080</name>
+</rtept>
+<rtept lat="57.0482378741012" lon="-3.67722761548364">
+<ele>578.49190362184</ele>
+<name>CT2B081</name>
+</rtept>
+<rtept lat="57.047202538798" lon="-3.67703246961857">
+<ele>567.64863876324</ele>
+<name>CT2B082</name>
+</rtept>
+<rtept lat="57.0460250721902" lon="-3.67619308257675">
+<ele>567.179048702971</ele>
+<name>CT2B083</name>
+</rtept>
+<rtept lat="57.0447162584965" lon="-3.67610445013846">
+<ele>562.171270934066</ele>
+<name>CT2B084</name>
+</rtept>
+<rtept lat="57.0442449220995" lon="-3.67575529691649">
+<ele>573.965733260536</ele>
+<name>CT2B085</name>
+</rtept>
+<rtept lat="57.0427413027665" lon="-3.67531836097818">
+<ele>558.09448223362</ele>
+<name>CT2B086</name>
+</rtept>
+<rtept lat="57.0415399590037" lon="-3.67416643124762">
+<ele>560.610344979706</ele>
+<name>CT2B087</name>
+</rtept>
+<rtept lat="57.0400851223995" lon="-3.6735076333931">
+<ele>563.019575777232</ele>
+<name>CT2B088</name>
+</rtept>
+<rtept lat="57.0394866903741" lon="-3.67351039009242">
+<ele>561.720758652858</ele>
+<name>CT2B089</name>
+</rtept>
+<rtept lat="57.0407127162555" lon="-3.67616147119888">
+<ele>549.085236463985</ele>
+<name>CT2B090</name>
+</rtept>
+<rtept lat="57.0406249546725" lon="-3.67667670667564">
+<ele>549.758500596598</ele>
+<name>CT2B091</name>
+</rtept>
+<rtept lat="57.0404708097343" lon="-3.67671426338828">
+<ele>549.78380854434</ele>
+<name>CT2B092</name>
+</rtept>
+<rtept lat="57.0412922268771" lon="-3.67817535929407">
+<ele>550.368152652262</ele>
+<name>CT2B093</name>
+</rtept>
+<rtept lat="57.0417722134681" lon="-3.6797694536875">
+<ele>554.857732132732</ele>
+<name>CT2B094</name>
+</rtept>
+<rtept lat="57.042024780682" lon="-3.68083410585798">
+<ele>560.019939366302</ele>
+<name>CT2B095</name>
+</rtept>
+<rtept lat="57.0418638679917" lon="-3.68137571267891">
+<ele>563.512974967185</ele>
+<name>CT2B096</name>
+</rtept>
+<rtept lat="57.0418880316459" lon="-3.68198501787395">
+<ele>569.28378618972</ele>
+<name>CT2B097</name>
+</rtept>
+<rtept lat="57.0421860801422" lon="-3.6832742649305">
+<ele>584.361842095252</ele>
+<name>CT2B098</name>
+</rtept>
+<rtept lat="57.0422724003662" lon="-3.68467262518981">
+<ele>608.734657847914</ele>
+<name>CT2B099</name>
+</rtept>
+<rtept lat="57.0421999687911" lon="-3.6852478957115">
+<ele>622.421932613828</ele>
+<name>CT2B100</name>
+</rtept>
+<rtept lat="57.0416774627702" lon="-3.68621813767467">
+<ele>649.083826194054</ele>
+<name>CT2B101</name>
+</rtept>
+<rtept lat="57.0410833201892" lon="-3.68650273309524">
+<ele>669.817997611846</ele>
+<name>CT2B102</name>
+</rtept>
+<rtept lat="57.0407752093598" lon="-3.68776449763598">
+<ele>691.959587667587</ele>
+<name>CT2B103</name>
+</rtept>
+<rtept lat="57.0401520006112" lon="-3.69498996716491">
+<ele>772.845767187921</ele>
+<name>CT2B104</name>
+</rtept>
+<rtept lat="57.0397520474638" lon="-3.69586177076148">
+<ele>798.593299363154</ele>
+<name>CT2B105</name>
+</rtept>
+<rtept lat="57.0399331025886" lon="-3.69622603108698">
+<ele>803.473828049403</ele>
+<name>CT2B106</name>
+</rtept>
+<rtept lat="57.0392908978064" lon="-3.69707193594484">
+<ele>843.929936831642</ele>
+<name>CT2B107</name>
+</rtept>
+<rtept lat="57.0395788598139" lon="-3.69790091552427">
+<ele>861.682687887191</ele>
+<name>CT2B108</name>
+</rtept>
+<rtept lat="57.0383511208242" lon="-3.6983937288355">
+<ele>909.37343830209</ele>
+<name>CT2B109</name>
+</rtept>
+<rtept lat="57.0361068212707" lon="-3.69428507776584">
+<ele>951.751477776229</ele>
+<name>CT2B110</name>
+</rtept>
+<rtept lat="57.0358058795136" lon="-3.68876043753273">
+<ele>872.582543446922</ele>
+<name>CT2B111</name>
+</rtept>
+<rtept lat="57.0361468210063" lon="-3.69425064203214">
+<ele>951.993477776229</ele>
+<name>CT2B112</name>
+</rtept>
+<rtept lat="57.0376489251253" lon="-3.69718340437109">
+<ele>918.97340937562</ele>
+<name>CT2B113</name>
+</rtept>
+<rtept lat="57.0383783985948" lon="-3.69898016374497">
+<ele>915.733489644534</ele>
+<name>CT2B114</name>
+</rtept>
+<rtept lat="57.0389771469506" lon="-3.69981509205394">
+<ele>914.91276855889</ele>
+<name>CT2B115</name>
+</rtept>
+<rtept lat="57.0412412176957" lon="-3.70172983353678">
+<ele>965.61619421733</ele>
+<name>CT2B116</name>
+</rtept>
+<rtept lat="57.0418370493202" lon="-3.70251364160576">
+<ele>985.815656014089</ele>
+<name>CT2B117</name>
+</rtept>
+<rtept lat="57.0424256272635" lon="-3.70442458457366">
+<ele>1028.76020637793</ele>
+<name>CT2B118</name>
+</rtept>
+<rtept lat="57.0427691067354" lon="-3.70651720338058">
+<ele>1068.35957885841</ele>
+<name>CT2B119</name>
+</rtept>
+<rtept lat="57.0436386965407" lon="-3.70759730641382">
+<ele>1076.31759069653</ele>
+<name>CT2B120</name>
+</rtept>
+<rtept lat="57.0438291397278" lon="-3.70839067031094">
+<ele>1078.62669425119</ele>
+<name>CT2B121</name>
+</rtept>
+<rtept lat="57.0454011840143" lon="-3.70978314658788">
+<ele>1180.78257254418</ele>
+<name>CT2B122</name>
+</rtept>
+<rtept lat="57.0465373839095" lon="-3.71125965703598">
+<ele>1206.10139898981</ele>
+<name>CT2B123</name>
+</rtept>
+<rtept lat="57.0466921013902" lon="-3.71198397567267">
+<ele>1188.64102516831</ele>
+<name>CT2B124</name>
+</rtept>
+<rtept lat="57.047194265514" lon="-3.7130423541089">
+<ele>1201.02596734861</ele>
+<name>CT2B125</name>
+</rtept>
+<rtept lat="57.0484848840166" lon="-3.71393431432247">
+<ele>1166.99311239729</ele>
+<name>CT2B126</name>
+</rtept>
+<rtept lat="57.0504998579458" lon="-3.71376336475112">
+<ele>1141.66706811199</ele>
+<name>CT2B127</name>
+</rtept>
+<rtept lat="57.0518260510807" lon="-3.71271157439544">
+<ele>1150.13348063965</ele>
+<name>CT2B128</name>
+</rtept>
+<rtept lat="57.0529938533039" lon="-3.71041408406915">
+<ele>1277.02165883514</ele>
+<name>CT2B129</name>
+</rtept>
+<rtept lat="57.0543962471455" lon="-3.7107029224047">
+<ele>1248.83848457403</ele>
+<name>CT2B130</name>
+</rtept>
+<rtept lat="57.0540040638118" lon="-3.71400715605891">
+<ele>1224.7063547348</ele>
+<name>CT2B131</name>
+</rtept>
+<rtept lat="57.0541867668231" lon="-3.71601890576537">
+<ele>1187.1050073838</ele>
+<name>CT2B132</name>
+</rtept>
+<rtept lat="57.054068905497" lon="-3.71694835283045">
+<ele>1169.62922776241</ele>
+<name>CT2B133</name>
+</rtept>
+<rtept lat="57.0544368802523" lon="-3.71841961933027">
+<ele>1144.49583952473</ele>
+<name>CT2B134</name>
+</rtept>
+<rtept lat="57.0548018569275" lon="-3.71930388823941">
+<ele>1160.79360582495</ele>
+<name>CT2B135</name>
+</rtept>
+<rtept lat="57.0558537224155" lon="-3.72089424196604">
+<ele>1132.40272116678</ele>
+<name>CT2B136</name>
+</rtept>
+<rtept lat="57.0558931846262" lon="-3.72129180615497">
+<ele>1143.0942818589</ele>
+<name>CT2B137</name>
+</rtept>
+<rtept lat="57.056652927399" lon="-3.72321500941101">
+<ele>1176.69684588325</ele>
+<name>CT2B138</name>
+</rtept>
+<rtept lat="57.0583291036063" lon="-3.72579094201923">
+<ele>1208.9693146004</ele>
+<name>CT2B139</name>
+</rtept>
+<rtept lat="57.0574263010268" lon="-3.72918376555039">
+<ele>1229.52848692528</ele>
+<name>CT2B140</name>
+</rtept>
+<rtept lat="57.0571089721258" lon="-3.72991104574036">
+<ele>1217.52709560767</ele>
+<name>CT2B141</name>
+</rtept>
+<rtept lat="57.056652380491" lon="-3.73193779885305">
+<ele>1205.94231315278</ele>
+<name>CT2B142</name>
+</rtept>
+<rtept lat="57.0566220641674" lon="-3.73296038229096">
+<ele>1197.1175779118</ele>
+<name>CT2B143</name>
+</rtept>
+<rtept lat="57.0562709514684" lon="-3.7337899230094">
+<ele>1187.02105707295</ele>
+<name>CT2B144</name>
+</rtept>
+<rtept lat="57.0561764267432" lon="-3.73511465694902">
+<ele>1160.90474036488</ele>
+<name>CT2B145</name>
+</rtept>
+<rtept lat="57.0563650578646" lon="-3.7357532450113">
+<ele>1160.99715759766</ele>
+<name>CT2B146</name>
+</rtept>
+<rtept lat="57.0562295217933" lon="-3.73744212480277">
+<ele>1157.03657150741</ele>
+<name>CT2B147</name>
+</rtept>
+<rtept lat="57.0563089378263" lon="-3.73805088783054">
+<ele>1132.46554605576</ele>
+<name>CT2B148</name>
+</rtept>
+<rtept lat="57.056739203926" lon="-3.73909499570827">
+<ele>1126.36275230301</ele>
+<name>CT2B149</name>
+</rtept>
+<rtept lat="57.0570662830062" lon="-3.74348830219376">
+<ele>1140.54532301003</ele>
+<name>CT2B150</name>
+</rtept>
+<rtept lat="57.057397849536" lon="-3.7440677990861">
+<ele>1149.05976150763</ele>
+<name>CT2B151</name>
+</rtept>
+<rtept lat="57.0577557729524" lon="-3.74721779179973">
+<ele>1164.85104897709</ele>
+<name>CT2B152</name>
+</rtept>
+<rtept lat="57.059079707582" lon="-3.74871787112187">
+<ele>1209.97070100422</ele>
+<name>CT2B153</name>
+</rtept>
+<rtept lat="57.0592504556937" lon="-3.74980933848155">
+<ele>1211.53307593254</ele>
+<name>CT2B154</name>
+</rtept>
+<rtept lat="57.0606625907688" lon="-3.7511819015541">
+<ele>1241.96187859344</ele>
+<name>CT2B155</name>
+</rtept>
+<rtept lat="57.0611180413346" lon="-3.75099555795649">
+<ele>1242.76332952372</ele>
+<name>CT2B156</name>
+</rtept>
+<rtept lat="57.0622891999371" lon="-3.74993749789925">
+<ele>1251.67262509392</ele>
+<name>CT2B157</name>
+</rtept>
+<rtept lat="57.06316012359" lon="-3.74875969851665">
+<ele>1255.0232921864</ele>
+<name>CT2B158</name>
+</rtept>
+<rtept lat="57.0649416668981" lon="-3.74477792270989">
+<ele>1230.15425400572</ele>
+<name>CT2B159</name>
+</rtept>
+<rtept lat="57.0674384508366" lon="-3.74646536352378">
+<ele>1239.05888549713</ele>
+<name>CT2B160</name>
+</rtept>
+<rtept lat="57.068645520494" lon="-3.74643794990888">
+<ele>1222.79925508752</ele>
+<name>CT2B161</name>
+</rtept>
+<rtept lat="57.0695065835925" lon="-3.74602973477117">
+<ele>1212.50201179041</ele>
+<name>CT2B162</name>
+</rtept>
+<rtept lat="57.0712187557636" lon="-3.7468113480231">
+<ele>1198.55707421756</ele>
+<name>CT2B163</name>
+</rtept>
+<rtept lat="57.0715443791034" lon="-3.74536674396084">
+<ele>1200.66998526827</ele>
+<name>CT2B164</name>
+</rtept>
+<rtept lat="57.0725260936109" lon="-3.74308672430409">
+<ele>1209.00088512377</ele>
+<name>CT2B165</name>
+</rtept>
+<rtept lat="57.0727751682559" lon="-3.73945264463527">
+<ele>1221.75084736764</ele>
+<name>CT2B166</name>
+</rtept>
+<rtept lat="57.0738862015666" lon="-3.73423215982239">
+<ele>1248.92127417598</ele>
+<name>CT2B167</name>
+</rtept>
+<rtept lat="57.0747353063549" lon="-3.73247685413779">
+<ele>1259.86243491497</ele>
+<name>CT2B168</name>
+</rtept>
+<rtept lat="57.07595593448" lon="-3.73146798451585">
+<ele>1281.3956946955</ele>
+<name>CT2B169</name>
+</rtept>
+<rtept lat="57.0770586953094" lon="-3.7301450387009">
+<ele>1278.37297878218</ele>
+<name>CT2B170</name>
+</rtept>
+<rtept lat="57.0778661905124" lon="-3.73037247761246">
+<ele>1231.93891011305</ele>
+<name>CT2B171</name>
+</rtept>
+<rtept lat="57.0781600713288" lon="-3.73002802815811">
+<ele>1285.10398087166</ele>
+<name>CT2B172</name>
+</rtept>
+<rtept lat="57.0782923911109" lon="-3.72846193363857">
+<ele>1198.80991494908</ele>
+<name>CT2B173</name>
+</rtept>
+<rtept lat="57.0788887418438" lon="-3.72703267726711">
+<ele>1280.78291879377</ele>
+<name>CT2B174</name>
+</rtept>
+<rtept lat="57.0797415054583" lon="-3.72599663792065">
+<ele>1243.72139069147</ele>
+<name>CT2B175</name>
+</rtept>
+<rtept lat="57.0797601695307" lon="-3.72031325500104">
+<ele>1256.02218054332</ele>
+<name>CT2B176</name>
+</rtept>
+<rtept lat="57.0790885731413" lon="-3.7158223808842">
+<ele>1208.02739460344</ele>
+<name>CT2B177</name>
+</rtept>
+<rtept lat="57.079624404097" lon="-3.71456521014348">
+<ele>1192.69289024966</ele>
+<name>CT2B178</name>
+</rtept>
+<rtept lat="57.0808541663137" lon="-3.71271289018319">
+<ele>1162.40945985656</ele>
+<name>CT2B179</name>
+</rtept>
+<rtept lat="57.0837904318922" lon="-3.70906116984812">
+<ele>1126.76981912992</ele>
+<name>CT2B180</name>
+</rtept>
+<rtept lat="57.0854772117011" lon="-3.70824765129415">
+<ele>1171.19408012462</ele>
+<name>CT2B181</name>
+</rtept>
+<rtept lat="57.0885042919178" lon="-3.70750381466701">
+<ele>1159.98512287145</ele>
+<name>CT2B182</name>
+</rtept>
+<rtept lat="57.0895745882655" lon="-3.70756962577313">
+<ele>1142.68076522665</ele>
+<name>CT2B183</name>
+</rtept>
+<rtept lat="57.0912879295898" lon="-3.70859741946094">
+<ele>1141.32300271912</ele>
+<name>CT2B184</name>
+</rtept>
+<rtept lat="57.0926661645775" lon="-3.7103327137657">
+<ele>1154.93042999457</ele>
+<name>CT2B185</name>
+</rtept>
+<rtept lat="57.0949676980256" lon="-3.71069125940692">
+<ele>1130.43526648471</ele>
+<name>CT2B186</name>
+</rtept>
+<rtept lat="57.1011662598208" lon="-3.71521816889566">
+<ele>984.142795240039</ele>
+<name>CT2B187</name>
+</rtept>
+<rtept lat="57.102171273407" lon="-3.71646154851778">
+<ele>957.149493651056</ele>
+<name>CT2B188</name>
+</rtept>
+<rtept lat="57.1036769761667" lon="-3.71984973771914">
+<ele>943.474643995684</ele>
+<name>CT2B189</name>
+</rtept>
+<rtept lat="57.1042466049733" lon="-3.72073467730168">
+<ele>918.742388881111</ele>
+<name>CT2B190</name>
+</rtept>
+<rtept lat="57.1051767761033" lon="-3.72137218986745">
+<ele>914.40542577346</ele>
+<name>CT2B191</name>
+</rtept>
+<rtept lat="57.1057310887124" lon="-3.72255368093381">
+<ele>876.628449365759</ele>
+<name>CT2B192</name>
+</rtept>
+<rtept lat="57.1069142315576" lon="-3.72325254470044">
+<ele>844.546103626824</ele>
+<name>CT2B193</name>
+</rtept>
+<rtept lat="57.1077831626873" lon="-3.72425884709698">
+<ele>785.784852906489</ele>
+<name>CT2B194</name>
+</rtept>
+<rtept lat="57.1088606005709" lon="-3.7239869036961">
+<ele>753.539783146286</ele>
+<name>CT2B195</name>
+</rtept>
+<rtept lat="57.109307751873" lon="-3.72332239102738">
+<ele>732.433972940159</ele>
+<name>CT2B196</name>
+</rtept>
+<rtept lat="57.1099634483501" lon="-3.71988827914298">
+<ele>671.72409969422</ele>
+<name>CT2B197</name>
+</rtept>
+<rtept lat="57.1106758822463" lon="-3.72028624080087">
+<ele>655.116518443666</ele>
+<name>CT2B198</name>
+</rtept>
+<rtept lat="57.1113240506807" lon="-3.71868803318419">
+<ele>628.930744063161</ele>
+<name>CT2B199</name>
+</rtept>
+<rtept lat="57.1120894665209" lon="-3.71967799274392">
+<ele>611.53146977767</ele>
+<name>CT2B200</name>
+</rtept>
+<rtept lat="57.1131924382389" lon="-3.7204723646342">
+<ele>642.040552002764</ele>
+<name>CT2B201</name>
+</rtept>
+<rtept lat="57.118492975993" lon="-3.71969409956568">
+<ele>630.140637953281</ele>
+<name>CT2B202</name>
+</rtept>
+<rtept lat="57.1217042676745" lon="-3.71758985774558">
+<ele>669.462147093511</ele>
+<name>CT2B203</name>
+</rtept>
+<rtept lat="57.122323444308" lon="-3.71699081859301">
+<ele>671.184336806238</ele>
+<name>CT2B204</name>
+</rtept>
+<rtept lat="57.1229983583598" lon="-3.71560143148992">
+<ele>693.916564024329</ele>
+<name>CT2B205</name>
+</rtept>
+<rtept lat="57.1240413800408" lon="-3.7145593925373">
+<ele>684.298962891197</ele>
+<name>CT2B206</name>
+</rtept>
+<rtept lat="57.1243792997597" lon="-3.71350124384581">
+<ele>710.953526987744</ele>
+<name>CT2B207</name>
+</rtept>
+<rtept lat="57.1251390082013" lon="-3.71247906831325">
+<ele>738.560163257003</ele>
+<name>CT2B208</name>
+</rtept>
+<rtept lat="57.1258569322566" lon="-3.71188444753488">
+<ele>719.122074217606</ele>
+<name>CT2B209</name>
+</rtept>
+<rtept lat="57.1265600648134" lon="-3.71072742574134">
+<ele>749.634006051338</ele>
+<name>CT2B210</name>
+</rtept>
+<rtept lat="57.1274703718016" lon="-3.70986076461081">
+<ele>719.139591767454</ele>
+<name>CT2B211</name>
+</rtept>
+<rtept lat="57.1276037339379" lon="-3.70930520117675">
+<ele>730.777381181574</ele>
+<name>CT2B212</name>
+</rtept>
+<rtept lat="57.1280251038104" lon="-3.70871333943924">
+<ele>715.598809980726</ele>
+<name>CT2B213</name>
+</rtept>
+<rtept lat="57.1289883730509" lon="-3.7079151207044">
+<ele>686.310519125914</ele>
+<name>CT2B214</name>
+</rtept>
+<rtept lat="57.1294337636527" lon="-3.70687824053915">
+<ele>671.21679501462</ele>
+<name>CT2B215</name>
+</rtept>
+<rtept lat="57.1304758158041" lon="-3.70590182500947">
+<ele>646.81272237308</ele>
+<name>CT2B216</name>
+</rtept>
+<rtept lat="57.1314646580266" lon="-3.70454288856095">
+<ele>633.520600754428</ele>
+<name>CT2B217</name>
+</rtept>
+<rtept lat="57.1325540401913" lon="-3.70239538901847">
+<ele>619.003287756968</ele>
+<name>CT2B218</name>
+</rtept>
+<rtept lat="57.1334467710017" lon="-3.70116406404528">
+<ele>604.801315950966</ele>
+<name>CT2B219</name>
+</rtept>
+<rtept lat="57.133944661572" lon="-3.70088947887965">
+<ele>592.402612622738</ele>
+<name>CT2B220</name>
+</rtept>
+<rtept lat="57.1348770844195" lon="-3.69904849900661">
+<ele>576.663174908781</ele>
+<name>CT2B221</name>
+</rtept>
+<rtept lat="57.1352124489963" lon="-3.698832526297">
+<ele>569.810912320161</ele>
+<name>CT2B222</name>
+</rtept>
+<rtept lat="57.1354716600645" lon="-3.6976050730593">
+<ele>572.891526608992</ele>
+<name>CT2B223</name>
+</rtept>
+<rtept lat="57.1372110296246" lon="-3.69555296683563">
+<ele>542.158833861673</ele>
+<name>CT2B224</name>
+</rtept>
+<rtept lat="57.1378904502104" lon="-3.69447683271008">
+<ele>544.853602420533</ele>
+<name>CT2B225</name>
+</rtept>
+<rtept lat="57.1381642590833" lon="-3.6894986241165">
+<ele>538.900112848174</ele>
+<name>CT2B226</name>
+</rtept>
+<rtept lat="57.1380156662323" lon="-3.68785582882938">
+<ele>535.850210658032</ele>
+<name>CT2B227</name>
+</rtept>
+<rtept lat="57.1384108158154" lon="-3.68519666097395">
+<ele>526.689627588867</ele>
+<name>CT2B228</name>
+</rtept>
+<rtept lat="57.1391543884072" lon="-3.68301597821976">
+<ele>523.877081556332</ele>
+<name>CT2B229</name>
+</rtept>
+<rtept lat="57.1402641463007" lon="-3.68133107964665">
+<ele>517.538580043501</ele>
+<name>CT2B230</name>
+</rtept>
+<rtept lat="57.1420440471414" lon="-3.68126306317913">
+<ele>522.968906196642</ele>
+<name>CT2B231</name>
+</rtept>
+<rtept lat="57.1424984504403" lon="-3.68154811219605">
+<ele>521.76161557622</ele>
+<name>CT2B232</name>
+</rtept>
+<rtept lat="57.144055035502" lon="-3.68171789607674">
+<ele>487.995930005407</ele>
+<name>CT2B233</name>
+</rtept>
+<rtept lat="57.1435844454282" lon="-3.68129987475138">
+<ele>496.585930005407</ele>
+<name>CT2B234</name>
+</rtept>
+<rtept lat="57.1440394834277" lon="-3.68019660034207">
+<ele>506.549753971481</ele>
+<name>CT2B235</name>
+</rtept>
+<rtept lat="57.1447941900883" lon="-3.68019775443273">
+<ele>497.854311872292</ele>
+<name>CT2B236</name>
+</rtept>
+<rtept lat="57.1449272013086" lon="-3.67965834190751">
+<ele>484.154574082184</ele>
+<name>CT2B237</name>
+</rtept>
+<rtept lat="57.1462306870097" lon="-3.67927112701742">
+<ele>468.843118665147</ele>
+<name>CT2B238</name>
+</rtept>
+</rte>
+</gpx>

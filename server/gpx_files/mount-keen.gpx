@@ -1,0 +1,742 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="Walkhighlands">
+<metadata>
+	<desc>GPX file from Walkhighlands; file is copyright Walkhighlands and must not be publicly shared on other websites. Do not remove this notice.</desc>
+	<copyright author="Walkhighlands"><year>2019</year></copyright>
+</metadata>
+<rte>
+<name>Mount Keen from Glen Esk</name>
+<rtept lat="56.9114215845616" lon="-2.91041144821386">
+<ele>256.240662173206</ele>
+<name>MK 001</name>
+</rtept>
+<rtept lat="56.911296192179" lon="-2.91060547377112">
+<ele>255.527144455881</ele>
+<name>MK 002</name>
+</rtept>
+<rtept lat="56.9113180381297" lon="-2.91278371254094">
+<ele>257.261320959054</ele>
+<name>MK 003</name>
+</rtept>
+<rtept lat="56.9116909688364" lon="-2.91412309986594">
+<ele>257.645172920388</ele>
+<name>MK 004</name>
+</rtept>
+<rtept lat="56.912797012108" lon="-2.9147216780339">
+<ele>260.011098298725</ele>
+<name>MK 005</name>
+</rtept>
+<rtept lat="56.913257885244" lon="-2.91582678647571">
+<ele>259.856788251766</ele>
+<name>MK 006</name>
+</rtept>
+<rtept lat="56.913482436512" lon="-2.91607864598016">
+<ele>260.156605649409</ele>
+<name>MK 007</name>
+</rtept>
+<rtept lat="56.9137709803521" lon="-2.91715985676269">
+<ele>259.912089206121</ele>
+<name>MK 008</name>
+</rtept>
+<rtept lat="56.9142849669953" lon="-2.91763562981812">
+<ele>264.330674630946</ele>
+<name>MK 009</name>
+</rtept>
+<rtept lat="56.9144946483548" lon="-2.91770975730465">
+<ele>265.735044009504</ele>
+<name>MK 010</name>
+</rtept>
+<rtept lat="56.9151347939557" lon="-2.91862225963619">
+<ele>268.69486545804</ele>
+<name>MK 011</name>
+</rtept>
+<rtept lat="56.9156609083751" lon="-2.92037952246498">
+<ele>271.367657246863</ele>
+<name>MK 012</name>
+</rtept>
+<rtept lat="56.9158832161904" lon="-2.92166615510168">
+<ele>270.437172920392</ele>
+<name>MK 013</name>
+</rtept>
+<rtept lat="56.9163265412967" lon="-2.9222191168971">
+<ele>271.106461758995</ele>
+<name>MK 014</name>
+</rtept>
+<rtept lat="56.916831401839" lon="-2.92246809460902">
+<ele>275.246057567643</ele>
+<name>MK 015</name>
+</rtept>
+<rtept lat="56.9181052792326" lon="-2.92369205451942">
+<ele>284.96306131245</ele>
+<name>MK 016</name>
+</rtept>
+<rtept lat="56.9183762759792" lon="-2.92495042863623">
+<ele>287.684373169725</ele>
+<name>MK 017</name>
+</rtept>
+<rtept lat="56.9188867298588" lon="-2.92589936364174">
+<ele>291.418336565488</ele>
+<name>MK 018</name>
+</rtept>
+<rtept lat="56.9189778224834" lon="-2.92682150423639">
+<ele>291.477809809668</ele>
+<name>MK 019</name>
+</rtept>
+<rtept lat="56.9191220016378" lon="-2.92773182519187">
+<ele>292.607750105315</ele>
+<name>MK 020</name>
+</rtept>
+<rtept lat="56.9191001272241" lon="-2.92850004634816">
+<ele>290.503009138722</ele>
+<name>MK 021</name>
+</rtept>
+<rtept lat="56.919369568976" lon="-2.92923608187618">
+<ele>291.159525300666</ele>
+<name>MK 022</name>
+</rtept>
+<rtept lat="56.9194474063584" lon="-2.92964211372162">
+<ele>289.767785607462</ele>
+<name>MK 023</name>
+</rtept>
+<rtept lat="56.9197689017338" lon="-2.93062586269047">
+<ele>289.370111049604</ele>
+<name>MK 024</name>
+</rtept>
+<rtept lat="56.9202086154027" lon="-2.93238136094037">
+<ele>289.011933038125</ele>
+<name>MK 025</name>
+</rtept>
+<rtept lat="56.9203529531984" lon="-2.93254266043529">
+<ele>289.766279763051</ele>
+<name>MK 026</name>
+</rtept>
+<rtept lat="56.9206486350562" lon="-2.93264859805739">
+<ele>292.84969032316</ele>
+<name>MK 027</name>
+</rtept>
+<rtept lat="56.920650494849" lon="-2.93312174975686">
+<ele>291.989356807092</ele>
+<name>MK 028</name>
+</rtept>
+<rtept lat="56.9210373845037" lon="-2.93472815169085">
+<ele>292.404219822026</ele>
+<name>MK 029</name>
+</rtept>
+<rtept lat="56.9214576967482" lon="-2.93618757549467">
+<ele>295.210317376292</ele>
+<name>MK 030</name>
+</rtept>
+<rtept lat="56.9218892915131" lon="-2.93685877996106">
+<ele>297.881734636709</ele>
+<name>MK 031</name>
+</rtept>
+<rtept lat="56.9222082896093" lon="-2.93816786728386">
+<ele>296.523509180774</ele>
+<name>MK 032</name>
+</rtept>
+<rtept lat="56.9224673391564" lon="-2.93884463269299">
+<ele>295.777684718211</ele>
+<name>MK 033</name>
+</rtept>
+<rtept lat="56.9225960768982" lon="-2.9396462725792">
+<ele>292.590800806995</ele>
+<name>MK 034</name>
+</rtept>
+<rtept lat="56.9238804602106" lon="-2.94160070982273">
+<ele>294.269660534545</ele>
+<name>MK 035</name>
+</rtept>
+<rtept lat="56.9247742877575" lon="-2.94316098462282">
+<ele>296.720770576479</ele>
+<name>MK 036</name>
+</rtept>
+<rtept lat="56.9253280554072" lon="-2.94335239172337">
+<ele>298.027740191373</ele>
+<name>MK 037</name>
+</rtept>
+<rtept lat="56.9259650582416" lon="-2.9453695937029">
+<ele>298.472350096776</ele>
+<name>MK 038</name>
+</rtept>
+<rtept lat="56.9260555060315" lon="-2.94623936733266">
+<ele>296.358287177317</ele>
+<name>MK 039</name>
+</rtept>
+<rtept lat="56.9263513411421" lon="-2.94703548554807">
+<ele>295.753172920395</ele>
+<name>MK 040</name>
+</rtept>
+<rtept lat="56.92712225756" lon="-2.94773522286874">
+<ele>299.039383214815</ele>
+<name>MK 041</name>
+</rtept>
+<rtept lat="56.9277976617876" lon="-2.94894519571706">
+<ele>299.118212073404</ele>
+<name>MK 042</name>
+</rtept>
+<rtept lat="56.9287323428094" lon="-2.95008293480599">
+<ele>299.543740191371</ele>
+<name>MK 043</name>
+</rtept>
+<rtept lat="56.9293753956786" lon="-2.9505823544354">
+<ele>301.096308153119</ele>
+<name>MK 044</name>
+</rtept>
+<rtept lat="56.9316633358268" lon="-2.9538053724252">
+<ele>303.013712762157</ele>
+<name>MK 045</name>
+</rtept>
+<rtept lat="56.932624232306" lon="-2.95432780080358">
+<ele>304.565172920397</ele>
+<name>MK 046</name>
+</rtept>
+<rtept lat="56.9333463762213" lon="-2.95505614093026">
+<ele>305.538586460198</ele>
+<name>MK 047</name>
+</rtept>
+<rtept lat="56.9350970519007" lon="-2.95662428015403">
+<ele>314.109197333594</ele>
+<name>MK 048</name>
+</rtept>
+<rtept lat="56.9358157380587" lon="-2.95674621113428">
+<ele>317.436600422664</ele>
+<name>MK 049</name>
+</rtept>
+<rtept lat="56.9361402302936" lon="-2.95660661156039">
+<ele>318.969172920398</ele>
+<name>MK 050</name>
+</rtept>
+<rtept lat="56.9363918219821" lon="-2.95701240370022">
+<ele>319.131172920398</ele>
+<name>MK 051</name>
+</rtept>
+<rtept lat="56.9369328854988" lon="-2.95710021517893">
+<ele>323.423475983471</ele>
+<name>MK 052</name>
+</rtept>
+<rtept lat="56.9372055913636" lon="-2.95738823127876">
+<ele>326.305767853158</ele>
+<name>MK 053</name>
+</rtept>
+<rtept lat="56.9374367438368" lon="-2.9578230989405">
+<ele>327.655624838641</ele>
+<name>MK 054</name>
+</rtept>
+<rtept lat="56.9378634975143" lon="-2.9580559084517">
+<ele>331.720057567658</ele>
+<name>MK 055</name>
+</rtept>
+<rtept lat="56.9380547942493" lon="-2.9584158083166">
+<ele>335.049496758772</ele>
+<name>MK 056</name>
+</rtept>
+<rtept lat="56.9386951655191" lon="-2.95926056964777">
+<ele>346.907124207627</ele>
+<name>MK 057</name>
+</rtept>
+<rtept lat="56.9393178867087" lon="-2.96029720228883">
+<ele>357.257945498184</ele>
+<name>MK 058</name>
+</rtept>
+<rtept lat="56.9398931672711" lon="-2.96066700002884">
+<ele>365.331699663446</ele>
+<name>MK 059</name>
+</rtept>
+<rtept lat="56.9406697000547" lon="-2.96167806364414">
+<ele>386.149223572381</ele>
+<name>MK 060</name>
+</rtept>
+<rtept lat="56.9420656163461" lon="-2.96205423402804">
+<ele>400.489119896553</ele>
+<name>MK 061</name>
+</rtept>
+<rtept lat="56.9424638976334" lon="-2.96283373735285">
+<ele>410.303049663914</ele>
+<name>MK 062</name>
+</rtept>
+<rtept lat="56.9433476819344" lon="-2.96618506870689">
+<ele>442.785598279403</ele>
+<name>MK 063</name>
+</rtept>
+<rtept lat="56.9438964445931" lon="-2.96736797081473">
+<ele>456.790048055384</ele>
+<name>MK 064</name>
+</rtept>
+<rtept lat="56.9453298505859" lon="-2.96916561851034">
+<ele>496.286497516749</ele>
+<name>MK 065</name>
+</rtept>
+<rtept lat="56.9444727193013" lon="-2.96917297047864">
+<ele>501.603549401074</ele>
+<name>MK 066</name>
+</rtept>
+<rtept lat="56.945716355127" lon="-2.97093619426086">
+<ele>533.846603812327</ele>
+<name>MK 067</name>
+</rtept>
+<rtept lat="56.946160284775" lon="-2.97103650080498">
+<ele>538.320053800746</ele>
+<name>MK 068</name>
+</rtept>
+<rtept lat="56.9470829329262" lon="-2.97196298412832">
+<ele>558.756759266252</ele>
+<name>MK 069</name>
+</rtept>
+<rtept lat="56.9474448721395" lon="-2.97220912524488">
+<ele>565.397673987096</ele>
+<name>MK 070</name>
+</rtept>
+<rtept lat="56.9483367864948" lon="-2.97292773123887">
+<ele>570.384833699631</ele>
+<name>MK 071</name>
+</rtept>
+<rtept lat="56.9485790753866" lon="-2.97296363349274">
+<ele>571.068959437899</ele>
+<name>MK 072</name>
+</rtept>
+<rtept lat="56.9498509314475" lon="-2.97369218423096">
+<ele>577.017927363712</ele>
+<name>MK 073</name>
+</rtept>
+<rtept lat="56.950938925944" lon="-2.97414964945953">
+<ele>592.334004200657</ele>
+<name>MK 074</name>
+</rtept>
+<rtept lat="56.9514689052022" lon="-2.97565795078288">
+<ele>601.868029103158</ele>
+<name>MK 075</name>
+</rtept>
+<rtept lat="56.9532815556547" lon="-2.97754019987875">
+<ele>640.341991363373</ele>
+<name>MK 076</name>
+</rtept>
+<rtept lat="56.9536230350269" lon="-2.97833341490581">
+<ele>652.276127619038</ele>
+<name>MK 077</name>
+</rtept>
+<rtept lat="56.954528532256" lon="-2.97937820106905">
+<ele>672.286173131362</ele>
+<name>MK 078</name>
+</rtept>
+<rtept lat="56.9556020747685" lon="-2.97961353503171">
+<ele>688.14319687188</ele>
+<name>MK 079</name>
+</rtept>
+<rtept lat="56.9569115574375" lon="-2.97966268743112">
+<ele>704.056547171497</ele>
+<name>MK 080</name>
+</rtept>
+<rtept lat="56.9574609177328" lon="-2.97972149821525">
+<ele>710.078773975022</ele>
+<name>MK 081</name>
+</rtept>
+<rtept lat="56.9578390342898" lon="-2.97893225474182">
+<ele>715.505674683891</ele>
+<name>MK 082</name>
+</rtept>
+<rtept lat="56.9611401978229" lon="-2.97657670404316">
+<ele>765.207163645118</ele>
+<name>MK 083</name>
+</rtept>
+<rtept lat="56.9632653497445" lon="-2.9757146040138">
+<ele>793.687166581667</ele>
+<name>MK 084</name>
+</rtept>
+<rtept lat="56.9643055171858" lon="-2.97504610187174">
+<ele>822.449645049826</ele>
+<name>MK 085</name>
+</rtept>
+<rtept lat="56.9651082492598" lon="-2.97475622286205">
+<ele>843.926970095726</ele>
+<name>MK 086</name>
+</rtept>
+<rtept lat="56.9657606126916" lon="-2.97404793679434">
+<ele>856.263911196715</ele>
+<name>MK 087</name>
+</rtept>
+<rtept lat="56.9673052216853" lon="-2.97401422887864">
+<ele>893.635632279158</ele>
+<name>MK 088</name>
+</rtept>
+<rtept lat="56.9675576672032" lon="-2.9737839654697">
+<ele>901.252653941815</ele>
+<name>MK 089</name>
+</rtept>
+<rtept lat="56.9679530890821" lon="-2.97388310184664">
+<ele>910.952544338782</ele>
+<name>MK 090</name>
+</rtept>
+<rtept lat="56.9690155407575" lon="-2.97346671138987">
+<ele>925.81548098563</ele>
+<name>MK 091</name>
+</rtept>
+<rtept lat="56.969862857104" lon="-2.97368126502063">
+<ele>934.354776970596</ele>
+<name>MK 092</name>
+</rtept>
+<rtept lat="56.9690155407575" lon="-2.97346671138987">
+<ele>925.81548098563</ele>
+<name>MK 093</name>
+</rtept>
+<rtept lat="56.9679530890821" lon="-2.97388310184664">
+<ele>910.952544338782</ele>
+<name>MK 094</name>
+</rtept>
+<rtept lat="56.9675576672032" lon="-2.9737839654697">
+<ele>901.252653941815</ele>
+<name>MK 095</name>
+</rtept>
+<rtept lat="56.9673052216853" lon="-2.97401422887864">
+<ele>893.635632279158</ele>
+<name>MK 096</name>
+</rtept>
+<rtept lat="56.9657606126916" lon="-2.97404793679434">
+<ele>856.263911196715</ele>
+<name>MK 097</name>
+</rtept>
+<rtept lat="56.9651082492598" lon="-2.97475622286205">
+<ele>843.926970095726</ele>
+<name>MK 098</name>
+</rtept>
+<rtept lat="56.9643055171858" lon="-2.97504610187174">
+<ele>822.449645049826</ele>
+<name>MK 099</name>
+</rtept>
+<rtept lat="56.9632653497445" lon="-2.9757146040138">
+<ele>793.687166581667</ele>
+<name>MK 100</name>
+</rtept>
+<rtept lat="56.9611401978229" lon="-2.97657670404316">
+<ele>765.207163645118</ele>
+<name>MK 101</name>
+</rtept>
+<rtept lat="56.9578390342898" lon="-2.97893225474182">
+<ele>715.505674683891</ele>
+<name>MK 102</name>
+</rtept>
+<rtept lat="56.9574609177328" lon="-2.97972149821525">
+<ele>710.078773975022</ele>
+<name>MK 103</name>
+</rtept>
+<rtept lat="56.9569115574375" lon="-2.97966268743112">
+<ele>704.056547171497</ele>
+<name>MK 104</name>
+</rtept>
+<rtept lat="56.9556020747685" lon="-2.97961353503171">
+<ele>688.14319687188</ele>
+<name>MK 105</name>
+</rtept>
+<rtept lat="56.954528532256" lon="-2.97937820106905">
+<ele>672.286173131362</ele>
+<name>MK 106</name>
+</rtept>
+<rtept lat="56.9536230350269" lon="-2.97833341490581">
+<ele>652.276127619038</ele>
+<name>MK 107</name>
+</rtept>
+<rtept lat="56.9532815556547" lon="-2.97754019987875">
+<ele>640.341991363373</ele>
+<name>MK 108</name>
+</rtept>
+<rtept lat="56.9514689052022" lon="-2.97565795078288">
+<ele>601.868029103158</ele>
+<name>MK 109</name>
+</rtept>
+<rtept lat="56.950938925944" lon="-2.97414964945953">
+<ele>592.334004200657</ele>
+<name>MK 110</name>
+</rtept>
+<rtept lat="56.9498509314475" lon="-2.97369218423096">
+<ele>577.017927363712</ele>
+<name>MK 111</name>
+</rtept>
+<rtept lat="56.9485790753866" lon="-2.97296363349274">
+<ele>571.068959437899</ele>
+<name>MK 112</name>
+</rtept>
+<rtept lat="56.9483367864948" lon="-2.97292773123887">
+<ele>570.384833699631</ele>
+<name>MK 113</name>
+</rtept>
+<rtept lat="56.9474448721395" lon="-2.97220912524488">
+<ele>565.397673987096</ele>
+<name>MK 114</name>
+</rtept>
+<rtept lat="56.9470829329262" lon="-2.97196298412832">
+<ele>558.756759266252</ele>
+<name>MK 115</name>
+</rtept>
+<rtept lat="56.946160284775" lon="-2.97103650080498">
+<ele>538.320053800746</ele>
+<name>MK 116</name>
+</rtept>
+<rtept lat="56.945716355127" lon="-2.97093619426086">
+<ele>533.846603812327</ele>
+<name>MK 117</name>
+</rtept>
+<rtept lat="56.9444727193013" lon="-2.96917297047864">
+<ele>501.603549401074</ele>
+<name>MK 118</name>
+</rtept>
+<rtept lat="56.9453298505859" lon="-2.96916561851034">
+<ele>496.286497516749</ele>
+<name>MK 119</name>
+</rtept>
+<rtept lat="56.9438964445931" lon="-2.96736797081473">
+<ele>456.790048055384</ele>
+<name>MK 120</name>
+</rtept>
+<rtept lat="56.9433476819344" lon="-2.96618506870689">
+<ele>442.785598279403</ele>
+<name>MK 121</name>
+</rtept>
+<rtept lat="56.9424638976334" lon="-2.96283373735285">
+<ele>410.303049663914</ele>
+<name>MK 122</name>
+</rtept>
+<rtept lat="56.9420656163461" lon="-2.96205423402804">
+<ele>400.489119896553</ele>
+<name>MK 123</name>
+</rtept>
+<rtept lat="56.9406697000547" lon="-2.96167806364414">
+<ele>386.149223572381</ele>
+<name>MK 124</name>
+</rtept>
+<rtept lat="56.9398931672711" lon="-2.96066700002884">
+<ele>365.331699663446</ele>
+<name>MK 125</name>
+</rtept>
+<rtept lat="56.9393178867087" lon="-2.96029720228883">
+<ele>357.257945498184</ele>
+<name>MK 126</name>
+</rtept>
+<rtept lat="56.9386951655191" lon="-2.95926056964777">
+<ele>346.907124207627</ele>
+<name>MK 127</name>
+</rtept>
+<rtept lat="56.9380547942493" lon="-2.9584158083166">
+<ele>335.049496758772</ele>
+<name>MK 128</name>
+</rtept>
+<rtept lat="56.9378634975143" lon="-2.9580559084517">
+<ele>331.720057567658</ele>
+<name>MK 129</name>
+</rtept>
+<rtept lat="56.9374367438368" lon="-2.9578230989405">
+<ele>327.655624838641</ele>
+<name>MK 130</name>
+</rtept>
+<rtept lat="56.9372055913636" lon="-2.95738823127876">
+<ele>326.305767853158</ele>
+<name>MK 131</name>
+</rtept>
+<rtept lat="56.9369328854988" lon="-2.95710021517893">
+<ele>323.423475983471</ele>
+<name>MK 132</name>
+</rtept>
+<rtept lat="56.9363918219821" lon="-2.95701240370022">
+<ele>319.131172920398</ele>
+<name>MK 133</name>
+</rtept>
+<rtept lat="56.9361402302936" lon="-2.95660661156039">
+<ele>318.969172920398</ele>
+<name>MK 134</name>
+</rtept>
+<rtept lat="56.9358157380587" lon="-2.95674621113428">
+<ele>317.436600422664</ele>
+<name>MK 135</name>
+</rtept>
+<rtept lat="56.9350970519007" lon="-2.95662428015403">
+<ele>314.109197333594</ele>
+<name>MK 136</name>
+</rtept>
+<rtept lat="56.9333463762213" lon="-2.95505614093026">
+<ele>305.538586460198</ele>
+<name>MK 137</name>
+</rtept>
+<rtept lat="56.932624232306" lon="-2.95432780080358">
+<ele>304.565172920397</ele>
+<name>MK 138</name>
+</rtept>
+<rtept lat="56.9316633358268" lon="-2.9538053724252">
+<ele>303.013712762157</ele>
+<name>MK 139</name>
+</rtept>
+<rtept lat="56.9293753956786" lon="-2.9505823544354">
+<ele>301.096308153119</ele>
+<name>MK 140</name>
+</rtept>
+<rtept lat="56.9287323428094" lon="-2.95008293480599">
+<ele>299.543740191371</ele>
+<name>MK 141</name>
+</rtept>
+<rtept lat="56.9277976617876" lon="-2.94894519571706">
+<ele>299.118212073404</ele>
+<name>MK 142</name>
+</rtept>
+<rtept lat="56.92712225756" lon="-2.94773522286874">
+<ele>299.039383214815</ele>
+<name>MK 143</name>
+</rtept>
+<rtept lat="56.9263513411421" lon="-2.94703548554807">
+<ele>295.753172920395</ele>
+<name>MK 144</name>
+</rtept>
+<rtept lat="56.9260555060315" lon="-2.94623936733266">
+<ele>296.358287177317</ele>
+<name>MK 145</name>
+</rtept>
+<rtept lat="56.9259650582416" lon="-2.9453695937029">
+<ele>298.472350096776</ele>
+<name>MK 146</name>
+</rtept>
+<rtept lat="56.9253280554072" lon="-2.94335239172337">
+<ele>298.027740191373</ele>
+<name>MK 147</name>
+</rtept>
+<rtept lat="56.9247742877575" lon="-2.94316098462282">
+<ele>296.720770576479</ele>
+<name>MK 148</name>
+</rtept>
+<rtept lat="56.9238804602106" lon="-2.94160070982273">
+<ele>294.269660534545</ele>
+<name>MK 149</name>
+</rtept>
+<rtept lat="56.9225960768982" lon="-2.9396462725792">
+<ele>292.590800806995</ele>
+<name>MK 150</name>
+</rtept>
+<rtept lat="56.9224673391564" lon="-2.93884463269299">
+<ele>295.777684718211</ele>
+<name>MK 151</name>
+</rtept>
+<rtept lat="56.9222082896093" lon="-2.93816786728386">
+<ele>296.523509180774</ele>
+<name>MK 152</name>
+</rtept>
+<rtept lat="56.9218892915131" lon="-2.93685877996106">
+<ele>297.881734636709</ele>
+<name>MK 153</name>
+</rtept>
+<rtept lat="56.9214576967482" lon="-2.93618757549467">
+<ele>295.210317376292</ele>
+<name>MK 154</name>
+</rtept>
+<rtept lat="56.9210373845037" lon="-2.93472815169085">
+<ele>292.404219822026</ele>
+<name>MK 155</name>
+</rtept>
+<rtept lat="56.920650494849" lon="-2.93312174975686">
+<ele>291.989356807092</ele>
+<name>MK 156</name>
+</rtept>
+<rtept lat="56.9206486350562" lon="-2.93264859805739">
+<ele>292.84969032316</ele>
+<name>MK 157</name>
+</rtept>
+<rtept lat="56.9203529531984" lon="-2.93254266043529">
+<ele>289.766279763051</ele>
+<name>MK 158</name>
+</rtept>
+<rtept lat="56.9202086154027" lon="-2.93238136094037">
+<ele>289.011933038125</ele>
+<name>MK 159</name>
+</rtept>
+<rtept lat="56.9197689017338" lon="-2.93062586269047">
+<ele>289.370111049604</ele>
+<name>MK 160</name>
+</rtept>
+<rtept lat="56.9194474063584" lon="-2.92964211372162">
+<ele>289.767785607462</ele>
+<name>MK 161</name>
+</rtept>
+<rtept lat="56.919369568976" lon="-2.92923608187618">
+<ele>291.159525300666</ele>
+<name>MK 162</name>
+</rtept>
+<rtept lat="56.9191001272241" lon="-2.92850004634816">
+<ele>290.503009138722</ele>
+<name>MK 163</name>
+</rtept>
+<rtept lat="56.9191220016378" lon="-2.92773182519187">
+<ele>292.607750105315</ele>
+<name>MK 164</name>
+</rtept>
+<rtept lat="56.9189778224834" lon="-2.92682150423639">
+<ele>291.477809809668</ele>
+<name>MK 165</name>
+</rtept>
+<rtept lat="56.9188867298588" lon="-2.92589936364174">
+<ele>291.418336565488</ele>
+<name>MK 166</name>
+</rtept>
+<rtept lat="56.9183762759792" lon="-2.92495042863623">
+<ele>287.684373169725</ele>
+<name>MK 167</name>
+</rtept>
+<rtept lat="56.9181052792326" lon="-2.92369205451942">
+<ele>284.96306131245</ele>
+<name>MK 168</name>
+</rtept>
+<rtept lat="56.916831401839" lon="-2.92246809460902">
+<ele>275.246057567643</ele>
+<name>MK 169</name>
+</rtept>
+<rtept lat="56.9163265412967" lon="-2.9222191168971">
+<ele>271.106461758995</ele>
+<name>MK 170</name>
+</rtept>
+<rtept lat="56.9158832161904" lon="-2.92166615510168">
+<ele>270.437172920392</ele>
+<name>MK 171</name>
+</rtept>
+<rtept lat="56.9156609083751" lon="-2.92037952246498">
+<ele>271.367657246863</ele>
+<name>MK 172</name>
+</rtept>
+<rtept lat="56.9151347939557" lon="-2.91862225963619">
+<ele>268.69486545804</ele>
+<name>MK 173</name>
+</rtept>
+<rtept lat="56.9144946483548" lon="-2.91770975730465">
+<ele>265.735044009504</ele>
+<name>MK 174</name>
+</rtept>
+<rtept lat="56.9142849669953" lon="-2.91763562981812">
+<ele>264.330674630946</ele>
+<name>MK 175</name>
+</rtept>
+<rtept lat="56.9137709803521" lon="-2.91715985676269">
+<ele>259.912089206121</ele>
+<name>MK 176</name>
+</rtept>
+<rtept lat="56.913482436512" lon="-2.91607864598016">
+<ele>260.156605649409</ele>
+<name>MK 177</name>
+</rtept>
+<rtept lat="56.913257885244" lon="-2.91582678647571">
+<ele>259.856788251766</ele>
+<name>MK 178</name>
+</rtept>
+<rtept lat="56.912797012108" lon="-2.9147216780339">
+<ele>260.011098298725</ele>
+<name>MK 179</name>
+</rtept>
+<rtept lat="56.9116909688364" lon="-2.91412309986594">
+<ele>257.645172920388</ele>
+<name>MK 180</name>
+</rtept>
+<rtept lat="56.9113180381297" lon="-2.91278371254094">
+<ele>257.261320959054</ele>
+<name>MK 181</name>
+</rtept>
+<rtept lat="56.911296192179" lon="-2.91060547377112">
+<ele>255.527144455881</ele>
+<name>MK 182</name>
+</rtept>
+<rtept lat="56.9114215845616" lon="-2.91041144821386">
+<ele>256.240662173206</ele>
+<name>MK 183</name>
+</rtept>
+</rte>
+</gpx>

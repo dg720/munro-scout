@@ -5,40 +5,26 @@ import sqlite3
 print("🚀 Starting Munro Flask API...")
 
 app = Flask(__name__)
-app.config["JSON_AS_ASCII"] = False  # keep Unicode characters as-is
-CORS(app)  # enable all origins for demo
+app.config["JSON_AS_ASCII"] = False
+CORS(app)
 
 DB_PATH = "db.sqlite"
 
 
 def get_db():
     conn = sqlite3.connect(DB_PATH)
-    conn.row_factory = sqlite3.Row  # dict-like rows
+    conn.row_factory = sqlite3.Row
     return conn
 
 
 @app.route("/api/munros")
 def get_munros():
-    # Parse filters
     grade = request.args.get("grade", type=int)
     bog = request.args.get("bog", type=int)
     search = request.args.get("search", type=str)
 
-    # Build query with explicit column list (avoid SELECT *)
-    base_sql = """
-        SELECT
-            id,
-            name,
-            summary,
-            distance,
-            time,
-            grade,
-            bog,
-            start,
-            gpx_file
-        FROM munros
-        WHERE 1=1
-    """
+    # Build dynamic SQL (we'll keep filters that match your known schema)
+    base_sql = "SELECT * FROM munros WHERE 1=1"
     clauses = []
     params = []
 
@@ -51,22 +37,31 @@ def get_munros():
         params.append(bog)
 
     if search:
-        # Simple case-insensitive search over name/summary
-        clauses.append(
-            "AND (name LIKE ? COLLATE NOCASE OR summary LIKE ? COLLATE NOCASE)"
-        )
+        # Case-insensitive LIKE on name/summary/description if present
+        # These columns exist in your seed if present in JSON
+        clauses.append("""
+            AND (
+                name LIKE ? COLLATE NOCASE
+                OR summary LIKE ? COLLATE NOCASE
+                OR description LIKE ? COLLATE NOCASE
+            )
+        """)
         like = f"%{search}%"
-        params.extend([like, like])
+        params.extend([like, like, like])
 
     sql = " ".join([base_sql, *clauses])
 
     with get_db() as conn:
         rows = conn.execute(sql, params).fetchall()
 
-    # Convert rows to plain dicts
-    results = [dict(r) for r in rows]
+    # Convert to dict and drop internal fields
+    out = []
+    for r in rows:
+        d = dict(r)
+        d.pop("normalized_name", None)  # internal
+        out.append(d)
 
-    return jsonify(results), 200, {"Content-Type": "application/json; charset=utf-8"}
+    return jsonify(out), 200, {"Content-Type": "application/json; charset=utf-8"}
 
 
 if __name__ == "__main__":

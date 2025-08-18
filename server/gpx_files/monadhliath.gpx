@@ -1,0 +1,834 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="Walkhighlands">
+<metadata>
+	<desc>GPX file from Walkhighlands; file is copyright Walkhighlands and must not be publicly shared on other websites. Do not remove this notice.</desc>
+	<copyright author="Walkhighlands"><year>2019</year></copyright>
+</metadata>
+<rte>
+<name>Monadh Liath Munros: Càrn Dearg, Càrn Sgulain &amp;amp; A&#039; Chailleach </name>
+<rtept lat="57.0704439410092" lon="-4.1572531643259">
+<ele>310.90096503465</ele>
+<name>MON001</name>
+</rtept>
+<rtept lat="57.0702150822169" lon="-4.15781068273302">
+<ele>305.290140736069</ele>
+<name>MON002</name>
+</rtept>
+<rtept lat="57.0697336264786" lon="-4.15811266906965">
+<ele>299.292190187056</ele>
+<name>MON003</name>
+</rtept>
+<rtept lat="57.0694288687761" lon="-4.15858987792325">
+<ele>293.335921845089</ele>
+<name>MON004</name>
+</rtept>
+<rtept lat="57.0691963205845" lon="-4.15852688145286">
+<ele>290.990033943783</ele>
+<name>MON005</name>
+</rtept>
+<rtept lat="57.0690454166542" lon="-4.15841913732829">
+<ele>289.70003737382</ele>
+<name>MON006</name>
+</rtept>
+<rtept lat="57.0686354909145" lon="-4.15874175776109">
+<ele>290.988821886633</ele>
+<name>MON007</name>
+</rtept>
+<rtept lat="57.068606911805" lon="-4.15987835498936">
+<ele>294.229293397542</ele>
+<name>MON008</name>
+</rtept>
+<rtept lat="57.0684680404999" lon="-4.16115700593735">
+<ele>293.868817382646</ele>
+<name>MON009</name>
+</rtept>
+<rtept lat="57.0680990110566" lon="-4.1617129175684">
+<ele>291.808903397861</ele>
+<name>MON010</name>
+</rtept>
+<rtept lat="57.0680122751509" lon="-4.16309355628696">
+<ele>296.395844780917</ele>
+<name>MON011</name>
+</rtept>
+<rtept lat="57.067810097661" lon="-4.16387360502693">
+<ele>296.877760150084</ele>
+<name>MON012</name>
+</rtept>
+<rtept lat="57.067709657047" lon="-4.16500598879079">
+<ele>298.647678077377</ele>
+<name>MON013</name>
+</rtept>
+<rtept lat="57.0682394395154" lon="-4.16554823516872">
+<ele>300.941258511443</ele>
+<name>MON014</name>
+</rtept>
+<rtept lat="57.0685050404244" lon="-4.16681744183738">
+<ele>304.55202193881</ele>
+<name>MON015</name>
+</rtept>
+<rtept lat="57.0684910690762" lon="-4.16762495407135">
+<ele>305.806889827914</ele>
+<name>MON016</name>
+</rtept>
+<rtept lat="57.0686949520599" lon="-4.1688245970966">
+<ele>307.977760150084</ele>
+<name>MON017</name>
+</rtept>
+<rtept lat="57.068696923294" lon="-4.1697485197643">
+<ele>309.137760150085</ele>
+<name>MON018</name>
+</rtept>
+<rtept lat="57.068160847312" lon="-4.17060802675853">
+<ele>309.366996722717</ele>
+<name>MON019</name>
+</rtept>
+<rtept lat="57.06804255732" lon="-4.17121148099428">
+<ele>310.846996722717</ele>
+<name>MON020</name>
+</rtept>
+<rtept lat="57.0680164374002" lon="-4.17219973157528">
+<ele>311.861258511443</ele>
+<name>MON021</name>
+</rtept>
+<rtept lat="57.0676987617665" lon="-4.17341837610013">
+<ele>314.201258511443</ele>
+<name>MON022</name>
+</rtept>
+<rtept lat="57.0676534171402" lon="-4.17396009656655">
+<ele>315.157760150084</ele>
+<name>MON023</name>
+</rtept>
+<rtept lat="57.0661419259737" lon="-4.17717078582422">
+<ele>317.579582128199</ele>
+<name>MON024</name>
+</rtept>
+<rtept lat="57.0688639622066" lon="-4.1808275342047">
+<ele>329.715520300169</ele>
+<name>MON025</name>
+</rtept>
+<rtept lat="57.0693980589428" lon="-4.18163422988841">
+<ele>331.542910400243</ele>
+<name>MON026</name>
+</rtept>
+<rtept lat="57.0699134096272" lon="-4.18300075192402">
+<ele>337.570791496096</ele>
+<name>MON027</name>
+</rtept>
+<rtept lat="57.0709524899378" lon="-4.18370519541256">
+<ele>343.266428965066</ele>
+<name>MON028</name>
+</rtept>
+<rtept lat="57.071652391244" lon="-4.18376282025994">
+<ele>349.326495328618</ele>
+<name>MON029</name>
+</rtept>
+<rtept lat="57.0720130351373" lon="-4.18472440491167">
+<ele>348.865967752195</ele>
+<name>MON030</name>
+</rtept>
+<rtept lat="57.0727277910968" lon="-4.18547585835641">
+<ele>361.159776002646</ele>
+<name>MON031</name>
+</rtept>
+<rtept lat="57.0733782666992" lon="-4.18630605300488">
+<ele>378.742395894879</ele>
+<name>MON032</name>
+</rtept>
+<rtept lat="57.0742205228286" lon="-4.18798901938328">
+<ele>385.247293345485</ele>
+<name>MON033</name>
+</rtept>
+<rtept lat="57.0749222495085" lon="-4.18897080640203">
+<ele>394.199438001267</ele>
+<name>MON034</name>
+</rtept>
+<rtept lat="57.075692035983" lon="-4.1901711394063">
+<ele>397.116140482832</ele>
+<name>MON035</name>
+</rtept>
+<rtept lat="57.0765197072758" lon="-4.19114393500167">
+<ele>393.953225120534</ele>
+<name>MON036</name>
+</rtept>
+<rtept lat="57.0770343023898" lon="-4.19152079023652">
+<ele>392.863343178213</ele>
+<name>MON037</name>
+</rtept>
+<rtept lat="57.078019434763" lon="-4.19171090553502">
+<ele>411.843042752716</ele>
+<name>MON038</name>
+</rtept>
+<rtept lat="57.0785600927313" lon="-4.19213882534537">
+<ele>416.683978860705</ele>
+<name>MON039</name>
+</rtept>
+<rtept lat="57.079425064743" lon="-4.19251989230113">
+<ele>419.383588475109</ele>
+<name>MON040</name>
+</rtept>
+<rtept lat="57.0801997218548" lon="-4.19344020520822">
+<ele>424.187952181218</ele>
+<name>MON041</name>
+</rtept>
+<rtept lat="57.080874208883" lon="-4.19494871535187">
+<ele>429.083532022176</ele>
+<name>MON042</name>
+</rtept>
+<rtept lat="57.0814696211547" lon="-4.19635359160849">
+<ele>427.812399190124</ele>
+<name>MON043</name>
+</rtept>
+<rtept lat="57.0819572842565" lon="-4.19724055886646">
+<ele>431.340377825356</ele>
+<name>MON044</name>
+</rtept>
+<rtept lat="57.0820893445309" lon="-4.19790847580856">
+<ele>432.61498740358</ele>
+<name>MON045</name>
+</rtept>
+<rtept lat="57.0828555688904" lon="-4.19930705741531">
+<ele>438.172271269078</ele>
+<name>MON046</name>
+</rtept>
+<rtept lat="57.0833576874798" lon="-4.19988139286623">
+<ele>444.116818371385</ele>
+<name>MON047</name>
+</rtept>
+<rtept lat="57.0848032063285" lon="-4.20250860071026">
+<ele>449.592001584378</ele>
+<name>MON048</name>
+</rtept>
+<rtept lat="57.0852300054094" lon="-4.20378821798135">
+<ele>457.082621882625</ele>
+<name>MON049</name>
+</rtept>
+<rtept lat="57.0860503297659" lon="-4.20466211326185">
+<ele>465.230077456817</ele>
+<name>MON050</name>
+</rtept>
+<rtept lat="57.0862118912333" lon="-4.20518334307432">
+<ele>466.113390711512</ele>
+<name>MON051</name>
+</rtept>
+<rtept lat="57.0865706459548" lon="-4.20573279304327">
+<ele>468.006730234992</ele>
+<name>MON052</name>
+</rtept>
+<rtept lat="57.0869175181859" lon="-4.20644659620372">
+<ele>472.227871786572</ele>
+<name>MON053</name>
+</rtept>
+<rtept lat="57.08759799895" lon="-4.20658605427742">
+<ele>483.49862680934</ele>
+<name>MON054</name>
+</rtept>
+<rtept lat="57.0885515796831" lon="-4.21060404731371">
+<ele>500.33187333873</ele>
+<name>MON055</name>
+</rtept>
+<rtept lat="57.0890023131485" lon="-4.21205037412275">
+<ele>507.354179201412</ele>
+<name>MON056</name>
+</rtept>
+<rtept lat="57.0890705834201" lon="-4.21276419051934">
+<ele>509.335070332913</ele>
+<name>MON057</name>
+</rtept>
+<rtept lat="57.0888863926718" lon="-4.21301730752136">
+<ele>507.219540746201</ele>
+<name>MON058</name>
+</rtept>
+<rtept lat="57.0888541672518" lon="-4.21382416749903">
+<ele>510.844563926784</ele>
+<name>MON059</name>
+</rtept>
+<rtept lat="57.0888293968893" lon="-4.21522567660942">
+<ele>526.749003650996</ele>
+<name>MON060</name>
+</rtept>
+<rtept lat="57.088369781655" lon="-4.21580896520677">
+<ele>542.918119359001</ele>
+<name>MON061</name>
+</rtept>
+<rtept lat="57.0877998844816" lon="-4.2160225423048">
+<ele>548.602927422625</ele>
+<name>MON062</name>
+</rtept>
+<rtept lat="57.0874862239771" lon="-4.21648247541105">
+<ele>551.984805037249</ele>
+<name>MON063</name>
+</rtept>
+<rtept lat="57.0861706211846" lon="-4.21719618117949">
+<ele>554.789479590399</ele>
+<name>MON064</name>
+</rtept>
+<rtept lat="57.0855132903769" lon="-4.21727247138331">
+<ele>556.675321787526</ele>
+<name>MON065</name>
+</rtept>
+<rtept lat="57.0851179610099" lon="-4.21777700215173">
+<ele>557.923689261634</ele>
+<name>MON066</name>
+</rtept>
+<rtept lat="57.0854071095666" lon="-4.21870199886722">
+<ele>566.433515214781</ele>
+<name>MON067</name>
+</rtept>
+<rtept lat="57.0851225502939" lon="-4.22005484010206">
+<ele>569.144589393883</ele>
+<name>MON068</name>
+</rtept>
+<rtept lat="57.0854934693219" lon="-4.22194199213389">
+<ele>567.908078925562</ele>
+<name>MON069</name>
+</rtept>
+<rtept lat="57.0864309545294" lon="-4.22430873321064">
+<ele>568.011230520178</ele>
+<name>MON070</name>
+</rtept>
+<rtept lat="57.086751757699" lon="-4.22597842987472">
+<ele>564.595075648279</ele>
+<name>MON071</name>
+</rtept>
+<rtept lat="57.0865775833988" lon="-4.22667769585128">
+<ele>558.297447913762</ele>
+<name>MON072</name>
+</rtept>
+<rtept lat="57.0865276105985" lon="-4.22746692775486">
+<ele>556.087810582271</ele>
+<name>MON073</name>
+</rtept>
+<rtept lat="57.0871282244822" lon="-4.22855927107601">
+<ele>563.225839075646</ele>
+<name>MON074</name>
+</rtept>
+<rtept lat="57.0871877176393" lon="-4.22925605308332">
+<ele>560.985839075646</ele>
+<name>MON075</name>
+</rtept>
+<rtept lat="57.0882237598767" lon="-4.23062217829022">
+<ele>570.977458305613</ele>
+<name>MON076</name>
+</rtept>
+<rtept lat="57.0895669127149" lon="-4.23240298622956">
+<ele>597.744819332502</ele>
+<name>MON077</name>
+</rtept>
+<rtept lat="57.0908674536858" lon="-4.23203548966911">
+<ele>620.318510793838</ele>
+<name>MON078</name>
+</rtept>
+<rtept lat="57.0914000018286" lon="-4.23190243091539">
+<ele>632.938007243903</ele>
+<name>MON079</name>
+</rtept>
+<rtept lat="57.0917612805553" lon="-4.2323038090983">
+<ele>639.777592671166</ele>
+<name>MON080</name>
+</rtept>
+<rtept lat="57.092231611748" lon="-4.23314094249259">
+<ele>649.074362653098</ele>
+<name>MON081</name>
+</rtept>
+<rtept lat="57.0930024320631" lon="-4.23426029880135">
+<ele>656.949337437005</ele>
+<name>MON082</name>
+</rtept>
+<rtept lat="57.0945140194045" lon="-4.23717418501627">
+<ele>661.329605780296</ele>
+<name>MON083</name>
+</rtept>
+<rtept lat="57.0951523714711" lon="-4.23765838233131">
+<ele>669.787462633399</ele>
+<name>MON084</name>
+</rtept>
+<rtept lat="57.0971912539992" lon="-4.24123176712744">
+<ele>677.815207162242</ele>
+<name>MON085</name>
+</rtept>
+<rtept lat="57.0979579887106" lon="-4.24307763524439">
+<ele>678.692407290076</ele>
+<name>MON086</name>
+</rtept>
+<rtept lat="57.0988990152271" lon="-4.24572661707507">
+<ele>675.128526734295</ele>
+<name>MON087</name>
+</rtept>
+<rtept lat="57.0991932744379" lon="-4.24635530582849">
+<ele>685.009594124914</ele>
+<name>MON088</name>
+</rtept>
+<rtept lat="57.0992314607618" lon="-4.24723267252507">
+<ele>690.261720229415</ele>
+<name>MON089</name>
+</rtept>
+<rtept lat="57.0989935450721" lon="-4.24847305957983">
+<ele>700.243787876165</ele>
+<name>MON090</name>
+</rtept>
+<rtept lat="57.098764982743" lon="-4.25019279663243">
+<ele>730.915271263148</ele>
+<name>MON091</name>
+</rtept>
+<rtept lat="57.0985506200105" lon="-4.25112088473024">
+<ele>746.837663524052</ele>
+<name>MON092</name>
+</rtept>
+<rtept lat="57.0976639995807" lon="-4.25245394633059">
+<ele>779.073573232674</ele>
+<name>MON093</name>
+</rtept>
+<rtept lat="57.0971666094461" lon="-4.25362896913907">
+<ele>806.516041931312</ele>
+<name>MON094</name>
+</rtept>
+<rtept lat="57.0967998449374" lon="-4.25403595072873">
+<ele>818.704521188629</ele>
+<name>MON095</name>
+</rtept>
+<rtept lat="57.0965635699038" lon="-4.25468197907736">
+<ele>834.616364606274</ele>
+<name>MON096</name>
+</rtept>
+<rtept lat="57.0956726862614" lon="-4.25575048455671">
+<ele>870.351160352006</ele>
+<name>MON097</name>
+</rtept>
+<rtept lat="57.0949924064506" lon="-4.25660062007068">
+<ele>892.391256681444</ele>
+<name>MON098</name>
+</rtept>
+<rtept lat="57.0948143652596" lon="-4.25650725608702">
+<ele>897.963001447284</ele>
+<name>MON099</name>
+</rtept>
+<rtept lat="57.094098864203" lon="-4.25581994990203">
+<ele>920.453951480182</ele>
+<name>MON100</name>
+</rtept>
+<rtept lat="57.0938776497605" lon="-4.25512967581856">
+<ele>927.408456101332</ele>
+<name>MON101</name>
+</rtept>
+<rtept lat="57.0937501269934" lon="-4.25472573638208">
+<ele>930.420009264376</ele>
+<name>MON102</name>
+</rtept>
+<rtept lat="57.0932283139107" lon="-4.25476008085871">
+<ele>935.453154750341</ele>
+<name>MON103</name>
+</rtept>
+<rtept lat="57.0928386966507" lon="-4.2544392832053">
+<ele>931.822218760026</ele>
+<name>MON104</name>
+</rtept>
+<rtept lat="57.092291874747" lon="-4.25336611459673">
+<ele>933.737620178159</ele>
+<name>MON105</name>
+</rtept>
+<rtept lat="57.0928492012185" lon="-4.2544547779169">
+<ele>931.901155395724</ele>
+<name>MON106</name>
+</rtept>
+<rtept lat="57.0932260735618" lon="-4.25478470659481">
+<ele>935.068885449296</ele>
+<name>MON107</name>
+</rtept>
+<rtept lat="57.093739147713" lon="-4.25473662531539">
+<ele>930.704146012401</ele>
+<name>MON108</name>
+</rtept>
+<rtept lat="57.0939500369805" lon="-4.25560125388986">
+<ele>923.784303731393</ele>
+<name>MON109</name>
+</rtept>
+<rtept lat="57.0940880135586" lon="-4.25632279211018">
+<ele>914.147262790909</ele>
+<name>MON110</name>
+</rtept>
+<rtept lat="57.0948319474808" lon="-4.25902258186958">
+<ele>890.591728884921</ele>
+<name>MON111</name>
+</rtept>
+<rtept lat="57.095401657728" lon="-4.25972090155964">
+<ele>897.27725996881</ele>
+<name>MON112</name>
+</rtept>
+<rtept lat="57.0965334467444" lon="-4.26034450380301">
+<ele>915.734658350536</ele>
+<name>MON113</name>
+</rtept>
+<rtept lat="57.0987046234802" lon="-4.2604370777519">
+<ele>939.574072932963</ele>
+<name>MON114</name>
+</rtept>
+<rtept lat="57.0999140370654" lon="-4.26004511729351">
+<ele>936.338602190463</ele>
+<name>MON115</name>
+</rtept>
+<rtept lat="57.1009004590122" lon="-4.259461235701">
+<ele>933.388919836329</ele>
+<name>MON116</name>
+</rtept>
+<rtept lat="57.1021850535053" lon="-4.25729051738199">
+<ele>924.824432371759</ele>
+<name>MON117</name>
+</rtept>
+<rtept lat="57.1029542225036" lon="-4.25529638853181">
+<ele>903.722126103669</ele>
+<name>MON118</name>
+</rtept>
+<rtept lat="57.1031814062922" lon="-4.25465630641847">
+<ele>895.45063795565</ele>
+<name>MON119</name>
+</rtept>
+<rtept lat="57.1039431568881" lon="-4.25367219324397">
+<ele>880.421017658326</ele>
+<name>MON120</name>
+</rtept>
+<rtept lat="57.1050698063098" lon="-4.25338392376768">
+<ele>873.303857140893</ele>
+<name>MON121</name>
+</rtept>
+<rtept lat="57.1064917834296" lon="-4.25316310868538">
+<ele>872.156255606351</ele>
+<name>MON122</name>
+</rtept>
+<rtept lat="57.1073283399151" lon="-4.25191589036232">
+<ele>873.023449907499</ele>
+<name>MON123</name>
+</rtept>
+<rtept lat="57.1077268578359" lon="-4.25074113582287">
+<ele>877.641054130477</ele>
+<name>MON124</name>
+</rtept>
+<rtept lat="57.1079123632357" lon="-4.24911746456638">
+<ele>883.520797370314</ele>
+<name>MON125</name>
+</rtept>
+<rtept lat="57.1079308878407" lon="-4.2474836648484">
+<ele>890.682787610662</ele>
+<name>MON126</name>
+</rtept>
+<rtept lat="57.1084709921979" lon="-4.24622823705049">
+<ele>893.619330970108</ele>
+<name>MON127</name>
+</rtept>
+<rtept lat="57.1091932045182" lon="-4.24534051278767">
+<ele>900.028462414291</ele>
+<name>MON128</name>
+</rtept>
+<rtept lat="57.1102915366014" lon="-4.24301884679775">
+<ele>906.642133942463</ele>
+<name>MON129</name>
+</rtept>
+<rtept lat="57.1110040175669" lon="-4.24207097360337">
+<ele>913.493409444133</ele>
+<name>MON130</name>
+</rtept>
+<rtept lat="57.1120489965704" lon="-4.24122242551859">
+<ele>913.56360728542</ele>
+<name>MON131</name>
+</rtept>
+<rtept lat="57.1128591169196" lon="-4.2402407300818">
+<ele>911.05714857639</ele>
+<name>MON132</name>
+</rtept>
+<rtept lat="57.1138922050024" lon="-4.23733996354176">
+<ele>913</ele>
+<name>MON133</name>
+</rtept>
+<rtept lat="57.1144017489984" lon="-4.23567602719349">
+<ele>912.764062956646</ele>
+<name>MON134</name>
+</rtept>
+<rtept lat="57.1153892836044" lon="-4.23381288609879">
+<ele>911.736431599166</ele>
+<name>MON135</name>
+</rtept>
+<rtept lat="57.1175383529973" lon="-4.23151406430814">
+<ele>902.010215830689</ele>
+<name>MON136</name>
+</rtept>
+<rtept lat="57.118882319443" lon="-4.22900801317481">
+<ele>899.046261788737</ele>
+<name>MON137</name>
+</rtept>
+<rtept lat="57.1201258833393" lon="-4.22699134763111">
+<ele>900.702702615559</ele>
+<name>MON138</name>
+</rtept>
+<rtept lat="57.1207555502664" lon="-4.22341127869042">
+<ele>890.829816422367</ele>
+<name>MON139</name>
+</rtept>
+<rtept lat="57.122236460852" lon="-4.22077415197996">
+<ele>901.08483834966</ele>
+<name>MON140</name>
+</rtept>
+<rtept lat="57.1224671039689" lon="-4.22023286603547">
+<ele>901.678261788739</ele>
+<name>MON141</name>
+</rtept>
+<rtept lat="57.121522017362" lon="-4.21757930432953">
+<ele>894.13599329293</ele>
+<name>MON142</name>
+</rtept>
+<rtept lat="57.1212710544971" lon="-4.21561161658548">
+<ele>883.621993445433</ele>
+<name>MON143</name>
+</rtept>
+<rtept lat="57.1213465031694" lon="-4.21378238256937">
+<ele>879.585137713848</ele>
+<name>MON144</name>
+</rtept>
+<rtept lat="57.1218256615346" lon="-4.21046064652883">
+<ele>898.027316931085</ele>
+<name>MON145</name>
+</rtept>
+<rtept lat="57.1222455381042" lon="-4.2089690820969">
+<ele>905.58656528053</ele>
+<name>MON146</name>
+</rtept>
+<rtept lat="57.1227651698053" lon="-4.20671024908789">
+<ele>900.051154843974</ele>
+<name>MON147</name>
+</rtept>
+<rtept lat="57.1233334584684" lon="-4.20290787863067">
+<ele>886.086592926736</ele>
+<name>MON148</name>
+</rtept>
+<rtept lat="57.1239645267446" lon="-4.20013013380201">
+<ele>882.22226178874</ele>
+<name>MON149</name>
+</rtept>
+<rtept lat="57.1238536783151" lon="-4.19876551241675">
+<ele>878.783129626995</ele>
+<name>MON150</name>
+</rtept>
+<rtept lat="57.122838983877" lon="-4.19605872965162">
+<ele>854.247204578679</ele>
+<name>MON151</name>
+</rtept>
+<rtept lat="57.1226929890041" lon="-4.19454339748718">
+<ele>859.686769981946</ele>
+<name>MON152</name>
+</rtept>
+<rtept lat="57.1231545959581" lon="-4.19096254744507">
+<ele>888.435639239882</ele>
+<name>MON153</name>
+</rtept>
+<rtept lat="57.1233039292098" lon="-4.18982151099712">
+<ele>897.775009831847</ele>
+<name>MON154</name>
+</rtept>
+<rtept lat="57.1227938800008" lon="-4.18660950746438">
+<ele>901.370996722719</ele>
+<name>MON155</name>
+</rtept>
+<rtept lat="57.1234385619598" lon="-4.18179034685619">
+<ele>890.52058822168</ele>
+<name>MON156</name>
+</rtept>
+<rtept lat="57.1238579047224" lon="-4.17906920023025">
+<ele>904.066594744281</ele>
+<name>MON157</name>
+</rtept>
+<rtept lat="57.1249284951519" lon="-4.17516691651123">
+<ele>916.705141993764</ele>
+<name>MON158</name>
+</rtept>
+<rtept lat="57.1249701489938" lon="-4.17494136115753">
+<ele>915.860858776437</ele>
+<name>MON159</name>
+</rtept>
+<rtept lat="57.1229196931651" lon="-4.18248343262511">
+<ele>889.748467085617</ele>
+<name>MON160</name>
+</rtept>
+<rtept lat="57.1227145895398" lon="-4.1831156690509">
+<ele>890.342091971246</ele>
+<name>MON161</name>
+</rtept>
+<rtept lat="57.1216030117819" lon="-4.1839423319836">
+<ele>886.515068705206</ele>
+<name>MON162</name>
+</rtept>
+<rtept lat="57.1193661675176" lon="-4.18607045790222">
+<ele>875.598283727582</ele>
+<name>MON163</name>
+</rtept>
+<rtept lat="57.1175922951259" lon="-4.18715524869011">
+<ele>866.692232219921</ele>
+<name>MON164</name>
+</rtept>
+<rtept lat="57.1153433491526" lon="-4.18858355855751">
+<ele>846.838532029024</ele>
+<name>MON165</name>
+</rtept>
+<rtept lat="57.1145195895014" lon="-4.1889809248654">
+<ele>837.239228340583</ele>
+<name>MON166</name>
+</rtept>
+<rtept lat="57.1139308174312" lon="-4.18842590964665">
+<ele>823.453368752605</ele>
+<name>MON167</name>
+</rtept>
+<rtept lat="57.1127397566773" lon="-4.18530841480953">
+<ele>853.468789133047</ele>
+<name>MON168</name>
+</rtept>
+<rtept lat="57.1119287176786" lon="-4.18312019336613">
+<ele>871.927462153114</ele>
+<name>MON169</name>
+</rtept>
+<rtept lat="57.1106383912978" lon="-4.18105253684848">
+<ele>899.8698983707</ele>
+<name>MON170</name>
+</rtept>
+<rtept lat="57.1097761129388" lon="-4.17994655477168">
+<ele>926.009705206326</ele>
+<name>MON171</name>
+</rtept>
+<rtept lat="57.1095610016348" lon="-4.17929479597547">
+<ele>929.04622674078</ele>
+<name>MON172</name>
+</rtept>
+<rtept lat="57.1078901640198" lon="-4.17848822469534">
+<ele>880.371913722029</ele>
+<name>MON173</name>
+</rtept>
+<rtept lat="57.1045000454425" lon="-4.17811090378639">
+<ele>784.463950164251</ele>
+<name>MON174</name>
+</rtept>
+<rtept lat="57.1031772989025" lon="-4.17883576240101">
+<ele>756.540840724688</ele>
+<name>MON175</name>
+</rtept>
+<rtept lat="57.101706389171" lon="-4.17877914291437">
+<ele>750.984992864288</ele>
+<name>MON176</name>
+</rtept>
+<rtept lat="57.1001608813013" lon="-4.17836152233939">
+<ele>731.738206552184</ele>
+<name>MON177</name>
+</rtept>
+<rtept lat="57.098484416215" lon="-4.17586096875079">
+<ele>694.381046163101</ele>
+<name>MON178</name>
+</rtept>
+<rtept lat="57.0961854589994" lon="-4.173188833128">
+<ele>659.838607044872</ele>
+<name>MON179</name>
+</rtept>
+<rtept lat="57.0947335708083" lon="-4.16975270025127">
+<ele>594.179442298764</ele>
+<name>MON180</name>
+</rtept>
+<rtept lat="57.0944282527396" lon="-4.16781993080414">
+<ele>558.204927350484</ele>
+<name>MON181</name>
+</rtept>
+<rtept lat="57.0935757871577" lon="-4.16738718490157">
+<ele>537.863579562176</ele>
+<name>MON182</name>
+</rtept>
+<rtept lat="57.0930724964789" lon="-4.16635250810554">
+<ele>522.193805224481</ele>
+<name>MON183</name>
+</rtept>
+<rtept lat="57.0917369710374" lon="-4.16522146156241">
+<ele>490.905069187148</ele>
+<name>MON184</name>
+</rtept>
+<rtept lat="57.0909559843417" lon="-4.165175924717">
+<ele>481.92129518362</ele>
+<name>MON185</name>
+</rtept>
+<rtept lat="57.0899890370331" lon="-4.16382712819703">
+<ele>464.779001195379</ele>
+<name>MON186</name>
+</rtept>
+<rtept lat="57.0891575530202" lon="-4.16066737139464">
+<ele>431.841337225209</ele>
+<name>MON187</name>
+</rtept>
+<rtept lat="57.0894116343185" lon="-4.15953335524789">
+<ele>429.564128377621</ele>
+<name>MON188</name>
+</rtept>
+<rtept lat="57.0881141046378" lon="-4.15921858272808">
+<ele>420.208822203118</ele>
+<name>MON189</name>
+</rtept>
+<rtept lat="57.0869670042702" lon="-4.15924762153031">
+<ele>417.3346146382</ele>
+<name>MON190</name>
+</rtept>
+<rtept lat="57.0852633212088" lon="-4.15981863821285">
+<ele>405.403226705222</ele>
+<name>MON191</name>
+</rtept>
+<rtept lat="57.0844480551823" lon="-4.16024983531462">
+<ele>403.539457590416</ele>
+<name>MON192</name>
+</rtept>
+<rtept lat="57.0838848715006" lon="-4.1611742721444">
+<ele>400.400987219815</ele>
+<name>MON193</name>
+</rtept>
+<rtept lat="57.0828737079501" lon="-4.16087615192478">
+<ele>397.616568940256</ele>
+<name>MON194</name>
+</rtept>
+<rtept lat="57.082008846519" lon="-4.16116084271612">
+<ele>387.366547672756</ele>
+<name>MON195</name>
+</rtept>
+<rtept lat="57.0774219400626" lon="-4.15816651407326">
+<ele>365.145704178118</ele>
+<name>MON196</name>
+</rtept>
+<rtept lat="57.0765020384608" lon="-4.15710823331889">
+<ele>369.381792828709</ele>
+<name>MON197</name>
+</rtept>
+<rtept lat="57.0757221092066" lon="-4.15679236123044">
+<ele>358.413451675198</ele>
+<name>MON198</name>
+</rtept>
+<rtept lat="57.0743121810486" lon="-4.15804694459344">
+<ele>332.757478096248</ele>
+<name>MON199</name>
+</rtept>
+<rtept lat="57.0735224076824" lon="-4.15772885099978">
+<ele>325.662446572108</ele>
+<name>MON200</name>
+</rtept>
+<rtept lat="57.0722351036578" lon="-4.1581243013111">
+<ele>313.982049143507</ele>
+<name>MON201</name>
+</rtept>
+<rtept lat="57.071895649731" lon="-4.15748591570687">
+<ele>319.889207810215</ele>
+<name>MON202</name>
+</rtept>
+<rtept lat="57.0718376889181" lon="-4.1569381198685">
+<ele>319.35149836136</ele>
+<name>MON203</name>
+</rtept>
+<rtept lat="57.0715221806161" lon="-4.15647436812051">
+<ele>318.035949964844</ele>
+<name>MON204</name>
+</rtept>
+<rtept lat="57.0709457214221" lon="-4.15629244070918">
+<ele>311.258248516734</ele>
+<name>MON205</name>
+</rtept>
+<rtept lat="57.0704439410092" lon="-4.1572531643259">
+<ele>310.90096503465</ele>
+<name>MON206</name>
+</rtept>
+</rte>
+</gpx>

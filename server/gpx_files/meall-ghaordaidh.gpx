@@ -1,0 +1,414 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="Walkhighlands">
+<metadata>
+	<desc>GPX file from Walkhighlands; file is copyright Walkhighlands and must not be publicly shared on other websites. Do not remove this notice.</desc>
+	<copyright author="Walkhighlands"><year>2019</year></copyright>
+</metadata>
+<rte>
+<name>Meall Ghaordaidh from Glen Lochay</name>
+<rtept lat="56.4960882485364" lon="-4.39556445902847">
+<ele>145.611403312036</ele>
+<name>M-G001</name>
+</rtept>
+<rtept lat="56.495417736079" lon="-4.39444982504325">
+<ele>143.411779795566</ele>
+<name>M-G002</name>
+</rtept>
+<rtept lat="56.4957718332508" lon="-4.39374819226012">
+<ele>142.805082021329</ele>
+<name>M-G003</name>
+</rtept>
+<rtept lat="56.4956813381112" lon="-4.39282760209565">
+<ele>145.767208197722</ele>
+<name>M-G004</name>
+</rtept>
+<rtept lat="56.496384410057" lon="-4.3901288857256">
+<ele>154.832860627368</ele>
+<name>M-G005</name>
+</rtept>
+<rtept lat="56.4965236306783" lon="-4.38920829556236">
+<ele>160.315967188377</ele>
+<name>M-G006</name>
+</rtept>
+<rtept lat="56.4969412894771" lon="-4.38867864094794">
+<ele>168.255716690813</ele>
+<name>M-G007</name>
+</rtept>
+<rtept lat="56.4980411023114" lon="-4.38835075951994">
+<ele>187.243452349665</ele>
+<name>M-G008</name>
+</rtept>
+<rtept lat="56.4988415789405" lon="-4.38705184463177">
+<ele>207.664471615689</ele>
+<name>M-G009</name>
+</rtept>
+<rtept lat="56.5001292694852" lon="-4.38619431335687">
+<ele>220.291705843156</ele>
+<name>M-G010</name>
+</rtept>
+<rtept lat="56.5004633624046" lon="-4.38566465397375">
+<ele>217.948540627398</ele>
+<name>M-G011</name>
+</rtept>
+<rtept lat="56.5017440351008" lon="-4.38500889111771">
+<ele>244.739375653399</ele>
+<name>M-G012</name>
+</rtept>
+<rtept lat="56.5024261175853" lon="-4.38484495517182">
+<ele>259.074468527112</ele>
+<name>M-G013</name>
+</rtept>
+<rtept lat="56.5034979324238" lon="-4.38497106341342">
+<ele>281.947789280416</ele>
+<name>M-G014</name>
+</rtept>
+<rtept lat="56.5041103844435" lon="-4.38543766390825">
+<ele>299.571167591332</ele>
+<name>M-G015</name>
+</rtept>
+<rtept lat="56.5043330918164" lon="-4.38620692418078">
+<ele>307.787442528295</ele>
+<name>M-G016</name>
+</rtept>
+<rtept lat="56.5046184195819" lon="-4.38584119514999">
+<ele>311.134482536807</ele>
+<name>M-G017</name>
+</rtept>
+<rtept lat="56.5049524756745" lon="-4.38589163844688">
+<ele>317.667119897995</ele>
+<name>M-G018</name>
+</rtept>
+<rtept lat="56.5049733540826" lon="-4.38621951987491">
+<ele>320.09029489127</ele>
+<name>M-G019</name>
+</rtept>
+<rtept lat="56.5052030158126" lon="-4.38632040646874">
+<ele>324.500653653849</ele>
+<name>M-G020</name>
+</rtept>
+<rtept lat="56.5055579448409" lon="-4.38683745025921">
+<ele>334.872440265073</ele>
+<name>M-G021</name>
+</rtept>
+<rtept lat="56.5071446457506" lon="-4.38681222861013">
+<ele>362.86831603027</ele>
+<name>M-G022</name>
+</rtept>
+<rtept lat="56.5075621875853" lon="-4.3877580404224">
+<ele>379.495505419468</ele>
+<name>M-G023</name>
+</rtept>
+<rtept lat="56.5082093683409" lon="-4.38872907388256">
+<ele>397.579426595976</ele>
+<name>M-G024</name>
+</rtept>
+<rtept lat="56.5090792175443" lon="-4.38982621558435">
+<ele>430.246040699198</ele>
+<name>M-G025</name>
+</rtept>
+<rtept lat="56.509468903514" lon="-4.39097380058297">
+<ele>454.591133557888</ele>
+<name>M-G026</name>
+</rtept>
+<rtept lat="56.5104082896538" lon="-4.39256274174133">
+<ele>492.959229771705</ele>
+<name>M-G027</name>
+</rtept>
+<rtept lat="56.5104291650578" lon="-4.39309239635574">
+<ele>500.221524554236</ele>
+<name>M-G028</name>
+</rtept>
+<rtept lat="56.5112224218816" lon="-4.39471919267314">
+<ele>540.807095507982</ele>
+<name>M-G029</name>
+</rtept>
+<rtept lat="56.5133933556753" lon="-4.39775840129516">
+<ele>630.01444268981</ele>
+<name>M-G030</name>
+</rtept>
+<rtept lat="56.5142491704049" lon="-4.39867899145841">
+<ele>659.032220724552</ele>
+<name>M-G031</name>
+</rtept>
+<rtept lat="56.5150145168035" lon="-4.39968785739154">
+<ele>684.178382754251</ele>
+<name>M-G032</name>
+</rtept>
+<rtept lat="56.5159329034549" lon="-4.40121374735514">
+<ele>702.682488697389</ele>
+<name>M-G033</name>
+</rtept>
+<rtept lat="56.5170252082587" lon="-4.40329453334218">
+<ele>728.608486140156</ele>
+<name>M-G034</name>
+</rtept>
+<rtept lat="56.5172339253391" lon="-4.40416468020854">
+<ele>736.48194528341</ele>
+<name>M-G035</name>
+</rtept>
+<rtept lat="56.5174078553616" lon="-4.40434123174708">
+<ele>739.971844947114</ele>
+<name>M-G036</name>
+</rtept>
+<rtept lat="56.5173800266118" lon="-4.40493394048229">
+<ele>741.588349615281</ele>
+<name>M-G037</name>
+</rtept>
+<rtept lat="56.5181244386353" lon="-4.40682556410687">
+<ele>761.890295011551</ele>
+<name>M-G038</name>
+</rtept>
+<rtept lat="56.518472289708" lon="-4.40697689399633">
+<ele>767.656292347165</ele>
+<name>M-G039</name>
+</rtept>
+<rtept lat="56.5188688360366" lon="-4.40749393778685">
+<ele>777.015345119965</ele>
+<name>M-G040</name>
+</rtept>
+<rtept lat="56.519446255726" lon="-4.40893157174054">
+<ele>791.74136590981</ele>
+<name>M-G041</name>
+</rtept>
+<rtept lat="56.5198636620711" lon="-4.40947383718006">
+<ele>799.164797919407</ele>
+<name>M-G042</name>
+</rtept>
+<rtept lat="56.5201001902922" lon="-4.41005393509136">
+<ele>810.84510929857</ele>
+<name>M-G043</name>
+</rtept>
+<rtept lat="56.5219367114118" lon="-4.41329490902473">
+<ele>882.470945206221</ele>
+<name>M-G044</name>
+</rtept>
+<rtept lat="56.5221245324913" lon="-4.41300486006847">
+<ele>887.10725530244</ele>
+<name>M-G045</name>
+</rtept>
+<rtept lat="56.5230705800711" lon="-4.41333274149775">
+<ele>926.510084085563</ele>
+<name>M-G046</name>
+</rtept>
+<rtept lat="56.5242878859544" lon="-4.41511086770342">
+<ele>973.227530406742</ele>
+<name>M-G047</name>
+</rtept>
+<rtept lat="56.5243365773764" lon="-4.41536308418671">
+<ele>976.835435083812</ele>
+<name>M-G048</name>
+</rtept>
+<rtept lat="56.5249208726308" lon="-4.41535045123592">
+<ele>994.31536817857</ele>
+<name>M-G049</name>
+</rtept>
+<rtept lat="56.5253382186724" lon="-4.41613232233479">
+<ele>1017.6447675525</ele>
+<name>M-G050</name>
+</rtept>
+<rtept lat="56.5258181609367" lon="-4.4165610903554">
+<ele>1028.23149417411</ele>
+<name>M-G051</name>
+</rtept>
+<rtept lat="56.5253382186724" lon="-4.41613232233479">
+<ele>1017.6447675525</ele>
+<name>M-G052</name>
+</rtept>
+<rtept lat="56.5249208726308" lon="-4.41535045123592">
+<ele>994.31536817857</ele>
+<name>M-G053</name>
+</rtept>
+<rtept lat="56.5243365773764" lon="-4.41536308418671">
+<ele>976.835435083812</ele>
+<name>M-G054</name>
+</rtept>
+<rtept lat="56.5242878859544" lon="-4.41511086770342">
+<ele>973.227530406742</ele>
+<name>M-G055</name>
+</rtept>
+<rtept lat="56.5230705800711" lon="-4.41333274149775">
+<ele>926.510084085563</ele>
+<name>M-G056</name>
+</rtept>
+<rtept lat="56.5221245324913" lon="-4.41300486006847">
+<ele>887.10725530244</ele>
+<name>M-G057</name>
+</rtept>
+<rtept lat="56.5219367114118" lon="-4.41329490902473">
+<ele>882.470945206221</ele>
+<name>M-G058</name>
+</rtept>
+<rtept lat="56.5201001902922" lon="-4.41005393509136">
+<ele>810.84510929857</ele>
+<name>M-G059</name>
+</rtept>
+<rtept lat="56.5198636620711" lon="-4.40947383718006">
+<ele>799.164797919407</ele>
+<name>M-G060</name>
+</rtept>
+<rtept lat="56.519446255726" lon="-4.40893157174054">
+<ele>791.74136590981</ele>
+<name>M-G061</name>
+</rtept>
+<rtept lat="56.5188688360366" lon="-4.40749393778685">
+<ele>777.015345119965</ele>
+<name>M-G062</name>
+</rtept>
+<rtept lat="56.518472289708" lon="-4.40697689399633">
+<ele>767.656292347165</ele>
+<name>M-G063</name>
+</rtept>
+<rtept lat="56.5181244386353" lon="-4.40682556410687">
+<ele>761.890295011551</ele>
+<name>M-G064</name>
+</rtept>
+<rtept lat="56.5173800266118" lon="-4.40493394048229">
+<ele>741.588349615281</ele>
+<name>M-G065</name>
+</rtept>
+<rtept lat="56.5174078553616" lon="-4.40434123174708">
+<ele>739.971844947114</ele>
+<name>M-G066</name>
+</rtept>
+<rtept lat="56.5172339253391" lon="-4.40416468020854">
+<ele>736.48194528341</ele>
+<name>M-G067</name>
+</rtept>
+<rtept lat="56.5170252082587" lon="-4.40329453334218">
+<ele>728.608486140156</ele>
+<name>M-G068</name>
+</rtept>
+<rtept lat="56.5159329034549" lon="-4.40121374735514">
+<ele>702.682488697389</ele>
+<name>M-G069</name>
+</rtept>
+<rtept lat="56.5150145168035" lon="-4.39968785739154">
+<ele>684.178382754251</ele>
+<name>M-G070</name>
+</rtept>
+<rtept lat="56.5142491704049" lon="-4.39867899145841">
+<ele>659.032220724552</ele>
+<name>M-G071</name>
+</rtept>
+<rtept lat="56.5133933556753" lon="-4.39775840129516">
+<ele>630.01444268981</ele>
+<name>M-G072</name>
+</rtept>
+<rtept lat="56.5112224218816" lon="-4.39471919267314">
+<ele>540.807095507982</ele>
+<name>M-G073</name>
+</rtept>
+<rtept lat="56.5104291650578" lon="-4.39309239635574">
+<ele>500.221524554236</ele>
+<name>M-G074</name>
+</rtept>
+<rtept lat="56.5104082896538" lon="-4.39256274174133">
+<ele>492.959229771705</ele>
+<name>M-G075</name>
+</rtept>
+<rtept lat="56.509468903514" lon="-4.39097380058297">
+<ele>454.591133557888</ele>
+<name>M-G076</name>
+</rtept>
+<rtept lat="56.5090792175443" lon="-4.38982621558435">
+<ele>430.246040699198</ele>
+<name>M-G077</name>
+</rtept>
+<rtept lat="56.5082093683409" lon="-4.38872907388256">
+<ele>397.579426595976</ele>
+<name>M-G078</name>
+</rtept>
+<rtept lat="56.5075621875853" lon="-4.3877580404224">
+<ele>379.495505419468</ele>
+<name>M-G079</name>
+</rtept>
+<rtept lat="56.5071446457506" lon="-4.38681222861013">
+<ele>362.86831603027</ele>
+<name>M-G080</name>
+</rtept>
+<rtept lat="56.5055579448409" lon="-4.38683745025921">
+<ele>334.872440265073</ele>
+<name>M-G081</name>
+</rtept>
+<rtept lat="56.5052030158126" lon="-4.38632040646874">
+<ele>324.500653653849</ele>
+<name>M-G082</name>
+</rtept>
+<rtept lat="56.5049733540826" lon="-4.38621951987491">
+<ele>320.09029489127</ele>
+<name>M-G083</name>
+</rtept>
+<rtept lat="56.5049524756745" lon="-4.38589163844688">
+<ele>317.667119897995</ele>
+<name>M-G084</name>
+</rtept>
+<rtept lat="56.5046184195819" lon="-4.38584119514999">
+<ele>311.134482536807</ele>
+<name>M-G085</name>
+</rtept>
+<rtept lat="56.5043330918164" lon="-4.38620692418078">
+<ele>307.787442528295</ele>
+<name>M-G086</name>
+</rtept>
+<rtept lat="56.5041103844435" lon="-4.38543766390825">
+<ele>299.571167591332</ele>
+<name>M-G087</name>
+</rtept>
+<rtept lat="56.5034979324238" lon="-4.38497106341342">
+<ele>281.947789280416</ele>
+<name>M-G088</name>
+</rtept>
+<rtept lat="56.5024261175853" lon="-4.38484495517182">
+<ele>259.074468527112</ele>
+<name>M-G089</name>
+</rtept>
+<rtept lat="56.5017440351008" lon="-4.38500889111771">
+<ele>244.739375653399</ele>
+<name>M-G090</name>
+</rtept>
+<rtept lat="56.5004633624046" lon="-4.38566465397375">
+<ele>217.948540627398</ele>
+<name>M-G091</name>
+</rtept>
+<rtept lat="56.5001292694852" lon="-4.38619431335687">
+<ele>220.291705843156</ele>
+<name>M-G092</name>
+</rtept>
+<rtept lat="56.4988415789405" lon="-4.38705184463177">
+<ele>207.664471615689</ele>
+<name>M-G093</name>
+</rtept>
+<rtept lat="56.4980411023114" lon="-4.38835075951994">
+<ele>187.243452349665</ele>
+<name>M-G094</name>
+</rtept>
+<rtept lat="56.4969412894771" lon="-4.38867864094794">
+<ele>168.255716690813</ele>
+<name>M-G095</name>
+</rtept>
+<rtept lat="56.4965236306783" lon="-4.38920829556236">
+<ele>160.315967188377</ele>
+<name>M-G096</name>
+</rtept>
+<rtept lat="56.496384410057" lon="-4.3901288857256">
+<ele>154.832860627368</ele>
+<name>M-G097</name>
+</rtept>
+<rtept lat="56.4956813381112" lon="-4.39282760209565">
+<ele>145.767208197722</ele>
+<name>M-G098</name>
+</rtept>
+<rtept lat="56.4957718332508" lon="-4.39374819226012">
+<ele>142.805082021329</ele>
+<name>M-G099</name>
+</rtept>
+<rtept lat="56.495417736079" lon="-4.39444982504325">
+<ele>143.411779795566</ele>
+<name>M-G100</name>
+</rtept>
+<rtept lat="56.4960882485364" lon="-4.39556445902847">
+<ele>145.611403312036</ele>
+<name>M-G101</name>
+</rtept>
+</rte>
+</gpx>

@@ -1,0 +1,442 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="Walkhighlands">
+<metadata>
+	<desc>GPX file from Walkhighlands; file is copyright Walkhighlands and must not be publicly shared on other websites. Do not remove this notice.</desc>
+	<copyright author="Walkhighlands"><year>2019</year></copyright>
+</metadata>
+<rte>
+<name>Sgùrr Alasdair</name>
+<rtept lat="57.2029427319753" lon="-6.29142581795932">
+<name>SGA 001</name>
+</rtept>
+<rtept lat="57.2022826703604" lon="-6.28942693085289">
+<name>SGA 002</name>
+</rtept>
+<rtept lat="57.2017790326253" lon="-6.28653491859865">
+<ele>1.50660421084813</ele>
+<name>SGA 003</name>
+</rtept>
+<rtept lat="57.2019158743453" lon="-6.28568915008782">
+<ele>2.97620129830416</ele>
+<name>SGA 004</name>
+</rtept>
+<rtept lat="57.2018348977046" lon="-6.28490095132361">
+<ele>5.77314899263728</ele>
+<name>SGA 005</name>
+</rtept>
+<rtept lat="57.2018406756278" lon="-6.28420567263701">
+<ele>14.8693280765232</ele>
+<name>SGA 006</name>
+</rtept>
+<rtept lat="57.2016380930735" lon="-6.28381762611379">
+<ele>21.5086424981133</ele>
+<name>SGA 007</name>
+</rtept>
+<rtept lat="57.2015519633854" lon="-6.28344309244598">
+<ele>28.3286424981133</ele>
+<name>SGA 008</name>
+</rtept>
+<rtept lat="57.2013180577544" lon="-6.28291886052679">
+<ele>35.1422963611823</ele>
+<name>SGA 009</name>
+</rtept>
+<rtept lat="57.2012623089434" lon="-6.28191819820151">
+<ele>48.0401615908696</ele>
+<name>SGA 010</name>
+</rtept>
+<rtept lat="57.2011796172062" lon="-6.28117953420181">
+<ele>59.096510347839</ele>
+<name>SGA 011</name>
+</rtept>
+<rtept lat="57.2012587887155" lon="-6.28017794786852">
+<ele>73.5360768871031</ele>
+<name>SGA 012</name>
+</rtept>
+<rtept lat="57.2011070092284" lon="-6.27777429853188">
+<ele>98.4557639760473</ele>
+<name>SGA 013</name>
+</rtept>
+<rtept lat="57.2008833191453" lon="-6.27642280796585">
+<ele>103.917622945976</ele>
+<name>SGA 014</name>
+</rtept>
+<rtept lat="57.2011281827753" lon="-6.2721430153508">
+<ele>138.019737917927</ele>
+<name>SGA 015</name>
+</rtept>
+<rtept lat="57.2015074786015" lon="-6.27051333197902">
+<ele>150.50348852894</ele>
+<name>SGA 016</name>
+</rtept>
+<rtept lat="57.201657556584" lon="-6.27033184819453">
+<ele>150.529596039314</ele>
+<name>SGA 017</name>
+</rtept>
+<rtept lat="57.2016671889025" lon="-6.26952103167944">
+<ele>153.277106269776</ele>
+<name>SGA 018</name>
+</rtept>
+<rtept lat="57.2019164386238" lon="-6.26880419549806">
+<ele>155.70880728081</ele>
+<name>SGA 019</name>
+</rtept>
+<rtept lat="57.2027970254077" lon="-6.2651279255122">
+<ele>201.908370197594</ele>
+<name>SGA 020</name>
+</rtept>
+<rtept lat="57.2027825052685" lon="-6.264761698089">
+<ele>202.862629160068</ele>
+<name>SGA 021</name>
+</rtept>
+<rtept lat="57.2032279102148" lon="-6.26144930015886">
+<ele>229.866966360435</ele>
+<name>SGA 022</name>
+</rtept>
+<rtept lat="57.2031552293138" lon="-6.25988327622614">
+<ele>245.950926772922</ele>
+<name>SGA 023</name>
+</rtept>
+<rtept lat="57.2032834955546" lon="-6.25901982991686">
+<ele>257.550739493855</ele>
+<name>SGA 024</name>
+</rtept>
+<rtept lat="57.2032724023045" lon="-6.2566986632724">
+<ele>281.190385496133</ele>
+<name>SGA 025</name>
+</rtept>
+<rtept lat="57.2035339277293" lon="-6.25482317937199">
+<ele>295.125575467658</ele>
+<name>SGA 026</name>
+</rtept>
+<rtept lat="57.2042075119539" lon="-6.25166945331435">
+<ele>313.531471146196</ele>
+<name>SGA 027</name>
+</rtept>
+<rtept lat="57.2042405383763" lon="-6.25069556737724">
+<ele>319.829795009997</ele>
+<name>SGA 028</name>
+</rtept>
+<rtept lat="57.2044454548521" lon="-6.25022202533906">
+<ele>328.249434194732</ele>
+<name>SGA 029</name>
+</rtept>
+<rtept lat="57.2049665284809" lon="-6.24492947960688">
+<ele>368.449921793425</ele>
+<name>SGA 030</name>
+</rtept>
+<rtept lat="57.2061694204261" lon="-6.24047739346482">
+<ele>425.024911828598</ele>
+<name>SGA 031</name>
+</rtept>
+<rtept lat="57.2065359765465" lon="-6.23868000999377">
+<ele>466.0576623048</ele>
+<name>SGA 032</name>
+</rtept>
+<rtept lat="57.2065677565235" lon="-6.23747390783781">
+<ele>488.712744904592</ele>
+<name>SGA 033</name>
+</rtept>
+<rtept lat="57.2070222167534" lon="-6.2360014331343">
+<ele>537.46582301034</ele>
+<name>SGA 034</name>
+</rtept>
+<rtept lat="57.2074286642295" lon="-6.23568347679804">
+<ele>553.580747270713</ele>
+<name>SGA 035</name>
+</rtept>
+<rtept lat="57.2077974958944" lon="-6.23461543806556">
+<ele>566.084870452228</ele>
+<name>SGA 036</name>
+</rtept>
+<rtept lat="57.2079743626012" lon="-6.23417169408118">
+<ele>569.056127787315</ele>
+<name>SGA 037</name>
+</rtept>
+<rtept lat="57.20789811875" lon="-6.23350005029761">
+<ele>565.279900828225</ele>
+<name>SGA 038</name>
+</rtept>
+<rtept lat="57.2081286520248" lon="-6.23253213079608">
+<ele>570.456323931126</ele>
+<name>SGA 039</name>
+</rtept>
+<rtept lat="57.2081088066358" lon="-6.23098860722778">
+<ele>602.464941753608</ele>
+<name>SGA 040</name>
+</rtept>
+<rtept lat="57.208343266223" lon="-6.23017027161072">
+<ele>616.335016373976</ele>
+<name>SGA 041</name>
+</rtept>
+<rtept lat="57.2081751868459" lon="-6.22955440014669">
+<ele>640.035016373976</ele>
+<name>SGA 042</name>
+</rtept>
+<rtept lat="57.2080039184694" lon="-6.22836641839017">
+<ele>697.994256870297</ele>
+<name>SGA 043</name>
+</rtept>
+<rtept lat="57.2077318669066" lon="-6.22723319843026">
+<ele>758.572183223762</ele>
+<name>SGA 044</name>
+</rtept>
+<rtept lat="57.2075416543871" lon="-6.22660653170216">
+<ele>801.067592123052</ele>
+<name>SGA 045</name>
+</rtept>
+<rtept lat="57.2075529811639" lon="-6.22587036263514">
+<ele>828.833382291227</ele>
+<name>SGA 046</name>
+</rtept>
+<rtept lat="57.2075191461978" lon="-6.22473957745441">
+<ele>884.070245773155</ele>
+<name>SGA 047</name>
+</rtept>
+<rtept lat="57.2072834821977" lon="-6.22372656905791">
+<ele>938.136725304572</ele>
+<name>SGA 048</name>
+</rtept>
+<rtept lat="57.2071125899802" lon="-6.22319328547919">
+<ele>940.289234795557</ele>
+<name>SGA 049</name>
+</rtept>
+<rtept lat="57.2066178843442" lon="-6.2230621255121">
+<ele>941.115490234874</ele>
+<name>SGA 050</name>
+</rtept>
+<rtept lat="57.2063779455719" lon="-6.22297668034037">
+<ele>927.605775555187</ele>
+<name>SGA 051</name>
+</rtept>
+<rtept lat="57.2062855781076" lon="-6.22304897394244">
+<ele>914.855746934873</ele>
+<name>SGA 052</name>
+</rtept>
+<rtept lat="57.2064657079083" lon="-6.22357501551767">
+<ele>941.911110491865</ele>
+<name>SGA 053</name>
+</rtept>
+<rtept lat="57.2065859646697" lon="-6.22427650233472">
+<ele>957.456442747078</ele>
+<name>SGA 054</name>
+</rtept>
+<rtept lat="57.2065859646697" lon="-6.22427650233472">
+<ele>957.456442747078</ele>
+<name>SGA 055</name>
+</rtept>
+<rtept lat="57.2065859646697" lon="-6.22427650233472">
+<ele>957.456442747078</ele>
+<name>SGA 056</name>
+</rtept>
+<rtept lat="57.2064657079083" lon="-6.22357501551767">
+<ele>941.911110491865</ele>
+<name>SGA 057</name>
+</rtept>
+<rtept lat="57.2062855781076" lon="-6.22304897394244">
+<ele>914.855746934873</ele>
+<name>SGA 058</name>
+</rtept>
+<rtept lat="57.2063779455719" lon="-6.22297668034037">
+<ele>927.605775555187</ele>
+<name>SGA 059</name>
+</rtept>
+<rtept lat="57.2066178843442" lon="-6.2230621255121">
+<ele>941.115490234874</ele>
+<name>SGA 060</name>
+</rtept>
+<rtept lat="57.2071125899802" lon="-6.22319328547919">
+<ele>940.289234795557</ele>
+<name>SGA 061</name>
+</rtept>
+<rtept lat="57.2072834821977" lon="-6.22372656905791">
+<ele>938.136725304572</ele>
+<name>SGA 062</name>
+</rtept>
+<rtept lat="57.2075191461978" lon="-6.22473957745441">
+<ele>884.070245773155</ele>
+<name>SGA 063</name>
+</rtept>
+<rtept lat="57.2075529811639" lon="-6.22587036263514">
+<ele>828.833382291227</ele>
+<name>SGA 064</name>
+</rtept>
+<rtept lat="57.2075416543871" lon="-6.22660653170216">
+<ele>801.067592123052</ele>
+<name>SGA 065</name>
+</rtept>
+<rtept lat="57.2077318669066" lon="-6.22723319843026">
+<ele>758.572183223762</ele>
+<name>SGA 066</name>
+</rtept>
+<rtept lat="57.2080039184694" lon="-6.22836641839017">
+<ele>697.994256870297</ele>
+<name>SGA 067</name>
+</rtept>
+<rtept lat="57.2081751868459" lon="-6.22955440014669">
+<ele>640.035016373976</ele>
+<name>SGA 068</name>
+</rtept>
+<rtept lat="57.208343266223" lon="-6.23017027161072">
+<ele>616.335016373976</ele>
+<name>SGA 069</name>
+</rtept>
+<rtept lat="57.2081088066358" lon="-6.23098860722778">
+<ele>602.464941753608</ele>
+<name>SGA 070</name>
+</rtept>
+<rtept lat="57.2081286520248" lon="-6.23253213079608">
+<ele>570.456323931126</ele>
+<name>SGA 071</name>
+</rtept>
+<rtept lat="57.20789811875" lon="-6.23350005029761">
+<ele>565.279900828225</ele>
+<name>SGA 072</name>
+</rtept>
+<rtept lat="57.2079743626012" lon="-6.23417169408118">
+<ele>569.056127787315</ele>
+<name>SGA 073</name>
+</rtept>
+<rtept lat="57.2077974958944" lon="-6.23461543806556">
+<ele>566.084870452228</ele>
+<name>SGA 074</name>
+</rtept>
+<rtept lat="57.2074286642295" lon="-6.23568347679804">
+<ele>553.580747270713</ele>
+<name>SGA 075</name>
+</rtept>
+<rtept lat="57.2070222167534" lon="-6.2360014331343">
+<ele>537.46582301034</ele>
+<name>SGA 076</name>
+</rtept>
+<rtept lat="57.2065677565235" lon="-6.23747390783781">
+<ele>488.712744904592</ele>
+<name>SGA 077</name>
+</rtept>
+<rtept lat="57.2065359765465" lon="-6.23868000999377">
+<ele>466.0576623048</ele>
+<name>SGA 078</name>
+</rtept>
+<rtept lat="57.2061694204261" lon="-6.24047739346482">
+<ele>425.024911828598</ele>
+<name>SGA 079</name>
+</rtept>
+<rtept lat="57.2049665284809" lon="-6.24492947960688">
+<ele>368.449921793425</ele>
+<name>SGA 080</name>
+</rtept>
+<rtept lat="57.2044454548521" lon="-6.25022202533906">
+<ele>328.249434194732</ele>
+<name>SGA 081</name>
+</rtept>
+<rtept lat="57.2042405383763" lon="-6.25069556737724">
+<ele>319.829795009997</ele>
+<name>SGA 082</name>
+</rtept>
+<rtept lat="57.2042075119539" lon="-6.25166945331435">
+<ele>313.531471146196</ele>
+<name>SGA 083</name>
+</rtept>
+<rtept lat="57.2035339277293" lon="-6.25482317937199">
+<ele>295.125575467658</ele>
+<name>SGA 084</name>
+</rtept>
+<rtept lat="57.2032724023045" lon="-6.2566986632724">
+<ele>281.190385496133</ele>
+<name>SGA 085</name>
+</rtept>
+<rtept lat="57.2032834955546" lon="-6.25901982991686">
+<ele>257.550739493855</ele>
+<name>SGA 086</name>
+</rtept>
+<rtept lat="57.2031552293138" lon="-6.25988327622614">
+<ele>245.950926772922</ele>
+<name>SGA 087</name>
+</rtept>
+<rtept lat="57.2032279102148" lon="-6.26144930015886">
+<ele>229.866966360435</ele>
+<name>SGA 088</name>
+</rtept>
+<rtept lat="57.2027825052685" lon="-6.264761698089">
+<ele>202.862629160068</ele>
+<name>SGA 089</name>
+</rtept>
+<rtept lat="57.2027970254077" lon="-6.2651279255122">
+<ele>201.908370197594</ele>
+<name>SGA 090</name>
+</rtept>
+<rtept lat="57.2019164386238" lon="-6.26880419549806">
+<ele>155.70880728081</ele>
+<name>SGA 091</name>
+</rtept>
+<rtept lat="57.2016671889025" lon="-6.26952103167944">
+<ele>153.277106269776</ele>
+<name>SGA 092</name>
+</rtept>
+<rtept lat="57.201657556584" lon="-6.27033184819453">
+<ele>150.529596039314</ele>
+<name>SGA 093</name>
+</rtept>
+<rtept lat="57.2015074786015" lon="-6.27051333197902">
+<ele>150.50348852894</ele>
+<name>SGA 094</name>
+</rtept>
+<rtept lat="57.2011281827753" lon="-6.2721430153508">
+<ele>138.019737917927</ele>
+<name>SGA 095</name>
+</rtept>
+<rtept lat="57.2008833191453" lon="-6.27642280796585">
+<ele>103.917622945976</ele>
+<name>SGA 096</name>
+</rtept>
+<rtept lat="57.2011070092284" lon="-6.27777429853188">
+<ele>98.4557639760473</ele>
+<name>SGA 097</name>
+</rtept>
+<rtept lat="57.2012587887155" lon="-6.28017794786852">
+<ele>73.5360768871031</ele>
+<name>SGA 098</name>
+</rtept>
+<rtept lat="57.2011796172062" lon="-6.28117953420181">
+<ele>59.096510347839</ele>
+<name>SGA 099</name>
+</rtept>
+<rtept lat="57.2012623089434" lon="-6.28191819820151">
+<ele>48.0401615908696</ele>
+<name>SGA 100</name>
+</rtept>
+<rtept lat="57.2013180577544" lon="-6.28291886052679">
+<ele>35.1422963611823</ele>
+<name>SGA 101</name>
+</rtept>
+<rtept lat="57.2015519633854" lon="-6.28344309244598">
+<ele>28.3286424981133</ele>
+<name>SGA 102</name>
+</rtept>
+<rtept lat="57.2016380930735" lon="-6.28381762611379">
+<ele>21.5086424981133</ele>
+<name>SGA 103</name>
+</rtept>
+<rtept lat="57.2018406756278" lon="-6.28420567263701">
+<ele>14.8693280765232</ele>
+<name>SGA 104</name>
+</rtept>
+<rtept lat="57.2018348977046" lon="-6.28490095132361">
+<ele>5.77314899263728</ele>
+<name>SGA 105</name>
+</rtept>
+<rtept lat="57.2019158743453" lon="-6.28568915008782">
+<ele>2.97620129830416</ele>
+<name>SGA 106</name>
+</rtept>
+<rtept lat="57.2017790326253" lon="-6.28653491859865">
+<ele>1.50660421084813</ele>
+<name>SGA 107</name>
+</rtept>
+<rtept lat="57.2022826703604" lon="-6.28942693085289">
+<name>SGA 108</name>
+</rtept>
+<rtept lat="57.2029427319753" lon="-6.29142581795932">
+<name>SGA 109</name>
+</rtept>
+</rte>
+</gpx>

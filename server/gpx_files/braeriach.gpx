@@ -1,0 +1,778 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="Walkhighlands">
+<metadata>
+	<desc>GPX file from Walkhighlands; file is copyright Walkhighlands and must not be publicly shared on other websites. Do not remove this notice.</desc>
+	<copyright author="Walkhighlands"><year>2019</year></copyright>
+</metadata>
+<rte>
+<name>Braeriach, circuit from Whitewell</name>
+<rtept lat="57.156290725" lon="-3.794320466">
+<ele>315.178167</ele>
+<name>BRA001</name>
+</rtept>
+<rtept lat="57.156698806" lon="-3.792926556">
+<ele>307.987845</ele>
+<name>BRA002</name>
+</rtept>
+<rtept lat="57.156702220" lon="-3.792341422">
+<ele>307.296580</ele>
+<name>BRA003</name>
+</rtept>
+<rtept lat="57.156729748" lon="-3.791105994">
+<ele>294.410220</ele>
+<name>BRA004</name>
+</rtept>
+<rtept lat="57.155380795" lon="-3.790749788">
+<ele>304.372907</ele>
+<name>BRA005</name>
+</rtept>
+<rtept lat="57.154673306" lon="-3.790460980">
+<ele>299.435470</ele>
+<name>BRA006</name>
+</rtept>
+<rtept lat="57.153549719" lon="-3.790934080">
+<ele>306.895171</ele>
+<name>BRA007</name>
+</rtept>
+<rtept lat="57.152744778" lon="-3.791240701">
+<ele>306.314561</ele>
+<name>BRA008</name>
+</rtept>
+<rtept lat="57.151753996" lon="-3.791411027">
+<ele>305.151074</ele>
+<name>BRA009</name>
+</rtept>
+<rtept lat="57.151243019" lon="-3.791895503">
+<ele>304.797640</ele>
+<name>BRA010</name>
+</rtept>
+<rtept lat="57.150846134" lon="-3.792003604">
+<ele>301.892127</ele>
+<name>BRA011</name>
+</rtept>
+<rtept lat="57.149908120" lon="-3.792631061">
+<ele>301.652176</ele>
+<name>BRA012</name>
+</rtept>
+<rtept lat="57.149362307" lon="-3.792786498">
+<ele>301.646820</ele>
+<name>BRA013</name>
+</rtept>
+<rtept lat="57.149202712" lon="-3.792196891">
+<ele>301.402877</ele>
+<name>BRA014</name>
+</rtept>
+<rtept lat="57.149407738" lon="-3.790297482">
+<ele>302.170303</ele>
+<name>BRA015</name>
+</rtept>
+<rtept lat="57.149724779" lon="-3.788858064">
+<ele>302.214912</ele>
+<name>BRA016</name>
+</rtept>
+<rtept lat="57.149775167" lon="-3.788096760">
+<ele>301.911395</ele>
+<name>BRA017</name>
+</rtept>
+<rtept lat="57.149359451" lon="-3.786058277">
+<ele>303.299610</ele>
+<name>BRA018</name>
+</rtept>
+<rtept lat="57.149500782" lon="-3.785155885">
+<ele>303.371307</ele>
+<name>BRA019</name>
+</rtept>
+<rtept lat="57.149399378" lon="-3.784641848">
+<ele>304.369824</ele>
+<name>BRA020</name>
+</rtept>
+<rtept lat="57.148907554" lon="-3.783781710">
+<ele>306.462614</ele>
+<name>BRA021</name>
+</rtept>
+<rtept lat="57.148722872" lon="-3.782172657">
+<ele>308.431877</ele>
+<name>BRA022</name>
+</rtept>
+<rtept lat="57.148803366" lon="-3.781376445">
+<ele>308.145307</ele>
+<name>BRA023</name>
+</rtept>
+<rtept lat="57.148715693" lon="-3.780590334">
+<ele>308.948307</ele>
+<name>BRA024</name>
+</rtept>
+<rtept lat="57.149278683" lon="-3.778526233">
+<ele>306.750702</ele>
+<name>BRA025</name>
+</rtept>
+<rtept lat="57.149269748" lon="-3.777762080">
+<ele>307.312575</ele>
+<name>BRA026</name>
+</rtept>
+<rtept lat="57.148530089" lon="-3.776253729">
+<ele>311.809575</ele>
+<name>BRA027</name>
+</rtept>
+<rtept lat="57.148460079" lon="-3.775613951">
+<ele>311.776575</ele>
+<name>BRA028</name>
+</rtept>
+<rtept lat="57.148715742" lon="-3.775007957">
+<ele>311.841697</ele>
+<name>BRA029</name>
+</rtept>
+<rtept lat="57.148323534" lon="-3.773389029">
+<ele>314.607395</ele>
+<name>BRA030</name>
+</rtept>
+<rtept lat="57.148503133" lon="-3.771870208">
+<ele>312.510790</ele>
+<name>BRA031</name>
+</rtept>
+<rtept lat="57.148126403" lon="-3.769852030">
+<ele>319.596337</ele>
+<name>BRA032</name>
+</rtept>
+<rtept lat="57.147505822" lon="-3.769004157">
+<ele>319.808360</ele>
+<name>BRA033</name>
+</rtept>
+<rtept lat="57.147255287" lon="-3.767846677">
+<ele>321.193501</ele>
+<name>BRA034</name>
+</rtept>
+<rtept lat="57.145951605" lon="-3.765675352">
+<ele>325.990500</ele>
+<name>BRA035</name>
+</rtept>
+<rtept lat="57.145332273" lon="-3.764736751">
+<ele>331.530895</ele>
+<name>BRA036</name>
+</rtept>
+<rtept lat="57.144560353" lon="-3.762700027">
+<ele>339.135939</ele>
+<name>BRA037</name>
+</rtept>
+<rtept lat="57.144469647" lon="-3.760713930">
+<ele>338.393325</ele>
+<name>BRA038</name>
+</rtept>
+<rtept lat="57.144943419" lon="-3.758645539">
+<ele>336.442483</ele>
+<name>BRA039</name>
+</rtept>
+<rtept lat="57.145827150" lon="-3.756941986">
+<ele>338.018741</ele>
+<name>BRA040</name>
+</rtept>
+<rtept lat="57.146394458" lon="-3.756659778">
+<ele>345.942389</ele>
+<name>BRA041</name>
+</rtept>
+<rtept lat="57.145960430" lon="-3.755893736">
+<ele>344.892663</ele>
+<name>BRA042</name>
+</rtept>
+<rtept lat="57.145016612" lon="-3.754830845">
+<ele>360.948907</ele>
+<name>BRA043</name>
+</rtept>
+<rtept lat="57.144052744" lon="-3.754494311">
+<ele>362.862692</ele>
+<name>BRA044</name>
+</rtept>
+<rtept lat="57.143321633" lon="-3.753768831">
+<ele>352.704966</ele>
+<name>BRA045</name>
+</rtept>
+<rtept lat="57.142902034" lon="-3.752676317">
+<ele>370.509179</ele>
+<name>BRA046</name>
+</rtept>
+<rtept lat="57.141391415" lon="-3.751150497">
+<ele>390.256499</ele>
+<name>BRA047</name>
+</rtept>
+<rtept lat="57.140626100" lon="-3.750041751">
+<ele>387.763464</ele>
+<name>BRA048</name>
+</rtept>
+<rtept lat="57.139588017" lon="-3.749356479">
+<ele>400.712279</ele>
+<name>BRA049</name>
+</rtept>
+<rtept lat="57.138687701" lon="-3.748005136">
+<ele>404.639244</ele>
+<name>BRA050</name>
+</rtept>
+<rtept lat="57.137347207" lon="-3.746324098">
+<ele>409.784341</ele>
+<name>BRA051</name>
+</rtept>
+<rtept lat="57.136147999" lon="-3.744431702">
+<ele>429.329278</ele>
+<name>BRA052</name>
+</rtept>
+<rtept lat="57.135608247" lon="-3.742734017">
+<ele>436.788021</ele>
+<name>BRA053</name>
+</rtept>
+<rtept lat="57.134552386" lon="-3.741902799">
+<ele>435.444255</ele>
+<name>BRA054</name>
+</rtept>
+<rtept lat="57.133341010" lon="-3.740882568">
+<ele>450.524471</ele>
+<name>BRA055</name>
+</rtept>
+<rtept lat="57.131526962" lon="-3.737707647">
+<ele>478.467212</ele>
+<name>BRA056</name>
+</rtept>
+<rtept lat="57.130457781" lon="-3.735694699">
+<ele>492.106619</ele>
+<name>BRA057</name>
+</rtept>
+<rtept lat="57.129941259" lon="-3.734452849">
+<ele>521.145997</ele>
+<name>BRA058</name>
+</rtept>
+<rtept lat="57.128548682" lon="-3.732952010">
+<ele>516.220124</ele>
+<name>BRA059</name>
+</rtept>
+<rtept lat="57.127583402" lon="-3.731998254">
+<ele>520.044181</ele>
+<name>BRA060</name>
+</rtept>
+<rtept lat="57.126500741" lon="-3.730239476">
+<ele>529.816601</ele>
+<name>BRA061</name>
+</rtept>
+<rtept lat="57.125710361" lon="-3.728785178">
+<ele>542.823497</ele>
+<name>BRA062</name>
+</rtept>
+<rtept lat="57.124167684" lon="-3.726696254">
+<ele>552.166560</ele>
+<name>BRA063</name>
+</rtept>
+<rtept lat="57.122764014" lon="-3.725994943">
+<ele>540.762153</ele>
+<name>BRA064</name>
+</rtept>
+<rtept lat="57.121840435" lon="-3.724879927">
+<ele>545.622596</ele>
+<name>BRA065</name>
+</rtept>
+<rtept lat="57.120446381" lon="-3.724197347">
+<ele>581.419099</ele>
+<name>BRA066</name>
+</rtept>
+<rtept lat="57.117610518" lon="-3.723429677">
+<ele>594.514804</ele>
+<name>BRA067</name>
+</rtept>
+<rtept lat="57.115686881" lon="-3.723352636">
+<ele>581.782745</ele>
+<name>BRA068</name>
+</rtept>
+<rtept lat="57.114250533" lon="-3.722281817">
+<ele>585.480381</ele>
+<name>BRA069</name>
+</rtept>
+<rtept lat="57.113384918" lon="-3.720672752">
+<ele>598.542920</ele>
+<name>BRA070</name>
+</rtept>
+<rtept lat="57.112067109" lon="-3.719670351">
+<ele>611.970501</ele>
+<name>BRA071</name>
+</rtept>
+<rtept lat="57.111345548" lon="-3.718758386">
+<ele>628.446236</ele>
+<name>BRA072</name>
+</rtept>
+<rtept lat="57.111064842" lon="-3.719310151">
+<ele>640.555296</ele>
+<name>BRA073</name>
+</rtept>
+<rtept lat="57.110935526" lon="-3.720025802">
+<ele>648.708233</ele>
+<name>BRA074</name>
+</rtept>
+<rtept lat="57.110386149" lon="-3.720251344">
+<ele>663.159379</ele>
+<name>BRA075</name>
+</rtept>
+<rtept lat="57.109980999" lon="-3.719918816">
+<ele>671.528100</ele>
+<name>BRA076</name>
+</rtept>
+<rtept lat="57.109179956" lon="-3.723552484">
+<ele>716.220327</ele>
+<name>BRA077</name>
+</rtept>
+<rtept lat="57.108335371" lon="-3.724140736">
+<ele>743.248205</ele>
+<name>BRA078</name>
+</rtept>
+<rtept lat="57.107280642" lon="-3.723872135">
+<ele>779.557988</ele>
+<name>BRA079</name>
+</rtept>
+<rtept lat="57.105712120" lon="-3.722481697">
+<ele>856.387806</ele>
+<name>BRA080</name>
+</rtept>
+<rtept lat="57.105249499" lon="-3.721362247">
+<ele>884.622644</ele>
+<name>BRA081</name>
+</rtept>
+<rtept lat="57.103762808" lon="-3.720226742">
+<ele>938.757060</ele>
+<name>BRA082</name>
+</rtept>
+<rtept lat="57.102776147" lon="-3.717483305">
+<ele>968.419831</ele>
+<name>BRA083</name>
+</rtept>
+<rtept lat="57.100885215" lon="-3.714698251">
+<ele>997.522262</ele>
+<name>BRA084</name>
+</rtept>
+<rtept lat="57.099290526" lon="-3.713965923">
+<ele>1009.857741</ele>
+<name>BRA085</name>
+</rtept>
+<rtept lat="57.094913800" lon="-3.710690427">
+<ele>1131.385623</ele>
+<name>BRA086</name>
+</rtept>
+<rtept lat="57.092771791" lon="-3.710404496">
+<ele>1154.300763</ele>
+<name>BRA087</name>
+</rtept>
+<rtept lat="57.091268467" lon="-3.708570907">
+<ele>1152.654437</ele>
+<name>BRA088</name>
+</rtept>
+<rtept lat="57.089575441" lon="-3.707535797">
+<ele>1150.466165</ele>
+<name>BRA089</name>
+</rtept>
+<rtept lat="57.088515436" lon="-3.707520076">
+<ele>1159.990799</ele>
+<name>BRA090</name>
+</rtept>
+<rtept lat="57.087207596" lon="-3.707889036">
+<ele>1167.562529</ele>
+<name>BRA091</name>
+</rtept>
+<rtept lat="57.086223908" lon="-3.708206866">
+<ele>1169.281845</ele>
+<name>BRA092</name>
+</rtept>
+<rtept lat="57.085504441" lon="-3.708256294">
+<ele>1169.655065</ele>
+<name>BRA093</name>
+</rtept>
+<rtept lat="57.083813846" lon="-3.709020133">
+<ele>1170.208468</ele>
+<name>BRA094</name>
+</rtept>
+<rtept lat="57.083507940" lon="-3.709600863">
+<ele>1167.011577</ele>
+<name>BRA095</name>
+</rtept>
+<rtept lat="57.081482761" lon="-3.711639532">
+<ele>1135.990497</ele>
+<name>BRA096</name>
+</rtept>
+<rtept lat="57.079791048" lon="-3.714257650">
+<ele>1183.880889</ele>
+<name>BRA097</name>
+</rtept>
+<rtept lat="57.079166623" lon="-3.715568594">
+<ele>1207.484584</ele>
+<name>BRA098</name>
+</rtept>
+<rtept lat="57.079399154" lon="-3.718008058">
+<ele>1240.892302</ele>
+<name>BRA099</name>
+</rtept>
+<rtept lat="57.079739721" lon="-3.720493805">
+<ele>1257.448651</ele>
+<name>BRA100</name>
+</rtept>
+<rtept lat="57.079667342" lon="-3.725757142">
+<ele>1269.849321</ele>
+<name>BRA101</name>
+</rtept>
+<rtept lat="57.079200830" lon="-3.726684194">
+<ele>1281.050980</ele>
+<name>BRA102</name>
+</rtept>
+<rtept lat="57.078314387" lon="-3.728546996">
+<ele>1290.638693</ele>
+<name>BRA103</name>
+</rtept>
+<rtept lat="57.078486693" lon="-3.729841191">
+<ele>1284.396923</ele>
+<name>BRA104</name>
+</rtept>
+<rtept lat="57.080085778" lon="-3.734375561">
+<ele>1269.409516</ele>
+<name>BRA105</name>
+</rtept>
+<rtept lat="57.079645337" lon="-3.739314810">
+<ele>1203.047325</ele>
+<name>BRA106</name>
+</rtept>
+<rtept lat="57.079129957" lon="-3.741488416">
+<ele>1205.870184</ele>
+<name>BRA107</name>
+</rtept>
+<rtept lat="57.079054433" lon="-3.744496015">
+<ele>1187.780267</ele>
+<name>BRA108</name>
+</rtept>
+<rtept lat="57.078968872" lon="-3.745607358">
+<ele>1183.519185</ele>
+<name>BRA109</name>
+</rtept>
+<rtept lat="57.080036851" lon="-3.749432709">
+<ele>1166.053618</ele>
+<name>BRA110</name>
+</rtept>
+<rtept lat="57.082443899" lon="-3.752039357">
+<ele>1087.957389</ele>
+<name>BRA111</name>
+</rtept>
+<rtept lat="57.083922083" lon="-3.753891245">
+<ele>1022.016153</ele>
+<name>BRA112</name>
+</rtept>
+<rtept lat="57.084823326" lon="-3.756518015">
+<ele>1006.580544</ele>
+<name>BRA113</name>
+</rtept>
+<rtept lat="57.085447756" lon="-3.758121864">
+<ele>993.509872</ele>
+<name>BRA114</name>
+</rtept>
+<rtept lat="57.085482079" lon="-3.759133433">
+<ele>969.918552</ele>
+<name>BRA115</name>
+</rtept>
+<rtept lat="57.086030346" lon="-3.759248510">
+<ele>966.954178</ele>
+<name>BRA116</name>
+</rtept>
+<rtept lat="57.085914610" lon="-3.761593736">
+<ele>890.333123</ele>
+<name>BRA117</name>
+</rtept>
+<rtept lat="57.085456946" lon="-3.762575378">
+<ele>876.826878</ele>
+<name>BRA118</name>
+</rtept>
+<rtept lat="57.085963580" lon="-3.762689426">
+<ele>861.376872</ele>
+<name>BRA119</name>
+</rtept>
+<rtept lat="57.085694225" lon="-3.763378000">
+<ele>851.130936</ele>
+<name>BRA120</name>
+</rtept>
+<rtept lat="57.086122021" lon="-3.763370253">
+<ele>840.424808</ele>
+<name>BRA121</name>
+</rtept>
+<rtept lat="57.085770421" lon="-3.764475733">
+<ele>821.343892</ele>
+<name>BRA122</name>
+</rtept>
+<rtept lat="57.084794553" lon="-3.765439310">
+<ele>807.825264</ele>
+<name>BRA123</name>
+</rtept>
+<rtept lat="57.084586138" lon="-3.765500365">
+<ele>808.400084</ele>
+<name>BRA124</name>
+</rtept>
+<rtept lat="57.084331800" lon="-3.766716017">
+<ele>787.982503</ele>
+<name>BRA125</name>
+</rtept>
+<rtept lat="57.084742917" lon="-3.766616754">
+<ele>776.734495</ele>
+<name>BRA126</name>
+</rtept>
+<rtept lat="57.084556567" lon="-3.767598011">
+<ele>760.476845</ele>
+<name>BRA127</name>
+</rtept>
+<rtept lat="57.085145106" lon="-3.767150749">
+<ele>757.089826</ele>
+<name>BRA128</name>
+</rtept>
+<rtept lat="57.087025280" lon="-3.768388807">
+<ele>715.301437</ele>
+<name>BRA129</name>
+</rtept>
+<rtept lat="57.087898440" lon="-3.768210879">
+<ele>699.886649</ele>
+<name>BRA130</name>
+</rtept>
+<rtept lat="57.090065693" lon="-3.767059717">
+<ele>668.666458</ele>
+<name>BRA131</name>
+</rtept>
+<rtept lat="57.091718924" lon="-3.766040781">
+<ele>652.363881</ele>
+<name>BRA132</name>
+</rtept>
+<rtept lat="57.093230032" lon="-3.767837499">
+<ele>584.220995</ele>
+<name>BRA133</name>
+</rtept>
+<rtept lat="57.093877930" lon="-3.770314549">
+<ele>533.815639</ele>
+<name>BRA134</name>
+</rtept>
+<rtept lat="57.094953044" lon="-3.777579198">
+<ele>487.144960</ele>
+<name>BRA135</name>
+</rtept>
+<rtept lat="57.096600667" lon="-3.777563978">
+<ele>485.652269</ele>
+<name>BRA136</name>
+</rtept>
+<rtept lat="57.098321331" lon="-3.776611291">
+<ele>479.246857</ele>
+<name>BRA137</name>
+</rtept>
+<rtept lat="57.099259187" lon="-3.776687533">
+<ele>478.259578</ele>
+<name>BRA138</name>
+</rtept>
+<rtept lat="57.099854329" lon="-3.775649543">
+<ele>479.985299</ele>
+<name>BRA139</name>
+</rtept>
+<rtept lat="57.101366006" lon="-3.776192362">
+<ele>476.016649</ele>
+<name>BRA140</name>
+</rtept>
+<rtept lat="57.102724405" lon="-3.775504494">
+<ele>470.992283</ele>
+<name>BRA141</name>
+</rtept>
+<rtept lat="57.104454662" lon="-3.775681362">
+<ele>468.495738</ele>
+<name>BRA142</name>
+</rtept>
+<rtept lat="57.105906272" lon="-3.776848817">
+<ele>465.326228</ele>
+<name>BRA143</name>
+</rtept>
+<rtept lat="57.107387202" lon="-3.775947143">
+<ele>459.552171</ele>
+<name>BRA144</name>
+</rtept>
+<rtept lat="57.109511257" lon="-3.776644902">
+<ele>457.432853</ele>
+<name>BRA145</name>
+</rtept>
+<rtept lat="57.110182706" lon="-3.778653701">
+<ele>451.680765</ele>
+<name>BRA146</name>
+</rtept>
+<rtept lat="57.110687385" lon="-3.779179902">
+<ele>449.477689</ele>
+<name>BRA147</name>
+</rtept>
+<rtept lat="57.111841156" lon="-3.779078331">
+<ele>444.737501</ele>
+<name>BRA148</name>
+</rtept>
+<rtept lat="57.112857480" lon="-3.778436744">
+<ele>444.101557</ele>
+<name>BRA149</name>
+</rtept>
+<rtept lat="57.113714759" lon="-3.776971663">
+<ele>439.854283</ele>
+<name>BRA150</name>
+</rtept>
+<rtept lat="57.114213053" lon="-3.776744493">
+<ele>438.222899</ele>
+<name>BRA151</name>
+</rtept>
+<rtept lat="57.114604543" lon="-3.776825997">
+<ele>438.472141</ele>
+<name>BRA152</name>
+</rtept>
+<rtept lat="57.115525057" lon="-3.778125276">
+<ele>437.160887</ele>
+<name>BRA153</name>
+</rtept>
+<rtept lat="57.116697299" lon="-3.778526643">
+<ele>433.690662</ele>
+<name>BRA154</name>
+</rtept>
+<rtept lat="57.117001709" lon="-3.778729522">
+<ele>434.302554</ele>
+<name>BRA155</name>
+</rtept>
+<rtept lat="57.118203988" lon="-3.778818543">
+<ele>430.881085</ele>
+<name>BRA156</name>
+</rtept>
+<rtept lat="57.119000019" lon="-3.779264687">
+<ele>428.747557</ele>
+<name>BRA157</name>
+</rtept>
+<rtept lat="57.120979262" lon="-3.778135612">
+<ele>424.084548</ele>
+<name>BRA158</name>
+</rtept>
+<rtept lat="57.121892776" lon="-3.777520306">
+<ele>422.831742</ele>
+<name>BRA159</name>
+</rtept>
+<rtept lat="57.123170145" lon="-3.775321688">
+<ele>417.477549</ele>
+<name>BRA160</name>
+</rtept>
+<rtept lat="57.124231414" lon="-3.775121382">
+<ele>417.891239</ele>
+<name>BRA161</name>
+</rtept>
+<rtept lat="57.125615536" lon="-3.772613764">
+<ele>405.274688</ele>
+<name>BRA162</name>
+</rtept>
+<rtept lat="57.125756449" lon="-3.772306612">
+<ele>400.540026</ele>
+<name>BRA163</name>
+</rtept>
+<rtept lat="57.126970701" lon="-3.771548503">
+<ele>401.167144</ele>
+<name>BRA164</name>
+</rtept>
+<rtept lat="57.128107946" lon="-3.769593826">
+<ele>393.704903</ele>
+<name>BRA165</name>
+</rtept>
+<rtept lat="57.128364731" lon="-3.769543296">
+<ele>396.547057</ele>
+<name>BRA166</name>
+</rtept>
+<rtept lat="57.128802093" lon="-3.770003641">
+<ele>399.510941</ele>
+<name>BRA167</name>
+</rtept>
+<rtept lat="57.130146288" lon="-3.770318935">
+<ele>396.923654</ele>
+<name>BRA168</name>
+</rtept>
+<rtept lat="57.131808189" lon="-3.769895973">
+<ele>385.907261</ele>
+<name>BRA169</name>
+</rtept>
+<rtept lat="57.133436973" lon="-3.770005111">
+<ele>378.625261</ele>
+<name>BRA170</name>
+</rtept>
+<rtept lat="57.135595615" lon="-3.770673304">
+<ele>361.646269</ele>
+<name>BRA171</name>
+</rtept>
+<rtept lat="57.137376487" lon="-3.772705061">
+<ele>351.212883</ele>
+<name>BRA172</name>
+</rtept>
+<rtept lat="57.137459126" lon="-3.772897404">
+<ele>351.321923</ele>
+<name>BRA173</name>
+</rtept>
+<rtept lat="57.137646785" lon="-3.772906378">
+<ele>350.055198</ele>
+<name>BRA174</name>
+</rtept>
+<rtept lat="57.138420893" lon="-3.773696981">
+<ele>347.813328</ele>
+<name>BRA175</name>
+</rtept>
+<rtept lat="57.140706123" lon="-3.777480275">
+<ele>334.303147</ele>
+<name>BRA176</name>
+</rtept>
+<rtept lat="57.141211843" lon="-3.779137415">
+<ele>332.512765</ele>
+<name>BRA177</name>
+</rtept>
+<rtept lat="57.141266974" lon="-3.782468655">
+<ele>332.056765</ele>
+<name>BRA178</name>
+</rtept>
+<rtept lat="57.143188638" lon="-3.784790710">
+<ele>324.334743</ele>
+<name>BRA179</name>
+</rtept>
+<rtept lat="57.144373589" lon="-3.787894005">
+<ele>316.899438</ele>
+<name>BRA180</name>
+</rtept>
+<rtept lat="57.147719689" lon="-3.792672310">
+<ele>301.381208</ele>
+<name>BRA181</name>
+</rtept>
+<rtept lat="57.148226994" lon="-3.793010928">
+<ele>300.064129</ele>
+<name>BRA182</name>
+</rtept>
+<rtept lat="57.149324199" lon="-3.792687111">
+<ele>298.000000</ele>
+<name>BRA183</name>
+</rtept>
+<rtept lat="57.150033971" lon="-3.792595810">
+<ele>298.807618</ele>
+<name>BRA184</name>
+</rtept>
+<rtept lat="57.150845195" lon="-3.791975443">
+<ele>301.359901</ele>
+<name>BRA185</name>
+</rtept>
+<rtept lat="57.151308945" lon="-3.791777997">
+<ele>302.903002</ele>
+<name>BRA186</name>
+</rtept>
+<rtept lat="57.151740369" lon="-3.791453341">
+<ele>305.509020</ele>
+<name>BRA187</name>
+</rtept>
+<rtept lat="57.152923765" lon="-3.791070791">
+<ele>305.190083</ele>
+<name>BRA188</name>
+</rtept>
+<rtept lat="57.154691221" lon="-3.790433728">
+<ele>299.656208</ele>
+<name>BRA189</name>
+</rtept>
+<rtept lat="57.156729872" lon="-3.791129137">
+<ele>299.568696</ele>
+<name>BRA190</name>
+</rtept>
+<rtept lat="57.156668846" lon="-3.793011084">
+<ele>308.339845</ele>
+<name>BRA191</name>
+</rtept>
+<rtept lat="57.156273335" lon="-3.794405601">
+<ele>315.734167</ele>
+<name>BRA192</name>
+</rtept>
+</rte>
+</gpx>

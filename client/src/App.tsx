@@ -1,4 +1,8 @@
+import { MapContainer, TileLayer } from "react-leaflet";
 import { useEffect, useState } from 'react';
+import L from "leaflet";
+import "proj4leaflet";
+import type { LatLngTuple, LatLngBoundsExpression } from "leaflet";
 import axios from 'axios';
 import {
   Box, Container, Heading, Text, Input, Table, Thead, Tbody, Tr, Th, Td,
@@ -17,14 +21,42 @@ interface Munro {
   distance: number;
   time: number;
   grade: number;
-  bog: number;
+  bog: number; // 0–5
   start: string;
-  gpx_file?: string;       // optional extras shown in Details tab
+  // Optional fields shown in dedicated sections in Details tab
+  title?: string;
+  terrain?: string;
+  public_transport?: string;
+  description?: string;
+  gpx_file?: string;       // resources
   url?: string;
   route_url?: string;
   normalized_name?: string;
   [key: string]: any;      // tolerate any future DB fields
 }
+
+const OS_KEY = process.env.REACT_APP_OS_API_KEY || "YOUR_OS_API_KEY";
+const OS_LEISURE_27700 = `https://api.os.uk/maps/raster/v1/zxy/Leisure_27700/{z}/{x}/{y}.png?key=${OS_KEY}`;
+
+// ✅ Correct EPSG:27700 CRS (no `origin`)
+const crs27700 = new (L as any).Proj.CRS(
+  "EPSG:27700",
+  "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +towgs84=446.448,-125.157,542.06,0.1502,0.2470,0.8421,-20.4894 +units=m +no_defs",
+  {
+    // OS ZXY (BNG) resolutions – z = 0..13
+    resolutions: [
+      896, 448, 224, 112, 56, 28, 14, 7,
+      3.5, 1.75, 0.875, 0.4375, 0.21875, 0.109375
+    ],
+    bounds: L.bounds([0, 0], [700000, 1300000]),
+    // Flip northings so {y} starts at the TOP (XYZ-style)
+    transformation: new L.Transformation(1, 0, -1, 1300000)
+  }
+);
+
+// Defaults for Scotland view (lat/lon; Leaflet will project them)
+const DEFAULT_CENTER: LatLngTuple = [56.8, -4.2];
+const GB_BOUNDS: LatLngBoundsExpression = [[49.9, -8.65], [60.9, 1.77]];
 
 const CustomTooltip = ({ active, payload }: any) => {
   if (active && payload && payload.length) {
@@ -80,7 +112,7 @@ export default function App() {
     avgDistance: munros.reduce((sum, m) => sum + m.distance, 0) / (munros.length || 1),
     avgTime: munros.reduce((sum, m) => sum + m.time, 0) / (munros.length || 1),
     avgGrade: munros.reduce((sum, m) => sum + m.grade, 0) / (munros.length || 1),
-    avgBog: munros.reduce((sum, m) => sum + m.bog, 0) / (munros.length || 1),
+    avgBog: munros.reduce((sum, m) => sum + m.bog, 0) / (munros.length || 1), // out of 5
   };
 
   const ChatTab = () => (
@@ -116,7 +148,6 @@ export default function App() {
     </Box>
   );
 
-  // ==== UPDATED DETAILS TAB (properly scoped & embellished) ====
   const DetailsTab = ({ initialMunro }: { initialMunro: Munro | null }) => {
     const [query, setQuery] = useState('');
     const [options, setOptions] = useState<Munro[]>([]);
@@ -156,17 +187,15 @@ export default function App() {
     };
 
     const openInNew = (url: string) => window.open(url, '_blank', 'noopener,noreferrer');
-    const mapsSearchUrl = (text: string) =>
-      `https://www.google.com/maps/search/${encodeURIComponent(text || '')}`;
 
-    // Fields we already render explicitly
     const CORE_FIELDS = new Set([
-      'id','name','summary','distance','time','grade','bog','start','gpx_file','url','route_url'
+      'id','name','summary','distance','time','grade','bog','start',
+      'title','terrain','public_transport','description',
+      'gpx_file','url','route_url'
     ]);
     const prettyLabel = (k: string) =>
       k.replace(/_/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
-    
-    // ✅ Safe GPX string (null if missing/undefined)
+
     const gpx =
       selected && typeof selected.gpx_file === 'string' && selected.gpx_file.trim() !== ''
         ? selected.gpx_file
@@ -175,6 +204,7 @@ export default function App() {
     return (
       <Box mt={6} position="relative">
         <Heading size="md" mb={4}>Explore a Munro</Heading>
+        {/* Search Input */}
         <Box mb={4} maxW="520px" position="relative">
           <Input
             placeholder="Start typing a Munro name..."
@@ -224,92 +254,131 @@ export default function App() {
             overflow="hidden"
           >
             {/* Header */}
-            <Box bg="blue.600" color="white" px={6} py={4}>
-              <Heading size="md">{selected.name}</Heading>
-              <Text mt={1} color="blue.100">
-                🧭 Plan your day with distance, time & terrain at a glance
-              </Text>
+            <Box bg="blue.600" color="white" px={6} py={3}>
+              <Heading size="lg" lineHeight="short">
+                {selected.title || selected.name}
+              </Heading>
+              {selected.title && selected.name && selected.title !== selected.name && (
+                <Text mt={1} color="blue.100" fontSize="sm">
+                  ⛰️ {selected.name}
+                </Text>
+              )}
             </Box>
 
             {/* Body */}
-            <Box p={6}>
+            <Box p={5}>
+              {/* Map Preview — OS Leisure 1:25k (EPSG:27700) */}
+              <Heading size="sm" mb={1}>Map Preview</Heading>
+              <Box
+                border="1px solid"
+                borderColor="gray.200"
+                rounded="lg"
+                overflow="hidden"
+                mb={5}
+              >
+                <MapContainer
+                  crs={crs27700}
+                  center={DEFAULT_CENTER}
+                  zoom={7}                 // 27700 zooms; try 6–9 for overview
+                  minZoom={5}
+                  maxBounds={GB_BOUNDS}
+                  maxBoundsViscosity={1.0}
+                  style={{ height: "320px", width: "100%", background: "#eef2f6" }}
+                  id="map"
+                >
+                  <TileLayer
+                    url={OS_LEISURE_27700}
+                    attribution="© Crown copyright and database rights Ordnance Survey"
+                    noWrap={true}
+                    updateWhenIdle={false}
+                    updateWhenZooming={true}
+                    keepBuffer={2}
+                    detectRetina={false}
+                    maxZoom={13}   // ⬅️ Leisure_27700 goes up to z=13
+                  />
+                </MapContainer>
+              </Box>
+
               {/* Quick facts */}
-              <SimpleGrid columns={{ base: 1, md: 4 }} spacing={4} mb={6}>
-                <Flex align="center" gap={2} bg="blue.50" p={3} rounded="lg" border="1px solid" borderColor="blue.100">
+              <SimpleGrid columns={{ base: 1, md: 4 }} spacing={3} mb={5}>
+                <Flex align="center" gap={2} bg="blue.50" p={2} rounded="md" border="1px solid" borderColor="blue.100">
                   <span>🥾</span>
-                  <Text><strong>Distance:</strong> {selected.distance ?? '—'} km</Text>
+                  <Text fontSize="sm"><strong>Distance:</strong> {selected.distance ?? '—'} km</Text>
                 </Flex>
-                <Flex align="center" gap={2} bg="green.50" p={3} rounded="lg" border="1px solid" borderColor="green.100">
+                <Flex align="center" gap={2} bg="green.50" p={2} rounded="md" border="1px solid" borderColor="green.100">
                   <span>⏱️</span>
-                  <Text><strong>Time:</strong> {selected.time ?? '—'} hrs</Text>
+                  <Text fontSize="sm"><strong>Time:</strong> {selected.time ?? '—'} hrs</Text>
                 </Flex>
-                <Flex align="center" gap={2} bg="purple.50" p={3} rounded="lg" border="1px solid" borderColor="purple.100">
+                <Flex align="center" gap={2} bg="purple.50" p={2} rounded="md" border="1px solid" borderColor="purple.100">
                   <span>⛰️</span>
-                  <Text><strong>Grade:</strong> {selected.grade ?? '—'}</Text>
+                  <Text fontSize="sm"><strong>Grade:</strong> {selected.grade ?? '—'}</Text>
                 </Flex>
-                <Flex align="center" gap={2} bg="orange.50" p={3} rounded="lg" border="1px solid" borderColor="orange.100">
+                <Flex align="center" gap={2} bg="orange.50" p={2} rounded="md" border="1px solid" borderColor="orange.100">
                   <span>🪵</span>
-                  <Text><strong>Bog:</strong> {selected.bog ?? '—'}/10</Text>
+                  <Text fontSize="sm"><strong>Bog:</strong> {selected.bog ?? '—'}/5</Text>
                 </Flex>
               </SimpleGrid>
 
               {/* Overview */}
               {selected.summary && (
                 <>
-                  <Heading size="sm" mb={2}>Overview</Heading>
-                  <Text fontSize="sm" mb={6} whiteSpace="pre-wrap" color="gray.700">
+                  <Heading size="sm" mb={1}>Overview</Heading>
+                  <Text fontSize="sm" mb={5} whiteSpace="pre-wrap" color="gray.700">
                     {selected.summary}
                   </Text>
+                </>
+              )}
+
+              {/* Terrain */}
+              {selected.terrain && (
+                <>
+                  <Heading size="sm" mb={1}>Terrain</Heading>
+                  <Box bg="gray.50" border="1px solid" borderColor="gray.200" p={3} rounded="lg" mb={5}>
+                    <Flex align="flex-start" gap={3}>
+                      <span>🧭</span>
+                      <Text whiteSpace="pre-wrap" color="gray.800">{selected.terrain}</Text>
+                    </Flex>
+                  </Box>
+                </>
+              )}
+
+              {/* Public Transport */}
+              {selected.public_transport && (
+                <>
+                  <Heading size="sm" mb={1}>Public Transport</Heading>
+                  <Box bg="gray.50" border="1px solid" borderColor="gray.200" p={3} rounded="lg" mb={5}>
+                    <Flex align="flex-start" gap={3}>
+                      <span>🚌</span>
+                      <Text whiteSpace="pre-wrap" color="gray.800">{selected.public_transport}</Text>
+                    </Flex>
+                  </Box>
                 </>
               )}
 
               {/* Start / Access */}
               {selected.start && (
                 <>
-                  <Heading size="sm" mb={2}>Start / Access</Heading>
-                  <Box
-                    bg="gray.50"
-                    border="1px solid"
-                    borderColor="gray.200"
-                    p={4}
-                    rounded="lg"
-                    mb={4}
-                  >
+                  <Heading size="sm" mb={1}>Start / Access</Heading>
+                  <Box bg="gray.50" border="1px solid" borderColor="gray.200" p={3} rounded="lg" mb={5}>
                     <Flex align="flex-start" gap={3}>
                       <span>📍</span>
-                      <Text whiteSpace="pre-wrap" color="gray.700">{selected.start}</Text>
+                      <Text whiteSpace="pre-wrap" color="gray.800">{selected.start}</Text>
                     </Flex>
                   </Box>
-                  <Flex gap={3} mb={6} wrap="wrap">
-                    <Button
-                      size="sm"
-                      variant="outline"
-                      onClick={() => openInNew(mapsSearchUrl(`${selected.name} start`))}
-                    >
-                      Open in Google Maps
-                    </Button>
-                    <Button
-                      size="sm"
-                      variant="outline"
-                      onClick={() => navigator.clipboard.writeText(selected.start)}
-                    >
-                      Copy Start Info
-                    </Button>
-                  </Flex>
                 </>
               )}
 
               {/* Resources */}
               {(gpx || selected?.url || selected?.route_url) && (
                 <>
-                  <Heading size="sm" mb={2}>Resources</Heading>
-                  <Flex gap={3} wrap="wrap" mb={6}>
+                  <Heading size="sm" mb={1}>Resources</Heading>
+                  <Flex gap={3} wrap="wrap" mb={5}>
                     {gpx && (
                       <Button
                         size="sm"
                         colorScheme="blue"
                         variant="solid"
-                        onClick={() => openInNew(gpx)} // relative or absolute works
+                        onClick={() => openInNew(gpx)}
                       >
                         📥 Download GPX
                       </Button>
@@ -328,15 +397,51 @@ export default function App() {
                 </>
               )}
 
-              {/* Additional Details: auto-render any extra DB fields */}
+              {/* 🔑 Keyword Tags (static placeholder for now) */}
+              <Heading size="sm" mb={1}>Keyword Tags</Heading>
+              <Flex gap={2} wrap="wrap" mb={6}>
+                {['scrambling','rocky','challenging','exposed','flat','ridge','quiet','family-friendly'].map(tag => (
+                  <Box
+                    key={tag}
+                    px={3}
+                    py={1}
+                    bg="blue.50"
+                    border="1px solid"
+                    borderColor="blue.200"
+                    rounded="full"
+                    fontSize="xs"
+                    color="blue.800"
+                  >
+                    {tag}
+                  </Box>
+                ))}
+              </Flex>
+
+              {/* Route Description */}
+              {selected.description && (
+                <>
+                  <Heading size="sm" mb={1}>Route Description</Heading>
+                  <Box bg="white" border="1px solid" borderColor="gray.200" p={4} rounded="lg">
+                    <Text fontSize="sm" lineHeight="tall" whiteSpace="pre-wrap" color="gray.700">
+                      {selected.description}
+                    </Text>
+                  </Box>
+                </>
+              )}
+
+              {/* Additional Details */}
               {(() => {
                 const entries = Object.entries(selected).filter(
-                  ([k, v]) => !CORE_FIELDS.has(k) && v !== null && v !== undefined && String(v).trim() !== ''
+                  ([k, v]) =>
+                    !CORE_FIELDS.has(k) &&
+                    v !== null &&
+                    v !== undefined &&
+                    String(v).trim() !== ''
                 );
                 if (!entries.length) return null;
                 return (
                   <>
-                    <Heading size="sm" mb={2}>Additional Details</Heading>
+                    <Heading size="sm" mt={6} mb={2}>Additional Details</Heading>
                     <SimpleGrid columns={{ base: 1, md: 2 }} spacing={3}>
                       {entries.map(([k, v]) => (
                         <Box
@@ -362,7 +467,7 @@ export default function App() {
         )}
       </Box>
     );
-  }; // <<< end DetailsTab
+  }; /// end of section
 
   return (
     <Box minH="100vh" bgGradient="linear(to-br, gray.50, white)">
@@ -447,7 +552,7 @@ export default function App() {
                 {[1, 2, 3, 4, 5].map(g => <option key={g} value={g}>{g}</option>)}
               </Select>
               <Select placeholder="Max bog" value={bog} onChange={(e) => setBog(e.target.value)} maxW="180px">
-                {[2, 4, 6, 8, 10].map(b => <option key={b} value={b}>{b}</option>)}
+                {[1, 2, 3, 4, 5].map(b => <option key={b} value={b}>{b}</option>)}
               </Select>
               <Select placeholder="Sort by" value={sortKey} onChange={(e) => setSortKey(e.target.value)} maxW="180px">
                 <option value="name">Name (A–Z)</option>
@@ -501,7 +606,7 @@ export default function App() {
         <Modal isOpen={isOpen} onClose={onClose} size="lg">
           <ModalOverlay />
           <ModalContent>
-            <ModalHeader>{selectedMunro?.name}</ModalHeader>
+            <ModalHeader>{selectedMunro?.title || selectedMunro?.name}</ModalHeader>
             <ModalCloseButton />
             <ModalBody>
               <Text mb={4} fontSize="sm" whiteSpace="pre-wrap">{selectedMunro?.summary}</Text>
@@ -521,13 +626,33 @@ export default function App() {
                 </Flex>
                 <Flex align="center" gap={3}>
                   <Box as="span" fontSize="lg" color="brown.600"><i className="fas fa-water" /></Box>
-                  <Text><strong>Bog:</strong> {selectedMunro?.bog}/10</Text>
+                  <Text><strong>Bog:</strong> {selectedMunro?.bog}/5</Text>
                 </Flex>
                 <Flex align="center" gap={3} gridColumn="span 2">
                   <Box as="span" fontSize="lg" color="gray.600"><i className="fas fa-map-marker-alt" /></Box>
                   <Text><strong>Start Point:</strong> {selectedMunro?.start}</Text>
                 </Flex>
               </SimpleGrid>
+
+              {/* 🔑 Keyword Tags (static placeholder, mirrored from Details tab) */}
+              <Heading size="sm" mt={4} mb={2}>Keyword Tags</Heading>
+              <Flex gap={2} wrap="wrap">
+                {['scrambling','rocky','challenging','exposed','flat','ridge','quiet','family-friendly'].map(tag => (
+                  <Box
+                    key={tag}
+                    px={3}
+                    py={1}
+                    bg="blue.50"
+                    border="1px solid"
+                    borderColor="blue.200"
+                    rounded="full"
+                    fontSize="xs"
+                    color="blue.800"
+                  >
+                    {tag}
+                  </Box>
+                ))}
+              </Flex>
             </ModalBody>
             <ModalFooter>
               <Flex gap={3}>
