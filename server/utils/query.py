@@ -16,6 +16,19 @@ STOPWORDS = {
     "at",
     "from",
     "near",
+    # new — generic verbs/phrases that pollute queries
+    "suggest",
+    "suggests",
+    "suggested",
+    "recommend",
+    "recommends",
+    "recommended",
+    "please",
+    "can",
+    "could",
+    "would",
+    "show",
+    "find",
 }
 
 GENERIC_SYNONYMS: Dict[str, list[str]] = {

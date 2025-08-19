@@ -7,6 +7,7 @@ from utils.query import (
     norm_text,
 )
 from extensions.llm import get_llm
+from services.geo_service import nearest_by_location, _map_names_to_db_rows, attach_tags
 
 # ---------- Core search (3-pass) ----------
 
@@ -334,3 +335,57 @@ def names_to_ids(names: list[str]) -> list[dict]:
             if row2:
                 out.append({"id": row2["id"], "name": row2["name"]})
         return out
+
+
+def search_by_location_core(
+    location: str, include_tags: list[str] | None, limit: int = 12
+) -> Dict[str, Any]:
+    """
+    Location-first search: take nearest Munros to the specified place.
+    Semantics: softer filtering — proximity is primary; tags are a soft boost only.
+    Returns compatible payload with 'results' and debug fields, plus distance_km.
+    """
+    include_tags = include_tags or []
+    # 1) Distance candidates
+    near = nearest_by_location(location_query=location, k=max(20, limit))
+    # 2) Map to DB rows & tags
+    rows = _map_names_to_db_rows(near)
+    attach_tags(rows)
+
+    # 3) Soft re-ranking: primarily by distance, secondary by tag matches (desc)
+    def tag_match_count(tags: list[str]) -> int:
+        return sum(1 for t in (tags or []) if t in include_tags)
+
+    rows.sort(
+        key=lambda r: (r["distance_km"], -tag_match_count(r.get("tags", [])), r["name"])
+    )
+
+    # 4) Build results (keep interface parity with search_core)
+    results = [
+        {
+            "id": r["id"],
+            "name": r["name"],
+            "summary": r.get("summary"),
+            "snippet": (r.get("description") or "")[:400],
+            "tags": r.get("tags", []),
+            # Use distance (km) as 'rank' signal for transparency; smaller is better
+            "rank": float(r["distance_km"]),
+            "distance_km": float(r["distance_km"]),
+        }
+        for r in rows[:limit]
+    ]
+
+    # No SQL since this is a geo path; include a trace field instead
+    return {
+        "query": "",
+        "fts_query": "",
+        "include_tags": include_tags,
+        "exclude_tags": [],
+        "bog_max": None,
+        "grade_max": None,
+        "sql": "[location-mode: distance rank]",
+        "params": [location],
+        "results": results,
+        "location": location,
+        "retrieval_mode": "location",
+    }
