@@ -2,18 +2,28 @@ import { useState } from "react";
 import {
   Box, Heading, Text, Input, Flex, Button, Spinner,
   Accordion, AccordionItem, AccordionButton, AccordionPanel, AccordionIcon,
-  Stack, Tag, Code, Badge, useToast
+  Stack, Tag, Code, useToast, HStack
 } from "@chakra-ui/react";
 
-type ChatMessage = { role: "user" | "assistant"; content: string; steps?: any };
+export type ChatRouteLink = { id: number; name: string; tags?: string[] };
+export type ChatMessage = {
+  role: "user" | "assistant";
+  content: string;
+  steps?: any;
+  routes?: ChatRouteLink[]; // buttons data from backend (works in fallback too)
+};
+
+type Props = {
+  messages: ChatMessage[];
+  onSend: (text: string) => Promise<void> | void;
+  onOpenRoute: (route: ChatRouteLink) => void;
+};
 
 const API_BASE =
   (typeof process !== "undefined" && (process as any)?.env?.REACT_APP_API_BASE) ||
   "http://localhost:5000";
 
-
-export default function ChatTab() {
-  const [messages, setMessages] = useState<ChatMessage[]>([]);
+export default function ChatTab({ messages, onSend, onOpenRoute }: Props) {
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
   const toast = useToast();
@@ -22,11 +32,13 @@ export default function ChatTab() {
     const text = input.trim();
     if (!text || loading) return;
 
-    setMessages((m) => [...m, { role: "user", content: text }]);
     setInput("");
     setLoading(true);
 
     try {
+      // Let parent append the user message immediately for persistence
+      onSend(text);
+
       const res = await fetch(`${API_BASE}/api/chat`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -37,7 +49,14 @@ export default function ChatTab() {
 
       const answer = (data?.answer ?? "").trim() || "(no answer)";
       const steps = data?.steps ?? null;
-      setMessages((m) => [...m, { role: "assistant", content: answer, steps }]);
+      const routes = (data?.routes ?? []) as ChatRouteLink[];
+
+      // Emit assistant message so parent can persist it with steps+routes
+      window.dispatchEvent(
+        new CustomEvent("munro-chat-assistant", {
+          detail: { content: answer, steps, routes },
+        })
+      );
     } catch (err: any) {
       toast({
         title: "Chat error",
@@ -46,10 +65,11 @@ export default function ChatTab() {
         duration: 4000,
         isClosable: true,
       });
-      setMessages((m) => [
-        ...m,
-        { role: "assistant", content: "Sorry — I couldn’t reach the server." },
-      ]);
+      window.dispatchEvent(
+        new CustomEvent("munro-chat-assistant", {
+          detail: { content: "Sorry — I couldn’t reach the server." },
+        })
+      );
     } finally {
       setLoading(false);
     }
@@ -82,6 +102,23 @@ export default function ChatTab() {
               {msg.content}
             </Text>
 
+            {/* Route buttons (normal search OR LLM fallback) */}
+            {msg.role === "assistant" && (msg.routes?.length ?? 0) > 0 && (
+              <HStack mt={2} spacing={2} flexWrap="wrap">
+                {msg.routes!.map((r) => (
+                  <Button
+                    key={r.id}
+                    size="xs"
+                    variant="outline"
+                    onClick={() => onOpenRoute(r)}
+                  >
+                    Open “{r.name}”
+                  </Button>
+                ))}
+              </HStack>
+            )}
+
+            {/* Inspector (debug) */}
             {msg.role === "assistant" && msg.steps && (
               <Box mt={2} maxW="80%" ml={0}>
                 <Inspector steps={msg.steps} />
@@ -100,7 +137,7 @@ export default function ChatTab() {
 
       <Flex gap={2}>
         <Input
-          placeholder="Ask about Munros… e.g. 'airy scramble by bus near Glen Coe'"
+          placeholder="Ask about Munros… e.g. 'airy scramble by bus'"
           value={input}
           onChange={(e) => setInput(e.target.value)}
           onKeyDown={(e) => {
@@ -121,14 +158,15 @@ export default function ChatTab() {
 
 function Inspector({ steps }: { steps: any }) {
   const intent = steps?.intent ?? {};
-  const sql = steps?.retrieval_sql ?? "";
-  const params = steps?.retrieval_params ?? [];
-  const results = (steps?.candidates ?? []) as Array<{
+  const sql = steps?.sql ?? steps?.retrieval_sql ?? "";
+  const params = steps?.params ?? steps?.retrieval_params ?? [];
+  const results = (steps?.results ?? steps?.candidates ?? []) as Array<{
     id: number;
     name: string;
     tags: string[];
-    snippet: string;
-    rank: number;
+    summary?: string;   // we read summary now
+    // snippet?: string; // ignored
+    // rank?: number;    // removed
   }>;
 
   return (
@@ -167,18 +205,14 @@ function Inspector({ steps }: { steps: any }) {
             <Stack spacing={3}>
               {results.map((r) => (
                 <Box key={r.id} p={3} bg="white" border="1px solid #e2e8f0" rounded="md">
-                  <Flex justify="space-between" align="center" mb={1}>
-                    <Text fontWeight="bold">{r.name}</Text>
-                    <Badge variant="subtle">BM25 {r.rank.toFixed(2)}</Badge>
-                  </Flex>
+                  <Text fontWeight="bold" mb={1}>{r.name}</Text>
                   <Flex gap={1} wrap="wrap" mb={2}>
-                    {r.tags.slice(0, 14).map((t) => (
+                    {r.tags?.slice(0, 14).map((t) => (
                       <Tag key={t} size="sm">{t}</Tag>
                     ))}
                   </Flex>
                   <Text fontSize="sm" color="gray.700">
-                    {r.snippet}
-                    {r.snippet?.length >= 400 ? "…" : ""}
+                    {r.summary || "No summary available."}
                   </Text>
                 </Box>
               ))}

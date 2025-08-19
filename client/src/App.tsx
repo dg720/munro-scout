@@ -1,5 +1,5 @@
-import "leaflet/dist/leaflet.css"; // required for proper map rendering (safe to keep)
-import "./config/leaflet";          // one-time Leaflet icon setup
+import "leaflet/dist/leaflet.css";
+import "./config/leaflet";
 
 import { useEffect, useState } from "react";
 import axios from "axios";
@@ -15,9 +15,7 @@ import ScatterPlot from "./components/dashboard/ScatterPlot";
 import Filters from "./components/dashboard/Filters";
 import MunroTable from "./components/dashboard/MunroTable";
 import DetailsTab from "./features/details/DetailsTab";
-import ChatTab from "./features/chat/ChatTab";
-
-// ==================== MAIN APP =====================================
+import ChatTab, { ChatMessage, ChatRouteLink } from "./features/chat/ChatTab";
 
 export default function App() {
   const [munros, setMunros] = useState<Munro[]>([]);
@@ -30,6 +28,20 @@ export default function App() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [activeTab, setActiveTab] = useState<"dashboard" | "chat" | "details">("dashboard");
 
+  // ✅ Persist chat history in App
+  const [messages, setMessages] = useState<ChatMessage[]>([]);
+
+  // Listen for assistant messages emitted by ChatTab after it gets server response
+  useEffect(() => {
+    const handler = (ev: any) => {
+      const { content, steps, routes } = ev.detail || {};
+      setMessages((prev) => [...prev, { role: "assistant", content: content || "", steps, routes }]);
+    };
+    window.addEventListener("munro-chat-assistant", handler);
+    return () => window.removeEventListener("munro-chat-assistant", handler);
+  }, []);
+
+  // Load munros for dashboard table
   useEffect(() => {
     const params = new URLSearchParams();
     if (search) params.append("search", search);
@@ -61,6 +73,33 @@ export default function App() {
     avgTime: munros.reduce((sum, m) => sum + m.time, 0) / (munros.length || 1),
     avgGrade: munros.reduce((sum, m) => sum + m.grade, 0) / (munros.length || 1),
     avgBog: munros.reduce((sum, m) => sum + m.bog, 0) / (munros.length || 1),
+  };
+
+  // When user submits a message in ChatTab
+  const handleSend = async (text: string) => {
+    setMessages((prev) => [...prev, { role: "user", content: text }]);
+  };
+
+  // Clicking a route button: fetch full record and open the Details tab
+  const openRoute = async (route: ChatRouteLink) => {
+    try {
+      // Prefer the dedicated single endpoint; fallback to ?id= if needed
+      const res = await axios.get(`http://localhost:5000/api/munro/${route.id}`);
+      const munro = res.data as Munro;
+      setSelectedMunro(munro);
+      setActiveTab("details");
+    } catch {
+      try {
+        const res2 = await axios.get(`http://localhost:5000/api/munros?id=${route.id}`);
+        const munro = (res2.data as Munro[])[0];
+        if (munro) {
+          setSelectedMunro(munro);
+          setActiveTab("details");
+        }
+      } catch (e) {
+        console.error("Failed to open route", e);
+      }
+    }
   };
 
   return (
@@ -130,7 +169,11 @@ export default function App() {
             />
           </>
         ) : activeTab === "chat" ? (
-          <ChatTab/>
+          <ChatTab
+            messages={messages}
+            onSend={handleSend}
+            onOpenRoute={openRoute}
+          />
         ) : (
           <DetailsTab initialMunro={selectedMunro} />
         )}
