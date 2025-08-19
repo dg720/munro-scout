@@ -29,6 +29,9 @@ STOPWORDS = {
     "would",
     "show",
     "find",
+    "give",
+    "list",
+    "me",
 }
 
 GENERIC_SYNONYMS: Dict[str, list[str]] = {

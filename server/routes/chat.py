@@ -11,16 +11,24 @@ from services.search_service import (
     names_to_ids,
 )
 from utils.query import normalize_grade_max
+from utils.filters import parse_numeric_filters  # NEW
 
 bp = Blueprint("chat", __name__)
 
-# --- simple heuristic fallback for location phrases if LLM misses it ---
+# Heuristic location extractor with guard against "at least", numbers, units, etc.
+_FILTER_STOP = r"(?:at\s+least|at\s+most|more\s+than|less\s+than|over|under|between|within|with|for|of|\d+|km|mi|miles|kilomet)"
+
 _LOCATION_PATTERNS = [
-    r"\bnear\s+([A-Za-z][A-Za-z\s'\-]+)",
-    r"\bclose\s+to\s+([A-Za-z][A-Za-z\s'\-]+)",
-    r"\baround\s+([A-Za-z][A-Za-z\s'\-]+)",
-    r"\bfrom\s+([A-Za-z][A-Za-z\s'\-]+)",
-    r"\b(?:in|at)\s+([A-Za-z][A-Za-z\s'\-]+)",  # careful with generic 'in'
+    r"\bnear\s+([A-Za-z][A-Za-z\s'\-]+?)(?=\s+" + _FILTER_STOP + r"|\s*$|[.,;:!?])",
+    r"\bclose\s+to\s+([A-Za-z][A-Za-z\s'\-]+?)(?=\s+"
+    + _FILTER_STOP
+    + r"|\s*$|[.,;:!?])",
+    r"\baround\s+([A-Za-z][A-Za-z\s'\-]+?)(?=\s+" + _FILTER_STOP + r"|\s*$|[.,;:!?])",
+    r"\bin\s+([A-Za-z][A-Za-z\s'\-]+?)(?=\s+" + _FILTER_STOP + r"|\s*$|[.,;:!?])",
+    r"\bat\s+(?!least\b|most\b)([A-Za-z][A-Za-z\s'\-]+?)(?=\s+"
+    + _FILTER_STOP
+    + r"|\s*$|[.,;:!?])",
+    r"\bfrom\s+([A-Za-z][A-Za-z\s'\-]+?)(?=\s+" + _FILTER_STOP + r"|\s*$|[.,;:!?])",
 ]
 
 
@@ -30,10 +38,17 @@ def extract_location_heuristic(text: str) -> str:
         m = re.search(pat, s, flags=re.IGNORECASE)
         if m:
             loc = m.group(1).strip()
-            # drop trailing punctuation
-            loc = re.sub(r"[.,;:!?]+$", "", loc).strip()
-            return loc
+            return re.sub(r"[.,;:!?]+$", "", loc).strip()
     return ""
+
+
+def _coerce_float(x):
+    try:
+        if x is None:
+            return None
+        return float(x)
+    except Exception:
+        return None
 
 
 @bp.post("/chat")
@@ -47,11 +62,22 @@ def chat():
     limit = int(data.get("limit") or 8)
     debug = bool(data.get("debug") or False)
 
-    # 1) Parse intent (now includes 'location')
+    # 1) Parse intent (now includes location + numeric filters)
     intent_prompt = f"""
 You are an intent parser for a Munro route assistant.
 
-Extract a compact FTS query and tag filters from the user message, and detect a single free-text 'location' if the user mentions a place to start from or be near (e.g., "near Fort William", "from Glasgow", "close to Aviemore"). If no location is present, set it to null.
+Extract:
+- compact FTS 'query'
+- 'include_tags' and 'exclude_tags'
+- 'location' (single string or null)
+- numeric filters if present:
+  - distance_min_km, distance_max_km (route length)
+  - time_min_h, time_max_h (estimated time)
+
+Examples:
+- "at least 15km" -> distance_min_km = 15
+- "under 6 hours" -> time_max_h = 6
+- "between 10 and 15km" -> distance_min_km = 10, distance_max_km = 15
 
 Allowed tags:
 ['ridge','scramble','technical','steep','rocky','boggy','heather','scree','handson','knifeedge','airy','slab','gully',
@@ -61,9 +87,8 @@ Allowed tags:
 Rules:
 - Include only tags clearly implied. Be conservative.
 - 'river_crossing' only if explicit wade/ford, not if a bridge/stepping stones exist.
-- Transport: add 'bus'/'train' if feasible/mentioned; 'bike' if cycle access implied.
-- If a place name or "near/from/around <place>" appears, set location to that place string.
-- Return STRICT JSON with fields: query, include_tags, exclude_tags, bog_max, grade_max, location.
+- Return STRICT JSON keys: query, include_tags, exclude_tags, bog_max, grade_max, location,
+  distance_min_km, distance_max_km, time_min_h, time_max_h.
 
 User message: {user_msg}
 """
@@ -87,20 +112,37 @@ User message: {user_msg}
             "bog_max": None,
             "grade_max": None,
             "location": None,
+            "distance_min_km": None,
+            "distance_max_km": None,
+            "time_min_h": None,
+            "time_max_h": None,
         }
 
-    # Fallback heuristics if LLM missed the location
-    location = ""
-    if isinstance(intent, dict) and intent.get("location") is not None:
-        location = (intent.get("location") or "").strip()
-    if not location:
-        location = extract_location_heuristic(user_msg)
+    # Ensure keys exist
+    for k in ("distance_min_km", "distance_max_km", "time_min_h", "time_max_h"):
+        intent[k] = intent.get(k, None)
 
-    current_app.logger.info(
-        f"[chat] intent={intent} | fallback_location='{location}' | limit={limit}"
-    )
+    # Heuristic fallbacks if LLM missed details
+    loc_heur = extract_location_heuristic(user_msg)
+    if not (intent.get("location") or "").strip() and loc_heur:
+        intent["location"] = loc_heur
+
+    # Regex fallback for numeric filters
+    num_fallback = parse_numeric_filters(user_msg)
+    for k, v in num_fallback.items():
+        if intent.get(k) is None:
+            intent[k] = v
+
+    # Coerce numeric strings to floats (if any)
+    for k in ("distance_min_km", "distance_max_km", "time_min_h", "time_max_h"):
+        intent[k] = _coerce_float(intent.get(k))
+
+    # Log final intent
+    current_app.logger.info(f"[chat] intent={intent} | limit={limit}")
 
     # 2) Retrieval via shared search logic
+    location = (intent.get("location") or "").strip()
+
     if location:
         # Location-first path: distance-ranked, tags as soft boost
         try:
@@ -108,6 +150,10 @@ User message: {user_msg}
                 location=location,
                 include_tags=intent.get("include_tags") or [],
                 limit=limit,
+                distance_min_km=intent.get("distance_min_km"),
+                distance_max_km=intent.get("distance_max_km"),
+                time_min_h=intent.get("time_min_h"),
+                time_max_h=intent.get("time_max_h"),
             )
         except ValueError as e:
             # Location not in Scotland / not recognised
@@ -123,7 +169,6 @@ User message: {user_msg}
             ), 400
 
         candidates = search_resp["results"]
-        # (existing logging of candidates can remain as-is)
 
         # Server log: names + distances
         try:
@@ -147,6 +192,11 @@ User message: {user_msg}
             "bog_max": intent.get("bog_max"),
             "grade_max": normalize_grade_max(intent.get("grade_max")),
             "limit": limit,
+            # pass numeric filters through to search_core
+            "distance_min_km": intent.get("distance_min_km"),
+            "distance_max_km": intent.get("distance_max_km"),
+            "time_min_h": intent.get("time_min_h"),
+            "time_max_h": intent.get("time_max_h"),
         }
         search_resp = search_core(search_payload)
         candidates = search_resp["results"]
@@ -261,6 +311,10 @@ Write a concise helpful answer:
                     "name": r.get("name"),
                     "distance_km": r.get("distance_km"),
                     "tags": r.get("tags", []),
+                    "route_distance": r.get(
+                        "route_distance"
+                    ),  # present in location path after service update
+                    "route_time": r.get("route_time"),
                 }
                 for r in candidates
             ],
@@ -269,7 +323,7 @@ Write a concise helpful answer:
     return jsonify(
         {
             "answer": answer,
-            "routes": route_links,
+            "routes": route_links,  # for Details tab links/buttons
             "steps": {
                 "intent": intent,
                 "retrieval_mode": retrieval_mode,

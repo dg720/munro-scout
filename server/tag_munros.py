@@ -1,6 +1,10 @@
 # server/tag_munros.py
-import os, json, sqlite3, time
-from typing import Dict, List
+import os
+import json
+import sqlite3
+import time
+import argparse
+from typing import Dict, List, Optional
 from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
 
@@ -44,7 +48,7 @@ ALLOWED = sorted({t for v in ONTOLOGY.values() for t in v})
 
 # --- LLM client ---
 llm = ChatOpenAI(
-    model="gpt-4o-mini",  # or "gpt-3.5-turbo"
+    model="gpt-4o-mini",
     temperature=0,
     openai_api_key=os.getenv("OPENAI_API_KEY"),
 )
@@ -90,15 +94,17 @@ OUTPUT (STRICT JSON only)
 }}
 """
 
+# ----------------- Helpers -----------------
+
 
 def filter_allowed(tags: List[str]) -> List[str]:
     return [t for t in tags if t in ALLOWED]
 
 
-def llm_call_with_retry(messages: List[Dict], tries: int = 3):
+def llm_call_with_retry(messages: List[Dict], tries: int = 3) -> str:
     for i in range(1, tries + 1):
         try:
-            return llm.invoke(messages).content
+            return llm.invoke(messages).content  # type: ignore[return-value]
         except Exception as e:
             if i == tries:
                 raise
@@ -108,6 +114,7 @@ def llm_call_with_retry(messages: List[Dict], tries: int = 3):
                 flush=True,
             )
             time.sleep(backoff)
+    return ""
 
 
 def tag_one(doc: Dict) -> Dict:
@@ -131,33 +138,57 @@ def tag_one(doc: Dict) -> Dict:
     except Exception:
         data = {"tags": [], "keywords": ""}
 
-    tags = filter_allowed(data.get("tags", []))
-    return {"tags": tags, "keywords": (data.get("keywords") or "").strip()}
+    tags = filter_allowed(data.get("tags", []) or [])
+    keywords = (data.get("keywords") or "").strip()
+    return {"tags": tags, "keywords": keywords}
 
 
-def ensure_aux_tables(conn: sqlite3.Connection):
+def ensure_aux_tables(conn: sqlite3.Connection) -> None:
     c = conn.cursor()
-    c.execute("""
+    c.execute(
+        """
         CREATE TABLE IF NOT EXISTS munro_tags (
           munro_id INTEGER NOT NULL,
           tag TEXT NOT NULL,
           PRIMARY KEY (munro_id, tag),
           FOREIGN KEY (munro_id) REFERENCES munros(id) ON DELETE CASCADE
         )
-    """)
-    c.execute("""
+        """
+    )
+    c.execute(
+        """
         CREATE VIRTUAL TABLE IF NOT EXISTS munro_fts USING fts5(
           name, summary, description, keywords, content=''
         )
-    """)
+        """
+    )
     conn.commit()
 
 
-def main(ids: List[int] = None):
+def reset_tags_for_ids(conn: sqlite3.Connection, ids: Optional[List[int]]) -> None:
+    """Delete existing tags either for specific IDs or for all Munros."""
+    c = conn.cursor()
+    if ids and len(ids) > 0:
+        placeholders = ",".join("?" for _ in ids)
+        c.execute(f"DELETE FROM munro_tags WHERE munro_id IN ({placeholders})", ids)
+    else:
+        c.execute("DELETE FROM munro_tags")
+    conn.commit()
+
+
+# ----------------- Main flow -----------------
+
+
+def main(ids: Optional[List[int]] = None, wipe_first: bool = False) -> None:
     conn = sqlite3.connect(DB_PATH)
     conn.row_factory = sqlite3.Row
     ensure_aux_tables(conn)
     c = conn.cursor()
+
+    # Optional: global wipe of all tags first when doing a full retag
+    if wipe_first and not ids:
+        print("Wiping ALL existing tags in munro_tags...", flush=True)
+        reset_tags_for_ids(conn, None)
 
     # detect available columns (avoid KeyErrors on missing fields)
     existing = {r["name"] for r in c.execute("PRAGMA table_info(munros)")}
@@ -208,14 +239,17 @@ def main(ids: List[int] = None):
 
             c.execute("BEGIN")
 
-            # 1) Upsert tags
+            # Replace (not accumulate) tags for this Munro
+            c.execute("DELETE FROM munro_tags WHERE munro_id = ?", (doc["id"],))
+
+            # Insert fresh tags
             for t in tags:
                 c.execute(
-                    "INSERT OR IGNORE INTO munro_tags (munro_id, tag) VALUES (?,?)",
+                    "INSERT INTO munro_tags (munro_id, tag) VALUES (?,?)",
                     (doc["id"], t),
                 )
 
-            # 2) Contentless FTS5: 'delete' control insert, then fresh insert
+            # FTS contentless: delete control insert, then fresh insert
             c.execute(
                 "INSERT INTO munro_fts(munro_fts, rowid) VALUES ('delete', ?)",
                 (doc["id"],),
@@ -233,7 +267,10 @@ def main(ids: List[int] = None):
 
             conn.commit()
             print(f"    ✓ tags={tags} | keywords_len={len(keywords)}")
-            print(f"      keywords: {keywords}\n", flush=True)
+            if keywords:
+                print(f"      keywords: {keywords}\n", flush=True)
+            else:
+                print(f"      keywords: (none)\n", flush=True)
 
         except Exception as e:
             conn.rollback()
@@ -241,7 +278,7 @@ def main(ids: List[int] = None):
 
         time.sleep(0.03)
 
-    # optional: optimize FTS index
+    # Optional: optimize FTS index
     try:
         c.execute("INSERT INTO munro_fts(munro_fts) VALUES ('optimize')")
         conn.commit()
@@ -253,6 +290,20 @@ def main(ids: List[int] = None):
 
 
 if __name__ == "__main__":
-    # main()               # all
-    # main([1, 2, 3, 4])   # specific IDs
-    main()
+    parser = argparse.ArgumentParser(
+        description="Retag Munros and refresh FTS keywords."
+    )
+    parser.add_argument(
+        "--ids", nargs="*", type=int, help="Specific munro IDs to retag"
+    )
+    parser.add_argument(
+        "--wipe-first",
+        action="store_true",
+        help="Wipe ALL tags before retagging (only when not using --ids)",
+    )
+    args = parser.parse_args()
+
+    if args.ids and len(args.ids) > 0:
+        main(args.ids, wipe_first=False)
+    else:
+        main(None, wipe_first=args.wipe_first)

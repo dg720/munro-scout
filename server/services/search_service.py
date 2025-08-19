@@ -1,4 +1,5 @@
-from typing import Any, Dict, List, Tuple
+import logging
+from typing import Any, Dict, List, Optional
 from db import get_db
 from utils.query import (
     expand_query_for_fts,
@@ -9,12 +10,61 @@ from utils.query import (
 from extensions.llm import get_llm
 from services.geo_service import nearest_by_location, _map_names_to_db_rows, attach_tags
 
+logger = logging.getLogger("search_service")
+
+# --- Detect optional columns once (distance, time) ---
+_HAS_DISTANCE: Optional[bool] = None
+_HAS_TIME: Optional[bool] = None
+
+
+def _ensure_schema_flags() -> None:
+    global _HAS_DISTANCE, _HAS_TIME
+    if _HAS_DISTANCE is not None and _HAS_TIME is not None:
+        return
+    try:
+        with get_db() as conn:
+            cols = [
+                r["name"] for r in conn.execute("PRAGMA table_info(munros)").fetchall()
+            ]
+        _HAS_DISTANCE = "distance" in cols
+        _HAS_TIME = "time" in cols
+    except Exception:
+        # Be conservative if we can't introspect
+        _HAS_DISTANCE = False
+        _HAS_TIME = False
+
+
+def _add_numeric_filters(
+    wheres: List[str],
+    where_params: List[Any],
+    dist_min: Optional[float],
+    dist_max: Optional[float],
+    time_min: Optional[float],
+    time_max: Optional[float],
+) -> None:
+    """Append numeric filter SQL to WHERE (only if columns exist)."""
+    _ensure_schema_flags()
+    if _HAS_DISTANCE and dist_min is not None:
+        wheres.append("(m.distance IS NULL OR m.distance >= ?)")
+        where_params.append(float(dist_min))
+    if _HAS_DISTANCE and dist_max is not None:
+        wheres.append("(m.distance IS NULL OR m.distance <= ?)")
+        where_params.append(float(dist_max))
+    if _HAS_TIME and time_min is not None:
+        wheres.append("(m.time IS NULL OR m.time >= ?)")
+        where_params.append(float(time_min))
+    if _HAS_TIME and time_max is not None:
+        wheres.append("(m.time IS NULL OR m.time <= ?)")
+        where_params.append(float(time_max))
+
+
 # ---------- Core search (3-pass) ----------
 
 
 def search_core(payload: Dict[str, Any]) -> Dict[str, Any]:
     """
-    payload keys: query, include_tags, exclude_tags, bog_max, grade_max, limit
+    payload keys: query, include_tags, exclude_tags, bog_max, grade_max, limit,
+                  distance_min_km, distance_max_km, time_min_h, time_max_h
     Returns dict with sql/params/results and the expanded fts_query used.
     """
     raw_query = (payload.get("query") or "").strip()
@@ -24,6 +74,12 @@ def search_core(payload: Dict[str, Any]) -> Dict[str, Any]:
     grade_max = normalize_grade_max(payload.get("grade_max"))
     limit = int(payload.get("limit") or 12)
 
+    # New numeric filters
+    dist_min = payload.get("distance_min_km")
+    dist_max = payload.get("distance_max_km")
+    time_min = payload.get("time_min_h")
+    time_max = payload.get("time_max_h")
+
     with get_db() as conn:
         c = conn.cursor()
 
@@ -31,7 +87,7 @@ def search_core(payload: Dict[str, Any]) -> Dict[str, Any]:
         used_sql, used_params = "", []
         fts_query = expand_query_for_fts(raw_query)
 
-        # Pass 1: FTS (no bm25)
+        # ---------- Pass 1: FTS (no bm25) ----------
         if fts_query:
             wheres, joins = ["1=1"], []
             where_params, having_clause, having_params = [], "", []
@@ -57,12 +113,16 @@ def search_core(payload: Dict[str, Any]) -> Dict[str, Any]:
                 """
                 exclude_params = exclude_tags[:]
 
+            # Numeric filters (WHERE)
             if bog_max is not None:
                 wheres.append("(m.bog IS NULL OR m.bog <= ?)")
                 where_params.append(bog_max)
             if grade_max is not None:
                 wheres.append("(m.grade IS NULL OR m.grade <= ?)")
                 where_params.append(grade_max)
+            _add_numeric_filters(
+                wheres, where_params, dist_min, dist_max, time_min, time_max
+            )
 
             sql_fts = f"""
                 WITH f AS (
@@ -88,7 +148,7 @@ def search_core(payload: Dict[str, Any]) -> Dict[str, Any]:
             rows = c.execute(sql_fts, params_fts).fetchall()
             used_sql, used_params = sql_fts, params_fts
 
-        # Pass 2: LIKE fallback
+        # ---------- Pass 2: LIKE fallback ----------
         if not rows and raw_query:
             like_terms = build_like_terms(raw_query)
             if like_terms:
@@ -118,6 +178,7 @@ def search_core(payload: Dict[str, Any]) -> Dict[str, Any]:
                     """
                     exclude_params2 = exclude_tags[:]
 
+                # LIKE blocks
                 block = "m.name LIKE ? COLLATE NOCASE OR m.summary LIKE ? COLLATE NOCASE OR m.description LIKE ? COLLATE NOCASE"
                 blocks, like_params = [], []
                 for term in like_terms:
@@ -126,12 +187,16 @@ def search_core(payload: Dict[str, Any]) -> Dict[str, Any]:
                 wheres2.append("(" + " OR ".join(blocks) + ")")
                 where_params2.extend(like_params)
 
+                # Numeric filters (WHERE)
                 if bog_max is not None:
                     wheres2.append("(m.bog IS NULL OR m.bog <= ?)")
                     where_params2.append(bog_max)
                 if grade_max is not None:
                     wheres2.append("(m.grade IS NULL OR m.grade <= ?)")
                     where_params2.append(grade_max)
+                _add_numeric_filters(
+                    wheres2, where_params2, dist_min, dist_max, time_min, time_max
+                )
 
                 sql_like = f"""
                     SELECT m.id, m.name, m.summary, m.description,
@@ -149,17 +214,21 @@ def search_core(payload: Dict[str, Any]) -> Dict[str, Any]:
                 rows = c.execute(sql_like, params_like).fetchall()
                 used_sql, used_params = sql_like, params_like
 
-        # Pass 3: Tag-only fallback
-        if not rows and (include_tags):
+        # ---------- Pass 3: Tag-only fallback ----------
+        if not rows and include_tags:
             joins3 = ["JOIN munro_tags t_in ON t_in.munro_id = m.id"]
             wheres3, where_params3 = ["1=1"], []
 
+            # Numeric filters (WHERE first)
             if bog_max is not None:
                 wheres3.append("(m.bog IS NULL OR m.bog <= ?)")
                 where_params3.append(bog_max)
             if grade_max is not None:
                 wheres3.append("(m.grade IS NULL OR m.grade <= ?)")
                 where_params3.append(grade_max)
+            _add_numeric_filters(
+                wheres3, where_params3, dist_min, dist_max, time_min, time_max
+            )
 
             having3 = (
                 f"HAVING COUNT(DISTINCT CASE WHEN t_in.tag IN ({','.join('?' for _ in include_tags)}) "
@@ -193,8 +262,9 @@ def search_core(payload: Dict[str, Any]) -> Dict[str, Any]:
             rows = c.execute(sql_tags, params_tags).fetchall()
             used_sql, used_params = sql_tags, params_tags
 
+        # ---------- Attach tags ----------
         ids = [r["id"] for r in rows]
-        tags_map = {}
+        tags_map: Dict[int, List[str]] = {}
         if ids:
             tag_rows = c.execute(
                 f"SELECT munro_id, tag FROM munro_tags WHERE munro_id IN ({','.join('?' for _ in ids)})",
@@ -337,30 +407,66 @@ def names_to_ids(names: list[str]) -> list[dict]:
         return out
 
 
+# ---------- Location-first search (distance-weighted) ----------
+
+
 def search_by_location_core(
-    location: str, include_tags: list[str] | None, limit: int = 12
+    location: str,
+    include_tags: Optional[List[str]],
+    limit: int = 12,
+    distance_min_km: Optional[float] = None,
+    distance_max_km: Optional[float] = None,
+    time_min_h: Optional[float] = None,
+    time_max_h: Optional[float] = None,
 ) -> Dict[str, Any]:
     """
-    Location-first search: take nearest Munros to the specified place.
-    Semantics: softer filtering — proximity is primary; tags are a soft boost only.
-    Returns compatible payload with 'results' and debug fields, plus distance_km.
+    Location-first search: nearest Munros to the specified place.
+    Semantics: proximity is primary; tags are a soft boost.
+    Applies HARD numeric filters on route attributes if available.
     """
     include_tags = include_tags or []
-    # 1) Distance candidates
+
+    # 1) Distance candidates (raises ValueError if location not in Scotland)
     near = nearest_by_location(location_query=location, k=max(20, limit))
-    # 2) Map to DB rows & tags
+
+    # 2) Map to DB rows & tags (rows contain: id, name, summary, description,
+    #    distance_km [to user], and if available route_distance, route_time)
     rows = _map_names_to_db_rows(near)
     attach_tags(rows)
 
-    # 3) Soft re-ranking: primarily by distance, secondary by tag matches (desc)
-    def tag_match_count(tags: list[str]) -> int:
+    # 3) HARD numeric filters on route attributes (if present)
+    def _keep(r: Dict[str, Any]) -> bool:
+        d = r.get("route_distance")  # km
+        t = r.get("route_time")  # hours
+        if (
+            distance_min_km is not None
+            and (d is not None)
+            and d < float(distance_min_km)
+        ):
+            return False
+        if (
+            distance_max_km is not None
+            and (d is not None)
+            and d > float(distance_max_km)
+        ):
+            return False
+        if time_min_h is not None and (t is not None) and t < float(time_min_h):
+            return False
+        if time_max_h is not None and (t is not None) and t > float(time_max_h):
+            return False
+        return True
+
+    rows = [r for r in rows if _keep(r)]
+
+    # 4) Soft re-ranking: distance first, then tag matches desc, then name
+    def tag_match_count(tags: List[str]) -> int:
         return sum(1 for t in (tags or []) if t in include_tags)
 
     rows.sort(
         key=lambda r: (r["distance_km"], -tag_match_count(r.get("tags", [])), r["name"])
     )
 
-    # 4) Build results (keep interface parity with search_core)
+    # 5) Build results (parity with search_core), include distance_km
     results = [
         {
             "id": r["id"],
@@ -368,14 +474,14 @@ def search_by_location_core(
             "summary": r.get("summary"),
             "snippet": (r.get("description") or "")[:400],
             "tags": r.get("tags", []),
-            # Use distance (km) as 'rank' signal for transparency; smaller is better
-            "rank": float(r["distance_km"]),
+            "rank": float(r["distance_km"]),  # smaller = better
             "distance_km": float(r["distance_km"]),
+            "route_distance": r.get("route_distance"),
+            "route_time": r.get("route_time"),
         }
         for r in rows[:limit]
     ]
 
-    # No SQL since this is a geo path; include a trace field instead
     return {
         "query": "",
         "fts_query": "",
