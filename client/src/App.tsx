@@ -1,10 +1,10 @@
-import "leaflet/dist/leaflet.css"; // required for proper map rendering
+import "leaflet/dist/leaflet.css"; // required for proper map rendering (safe to keep)
 import "./config/leaflet";          // one-time Leaflet icon setup
 
 import { useEffect, useState } from "react";
 import axios from "axios";
 import {
-  Box, Container, Heading, Text, Input, Flex,
+  Box, Container, Heading, Text, Flex,
   Divider, useDisclosure, Modal, ModalOverlay, ModalContent, ModalHeader,
   ModalCloseButton, ModalBody, ModalFooter, Button, SimpleGrid
 } from "@chakra-ui/react";
@@ -15,6 +15,7 @@ import ScatterPlot from "./components/dashboard/ScatterPlot";
 import Filters from "./components/dashboard/Filters";
 import MunroTable from "./components/dashboard/MunroTable";
 import DetailsTab from "./features/details/DetailsTab";
+import ChatTab from "./features/chat/ChatTab";
 
 // ==================== MAIN APP =====================================
 
@@ -29,7 +30,6 @@ export default function App() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [activeTab, setActiveTab] = useState<"dashboard" | "chat" | "details">("dashboard");
   const [messages, setMessages] = useState<{ role: "user" | "assistant"; content: string }[]>([]);
-  const [input, setInput] = useState("");
 
   useEffect(() => {
     const params = new URLSearchParams();
@@ -64,40 +64,6 @@ export default function App() {
     avgBog: munros.reduce((sum, m) => sum + m.bog, 0) / (munros.length || 1),
   };
 
-  // ------- ChatTab (still local; can be extracted in Step-4) -------
-  const ChatTab = () => (
-    <Box mt={6}>
-      <Heading size="md" mb={4}>Munro Scout Assistant</Heading>
-      <Box bg="gray.50" p={4} rounded="lg" maxH="400px" overflowY="auto" mb={4} border="1px solid #e2e8f0">
-        {messages.map((msg, idx) => (
-          <Box key={idx} mb={3} textAlign={msg.role === "user" ? "right" : "left"}>
-            <Text
-              display="inline-block"
-              bg={msg.role === "user" ? "blue.100" : "gray.200"}
-              px={3} py={2} rounded="xl"
-              maxW="80%"
-            >
-              {msg.content}
-            </Text>
-          </Box>
-        ))}
-      </Box>
-      <Flex gap={2}>
-        <Input
-          placeholder="Ask about Munros..."
-          value={input}
-          onChange={(e) => setInput(e.target.value)}
-          onKeyDown={(e) => e.key === "Enter" && e.preventDefault()}
-        />
-        <Button onClick={() => {
-          if (!input.trim()) return;
-          setMessages([...messages, { role: "user", content: input }]);
-          setInput("");
-        }} colorScheme="blue">Send</Button>
-      </Flex>
-    </Box>
-  );
-
   return (
     <Box minH="100vh" bgGradient="linear(to-br, gray.50, white)">
       {/* Header */}
@@ -107,9 +73,27 @@ export default function App() {
           Discover and analyze Munro mountains in Scotland based on distance, difficulty, and more.
         </Text>
         <Flex mt={4} gap={4}>
-          <Button variant={activeTab === "dashboard" ? "solid" : "outline"} onClick={() => setActiveTab("dashboard")} colorScheme="whiteAlpha">Dashboard</Button>
-          <Button variant={activeTab === "chat" ? "solid" : "outline"} onClick={() => setActiveTab("chat")} colorScheme="whiteAlpha">Chat Assistant</Button>
-          <Button variant={activeTab === "details" ? "solid" : "outline"} onClick={() => setActiveTab("details")} colorScheme="whiteAlpha">Munro Details</Button>
+          <Button
+            variant={activeTab === "dashboard" ? "solid" : "outline"}
+            onClick={() => setActiveTab("dashboard")}
+            colorScheme="whiteAlpha"
+          >
+            Dashboard
+          </Button>
+          <Button
+            variant={activeTab === "chat" ? "solid" : "outline"}
+            onClick={() => setActiveTab("chat")}
+            colorScheme="whiteAlpha"
+          >
+            Chat Assistant
+          </Button>
+          <Button
+            variant={activeTab === "details" ? "solid" : "outline"}
+            onClick={() => setActiveTab("details")}
+            colorScheme="whiteAlpha"
+          >
+            Munro Details
+          </Button>
         </Flex>
       </Box>
 
@@ -147,7 +131,12 @@ export default function App() {
             />
           </>
         ) : activeTab === "chat" ? (
-          <ChatTab />
+          <ChatTab
+            messages={messages}
+            onSend={(text) =>
+              setMessages((prev) => [...prev, { role: "user", content: text }])
+            }
+          />
         ) : (
           <DetailsTab initialMunro={selectedMunro} />
         )}
@@ -175,7 +164,13 @@ export default function App() {
             <ModalFooter>
               <Flex gap={3}>
                 <Button variant="ghost" onClick={onClose}>Close</Button>
-                <Button colorScheme="blue" onClick={() => { setActiveTab("details"); onClose(); }}>
+                <Button
+                  colorScheme="blue"
+                  onClick={() => {
+                    setActiveTab("details");
+                    onClose();
+                  }}
+                >
                   View in Details Tab
                 </Button>
               </Flex>
