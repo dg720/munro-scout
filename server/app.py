@@ -14,9 +14,8 @@ def create_app() -> Flask:
 
     register_blueprints(app)
 
-    @app.before_first_request
-    def _bootlog():
-        print("🚀 Starting Munro Flask API...")
+    # just print here
+    print("🚀 Starting Munro Flask API...")
 
     return app
 
