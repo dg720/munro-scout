@@ -103,12 +103,27 @@ User message: {user_msg}
     # 2) Retrieval via shared search logic
     if location:
         # Location-first path: distance-ranked, tags as soft boost
-        search_resp = search_by_location_core(
-            location=location,
-            include_tags=intent.get("include_tags") or [],
-            limit=limit,
-        )
+        try:
+            search_resp = search_by_location_core(
+                location=location,
+                include_tags=intent.get("include_tags") or [],
+                limit=limit,
+            )
+        except ValueError as e:
+            # Location not in Scotland / not recognised
+            return jsonify(
+                {
+                    "error": str(e),
+                    "steps": {
+                        "intent": intent,
+                        "location": location,
+                        "retrieval_mode": "location",
+                    },
+                }
+            ), 400
+
         candidates = search_resp["results"]
+        # (existing logging of candidates can remain as-is)
 
         # Server log: names + distances
         try:
