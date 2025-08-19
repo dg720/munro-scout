@@ -29,7 +29,6 @@ export default function App() {
   const [selectedMunro, setSelectedMunro] = useState<Munro | null>(null);
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [activeTab, setActiveTab] = useState<"dashboard" | "chat" | "details">("dashboard");
-  const [messages, setMessages] = useState<{ role: "user" | "assistant"; content: string }[]>([]);
 
   useEffect(() => {
     const params = new URLSearchParams();
@@ -131,12 +130,7 @@ export default function App() {
             />
           </>
         ) : activeTab === "chat" ? (
-          <ChatTab
-            messages={messages}
-            onSend={(text) =>
-              setMessages((prev) => [...prev, { role: "user", content: text }])
-            }
-          />
+          <ChatTab/>
         ) : (
           <DetailsTab initialMunro={selectedMunro} />
         )}
