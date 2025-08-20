@@ -27,9 +27,12 @@ export default function DetailsTab({ initialMunro }: Props) {
   const [showDropdown, setShowDropdown] = useState(false);
   const [gpxError, setGpxError] = useState<string | null>(null);
 
+  // Tracks if the latest query change was due to user typing in the input
+  const [userTyping, setUserTyping] = useState(false);
+
   // On mount:
   // 1) If initialMunro provided, use it
-  // 2) Otherwise, default to "Ben Nevis"
+  // 2) Otherwise, default to "Ben Nevis" without opening the dropdown
   useEffect(() => {
     const init = async () => {
       if (initialMunro) {
@@ -43,7 +46,6 @@ export default function DetailsTab({ initialMunro }: Props) {
         const { data } = await axios.get<Munro[]>(
           `${API_BASE}/api/munros?search=${encodeURIComponent(name)}`
         );
-        // Prefer exact match if present; fallback to first result
         const exact = (data || []).find(
           (m) => m.name?.toLowerCase().trim() === name.toLowerCase()
         );
@@ -51,8 +53,10 @@ export default function DetailsTab({ initialMunro }: Props) {
         if (choice) {
           setSelected(choice);
           setQuery(choice.name);
+          setShowDropdown(false);
+          setUserTyping(false);
         }
-      } catch (e) {
+      } catch {
         // Swallow silently; user can still search manually
       }
     };
@@ -74,10 +78,15 @@ export default function DetailsTab({ initialMunro }: Props) {
           m.name.toLowerCase().includes(query.toLowerCase())
         );
         setOptions(filtered);
-        setShowDropdown(true);
+
+        // Only auto-open the dropdown if the user was actively typing.
+        // Programmatic updates (default Ben Nevis or chat button) keep it closed.
+        if (userTyping) {
+          setShowDropdown(true);
+        }
       })
       .catch((err) => console.error(err));
-  }, [query]);
+  }, [query, userTyping]);
 
   const handleSelect = (munro: Munro) => {
     setSelected(munro);
@@ -85,6 +94,7 @@ export default function DetailsTab({ initialMunro }: Props) {
     setOptions([]);
     setShowDropdown(false);
     setGpxError(null);
+    setUserTyping(false); // reset
   };
 
   const openInNew = (url: string) => window.open(url, "_blank", "noopener,noreferrer");
@@ -114,9 +124,21 @@ export default function DetailsTab({ initialMunro }: Props) {
           value={query}
           onChange={(e) => {
             setQuery(e.target.value);
-            if (!e.target.value) setSelected(null);
+            setUserTyping(true);   // mark as manual input
+            if (!e.target.value) {
+              setSelected(null);
+              setShowDropdown(false);
+            }
           }}
-          onFocus={() => setShowDropdown(true)}
+          onFocus={() => {
+            // Only open on explicit user focus (click/tap in the input),
+            // and only if there are options to show.
+            if (options.length > 0) setShowDropdown(true);
+          }}
+          onBlur={() => {
+            // Close dropdown shortly after blur to allow click selection
+            setTimeout(() => setShowDropdown(false), 150);
+          }}
         />
         {showDropdown && options.length > 0 && (
           <Box
@@ -138,6 +160,7 @@ export default function DetailsTab({ initialMunro }: Props) {
                 px={4}
                 py={2}
                 _hover={{ bg: "blue.50", cursor: "pointer" }}
+                onMouseDown={(e) => e.preventDefault()} // keep input from losing focus before click
                 onClick={() => handleSelect(m)}
               >
                 {m.name}

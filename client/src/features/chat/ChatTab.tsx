@@ -124,7 +124,7 @@ export default function ChatTab({ messages, onSend, onOpenRoute }: Props) {
         rounded="md"
       >
         <Text fontSize="sm">
-        Munro Scout is an interactive hiking assistant designed to make exploring Scotland’s Munros easier and more intuitive. Users can ask for routes and mountain details in natural language - for example, “quiet ridge scramble near Fort William under 6 hours,” generating tailored suggestions. The platform combines route data, GPX files, and searchable tags to identify hikes by difficulty, terrain, duration, or accessibility.
+        Munro Scout is an interactive hiking assistant designed to make exploring Scotland’s Munros easier and more intuitive. Users can ask for routes and mountain details in natural language, generating suggestions augmented by Walkhighlands data. The platform combines route data, GPX files, and searchable tags to identify hikes by difficulty, terrain, duration, or accessibility.
         </Text>
       </Box>
 
