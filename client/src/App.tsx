@@ -1,12 +1,12 @@
 import "leaflet/dist/leaflet.css";
 import "./config/leaflet";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useMemo } from "react";
 import axios from "axios";
 import {
-  Box, Container, Heading, Text, Flex,
-  Divider, useDisclosure, Modal, ModalOverlay, ModalContent, ModalHeader,
-  ModalCloseButton, ModalBody, ModalFooter, Button, SimpleGrid
+  Box, Container, Heading, Text, Flex, Divider, useDisclosure, Modal,
+  ModalOverlay, ModalContent, ModalHeader, ModalCloseButton, ModalBody,
+  ModalFooter, Button, SimpleGrid, HStack, Badge, ButtonGroup
 } from "@chakra-ui/react";
 
 import { Munro } from "./types/munro";
@@ -80,10 +80,15 @@ export default function App() {
     setMessages((prev) => [...prev, { role: "user", content: text }]);
   };
 
+  // Unread = assistant messages (simple proxy)
+  const assistantCount = useMemo(
+    () => messages.filter((m) => m.role === "assistant").length,
+    [messages]
+  );
+
   // Clicking a route button: fetch full record and open the Details tab
   const openRoute = async (route: ChatRouteLink) => {
     try {
-      // Prefer the dedicated single endpoint; fallback to ?id= if needed
       const res = await axios.get(`http://localhost:5000/api/munro/${route.id}`);
       const munro = res.data as Munro;
       setSelectedMunro(munro);
@@ -104,35 +109,83 @@ export default function App() {
 
   return (
     <Box minH="100vh" bgGradient="linear(to-br, gray.50, white)">
-      {/* Header */}
-      <Box bg="blue.700" color="white" py={6} px={6} shadow="md">
-        <Heading size="lg">Munro Explorer Dashboard</Heading>
-        <Text mt={2} fontSize="sm" color="blue.100">
-          Discover and analyze Munro mountains in Scotland based on distance, difficulty, and more.
-        </Text>
-        <Flex mt={4} gap={4}>
-          <Button
-            variant={activeTab === "dashboard" ? "solid" : "outline"}
-            onClick={() => setActiveTab("dashboard")}
-            colorScheme="whiteAlpha"
+      {/* ===== Modern Sticky Header (no icons) ===== */}
+      <Box
+        position="sticky"
+        top={0}
+        zIndex={1000}
+        px={4}
+        py={3}
+        bgGradient="linear(to-r, blue.900, blue.700)"
+      >
+        <Container maxW="6xl" px={0}>
+          <Box
+            bg="rgba(255,255,255,0.08)"
+            border="1px solid"
+            borderColor="whiteAlpha.300"
+            backdropFilter="blur(8px)"
+            borderRadius="2xl"
+            px={5}
+            py={4}
+            boxShadow="lg"
           >
-            Dashboard
-          </Button>
-          <Button
-            variant={activeTab === "chat" ? "solid" : "outline"}
-            onClick={() => setActiveTab("chat")}
-            colorScheme="whiteAlpha"
-          >
-            Chat Assistant
-          </Button>
-          <Button
-            variant={activeTab === "details" ? "solid" : "outline"}
-            onClick={() => setActiveTab("details")}
-            colorScheme="whiteAlpha"
-          >
-            Munro Details
-          </Button>
-        </Flex>
+            <Flex align="center" justify="space-between" gap={6} wrap="wrap">
+              <HStack spacing={3}>
+                <Heading size="md" color="white">
+                  Munro Explorer
+                </Heading>
+                <Badge colorScheme="whiteAlpha" variant="subtle" fontWeight="semibold">
+                  Beta
+                </Badge>
+              </HStack>
+
+              <Text
+                display={{ base: "none", md: "block" }}
+                fontSize="sm"
+                color="blue.100"
+              >
+                Discover and analyze Scotland’s Munros by distance, time, grade & terrain.
+              </Text>
+
+              {/* Primary nav — Chat first, with accent color */}
+              <ButtonGroup spacing={2}>
+                <Button
+                  onClick={() => setActiveTab("chat")}
+                  variant={activeTab === "chat" ? "solid" : "outline"}
+                  colorScheme="pink"
+                  bg={activeTab === "chat" ? "pink.400" : undefined}
+                  _hover={{ transform: "translateY(-1px)", boxShadow: "xl" }}
+                  boxShadow={activeTab === "chat" ? "0 0 0 3px rgba(236,72,153,0.4)" : undefined}
+                >
+                  Chat Assistant
+                  {assistantCount > 0 && (
+                    <Badge ml={2} colorScheme="whiteAlpha" variant="solid">
+                      {assistantCount}
+                    </Badge>
+                  )}
+                </Button>
+
+                <Button
+                  onClick={() => setActiveTab("dashboard")}
+                  variant={activeTab === "dashboard" ? "solid" : "outline"}
+                  colorScheme="whiteAlpha"
+                  _hover={{ bg: "whiteAlpha.300" }}
+                >
+                  Dashboard
+                </Button>
+
+                <Button
+                  onClick={() => setActiveTab("details")}
+                  variant={activeTab === "details" ? "solid" : "outline"}
+                  colorScheme="whiteAlpha"
+                  _hover={{ bg: "whiteAlpha.300" }}
+                >
+                  Munro Details
+                </Button>
+              </ButtonGroup>
+            </Flex>
+          </Box>
+        </Container>
       </Box>
 
       <Container maxW="6xl" py={10}>
