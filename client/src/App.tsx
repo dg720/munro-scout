@@ -26,12 +26,11 @@ export default function App() {
   const [sortOrder, setSortOrder] = useState<"asc" | "desc">("asc");
   const [selectedMunro, setSelectedMunro] = useState<Munro | null>(null);
   const { isOpen, onOpen, onClose } = useDisclosure();
-  const [activeTab, setActiveTab] = useState<"dashboard" | "chat" | "details">("dashboard");
+  const [activeTab, setActiveTab] = useState<"dashboard" | "chat" | "details">("chat");
 
   // ✅ Persist chat history in App
   const [messages, setMessages] = useState<ChatMessage[]>([]);
 
-  // Listen for assistant messages emitted by ChatTab after it gets server response
   useEffect(() => {
     const handler = (ev: any) => {
       const { content, steps, routes } = ev.detail || {};
@@ -41,7 +40,6 @@ export default function App() {
     return () => window.removeEventListener("munro-chat-assistant", handler);
   }, []);
 
-  // Load munros for dashboard table
   useEffect(() => {
     const params = new URLSearchParams();
     if (search) params.append("search", search);
@@ -75,18 +73,10 @@ export default function App() {
     avgBog: munros.reduce((sum, m) => sum + m.bog, 0) / (munros.length || 1),
   };
 
-  // When user submits a message in ChatTab
   const handleSend = async (text: string) => {
     setMessages((prev) => [...prev, { role: "user", content: text }]);
   };
 
-  // Unread = assistant messages (simple proxy)
-  const assistantCount = useMemo(
-    () => messages.filter((m) => m.role === "assistant").length,
-    [messages]
-  );
-
-  // Clicking a route button: fetch full record and open the Details tab
   const openRoute = async (route: ChatRouteLink) => {
     try {
       const res = await axios.get(`http://localhost:5000/api/munro/${route.id}`);
@@ -132,7 +122,7 @@ export default function App() {
             <Flex align="center" justify="space-between" gap={6} wrap="wrap">
               <HStack spacing={3}>
                 <Heading size="md" color="white">
-                  Munro Explorer
+                  Munro Scout
                 </Heading>
                 <Badge colorScheme="whiteAlpha" variant="subtle" fontWeight="semibold">
                   Beta
@@ -147,7 +137,7 @@ export default function App() {
                 Discover and analyze Scotland’s Munros by distance, time, grade & terrain.
               </Text>
 
-              {/* Primary nav — Chat first, with accent color */}
+              {/* Primary nav — Chat → Details → Dashboard */}
               <ButtonGroup spacing={2}>
                 <Button
                   onClick={() => setActiveTab("chat")}
@@ -158,20 +148,6 @@ export default function App() {
                   boxShadow={activeTab === "chat" ? "0 0 0 3px rgba(236,72,153,0.4)" : undefined}
                 >
                   Chat Assistant
-                  {assistantCount > 0 && (
-                    <Badge ml={2} colorScheme="whiteAlpha" variant="solid">
-                      {assistantCount}
-                    </Badge>
-                  )}
-                </Button>
-
-                <Button
-                  onClick={() => setActiveTab("dashboard")}
-                  variant={activeTab === "dashboard" ? "solid" : "outline"}
-                  colorScheme="whiteAlpha"
-                  _hover={{ bg: "whiteAlpha.300" }}
-                >
-                  Dashboard
                 </Button>
 
                 <Button
@@ -181,6 +157,15 @@ export default function App() {
                   _hover={{ bg: "whiteAlpha.300" }}
                 >
                   Munro Details
+                </Button>
+
+                <Button
+                  onClick={() => setActiveTab("dashboard")}
+                  variant={activeTab === "dashboard" ? "solid" : "outline"}
+                  colorScheme="whiteAlpha"
+                  _hover={{ bg: "whiteAlpha.300" }}
+                >
+                  Dashboard
                 </Button>
               </ButtonGroup>
             </Flex>
