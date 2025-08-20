@@ -22,7 +22,7 @@ export default function Filters({
   return (
     <Flex gap={4} wrap="wrap" mb={10}>
       <Input
-        placeholder="Search by name..."
+        placeholder="Search by description..."
         value={search}
         onChange={(e) => onSearch(e.target.value)}
         w="full"
