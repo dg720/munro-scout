@@ -34,13 +34,14 @@ type Props = {
   messages: ChatMessage[];
   onSend: (text: string) => Promise<void> | void;
   onOpenRoute: (route: ChatRouteLink) => void;
+  onReset: () => void; // NEW: parent clears the conversation
 };
 
 const API_BASE =
   (typeof process !== "undefined" && (process as any)?.env?.REACT_APP_API_BASE) ||
   "http://localhost:5000";
 
-export default function ChatTab({ messages, onSend, onOpenRoute }: Props) {
+export default function ChatTab({ messages, onSend, onOpenRoute, onReset }: Props) {
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
   const toast = useToast();
@@ -109,22 +110,37 @@ export default function ChatTab({ messages, onSend, onOpenRoute }: Props) {
     }
   };
 
+  // Append helper for tags
+  const appendTag = (t: string) =>
+    setInput((prev) => (prev.trim() ? `${prev.trim()} ${t}` : t));
+
+  // Reset handler (clear input locally, ask parent to clear messages)
+  const handleReset = () => {
+    setInput("");
+    onReset();
+  };
+
   return (
     <Box mt={6}>
       <Flex align="center" justify="space-between" mb={2}>
         <Heading size="md">Chat Assistant</Heading>
+
+        {/* Reset button only shows if chat has messages */}
+        {messages.length > 0 && (
+          <Button size="sm" variant="ghost" colorScheme="red" onClick={handleReset}>
+            Reset Chat
+          </Button>
+        )}
       </Flex>
 
       {/* Quick, visible description (outside the collapsible) */}
-      <Box
-        mb={3}
-        p={3}
-        bg="gray.50"
-        border="1px solid #e2e8f0"
-        rounded="md"
-      >
+      <Box mb={3} p={3} bg="gray.50" border="1px solid #e2e8f0" rounded="md">
         <Text fontSize="sm">
-        Munro Scout is an interactive hiking assistant designed to make exploring Scotland’s Munros easier and more intuitive. Users can ask for routes and mountain details in natural language, generating suggestions augmented by Walkhighlands data. The platform combines route data, GPX files, and searchable tags to identify hikes by difficulty, terrain, duration, or accessibility.
+          Munro Scout is an interactive hiking assistant designed to make exploring Scotland’s
+          Munros easier and more intuitive. Users can ask for routes and mountain details in
+          natural language, generating suggestions augmented by Walkhighlands data. The platform
+          combines route data, GPX files, and searchable tags to identify hikes by difficulty,
+          terrain, duration, or accessibility.
         </Text>
       </Box>
 
@@ -140,7 +156,11 @@ export default function ChatTab({ messages, onSend, onOpenRoute }: Props) {
         border="1px solid #e2e8f0"
       >
         {messages.length === 0 ? (
-          <EmptyState examples={examplePrompts} onExampleClick={setInput} />
+          <EmptyState
+            examples={examplePrompts}
+            onExampleClick={setInput} // examples replace input by design
+            onTagClick={appendTag} // tags append to input
+          />
         ) : (
           <>
             {messages.map((msg, idx) => (
@@ -185,7 +205,9 @@ export default function ChatTab({ messages, onSend, onOpenRoute }: Props) {
             {loading && (
               <Flex align="center" gap={2}>
                 <Spinner size="sm" />
-                <Text fontSize="sm" color="gray.600">Thinking…</Text>
+                <Text fontSize="sm" color="gray.600">
+                  Thinking…
+                </Text>
               </Flex>
             )}
           </>
@@ -207,7 +229,12 @@ export default function ChatTab({ messages, onSend, onOpenRoute }: Props) {
           }}
           isDisabled={loading}
         />
-        <Button onClick={submit} colorScheme="blue" isLoading={loading} rightIcon={<Icon as={RepeatIcon} />}>
+        <Button
+          onClick={submit}
+          colorScheme="blue"
+          isLoading={loading}
+          rightIcon={<Icon as={RepeatIcon} />}
+        >
           Send
         </Button>
       </Flex>
@@ -228,35 +255,81 @@ export default function ChatTab({ messages, onSend, onOpenRoute }: Props) {
             <AccordionPanel pb={4} px={4}>
               <Stack spacing={4} fontSize="sm" color="gray.800">
                 <Box>
-                  <Heading size="sm" mb={1}>How the search works</Heading>
+                  <Heading size="sm" mb={1}>
+                    How the search works
+                  </Heading>
                   <Stack spacing={2} pl={1}>
-                    <Text>1. <b>Understand the request</b> — Parse the message for place names, terrain words (e.g., “ridge”, “scramble”), and limits like time or distance.</Text>
-                    <Text>2. <b>Search</b> — Use a fast text index for words, and standard SQL filters for numbers such as time, distance, grade, and bog.</Text>
-                    <Text>3. <b>Summarise</b> — Build a short answer based on the top matches and include buttons to open route details.</Text>
+                    <Text>
+                      1. <b>Understand the request</b> — Parse the message for place names, terrain
+                      words (e.g., “ridge”, “scramble”), and limits like time or distance.
+                    </Text>
+                    <Text>
+                      2. <b>Search</b> — Use a fast text index for words, and standard SQL filters
+                      for numbers such as time, distance, grade, and bog.
+                    </Text>
+                    <Text>
+                      3. <b>Summarise</b> — Build a short answer based on the top matches and
+                      include buttons to open route details.
+                    </Text>
                   </Stack>
                 </Box>
 
                 <Divider />
 
                 <Box>
-                  <Heading size="sm" mb={1}>What the backend does</Heading>
+                  <Heading size="sm" mb={1}>
+                    What the backend does
+                  </Heading>
                   <Stack spacing={2} pl={1}>
-                    <Text>• The LLM produces an intent JSON with keys like <Code>query</Code>, <Code>include_tags</Code>, <Code>exclude_tags</Code>, <Code>bog_max</Code>, <Code>grade_max</Code>, <Code>location</Code>, and numeric bounds (<Code>distance_min_km</Code>, <Code>distance_max_km</Code>, <Code>time_min_h</Code>, <Code>time_max_h</Code>).</Text>
-                    <Text>• A location heuristic (regex) extracts places such as “near Fort William” if the model misses them.</Text>
-                    <Text>• A numeric parser catches phrases like “under 6 hours” → <Code>time_max_h = 6</Code> or “between 10 and 15km”.</Text>
-                    <Text>• If a location is present, <Code>search_by_location_core</Code> is used (distance‑ranked, tags as soft boosts). Otherwise, <Code>search_core</Code> runs FTS+SQL over text/tags with numeric limits.</Text>
-                    <Text>• The response includes a <Code>steps</Code> block with intent, retrieval mode, SQL, params, and results. The Inspector can display these for transparency.</Text>
+                    <Text>
+                      • The LLM produces an intent JSON with keys like <Code>query</Code>,{" "}
+                      <Code>include_tags</Code>, <Code>exclude_tags</Code>, <Code>bog_max</Code>,{" "}
+                      <Code>grade_max</Code>, <Code>location</Code>, and numeric bounds (
+                      <Code>distance_min_km</Code>, <Code>distance_max_km</Code>,{" "}
+                      <Code>time_min_h</Code>, <Code>time_max_h</Code>).
+                    </Text>
+                    <Text>
+                      • A location heuristic (regex) extracts places such as “near Fort William” if
+                      the model misses them.
+                    </Text>
+                    <Text>
+                      • A numeric parser catches phrases like “under 6 hours” →{" "}
+                      <Code>time_max_h = 6</Code> or “between 10 and 15km”.
+                    </Text>
+                    <Text>
+                      • If a location is present, <Code>search_by_location_core</Code> is used
+                      (distance‑ranked, tags as soft boosts). Otherwise, <Code>search_core</Code>{" "}
+                      runs FTS+SQL over text/tags with numeric limits.
+                    </Text>
+                    <Text>
+                      • The response includes a <Code>steps</Code> block with intent, retrieval
+                      mode, SQL, params, and results. The Inspector can display these for
+                      transparency.
+                    </Text>
                   </Stack>
                 </Box>
 
                 <Divider />
 
                 <Box>
-                  <Heading size="sm" mb={1}>LLM‑assisted tagging</Heading>
+                  <Heading size="sm" mb={1}>
+                    LLM‑assisted tagging
+                  </Heading>
                   <Stack spacing={2} pl={1}>
-                    <Text>• The model reads a route description and selects tags from an approved list (ontology), e.g., <Code>ridge</Code>, <Code>airy</Code>, <Code>handson</Code>, <Code>river_crossing</Code>.</Text>
-                    <Text>• Tags capture feel and terrain that numbers don’t, enabling queries like “airy scramble with low bog”.</Text>
-                    <Text>• Tags are normalised (lowercase, underscores), validated against the ontology, and stored in <Code>tags</Code> / <Code>munro_tags</Code>. Batch scripts can wipe and regenerate to avoid stale tags.</Text>
+                    <Text>
+                      • The model reads a route description and selects tags from an approved list
+                      (ontology), e.g., <Code>ridge</Code>, <Code>airy</Code>, <Code>handson</Code>
+                      , <Code>river_crossing</Code>.
+                    </Text>
+                    <Text>
+                      • Tags capture feel and terrain that numbers don’t, enabling queries like
+                      “airy scramble with low bog”.
+                    </Text>
+                    <Text>
+                      • Tags are normalised (lowercase, underscores), validated against the
+                      ontology, and stored in <Code>tags</Code> / <Code>munro_tags</Code>. Batch
+                      scripts can wipe and regenerate to avoid stale tags.
+                    </Text>
                   </Stack>
                 </Box>
 
@@ -265,7 +338,10 @@ export default function ChatTab({ messages, onSend, onOpenRoute }: Props) {
                 <Box>
                   <HStack color="gray.600" mt={1}>
                     <Icon as={QuestionOutlineIcon} />
-                    <Text>Tip: expand the Inspector under any assistant message to view the parsed intent, SQL, and results.</Text>
+                    <Text>
+                      Tip: expand the Inspector under any assistant message to view the parsed
+                      intent, SQL, and results.
+                    </Text>
                   </HStack>
                 </Box>
               </Stack>
@@ -280,14 +356,20 @@ export default function ChatTab({ messages, onSend, onOpenRoute }: Props) {
 function EmptyState({
   examples,
   onExampleClick,
+  onTagClick,
 }: {
   examples: string[];
   onExampleClick: (p: string) => void;
+  onTagClick: (t: string) => void;
 }) {
   return (
     <Box textAlign="center" color="gray.700">
-      <Heading size="sm" mb={2}>Start a conversation</Heading>
-      <Text mb={4}>Ask for Munros by terrain, difficulty, access, distance/time, or tags.</Text>
+      <Heading size="sm" mb={2}>
+        Start a conversation
+      </Heading>
+      <Text mb={4}>
+        Ask for Munros by terrain, difficulty, access, distance/time, or tags.
+      </Text>
 
       {/* Put examples on separate rows to avoid horizontal overlap */}
       <Stack spacing={2} align="stretch" maxW="600px" mx="auto" mb={4}>
@@ -310,17 +392,25 @@ function EmptyState({
             "rocky",
             "knifeedge",
             "easy",
-            "moderate",
             "hard",
-            "serious",
             "pathless",
-            "loose_rock",
-            "cornice",
             "river_crossing",
             "views",
             "classic",
+            "camping",
+            "steep",
+            "bus",
+            "train"
           ].map((t) => (
-            <Tag key={t} size="sm" colorScheme="gray">{t}</Tag>
+            <Tag
+              key={t}
+              size="sm"
+              colorScheme="gray"
+              cursor="pointer"
+              onClick={() => onTagClick(t)}
+            >
+              {t}
+            </Tag>
           ))}
         </HStack>
       </Stack>
@@ -350,38 +440,52 @@ function Inspector({ steps }: { steps: any }) {
         </AccordionButton>
         <AccordionPanel pb={4}>
           <Box mb={3}>
-            <Text fontWeight="semibold" mb={1} fontSize="sm">Intent</Text>
+            <Text fontWeight="semibold" mb={1} fontSize="sm">
+              Intent
+            </Text>
             <Code p={2} w="100%" whiteSpace="pre-wrap" fontSize="xs">
               {JSON.stringify(intent, null, 2)}
             </Code>
           </Box>
 
           <Box mb={3}>
-            <Text fontWeight="semibold" mb={1} fontSize="sm">SQL</Text>
+            <Text fontWeight="semibold" mb={1} fontSize="sm">
+              SQL
+            </Text>
             <Code p={2} w="100%" whiteSpace="pre-wrap" fontSize="xs">
               {sql}
             </Code>
-            <Text mt={1} fontSize="xs" color="gray.600">Params: {JSON.stringify(params)}</Text>
+            <Text mt={1} fontSize="xs" color="gray.600">
+              Params: {JSON.stringify(params)}
+            </Text>
           </Box>
 
           <Box>
-            <Text fontWeight="semibold" mb={2} fontSize="sm">Top results</Text>
+            <Text fontWeight="semibold" mb={2} fontSize="sm">
+              Top results
+            </Text>
             <Stack spacing={3}>
               {results.map((r) => (
                 <Box key={r.id} p={3} bg="white" border="1px solid #e2e8f0" rounded="md">
-                  <Text fontWeight="bold" mb={1}>{r.name}</Text>
-                  <Flex gap={1} wrap="wrap" mb={2}>
-                    {r.tags?.slice(0, 14).map((t) => (
-                      <Tag key={t} size="sm">{t}</Tag>
-                    ))}
-                  </Flex>
+                  <Text fontWeight="bold" mb={1}>
+                    {r.name}
+                  </Text>
+                    <Flex gap={1} wrap="wrap" mb={2}>
+                      {r.tags?.slice(0, 14).map((t) => (
+                        <Tag key={t} size="sm">
+                          {t}
+                        </Tag>
+                      ))}
+                    </Flex>
                   <Text fontSize="sm" color="gray.700">
                     {r.summary || "No summary available."}
                   </Text>
                 </Box>
               ))}
               {results.length === 0 && (
-                <Text fontSize="sm" color="gray.600">No results from the current filters.</Text>
+                <Text fontSize="sm" color="gray.600">
+                  No results from the current filters.
+                </Text>
               )}
             </Stack>
           </Box>

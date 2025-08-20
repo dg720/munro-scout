@@ -211,6 +211,7 @@ export default function App() {
             messages={messages}
             onSend={handleSend}
             onOpenRoute={openRoute}
+            onReset={() => setMessages([])}   // ✅ add this line
           />
         ) : (
           <DetailsTab initialMunro={selectedMunro} />
