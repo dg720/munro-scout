@@ -3,6 +3,7 @@ from flask_cors import CORS
 from dotenv import load_dotenv
 from routes import register_blueprints
 from config import Config
+import os
 
 
 def create_app() -> Flask:
@@ -22,4 +23,4 @@ def create_app() -> Flask:
 
 if __name__ == "__main__":
     app = create_app()
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
