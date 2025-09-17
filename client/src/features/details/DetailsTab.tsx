@@ -13,12 +13,9 @@ import { useSelectedGpxUrl } from "../../hooks/useSelectedGpxUrl";
 import { DEFAULT_CENTER } from "../../config/constants";
 import MapRefStash from "../../components/map/MapRefStash";
 import GpxOverlay from "../../components/map/GpxOverlay";
+import { API_BASE } from "../../config/api";
 
 type Props = { initialMunro: Munro | null };
-
-const API_BASE =
-  (typeof process !== "undefined" && (process as any)?.env?.REACT_APP_API_BASE) ||
-  "http://localhost:5000";
 
 export default function DetailsTab({ initialMunro }: Props) {
   const [query, setQuery] = useState("");

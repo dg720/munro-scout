@@ -21,6 +21,7 @@ import {
   Icon,
 } from "@chakra-ui/react";
 import { InfoOutlineIcon, QuestionOutlineIcon, RepeatIcon } from "@chakra-ui/icons";
+import { API_BASE } from "../../config/api"; // HELPER
 
 export type ChatRouteLink = { id: number; name: string; tags?: string[] };
 export type ChatMessage = {
@@ -37,9 +38,6 @@ type Props = {
   onReset: () => void; // NEW: parent clears the conversation
 };
 
-const API_BASE =
-  (typeof process !== "undefined" && (process as any)?.env?.REACT_APP_API_BASE) ||
-  "http://localhost:5000";
 
 export default function ChatTab({ messages, onSend, onOpenRoute, onReset }: Props) {
   const [input, setInput] = useState("");

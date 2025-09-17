@@ -8,6 +8,7 @@ import {
   ModalOverlay, ModalContent, ModalHeader, ModalCloseButton, ModalBody,
   ModalFooter, Button, SimpleGrid, HStack, Badge, ButtonGroup
 } from "@chakra-ui/react";
+import { API_BASE } from "./config/api"; // HELPER
 
 import { Munro } from "./types/munro";
 import StatsPanel from "./components/dashboard/StatsPanel";
@@ -46,7 +47,7 @@ export default function App() {
     if (grade) params.append("grade", grade);
     if (bog) params.append("bog", bog);
     axios
-      .get(`http://localhost:5000/api/munros?${params.toString()}`)
+      .get(`${API_BASE}/api/munros?${params.toString()}`)
       .then((res) => {
         let data = res.data as Munro[];
         if (sortKey) {
@@ -79,13 +80,13 @@ export default function App() {
 
   const openRoute = async (route: ChatRouteLink) => {
     try {
-      const res = await axios.get(`http://localhost:5000/api/munro/${route.id}`);
+      const res = await axios.get(`${API_BASE}/api/munro/${route.id}`);
       const munro = res.data as Munro;
       setSelectedMunro(munro);
       setActiveTab("details");
     } catch {
       try {
-        const res2 = await axios.get(`http://localhost:5000/api/munros?id=${route.id}`);
+        const res2 = await axios.get(`${API_BASE}/api/munros?id=${route.id}`);
         const munro = (res2.data as Munro[])[0];
         if (munro) {
           setSelectedMunro(munro);
