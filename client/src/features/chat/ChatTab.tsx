@@ -21,7 +21,7 @@ import {
   Icon,
 } from "@chakra-ui/react";
 import { InfoOutlineIcon, QuestionOutlineIcon, RepeatIcon } from "@chakra-ui/icons";
-import { API_BASE } from "../../config/api"; // HELPER
+import { buildApiUrl } from "../../config/api"; // HELPER
 
 export type ChatRouteLink = { id: number; name: string; tags?: string[] };
 export type ChatMessage = {
@@ -72,7 +72,7 @@ export default function ChatTab({ messages, onSend, onOpenRoute, onReset }: Prop
     try {
       onSend(text); // optimistic append by parent
 
-      const res = await fetch(`${API_BASE}/api/chat`, {
+      const res = await fetch(buildApiUrl("/api/chat"), {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message: text, limit: 8 }),

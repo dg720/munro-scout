@@ -13,7 +13,7 @@ import { useSelectedGpxUrl } from "../../hooks/useSelectedGpxUrl";
 import { DEFAULT_CENTER } from "../../config/constants";
 import MapRefStash from "../../components/map/MapRefStash";
 import GpxOverlay from "../../components/map/GpxOverlay";
-import { API_BASE } from "../../config/api";
+import { buildApiUrl } from "../../config/api";
 
 type Props = { initialMunro: Munro | null };
 
@@ -41,7 +41,7 @@ export default function DetailsTab({ initialMunro }: Props) {
       try {
         const name = "Ben Nevis";
         const { data } = await axios.get<Munro[]>(
-          `${API_BASE}/api/munros?search=${encodeURIComponent(name)}`
+          buildApiUrl(`/api/munros?search=${encodeURIComponent(name)}`)
         );
         const exact = (data || []).find(
           (m) => m.name?.toLowerCase().trim() === name.toLowerCase()
@@ -68,7 +68,7 @@ export default function DetailsTab({ initialMunro }: Props) {
       return;
     }
     axios
-      .get(`${API_BASE}/api/munros?search=${encodeURIComponent(query)}`)
+      .get(buildApiUrl(`/api/munros?search=${encodeURIComponent(query)}`))
       .then((res) => {
         const list = res.data as Munro[];
         const filtered = list.filter((m) =>
