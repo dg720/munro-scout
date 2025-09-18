@@ -18,6 +18,7 @@ _HAS_TIME: Optional[bool] = None
 
 
 def _ensure_schema_flags() -> None:
+    """Detect once whether optional distance/time columns exist in the DB."""
     global _HAS_DISTANCE, _HAS_TIME
     if _HAS_DISTANCE is not None and _HAS_TIME is not None:
         return
@@ -62,11 +63,9 @@ def _add_numeric_filters(
 
 
 def search_core(payload: Dict[str, Any]) -> Dict[str, Any]:
-    """
-    payload keys: query, include_tags, exclude_tags, bog_max, grade_max, limit,
-                  distance_min_km, distance_max_km, time_min_h, time_max_h
-    Returns dict with sql/params/results and the expanded fts_query used.
-    """
+    """Execute the three-pass text search pipeline over the Munro dataset."""
+    # payload keys: query, include_tags, exclude_tags, bog_max, grade_max, limit,
+    #               distance_min_km, distance_max_km, time_min_h, time_max_h
     raw_query = (payload.get("query") or "").strip()
     include_tags = payload.get("include_tags") or []
     exclude_tags = payload.get("exclude_tags") or []
@@ -302,6 +301,7 @@ def search_core(payload: Dict[str, Any]) -> Dict[str, Any]:
 
 
 def compact_dataset_slice(limit_items=200) -> list[dict]:
+    """Return a trimmed dataset snapshot for broad LLM-based suggestions."""
     with get_db() as conn:
         rows = conn.execute(
             """
@@ -336,6 +336,7 @@ def compact_dataset_slice(limit_items=200) -> list[dict]:
 
 
 def format_compact_lines(data: list[dict], cap=120) -> str:
+    """Condense dataset rows into newline separated strings for prompts."""
     lines = []
     for item in data[:cap]:
         line = f"- {item['name']} | tags: {item['tags']} | terrain: {item['terrain']} | transport: {item['transport']} | start: {item['start']} | {item['summary']}"
@@ -344,6 +345,7 @@ def format_compact_lines(data: list[dict], cap=120) -> str:
 
 
 def pick_route_names_llm(dataset_lines: str, user_msg: str) -> list[str]:
+    """Use the LLM to pick promising route names from a dataset summary."""
     llm, use_llm = get_llm()
     if not use_llm:
         return []
@@ -381,6 +383,7 @@ Dataset lines:
 
 
 def names_to_ids(names: list[str]) -> list[dict]:
+    """Map human-readable route names back to database identifiers."""
     if not names:
         return []
     with get_db() as conn:
@@ -419,11 +422,7 @@ def search_by_location_core(
     time_min_h: Optional[float] = None,
     time_max_h: Optional[float] = None,
 ) -> Dict[str, Any]:
-    """
-    Location-first search: nearest Munros to the specified place.
-    Semantics: proximity is primary; tags are a soft boost.
-    Applies HARD numeric filters on route attributes if available.
-    """
+    """Return Munros closest to a location, applying optional hard filters."""
     include_tags = include_tags or []
 
     # 1) Distance candidates (raises ValueError if location not in Scotland)
@@ -436,6 +435,7 @@ def search_by_location_core(
 
     # 3) HARD numeric filters on route attributes (if present)
     def _keep(r: Dict[str, Any]) -> bool:
+        """Validate a candidate against the hard numeric constraints."""
         d = r.get("route_distance")  # km
         t = r.get("route_time")  # hours
         if (
@@ -460,6 +460,7 @@ def search_by_location_core(
 
     # 4) Soft re-ranking: distance first, then tag matches desc, then name
     def tag_match_count(tags: List[str]) -> int:
+        """Return how many requested tags appear on the candidate."""
         return sum(1 for t in (tags or []) if t in include_tags)
 
     rows.sort(

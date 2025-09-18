@@ -7,15 +7,17 @@ import os
 
 
 def create_app() -> Flask:
+    """Create and configure the Flask application instance."""
     load_dotenv()
     app = Flask(__name__)
     app.config.from_object(Config)
     app.config["JSON_AS_ASCII"] = False
     CORS(app)
 
+    # Register all API blueprints and shared teardown handlers.
     register_blueprints(app)
 
-    # just print here
+    # Emit a startup log for container platforms without process logs.
     print("🚀 Starting Munro Flask API...")
 
     return app

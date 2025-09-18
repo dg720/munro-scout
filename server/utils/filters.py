@@ -31,6 +31,7 @@ TIME_PATTERNS = [
 
 
 def _to_km(value: float, unit: str) -> float:
+    """Convert distance values expressed in miles into kilometres."""
     u = unit.lower()
     if u.startswith("km") or "kilomet" in u:
         return value
@@ -39,16 +40,13 @@ def _to_km(value: float, unit: str) -> float:
 
 
 def _to_hours(value: float, unit: str) -> float:
+    """Normalise supported hour tokens to a plain hour count."""
     # all time units above are hours already
     return value
 
 
 def parse_numeric_filters(text: str) -> Dict[str, float]:
-    """
-    Returns a dict possibly containing:
-      - distance_min_km, distance_max_km
-      - time_min_h, time_max_h
-    """
+    """Extract numeric distance and time hints from free-form text."""
     s = (text or "").lower()
     out: Dict[str, float] = {}
 

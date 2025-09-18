@@ -33,6 +33,7 @@ _LOCATION_PATTERNS = [
 
 
 def extract_location_heuristic(text: str) -> str:
+    """Return a lightweight regex-based guess at the mentioned location."""
     s = (text or "").strip()
     for pat in _LOCATION_PATTERNS:
         m = re.search(pat, s, flags=re.IGNORECASE)
@@ -43,6 +44,7 @@ def extract_location_heuristic(text: str) -> str:
 
 
 def _coerce_float(x):
+    """Safely convert values into floats, ignoring invalid input."""
     try:
         if x is None:
             return None
@@ -53,6 +55,7 @@ def _coerce_float(x):
 
 @bp.post("/chat")
 def chat():
+    """Handle conversational requests by orchestrating LLM intent parsing and search."""
     llm, use_llm = get_llm()
     if not use_llm:
         return jsonify({"error": "LLM not configured"}), 500
@@ -205,6 +208,7 @@ User message: {user_msg}
         )
 
     def to_route_link(r):
+        """Trim the result payload down to link-friendly metadata."""
         return {"id": r["id"], "name": r["name"], "tags": r.get("tags", [])}
 
     route_links = [to_route_link(r) for r in candidates[:limit]]
