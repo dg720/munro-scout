@@ -1,5 +1,5 @@
 import re
-from typing import Optional, Dict
+from typing import Dict
 
 _MILES_TO_KM = 1.60934
 
@@ -31,6 +31,8 @@ TIME_PATTERNS = [
 
 
 def _to_km(value: float, unit: str) -> float:
+    """Normalise distance measurements (km/mi) into kilometres."""
+
     u = unit.lower()
     if u.startswith("km") or "kilomet" in u:
         return value
@@ -39,16 +41,15 @@ def _to_km(value: float, unit: str) -> float:
 
 
 def _to_hours(value: float, unit: str) -> float:
-    # all time units above are hours already
+    """Return a numeric hour value (regex only captures hour-like units)."""
+
+    # All time units above are already hours; the helper exists for symmetry.
     return value
 
 
 def parse_numeric_filters(text: str) -> Dict[str, float]:
-    """
-    Returns a dict possibly containing:
-      - distance_min_km, distance_max_km
-      - time_min_h, time_max_h
-    """
+    """Extract numeric distance/time filters from free text search prompts."""
+
     s = (text or "").lower()
     out: Dict[str, float] = {}
 

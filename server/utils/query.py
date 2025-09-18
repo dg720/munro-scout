@@ -51,16 +51,22 @@ DIFF_WORD_TO_NUM = {
 
 
 def tokenize(q: str) -> List[str]:
+    """Split a query string into lowercase tokens while keeping apostrophes."""
+
     return [t for t in re.split(r"[^\w']+", (q or "").lower()) if t]
 
 
 def quote_or_prefix(term: str) -> str:
+    """Return a quoted phrase or wildcard prefix suitable for FTS MATCH."""
+
     if " " in term:
         return f'"{term}"'
     return f"{term[:5]}*" if len(term) >= 5 else term
 
 
 def expand_query_for_fts(q: str) -> str:
+    """Normalise a free text query into an FTS expression with synonyms."""
+
     toks = tokenize(q)
     candidates: list[str] = []
     for t in toks:
@@ -81,6 +87,8 @@ def expand_query_for_fts(q: str) -> str:
 
 
 def build_like_terms(q: str) -> list[str]:
+    """Generate SQL LIKE patterns (with synonyms) for fallback search passes."""
+
     toks = tokenize(q)
     expanded: list[str] = []
     for t in toks:
@@ -99,6 +107,8 @@ def build_like_terms(q: str) -> list[str]:
 
 
 def normalize_grade_max(value):
+    """Convert user grade descriptions (words or ints) into numeric caps."""
+
     if value is None:
         return None
     if isinstance(value, str):
@@ -115,6 +125,8 @@ def normalize_grade_max(value):
 
 
 def norm_text(s: str) -> str:
+    """Fold punctuation/diacritics to ASCII for fuzzy comparisons."""
+
     if not s:
         return ""
     s = s.replace("’", "'").replace("‘", "'").replace("`", "'")
