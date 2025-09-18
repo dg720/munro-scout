@@ -8,7 +8,9 @@ from db import init_app as init_db
 
 
 def register_blueprints(app: Flask):
+    """Attach all API blueprints and initialise the shared database hooks."""
     init_db(app)
+    # Each blueprint serves a logical feature area of the API.
     app.register_blueprint(health_bp, url_prefix="/api")
     app.register_blueprint(munros_bp, url_prefix="/api")
     app.register_blueprint(tags_bp, url_prefix="/api")

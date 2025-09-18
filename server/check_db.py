@@ -6,6 +6,7 @@ DB_PATH = "db.sqlite"
 
 
 def preview(table: str = "munros", n: int = 5):
+    """Print the first *n* rows of the requested table for quick inspection."""
     conn = sqlite3.connect(DB_PATH)
     query = f"SELECT * FROM {table} LIMIT {n};"
     df = pd.read_sql_query(query, conn)
