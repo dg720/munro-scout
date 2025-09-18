@@ -21,7 +21,7 @@ export default function GpxOverlay({ url, onError }: { url: string; onError?: (m
         const isXmlCT = /(application|text)\/(gpx\+xml|xml)/i.test(ct) || ct === "";
         const text = await res.text();
 
-        if (!isXmlCT || !looksLikeXml(text)) {
+        if (!isXmlCT && !looksLikeXml(text)) {
           const head = text.slice(0, 160).replace(/\s+/g, " ");
           throw new Error(
             `Response is not GPX/XML (content-type: ${ct || "n/a"}; head: ${JSON.stringify(head)} ...)`
