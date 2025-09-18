@@ -20,16 +20,8 @@ const envBase =
       ?.REACT_APP_API_BASE) ||
   "";
 
-const isDevelopment =
-  typeof process !== "undefined" &&
-  (process as unknown as { env?: Record<string, string | undefined> })?.env
-    ?.NODE_ENV === "development";
-
-const fallbackBase = isDevelopment
-  ? "http://localhost:5000"
-  : typeof globalWindow?.location?.origin === "string"
-  ? globalWindow.location.origin
-  : "";
+// Default to the Render-hosted API when no overrides are supplied.
+const fallbackBase = "https://munro-scout.onrender.com";
 
 const resolvedBase = [runtimeBase, envBase, fallbackBase]
   .map((value) => value.trim())
@@ -43,6 +35,7 @@ if (!API_BASE) {
     "Munro Scout: no API base configured; API requests will be sent to relative URLs."
   );
 }
+
 
 /**
  * Helper to join the API base with a relative path without duplicating slashes.
