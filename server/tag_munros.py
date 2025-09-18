@@ -98,10 +98,14 @@ OUTPUT (STRICT JSON only)
 
 
 def filter_allowed(tags: List[str]) -> List[str]:
+    """Remove any tags not part of the curated ontology."""
+
     return [t for t in tags if t in ALLOWED]
 
 
 def llm_call_with_retry(messages: List[Dict], tries: int = 3) -> str:
+    """Call the tagging LLM with exponential backoff on transient errors."""
+
     for i in range(1, tries + 1):
         try:
             return llm.invoke(messages).content  # type: ignore[return-value]
@@ -118,6 +122,8 @@ def llm_call_with_retry(messages: List[Dict], tries: int = 3) -> str:
 
 
 def tag_one(doc: Dict) -> Dict:
+    """Generate tags/keywords for a single Munro document via the LLM."""
+
     msg = PROMPT.format(
         allowed=", ".join(ALLOWED),
         name=doc.get("name", ""),
@@ -144,6 +150,8 @@ def tag_one(doc: Dict) -> Dict:
 
 
 def ensure_aux_tables(conn: sqlite3.Connection) -> None:
+    """Create auxiliary tag/FTS tables if they do not exist."""
+
     c = conn.cursor()
     c.execute(
         """
@@ -180,6 +188,8 @@ def reset_tags_for_ids(conn: sqlite3.Connection, ids: Optional[List[int]]) -> No
 
 
 def main(ids: Optional[List[int]] = None, wipe_first: bool = False) -> None:
+    """CLI entrypoint used to (re)tag Munros with the configured ontology."""
+
     conn = sqlite3.connect(DB_PATH)
     conn.row_factory = sqlite3.Row
     ensure_aux_tables(conn)

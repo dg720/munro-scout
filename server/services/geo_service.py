@@ -12,6 +12,8 @@ SCOTLAND_BBOX = getattr(munro_coords, "SCOTLAND_BBOX", (54.5, -8.5, 60.9, -0.5))
 
 
 def _within_bbox(lat: float, lon: float, bbox=SCOTLAND_BBOX) -> bool:
+    """Return ``True`` when the coordinates fall inside the supplied bounding box."""
+
     s, w, n, e = bbox
     return (s <= lat <= n) and (w <= lon <= e)
 
@@ -144,6 +146,8 @@ def _select_row(conn, name_like: Optional[str] = None, exact: Optional[str] = No
 
 
 def _map_names_to_db_rows(named: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """Translate name/distance pairs into enriched database-backed records."""
+
     if not named:
         return []
     with get_db() as conn:
@@ -192,6 +196,8 @@ def _map_names_to_db_rows(named: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
 
 
 def attach_tags(rows: List[Dict[str, Any]]) -> None:
+    """Populate ``tags`` for each row in-place to mirror search_core output."""
+
     if not rows:
         return
     ids = [r["id"] for r in rows]

@@ -3,6 +3,8 @@ from db import get_db
 
 
 def list_munros(grade=None, bog=None, search=None, mid=None) -> List[Dict[str, Any]]:
+    """Retrieve Munros filtered by grade/bog/search/id criteria."""
+
     base_sql = "SELECT * FROM munros WHERE 1=1"
     clauses, params = [], []
 
@@ -39,6 +41,8 @@ def list_munros(grade=None, bog=None, search=None, mid=None) -> List[Dict[str, A
 
 
 def get_munro(mid: int) -> Dict[str, Any] | None:
+    """Fetch a single Munro row by id, omitting internal fields."""
+
     with get_db() as conn:
         row = conn.execute("SELECT * FROM munros WHERE id = ?", (mid,)).fetchone()
     if not row:
@@ -49,6 +53,8 @@ def get_munro(mid: int) -> Dict[str, Any] | None:
 
 
 def list_tags_with_counts() -> List[Dict[str, Any]]:
+    """Return all tags with their usage frequency for filter displays."""
+
     with get_db() as conn:
         rows = conn.execute("""
             SELECT tag, COUNT(*) AS n

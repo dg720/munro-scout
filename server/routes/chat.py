@@ -33,6 +33,8 @@ _LOCATION_PATTERNS = [
 
 
 def extract_location_heuristic(text: str) -> str:
+    """Fallback regex extractor for locations when the LLM misses them."""
+
     s = (text or "").strip()
     for pat in _LOCATION_PATTERNS:
         m = re.search(pat, s, flags=re.IGNORECASE)
@@ -43,6 +45,8 @@ def extract_location_heuristic(text: str) -> str:
 
 
 def _coerce_float(x):
+    """Safely cast arbitrary payload values to floats or return ``None``."""
+
     try:
         if x is None:
             return None
@@ -53,6 +57,8 @@ def _coerce_float(x):
 
 @bp.post("/chat")
 def chat():
+    """Conversational endpoint backed by shared search logic and an LLM."""
+
     llm, use_llm = get_llm()
     if not use_llm:
         return jsonify({"error": "LLM not configured"}), 500
@@ -122,7 +128,7 @@ User message: {user_msg}
     for k in ("distance_min_km", "distance_max_km", "time_min_h", "time_max_h"):
         intent[k] = intent.get(k, None)
 
-    # Heuristic fallbacks if LLM missed details
+    # Heuristic fallbacks if the LLM missed key pieces of information.
     loc_heur = extract_location_heuristic(user_msg)
     if not (intent.get("location") or "").strip() and loc_heur:
         intent["location"] = loc_heur
@@ -137,7 +143,7 @@ User message: {user_msg}
     for k in ("distance_min_km", "distance_max_km", "time_min_h", "time_max_h"):
         intent[k] = _coerce_float(intent.get(k))
 
-    # Log final intent
+    # Log final intent for observability and debugging.
     current_app.logger.info(f"[chat] intent={intent} | limit={limit}")
 
     # 2) Retrieval via shared search logic
@@ -205,6 +211,8 @@ User message: {user_msg}
         )
 
     def to_route_link(r):
+        """Compact representation for the UI route list."""
+
         return {"id": r["id"], "name": r["name"], "tags": r.get("tags", [])}
 
     route_links = [to_route_link(r) for r in candidates[:limit]]

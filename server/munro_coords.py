@@ -43,6 +43,8 @@ _print_lock = Lock()  # keep logs tidy across threads
 
 
 def _ensure_conn() -> sqlite3.Connection:
+    """Open a SQLite connection with performance-friendly pragmas."""
+
     conn = sqlite3.connect(DB_PATH)
     conn.execute("PRAGMA journal_mode=WAL;")
     conn.execute("PRAGMA synchronous=NORMAL;")
@@ -50,6 +52,8 @@ def _ensure_conn() -> sqlite3.Connection:
 
 
 def _ensure_schema(conn: sqlite3.Connection) -> None:
+    """Create the coordinate table if it is missing."""
+
     conn.execute("""
         CREATE TABLE IF NOT EXISTS munro_coords (
             name TEXT PRIMARY KEY,
@@ -69,6 +73,8 @@ def _ensure_schema(conn: sqlite3.Connection) -> None:
 
 
 def load_munro_names(source: str = "auto") -> List[str]:
+    """Load Munro names from JSON or SQLite, deduplicating while preserving order."""
+
     names = []
     src = source.lower()
     if src == "auto":
@@ -115,11 +121,15 @@ def load_munro_names(source: str = "auto") -> List[str]:
 
 
 def _within_bbox(lat: float, lon: float, bbox) -> bool:
+    """Return ``True`` when the coordinates are inside the provided bounding box."""
+
     s, w, n, e = bbox
     return (s <= lat <= n) and (w <= lon <= e)
 
 
 def sanitize_name(name: str) -> str:
+    """Strip common suffixes/qualifiers from a hill name before geocoding."""
+
     # remove bracketed region qualifiers, e.g. "Stob Binnein (Loch Lomond)"
     base = re.sub(r"\s*\([^)]*\)\s*$", "", name).strip()
     # remove trailing comma segments like ", Skye"
@@ -131,6 +141,8 @@ def sanitize_name(name: str) -> str:
 
 
 def _nominatim_geocoder():
+    """Construct a Nominatim client with a rate-limited geocode helper."""
+
     g = Nominatim(user_agent=NOMINATIM_USER_AGENT, timeout=10)
     # ≥1s delay per thread; Nominatim is strict. Keep workers low.
     rate_geocode = RateLimiter(
@@ -140,6 +152,8 @@ def _nominatim_geocoder():
 
 
 def geocode_via_nominatim(name: str, rate_geocode) -> Optional[Tuple[float, float]]:
+    """Attempt to geocode using Nominatim, returning coordinates if within Scotland."""
+
     clean = sanitize_name(name)
     candidates = [name]
     if clean != name:
@@ -169,6 +183,8 @@ def geocode_via_nominatim(name: str, rate_geocode) -> Optional[Tuple[float, floa
 
 
 def geocode_via_overpass(name: str) -> Optional[Tuple[float, float]]:
+    """Use Overpass as a fallback when Nominatim cannot locate the hill."""
+
     if not OVERPY_AVAILABLE:
         return None
     api = overpy.Overpass()
@@ -311,6 +327,8 @@ def build_or_update_coords(
 
 
 def _haversine_np(lat1, lon1, lat2, lon2):
+    """Vectorised haversine distance in kilometres between coordinate arrays."""
+
     R = 6371.0088
     lat1 = np.radians(lat1)
     lon1 = np.radians(lon1)
@@ -323,6 +341,8 @@ def _haversine_np(lat1, lon1, lat2, lon2):
 
 
 def geocode_location(query: str) -> Tuple[float, float]:
+    """Geocode an arbitrary location and return latitude/longitude."""
+
     _, rate_geocode = _nominatim_geocoder()
     loc = rate_geocode(query, exactly_one=True)
     if not loc:
@@ -331,6 +351,8 @@ def geocode_location(query: str) -> Tuple[float, float]:
 
 
 def nearest_munros_to_point(lat: float, lon: float, k: int = 20) -> pd.DataFrame:
+    """Return the ``k`` nearest Munros for a given latitude/longitude."""
+
     conn = _ensure_conn()
     df = pd.read_sql_query("SELECT name, lat, lon FROM munro_coords", conn)
     conn.close()
@@ -346,6 +368,8 @@ def nearest_munros_to_point(lat: float, lon: float, k: int = 20) -> pd.DataFrame
 def nearest_munros_from_user_location(
     user_location_str: str, k: int = 20
 ) -> pd.DataFrame:
+    """Convenience wrapper that geocodes a user query then runs nearest search."""
+
     ulat, ulon = geocode_location(user_location_str)
     return nearest_munros_to_point(ulat, ulon, k=k)
 

@@ -11,6 +11,8 @@ JSON_PATH = "munro_descriptions.json"
 
 # ---------- Helpers ----------
 def fix_mojibake(s: str) -> str:
+    """Attempt to repair UTF-8 strings that were decoded as latin-1."""
+
     if not isinstance(s, str):
         return s
     try:
@@ -23,6 +25,8 @@ def fix_mojibake(s: str) -> str:
 
 
 def to_nfc(s: str) -> str:
+    """Normalise the unicode form so accent comparisons stay consistent."""
+
     return unicodedata.normalize("NFC", s or "")
 
 
@@ -31,6 +35,8 @@ DASH = {"\u2013": "-", "\u2014": "-", "\u2212": "-"}
 
 
 def clean_text(s: Any) -> Any:
+    """Clean raw JSON text by fixing mojibake, unicode quotes, and dashes."""
+
     if not isinstance(s, str):
         return s
     s = fix_mojibake(s)
@@ -43,13 +49,17 @@ def clean_text(s: Any) -> Any:
 
 
 def clean_gpx(path: Any) -> Any:
+    """Convert Windows path separators in GPX paths to POSIX form."""
+
     if not isinstance(path, str):
         return path
     return path.replace("\\", "/")
 
 
 def snake(s: str) -> str:
-    # lower, replace non-alnum with _, collapse, trim
+    """Convert arbitrary column headings into safe snake_case identifiers."""
+
+    # Lowercase, replace non-alnum with underscores, then collapse multiples.
     s = re.sub(r"[^0-9A-Za-z]+", "_", s).strip("_").lower()
     s = re.sub(r"_+", "_", s)
     if not s:
@@ -58,12 +68,16 @@ def snake(s: str) -> str:
 
 
 def canonicalize_name(name: str) -> str:
+    """Standardise Munro names by trimming whitespace and normalising text."""
+
     s = clean_text(name)
     s = re.sub(r"\s+", " ", s).strip()
     return s
 
 
 def canonical_key(name: str) -> str:
+    """Create a case-folded lookup key that ignores punctuation variations."""
+
     s = canonicalize_name(name)
     s = s.casefold()
     # unify apostrophes/dashes in key

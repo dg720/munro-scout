@@ -6,10 +6,14 @@ DB_PATH = "db.sqlite"
 
 
 def preview(table: str = "munros", n: int = 5):
+    """Print a small preview of a database table for manual inspection."""
+
+    # Connect, read, and close explicitly so the CLI utility is self-contained.
     conn = sqlite3.connect(DB_PATH)
     query = f"SELECT * FROM {table} LIMIT {n};"
     df = pd.read_sql_query(query, conn)
     conn.close()
+
     print(f"Preview of table '{table}' (first {n} rows):")
     print(df.head(n).to_string(index=False))
 

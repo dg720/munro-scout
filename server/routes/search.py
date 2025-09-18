@@ -6,6 +6,8 @@ bp = Blueprint("search", __name__)
 
 @bp.post("/search")
 def search_munros():
+    """Execute a search request using either location or text filters."""
+
     data = request.get_json(force=True) or {}
     location = (data.get("location") or "").strip()
     limit = int(data.get("limit") or 12)
