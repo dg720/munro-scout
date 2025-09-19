@@ -21,6 +21,7 @@ export default function Filters({
 }: Props) {
   return (
     <Flex gap={4} wrap="wrap" mb={10}>
+      {/* Free-text search */}
       <Input
         placeholder="Search by description..."
         value={search}
@@ -28,13 +29,17 @@ export default function Filters({
         w="full"
         maxW="250px"
       />
+
+      {/* Difficulty filters */}
       <Select
         placeholder="Filter by grade"
         value={grade}
         onChange={(e) => onGrade(e.target.value)}
         maxW="180px"
       >
-        {[1, 2, 3, 4, 5].map(g => <option key={g} value={g}>{g}</option>)}
+        {[1, 2, 3, 4, 5].map((g) => (
+          <option key={g} value={g}>{g}</option>
+        ))}
       </Select>
       <Select
         placeholder="Max bog"
@@ -42,8 +47,12 @@ export default function Filters({
         onChange={(e) => onBog(e.target.value)}
         maxW="180px"
       >
-        {[1, 2, 3, 4, 5].map(b => <option key={b} value={b}>{b}</option>)}
+        {[1, 2, 3, 4, 5].map((b) => (
+          <option key={b} value={b}>{b}</option>
+        ))}
       </Select>
+
+      {/* Sorting controls */}
       <Select
         placeholder="Sort by"
         value={sortKey}

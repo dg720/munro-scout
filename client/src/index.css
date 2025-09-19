@@ -1,5 +1,11 @@
+/* ============================ */
+/* Global baseline + Leaflet UI */
+/* ============================ */
+
+/* Bring in Leaflet defaults so the map renders correctly */
 @import "leaflet/dist/leaflet.css";
 
+/* Default typography reset */
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -9,9 +15,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Monospace stack for <code> snippets */
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
-#map { width: 100%; height: 60vh; }
+/* Utility id for embedded Leaflet map blocks */
+#map {
+  width: 100%;
+  height: 60vh;
+}
