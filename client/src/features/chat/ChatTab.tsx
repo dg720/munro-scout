@@ -120,6 +120,7 @@ export default function ChatTab({ messages, onSend, onOpenRoute, onReset }: Prop
 
   return (
     <Box mt={6}>
+      {/* Section header with title + reset */}
       <Flex align="center" justify="space-between" mb={2}>
         <Heading size="md">Chat Assistant</Heading>
 
@@ -163,6 +164,7 @@ export default function ChatTab({ messages, onSend, onOpenRoute, onReset }: Prop
           <>
             {messages.map((msg, idx) => (
               <Box key={idx} mb={4} textAlign={msg.role === "user" ? "right" : "left"}>
+                {/* Message bubble */}
                 <Text
                   display="inline-block"
                   bg={msg.role === "user" ? "blue.100" : "gray.200"}
@@ -213,6 +215,7 @@ export default function ChatTab({ messages, onSend, onOpenRoute, onReset }: Prop
       </Box>
 
       {/* Input bar */}
+      {/* Composer bar with text input + send */}
       <Flex gap={2} position="sticky" bottom={0} bg="white" pb={1}>
         <Input
           aria-label="Chat input"
@@ -362,6 +365,7 @@ function EmptyState({
 }) {
   return (
     <Box textAlign="center" color="gray.700">
+      {/* Prompt the user when the thread is empty */}
       <Heading size="sm" mb={2}>
         Start a conversation
       </Heading>
@@ -426,46 +430,49 @@ function Inspector({ steps }: { steps: any }) {
   }>;
 
   return (
-    <Accordion allowToggle>
-      <AccordionItem border="none">
-        <AccordionButton _expanded={{ bg: "gray.100" }} px={2} py={1} borderRadius="md" fontSize="sm">
-          <Box as="span" flex="1" textAlign="left">
-            How I searched (intent, SQL & results)
-          </Box>
-          <AccordionIcon />
-        </AccordionButton>
-        <AccordionPanel pb={4}>
-          <Box mb={3}>
-            <Text fontWeight="semibold" mb={1} fontSize="sm">
-              Intent
-            </Text>
-            <Code p={2} w="100%" whiteSpace="pre-wrap" fontSize="xs">
-              {JSON.stringify(intent, null, 2)}
-            </Code>
-          </Box>
+    <>
+      {/* Expandable debug inspector for LLM output */}
+      <Accordion allowToggle>
+        <AccordionItem border="none">
+          <AccordionButton _expanded={{ bg: "gray.100" }} px={2} py={1} borderRadius="md" fontSize="sm">
+            <Box as="span" flex="1" textAlign="left">
+              How I searched (intent, SQL & results)
+            </Box>
+            <AccordionIcon />
+          </AccordionButton>
+          <AccordionPanel pb={4}>
+            <Box mb={3}>
+              <Text fontWeight="semibold" mb={1} fontSize="sm">
+                Intent
+              </Text>
+              <Code p={2} w="100%" whiteSpace="pre-wrap" fontSize="xs">
+                {JSON.stringify(intent, null, 2)}
+              </Code>
+            </Box>
 
-          <Box mb={3}>
-            <Text fontWeight="semibold" mb={1} fontSize="sm">
-              SQL
-            </Text>
-            <Code p={2} w="100%" whiteSpace="pre-wrap" fontSize="xs">
-              {sql}
-            </Code>
-            <Text mt={1} fontSize="xs" color="gray.600">
-              Params: {JSON.stringify(params)}
-            </Text>
-          </Box>
+            <Box mb={3}>
+              <Text fontWeight="semibold" mb={1} fontSize="sm">
+                SQL
+              </Text>
+              <Code p={2} w="100%" whiteSpace="pre-wrap" fontSize="xs">
+                {sql}
+              </Code>
+              <Text mt={1} fontSize="xs" color="gray.600">
+                Params: {JSON.stringify(params)}
+              </Text>
+            </Box>
 
-          <Box>
-            <Text fontWeight="semibold" mb={2} fontSize="sm">
-              Top results
-            </Text>
-            <Stack spacing={3}>
-              {results.map((r) => (
-                <Box key={r.id} p={3} bg="white" border="1px solid #e2e8f0" rounded="md">
-                  <Text fontWeight="bold" mb={1}>
-                    {r.name}
-                  </Text>
+            <Box>
+              <Text fontWeight="semibold" mb={2} fontSize="sm">
+                Top results
+              </Text>
+              <Stack spacing={3}>
+                {results.map((r) => (
+                  <Box key={r.id} p={3} bg="white" border="1px solid #e2e8f0" rounded="md">
+                    <Text fontWeight="bold" mb={1}>
+                      {r.name}
+                    </Text>
+                    {/* Highlight the tags that matched */}
                     <Flex gap={1} wrap="wrap" mb={2}>
                       {r.tags?.slice(0, 14).map((t) => (
                         <Tag key={t} size="sm">
@@ -473,20 +480,21 @@ function Inspector({ steps }: { steps: any }) {
                         </Tag>
                       ))}
                     </Flex>
-                  <Text fontSize="sm" color="gray.700">
-                    {r.summary || "No summary available."}
+                    <Text fontSize="sm" color="gray.700">
+                      {r.summary || "No summary available."}
+                    </Text>
+                  </Box>
+                ))}
+                {results.length === 0 && (
+                  <Text fontSize="sm" color="gray.600">
+                    No results from the current filters.
                   </Text>
-                </Box>
-              ))}
-              {results.length === 0 && (
-                <Text fontSize="sm" color="gray.600">
-                  No results from the current filters.
-                </Text>
-              )}
-            </Stack>
-          </Box>
-        </AccordionPanel>
-      </AccordionItem>
-    </Accordion>
+                )}
+              </Stack>
+            </Box>
+          </AccordionPanel>
+        </AccordionItem>
+      </Accordion>
+    </>
   );
 }

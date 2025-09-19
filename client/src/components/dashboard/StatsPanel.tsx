@@ -16,21 +16,25 @@ type Stats = {
 export default function StatsPanel({ stats }: { stats: Stats }) {
   return (
     <SimpleGrid columns={{ base: 2, md: 5 }} spacing={4} mb={10}>
+      {/* --- Total number of peaks tracked --- */}
       <Stat>
         <StatLabel>Total Munros</StatLabel>
         <StatNumber>{stats.total}</StatNumber>
       </Stat>
 
+      {/* --- Average distance of filtered set --- */}
       <Stat>
         <StatLabel>Avg Distance</StatLabel>
         <StatNumber>{stats.avgDistance.toFixed(1)} km</StatNumber>
       </Stat>
 
+      {/* --- Average time estimate --- */}
       <Stat>
         <StatLabel>Avg Time</StatLabel>
         <StatNumber>{stats.avgTime.toFixed(1)} hrs</StatNumber>
       </Stat>
 
+      {/* --- Terrain grade indicator --- */}
       <Stat>
         <StatLabel>Avg Grade</StatLabel>
         <StatNumber>
@@ -38,6 +42,7 @@ export default function StatsPanel({ stats }: { stats: Stats }) {
         </StatNumber>
       </Stat>
 
+      {/* --- Bog factor indicator --- */}
       <Stat>
         <StatLabel>Avg Bog</StatLabel>
         <StatNumber>

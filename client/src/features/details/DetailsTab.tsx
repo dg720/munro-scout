@@ -114,7 +114,9 @@ export default function DetailsTab({ initialMunro }: Props) {
     <Box mt={6} position="relative">
       <Heading size="md" mb={4}>Explore a Munro</Heading>
 
-      {/* Search Input */}
+      {/* ============================= */}
+      {/* 🔍 SEARCH INPUT + SUGGESTIONS */}
+      {/* ============================= */}
       <Box mb={4} maxW="520px" position="relative">
         <Input
           placeholder="Start typing a Munro name..."
@@ -176,7 +178,9 @@ export default function DetailsTab({ initialMunro }: Props) {
           boxShadow="lg"
           overflow="hidden"
         >
-          {/* Header */}
+          {/* ================= */}
+          {/* 🏔️ HERO HEADER BAR */}
+          {/* ================= */}
           <Box bg="blue.600" color="white" px={6} py={3}>
             <Heading size="lg" lineHeight="short">
               {selected.title || selected.name}
@@ -188,7 +192,9 @@ export default function DetailsTab({ initialMunro }: Props) {
             )}
           </Box>
 
-          {/* Body */}
+          {/* ============== */}
+          {/* 📋 DETAIL BODY */}
+          {/* ============== */}
           <Box p={5}>
             {/* GPX errors */}
             {gpxError && (

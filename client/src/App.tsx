@@ -100,7 +100,9 @@ export default function App() {
 
   return (
     <Box minH="100vh" bgGradient="linear(to-br, gray.50, white)">
-      {/* ===== Modern Sticky Header (no icons) ===== */}
+      {/* =============================== */}
+      {/* 🧭 APP SHELL: STICKY HEADER BAR */}
+      {/* =============================== */}
       <Box
         position="sticky"
         top={0}
@@ -121,6 +123,7 @@ export default function App() {
             boxShadow="lg"
           >
             <Flex align="center" justify="space-between" gap={6} wrap="wrap">
+              {/* Branding block */}
               <HStack spacing={3}>
                 <Heading size="md" color="white">
                   Munro Scout
@@ -130,6 +133,7 @@ export default function App() {
                 </Badge>
               </HStack>
 
+              {/* Tagline — hidden on smaller breakpoints to save space */}
               <Text
                 display={{ base: "none", md: "block" }}
                 fontSize="sm"
@@ -138,7 +142,7 @@ export default function App() {
                 Discover and analyze Scotland’s Munros by distance, time, grade & terrain.
               </Text>
 
-              {/* Primary nav — Chat → Details → Dashboard */}
+              {/* Primary nav — toggles between the three experiences */}
               <ButtonGroup spacing={2}>
                 <Button
                   onClick={() => setActiveTab("chat")}
@@ -174,17 +178,23 @@ export default function App() {
         </Container>
       </Box>
 
+      {/* ================================== */}
+      {/* 📊 MAIN CONTENT: TAB-DRIVEN VIEWS */}
+      {/* ================================== */}
       <Container maxW="6xl" py={10}>
         {activeTab === "dashboard" ? (
           <>
+            {/* ----- Dashboard: summary metrics ----- */}
             <Heading size="md" mb={2}>Overview Statistics</Heading>
             <Divider mb={6} />
             <StatsPanel stats={stats} />
 
+            {/* ----- Dashboard: scatter chart ----- */}
             <Heading size="md" mb={2}>Distance vs Time</Heading>
             <Divider mb={6} />
             <ScatterPlot data={munros} />
 
+            {/* ----- Dashboard: filter controls ----- */}
             <Heading size="md" mb={2}>Filters & Sorting</Heading>
             <Divider mb={4} />
             <Filters
@@ -200,6 +210,7 @@ export default function App() {
               onSortOrder={setSortOrder}
             />
 
+            {/* ----- Dashboard: tabular data ----- */}
             <Heading size="md" mb={2}>Munro List</Heading>
             <Divider mb={4} />
             <MunroTable
@@ -208,27 +219,33 @@ export default function App() {
             />
           </>
         ) : activeTab === "chat" ? (
+          /* ----- Conversational assistant tab ----- */
           <ChatTab
             messages={messages}
             onSend={handleSend}
             onOpenRoute={openRoute}
-            onReset={() => setMessages([])}   // ✅ add this line
+            onReset={() => setMessages([])}   // Resets conversation history
           />
         ) : (
+          /* ----- Detailed, per-munro tab ----- */
           <DetailsTab initialMunro={selectedMunro} />
         )}
 
+        {/* Footer attribution */}
         <Text mt={12} textAlign="center" fontSize="sm" color="gray.400">
           Built with Flask, React & Chakra UI — demo project by Dhruv
         </Text>
 
-        {/* Modal for quick preview */}
+        {/* =========================== */}
+        {/* 🪟 QUICK PREVIEW MODAL DIALOG */}
+        {/* =========================== */}
         <Modal isOpen={isOpen} onClose={onClose} size="lg">
           <ModalOverlay />
           <ModalContent>
             <ModalHeader>{selectedMunro?.title || selectedMunro?.name}</ModalHeader>
             <ModalCloseButton />
             <ModalBody>
+              {/* Summary and key stats laid out in a grid */}
               <Text mb={4} fontSize="sm" whiteSpace="pre-wrap">{selectedMunro?.summary}</Text>
               <SimpleGrid columns={2} spacing={4}>
                 <Flex align="center" gap={3}><Text><strong>Distance:</strong> {selectedMunro?.distance} km</Text></Flex>

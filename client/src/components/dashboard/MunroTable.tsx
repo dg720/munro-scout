@@ -19,8 +19,10 @@ export default function MunroTable({
       rounded="2xl"
       overflow="hidden"
     >
+      {/* Scrollable table wrapper */}
       <TableContainer maxH="500px" overflowY="auto">
         <Table size="sm" variant="simple">
+          {/* Sticky header keeps labels visible while scrolling */}
           <Thead position="sticky" top={0} bg="blue.500" color="white" zIndex={1}>
             <Tr>
               <Th color="white">Name</Th>
@@ -38,6 +40,7 @@ export default function MunroTable({
                 cursor="pointer"
                 onClick={() => onRowClick(m)}
               >
+                {/* Core route metrics */}
                 <Td fontWeight="semibold">{m.name}</Td>
                 <Td textAlign="center">{m.distance}</Td>
                 <Td textAlign="center">{m.time}</Td>

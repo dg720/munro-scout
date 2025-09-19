@@ -8,6 +8,7 @@ function CustomTooltip({ active, payload }: any) {
   if (active && payload && payload.length) {
     return (
       <Box bg="white" border="1px solid #ccc" px={3} py={2} rounded="md" shadow="sm">
+        {/* Munro name label */}
         <Text fontWeight="semibold">{payload[0].payload.name}</Text>
       </Box>
     );
@@ -18,9 +19,12 @@ function CustomTooltip({ active, payload }: any) {
 export default function ScatterPlot({ data }: { data: Munro[] }) {
   return (
     <Box h="300px" mb={10}>
+      {/* Responsive wrapper keeps the chart fluid */}
       <ResponsiveContainer>
         <ScatterChart margin={{ top: 10, right: 30, bottom: 10, left: 0 }}>
+          {/* Background gridlines */}
           <CartesianGrid strokeDasharray="3 3" />
+          {/* Horizontal axis — hiking distance */}
           <XAxis
             type="number"
             dataKey="distance"
@@ -28,12 +32,14 @@ export default function ScatterPlot({ data }: { data: Munro[] }) {
             domain={[5, 40]}
             label={{ value: "Distance (km)", position: "insideBottomRight", offset: -5 }}
           />
+          {/* Vertical axis — time to summit */}
           <YAxis
             type="number"
             dataKey="time"
             name="Time (hrs)"
             label={{ value: "Time (hrs)", angle: -90, position: "insideLeft" }}
           />
+          {/* Hover tooltip + scatter series */}
           <ChartTooltip content={<CustomTooltip />} cursor={{ strokeDasharray: "3 3" }} />
           <Scatter name="Munros" data={data} fill="#3182ce" isAnimationActive={false} />
         </ScatterChart>
