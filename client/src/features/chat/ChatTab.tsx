@@ -388,7 +388,6 @@ function EmptyState({
             "scramble",
             "airy",
             "rocky",
-            "knifeedge",
             "easy",
             "hard",
             "pathless",
@@ -398,7 +397,6 @@ function EmptyState({
             "camping",
             "steep",
             "bus",
-            "train"
           ].map((t) => (
             <Tag
               key={t}
