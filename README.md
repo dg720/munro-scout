@@ -1,6 +1,7 @@
 # Munro Scout
 
 **Live site:** https://munroapp.onrender.com/
+
 N.B. It may take up to 30-60 seconds for the backend to reboot when the website is opened. 
 
 Munro Scout is an exploration assistant for Scotland’s Munros. It began with a systematic web-scrape of Walkhighlands, transforming scattered route descriptions into a structured dataset of distances, times, grades, and terrain. Layered with geospatial lookups, this dataset became the foundation for insights and recommendations, whether finding a quiet ridge near Fort William or a quick summit close to a bus stop. An LLM-backed conversation interface then ties it all together, letting walkers discover routes that fit their style, constraints, and location.
