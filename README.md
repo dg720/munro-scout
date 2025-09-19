@@ -28,11 +28,12 @@ munro-scout/
 
 ## Techniques & Key Components
 
-- **Layered search pipeline** – Full-text search (SQLite FTS5), fuzzy LIKE fallbacks, and tag-only rescues allow robust retrieval even when queries are noisy or highly specific.
-- **Geospatial reasoning** – A dedicated coordinates module caches Nominatim/Overpass results, implements haversine distance calculations, and powers location-first ranking.
-- **LLM-assisted flows** – LangChain's OpenAI bindings drive two specialised tasks: structured intent extraction for conversational queries and conservative route tagging/keywording.
-- **Normalisation utilities** – Data cleaning helpers repair and standardise unicode, and derive deterministic keys to keep imports idempotent.
-- **Progressive enhancement** – The back end exposes JSON APIs that power both the search UI and the chat assistant, allowing the same retrieval primitives to be reused across touchpoints.
+- **Search pipeline** – Uses a mix of full-text search (SQLite FTS5), fuzzy matching, and tag lookups to find results even when queries are unclear or very specific.  
+- **Location handling** – Stores coordinates, calculates distances with haversine formulas, and uses cached lookups (Nominatim/Overpass) to rank results by proximity.  
+- **LLM support** – Uses LangChain with OpenAI to understand natural language queries and to add simple tags/keywords to routes.  
+- **Data cleaning** – Normalises text, fixes encoding issues, and creates consistent IDs so imports don’t duplicate entries.  
+- **Dataset seeding** – Scripts prepare and refresh the Munro dataset, making sure the database and search index stay up to date.  
+- **APIs for reuse** – The backend provides JSON APIs that power both the search interface and the chat assistant, so the same logic works across features.  
 
 ## How to Use
 
