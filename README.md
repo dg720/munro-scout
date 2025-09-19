@@ -56,3 +56,17 @@ The site is designed to surface both well-known classics and lesser-travelled op
 - The front end is a TypeScript React SPA bootstrapped with Vite; use `npm install` followed by `npm run dev` within the `client` directory for local development.
 - Background scripts such as `server/tag_munros.py` and `server/seed.py` keep the dataset and search indices consistent—consult their docstrings for invocation details.
 
+## REST API Snapshot
+
+The same search helpers power both the chat assistant and the REST surface. The `POST /api/search` endpoint accepts JSON payloads with the following optional keys:
+
+- `location` – place name anchoring a nearest-hill lookup.
+- `query` – free-text terms for full-text or fallback search.
+- `include_tags` / `exclude_tags` – arrays of tag slugs to require or omit.
+- `bog_max` / `grade_max` – numeric upper bounds for bog factor and grade.
+- `distance_min_km` / `distance_max_km` – lower/upper limits for route length (kilometres).
+- `time_min_h` / `time_max_h` – lower/upper limits for estimated time (hours).
+- `limit` – maximum number of returned results (defaults to 12).
+
+Responses mirror the structure returned by `search_core` (for text/tag queries) or `search_by_location_core` (for location-first searches), including any applied constraints in the metadata.
+

@@ -365,15 +365,20 @@ User request: "{user_msg}"
 Dataset lines:
 {dataset_lines}
 """
-    raw = llm.invoke(
-        [
-            {
-                "role": "system",
-                "content": "Select matching items from a provided list and return strict JSON.",
-            },
-            {"role": "user", "content": prompt},
-        ]
-    ).content.strip()
+    try:
+        raw = llm.invoke(
+            [
+                {
+                    "role": "system",
+                    "content": "Select matching items from a provided list and return strict JSON.",
+                },
+                {"role": "user", "content": prompt},
+            ]
+        ).content.strip()
+    except Exception:
+        logger.exception("[search_service] broad LLM pick failed; returning no matches")
+        return []
+
     import json
 
     try:
@@ -382,6 +387,7 @@ Dataset lines:
         names = [n for n in names if isinstance(n, str) and n.strip()]
         return names[:6]
     except Exception:
+        logger.exception("[search_service] failed to parse broad LLM JSON response")
         return []
 
 
