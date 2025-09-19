@@ -1,3 +1,12 @@
+"""Enrich Munro metadata by scraping detailed route information.
+
+The script reads the list produced by :mod:`walkhighland_list` and, for each
+Munro, collects the long-form description, supporting statistics and GPX
+downloads from WalkHighlands.  The scraper is designed to be run manually when
+data needs refreshing and includes resilience features such as incremental
+saving and duplicate detection.
+"""
+
 import json
 import time
 import os
@@ -24,6 +33,7 @@ os.makedirs(GPX_DIR, exist_ok=True)
 
 
 def setup_driver():
+    """Create a Selenium Chrome driver configured for headless scraping."""
     options = webdriver.ChromeOptions()
     options.add_argument("--headless=new")
     options.add_argument("--no-sandbox")
@@ -37,6 +47,7 @@ def setup_driver():
 
 
 def load_json(path):
+    """Return JSON content from ``path`` or an empty list when absent."""
     if os.path.exists(path):
         with open(path, "r", encoding="utf-8") as f:
             return json.load(f)
@@ -44,11 +55,13 @@ def load_json(path):
 
 
 def save_json(data, path):
+    """Write ``data`` to ``path`` using UTF-8 encoded, pretty printed JSON."""
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 
 def get_route_page_url(driver):
+    """Locate and return the detailed route URL for the currently loaded Munro."""
     try:
         h2s = driver.find_elements(By.TAG_NAME, "h2")
         for h2 in h2s:
@@ -61,6 +74,20 @@ def get_route_page_url(driver):
 
 
 def extract_description_from_route_page(driver, url):
+    """Scrape textual content, metrics and GPX files from ``url``.
+
+    Args:
+        driver (selenium.webdriver.Chrome): Active Selenium driver used to
+            perform navigation and DOM inspection.
+        url (str): Full URL of the WalkHighlands detailed route description.
+
+    Returns:
+        tuple: ``(title, summary, description, terrain, public_transport,
+        start, stats, gpx_path)`` where ``stats`` is a dictionary containing the
+        distance in kilometres, estimated time in hours, grade (difficulty) and
+        bog rating.  ``gpx_path`` will hold the local filesystem path to a
+        downloaded GPX file when one is available.
+    """
     try:
         driver.get(url)
         WebDriverWait(driver, 10).until(
@@ -87,6 +114,7 @@ def extract_description_from_route_page(driver, url):
             pass
 
         def get_section_text(header):
+            """Return the text of the paragraph immediately following ``header``."""
             try:
                 h2 = driver.find_element(
                     By.XPATH, f"//h2[normalize-space(text())='{header}']"
@@ -112,6 +140,9 @@ def extract_description_from_route_page(driver, url):
                     ).text.strip()
                 except Exception:
                     dd = ""
+                # ``distance`` and ``time`` are presented as free-form text.
+                # Normalise into floating point numbers when possible so the
+                # downstream application can perform numeric comparisons.
                 if "distance" in label and "km" in dd:
                     try:
                         stats["distance"] = float(dd.split("km")[0].strip())
@@ -135,6 +166,8 @@ def extract_description_from_route_page(driver, url):
             pass
 
         try:
+            # The difficulty rating is visualised with small ``img`` tags; the
+            # count of these images represents the grade and bog ratings.
             stats["grade"] = len(driver.find_elements(By.CSS_SELECTOR, ".grade img"))
             stats["bog"] = len(driver.find_elements(By.CSS_SELECTOR, ".bog img"))
         except Exception:
@@ -203,6 +236,7 @@ def extract_description_from_route_page(driver, url):
 
 
 def process_munro(munro):
+    """Return ``munro`` enriched with detailed WalkHighlands metadata."""
     name = munro["name"]
     url = munro["url"]
     print(f"➡️  Starting: {name}")
@@ -210,6 +244,8 @@ def process_munro(munro):
     driver = setup_driver()
     try:
         driver.get(url)
+        # A brief randomised pause reduces load on the target site and helps to
+        # avoid triggering rate limiting or bot detection heuristics.
         time.sleep(random.uniform(0.5, 1))
         route_page_url = get_route_page_url(driver)
 
@@ -230,6 +266,9 @@ def process_munro(munro):
                 "",
             )
 
+        # Merge the new data with the base Munro dictionary.  This ensures the
+        # original ``name`` and ``url`` fields are preserved while adding the
+        # scraped attributes alongside them.
         enriched_munro = {
             **munro,
             "title": title,
@@ -268,10 +307,14 @@ def process_munro(munro):
 
 
 def main():
+    """Drive the scraping workflow when executing the module as a script."""
     print("📥 Loading Munro list...")
     munros = load_json(INPUT_FILE)
     existing_data = load_json(OUTPUT_FILE)
 
+    # Reuse previously scraped entries so the script can be resumed without
+    # repeating work or overwriting richer data that may have been curated
+    # manually.
     enriched_by_url = {m["url"]: m for m in existing_data if m.get("description")}
     remaining = [m for m in munros if m["url"] not in enriched_by_url]
 
@@ -282,6 +325,9 @@ def main():
     enriched = list(enriched_by_url.values())
 
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+        # Submit each Munro to the pool so multiple pages can be scraped in
+        # parallel.  This keeps throughput reasonable while staying polite to
+        # the remote server thanks to the modest ``MAX_WORKERS`` limit.
         futures = {executor.submit(process_munro, munro): munro for munro in remaining}
         for i, future in enumerate(as_completed(futures), start=1):
             enriched_munro = future.result()
