@@ -1,46 +1,85 @@
-# Getting Started with Create React App
+# Munro Scout Client
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Munro Scout client is a React single-page application that helps walkers explore Scotland's Munros. The interface combines a data-rich dashboard, conversational assistant, and detailed hill views so users can discover summits that match their preferences and constraints.
+
+## Feature Overview
+
+- **Interactive dashboard** – Filter Munros by region, difficulty, bog factor, or curated tags while inspecting stats and charts tailored to the selected hills.
+- **Conversational chat assistant** – Ask natural-language questions (e.g. "family-friendly ridge near Aviemore") and receive LLM-backed suggestions sourced from the same search pipeline as the dashboard.
+- **Rich details view** – Dive into a single hill to review route notes, terrain context, GPX overlays, and related recommendations.
+
+## Technology Stack
+
+- **React + TypeScript** powered by Create React App.
+- **Chakra UI** for accessible, themeable UI components.
+- **React Leaflet & Leaflet GPX** to render maps, approach lines, and spatial overlays.
+- **Axios** for HTTP requests to the Munro Scout API.
+
+## Getting Started Locally
+
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+2. Start the development server (defaults to http://localhost:3000):
+   ```bash
+   npm start
+   ```
+3. The app proxies API calls using the configuration described below. Update the settings if you are running the Flask API on a non-default host.
+
+Hot module reloading is enabled, so component changes appear instantly in the browser.
+
+## API Base Configuration
+
+The client resolves the API base URL in the following order:
+
+1. `window.__MUNRO_API_BASE__` – injected at runtime by the hosting template.
+2. `REACT_APP_API_BASE` – compile-time environment variable consumed by Create React App.
+3. Fallback to the Render-hosted production API (`https://munro-scout.onrender.com`).
+
+When developing locally against the Flask server, export an environment variable before starting the client:
+
+```bash
+export REACT_APP_API_BASE="http://localhost:5000"
+npm start
+```
+
+Alternatively, inject `window.__MUNRO_API_BASE__` on the static host that serves the built assets if you need to retarget without rebuilding.
 
 ## Available Scripts
 
-In the project directory, you can run:
+| Command | Description |
+| ------- | ----------- |
+| `npm start` | Launches the development server with hot reloading. |
+| `npm test` | Runs the Jest + Testing Library suite in watch mode (press `q` to quit). |
+| `npm run build` | Produces an optimized production bundle in `build/`. |
+| `npm run eject` | Exposes CRA configuration files—irreversible, not generally required. |
 
-### `npm start`
+## Testing
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Unit and integration tests live alongside components and hooks.
+- Execute the suite with `npm test`. For CI-friendly output, use `CI=true npm test -- --watch=false`.
+- Testing Library and Jest DOM assertions cover UI interactions and API state management.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Linting & Code Quality
 
-### `npm test`
+- The project inherits Create React App's ESLint configuration (`react-app` + `react-app/jest`).
+- No explicit `npm run lint` script is defined; lint warnings surface automatically in the terminal and browser during `npm start`.
+- TypeScript type-checking runs as part of the build to catch structural issues early.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Production Builds & Deployment Tips
 
-### `npm run build`
+1. Build the static assets:
+   ```bash
+   npm run build
+   ```
+2. Serve the generated `build/` directory with any static host (Render, Netlify, S3 + CloudFront, etc.). Ensure your hosting stack injects or proxies API requests to the correct backend.
+3. If your deployment environment needs a different API origin, either set `REACT_APP_API_BASE` during the build step or inject `window.__MUNRO_API_BASE__` in the hosting template (e.g. via an inline script) before loading `index.html`.
+4. Consider enabling HTTPS and configuring CORS on the API to match your chosen domain.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Additional Notes
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Coordinate `npm install` versions with the server's expected API contract to avoid mismatches in request/response payloads.
+- Keep `.env` files out of version control; prefer `.env.local` for machine-specific configuration.
+- The front end is often paired with the Flask API located in `../server`; ensure both services run simultaneously for full functionality.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
