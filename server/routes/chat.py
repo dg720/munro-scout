@@ -98,15 +98,19 @@ Rules:
 
 User message: {user_msg}
 """
-    intent_raw = llm.invoke(
-        [
-            {
-                "role": "system",
-                "content": "Extract structured filters for Munro search.",
-            },
-            {"role": "user", "content": intent_prompt},
-        ]
-    ).content.strip()
+    try:
+        intent_raw = llm.invoke(
+            [
+                {
+                    "role": "system",
+                    "content": "Extract structured filters for Munro search.",
+                },
+                {"role": "user", "content": intent_prompt},
+            ]
+        ).content.strip()
+    except Exception:
+        current_app.logger.exception("[chat] intent parsing failed; using fallback filters")
+        intent_raw = ""
 
     try:
         intent = json.loads(intent_raw)
@@ -292,12 +296,49 @@ Write a concise helpful answer:
 - {location_hint}Explain why they fit (use tags like 'scramble','airy','bus','train','camping','multiday', etc.).
 - Keep it under ~180 words and avoid generic filler.
 """
-    answer = llm.invoke(
-        [
-            {"role": "system", "content": "Answer based only on the provided context."},
-            {"role": "user", "content": answer_prompt},
-        ]
-    ).content.strip()
+    try:
+        answer = llm.invoke(
+            [
+                {
+                    "role": "system",
+                    "content": "Answer based only on the provided context.",
+                },
+                {"role": "user", "content": answer_prompt},
+            ]
+        ).content.strip()
+    except Exception:
+        current_app.logger.exception("[chat] answer synthesis failed; falling back to templated reply")
+        if candidates:
+            bullet_lines = []
+            for r in candidates[:limit]:
+                base = r.get("name", "Unknown route")
+                tag_str = ", ".join(r.get("tags", []))
+                if tag_str:
+                    base += f" ({tag_str})"
+                distance = r.get("route_distance") or r.get("distance_km")
+                if isinstance(distance, (int, float)):
+                    base += f", ~{float(distance):.1f} km"
+                time_val = r.get("route_time")
+                if isinstance(time_val, (int, float)):
+                    base += f", ~{float(time_val):.1f} h"
+                summary = (r.get("summary") or r.get("snippet") or "").strip()
+                if summary:
+                    base += f" – {summary[:140]}"
+                bullet_lines.append(f"• {base}")
+            answer = (
+                "Here are some routes that match your filters:\n" + "\n".join(bullet_lines)
+            )
+        elif route_links:
+            names = ", ".join(r.get("name", "Unknown route") for r in route_links)
+            answer = (
+                "I couldn't summarise the details just now, but these routes look relevant: "
+                + names
+            )
+        else:
+            answer = (
+                "I couldn't reach the assistant to compose a reply, but I didn't find any "
+                "matching routes either. Please try adjusting your request."
+            )
 
     # Retrieval mode string for debug
     retrieval_mode = (
